@@ -1,0 +1,513 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_NewsFiller
+  commentId: T:Global.Behaviour_NewsFiller
+  id: Behaviour_NewsFiller
+  parent: Global
+  children:
+  - Global.Behaviour_NewsFiller.annonceNews
+  - Global.Behaviour_NewsFiller.imageArticle
+  - Global.Behaviour_NewsFiller.Index
+  - Global.Behaviour_NewsFiller.Init(System.Int32,System.Int32,Behaviour_SerieData)
+  - Global.Behaviour_NewsFiller.newsAuthorID
+  - Global.Behaviour_NewsFiller.newsEditDateTime
+  - Global.Behaviour_NewsFiller.newsNewsType
+  - Global.Behaviour_NewsFiller.newsPublishDateTime
+  - Global.Behaviour_NewsFiller.newsSubhead
+  - Global.Behaviour_NewsFiller.newsTagGrid
+  - Global.Behaviour_NewsFiller.newsTagsGO
+  - Global.Behaviour_NewsFiller.newsText
+  - Global.Behaviour_NewsFiller.newsTitleName
+  - Global.Behaviour_NewsFiller.serieData
+  - Global.Behaviour_NewsFiller.TypeTrack
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_NewsFiller
+  nameWithType: Behaviour_NewsFiller
+  fullName: Behaviour_NewsFiller
+  type: Class
+  source:
+    id: Behaviour_NewsFiller
+    path: ''
+    startLine: 20787
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_NewsFiller : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_NewsFiller
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_NewsFiller.annonceNews
+  commentId: F:Global.Behaviour_NewsFiller.annonceNews
+  id: annonceNews
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: annonceNews
+  nameWithType: Behaviour_NewsFiller.annonceNews
+  fullName: Behaviour_NewsFiller.annonceNews
+  type: Field
+  source:
+    id: annonceNews
+    path: ''
+    startLine: 20792
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject annonceNews
+    return:
+      type: Global.GameObject
+    content.vb: Public annonceNews As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.newsTagGrid
+  commentId: F:Global.Behaviour_NewsFiller.newsTagGrid
+  id: newsTagGrid
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: newsTagGrid
+  nameWithType: Behaviour_NewsFiller.newsTagGrid
+  fullName: Behaviour_NewsFiller.newsTagGrid
+  type: Field
+  source:
+    id: newsTagGrid
+    path: ''
+    startLine: 20793
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject newsTagGrid
+    return:
+      type: Global.GameObject
+    content.vb: Public newsTagGrid As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.newsTagsGO
+  commentId: F:Global.Behaviour_NewsFiller.newsTagsGO
+  id: newsTagsGO
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: newsTagsGO
+  nameWithType: Behaviour_NewsFiller.newsTagsGO
+  fullName: Behaviour_NewsFiller.newsTagsGO
+  type: Field
+  source:
+    id: newsTagsGO
+    path: ''
+    startLine: 20794
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject newsTagsGO
+    return:
+      type: Global.GameObject
+    content.vb: Public newsTagsGO As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.newsTitleName
+  commentId: F:Global.Behaviour_NewsFiller.newsTitleName
+  id: newsTitleName
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: newsTitleName
+  nameWithType: Behaviour_NewsFiller.newsTitleName
+  fullName: Behaviour_NewsFiller.newsTitleName
+  type: Field
+  source:
+    id: newsTitleName
+    path: ''
+    startLine: 20797
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI newsTitleName
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public newsTitleName As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.newsAuthorID
+  commentId: F:Global.Behaviour_NewsFiller.newsAuthorID
+  id: newsAuthorID
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: newsAuthorID
+  nameWithType: Behaviour_NewsFiller.newsAuthorID
+  fullName: Behaviour_NewsFiller.newsAuthorID
+  type: Field
+  source:
+    id: newsAuthorID
+    path: ''
+    startLine: 20798
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI newsAuthorID
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public newsAuthorID As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.newsNewsType
+  commentId: F:Global.Behaviour_NewsFiller.newsNewsType
+  id: newsNewsType
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: newsNewsType
+  nameWithType: Behaviour_NewsFiller.newsNewsType
+  fullName: Behaviour_NewsFiller.newsNewsType
+  type: Field
+  source:
+    id: newsNewsType
+    path: ''
+    startLine: 20799
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI newsNewsType
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public newsNewsType As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.newsText
+  commentId: F:Global.Behaviour_NewsFiller.newsText
+  id: newsText
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: newsText
+  nameWithType: Behaviour_NewsFiller.newsText
+  fullName: Behaviour_NewsFiller.newsText
+  type: Field
+  source:
+    id: newsText
+    path: ''
+    startLine: 20800
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI newsText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public newsText As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.newsSubhead
+  commentId: F:Global.Behaviour_NewsFiller.newsSubhead
+  id: newsSubhead
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: newsSubhead
+  nameWithType: Behaviour_NewsFiller.newsSubhead
+  fullName: Behaviour_NewsFiller.newsSubhead
+  type: Field
+  source:
+    id: newsSubhead
+    path: ''
+    startLine: 20801
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI newsSubhead
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public newsSubhead As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.newsPublishDateTime
+  commentId: F:Global.Behaviour_NewsFiller.newsPublishDateTime
+  id: newsPublishDateTime
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: newsPublishDateTime
+  nameWithType: Behaviour_NewsFiller.newsPublishDateTime
+  fullName: Behaviour_NewsFiller.newsPublishDateTime
+  type: Field
+  source:
+    id: newsPublishDateTime
+    path: ''
+    startLine: 20802
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI newsPublishDateTime
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public newsPublishDateTime As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.newsEditDateTime
+  commentId: F:Global.Behaviour_NewsFiller.newsEditDateTime
+  id: newsEditDateTime
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: newsEditDateTime
+  nameWithType: Behaviour_NewsFiller.newsEditDateTime
+  fullName: Behaviour_NewsFiller.newsEditDateTime
+  type: Field
+  source:
+    id: newsEditDateTime
+    path: ''
+    startLine: 20803
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI newsEditDateTime
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public newsEditDateTime As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.imageArticle
+  commentId: F:Global.Behaviour_NewsFiller.imageArticle
+  id: imageArticle
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: imageArticle
+  nameWithType: Behaviour_NewsFiller.imageArticle
+  fullName: Behaviour_NewsFiller.imageArticle
+  type: Field
+  source:
+    id: imageArticle
+    path: ''
+    startLine: 20805
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Image imageArticle
+    return:
+      type: Global.Image
+    content.vb: Public imageArticle As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.Index
+  commentId: F:Global.Behaviour_NewsFiller.Index
+  id: Index
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: Behaviour_NewsFiller.Index
+  fullName: Behaviour_NewsFiller.Index
+  type: Field
+  source:
+    id: Index
+    path: ''
+    startLine: 20809
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int Index
+    return:
+      type: System.Int32
+    content.vb: Public Index As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.serieData
+  commentId: F:Global.Behaviour_NewsFiller.serieData
+  id: serieData
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: serieData
+  nameWithType: Behaviour_NewsFiller.serieData
+  fullName: Behaviour_NewsFiller.serieData
+  type: Field
+  source:
+    id: serieData
+    path: ''
+    startLine: 20823
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieData serieData
+    return:
+      type: Global.Behaviour_SerieData
+    content.vb: Public serieData As Behaviour_SerieData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.TypeTrack
+  commentId: F:Global.Behaviour_NewsFiller.TypeTrack
+  id: TypeTrack
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: TypeTrack
+  nameWithType: Behaviour_NewsFiller.TypeTrack
+  fullName: Behaviour_NewsFiller.TypeTrack
+  type: Field
+  source:
+    id: TypeTrack
+    path: ''
+    startLine: 20829
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int TypeTrack
+    return:
+      type: System.Int32
+    content.vb: Public TypeTrack As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsFiller.Init(System.Int32,System.Int32,Behaviour_SerieData)
+  commentId: M:Global.Behaviour_NewsFiller.Init(System.Int32,System.Int32,Behaviour_SerieData)
+  id: Init(System.Int32,System.Int32,Behaviour_SerieData)
+  parent: Global.Behaviour_NewsFiller
+  langs:
+  - csharp
+  - vb
+  name: Init(Int32, Int32, Behaviour_SerieData)
+  nameWithType: Behaviour_NewsFiller.Init(Int32, Int32, Behaviour_SerieData)
+  fullName: Behaviour_NewsFiller.Init(System.Int32, System.Int32, Behaviour_SerieData)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 20843
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Init(int _Index, int _TypeTrack, Behaviour_SerieData _seriedata)
+    parameters:
+    - id: _Index
+      type: System.Int32
+    - id: _TypeTrack
+      type: System.Int32
+    - id: _seriedata
+      type: Global.Behaviour_SerieData
+    content.vb: Public Sub Init(_Index As Integer, _TypeTrack As Integer, _seriedata As Behaviour_SerieData)
+  overload: Global.Behaviour_NewsFiller.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_SerieData
+  commentId: T:Global.Behaviour_SerieData
+  name: Behaviour_SerieData
+  nameWithType: Behaviour_SerieData
+  fullName: Behaviour_SerieData
+- uid: Global.Behaviour_NewsFiller.Init*
+  commentId: Overload:Global.Behaviour_NewsFiller.Init
+  name: Init
+  nameWithType: Behaviour_NewsFiller.Init
+  fullName: Behaviour_NewsFiller.Init

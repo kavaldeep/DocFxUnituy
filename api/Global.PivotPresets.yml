@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PivotPresets
+  commentId: T:Global.PivotPresets
+  id: PivotPresets
+  parent: Global
+  children:
+  - Global.PivotPresets.BottomCenter
+  - Global.PivotPresets.BottomLeft
+  - Global.PivotPresets.BottomRight
+  - Global.PivotPresets.MiddleCenter
+  - Global.PivotPresets.MiddleLeft
+  - Global.PivotPresets.MiddleRight
+  - Global.PivotPresets.TopCenter
+  - Global.PivotPresets.TopLeft
+  - Global.PivotPresets.TopRight
+  langs:
+  - csharp
+  - vb
+  name: PivotPresets
+  nameWithType: PivotPresets
+  fullName: PivotPresets
+  type: Enum
+  source:
+    id: PivotPresets
+    path: ''
+    startLine: 14124
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum PivotPresets
+    content.vb: Public Enum PivotPresets
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.PivotPresets.TopLeft
+  commentId: F:Global.PivotPresets.TopLeft
+  id: TopLeft
+  parent: Global.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: TopLeft
+  nameWithType: PivotPresets.TopLeft
+  fullName: PivotPresets.TopLeft
+  type: Field
+  source:
+    id: TopLeft
+    path: ''
+    startLine: 14126
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: TopLeft = 0
+    return:
+      type: Global.PivotPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PivotPresets.TopCenter
+  commentId: F:Global.PivotPresets.TopCenter
+  id: TopCenter
+  parent: Global.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: TopCenter
+  nameWithType: PivotPresets.TopCenter
+  fullName: PivotPresets.TopCenter
+  type: Field
+  source:
+    id: TopCenter
+    path: ''
+    startLine: 14127
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: TopCenter = 1
+    return:
+      type: Global.PivotPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PivotPresets.TopRight
+  commentId: F:Global.PivotPresets.TopRight
+  id: TopRight
+  parent: Global.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: TopRight
+  nameWithType: PivotPresets.TopRight
+  fullName: PivotPresets.TopRight
+  type: Field
+  source:
+    id: TopRight
+    path: ''
+    startLine: 14128
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: TopRight = 2
+    return:
+      type: Global.PivotPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PivotPresets.MiddleLeft
+  commentId: F:Global.PivotPresets.MiddleLeft
+  id: MiddleLeft
+  parent: Global.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: MiddleLeft
+  nameWithType: PivotPresets.MiddleLeft
+  fullName: PivotPresets.MiddleLeft
+  type: Field
+  source:
+    id: MiddleLeft
+    path: ''
+    startLine: 14130
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MiddleLeft = 3
+    return:
+      type: Global.PivotPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PivotPresets.MiddleCenter
+  commentId: F:Global.PivotPresets.MiddleCenter
+  id: MiddleCenter
+  parent: Global.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: MiddleCenter
+  nameWithType: PivotPresets.MiddleCenter
+  fullName: PivotPresets.MiddleCenter
+  type: Field
+  source:
+    id: MiddleCenter
+    path: ''
+    startLine: 14131
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MiddleCenter = 4
+    return:
+      type: Global.PivotPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PivotPresets.MiddleRight
+  commentId: F:Global.PivotPresets.MiddleRight
+  id: MiddleRight
+  parent: Global.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: MiddleRight
+  nameWithType: PivotPresets.MiddleRight
+  fullName: PivotPresets.MiddleRight
+  type: Field
+  source:
+    id: MiddleRight
+    path: ''
+    startLine: 14132
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MiddleRight = 5
+    return:
+      type: Global.PivotPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PivotPresets.BottomLeft
+  commentId: F:Global.PivotPresets.BottomLeft
+  id: BottomLeft
+  parent: Global.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: BottomLeft
+  nameWithType: PivotPresets.BottomLeft
+  fullName: PivotPresets.BottomLeft
+  type: Field
+  source:
+    id: BottomLeft
+    path: ''
+    startLine: 14134
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: BottomLeft = 6
+    return:
+      type: Global.PivotPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PivotPresets.BottomCenter
+  commentId: F:Global.PivotPresets.BottomCenter
+  id: BottomCenter
+  parent: Global.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: BottomCenter
+  nameWithType: PivotPresets.BottomCenter
+  fullName: PivotPresets.BottomCenter
+  type: Field
+  source:
+    id: BottomCenter
+    path: ''
+    startLine: 14135
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: BottomCenter = 7
+    return:
+      type: Global.PivotPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PivotPresets.BottomRight
+  commentId: F:Global.PivotPresets.BottomRight
+  id: BottomRight
+  parent: Global.PivotPresets
+  langs:
+  - csharp
+  - vb
+  name: BottomRight
+  nameWithType: PivotPresets.BottomRight
+  fullName: PivotPresets.BottomRight
+  type: Field
+  source:
+    id: BottomRight
+    path: ''
+    startLine: 14136
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: BottomRight = 8
+    return:
+      type: Global.PivotPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.PivotPresets
+  commentId: T:Global.PivotPresets
+  name: PivotPresets
+  nameWithType: PivotPresets
+  fullName: PivotPresets

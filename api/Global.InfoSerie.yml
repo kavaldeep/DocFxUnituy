@@ -1,0 +1,488 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.InfoSerie
+  commentId: T:Global.InfoSerie
+  id: InfoSerie
+  parent: Global
+  children:
+  - Global.InfoSerie.#ctor
+  - Global.InfoSerie.#ctor(System.String,System.String,System.Int32,System.String,ImageFile,System.String,System.String,System.String,System.String,System.Int32)
+  - Global.InfoSerie.actorNumber
+  - Global.InfoSerie.episodeNumber
+  - Global.InfoSerie.idSerie
+  - Global.InfoSerie.image
+  - Global.InfoSerie.logo
+  - Global.InfoSerie.mainBackgroundColor
+  - Global.InfoSerie.mainFontColor
+  - Global.InfoSerie.name
+  - Global.InfoSerie.presentationClipUrl
+  - Global.InfoSerie.secondaryBackgroundColor
+  - Global.InfoSerie.secondaryFontColor
+  - Global.InfoSerie.summary
+  langs:
+  - csharp
+  - vb
+  name: InfoSerie
+  nameWithType: InfoSerie
+  fullName: InfoSerie
+  type: Class
+  source:
+    id: InfoSerie
+    path: ''
+    startLine: 15692
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class InfoSerie
+    content.vb: Public Class InfoSerie
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.InfoSerie.name
+  commentId: F:Global.InfoSerie.name
+  id: name
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: InfoSerie.name
+  fullName: InfoSerie.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 15694
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.idSerie
+  commentId: F:Global.InfoSerie.idSerie
+  id: idSerie
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: idSerie
+  nameWithType: InfoSerie.idSerie
+  fullName: InfoSerie.idSerie
+  type: Field
+  source:
+    id: idSerie
+    path: ''
+    startLine: 15695
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string idSerie
+    return:
+      type: System.String
+    content.vb: Public idSerie As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.episodeNumber
+  commentId: F:Global.InfoSerie.episodeNumber
+  id: episodeNumber
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: episodeNumber
+  nameWithType: InfoSerie.episodeNumber
+  fullName: InfoSerie.episodeNumber
+  type: Field
+  source:
+    id: episodeNumber
+    path: ''
+    startLine: 15696
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int episodeNumber
+    return:
+      type: System.Int32
+    content.vb: Public episodeNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.summary
+  commentId: F:Global.InfoSerie.summary
+  id: summary
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: summary
+  nameWithType: InfoSerie.summary
+  fullName: InfoSerie.summary
+  type: Field
+  source:
+    id: summary
+    path: ''
+    startLine: 15697
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string summary
+    return:
+      type: System.String
+    content.vb: Public summary As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.image
+  commentId: F:Global.InfoSerie.image
+  id: image
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: InfoSerie.image
+  fullName: InfoSerie.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 15698
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile image
+    return:
+      type: Global.ImageFile
+    content.vb: Public image As ImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.presentationClipUrl
+  commentId: F:Global.InfoSerie.presentationClipUrl
+  id: presentationClipUrl
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: presentationClipUrl
+  nameWithType: InfoSerie.presentationClipUrl
+  fullName: InfoSerie.presentationClipUrl
+  type: Field
+  source:
+    id: presentationClipUrl
+    path: ''
+    startLine: 15699
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string presentationClipUrl
+    return:
+      type: System.String
+    content.vb: Public presentationClipUrl As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.mainBackgroundColor
+  commentId: F:Global.InfoSerie.mainBackgroundColor
+  id: mainBackgroundColor
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: mainBackgroundColor
+  nameWithType: InfoSerie.mainBackgroundColor
+  fullName: InfoSerie.mainBackgroundColor
+  type: Field
+  source:
+    id: mainBackgroundColor
+    path: ''
+    startLine: 15700
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string mainBackgroundColor
+    return:
+      type: System.String
+    content.vb: Public mainBackgroundColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.secondaryBackgroundColor
+  commentId: F:Global.InfoSerie.secondaryBackgroundColor
+  id: secondaryBackgroundColor
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: secondaryBackgroundColor
+  nameWithType: InfoSerie.secondaryBackgroundColor
+  fullName: InfoSerie.secondaryBackgroundColor
+  type: Field
+  source:
+    id: secondaryBackgroundColor
+    path: ''
+    startLine: 15701
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string secondaryBackgroundColor
+    return:
+      type: System.String
+    content.vb: Public secondaryBackgroundColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.mainFontColor
+  commentId: F:Global.InfoSerie.mainFontColor
+  id: mainFontColor
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: mainFontColor
+  nameWithType: InfoSerie.mainFontColor
+  fullName: InfoSerie.mainFontColor
+  type: Field
+  source:
+    id: mainFontColor
+    path: ''
+    startLine: 15702
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string mainFontColor
+    return:
+      type: System.String
+    content.vb: Public mainFontColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.secondaryFontColor
+  commentId: F:Global.InfoSerie.secondaryFontColor
+  id: secondaryFontColor
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: secondaryFontColor
+  nameWithType: InfoSerie.secondaryFontColor
+  fullName: InfoSerie.secondaryFontColor
+  type: Field
+  source:
+    id: secondaryFontColor
+    path: ''
+    startLine: 15703
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string secondaryFontColor
+    return:
+      type: System.String
+    content.vb: Public secondaryFontColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.logo
+  commentId: F:Global.InfoSerie.logo
+  id: logo
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: logo
+  nameWithType: InfoSerie.logo
+  fullName: InfoSerie.logo
+  type: Field
+  source:
+    id: logo
+    path: ''
+    startLine: 15704
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string logo
+    return:
+      type: System.String
+    content.vb: Public logo As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.actorNumber
+  commentId: F:Global.InfoSerie.actorNumber
+  id: actorNumber
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: actorNumber
+  nameWithType: InfoSerie.actorNumber
+  fullName: InfoSerie.actorNumber
+  type: Field
+  source:
+    id: actorNumber
+    path: ''
+    startLine: 15705
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int actorNumber
+    return:
+      type: System.Int32
+    content.vb: Public actorNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.#ctor
+  commentId: M:Global.InfoSerie.#ctor
+  id: '#ctor'
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: InfoSerie()
+  nameWithType: InfoSerie.InfoSerie()
+  fullName: InfoSerie.InfoSerie()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15707
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public InfoSerie()
+    content.vb: Public Sub New
+  overload: Global.InfoSerie.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InfoSerie.#ctor(System.String,System.String,System.Int32,System.String,ImageFile,System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:Global.InfoSerie.#ctor(System.String,System.String,System.Int32,System.String,ImageFile,System.String,System.String,System.String,System.String,System.Int32)
+  id: '#ctor(System.String,System.String,System.Int32,System.String,ImageFile,System.String,System.String,System.String,System.String,System.Int32)'
+  parent: Global.InfoSerie
+  langs:
+  - csharp
+  - vb
+  name: InfoSerie(String, String, Int32, String, ImageFile, String, String, String, String, Int32)
+  nameWithType: InfoSerie.InfoSerie(String, String, Int32, String, ImageFile, String, String, String, String, Int32)
+  fullName: InfoSerie.InfoSerie(System.String, System.String, System.Int32, System.String, ImageFile, System.String, System.String, System.String, System.String, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15709
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public InfoSerie(string _name, string _idSerie, int _episodeNumber, string _summary, ImageFile _presentationImage, string _presentationClipUrl, string _mainBackgroundColor, string _secondaryFontColor, string _logo, int _actorNumber)
+    parameters:
+    - id: _name
+      type: System.String
+    - id: _idSerie
+      type: System.String
+    - id: _episodeNumber
+      type: System.Int32
+    - id: _summary
+      type: System.String
+    - id: _presentationImage
+      type: Global.ImageFile
+    - id: _presentationClipUrl
+      type: System.String
+    - id: _mainBackgroundColor
+      type: System.String
+    - id: _secondaryFontColor
+      type: System.String
+    - id: _logo
+      type: System.String
+    - id: _actorNumber
+      type: System.Int32
+    content.vb: Public Sub New(_name As String, _idSerie As String, _episodeNumber As Integer, _summary As String, _presentationImage As ImageFile, _presentationClipUrl As String, _mainBackgroundColor As String, _secondaryFontColor As String, _logo As String, _actorNumber As Integer)
+  overload: Global.InfoSerie.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+- uid: Global.InfoSerie.#ctor*
+  commentId: Overload:Global.InfoSerie.#ctor
+  name: InfoSerie
+  nameWithType: InfoSerie.InfoSerie
+  fullName: InfoSerie.InfoSerie

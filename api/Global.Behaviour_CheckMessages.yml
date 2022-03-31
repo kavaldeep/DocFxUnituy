@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_CheckMessages
+  commentId: T:Global.Behaviour_CheckMessages
+  id: Behaviour_CheckMessages
+  parent: Global
+  children:
+  - Global.Behaviour_CheckMessages.ConversationList
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_CheckMessages
+  nameWithType: Behaviour_CheckMessages
+  fullName: Behaviour_CheckMessages
+  type: Class
+  source:
+    id: Behaviour_CheckMessages
+    path: ''
+    startLine: 21793
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_CheckMessages : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_CheckMessages
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_CheckMessages.ConversationList
+  commentId: F:Global.Behaviour_CheckMessages.ConversationList
+  id: ConversationList
+  parent: Global.Behaviour_CheckMessages
+  langs:
+  - csharp
+  - vb
+  name: ConversationList
+  nameWithType: Behaviour_CheckMessages.ConversationList
+  fullName: Behaviour_CheckMessages.ConversationList
+  type: Field
+  source:
+    id: ConversationList
+    path: ''
+    startLine: 21795
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_ConversationList ConversationList
+    return:
+      type: Global.Behaviour_ConversationList
+    content.vb: Public ConversationList As Behaviour_ConversationList
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_ConversationList
+  commentId: T:Global.Behaviour_ConversationList
+  name: Behaviour_ConversationList
+  nameWithType: Behaviour_ConversationList
+  fullName: Behaviour_ConversationList

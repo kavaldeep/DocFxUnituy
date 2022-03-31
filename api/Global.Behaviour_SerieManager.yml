@@ -1,0 +1,903 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SerieManager
+  commentId: T:Global.Behaviour_SerieManager
+  id: Behaviour_SerieManager
+  parent: Global
+  children:
+  - Global.Behaviour_SerieManager.BottomButtonBar
+  - Global.Behaviour_SerieManager.CurrentSerieGoToPage(System.Int32)
+  - Global.Behaviour_SerieManager.justSwitchedPage
+  - Global.Behaviour_SerieManager.LoadEpisode
+  - Global.Behaviour_SerieManager.LoadFeed
+  - Global.Behaviour_SerieManager.LoadStand
+  - Global.Behaviour_SerieManager.LoadTribute
+  - Global.Behaviour_SerieManager.pageManager
+  - Global.Behaviour_SerieManager.serieInFocus
+  - Global.Behaviour_SerieManager.serieScrollSnap
+  - Global.Behaviour_SerieManager.seriesList
+  - Global.Behaviour_SerieManager.SerieSwitchButtonList
+  - Global.Behaviour_SerieManager.SerieSwitchButtonPrefab
+  - Global.Behaviour_SerieManager.SetSeries(System.Collections.Generic.List{Behaviour_SerieData})
+  - Global.Behaviour_SerieManager.switchColor
+  - Global.Behaviour_SerieManager.SwitchSerieFocus(GameObject)
+  - Global.Behaviour_SerieManager.SwitchSerieFocus(System.String)
+  - Global.Behaviour_SerieManager.topBar
+  - Global.Behaviour_SerieManager.topbarButtonScrollSnap
+  - Global.Behaviour_SerieManager.topbarInstanciateRoot
+  - Global.Behaviour_SerieManager.UnloadTributeFeedEpisodeAndStand
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SerieManager
+  nameWithType: Behaviour_SerieManager
+  fullName: Behaviour_SerieManager
+  type: Class
+  source:
+    id: Behaviour_SerieManager
+    path: ''
+    startLine: 20391
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_SerieManager : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_SerieManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_SerieManager.SerieSwitchButtonList
+  commentId: F:Global.Behaviour_SerieManager.SerieSwitchButtonList
+  id: SerieSwitchButtonList
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: SerieSwitchButtonList
+  nameWithType: Behaviour_SerieManager.SerieSwitchButtonList
+  fullName: Behaviour_SerieManager.SerieSwitchButtonList
+  type: Field
+  source:
+    id: SerieSwitchButtonList
+    path: ''
+    startLine: 20393
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<Behaviour_ButtonSwitchSerieMethod> SerieSwitchButtonList
+    return:
+      type: System.Collections.Generic.List{Behaviour_ButtonSwitchSerieMethod}
+    content.vb: Public SerieSwitchButtonList As List(Of Behaviour_ButtonSwitchSerieMethod)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.seriesList
+  commentId: F:Global.Behaviour_SerieManager.seriesList
+  id: seriesList
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: seriesList
+  nameWithType: Behaviour_SerieManager.seriesList
+  fullName: Behaviour_SerieManager.seriesList
+  type: Field
+  source:
+    id: seriesList
+    path: ''
+    startLine: 20394
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<GameObject> seriesList
+    return:
+      type: System.Collections.Generic.List{GameObject}
+    content.vb: Public seriesList As List(Of GameObject)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.serieInFocus
+  commentId: F:Global.Behaviour_SerieManager.serieInFocus
+  id: serieInFocus
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: serieInFocus
+  nameWithType: Behaviour_SerieManager.serieInFocus
+  fullName: Behaviour_SerieManager.serieInFocus
+  type: Field
+  source:
+    id: serieInFocus
+    path: ''
+    startLine: 20395
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject serieInFocus
+    return:
+      type: Global.GameObject
+    content.vb: Public serieInFocus As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.serieScrollSnap
+  commentId: F:Global.Behaviour_SerieManager.serieScrollSnap
+  id: serieScrollSnap
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: serieScrollSnap
+  nameWithType: Behaviour_SerieManager.serieScrollSnap
+  fullName: Behaviour_SerieManager.serieScrollSnap
+  type: Field
+  source:
+    id: serieScrollSnap
+    path: ''
+    startLine: 20396
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public SimpleScrollSnap serieScrollSnap
+    return:
+      type: Global.SimpleScrollSnap
+    content.vb: Public serieScrollSnap As SimpleScrollSnap
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.SerieSwitchButtonPrefab
+  commentId: F:Global.Behaviour_SerieManager.SerieSwitchButtonPrefab
+  id: SerieSwitchButtonPrefab
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: SerieSwitchButtonPrefab
+  nameWithType: Behaviour_SerieManager.SerieSwitchButtonPrefab
+  fullName: Behaviour_SerieManager.SerieSwitchButtonPrefab
+  type: Field
+  source:
+    id: SerieSwitchButtonPrefab
+    path: ''
+    startLine: 20397
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject SerieSwitchButtonPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public SerieSwitchButtonPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.topbarButtonScrollSnap
+  commentId: F:Global.Behaviour_SerieManager.topbarButtonScrollSnap
+  id: topbarButtonScrollSnap
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: topbarButtonScrollSnap
+  nameWithType: Behaviour_SerieManager.topbarButtonScrollSnap
+  fullName: Behaviour_SerieManager.topbarButtonScrollSnap
+  type: Field
+  source:
+    id: topbarButtonScrollSnap
+    path: ''
+    startLine: 20398
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public SimpleScrollSnap topbarButtonScrollSnap
+    return:
+      type: Global.SimpleScrollSnap
+    content.vb: Public topbarButtonScrollSnap As SimpleScrollSnap
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.topbarInstanciateRoot
+  commentId: F:Global.Behaviour_SerieManager.topbarInstanciateRoot
+  id: topbarInstanciateRoot
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: topbarInstanciateRoot
+  nameWithType: Behaviour_SerieManager.topbarInstanciateRoot
+  fullName: Behaviour_SerieManager.topbarInstanciateRoot
+  type: Field
+  source:
+    id: topbarInstanciateRoot
+    path: ''
+    startLine: 20399
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Transform topbarInstanciateRoot
+    return:
+      type: Global.Transform
+    content.vb: Public topbarInstanciateRoot As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.switchColor
+  commentId: F:Global.Behaviour_SerieManager.switchColor
+  id: switchColor
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: switchColor
+  nameWithType: Behaviour_SerieManager.switchColor
+  fullName: Behaviour_SerieManager.switchColor
+  type: Field
+  source:
+    id: switchColor
+    path: ''
+    startLine: 20400
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool switchColor
+    return:
+      type: System.Boolean
+    content.vb: Public switchColor As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.justSwitchedPage
+  commentId: F:Global.Behaviour_SerieManager.justSwitchedPage
+  id: justSwitchedPage
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: justSwitchedPage
+  nameWithType: Behaviour_SerieManager.justSwitchedPage
+  fullName: Behaviour_SerieManager.justSwitchedPage
+  type: Field
+  source:
+    id: justSwitchedPage
+    path: ''
+    startLine: 20401
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int justSwitchedPage
+    return:
+      type: System.Int32
+    content.vb: Public justSwitchedPage As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.topBar
+  commentId: F:Global.Behaviour_SerieManager.topBar
+  id: topBar
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: topBar
+  nameWithType: Behaviour_SerieManager.topBar
+  fullName: Behaviour_SerieManager.topBar
+  type: Field
+  source:
+    id: topBar
+    path: ''
+    startLine: 20402
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject topBar
+    return:
+      type: Global.GameObject
+    content.vb: Public topBar As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.BottomButtonBar
+  commentId: F:Global.Behaviour_SerieManager.BottomButtonBar
+  id: BottomButtonBar
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: BottomButtonBar
+  nameWithType: Behaviour_SerieManager.BottomButtonBar
+  fullName: Behaviour_SerieManager.BottomButtonBar
+  type: Field
+  source:
+    id: BottomButtonBar
+    path: ''
+    startLine: 20404
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject BottomButtonBar
+    return:
+      type: Global.GameObject
+    content.vb: Public BottomButtonBar As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.pageManager
+  commentId: F:Global.Behaviour_SerieManager.pageManager
+  id: pageManager
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: pageManager
+  nameWithType: Behaviour_SerieManager.pageManager
+  fullName: Behaviour_SerieManager.pageManager
+  type: Field
+  source:
+    id: pageManager
+    path: ''
+    startLine: 20406
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_PageManager pageManager
+    return:
+      type: Global.Behaviour_PageManager
+    content.vb: Public pageManager As Behaviour_PageManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.SetSeries(System.Collections.Generic.List{Behaviour_SerieData})
+  commentId: M:Global.Behaviour_SerieManager.SetSeries(System.Collections.Generic.List{Behaviour_SerieData})
+  id: SetSeries(System.Collections.Generic.List{Behaviour_SerieData})
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: SetSeries(List<Behaviour_SerieData>)
+  nameWithType: Behaviour_SerieManager.SetSeries(List<Behaviour_SerieData>)
+  fullName: Behaviour_SerieManager.SetSeries(System.Collections.Generic.List<Behaviour_SerieData>)
+  type: Method
+  source:
+    id: SetSeries
+    path: ''
+    startLine: 20416
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetSeries(List<Behaviour_SerieData> newSeries)
+    parameters:
+    - id: newSeries
+      type: System.Collections.Generic.List{Behaviour_SerieData}
+    content.vb: Public Sub SetSeries(newSeries As List(Of Behaviour_SerieData))
+  overload: Global.Behaviour_SerieManager.SetSeries*
+  nameWithType.vb: Behaviour_SerieManager.SetSeries(List(Of Behaviour_SerieData))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Behaviour_SerieManager.SetSeries(System.Collections.Generic.List(Of Behaviour_SerieData))
+  name.vb: SetSeries(List(Of Behaviour_SerieData))
+- uid: Global.Behaviour_SerieManager.CurrentSerieGoToPage(System.Int32)
+  commentId: M:Global.Behaviour_SerieManager.CurrentSerieGoToPage(System.Int32)
+  id: CurrentSerieGoToPage(System.Int32)
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: CurrentSerieGoToPage(Int32)
+  nameWithType: Behaviour_SerieManager.CurrentSerieGoToPage(Int32)
+  fullName: Behaviour_SerieManager.CurrentSerieGoToPage(System.Int32)
+  type: Method
+  source:
+    id: CurrentSerieGoToPage
+    path: ''
+    startLine: 20486
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void CurrentSerieGoToPage(int _pageNumberTarget)
+    parameters:
+    - id: _pageNumberTarget
+      type: System.Int32
+    content.vb: Public Sub CurrentSerieGoToPage(_pageNumberTarget As Integer)
+  overload: Global.Behaviour_SerieManager.CurrentSerieGoToPage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.SwitchSerieFocus(System.String)
+  commentId: M:Global.Behaviour_SerieManager.SwitchSerieFocus(System.String)
+  id: SwitchSerieFocus(System.String)
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: SwitchSerieFocus(String)
+  nameWithType: Behaviour_SerieManager.SwitchSerieFocus(String)
+  fullName: Behaviour_SerieManager.SwitchSerieFocus(System.String)
+  type: Method
+  source:
+    id: SwitchSerieFocus
+    path: ''
+    startLine: 20498
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SwitchSerieFocus(string _serieName)
+    parameters:
+    - id: _serieName
+      type: System.String
+    content.vb: Public Sub SwitchSerieFocus(_serieName As String)
+  overload: Global.Behaviour_SerieManager.SwitchSerieFocus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.SwitchSerieFocus(GameObject)
+  commentId: M:Global.Behaviour_SerieManager.SwitchSerieFocus(GameObject)
+  id: SwitchSerieFocus(GameObject)
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: SwitchSerieFocus(GameObject)
+  nameWithType: Behaviour_SerieManager.SwitchSerieFocus(GameObject)
+  fullName: Behaviour_SerieManager.SwitchSerieFocus(GameObject)
+  type: Method
+  source:
+    id: SwitchSerieFocus
+    path: ''
+    startLine: 20513
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SwitchSerieFocus(GameObject serieDataGO)
+    parameters:
+    - id: serieDataGO
+      type: Global.GameObject
+    content.vb: Public Sub SwitchSerieFocus(serieDataGO As GameObject)
+  overload: Global.Behaviour_SerieManager.SwitchSerieFocus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.LoadTribute
+  commentId: M:Global.Behaviour_SerieManager.LoadTribute
+  id: LoadTribute
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: LoadTribute()
+  nameWithType: Behaviour_SerieManager.LoadTribute()
+  fullName: Behaviour_SerieManager.LoadTribute()
+  type: Method
+  source:
+    id: LoadTribute
+    path: ''
+    startLine: 20556
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoadTribute()
+    content.vb: Public Sub LoadTribute
+  overload: Global.Behaviour_SerieManager.LoadTribute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.LoadFeed
+  commentId: M:Global.Behaviour_SerieManager.LoadFeed
+  id: LoadFeed
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: LoadFeed()
+  nameWithType: Behaviour_SerieManager.LoadFeed()
+  fullName: Behaviour_SerieManager.LoadFeed()
+  type: Method
+  source:
+    id: LoadFeed
+    path: ''
+    startLine: 20568
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoadFeed()
+    content.vb: Public Sub LoadFeed
+  overload: Global.Behaviour_SerieManager.LoadFeed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.LoadEpisode
+  commentId: M:Global.Behaviour_SerieManager.LoadEpisode
+  id: LoadEpisode
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: LoadEpisode()
+  nameWithType: Behaviour_SerieManager.LoadEpisode()
+  fullName: Behaviour_SerieManager.LoadEpisode()
+  type: Method
+  source:
+    id: LoadEpisode
+    path: ''
+    startLine: 20579
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoadEpisode()
+    content.vb: Public Sub LoadEpisode
+  overload: Global.Behaviour_SerieManager.LoadEpisode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.LoadStand
+  commentId: M:Global.Behaviour_SerieManager.LoadStand
+  id: LoadStand
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: LoadStand()
+  nameWithType: Behaviour_SerieManager.LoadStand()
+  fullName: Behaviour_SerieManager.LoadStand()
+  type: Method
+  source:
+    id: LoadStand
+    path: ''
+    startLine: 20590
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoadStand()
+    content.vb: Public Sub LoadStand
+  overload: Global.Behaviour_SerieManager.LoadStand*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieManager.UnloadTributeFeedEpisodeAndStand
+  commentId: M:Global.Behaviour_SerieManager.UnloadTributeFeedEpisodeAndStand
+  id: UnloadTributeFeedEpisodeAndStand
+  parent: Global.Behaviour_SerieManager
+  langs:
+  - csharp
+  - vb
+  name: UnloadTributeFeedEpisodeAndStand()
+  nameWithType: Behaviour_SerieManager.UnloadTributeFeedEpisodeAndStand()
+  fullName: Behaviour_SerieManager.UnloadTributeFeedEpisodeAndStand()
+  type: Method
+  source:
+    id: UnloadTributeFeedEpisodeAndStand
+    path: ''
+    startLine: 20601
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UnloadTributeFeedEpisodeAndStand()
+    content.vb: Public Sub UnloadTributeFeedEpisodeAndStand
+  overload: Global.Behaviour_SerieManager.UnloadTributeFeedEpisodeAndStand*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{Behaviour_ButtonSwitchSerieMethod}
+  commentId: T:System.Collections.Generic.List{Behaviour_ButtonSwitchSerieMethod}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Behaviour_ButtonSwitchSerieMethod>
+  nameWithType: List<Behaviour_ButtonSwitchSerieMethod>
+  fullName: System.Collections.Generic.List<Behaviour_ButtonSwitchSerieMethod>
+  nameWithType.vb: List(Of Behaviour_ButtonSwitchSerieMethod)
+  fullName.vb: System.Collections.Generic.List(Of Behaviour_ButtonSwitchSerieMethod)
+  name.vb: List(Of Behaviour_ButtonSwitchSerieMethod)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Behaviour_ButtonSwitchSerieMethod
+    name: Behaviour_ButtonSwitchSerieMethod
+    nameWithType: Behaviour_ButtonSwitchSerieMethod
+    fullName: Behaviour_ButtonSwitchSerieMethod
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Behaviour_ButtonSwitchSerieMethod
+    name: Behaviour_ButtonSwitchSerieMethod
+    nameWithType: Behaviour_ButtonSwitchSerieMethod
+    fullName: Behaviour_ButtonSwitchSerieMethod
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{GameObject}
+  commentId: T:System.Collections.Generic.List{GameObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: System.Collections.Generic.List<GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: System.Collections.Generic.List(Of GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.SimpleScrollSnap
+  isExternal: true
+  name: SimpleScrollSnap
+  nameWithType: SimpleScrollSnap
+  fullName: SimpleScrollSnap
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_PageManager
+  commentId: T:Global.Behaviour_PageManager
+  name: Behaviour_PageManager
+  nameWithType: Behaviour_PageManager
+  fullName: Behaviour_PageManager
+- uid: Global.Behaviour_SerieManager.SetSeries*
+  commentId: Overload:Global.Behaviour_SerieManager.SetSeries
+  name: SetSeries
+  nameWithType: Behaviour_SerieManager.SetSeries
+  fullName: Behaviour_SerieManager.SetSeries
+- uid: System.Collections.Generic.List{Behaviour_SerieData}
+  commentId: T:System.Collections.Generic.List{Behaviour_SerieData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Behaviour_SerieData>
+  nameWithType: List<Behaviour_SerieData>
+  fullName: System.Collections.Generic.List<Behaviour_SerieData>
+  nameWithType.vb: List(Of Behaviour_SerieData)
+  fullName.vb: System.Collections.Generic.List(Of Behaviour_SerieData)
+  name.vb: List(Of Behaviour_SerieData)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Behaviour_SerieData
+    name: Behaviour_SerieData
+    nameWithType: Behaviour_SerieData
+    fullName: Behaviour_SerieData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Behaviour_SerieData
+    name: Behaviour_SerieData
+    nameWithType: Behaviour_SerieData
+    fullName: Behaviour_SerieData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Behaviour_SerieManager.CurrentSerieGoToPage*
+  commentId: Overload:Global.Behaviour_SerieManager.CurrentSerieGoToPage
+  name: CurrentSerieGoToPage
+  nameWithType: Behaviour_SerieManager.CurrentSerieGoToPage
+  fullName: Behaviour_SerieManager.CurrentSerieGoToPage
+- uid: Global.Behaviour_SerieManager.SwitchSerieFocus*
+  commentId: Overload:Global.Behaviour_SerieManager.SwitchSerieFocus
+  name: SwitchSerieFocus
+  nameWithType: Behaviour_SerieManager.SwitchSerieFocus
+  fullName: Behaviour_SerieManager.SwitchSerieFocus
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Behaviour_SerieManager.LoadTribute*
+  commentId: Overload:Global.Behaviour_SerieManager.LoadTribute
+  name: LoadTribute
+  nameWithType: Behaviour_SerieManager.LoadTribute
+  fullName: Behaviour_SerieManager.LoadTribute
+- uid: Global.Behaviour_SerieManager.LoadFeed*
+  commentId: Overload:Global.Behaviour_SerieManager.LoadFeed
+  name: LoadFeed
+  nameWithType: Behaviour_SerieManager.LoadFeed
+  fullName: Behaviour_SerieManager.LoadFeed
+- uid: Global.Behaviour_SerieManager.LoadEpisode*
+  commentId: Overload:Global.Behaviour_SerieManager.LoadEpisode
+  name: LoadEpisode
+  nameWithType: Behaviour_SerieManager.LoadEpisode
+  fullName: Behaviour_SerieManager.LoadEpisode
+- uid: Global.Behaviour_SerieManager.LoadStand*
+  commentId: Overload:Global.Behaviour_SerieManager.LoadStand
+  name: LoadStand
+  nameWithType: Behaviour_SerieManager.LoadStand
+  fullName: Behaviour_SerieManager.LoadStand
+- uid: Global.Behaviour_SerieManager.UnloadTributeFeedEpisodeAndStand*
+  commentId: Overload:Global.Behaviour_SerieManager.UnloadTributeFeedEpisodeAndStand
+  name: UnloadTributeFeedEpisodeAndStand
+  nameWithType: Behaviour_SerieManager.UnloadTributeFeedEpisodeAndStand
+  fullName: Behaviour_SerieManager.UnloadTributeFeedEpisodeAndStand

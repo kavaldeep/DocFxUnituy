@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LoadFileReturnMessage
+  commentId: T:Global.LoadFileReturnMessage
+  id: LoadFileReturnMessage
+  parent: Global
+  children:
+  - Global.LoadFileReturnMessage.FILE_DOWNLOADING
+  - Global.LoadFileReturnMessage.FILE_UNUSABLE
+  - Global.LoadFileReturnMessage.LOAD_SUCCESSFUL
+  - Global.LoadFileReturnMessage.MISSING_URL
+  langs:
+  - csharp
+  - vb
+  name: LoadFileReturnMessage
+  nameWithType: LoadFileReturnMessage
+  fullName: LoadFileReturnMessage
+  type: Enum
+  source:
+    id: LoadFileReturnMessage
+    path: ''
+    startLine: 16121
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum LoadFileReturnMessage
+    content.vb: Public Enum LoadFileReturnMessage
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.LoadFileReturnMessage.LOAD_SUCCESSFUL
+  commentId: F:Global.LoadFileReturnMessage.LOAD_SUCCESSFUL
+  id: LOAD_SUCCESSFUL
+  parent: Global.LoadFileReturnMessage
+  langs:
+  - csharp
+  - vb
+  name: LOAD_SUCCESSFUL
+  nameWithType: LoadFileReturnMessage.LOAD_SUCCESSFUL
+  fullName: LoadFileReturnMessage.LOAD_SUCCESSFUL
+  type: Field
+  source:
+    id: LOAD_SUCCESSFUL
+    path: ''
+    startLine: 16123
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: LOAD_SUCCESSFUL = 0
+    return:
+      type: Global.LoadFileReturnMessage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.LoadFileReturnMessage.FILE_UNUSABLE
+  commentId: F:Global.LoadFileReturnMessage.FILE_UNUSABLE
+  id: FILE_UNUSABLE
+  parent: Global.LoadFileReturnMessage
+  langs:
+  - csharp
+  - vb
+  name: FILE_UNUSABLE
+  nameWithType: LoadFileReturnMessage.FILE_UNUSABLE
+  fullName: LoadFileReturnMessage.FILE_UNUSABLE
+  type: Field
+  source:
+    id: FILE_UNUSABLE
+    path: ''
+    startLine: 16124
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: FILE_UNUSABLE = 1
+    return:
+      type: Global.LoadFileReturnMessage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.LoadFileReturnMessage.FILE_DOWNLOADING
+  commentId: F:Global.LoadFileReturnMessage.FILE_DOWNLOADING
+  id: FILE_DOWNLOADING
+  parent: Global.LoadFileReturnMessage
+  langs:
+  - csharp
+  - vb
+  name: FILE_DOWNLOADING
+  nameWithType: LoadFileReturnMessage.FILE_DOWNLOADING
+  fullName: LoadFileReturnMessage.FILE_DOWNLOADING
+  type: Field
+  source:
+    id: FILE_DOWNLOADING
+    path: ''
+    startLine: 16125
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: FILE_DOWNLOADING = 2
+    return:
+      type: Global.LoadFileReturnMessage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.LoadFileReturnMessage.MISSING_URL
+  commentId: F:Global.LoadFileReturnMessage.MISSING_URL
+  id: MISSING_URL
+  parent: Global.LoadFileReturnMessage
+  langs:
+  - csharp
+  - vb
+  name: MISSING_URL
+  nameWithType: LoadFileReturnMessage.MISSING_URL
+  fullName: LoadFileReturnMessage.MISSING_URL
+  type: Field
+  source:
+    id: MISSING_URL
+    path: ''
+    startLine: 16126
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MISSING_URL = 3
+    return:
+      type: Global.LoadFileReturnMessage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.LoadFileReturnMessage
+  commentId: T:Global.LoadFileReturnMessage
+  name: LoadFileReturnMessage
+  nameWithType: LoadFileReturnMessage
+  fullName: LoadFileReturnMessage

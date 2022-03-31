@@ -1,0 +1,454 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_LanguageLoader
+  commentId: T:Global.Static_LanguageLoader
+  id: Static_LanguageLoader
+  parent: Global
+  children:
+  - Global.Static_LanguageLoader.GetLanguageFilePath(System.String)
+  - Global.Static_LanguageLoader.GetLanguageResourcePath(System.String)
+  - Global.Static_LanguageLoader.loadedLanguage
+  - Global.Static_LanguageLoader.LoadLanguage(Enum_Language)
+  - Global.Static_LanguageLoader.LoadLanguageFile(System.String)
+  - Global.Static_LanguageLoader.ParseLanguageFile(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: Static_LanguageLoader
+  nameWithType: Static_LanguageLoader
+  fullName: Static_LanguageLoader
+  type: Class
+  source:
+    id: Static_LanguageLoader
+    path: ''
+    startLine: 18421
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nStatic class to load language files from Language Directory\n"
+  example: []
+  syntax:
+    content: public static class Static_LanguageLoader
+    content.vb: Public Module Static_LanguageLoader
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_LanguageLoader.loadedLanguage
+  commentId: P:Global.Static_LanguageLoader.loadedLanguage
+  id: loadedLanguage
+  parent: Global.Static_LanguageLoader
+  langs:
+  - csharp
+  - vb
+  name: loadedLanguage
+  nameWithType: Static_LanguageLoader.loadedLanguage
+  fullName: Static_LanguageLoader.loadedLanguage
+  type: Property
+  source:
+    id: loadedLanguage
+    path: ''
+    startLine: 18423
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Dictionary<string, string> loadedLanguage { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Shared ReadOnly Property loadedLanguage As Dictionary(Of String, String)
+  overload: Global.Static_LanguageLoader.loadedLanguage*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_LanguageLoader.LoadLanguage(Enum_Language)
+  commentId: M:Global.Static_LanguageLoader.LoadLanguage(Enum_Language)
+  id: LoadLanguage(Enum_Language)
+  parent: Global.Static_LanguageLoader
+  langs:
+  - csharp
+  - vb
+  name: LoadLanguage(Enum_Language)
+  nameWithType: Static_LanguageLoader.LoadLanguage(Enum_Language)
+  fullName: Static_LanguageLoader.LoadLanguage(Enum_Language)
+  type: Method
+  source:
+    id: LoadLanguage
+    path: ''
+    startLine: 18479
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void LoadLanguage(Enum_Language _language = Enum_Language.Auto)
+    parameters:
+    - id: _language
+      type: Global.Enum_Language
+    content.vb: Public Shared Sub LoadLanguage(_language As Enum_Language = Enum_Language.Auto)
+  overload: Global.Static_LanguageLoader.LoadLanguage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_LanguageLoader.LoadLanguageFile(System.String)
+  commentId: M:Global.Static_LanguageLoader.LoadLanguageFile(System.String)
+  id: LoadLanguageFile(System.String)
+  parent: Global.Static_LanguageLoader
+  langs:
+  - csharp
+  - vb
+  name: LoadLanguageFile(String)
+  nameWithType: Static_LanguageLoader.LoadLanguageFile(String)
+  fullName: Static_LanguageLoader.LoadLanguageFile(System.String)
+  type: Method
+  source:
+    id: LoadLanguageFile
+    path: ''
+    startLine: 18491
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nTakes a Path and load all lines of a file\n"
+  example: []
+  syntax:
+    content: public static string[] LoadLanguageFile(string _path)
+    parameters:
+    - id: _path
+      type: System.String
+      description: The path of the file to load
+    return:
+      type: System.String[]
+      description: A string array of all the lines of the file
+    content.vb: Public Shared Function LoadLanguageFile(_path As String) As String()
+  overload: Global.Static_LanguageLoader.LoadLanguageFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_LanguageLoader.ParseLanguageFile(System.String[])
+  commentId: M:Global.Static_LanguageLoader.ParseLanguageFile(System.String[])
+  id: ParseLanguageFile(System.String[])
+  parent: Global.Static_LanguageLoader
+  langs:
+  - csharp
+  - vb
+  name: ParseLanguageFile(String[])
+  nameWithType: Static_LanguageLoader.ParseLanguageFile(String[])
+  fullName: Static_LanguageLoader.ParseLanguageFile(System.String[])
+  type: Method
+  source:
+    id: ParseLanguageFile
+    path: ''
+    startLine: 18545
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Dictionary<string, string> ParseLanguageFile(string[] _lines)
+    parameters:
+    - id: _lines
+      type: System.String[]
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Shared Function ParseLanguageFile(_lines As String()) As Dictionary(Of String, String)
+  overload: Global.Static_LanguageLoader.ParseLanguageFile*
+  nameWithType.vb: Static_LanguageLoader.ParseLanguageFile(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_LanguageLoader.ParseLanguageFile(System.String())
+  name.vb: ParseLanguageFile(String())
+- uid: Global.Static_LanguageLoader.GetLanguageFilePath(System.String)
+  commentId: M:Global.Static_LanguageLoader.GetLanguageFilePath(System.String)
+  id: GetLanguageFilePath(System.String)
+  parent: Global.Static_LanguageLoader
+  langs:
+  - csharp
+  - vb
+  name: GetLanguageFilePath(String)
+  nameWithType: Static_LanguageLoader.GetLanguageFilePath(String)
+  fullName: Static_LanguageLoader.GetLanguageFilePath(System.String)
+  type: Method
+  source:
+    id: GetLanguageFilePath
+    path: ''
+    startLine: 18558
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nJust returns the Path of a given language\n"
+  example: []
+  syntax:
+    content: public static string GetLanguageFilePath(string _lang)
+    parameters:
+    - id: _lang
+      type: System.String
+      description: The language you want to get in path form
+    return:
+      type: System.String
+      description: Retrurn the intended path of the given file
+    content.vb: Public Shared Function GetLanguageFilePath(_lang As String) As String
+  overload: Global.Static_LanguageLoader.GetLanguageFilePath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_LanguageLoader.GetLanguageResourcePath(System.String)
+  commentId: M:Global.Static_LanguageLoader.GetLanguageResourcePath(System.String)
+  id: GetLanguageResourcePath(System.String)
+  parent: Global.Static_LanguageLoader
+  langs:
+  - csharp
+  - vb
+  name: GetLanguageResourcePath(String)
+  nameWithType: Static_LanguageLoader.GetLanguageResourcePath(String)
+  fullName: Static_LanguageLoader.GetLanguageResourcePath(System.String)
+  type: Method
+  source:
+    id: GetLanguageResourcePath
+    path: ''
+    startLine: 18563
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string GetLanguageResourcePath(string _lang)
+    parameters:
+    - id: _lang
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetLanguageResourcePath(_lang As String) As String
+  overload: Global.Static_LanguageLoader.GetLanguageResourcePath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Static_LanguageLoader.loadedLanguage*
+  commentId: Overload:Global.Static_LanguageLoader.loadedLanguage
+  name: loadedLanguage
+  nameWithType: Static_LanguageLoader.loadedLanguage
+  fullName: Static_LanguageLoader.loadedLanguage
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Static_LanguageLoader.LoadLanguage*
+  commentId: Overload:Global.Static_LanguageLoader.LoadLanguage
+  name: LoadLanguage
+  nameWithType: Static_LanguageLoader.LoadLanguage
+  fullName: Static_LanguageLoader.LoadLanguage
+- uid: Global.Enum_Language
+  commentId: T:Global.Enum_Language
+  name: Enum_Language
+  nameWithType: Enum_Language
+  fullName: Enum_Language
+- uid: Global.Static_LanguageLoader.LoadLanguageFile*
+  commentId: Overload:Global.Static_LanguageLoader.LoadLanguageFile
+  name: LoadLanguageFile
+  nameWithType: Static_LanguageLoader.LoadLanguageFile
+  fullName: Static_LanguageLoader.LoadLanguageFile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Static_LanguageLoader.ParseLanguageFile*
+  commentId: Overload:Global.Static_LanguageLoader.ParseLanguageFile
+  name: ParseLanguageFile
+  nameWithType: Static_LanguageLoader.ParseLanguageFile
+  fullName: Static_LanguageLoader.ParseLanguageFile
+- uid: Global.Static_LanguageLoader.GetLanguageFilePath*
+  commentId: Overload:Global.Static_LanguageLoader.GetLanguageFilePath
+  name: GetLanguageFilePath
+  nameWithType: Static_LanguageLoader.GetLanguageFilePath
+  fullName: Static_LanguageLoader.GetLanguageFilePath
+- uid: Global.Static_LanguageLoader.GetLanguageResourcePath*
+  commentId: Overload:Global.Static_LanguageLoader.GetLanguageResourcePath
+  name: GetLanguageResourcePath
+  nameWithType: Static_LanguageLoader.GetLanguageResourcePath
+  fullName: Static_LanguageLoader.GetLanguageResourcePath

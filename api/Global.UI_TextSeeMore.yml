@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UI_TextSeeMore
+  commentId: T:Global.UI_TextSeeMore
+  id: UI_TextSeeMore
+  parent: Global
+  children:
+  - Global.UI_TextSeeMore._allText
+  - Global.UI_TextSeeMore._textShow
+  - Global.UI_TextSeeMore.SeeMore
+  - Global.UI_TextSeeMore.textLimit
+  langs:
+  - csharp
+  - vb
+  name: UI_TextSeeMore
+  nameWithType: UI_TextSeeMore
+  fullName: UI_TextSeeMore
+  type: Class
+  source:
+    id: UI_TextSeeMore
+    path: ''
+    startLine: 24970
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UI_TextSeeMore : MonoBehaviour'
+    content.vb: >-
+      Public Class UI_TextSeeMore
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UI_TextSeeMore._allText
+  commentId: F:Global.UI_TextSeeMore._allText
+  id: _allText
+  parent: Global.UI_TextSeeMore
+  langs:
+  - csharp
+  - vb
+  name: _allText
+  nameWithType: UI_TextSeeMore._allText
+  fullName: UI_TextSeeMore._allText
+  type: Field
+  source:
+    id: _allText
+    path: ''
+    startLine: 24974
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string _allText
+    return:
+      type: System.String
+    content.vb: Public _allText As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_TextSeeMore._textShow
+  commentId: F:Global.UI_TextSeeMore._textShow
+  id: _textShow
+  parent: Global.UI_TextSeeMore
+  langs:
+  - csharp
+  - vb
+  name: _textShow
+  nameWithType: UI_TextSeeMore._textShow
+  fullName: UI_TextSeeMore._textShow
+  type: Field
+  source:
+    id: _textShow
+    path: ''
+    startLine: 24976
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string _textShow
+    return:
+      type: System.String
+    content.vb: Public _textShow As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_TextSeeMore.textLimit
+  commentId: F:Global.UI_TextSeeMore.textLimit
+  id: textLimit
+  parent: Global.UI_TextSeeMore
+  langs:
+  - csharp
+  - vb
+  name: textLimit
+  nameWithType: UI_TextSeeMore.textLimit
+  fullName: UI_TextSeeMore.textLimit
+  type: Field
+  source:
+    id: textLimit
+    path: ''
+    startLine: 24980
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int textLimit
+    return:
+      type: System.Int32
+    content.vb: Public textLimit As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_TextSeeMore.SeeMore
+  commentId: M:Global.UI_TextSeeMore.SeeMore
+  id: SeeMore
+  parent: Global.UI_TextSeeMore
+  langs:
+  - csharp
+  - vb
+  name: SeeMore()
+  nameWithType: UI_TextSeeMore.SeeMore()
+  fullName: UI_TextSeeMore.SeeMore()
+  type: Method
+  source:
+    id: SeeMore
+    path: ''
+    startLine: 25005
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SeeMore()
+    content.vb: Public Sub SeeMore
+  overload: Global.UI_TextSeeMore.SeeMore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.UI_TextSeeMore.SeeMore*
+  commentId: Overload:Global.UI_TextSeeMore.SeeMore
+  name: SeeMore
+  nameWithType: UI_TextSeeMore.SeeMore
+  fullName: UI_TextSeeMore.SeeMore

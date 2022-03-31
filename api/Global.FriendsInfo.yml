@@ -1,0 +1,285 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.FriendsInfo
+  commentId: T:Global.FriendsInfo
+  id: FriendsInfo
+  parent: Global
+  children:
+  - Global.FriendsInfo.FriendId
+  - Global.FriendsInfo.FriendProfileUrl
+  - Global.FriendsInfo.FriendshipId
+  - Global.FriendsInfo.FriendshipState
+  - Global.FriendsInfo.FriendTitle
+  - Global.FriendsInfo.FriendUsername
+  - Global.FriendsInfo.FromId
+  - Global.FriendsInfo.ToId
+  langs:
+  - csharp
+  - vb
+  name: FriendsInfo
+  nameWithType: FriendsInfo
+  fullName: FriendsInfo
+  type: Struct
+  source:
+    id: FriendsInfo
+    path: ''
+    startLine: 16757
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct FriendsInfo
+    content.vb: >-
+      <Serializable>
+
+      Public Structure FriendsInfo
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.FriendsInfo.FriendshipId
+  commentId: F:Global.FriendsInfo.FriendshipId
+  id: FriendshipId
+  parent: Global.FriendsInfo
+  langs:
+  - csharp
+  - vb
+  name: FriendshipId
+  nameWithType: FriendsInfo.FriendshipId
+  fullName: FriendsInfo.FriendshipId
+  type: Field
+  source:
+    id: FriendshipId
+    path: ''
+    startLine: 16760
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string FriendshipId
+    return:
+      type: System.String
+    content.vb: Public FriendshipId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FriendsInfo.FromId
+  commentId: F:Global.FriendsInfo.FromId
+  id: FromId
+  parent: Global.FriendsInfo
+  langs:
+  - csharp
+  - vb
+  name: FromId
+  nameWithType: FriendsInfo.FromId
+  fullName: FriendsInfo.FromId
+  type: Field
+  source:
+    id: FromId
+    path: ''
+    startLine: 16761
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string FromId
+    return:
+      type: System.String
+    content.vb: Public FromId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FriendsInfo.ToId
+  commentId: F:Global.FriendsInfo.ToId
+  id: ToId
+  parent: Global.FriendsInfo
+  langs:
+  - csharp
+  - vb
+  name: ToId
+  nameWithType: FriendsInfo.ToId
+  fullName: FriendsInfo.ToId
+  type: Field
+  source:
+    id: ToId
+    path: ''
+    startLine: 16762
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string ToId
+    return:
+      type: System.String
+    content.vb: Public ToId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FriendsInfo.FriendshipState
+  commentId: F:Global.FriendsInfo.FriendshipState
+  id: FriendshipState
+  parent: Global.FriendsInfo
+  langs:
+  - csharp
+  - vb
+  name: FriendshipState
+  nameWithType: FriendsInfo.FriendshipState
+  fullName: FriendsInfo.FriendshipState
+  type: Field
+  source:
+    id: FriendshipState
+    path: ''
+    startLine: 16763
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string FriendshipState
+    return:
+      type: System.String
+    content.vb: Public FriendshipState As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FriendsInfo.FriendId
+  commentId: F:Global.FriendsInfo.FriendId
+  id: FriendId
+  parent: Global.FriendsInfo
+  langs:
+  - csharp
+  - vb
+  name: FriendId
+  nameWithType: FriendsInfo.FriendId
+  fullName: FriendsInfo.FriendId
+  type: Field
+  source:
+    id: FriendId
+    path: ''
+    startLine: 16764
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string FriendId
+    return:
+      type: System.String
+    content.vb: Public FriendId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FriendsInfo.FriendUsername
+  commentId: F:Global.FriendsInfo.FriendUsername
+  id: FriendUsername
+  parent: Global.FriendsInfo
+  langs:
+  - csharp
+  - vb
+  name: FriendUsername
+  nameWithType: FriendsInfo.FriendUsername
+  fullName: FriendsInfo.FriendUsername
+  type: Field
+  source:
+    id: FriendUsername
+    path: ''
+    startLine: 16765
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string FriendUsername
+    return:
+      type: System.String
+    content.vb: Public FriendUsername As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FriendsInfo.FriendTitle
+  commentId: F:Global.FriendsInfo.FriendTitle
+  id: FriendTitle
+  parent: Global.FriendsInfo
+  langs:
+  - csharp
+  - vb
+  name: FriendTitle
+  nameWithType: FriendsInfo.FriendTitle
+  fullName: FriendsInfo.FriendTitle
+  type: Field
+  source:
+    id: FriendTitle
+    path: ''
+    startLine: 16766
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string FriendTitle
+    return:
+      type: System.String
+    content.vb: Public FriendTitle As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FriendsInfo.FriendProfileUrl
+  commentId: F:Global.FriendsInfo.FriendProfileUrl
+  id: FriendProfileUrl
+  parent: Global.FriendsInfo
+  langs:
+  - csharp
+  - vb
+  name: FriendProfileUrl
+  nameWithType: FriendsInfo.FriendProfileUrl
+  fullName: FriendsInfo.FriendProfileUrl
+  type: Field
+  source:
+    id: FriendProfileUrl
+    path: ''
+    startLine: 16767
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string FriendProfileUrl
+    return:
+      type: System.String
+    content.vb: Public FriendProfileUrl As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

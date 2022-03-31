@@ -1,0 +1,1323 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Singleton_TimestampDataSimple
+  commentId: T:Global.Singleton_TimestampDataSimple
+  id: Singleton_TimestampDataSimple
+  parent: Global
+  children:
+  - Global.Singleton_TimestampDataSimple.Init
+  - Global.Singleton_TimestampDataSimple.NewObject
+  - Global.Singleton_TimestampDataSimple.SetValue(System.String,System.String)
+  - Global.Singleton_TimestampDataSimple.Start
+  langs:
+  - csharp
+  - vb
+  name: Singleton_TimestampDataSimple
+  nameWithType: Singleton_TimestampDataSimple
+  fullName: Singleton_TimestampDataSimple
+  type: Class
+  source:
+    id: Singleton_TimestampDataSimple
+    path: ''
+    startLine: 18150
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Singleton_TimestampDataSimple : Singleton_Data<Singleton_TimestampDataSimple>, Interface_Singleton_Data'
+    content.vb: >-
+      Public Class Singleton_TimestampDataSimple
+          Inherits Singleton_Data(Of Singleton_TimestampDataSimple)
+          Implements Interface_Singleton_Data
+  inheritance:
+  - System.Object
+  - Global.Singleton{Singleton_TimestampDataSimple}
+  - Global.Singleton_Data{Singleton_TimestampDataSimple}
+  implements:
+  - Global.Interface_Singleton_Data
+  inheritedMembers:
+  - Global.Singleton_Data{Singleton_TimestampDataSimple}.listObject
+  - Global.Singleton_Data{Singleton_TimestampDataSimple}.ListObject
+  - Global.Singleton_Data{Singleton_TimestampDataSimple}.currentObject
+  - Global.Singleton_Data{Singleton_TimestampDataSimple}.path
+  - Global.Singleton_Data{Singleton_TimestampDataSimple}.splitData
+  - Global.Singleton_Data{Singleton_TimestampDataSimple}.Path
+  - Global.Singleton_Data{Singleton_TimestampDataSimple}.OnParsingComplete
+  - Global.Singleton_Data{Singleton_TimestampDataSimple}.ParsingComplete(Singleton_Data{Singleton_TimestampDataSimple})
+  - Global.Singleton_Data{Singleton_TimestampDataSimple}.EnumeratorLoadImage
+  - Global.Singleton_Data{Singleton_TimestampDataSimple}.LoadImage
+  - Global.Singleton{Singleton_TimestampDataSimple}.Instance
+  - Global.Singleton{Singleton_TimestampDataSimple}.StartCoroutine(System.Collections.IEnumerator)
+  - Global.Singleton{Singleton_TimestampDataSimple}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  - Global.Singleton{Singleton_TimestampDataSimple}.Awake
+  - Global.Singleton{Singleton_TimestampDataSimple}.Update
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Singleton_TimestampDataSimple.Start
+  commentId: M:Global.Singleton_TimestampDataSimple.Start
+  id: Start
+  parent: Global.Singleton_TimestampDataSimple
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: Singleton_TimestampDataSimple.Start()
+  fullName: Singleton_TimestampDataSimple.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 18164
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Start()
+    content.vb: Protected Sub Start
+  overload: Global.Singleton_TimestampDataSimple.Start*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.Singleton_TimestampDataSimple.Init
+  commentId: M:Global.Singleton_TimestampDataSimple.Init
+  id: Init
+  parent: Global.Singleton_TimestampDataSimple
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: Singleton_TimestampDataSimple.Init()
+  fullName: Singleton_TimestampDataSimple.Init()
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 18172
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override void Init()
+    content.vb: Protected Overrides Sub Init
+  overridden: Global.Singleton_Data{Singleton_TimestampDataSimple}.Init
+  overload: Global.Singleton_TimestampDataSimple.Init*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Global.Singleton_TimestampDataSimple.SetValue(System.String,System.String)
+  commentId: M:Global.Singleton_TimestampDataSimple.SetValue(System.String,System.String)
+  id: SetValue(System.String,System.String)
+  parent: Global.Singleton_TimestampDataSimple
+  langs:
+  - csharp
+  - vb
+  name: SetValue(String, String)
+  nameWithType: Singleton_TimestampDataSimple.SetValue(String, String)
+  fullName: Singleton_TimestampDataSimple.SetValue(System.String, System.String)
+  type: Method
+  source:
+    id: SetValue
+    path: ''
+    startLine: 18181
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void SetValue(string property, string data)
+    parameters:
+    - id: property
+      type: System.String
+    - id: data
+      type: System.String
+    content.vb: Public Overrides Sub SetValue(property As String, data As String)
+  overridden: Global.Singleton_Data{Singleton_TimestampDataSimple}.SetValue(System.String,System.String)
+  overload: Global.Singleton_TimestampDataSimple.SetValue*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.Singleton_TimestampDataSimple.NewObject
+  commentId: M:Global.Singleton_TimestampDataSimple.NewObject
+  id: NewObject
+  parent: Global.Singleton_TimestampDataSimple
+  langs:
+  - csharp
+  - vb
+  name: NewObject()
+  nameWithType: Singleton_TimestampDataSimple.NewObject()
+  fullName: Singleton_TimestampDataSimple.NewObject()
+  type: Method
+  source:
+    id: NewObject
+    path: ''
+    startLine: 18218
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void NewObject()
+    content.vb: Public Overrides Sub NewObject
+  overridden: Global.Singleton_Data{Singleton_TimestampDataSimple}.NewObject
+  overload: Global.Singleton_TimestampDataSimple.NewObject*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.Singleton{Singleton_TimestampDataSimple}
+  commentId: T:Global.Singleton{Singleton_TimestampDataSimple}
+  definition: Global.Singleton`1
+  name: Singleton<Singleton_TimestampDataSimple>
+  nameWithType: Singleton<Singleton_TimestampDataSimple>
+  fullName: Singleton<Singleton_TimestampDataSimple>
+  nameWithType.vb: Singleton(Of Singleton_TimestampDataSimple)
+  fullName.vb: Singleton(Of Singleton_TimestampDataSimple)
+  name.vb: Singleton(Of Singleton_TimestampDataSimple)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Singleton_TimestampDataSimple
+    name: Singleton_TimestampDataSimple
+    nameWithType: Singleton_TimestampDataSimple
+    fullName: Singleton_TimestampDataSimple
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Singleton_TimestampDataSimple
+    name: Singleton_TimestampDataSimple
+    nameWithType: Singleton_TimestampDataSimple
+    fullName: Singleton_TimestampDataSimple
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  commentId: T:Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1
+  name: Singleton_Data<Singleton_TimestampDataSimple>
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple)
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple)
+  name.vb: Singleton_Data(Of Singleton_TimestampDataSimple)
+  spec.csharp:
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Singleton_TimestampDataSimple
+    name: Singleton_TimestampDataSimple
+    nameWithType: Singleton_TimestampDataSimple
+    fullName: Singleton_TimestampDataSimple
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Singleton_TimestampDataSimple
+    name: Singleton_TimestampDataSimple
+    nameWithType: Singleton_TimestampDataSimple
+    fullName: Singleton_TimestampDataSimple
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Interface_Singleton_Data
+  commentId: T:Global.Interface_Singleton_Data
+  name: Interface_Singleton_Data
+  nameWithType: Interface_Singleton_Data
+  fullName: Interface_Singleton_Data
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.listObject
+  commentId: F:Global.Singleton_Data{Singleton_TimestampDataSimple}.listObject
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.listObject
+  name: listObject
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.listObject
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.listObject
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).listObject
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).listObject
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.ListObject
+  commentId: P:Global.Singleton_Data{Singleton_TimestampDataSimple}.ListObject
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.ListObject
+  name: ListObject
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.ListObject
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.ListObject
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).ListObject
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).ListObject
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.currentObject
+  commentId: F:Global.Singleton_Data{Singleton_TimestampDataSimple}.currentObject
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.currentObject
+  name: currentObject
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.currentObject
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.currentObject
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).currentObject
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).currentObject
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.path
+  commentId: F:Global.Singleton_Data{Singleton_TimestampDataSimple}.path
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.path
+  name: path
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.path
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.path
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).path
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).path
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.splitData
+  commentId: F:Global.Singleton_Data{Singleton_TimestampDataSimple}.splitData
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.splitData
+  name: splitData
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.splitData
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.splitData
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).splitData
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).splitData
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.Path
+  commentId: P:Global.Singleton_Data{Singleton_TimestampDataSimple}.Path
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.Path
+  name: Path
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.Path
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.Path
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).Path
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).Path
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.OnParsingComplete
+  commentId: E:Global.Singleton_Data{Singleton_TimestampDataSimple}.OnParsingComplete
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.OnParsingComplete
+  name: OnParsingComplete
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.OnParsingComplete
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.OnParsingComplete
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).OnParsingComplete
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).OnParsingComplete
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.ParsingComplete(Singleton_Data{Singleton_TimestampDataSimple})
+  commentId: M:Global.Singleton_Data{Singleton_TimestampDataSimple}.ParsingComplete(Singleton_Data{Singleton_TimestampDataSimple})
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+  name: ParsingComplete(Singleton_Data<Singleton_TimestampDataSimple>)
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.ParsingComplete(Singleton_Data<Singleton_TimestampDataSimple>)
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.ParsingComplete(Singleton_Data<Singleton_TimestampDataSimple>)
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).ParsingComplete(Singleton_Data(Of Singleton_TimestampDataSimple))
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).ParsingComplete(Singleton_Data(Of Singleton_TimestampDataSimple))
+  name.vb: ParsingComplete(Singleton_Data(Of Singleton_TimestampDataSimple))
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+    name: ParsingComplete
+    nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.ParsingComplete
+    fullName: Singleton_Data<Singleton_TimestampDataSimple>.ParsingComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Singleton_TimestampDataSimple
+    name: Singleton_TimestampDataSimple
+    nameWithType: Singleton_TimestampDataSimple
+    fullName: Singleton_TimestampDataSimple
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+    name: ParsingComplete
+    nameWithType: Singleton_Data(Of Singleton_TimestampDataSimple).ParsingComplete
+    fullName: Singleton_Data(Of Singleton_TimestampDataSimple).ParsingComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Singleton_TimestampDataSimple
+    name: Singleton_TimestampDataSimple
+    nameWithType: Singleton_TimestampDataSimple
+    fullName: Singleton_TimestampDataSimple
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.EnumeratorLoadImage
+  commentId: M:Global.Singleton_Data{Singleton_TimestampDataSimple}.EnumeratorLoadImage
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.EnumeratorLoadImage
+  name: EnumeratorLoadImage()
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.EnumeratorLoadImage()
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.EnumeratorLoadImage()
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).EnumeratorLoadImage()
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).EnumeratorLoadImage()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.EnumeratorLoadImage
+    name: EnumeratorLoadImage
+    nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.EnumeratorLoadImage
+    fullName: Singleton_Data<Singleton_TimestampDataSimple>.EnumeratorLoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.EnumeratorLoadImage
+    name: EnumeratorLoadImage
+    nameWithType: Singleton_Data(Of Singleton_TimestampDataSimple).EnumeratorLoadImage
+    fullName: Singleton_Data(Of Singleton_TimestampDataSimple).EnumeratorLoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.LoadImage
+  commentId: M:Global.Singleton_Data{Singleton_TimestampDataSimple}.LoadImage
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.LoadImage
+  name: LoadImage()
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.LoadImage()
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.LoadImage()
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).LoadImage()
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).LoadImage()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.LoadImage
+    name: LoadImage
+    nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.LoadImage
+    fullName: Singleton_Data<Singleton_TimestampDataSimple>.LoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.LoadImage
+    name: LoadImage
+    nameWithType: Singleton_Data(Of Singleton_TimestampDataSimple).LoadImage
+    fullName: Singleton_Data(Of Singleton_TimestampDataSimple).LoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_TimestampDataSimple}.Instance
+  commentId: P:Global.Singleton{Singleton_TimestampDataSimple}.Instance
+  parent: Global.Singleton{Singleton_TimestampDataSimple}
+  definition: Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<Singleton_TimestampDataSimple>.Instance
+  fullName: Singleton<Singleton_TimestampDataSimple>.Instance
+  nameWithType.vb: Singleton(Of Singleton_TimestampDataSimple).Instance
+  fullName.vb: Singleton(Of Singleton_TimestampDataSimple).Instance
+- uid: Global.Singleton{Singleton_TimestampDataSimple}.StartCoroutine(System.Collections.IEnumerator)
+  commentId: M:Global.Singleton{Singleton_TimestampDataSimple}.StartCoroutine(System.Collections.IEnumerator)
+  parent: Global.Singleton{Singleton_TimestampDataSimple}
+  definition: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  name: StartCoroutine(IEnumerator)
+  nameWithType: Singleton<Singleton_TimestampDataSimple>.StartCoroutine(IEnumerator)
+  fullName: Singleton<Singleton_TimestampDataSimple>.StartCoroutine(System.Collections.IEnumerator)
+  nameWithType.vb: Singleton(Of Singleton_TimestampDataSimple).StartCoroutine(IEnumerator)
+  fullName.vb: Singleton(Of Singleton_TimestampDataSimple).StartCoroutine(System.Collections.IEnumerator)
+  spec.csharp:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton<Singleton_TimestampDataSimple>.StartCoroutine
+    fullName: Singleton<Singleton_TimestampDataSimple>.StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton(Of Singleton_TimestampDataSimple).StartCoroutine
+    fullName: Singleton(Of Singleton_TimestampDataSimple).StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_TimestampDataSimple}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Global.Singleton{Singleton_TimestampDataSimple}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  parent: Global.Singleton{Singleton_TimestampDataSimple}
+  definition: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  name: AddCallbacks(Boolean, Boolean, Boolean)
+  nameWithType: Singleton<Singleton_TimestampDataSimple>.AddCallbacks(Boolean, Boolean, Boolean)
+  fullName: Singleton<Singleton_TimestampDataSimple>.AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Singleton(Of Singleton_TimestampDataSimple).AddCallbacks(Boolean, Boolean, Boolean)
+  fullName.vb: Singleton(Of Singleton_TimestampDataSimple).AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton<Singleton_TimestampDataSimple>.AddCallbacks
+    fullName: Singleton<Singleton_TimestampDataSimple>.AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton(Of Singleton_TimestampDataSimple).AddCallbacks
+    fullName: Singleton(Of Singleton_TimestampDataSimple).AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_TimestampDataSimple}.Awake
+  commentId: M:Global.Singleton{Singleton_TimestampDataSimple}.Awake
+  parent: Global.Singleton{Singleton_TimestampDataSimple}
+  definition: Global.Singleton`1.Awake
+  name: Awake()
+  nameWithType: Singleton<Singleton_TimestampDataSimple>.Awake()
+  fullName: Singleton<Singleton_TimestampDataSimple>.Awake()
+  nameWithType.vb: Singleton(Of Singleton_TimestampDataSimple).Awake()
+  fullName.vb: Singleton(Of Singleton_TimestampDataSimple).Awake()
+  spec.csharp:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton<Singleton_TimestampDataSimple>.Awake
+    fullName: Singleton<Singleton_TimestampDataSimple>.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton(Of Singleton_TimestampDataSimple).Awake
+    fullName: Singleton(Of Singleton_TimestampDataSimple).Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_TimestampDataSimple}.Update
+  commentId: M:Global.Singleton{Singleton_TimestampDataSimple}.Update
+  parent: Global.Singleton{Singleton_TimestampDataSimple}
+  definition: Global.Singleton`1.Update
+  name: Update()
+  nameWithType: Singleton<Singleton_TimestampDataSimple>.Update()
+  fullName: Singleton<Singleton_TimestampDataSimple>.Update()
+  nameWithType.vb: Singleton(Of Singleton_TimestampDataSimple).Update()
+  fullName.vb: Singleton(Of Singleton_TimestampDataSimple).Update()
+  spec.csharp:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton<Singleton_TimestampDataSimple>.Update
+    fullName: Singleton<Singleton_TimestampDataSimple>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton(Of Singleton_TimestampDataSimple).Update
+    fullName: Singleton(Of Singleton_TimestampDataSimple).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Singleton`1
+  commentId: T:Global.Singleton`1
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: Singleton(Of T)
+  name.vb: Singleton(Of T)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data`1
+  commentId: T:Global.Singleton_Data`1
+  name: Singleton_Data<T>
+  nameWithType: Singleton_Data<T>
+  fullName: Singleton_Data<T>
+  nameWithType.vb: Singleton_Data(Of T)
+  fullName.vb: Singleton_Data(Of T)
+  name.vb: Singleton_Data(Of T)
+  spec.csharp:
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data`1.listObject
+  commentId: F:Global.Singleton_Data`1.listObject
+  name: listObject
+  nameWithType: Singleton_Data<T>.listObject
+  fullName: Singleton_Data<T>.listObject
+  nameWithType.vb: Singleton_Data(Of T).listObject
+  fullName.vb: Singleton_Data(Of T).listObject
+- uid: Global.Singleton_Data`1.ListObject
+  commentId: P:Global.Singleton_Data`1.ListObject
+  name: ListObject
+  nameWithType: Singleton_Data<T>.ListObject
+  fullName: Singleton_Data<T>.ListObject
+  nameWithType.vb: Singleton_Data(Of T).ListObject
+  fullName.vb: Singleton_Data(Of T).ListObject
+- uid: Global.Singleton_Data`1.currentObject
+  commentId: F:Global.Singleton_Data`1.currentObject
+  name: currentObject
+  nameWithType: Singleton_Data<T>.currentObject
+  fullName: Singleton_Data<T>.currentObject
+  nameWithType.vb: Singleton_Data(Of T).currentObject
+  fullName.vb: Singleton_Data(Of T).currentObject
+- uid: Global.Singleton_Data`1.path
+  commentId: F:Global.Singleton_Data`1.path
+  name: path
+  nameWithType: Singleton_Data<T>.path
+  fullName: Singleton_Data<T>.path
+  nameWithType.vb: Singleton_Data(Of T).path
+  fullName.vb: Singleton_Data(Of T).path
+- uid: Global.Singleton_Data`1.splitData
+  commentId: F:Global.Singleton_Data`1.splitData
+  name: splitData
+  nameWithType: Singleton_Data<T>.splitData
+  fullName: Singleton_Data<T>.splitData
+  nameWithType.vb: Singleton_Data(Of T).splitData
+  fullName.vb: Singleton_Data(Of T).splitData
+- uid: Global.Singleton_Data`1.Path
+  commentId: P:Global.Singleton_Data`1.Path
+  name: Path
+  nameWithType: Singleton_Data<T>.Path
+  fullName: Singleton_Data<T>.Path
+  nameWithType.vb: Singleton_Data(Of T).Path
+  fullName.vb: Singleton_Data(Of T).Path
+- uid: Global.Singleton_Data`1.OnParsingComplete
+  commentId: E:Global.Singleton_Data`1.OnParsingComplete
+  name: OnParsingComplete
+  nameWithType: Singleton_Data<T>.OnParsingComplete
+  fullName: Singleton_Data<T>.OnParsingComplete
+  nameWithType.vb: Singleton_Data(Of T).OnParsingComplete
+  fullName.vb: Singleton_Data(Of T).OnParsingComplete
+- uid: Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+  commentId: M:Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+  name: ParsingComplete(Singleton_Data<T>)
+  nameWithType: Singleton_Data<T>.ParsingComplete(Singleton_Data<T>)
+  fullName: Singleton_Data<T>.ParsingComplete(Singleton_Data<T>)
+  nameWithType.vb: Singleton_Data(Of T).ParsingComplete(Singleton_Data(Of T))
+  fullName.vb: Singleton_Data(Of T).ParsingComplete(Singleton_Data(Of T))
+  name.vb: ParsingComplete(Singleton_Data(Of T))
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+    name: ParsingComplete
+    nameWithType: Singleton_Data<T>.ParsingComplete
+    fullName: Singleton_Data<T>.ParsingComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+    name: ParsingComplete
+    nameWithType: Singleton_Data(Of T).ParsingComplete
+    fullName: Singleton_Data(Of T).ParsingComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data`1.EnumeratorLoadImage
+  commentId: M:Global.Singleton_Data`1.EnumeratorLoadImage
+  name: EnumeratorLoadImage()
+  nameWithType: Singleton_Data<T>.EnumeratorLoadImage()
+  fullName: Singleton_Data<T>.EnumeratorLoadImage()
+  nameWithType.vb: Singleton_Data(Of T).EnumeratorLoadImage()
+  fullName.vb: Singleton_Data(Of T).EnumeratorLoadImage()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.EnumeratorLoadImage
+    name: EnumeratorLoadImage
+    nameWithType: Singleton_Data<T>.EnumeratorLoadImage
+    fullName: Singleton_Data<T>.EnumeratorLoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.EnumeratorLoadImage
+    name: EnumeratorLoadImage
+    nameWithType: Singleton_Data(Of T).EnumeratorLoadImage
+    fullName: Singleton_Data(Of T).EnumeratorLoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data`1.LoadImage
+  commentId: M:Global.Singleton_Data`1.LoadImage
+  name: LoadImage()
+  nameWithType: Singleton_Data<T>.LoadImage()
+  fullName: Singleton_Data<T>.LoadImage()
+  nameWithType.vb: Singleton_Data(Of T).LoadImage()
+  fullName.vb: Singleton_Data(Of T).LoadImage()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.LoadImage
+    name: LoadImage
+    nameWithType: Singleton_Data<T>.LoadImage
+    fullName: Singleton_Data<T>.LoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.LoadImage
+    name: LoadImage
+    nameWithType: Singleton_Data(Of T).LoadImage
+    fullName: Singleton_Data(Of T).LoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Instance
+  commentId: P:Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<T>.Instance
+  fullName: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+  fullName.vb: Singleton(Of T).Instance
+- uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  commentId: M:Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  isExternal: true
+  name: StartCoroutine(IEnumerator)
+  nameWithType: Singleton<T>.StartCoroutine(IEnumerator)
+  fullName: Singleton<T>.StartCoroutine(System.Collections.IEnumerator)
+  nameWithType.vb: Singleton(Of T).StartCoroutine(IEnumerator)
+  fullName.vb: Singleton(Of T).StartCoroutine(System.Collections.IEnumerator)
+  spec.csharp:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton<T>.StartCoroutine
+    fullName: Singleton<T>.StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton(Of T).StartCoroutine
+    fullName: Singleton(Of T).StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  isExternal: true
+  name: AddCallbacks(Boolean, Boolean, Boolean)
+  nameWithType: Singleton<T>.AddCallbacks(Boolean, Boolean, Boolean)
+  fullName: Singleton<T>.AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Singleton(Of T).AddCallbacks(Boolean, Boolean, Boolean)
+  fullName.vb: Singleton(Of T).AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton<T>.AddCallbacks
+    fullName: Singleton<T>.AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton(Of T).AddCallbacks
+    fullName: Singleton(Of T).AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Awake
+  commentId: M:Global.Singleton`1.Awake
+  name: Awake()
+  nameWithType: Singleton<T>.Awake()
+  fullName: Singleton<T>.Awake()
+  nameWithType.vb: Singleton(Of T).Awake()
+  fullName.vb: Singleton(Of T).Awake()
+  spec.csharp:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton<T>.Awake
+    fullName: Singleton<T>.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton(Of T).Awake
+    fullName: Singleton(Of T).Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Update
+  commentId: M:Global.Singleton`1.Update
+  name: Update()
+  nameWithType: Singleton<T>.Update()
+  fullName: Singleton<T>.Update()
+  nameWithType.vb: Singleton(Of T).Update()
+  fullName.vb: Singleton(Of T).Update()
+  spec.csharp:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton<T>.Update
+    fullName: Singleton<T>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton(Of T).Update
+    fullName: Singleton(Of T).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_TimestampDataSimple.Start*
+  commentId: Overload:Global.Singleton_TimestampDataSimple.Start
+  name: Start
+  nameWithType: Singleton_TimestampDataSimple.Start
+  fullName: Singleton_TimestampDataSimple.Start
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.Init
+  commentId: M:Global.Singleton_Data{Singleton_TimestampDataSimple}.Init
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.Init
+  name: Init()
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.Init()
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.Init()
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).Init()
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).Init()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.Init
+    name: Init
+    nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.Init
+    fullName: Singleton_Data<Singleton_TimestampDataSimple>.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.Init
+    name: Init
+    nameWithType: Singleton_Data(Of Singleton_TimestampDataSimple).Init
+    fullName: Singleton_Data(Of Singleton_TimestampDataSimple).Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_TimestampDataSimple.Init*
+  commentId: Overload:Global.Singleton_TimestampDataSimple.Init
+  name: Init
+  nameWithType: Singleton_TimestampDataSimple.Init
+  fullName: Singleton_TimestampDataSimple.Init
+- uid: Global.Singleton_Data`1.Init
+  commentId: M:Global.Singleton_Data`1.Init
+  name: Init()
+  nameWithType: Singleton_Data<T>.Init()
+  fullName: Singleton_Data<T>.Init()
+  nameWithType.vb: Singleton_Data(Of T).Init()
+  fullName.vb: Singleton_Data(Of T).Init()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.Init
+    name: Init
+    nameWithType: Singleton_Data<T>.Init
+    fullName: Singleton_Data<T>.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.Init
+    name: Init
+    nameWithType: Singleton_Data(Of T).Init
+    fullName: Singleton_Data(Of T).Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.SetValue(System.String,System.String)
+  commentId: M:Global.Singleton_Data{Singleton_TimestampDataSimple}.SetValue(System.String,System.String)
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.SetValue(System.String,System.String)
+  name: SetValue(String, String)
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.SetValue(String, String)
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.SetValue(System.String, System.String)
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).SetValue(String, String)
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).SetValue(System.String, System.String)
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.SetValue
+    fullName: Singleton_Data<Singleton_TimestampDataSimple>.SetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: Singleton_Data(Of Singleton_TimestampDataSimple).SetValue
+    fullName: Singleton_Data(Of Singleton_TimestampDataSimple).SetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_TimestampDataSimple.SetValue*
+  commentId: Overload:Global.Singleton_TimestampDataSimple.SetValue
+  name: SetValue
+  nameWithType: Singleton_TimestampDataSimple.SetValue
+  fullName: Singleton_TimestampDataSimple.SetValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Singleton_Data`1.SetValue(System.String,System.String)
+  commentId: M:Global.Singleton_Data`1.SetValue(System.String,System.String)
+  isExternal: true
+  name: SetValue(String, String)
+  nameWithType: Singleton_Data<T>.SetValue(String, String)
+  fullName: Singleton_Data<T>.SetValue(System.String, System.String)
+  nameWithType.vb: Singleton_Data(Of T).SetValue(String, String)
+  fullName.vb: Singleton_Data(Of T).SetValue(System.String, System.String)
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: Singleton_Data<T>.SetValue
+    fullName: Singleton_Data<T>.SetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: Singleton_Data(Of T).SetValue
+    fullName: Singleton_Data(Of T).SetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data{Singleton_TimestampDataSimple}.NewObject
+  commentId: M:Global.Singleton_Data{Singleton_TimestampDataSimple}.NewObject
+  parent: Global.Singleton_Data{Singleton_TimestampDataSimple}
+  definition: Global.Singleton_Data`1.NewObject
+  name: NewObject()
+  nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.NewObject()
+  fullName: Singleton_Data<Singleton_TimestampDataSimple>.NewObject()
+  nameWithType.vb: Singleton_Data(Of Singleton_TimestampDataSimple).NewObject()
+  fullName.vb: Singleton_Data(Of Singleton_TimestampDataSimple).NewObject()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.NewObject
+    name: NewObject
+    nameWithType: Singleton_Data<Singleton_TimestampDataSimple>.NewObject
+    fullName: Singleton_Data<Singleton_TimestampDataSimple>.NewObject
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.NewObject
+    name: NewObject
+    nameWithType: Singleton_Data(Of Singleton_TimestampDataSimple).NewObject
+    fullName: Singleton_Data(Of Singleton_TimestampDataSimple).NewObject
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_TimestampDataSimple.NewObject*
+  commentId: Overload:Global.Singleton_TimestampDataSimple.NewObject
+  name: NewObject
+  nameWithType: Singleton_TimestampDataSimple.NewObject
+  fullName: Singleton_TimestampDataSimple.NewObject
+- uid: Global.Singleton_Data`1.NewObject
+  commentId: M:Global.Singleton_Data`1.NewObject
+  name: NewObject()
+  nameWithType: Singleton_Data<T>.NewObject()
+  fullName: Singleton_Data<T>.NewObject()
+  nameWithType.vb: Singleton_Data(Of T).NewObject()
+  fullName.vb: Singleton_Data(Of T).NewObject()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.NewObject
+    name: NewObject
+    nameWithType: Singleton_Data<T>.NewObject
+    fullName: Singleton_Data<T>.NewObject
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.NewObject
+    name: NewObject
+    nameWithType: Singleton_Data(Of T).NewObject
+    fullName: Singleton_Data(Of T).NewObject
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

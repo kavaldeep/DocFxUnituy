@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_EpisodeSelectionInstantiator
+  commentId: T:Global.Behaviour_EpisodeSelectionInstantiator
+  id: Behaviour_EpisodeSelectionInstantiator
+  parent: Global
+  children:
+  - Global.Behaviour_EpisodeSelectionInstantiator.ChangeSeasons(System.Int32)
+  - Global.Behaviour_EpisodeSelectionInstantiator.Update
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_EpisodeSelectionInstantiator
+  nameWithType: Behaviour_EpisodeSelectionInstantiator
+  fullName: Behaviour_EpisodeSelectionInstantiator
+  type: Class
+  source:
+    id: Behaviour_EpisodeSelectionInstantiator
+    path: ''
+    startLine: 22285
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_EpisodeSelectionInstantiator : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_EpisodeSelectionInstantiator
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_EpisodeSelectionInstantiator.ChangeSeasons(System.Int32)
+  commentId: M:Global.Behaviour_EpisodeSelectionInstantiator.ChangeSeasons(System.Int32)
+  id: ChangeSeasons(System.Int32)
+  parent: Global.Behaviour_EpisodeSelectionInstantiator
+  langs:
+  - csharp
+  - vb
+  name: ChangeSeasons(Int32)
+  nameWithType: Behaviour_EpisodeSelectionInstantiator.ChangeSeasons(Int32)
+  fullName: Behaviour_EpisodeSelectionInstantiator.ChangeSeasons(System.Int32)
+  type: Method
+  source:
+    id: ChangeSeasons
+    path: ''
+    startLine: 22365
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ChangeSeasons(int seasonActivated)
+    parameters:
+    - id: seasonActivated
+      type: System.Int32
+    content.vb: Public Sub ChangeSeasons(seasonActivated As Integer)
+  overload: Global.Behaviour_EpisodeSelectionInstantiator.ChangeSeasons*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeSelectionInstantiator.Update
+  commentId: M:Global.Behaviour_EpisodeSelectionInstantiator.Update
+  id: Update
+  parent: Global.Behaviour_EpisodeSelectionInstantiator
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: Behaviour_EpisodeSelectionInstantiator.Update()
+  fullName: Behaviour_EpisodeSelectionInstantiator.Update()
+  type: Method
+  source:
+    id: Update
+    path: ''
+    startLine: 22381
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: Global.Behaviour_EpisodeSelectionInstantiator.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_EpisodeSelectionInstantiator.ChangeSeasons*
+  commentId: Overload:Global.Behaviour_EpisodeSelectionInstantiator.ChangeSeasons
+  name: ChangeSeasons
+  nameWithType: Behaviour_EpisodeSelectionInstantiator.ChangeSeasons
+  fullName: Behaviour_EpisodeSelectionInstantiator.ChangeSeasons
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_EpisodeSelectionInstantiator.Update*
+  commentId: Overload:Global.Behaviour_EpisodeSelectionInstantiator.Update
+  name: Update
+  nameWithType: Behaviour_EpisodeSelectionInstantiator.Update
+  fullName: Behaviour_EpisodeSelectionInstantiator.Update

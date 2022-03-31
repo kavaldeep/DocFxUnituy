@@ -1,0 +1,1537 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Singleton_FanartDataSimple
+  commentId: T:Global.Singleton_FanartDataSimple
+  id: Singleton_FanartDataSimple
+  parent: Global
+  children:
+  - Global.Singleton_FanartDataSimple.idEpisode
+  - Global.Singleton_FanartDataSimple.image
+  - Global.Singleton_FanartDataSimple.Init
+  - Global.Singleton_FanartDataSimple.LoadImage
+  - Global.Singleton_FanartDataSimple.name
+  - Global.Singleton_FanartDataSimple.NewObject
+  - Global.Singleton_FanartDataSimple.SetValue(System.String,System.String)
+  - Global.Singleton_FanartDataSimple.Start
+  - Global.Singleton_FanartDataSimple.url
+  langs:
+  - csharp
+  - vb
+  name: Singleton_FanartDataSimple
+  nameWithType: Singleton_FanartDataSimple
+  fullName: Singleton_FanartDataSimple
+  type: Class
+  source:
+    id: Singleton_FanartDataSimple
+    path: ''
+    startLine: 17550
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Singleton_FanartDataSimple : Singleton_Data<Singleton_FanartDataSimple>, Interface_Singleton_Data'
+    content.vb: >-
+      Public Class Singleton_FanartDataSimple
+          Inherits Singleton_Data(Of Singleton_FanartDataSimple)
+          Implements Interface_Singleton_Data
+  inheritance:
+  - System.Object
+  - Global.Singleton{Singleton_FanartDataSimple}
+  - Global.Singleton_Data{Singleton_FanartDataSimple}
+  implements:
+  - Global.Interface_Singleton_Data
+  inheritedMembers:
+  - Global.Singleton_Data{Singleton_FanartDataSimple}.listObject
+  - Global.Singleton_Data{Singleton_FanartDataSimple}.ListObject
+  - Global.Singleton_Data{Singleton_FanartDataSimple}.currentObject
+  - Global.Singleton_Data{Singleton_FanartDataSimple}.path
+  - Global.Singleton_Data{Singleton_FanartDataSimple}.splitData
+  - Global.Singleton_Data{Singleton_FanartDataSimple}.Path
+  - Global.Singleton_Data{Singleton_FanartDataSimple}.OnParsingComplete
+  - Global.Singleton_Data{Singleton_FanartDataSimple}.ParsingComplete(Singleton_Data{Singleton_FanartDataSimple})
+  - Global.Singleton_Data{Singleton_FanartDataSimple}.EnumeratorLoadImage
+  - Global.Singleton{Singleton_FanartDataSimple}.Instance
+  - Global.Singleton{Singleton_FanartDataSimple}.StartCoroutine(System.Collections.IEnumerator)
+  - Global.Singleton{Singleton_FanartDataSimple}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  - Global.Singleton{Singleton_FanartDataSimple}.Awake
+  - Global.Singleton{Singleton_FanartDataSimple}.Update
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Singleton_FanartDataSimple.Start
+  commentId: M:Global.Singleton_FanartDataSimple.Start
+  id: Start
+  parent: Global.Singleton_FanartDataSimple
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: Singleton_FanartDataSimple.Start()
+  fullName: Singleton_FanartDataSimple.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 17564
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override void Start()
+    content.vb: Protected Overrides Sub Start
+  overridden: Global.Singleton{Singleton_FanartDataSimple}.Start
+  overload: Global.Singleton_FanartDataSimple.Start*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Global.Singleton_FanartDataSimple.Init
+  commentId: M:Global.Singleton_FanartDataSimple.Init
+  id: Init
+  parent: Global.Singleton_FanartDataSimple
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: Singleton_FanartDataSimple.Init()
+  fullName: Singleton_FanartDataSimple.Init()
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 17572
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override void Init()
+    content.vb: Protected Overrides Sub Init
+  overridden: Global.Singleton_Data{Singleton_FanartDataSimple}.Init
+  overload: Global.Singleton_FanartDataSimple.Init*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Global.Singleton_FanartDataSimple.name
+  commentId: F:Global.Singleton_FanartDataSimple.name
+  id: name
+  parent: Global.Singleton_FanartDataSimple
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Singleton_FanartDataSimple.name
+  fullName: Singleton_FanartDataSimple.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 17582
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FanartDataSimple.image
+  commentId: F:Global.Singleton_FanartDataSimple.image
+  id: image
+  parent: Global.Singleton_FanartDataSimple
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Singleton_FanartDataSimple.image
+  fullName: Singleton_FanartDataSimple.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 17583
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile image
+    return:
+      type: Global.ImageFile
+    content.vb: Public image As ImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FanartDataSimple.url
+  commentId: F:Global.Singleton_FanartDataSimple.url
+  id: url
+  parent: Global.Singleton_FanartDataSimple
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: Singleton_FanartDataSimple.url
+  fullName: Singleton_FanartDataSimple.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 17584
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string url
+    return:
+      type: System.String
+    content.vb: Public url As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FanartDataSimple.idEpisode
+  commentId: F:Global.Singleton_FanartDataSimple.idEpisode
+  id: idEpisode
+  parent: Global.Singleton_FanartDataSimple
+  langs:
+  - csharp
+  - vb
+  name: idEpisode
+  nameWithType: Singleton_FanartDataSimple.idEpisode
+  fullName: Singleton_FanartDataSimple.idEpisode
+  type: Field
+  source:
+    id: idEpisode
+    path: ''
+    startLine: 17585
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string idEpisode
+    return:
+      type: System.String
+    content.vb: Public idEpisode As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FanartDataSimple.SetValue(System.String,System.String)
+  commentId: M:Global.Singleton_FanartDataSimple.SetValue(System.String,System.String)
+  id: SetValue(System.String,System.String)
+  parent: Global.Singleton_FanartDataSimple
+  langs:
+  - csharp
+  - vb
+  name: SetValue(String, String)
+  nameWithType: Singleton_FanartDataSimple.SetValue(String, String)
+  fullName: Singleton_FanartDataSimple.SetValue(System.String, System.String)
+  type: Method
+  source:
+    id: SetValue
+    path: ''
+    startLine: 17587
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void SetValue(string property, string data)
+    parameters:
+    - id: property
+      type: System.String
+    - id: data
+      type: System.String
+    content.vb: Public Overrides Sub SetValue(property As String, data As String)
+  overridden: Global.Singleton_Data{Singleton_FanartDataSimple}.SetValue(System.String,System.String)
+  overload: Global.Singleton_FanartDataSimple.SetValue*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.Singleton_FanartDataSimple.NewObject
+  commentId: M:Global.Singleton_FanartDataSimple.NewObject
+  id: NewObject
+  parent: Global.Singleton_FanartDataSimple
+  langs:
+  - csharp
+  - vb
+  name: NewObject()
+  nameWithType: Singleton_FanartDataSimple.NewObject()
+  fullName: Singleton_FanartDataSimple.NewObject()
+  type: Method
+  source:
+    id: NewObject
+    path: ''
+    startLine: 17606
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void NewObject()
+    content.vb: Public Overrides Sub NewObject
+  overridden: Global.Singleton_Data{Singleton_FanartDataSimple}.NewObject
+  overload: Global.Singleton_FanartDataSimple.NewObject*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.Singleton_FanartDataSimple.LoadImage
+  commentId: M:Global.Singleton_FanartDataSimple.LoadImage
+  id: LoadImage
+  parent: Global.Singleton_FanartDataSimple
+  langs:
+  - csharp
+  - vb
+  name: LoadImage()
+  nameWithType: Singleton_FanartDataSimple.LoadImage()
+  fullName: Singleton_FanartDataSimple.LoadImage()
+  type: Method
+  source:
+    id: LoadImage
+    path: ''
+    startLine: 17614
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override void LoadImage()
+    content.vb: Protected Overrides Sub LoadImage
+  overridden: Global.Singleton_Data{Singleton_FanartDataSimple}.LoadImage
+  overload: Global.Singleton_FanartDataSimple.LoadImage*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.Singleton{Singleton_FanartDataSimple}
+  commentId: T:Global.Singleton{Singleton_FanartDataSimple}
+  definition: Global.Singleton`1
+  name: Singleton<Singleton_FanartDataSimple>
+  nameWithType: Singleton<Singleton_FanartDataSimple>
+  fullName: Singleton<Singleton_FanartDataSimple>
+  nameWithType.vb: Singleton(Of Singleton_FanartDataSimple)
+  fullName.vb: Singleton(Of Singleton_FanartDataSimple)
+  name.vb: Singleton(Of Singleton_FanartDataSimple)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Singleton_FanartDataSimple
+    name: Singleton_FanartDataSimple
+    nameWithType: Singleton_FanartDataSimple
+    fullName: Singleton_FanartDataSimple
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Singleton_FanartDataSimple
+    name: Singleton_FanartDataSimple
+    nameWithType: Singleton_FanartDataSimple
+    fullName: Singleton_FanartDataSimple
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}
+  commentId: T:Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1
+  name: Singleton_Data<Singleton_FanartDataSimple>
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>
+  fullName: Singleton_Data<Singleton_FanartDataSimple>
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple)
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple)
+  name.vb: Singleton_Data(Of Singleton_FanartDataSimple)
+  spec.csharp:
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Singleton_FanartDataSimple
+    name: Singleton_FanartDataSimple
+    nameWithType: Singleton_FanartDataSimple
+    fullName: Singleton_FanartDataSimple
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Singleton_FanartDataSimple
+    name: Singleton_FanartDataSimple
+    nameWithType: Singleton_FanartDataSimple
+    fullName: Singleton_FanartDataSimple
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Interface_Singleton_Data
+  commentId: T:Global.Interface_Singleton_Data
+  name: Interface_Singleton_Data
+  nameWithType: Interface_Singleton_Data
+  fullName: Interface_Singleton_Data
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.listObject
+  commentId: F:Global.Singleton_Data{Singleton_FanartDataSimple}.listObject
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.listObject
+  name: listObject
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.listObject
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.listObject
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).listObject
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).listObject
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.ListObject
+  commentId: P:Global.Singleton_Data{Singleton_FanartDataSimple}.ListObject
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.ListObject
+  name: ListObject
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.ListObject
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.ListObject
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).ListObject
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).ListObject
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.currentObject
+  commentId: F:Global.Singleton_Data{Singleton_FanartDataSimple}.currentObject
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.currentObject
+  name: currentObject
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.currentObject
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.currentObject
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).currentObject
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).currentObject
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.path
+  commentId: F:Global.Singleton_Data{Singleton_FanartDataSimple}.path
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.path
+  name: path
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.path
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.path
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).path
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).path
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.splitData
+  commentId: F:Global.Singleton_Data{Singleton_FanartDataSimple}.splitData
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.splitData
+  name: splitData
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.splitData
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.splitData
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).splitData
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).splitData
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.Path
+  commentId: P:Global.Singleton_Data{Singleton_FanartDataSimple}.Path
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.Path
+  name: Path
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.Path
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.Path
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).Path
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).Path
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.OnParsingComplete
+  commentId: E:Global.Singleton_Data{Singleton_FanartDataSimple}.OnParsingComplete
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.OnParsingComplete
+  name: OnParsingComplete
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.OnParsingComplete
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.OnParsingComplete
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).OnParsingComplete
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).OnParsingComplete
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.ParsingComplete(Singleton_Data{Singleton_FanartDataSimple})
+  commentId: M:Global.Singleton_Data{Singleton_FanartDataSimple}.ParsingComplete(Singleton_Data{Singleton_FanartDataSimple})
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+  name: ParsingComplete(Singleton_Data<Singleton_FanartDataSimple>)
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.ParsingComplete(Singleton_Data<Singleton_FanartDataSimple>)
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.ParsingComplete(Singleton_Data<Singleton_FanartDataSimple>)
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).ParsingComplete(Singleton_Data(Of Singleton_FanartDataSimple))
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).ParsingComplete(Singleton_Data(Of Singleton_FanartDataSimple))
+  name.vb: ParsingComplete(Singleton_Data(Of Singleton_FanartDataSimple))
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+    name: ParsingComplete
+    nameWithType: Singleton_Data<Singleton_FanartDataSimple>.ParsingComplete
+    fullName: Singleton_Data<Singleton_FanartDataSimple>.ParsingComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Singleton_FanartDataSimple
+    name: Singleton_FanartDataSimple
+    nameWithType: Singleton_FanartDataSimple
+    fullName: Singleton_FanartDataSimple
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+    name: ParsingComplete
+    nameWithType: Singleton_Data(Of Singleton_FanartDataSimple).ParsingComplete
+    fullName: Singleton_Data(Of Singleton_FanartDataSimple).ParsingComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Singleton_FanartDataSimple
+    name: Singleton_FanartDataSimple
+    nameWithType: Singleton_FanartDataSimple
+    fullName: Singleton_FanartDataSimple
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.EnumeratorLoadImage
+  commentId: M:Global.Singleton_Data{Singleton_FanartDataSimple}.EnumeratorLoadImage
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.EnumeratorLoadImage
+  name: EnumeratorLoadImage()
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.EnumeratorLoadImage()
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.EnumeratorLoadImage()
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).EnumeratorLoadImage()
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).EnumeratorLoadImage()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.EnumeratorLoadImage
+    name: EnumeratorLoadImage
+    nameWithType: Singleton_Data<Singleton_FanartDataSimple>.EnumeratorLoadImage
+    fullName: Singleton_Data<Singleton_FanartDataSimple>.EnumeratorLoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.EnumeratorLoadImage
+    name: EnumeratorLoadImage
+    nameWithType: Singleton_Data(Of Singleton_FanartDataSimple).EnumeratorLoadImage
+    fullName: Singleton_Data(Of Singleton_FanartDataSimple).EnumeratorLoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_FanartDataSimple}.Instance
+  commentId: P:Global.Singleton{Singleton_FanartDataSimple}.Instance
+  parent: Global.Singleton{Singleton_FanartDataSimple}
+  definition: Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<Singleton_FanartDataSimple>.Instance
+  fullName: Singleton<Singleton_FanartDataSimple>.Instance
+  nameWithType.vb: Singleton(Of Singleton_FanartDataSimple).Instance
+  fullName.vb: Singleton(Of Singleton_FanartDataSimple).Instance
+- uid: Global.Singleton{Singleton_FanartDataSimple}.StartCoroutine(System.Collections.IEnumerator)
+  commentId: M:Global.Singleton{Singleton_FanartDataSimple}.StartCoroutine(System.Collections.IEnumerator)
+  parent: Global.Singleton{Singleton_FanartDataSimple}
+  definition: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  name: StartCoroutine(IEnumerator)
+  nameWithType: Singleton<Singleton_FanartDataSimple>.StartCoroutine(IEnumerator)
+  fullName: Singleton<Singleton_FanartDataSimple>.StartCoroutine(System.Collections.IEnumerator)
+  nameWithType.vb: Singleton(Of Singleton_FanartDataSimple).StartCoroutine(IEnumerator)
+  fullName.vb: Singleton(Of Singleton_FanartDataSimple).StartCoroutine(System.Collections.IEnumerator)
+  spec.csharp:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton<Singleton_FanartDataSimple>.StartCoroutine
+    fullName: Singleton<Singleton_FanartDataSimple>.StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton(Of Singleton_FanartDataSimple).StartCoroutine
+    fullName: Singleton(Of Singleton_FanartDataSimple).StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_FanartDataSimple}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Global.Singleton{Singleton_FanartDataSimple}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  parent: Global.Singleton{Singleton_FanartDataSimple}
+  definition: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  name: AddCallbacks(Boolean, Boolean, Boolean)
+  nameWithType: Singleton<Singleton_FanartDataSimple>.AddCallbacks(Boolean, Boolean, Boolean)
+  fullName: Singleton<Singleton_FanartDataSimple>.AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Singleton(Of Singleton_FanartDataSimple).AddCallbacks(Boolean, Boolean, Boolean)
+  fullName.vb: Singleton(Of Singleton_FanartDataSimple).AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton<Singleton_FanartDataSimple>.AddCallbacks
+    fullName: Singleton<Singleton_FanartDataSimple>.AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton(Of Singleton_FanartDataSimple).AddCallbacks
+    fullName: Singleton(Of Singleton_FanartDataSimple).AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_FanartDataSimple}.Awake
+  commentId: M:Global.Singleton{Singleton_FanartDataSimple}.Awake
+  parent: Global.Singleton{Singleton_FanartDataSimple}
+  definition: Global.Singleton`1.Awake
+  name: Awake()
+  nameWithType: Singleton<Singleton_FanartDataSimple>.Awake()
+  fullName: Singleton<Singleton_FanartDataSimple>.Awake()
+  nameWithType.vb: Singleton(Of Singleton_FanartDataSimple).Awake()
+  fullName.vb: Singleton(Of Singleton_FanartDataSimple).Awake()
+  spec.csharp:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton<Singleton_FanartDataSimple>.Awake
+    fullName: Singleton<Singleton_FanartDataSimple>.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton(Of Singleton_FanartDataSimple).Awake
+    fullName: Singleton(Of Singleton_FanartDataSimple).Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_FanartDataSimple}.Update
+  commentId: M:Global.Singleton{Singleton_FanartDataSimple}.Update
+  parent: Global.Singleton{Singleton_FanartDataSimple}
+  definition: Global.Singleton`1.Update
+  name: Update()
+  nameWithType: Singleton<Singleton_FanartDataSimple>.Update()
+  fullName: Singleton<Singleton_FanartDataSimple>.Update()
+  nameWithType.vb: Singleton(Of Singleton_FanartDataSimple).Update()
+  fullName.vb: Singleton(Of Singleton_FanartDataSimple).Update()
+  spec.csharp:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton<Singleton_FanartDataSimple>.Update
+    fullName: Singleton<Singleton_FanartDataSimple>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton(Of Singleton_FanartDataSimple).Update
+    fullName: Singleton(Of Singleton_FanartDataSimple).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Singleton`1
+  commentId: T:Global.Singleton`1
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: Singleton(Of T)
+  name.vb: Singleton(Of T)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data`1
+  commentId: T:Global.Singleton_Data`1
+  name: Singleton_Data<T>
+  nameWithType: Singleton_Data<T>
+  fullName: Singleton_Data<T>
+  nameWithType.vb: Singleton_Data(Of T)
+  fullName.vb: Singleton_Data(Of T)
+  name.vb: Singleton_Data(Of T)
+  spec.csharp:
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data`1.listObject
+  commentId: F:Global.Singleton_Data`1.listObject
+  name: listObject
+  nameWithType: Singleton_Data<T>.listObject
+  fullName: Singleton_Data<T>.listObject
+  nameWithType.vb: Singleton_Data(Of T).listObject
+  fullName.vb: Singleton_Data(Of T).listObject
+- uid: Global.Singleton_Data`1.ListObject
+  commentId: P:Global.Singleton_Data`1.ListObject
+  name: ListObject
+  nameWithType: Singleton_Data<T>.ListObject
+  fullName: Singleton_Data<T>.ListObject
+  nameWithType.vb: Singleton_Data(Of T).ListObject
+  fullName.vb: Singleton_Data(Of T).ListObject
+- uid: Global.Singleton_Data`1.currentObject
+  commentId: F:Global.Singleton_Data`1.currentObject
+  name: currentObject
+  nameWithType: Singleton_Data<T>.currentObject
+  fullName: Singleton_Data<T>.currentObject
+  nameWithType.vb: Singleton_Data(Of T).currentObject
+  fullName.vb: Singleton_Data(Of T).currentObject
+- uid: Global.Singleton_Data`1.path
+  commentId: F:Global.Singleton_Data`1.path
+  name: path
+  nameWithType: Singleton_Data<T>.path
+  fullName: Singleton_Data<T>.path
+  nameWithType.vb: Singleton_Data(Of T).path
+  fullName.vb: Singleton_Data(Of T).path
+- uid: Global.Singleton_Data`1.splitData
+  commentId: F:Global.Singleton_Data`1.splitData
+  name: splitData
+  nameWithType: Singleton_Data<T>.splitData
+  fullName: Singleton_Data<T>.splitData
+  nameWithType.vb: Singleton_Data(Of T).splitData
+  fullName.vb: Singleton_Data(Of T).splitData
+- uid: Global.Singleton_Data`1.Path
+  commentId: P:Global.Singleton_Data`1.Path
+  name: Path
+  nameWithType: Singleton_Data<T>.Path
+  fullName: Singleton_Data<T>.Path
+  nameWithType.vb: Singleton_Data(Of T).Path
+  fullName.vb: Singleton_Data(Of T).Path
+- uid: Global.Singleton_Data`1.OnParsingComplete
+  commentId: E:Global.Singleton_Data`1.OnParsingComplete
+  name: OnParsingComplete
+  nameWithType: Singleton_Data<T>.OnParsingComplete
+  fullName: Singleton_Data<T>.OnParsingComplete
+  nameWithType.vb: Singleton_Data(Of T).OnParsingComplete
+  fullName.vb: Singleton_Data(Of T).OnParsingComplete
+- uid: Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+  commentId: M:Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+  name: ParsingComplete(Singleton_Data<T>)
+  nameWithType: Singleton_Data<T>.ParsingComplete(Singleton_Data<T>)
+  fullName: Singleton_Data<T>.ParsingComplete(Singleton_Data<T>)
+  nameWithType.vb: Singleton_Data(Of T).ParsingComplete(Singleton_Data(Of T))
+  fullName.vb: Singleton_Data(Of T).ParsingComplete(Singleton_Data(Of T))
+  name.vb: ParsingComplete(Singleton_Data(Of T))
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+    name: ParsingComplete
+    nameWithType: Singleton_Data<T>.ParsingComplete
+    fullName: Singleton_Data<T>.ParsingComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.ParsingComplete(Singleton_Data{`0})
+    name: ParsingComplete
+    nameWithType: Singleton_Data(Of T).ParsingComplete
+    fullName: Singleton_Data(Of T).ParsingComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Singleton_Data`1
+    name: Singleton_Data
+    nameWithType: Singleton_Data
+    fullName: Singleton_Data
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data`1.EnumeratorLoadImage
+  commentId: M:Global.Singleton_Data`1.EnumeratorLoadImage
+  name: EnumeratorLoadImage()
+  nameWithType: Singleton_Data<T>.EnumeratorLoadImage()
+  fullName: Singleton_Data<T>.EnumeratorLoadImage()
+  nameWithType.vb: Singleton_Data(Of T).EnumeratorLoadImage()
+  fullName.vb: Singleton_Data(Of T).EnumeratorLoadImage()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.EnumeratorLoadImage
+    name: EnumeratorLoadImage
+    nameWithType: Singleton_Data<T>.EnumeratorLoadImage
+    fullName: Singleton_Data<T>.EnumeratorLoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.EnumeratorLoadImage
+    name: EnumeratorLoadImage
+    nameWithType: Singleton_Data(Of T).EnumeratorLoadImage
+    fullName: Singleton_Data(Of T).EnumeratorLoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Instance
+  commentId: P:Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<T>.Instance
+  fullName: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+  fullName.vb: Singleton(Of T).Instance
+- uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  commentId: M:Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  isExternal: true
+  name: StartCoroutine(IEnumerator)
+  nameWithType: Singleton<T>.StartCoroutine(IEnumerator)
+  fullName: Singleton<T>.StartCoroutine(System.Collections.IEnumerator)
+  nameWithType.vb: Singleton(Of T).StartCoroutine(IEnumerator)
+  fullName.vb: Singleton(Of T).StartCoroutine(System.Collections.IEnumerator)
+  spec.csharp:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton<T>.StartCoroutine
+    fullName: Singleton<T>.StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton(Of T).StartCoroutine
+    fullName: Singleton(Of T).StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  isExternal: true
+  name: AddCallbacks(Boolean, Boolean, Boolean)
+  nameWithType: Singleton<T>.AddCallbacks(Boolean, Boolean, Boolean)
+  fullName: Singleton<T>.AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Singleton(Of T).AddCallbacks(Boolean, Boolean, Boolean)
+  fullName.vb: Singleton(Of T).AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton<T>.AddCallbacks
+    fullName: Singleton<T>.AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton(Of T).AddCallbacks
+    fullName: Singleton(Of T).AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Awake
+  commentId: M:Global.Singleton`1.Awake
+  name: Awake()
+  nameWithType: Singleton<T>.Awake()
+  fullName: Singleton<T>.Awake()
+  nameWithType.vb: Singleton(Of T).Awake()
+  fullName.vb: Singleton(Of T).Awake()
+  spec.csharp:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton<T>.Awake
+    fullName: Singleton<T>.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton(Of T).Awake
+    fullName: Singleton(Of T).Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Update
+  commentId: M:Global.Singleton`1.Update
+  name: Update()
+  nameWithType: Singleton<T>.Update()
+  fullName: Singleton<T>.Update()
+  nameWithType.vb: Singleton(Of T).Update()
+  fullName.vb: Singleton(Of T).Update()
+  spec.csharp:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton<T>.Update
+    fullName: Singleton<T>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton(Of T).Update
+    fullName: Singleton(Of T).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_FanartDataSimple}.Start
+  commentId: M:Global.Singleton{Singleton_FanartDataSimple}.Start
+  parent: Global.Singleton{Singleton_FanartDataSimple}
+  definition: Global.Singleton`1.Start
+  name: Start()
+  nameWithType: Singleton<Singleton_FanartDataSimple>.Start()
+  fullName: Singleton<Singleton_FanartDataSimple>.Start()
+  nameWithType.vb: Singleton(Of Singleton_FanartDataSimple).Start()
+  fullName.vb: Singleton(Of Singleton_FanartDataSimple).Start()
+  spec.csharp:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton<Singleton_FanartDataSimple>.Start
+    fullName: Singleton<Singleton_FanartDataSimple>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton(Of Singleton_FanartDataSimple).Start
+    fullName: Singleton(Of Singleton_FanartDataSimple).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_FanartDataSimple.Start*
+  commentId: Overload:Global.Singleton_FanartDataSimple.Start
+  name: Start
+  nameWithType: Singleton_FanartDataSimple.Start
+  fullName: Singleton_FanartDataSimple.Start
+- uid: Global.Singleton`1.Start
+  commentId: M:Global.Singleton`1.Start
+  name: Start()
+  nameWithType: Singleton<T>.Start()
+  fullName: Singleton<T>.Start()
+  nameWithType.vb: Singleton(Of T).Start()
+  fullName.vb: Singleton(Of T).Start()
+  spec.csharp:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton<T>.Start
+    fullName: Singleton<T>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton(Of T).Start
+    fullName: Singleton(Of T).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.Init
+  commentId: M:Global.Singleton_Data{Singleton_FanartDataSimple}.Init
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.Init
+  name: Init()
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.Init()
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.Init()
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).Init()
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).Init()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.Init
+    name: Init
+    nameWithType: Singleton_Data<Singleton_FanartDataSimple>.Init
+    fullName: Singleton_Data<Singleton_FanartDataSimple>.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.Init
+    name: Init
+    nameWithType: Singleton_Data(Of Singleton_FanartDataSimple).Init
+    fullName: Singleton_Data(Of Singleton_FanartDataSimple).Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_FanartDataSimple.Init*
+  commentId: Overload:Global.Singleton_FanartDataSimple.Init
+  name: Init
+  nameWithType: Singleton_FanartDataSimple.Init
+  fullName: Singleton_FanartDataSimple.Init
+- uid: Global.Singleton_Data`1.Init
+  commentId: M:Global.Singleton_Data`1.Init
+  name: Init()
+  nameWithType: Singleton_Data<T>.Init()
+  fullName: Singleton_Data<T>.Init()
+  nameWithType.vb: Singleton_Data(Of T).Init()
+  fullName.vb: Singleton_Data(Of T).Init()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.Init
+    name: Init
+    nameWithType: Singleton_Data<T>.Init
+    fullName: Singleton_Data<T>.Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.Init
+    name: Init
+    nameWithType: Singleton_Data(Of T).Init
+    fullName: Singleton_Data(Of T).Init
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.SetValue(System.String,System.String)
+  commentId: M:Global.Singleton_Data{Singleton_FanartDataSimple}.SetValue(System.String,System.String)
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.SetValue(System.String,System.String)
+  name: SetValue(String, String)
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.SetValue(String, String)
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.SetValue(System.String, System.String)
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).SetValue(String, String)
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).SetValue(System.String, System.String)
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: Singleton_Data<Singleton_FanartDataSimple>.SetValue
+    fullName: Singleton_Data<Singleton_FanartDataSimple>.SetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: Singleton_Data(Of Singleton_FanartDataSimple).SetValue
+    fullName: Singleton_Data(Of Singleton_FanartDataSimple).SetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_FanartDataSimple.SetValue*
+  commentId: Overload:Global.Singleton_FanartDataSimple.SetValue
+  name: SetValue
+  nameWithType: Singleton_FanartDataSimple.SetValue
+  fullName: Singleton_FanartDataSimple.SetValue
+- uid: Global.Singleton_Data`1.SetValue(System.String,System.String)
+  commentId: M:Global.Singleton_Data`1.SetValue(System.String,System.String)
+  isExternal: true
+  name: SetValue(String, String)
+  nameWithType: Singleton_Data<T>.SetValue(String, String)
+  fullName: Singleton_Data<T>.SetValue(System.String, System.String)
+  nameWithType.vb: Singleton_Data(Of T).SetValue(String, String)
+  fullName.vb: Singleton_Data(Of T).SetValue(System.String, System.String)
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: Singleton_Data<T>.SetValue
+    fullName: Singleton_Data<T>.SetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: Singleton_Data(Of T).SetValue
+    fullName: Singleton_Data(Of T).SetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.NewObject
+  commentId: M:Global.Singleton_Data{Singleton_FanartDataSimple}.NewObject
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.NewObject
+  name: NewObject()
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.NewObject()
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.NewObject()
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).NewObject()
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).NewObject()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.NewObject
+    name: NewObject
+    nameWithType: Singleton_Data<Singleton_FanartDataSimple>.NewObject
+    fullName: Singleton_Data<Singleton_FanartDataSimple>.NewObject
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.NewObject
+    name: NewObject
+    nameWithType: Singleton_Data(Of Singleton_FanartDataSimple).NewObject
+    fullName: Singleton_Data(Of Singleton_FanartDataSimple).NewObject
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_FanartDataSimple.NewObject*
+  commentId: Overload:Global.Singleton_FanartDataSimple.NewObject
+  name: NewObject
+  nameWithType: Singleton_FanartDataSimple.NewObject
+  fullName: Singleton_FanartDataSimple.NewObject
+- uid: Global.Singleton_Data`1.NewObject
+  commentId: M:Global.Singleton_Data`1.NewObject
+  name: NewObject()
+  nameWithType: Singleton_Data<T>.NewObject()
+  fullName: Singleton_Data<T>.NewObject()
+  nameWithType.vb: Singleton_Data(Of T).NewObject()
+  fullName.vb: Singleton_Data(Of T).NewObject()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.NewObject
+    name: NewObject
+    nameWithType: Singleton_Data<T>.NewObject
+    fullName: Singleton_Data<T>.NewObject
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.NewObject
+    name: NewObject
+    nameWithType: Singleton_Data(Of T).NewObject
+    fullName: Singleton_Data(Of T).NewObject
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_Data{Singleton_FanartDataSimple}.LoadImage
+  commentId: M:Global.Singleton_Data{Singleton_FanartDataSimple}.LoadImage
+  parent: Global.Singleton_Data{Singleton_FanartDataSimple}
+  definition: Global.Singleton_Data`1.LoadImage
+  name: LoadImage()
+  nameWithType: Singleton_Data<Singleton_FanartDataSimple>.LoadImage()
+  fullName: Singleton_Data<Singleton_FanartDataSimple>.LoadImage()
+  nameWithType.vb: Singleton_Data(Of Singleton_FanartDataSimple).LoadImage()
+  fullName.vb: Singleton_Data(Of Singleton_FanartDataSimple).LoadImage()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.LoadImage
+    name: LoadImage
+    nameWithType: Singleton_Data<Singleton_FanartDataSimple>.LoadImage
+    fullName: Singleton_Data<Singleton_FanartDataSimple>.LoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.LoadImage
+    name: LoadImage
+    nameWithType: Singleton_Data(Of Singleton_FanartDataSimple).LoadImage
+    fullName: Singleton_Data(Of Singleton_FanartDataSimple).LoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_FanartDataSimple.LoadImage*
+  commentId: Overload:Global.Singleton_FanartDataSimple.LoadImage
+  name: LoadImage
+  nameWithType: Singleton_FanartDataSimple.LoadImage
+  fullName: Singleton_FanartDataSimple.LoadImage
+- uid: Global.Singleton_Data`1.LoadImage
+  commentId: M:Global.Singleton_Data`1.LoadImage
+  name: LoadImage()
+  nameWithType: Singleton_Data<T>.LoadImage()
+  fullName: Singleton_Data<T>.LoadImage()
+  nameWithType.vb: Singleton_Data(Of T).LoadImage()
+  fullName.vb: Singleton_Data(Of T).LoadImage()
+  spec.csharp:
+  - uid: Global.Singleton_Data`1.LoadImage
+    name: LoadImage
+    nameWithType: Singleton_Data<T>.LoadImage
+    fullName: Singleton_Data<T>.LoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton_Data`1.LoadImage
+    name: LoadImage
+    nameWithType: Singleton_Data(Of T).LoadImage
+    fullName: Singleton_Data(Of T).LoadImage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

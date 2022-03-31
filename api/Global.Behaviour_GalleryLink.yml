@@ -1,0 +1,381 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_GalleryLink
+  commentId: T:Global.Behaviour_GalleryLink
+  id: Behaviour_GalleryLink
+  parent: Global
+  children:
+  - Global.Behaviour_GalleryLink.Display
+  - Global.Behaviour_GalleryLink.Download
+  - Global.Behaviour_GalleryLink.image
+  - Global.Behaviour_GalleryLink.mytex
+  - Global.Behaviour_GalleryLink.PickImage(System.Int32,System.Action{Texture2D})
+  - Global.Behaviour_GalleryLink.PictureProfileDatabaseChange
+  - Global.Behaviour_GalleryLink.sourceRect
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_GalleryLink
+  nameWithType: Behaviour_GalleryLink
+  fullName: Behaviour_GalleryLink
+  type: Class
+  source:
+    id: Behaviour_GalleryLink
+    path: ''
+    startLine: 28206
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_GalleryLink : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_GalleryLink
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_GalleryLink.mytex
+  commentId: F:Global.Behaviour_GalleryLink.mytex
+  id: mytex
+  parent: Global.Behaviour_GalleryLink
+  langs:
+  - csharp
+  - vb
+  name: mytex
+  nameWithType: Behaviour_GalleryLink.mytex
+  fullName: Behaviour_GalleryLink.mytex
+  type: Field
+  source:
+    id: mytex
+    path: ''
+    startLine: 28210
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture2D mytex
+    return:
+      type: Global.Texture2D
+    content.vb: Public mytex As Texture2D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GalleryLink.image
+  commentId: F:Global.Behaviour_GalleryLink.image
+  id: image
+  parent: Global.Behaviour_GalleryLink
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Behaviour_GalleryLink.image
+  fullName: Behaviour_GalleryLink.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 28211
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RawImage image
+    return:
+      type: Global.RawImage
+    content.vb: Public image As RawImage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GalleryLink.sourceRect
+  commentId: F:Global.Behaviour_GalleryLink.sourceRect
+  id: sourceRect
+  parent: Global.Behaviour_GalleryLink
+  langs:
+  - csharp
+  - vb
+  name: sourceRect
+  nameWithType: Behaviour_GalleryLink.sourceRect
+  fullName: Behaviour_GalleryLink.sourceRect
+  type: Field
+  source:
+    id: sourceRect
+    path: ''
+    startLine: 28212
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Rect sourceRect
+    return:
+      type: Global.Rect
+    content.vb: Public sourceRect As Rect
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GalleryLink.PickImage(System.Int32,System.Action{Texture2D})
+  commentId: M:Global.Behaviour_GalleryLink.PickImage(System.Int32,System.Action{Texture2D})
+  id: PickImage(System.Int32,System.Action{Texture2D})
+  parent: Global.Behaviour_GalleryLink
+  langs:
+  - csharp
+  - vb
+  name: PickImage(Int32, Action<Texture2D>)
+  nameWithType: Behaviour_GalleryLink.PickImage(Int32, Action<Texture2D>)
+  fullName: Behaviour_GalleryLink.PickImage(System.Int32, System.Action<Texture2D>)
+  type: Method
+  source:
+    id: PickImage
+    path: ''
+    startLine: 28216
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PickImage(int maxSize, Action<Texture2D> onPickedCallback = null)
+    parameters:
+    - id: maxSize
+      type: System.Int32
+    - id: onPickedCallback
+      type: System.Action{Texture2D}
+    content.vb: Public Sub PickImage(maxSize As Integer, onPickedCallback As Action(Of Texture2D) = Nothing)
+  overload: Global.Behaviour_GalleryLink.PickImage*
+  nameWithType.vb: Behaviour_GalleryLink.PickImage(Int32, Action(Of Texture2D))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Behaviour_GalleryLink.PickImage(System.Int32, System.Action(Of Texture2D))
+  name.vb: PickImage(Int32, Action(Of Texture2D))
+- uid: Global.Behaviour_GalleryLink.PictureProfileDatabaseChange
+  commentId: M:Global.Behaviour_GalleryLink.PictureProfileDatabaseChange
+  id: PictureProfileDatabaseChange
+  parent: Global.Behaviour_GalleryLink
+  langs:
+  - csharp
+  - vb
+  name: PictureProfileDatabaseChange()
+  nameWithType: Behaviour_GalleryLink.PictureProfileDatabaseChange()
+  fullName: Behaviour_GalleryLink.PictureProfileDatabaseChange()
+  type: Method
+  source:
+    id: PictureProfileDatabaseChange
+    path: ''
+    startLine: 28250
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PictureProfileDatabaseChange()
+    content.vb: Public Sub PictureProfileDatabaseChange
+  overload: Global.Behaviour_GalleryLink.PictureProfileDatabaseChange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GalleryLink.Download
+  commentId: M:Global.Behaviour_GalleryLink.Download
+  id: Download
+  parent: Global.Behaviour_GalleryLink
+  langs:
+  - csharp
+  - vb
+  name: Download()
+  nameWithType: Behaviour_GalleryLink.Download()
+  fullName: Behaviour_GalleryLink.Download()
+  type: Method
+  source:
+    id: Download
+    path: ''
+    startLine: 28260
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Download()
+    content.vb: Public Sub Download
+  overload: Global.Behaviour_GalleryLink.Download*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GalleryLink.Display
+  commentId: M:Global.Behaviour_GalleryLink.Display
+  id: Display
+  parent: Global.Behaviour_GalleryLink
+  langs:
+  - csharp
+  - vb
+  name: Display()
+  nameWithType: Behaviour_GalleryLink.Display()
+  fullName: Behaviour_GalleryLink.Display()
+  type: Method
+  source:
+    id: Display
+    path: ''
+    startLine: 28266
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Display()
+    content.vb: Public Sub Display
+  overload: Global.Behaviour_GalleryLink.Display*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: Global.RawImage
+  isExternal: true
+  name: RawImage
+  nameWithType: RawImage
+  fullName: RawImage
+- uid: Global.Rect
+  commentId: '!:Global.Rect'
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect
+- uid: Global.Behaviour_GalleryLink.PickImage*
+  commentId: Overload:Global.Behaviour_GalleryLink.PickImage
+  name: PickImage
+  nameWithType: Behaviour_GalleryLink.PickImage
+  fullName: Behaviour_GalleryLink.PickImage
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Action{Texture2D}
+  commentId: T:System.Action{Texture2D}
+  parent: System
+  definition: System.Action`1
+  name: Action<Texture2D>
+  nameWithType: Action<Texture2D>
+  fullName: System.Action<Texture2D>
+  nameWithType.vb: Action(Of Texture2D)
+  fullName.vb: System.Action(Of Texture2D)
+  name.vb: Action(Of Texture2D)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Texture2D
+    name: Texture2D
+    nameWithType: Texture2D
+    fullName: Texture2D
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Texture2D
+    name: Texture2D
+    nameWithType: Texture2D
+    fullName: Texture2D
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Behaviour_GalleryLink.PictureProfileDatabaseChange*
+  commentId: Overload:Global.Behaviour_GalleryLink.PictureProfileDatabaseChange
+  name: PictureProfileDatabaseChange
+  nameWithType: Behaviour_GalleryLink.PictureProfileDatabaseChange
+  fullName: Behaviour_GalleryLink.PictureProfileDatabaseChange
+- uid: Global.Behaviour_GalleryLink.Download*
+  commentId: Overload:Global.Behaviour_GalleryLink.Download
+  name: Download
+  nameWithType: Behaviour_GalleryLink.Download
+  fullName: Behaviour_GalleryLink.Download
+- uid: Global.Behaviour_GalleryLink.Display*
+  commentId: Overload:Global.Behaviour_GalleryLink.Display
+  name: Display
+  nameWithType: Behaviour_GalleryLink.Display
+  fullName: Behaviour_GalleryLink.Display

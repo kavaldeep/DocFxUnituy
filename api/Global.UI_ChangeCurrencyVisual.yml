@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UI_ChangeCurrencyVisual
+  commentId: T:Global.UI_ChangeCurrencyVisual
+  id: UI_ChangeCurrencyVisual
+  parent: Global
+  children:
+  - Global.UI_ChangeCurrencyVisual.typeOfCurrency
+  - Global.UI_ChangeCurrencyVisual.UpdateText
+  - Global.UI_ChangeCurrencyVisual.updateVisual(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: UI_ChangeCurrencyVisual
+  nameWithType: UI_ChangeCurrencyVisual
+  fullName: UI_ChangeCurrencyVisual
+  type: Class
+  source:
+    id: UI_ChangeCurrencyVisual
+    path: ''
+    startLine: 14710
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UI_ChangeCurrencyVisual : MonoBehaviour'
+    content.vb: >-
+      Public Class UI_ChangeCurrencyVisual
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UI_ChangeCurrencyVisual.typeOfCurrency
+  commentId: F:Global.UI_ChangeCurrencyVisual.typeOfCurrency
+  id: typeOfCurrency
+  parent: Global.UI_ChangeCurrencyVisual
+  langs:
+  - csharp
+  - vb
+  name: typeOfCurrency
+  nameWithType: UI_ChangeCurrencyVisual.typeOfCurrency
+  fullName: UI_ChangeCurrencyVisual.typeOfCurrency
+  type: Field
+  source:
+    id: typeOfCurrency
+    path: ''
+    startLine: 14714
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int typeOfCurrency
+    return:
+      type: System.Int32
+    content.vb: Public typeOfCurrency As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_ChangeCurrencyVisual.updateVisual(System.Int32,System.Int32)
+  commentId: M:Global.UI_ChangeCurrencyVisual.updateVisual(System.Int32,System.Int32)
+  id: updateVisual(System.Int32,System.Int32)
+  parent: Global.UI_ChangeCurrencyVisual
+  langs:
+  - csharp
+  - vb
+  name: updateVisual(Int32, Int32)
+  nameWithType: UI_ChangeCurrencyVisual.updateVisual(Int32, Int32)
+  fullName: UI_ChangeCurrencyVisual.updateVisual(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: updateVisual
+    path: ''
+    startLine: 14734
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void updateVisual(int currencyToUpdate, int goalCurrencyNumber)
+    parameters:
+    - id: currencyToUpdate
+      type: System.Int32
+    - id: goalCurrencyNumber
+      type: System.Int32
+    content.vb: Public Sub updateVisual(currencyToUpdate As Integer, goalCurrencyNumber As Integer)
+  overload: Global.UI_ChangeCurrencyVisual.updateVisual*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_ChangeCurrencyVisual.UpdateText
+  commentId: M:Global.UI_ChangeCurrencyVisual.UpdateText
+  id: UpdateText
+  parent: Global.UI_ChangeCurrencyVisual
+  langs:
+  - csharp
+  - vb
+  name: UpdateText()
+  nameWithType: UI_ChangeCurrencyVisual.UpdateText()
+  fullName: UI_ChangeCurrencyVisual.UpdateText()
+  type: Method
+  source:
+    id: UpdateText
+    path: ''
+    startLine: 14765
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UpdateText()
+    content.vb: Public Sub UpdateText
+  overload: Global.UI_ChangeCurrencyVisual.UpdateText*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.UI_ChangeCurrencyVisual.updateVisual*
+  commentId: Overload:Global.UI_ChangeCurrencyVisual.updateVisual
+  name: updateVisual
+  nameWithType: UI_ChangeCurrencyVisual.updateVisual
+  fullName: UI_ChangeCurrencyVisual.updateVisual
+- uid: Global.UI_ChangeCurrencyVisual.UpdateText*
+  commentId: Overload:Global.UI_ChangeCurrencyVisual.UpdateText
+  name: UpdateText
+  nameWithType: UI_ChangeCurrencyVisual.UpdateText
+  fullName: UI_ChangeCurrencyVisual.UpdateText

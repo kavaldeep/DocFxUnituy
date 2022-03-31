@@ -1,0 +1,742 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Singleton_ShopData
+  commentId: T:Global.Singleton_ShopData
+  id: Singleton_ShopData
+  parent: Global
+  children:
+  - Global.Singleton_ShopData.Initialize(System.String)
+  - Global.Singleton_ShopData.loadFolderPath
+  - Global.Singleton_ShopData.onConvertingComplete
+  - Global.Singleton_ShopData.shop
+  - Global.Singleton_ShopData.Start
+  langs:
+  - csharp
+  - vb
+  name: Singleton_ShopData
+  nameWithType: Singleton_ShopData
+  fullName: Singleton_ShopData
+  type: Class
+  source:
+    id: Singleton_ShopData
+    path: ''
+    startLine: 24205
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  example: []
+  syntax:
+    content: 'public class Singleton_ShopData : Singleton<Singleton_ShopData>'
+    content.vb: >-
+      Public Class Singleton_ShopData
+          Inherits Singleton(Of Singleton_ShopData)
+  inheritance:
+  - System.Object
+  - Global.Singleton{Singleton_ShopData}
+  inheritedMembers:
+  - Global.Singleton{Singleton_ShopData}.Instance
+  - Global.Singleton{Singleton_ShopData}.StartCoroutine(System.Collections.IEnumerator)
+  - Global.Singleton{Singleton_ShopData}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  - Global.Singleton{Singleton_ShopData}.Awake
+  - Global.Singleton{Singleton_ShopData}.Update
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Singleton_ShopData.shop
+  commentId: F:Global.Singleton_ShopData.shop
+  id: shop
+  parent: Global.Singleton_ShopData
+  langs:
+  - csharp
+  - vb
+  name: shop
+  nameWithType: Singleton_ShopData.shop
+  fullName: Singleton_ShopData.shop
+  type: Field
+  source:
+    id: shop
+    path: ''
+    startLine: 24208
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TribiewShop shop
+    return:
+      type: Global.TribiewShop
+    content.vb: Public shop As TribiewShop
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_ShopData.onConvertingComplete
+  commentId: E:Global.Singleton_ShopData.onConvertingComplete
+  id: onConvertingComplete
+  parent: Global.Singleton_ShopData
+  langs:
+  - csharp
+  - vb
+  name: onConvertingComplete
+  nameWithType: Singleton_ShopData.onConvertingComplete
+  fullName: Singleton_ShopData.onConvertingComplete
+  type: Event
+  source:
+    id: onConvertingComplete
+    path: ''
+    startLine: 24213
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public event Singleton_ShopData.OnEvent onConvertingComplete
+    return:
+      type: Global.Singleton_ShopData.OnEvent
+    content.vb: Public Event onConvertingComplete As Singleton_ShopData.OnEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_ShopData.loadFolderPath
+  commentId: P:Global.Singleton_ShopData.loadFolderPath
+  id: loadFolderPath
+  parent: Global.Singleton_ShopData
+  langs:
+  - csharp
+  - vb
+  name: loadFolderPath
+  nameWithType: Singleton_ShopData.loadFolderPath
+  fullName: Singleton_ShopData.loadFolderPath
+  type: Property
+  source:
+    id: loadFolderPath
+    path: ''
+    startLine: 24216
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string loadFolderPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property loadFolderPath As String
+  overload: Global.Singleton_ShopData.loadFolderPath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Singleton_ShopData.Initialize(System.String)
+  commentId: M:Global.Singleton_ShopData.Initialize(System.String)
+  id: Initialize(System.String)
+  parent: Global.Singleton_ShopData
+  langs:
+  - csharp
+  - vb
+  name: Initialize(String)
+  nameWithType: Singleton_ShopData.Initialize(String)
+  fullName: Singleton_ShopData.Initialize(System.String)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 24222
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Initialize(string tribiewshopFolderPath)
+    parameters:
+    - id: tribiewshopFolderPath
+      type: System.String
+    content.vb: Public Sub Initialize(tribiewshopFolderPath As String)
+  overload: Global.Singleton_ShopData.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_ShopData.Start
+  commentId: M:Global.Singleton_ShopData.Start
+  id: Start
+  parent: Global.Singleton_ShopData
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: Singleton_ShopData.Start()
+  fullName: Singleton_ShopData.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 24240
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override void Start()
+    content.vb: Protected Overrides Sub Start
+  overridden: Global.Singleton{Singleton_ShopData}.Start
+  overload: Global.Singleton_ShopData.Start*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.Singleton{Singleton_ShopData}
+  commentId: T:Global.Singleton{Singleton_ShopData}
+  definition: Global.Singleton`1
+  name: Singleton<Singleton_ShopData>
+  nameWithType: Singleton<Singleton_ShopData>
+  fullName: Singleton<Singleton_ShopData>
+  nameWithType.vb: Singleton(Of Singleton_ShopData)
+  fullName.vb: Singleton(Of Singleton_ShopData)
+  name.vb: Singleton(Of Singleton_ShopData)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Singleton_ShopData
+    name: Singleton_ShopData
+    nameWithType: Singleton_ShopData
+    fullName: Singleton_ShopData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Singleton_ShopData
+    name: Singleton_ShopData
+    nameWithType: Singleton_ShopData
+    fullName: Singleton_ShopData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_ShopData}.Instance
+  commentId: P:Global.Singleton{Singleton_ShopData}.Instance
+  parent: Global.Singleton{Singleton_ShopData}
+  definition: Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<Singleton_ShopData>.Instance
+  fullName: Singleton<Singleton_ShopData>.Instance
+  nameWithType.vb: Singleton(Of Singleton_ShopData).Instance
+  fullName.vb: Singleton(Of Singleton_ShopData).Instance
+- uid: Global.Singleton{Singleton_ShopData}.StartCoroutine(System.Collections.IEnumerator)
+  commentId: M:Global.Singleton{Singleton_ShopData}.StartCoroutine(System.Collections.IEnumerator)
+  parent: Global.Singleton{Singleton_ShopData}
+  definition: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  name: StartCoroutine(IEnumerator)
+  nameWithType: Singleton<Singleton_ShopData>.StartCoroutine(IEnumerator)
+  fullName: Singleton<Singleton_ShopData>.StartCoroutine(System.Collections.IEnumerator)
+  nameWithType.vb: Singleton(Of Singleton_ShopData).StartCoroutine(IEnumerator)
+  fullName.vb: Singleton(Of Singleton_ShopData).StartCoroutine(System.Collections.IEnumerator)
+  spec.csharp:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton<Singleton_ShopData>.StartCoroutine
+    fullName: Singleton<Singleton_ShopData>.StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton(Of Singleton_ShopData).StartCoroutine
+    fullName: Singleton(Of Singleton_ShopData).StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_ShopData}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Global.Singleton{Singleton_ShopData}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  parent: Global.Singleton{Singleton_ShopData}
+  definition: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  name: AddCallbacks(Boolean, Boolean, Boolean)
+  nameWithType: Singleton<Singleton_ShopData>.AddCallbacks(Boolean, Boolean, Boolean)
+  fullName: Singleton<Singleton_ShopData>.AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Singleton(Of Singleton_ShopData).AddCallbacks(Boolean, Boolean, Boolean)
+  fullName.vb: Singleton(Of Singleton_ShopData).AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton<Singleton_ShopData>.AddCallbacks
+    fullName: Singleton<Singleton_ShopData>.AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton(Of Singleton_ShopData).AddCallbacks
+    fullName: Singleton(Of Singleton_ShopData).AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_ShopData}.Awake
+  commentId: M:Global.Singleton{Singleton_ShopData}.Awake
+  parent: Global.Singleton{Singleton_ShopData}
+  definition: Global.Singleton`1.Awake
+  name: Awake()
+  nameWithType: Singleton<Singleton_ShopData>.Awake()
+  fullName: Singleton<Singleton_ShopData>.Awake()
+  nameWithType.vb: Singleton(Of Singleton_ShopData).Awake()
+  fullName.vb: Singleton(Of Singleton_ShopData).Awake()
+  spec.csharp:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton<Singleton_ShopData>.Awake
+    fullName: Singleton<Singleton_ShopData>.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton(Of Singleton_ShopData).Awake
+    fullName: Singleton(Of Singleton_ShopData).Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_ShopData}.Update
+  commentId: M:Global.Singleton{Singleton_ShopData}.Update
+  parent: Global.Singleton{Singleton_ShopData}
+  definition: Global.Singleton`1.Update
+  name: Update()
+  nameWithType: Singleton<Singleton_ShopData>.Update()
+  fullName: Singleton<Singleton_ShopData>.Update()
+  nameWithType.vb: Singleton(Of Singleton_ShopData).Update()
+  fullName.vb: Singleton(Of Singleton_ShopData).Update()
+  spec.csharp:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton<Singleton_ShopData>.Update
+    fullName: Singleton<Singleton_ShopData>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton(Of Singleton_ShopData).Update
+    fullName: Singleton(Of Singleton_ShopData).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Singleton`1
+  commentId: T:Global.Singleton`1
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: Singleton(Of T)
+  name.vb: Singleton(Of T)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Instance
+  commentId: P:Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<T>.Instance
+  fullName: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+  fullName.vb: Singleton(Of T).Instance
+- uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  commentId: M:Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  isExternal: true
+  name: StartCoroutine(IEnumerator)
+  nameWithType: Singleton<T>.StartCoroutine(IEnumerator)
+  fullName: Singleton<T>.StartCoroutine(System.Collections.IEnumerator)
+  nameWithType.vb: Singleton(Of T).StartCoroutine(IEnumerator)
+  fullName.vb: Singleton(Of T).StartCoroutine(System.Collections.IEnumerator)
+  spec.csharp:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton<T>.StartCoroutine
+    fullName: Singleton<T>.StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton(Of T).StartCoroutine
+    fullName: Singleton(Of T).StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  isExternal: true
+  name: AddCallbacks(Boolean, Boolean, Boolean)
+  nameWithType: Singleton<T>.AddCallbacks(Boolean, Boolean, Boolean)
+  fullName: Singleton<T>.AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Singleton(Of T).AddCallbacks(Boolean, Boolean, Boolean)
+  fullName.vb: Singleton(Of T).AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton<T>.AddCallbacks
+    fullName: Singleton<T>.AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton(Of T).AddCallbacks
+    fullName: Singleton(Of T).AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Awake
+  commentId: M:Global.Singleton`1.Awake
+  name: Awake()
+  nameWithType: Singleton<T>.Awake()
+  fullName: Singleton<T>.Awake()
+  nameWithType.vb: Singleton(Of T).Awake()
+  fullName.vb: Singleton(Of T).Awake()
+  spec.csharp:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton<T>.Awake
+    fullName: Singleton<T>.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton(Of T).Awake
+    fullName: Singleton(Of T).Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Update
+  commentId: M:Global.Singleton`1.Update
+  name: Update()
+  nameWithType: Singleton<T>.Update()
+  fullName: Singleton<T>.Update()
+  nameWithType.vb: Singleton(Of T).Update()
+  fullName.vb: Singleton(Of T).Update()
+  spec.csharp:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton<T>.Update
+    fullName: Singleton<T>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton(Of T).Update
+    fullName: Singleton(Of T).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.TribiewShop
+  commentId: T:Global.TribiewShop
+  name: TribiewShop
+  nameWithType: TribiewShop
+  fullName: TribiewShop
+- uid: Global.Singleton_ShopData.OnEvent
+  commentId: T:Global.Singleton_ShopData.OnEvent
+  name: Singleton_ShopData.OnEvent
+  nameWithType: Singleton_ShopData.OnEvent
+  fullName: Singleton_ShopData.OnEvent
+- uid: Global.Singleton_ShopData.loadFolderPath*
+  commentId: Overload:Global.Singleton_ShopData.loadFolderPath
+  name: loadFolderPath
+  nameWithType: Singleton_ShopData.loadFolderPath
+  fullName: Singleton_ShopData.loadFolderPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Singleton_ShopData.Initialize*
+  commentId: Overload:Global.Singleton_ShopData.Initialize
+  name: Initialize
+  nameWithType: Singleton_ShopData.Initialize
+  fullName: Singleton_ShopData.Initialize
+- uid: Global.Singleton{Singleton_ShopData}.Start
+  commentId: M:Global.Singleton{Singleton_ShopData}.Start
+  parent: Global.Singleton{Singleton_ShopData}
+  definition: Global.Singleton`1.Start
+  name: Start()
+  nameWithType: Singleton<Singleton_ShopData>.Start()
+  fullName: Singleton<Singleton_ShopData>.Start()
+  nameWithType.vb: Singleton(Of Singleton_ShopData).Start()
+  fullName.vb: Singleton(Of Singleton_ShopData).Start()
+  spec.csharp:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton<Singleton_ShopData>.Start
+    fullName: Singleton<Singleton_ShopData>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton(Of Singleton_ShopData).Start
+    fullName: Singleton(Of Singleton_ShopData).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_ShopData.Start*
+  commentId: Overload:Global.Singleton_ShopData.Start
+  name: Start
+  nameWithType: Singleton_ShopData.Start
+  fullName: Singleton_ShopData.Start
+- uid: Global.Singleton`1.Start
+  commentId: M:Global.Singleton`1.Start
+  name: Start()
+  nameWithType: Singleton<T>.Start()
+  fullName: Singleton<T>.Start()
+  nameWithType.vb: Singleton(Of T).Start()
+  fullName.vb: Singleton(Of T).Start()
+  spec.csharp:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton<T>.Start
+    fullName: Singleton<T>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton(Of T).Start
+    fullName: Singleton(Of T).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

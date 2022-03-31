@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  commentId: T:Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  id: MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  parent: Global
+  children:
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_IO
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_MALFORMED
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_SERVER_DIED
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_TIMED_OUT
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_UNKNOWN
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_UNSUPPORTED
+  langs:
+  - csharp
+  - vb
+  name: MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  type: Enum
+  source:
+    id: MEDIAPLAYER_ERROR
+    path: ''
+    startLine: 5814
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum MEDIAPLAYER_ERROR
+    content.vb: Public Enum MEDIAPLAYER_ERROR
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK
+  id: MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  langs:
+  - csharp
+  - vb
+  name: MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK
+  type: Field
+  source:
+    id: MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK
+    path: ''
+    startLine: 5816
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK = 200
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_IO
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_IO
+  id: MEDIA_ERROR_IO
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  langs:
+  - csharp
+  - vb
+  name: MEDIA_ERROR_IO
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_IO
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_IO
+  type: Field
+  source:
+    id: MEDIA_ERROR_IO
+    path: ''
+    startLine: 5817
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MEDIA_ERROR_IO = -1004
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_MALFORMED
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_MALFORMED
+  id: MEDIA_ERROR_MALFORMED
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  langs:
+  - csharp
+  - vb
+  name: MEDIA_ERROR_MALFORMED
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_MALFORMED
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_MALFORMED
+  type: Field
+  source:
+    id: MEDIA_ERROR_MALFORMED
+    path: ''
+    startLine: 5818
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MEDIA_ERROR_MALFORMED = -1007
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_TIMED_OUT
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_TIMED_OUT
+  id: MEDIA_ERROR_TIMED_OUT
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  langs:
+  - csharp
+  - vb
+  name: MEDIA_ERROR_TIMED_OUT
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_TIMED_OUT
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_TIMED_OUT
+  type: Field
+  source:
+    id: MEDIA_ERROR_TIMED_OUT
+    path: ''
+    startLine: 5819
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MEDIA_ERROR_TIMED_OUT = -110
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_UNSUPPORTED
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_UNSUPPORTED
+  id: MEDIA_ERROR_UNSUPPORTED
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  langs:
+  - csharp
+  - vb
+  name: MEDIA_ERROR_UNSUPPORTED
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_UNSUPPORTED
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_UNSUPPORTED
+  type: Field
+  source:
+    id: MEDIA_ERROR_UNSUPPORTED
+    path: ''
+    startLine: 5820
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MEDIA_ERROR_UNSUPPORTED = -1010
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_SERVER_DIED
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_SERVER_DIED
+  id: MEDIA_ERROR_SERVER_DIED
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  langs:
+  - csharp
+  - vb
+  name: MEDIA_ERROR_SERVER_DIED
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_SERVER_DIED
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_SERVER_DIED
+  type: Field
+  source:
+    id: MEDIA_ERROR_SERVER_DIED
+    path: ''
+    startLine: 5821
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MEDIA_ERROR_SERVER_DIED = 100
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_UNKNOWN
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_UNKNOWN
+  id: MEDIA_ERROR_UNKNOWN
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  langs:
+  - csharp
+  - vb
+  name: MEDIA_ERROR_UNKNOWN
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_UNKNOWN
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_ERROR.MEDIA_ERROR_UNKNOWN
+  type: Field
+  source:
+    id: MEDIA_ERROR_UNKNOWN
+    path: ''
+    startLine: 5822
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MEDIA_ERROR_UNKNOWN = 1
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  commentId: T:Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  name: MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_ERROR

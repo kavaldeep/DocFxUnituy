@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Editor_ImageCkecker.ImageCheck
+  commentId: T:Global.Editor_ImageCkecker.ImageCheck
+  id: Editor_ImageCkecker.ImageCheck
+  parent: Global
+  children:
+  - Global.Editor_ImageCkecker.ImageCheck.#ctor(System.String,System.Boolean,Object)
+  - Global.Editor_ImageCkecker.ImageCheck.Checked
+  - Global.Editor_ImageCkecker.ImageCheck.item
+  - Global.Editor_ImageCkecker.ImageCheck.name
+  langs:
+  - csharp
+  - vb
+  name: Editor_ImageCkecker.ImageCheck
+  nameWithType: Editor_ImageCkecker.ImageCheck
+  fullName: Editor_ImageCkecker.ImageCheck
+  type: Struct
+  source:
+    id: ImageCheck
+    path: ''
+    startLine: 8504
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\ndata holder\n"
+  example: []
+  syntax:
+    content: public struct ImageCheck
+    content.vb: Public Structure ImageCheck
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.Editor_ImageCkecker.ImageCheck.item
+  commentId: F:Global.Editor_ImageCkecker.ImageCheck.item
+  id: item
+  parent: Global.Editor_ImageCkecker.ImageCheck
+  langs:
+  - csharp
+  - vb
+  name: item
+  nameWithType: Editor_ImageCkecker.ImageCheck.item
+  fullName: Editor_ImageCkecker.ImageCheck.item
+  type: Field
+  source:
+    id: item
+    path: ''
+    startLine: 8505
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Object item
+    return:
+      type: Global.Object
+    content.vb: Public item As Object
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Editor_ImageCkecker.ImageCheck.name
+  commentId: F:Global.Editor_ImageCkecker.ImageCheck.name
+  id: name
+  parent: Global.Editor_ImageCkecker.ImageCheck
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Editor_ImageCkecker.ImageCheck.name
+  fullName: Editor_ImageCkecker.ImageCheck.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 8506
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Editor_ImageCkecker.ImageCheck.Checked
+  commentId: F:Global.Editor_ImageCkecker.ImageCheck.Checked
+  id: Checked
+  parent: Global.Editor_ImageCkecker.ImageCheck
+  langs:
+  - csharp
+  - vb
+  name: Checked
+  nameWithType: Editor_ImageCkecker.ImageCheck.Checked
+  fullName: Editor_ImageCkecker.ImageCheck.Checked
+  type: Field
+  source:
+    id: Checked
+    path: ''
+    startLine: 8507
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool Checked
+    return:
+      type: System.Boolean
+    content.vb: Public Checked As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Editor_ImageCkecker.ImageCheck.#ctor(System.String,System.Boolean,Object)
+  commentId: M:Global.Editor_ImageCkecker.ImageCheck.#ctor(System.String,System.Boolean,Object)
+  id: '#ctor(System.String,System.Boolean,Object)'
+  parent: Global.Editor_ImageCkecker.ImageCheck
+  langs:
+  - csharp
+  - vb
+  name: ImageCheck(String, Boolean, Object)
+  nameWithType: Editor_ImageCkecker.ImageCheck.ImageCheck(String, Boolean, Object)
+  fullName: Editor_ImageCkecker.ImageCheck.ImageCheck(System.String, System.Boolean, Object)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8509
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageCheck(string _name, bool _checked, Object _item)
+    parameters:
+    - id: _name
+      type: System.String
+    - id: _checked
+      type: System.Boolean
+    - id: _item
+      type: Global.Object
+    content.vb: Public Sub New(_name As String, _checked As Boolean, _item As Object)
+  overload: Global.Editor_ImageCkecker.ImageCheck.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: Object
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Editor_ImageCkecker.ImageCheck.#ctor*
+  commentId: Overload:Global.Editor_ImageCkecker.ImageCheck.#ctor
+  name: ImageCheck
+  nameWithType: Editor_ImageCkecker.ImageCheck.ImageCheck
+  fullName: Editor_ImageCkecker.ImageCheck.ImageCheck

@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.HeaderButtonsPlayAnimation
+  commentId: T:Global.HeaderButtonsPlayAnimation
+  id: HeaderButtonsPlayAnimation
+  parent: Global
+  children:
+  - Global.HeaderButtonsPlayAnimation._animationIcon
+  - Global.HeaderButtonsPlayAnimation._isAbleToPlayAnimation
+  - Global.HeaderButtonsPlayAnimation._newNotification
+  - Global.HeaderButtonsPlayAnimation._timeBetweenTwoAnimations
+  langs:
+  - csharp
+  - vb
+  name: HeaderButtonsPlayAnimation
+  nameWithType: HeaderButtonsPlayAnimation
+  fullName: HeaderButtonsPlayAnimation
+  type: Class
+  source:
+    id: HeaderButtonsPlayAnimation
+    path: ''
+    startLine: 13945
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class HeaderButtonsPlayAnimation : MonoBehaviour'
+    content.vb: >-
+      Public Class HeaderButtonsPlayAnimation
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.HeaderButtonsPlayAnimation._timeBetweenTwoAnimations
+  commentId: F:Global.HeaderButtonsPlayAnimation._timeBetweenTwoAnimations
+  id: _timeBetweenTwoAnimations
+  parent: Global.HeaderButtonsPlayAnimation
+  langs:
+  - csharp
+  - vb
+  name: _timeBetweenTwoAnimations
+  nameWithType: HeaderButtonsPlayAnimation._timeBetweenTwoAnimations
+  fullName: HeaderButtonsPlayAnimation._timeBetweenTwoAnimations
+  type: Field
+  source:
+    id: _timeBetweenTwoAnimations
+    path: ''
+    startLine: 13947
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float _timeBetweenTwoAnimations
+    return:
+      type: System.Single
+    content.vb: Public _timeBetweenTwoAnimations As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.HeaderButtonsPlayAnimation._isAbleToPlayAnimation
+  commentId: F:Global.HeaderButtonsPlayAnimation._isAbleToPlayAnimation
+  id: _isAbleToPlayAnimation
+  parent: Global.HeaderButtonsPlayAnimation
+  langs:
+  - csharp
+  - vb
+  name: _isAbleToPlayAnimation
+  nameWithType: HeaderButtonsPlayAnimation._isAbleToPlayAnimation
+  fullName: HeaderButtonsPlayAnimation._isAbleToPlayAnimation
+  type: Field
+  source:
+    id: _isAbleToPlayAnimation
+    path: ''
+    startLine: 13948
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool _isAbleToPlayAnimation
+    return:
+      type: System.Boolean
+    content.vb: Public _isAbleToPlayAnimation As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.HeaderButtonsPlayAnimation._newNotification
+  commentId: F:Global.HeaderButtonsPlayAnimation._newNotification
+  id: _newNotification
+  parent: Global.HeaderButtonsPlayAnimation
+  langs:
+  - csharp
+  - vb
+  name: _newNotification
+  nameWithType: HeaderButtonsPlayAnimation._newNotification
+  fullName: HeaderButtonsPlayAnimation._newNotification
+  type: Field
+  source:
+    id: _newNotification
+    path: ''
+    startLine: 13949
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject _newNotification
+    return:
+      type: Global.GameObject
+    content.vb: Public _newNotification As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.HeaderButtonsPlayAnimation._animationIcon
+  commentId: F:Global.HeaderButtonsPlayAnimation._animationIcon
+  id: _animationIcon
+  parent: Global.HeaderButtonsPlayAnimation
+  langs:
+  - csharp
+  - vb
+  name: _animationIcon
+  nameWithType: HeaderButtonsPlayAnimation._animationIcon
+  fullName: HeaderButtonsPlayAnimation._animationIcon
+  type: Field
+  source:
+    id: _animationIcon
+    path: ''
+    startLine: 13950
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Animator _animationIcon
+    return:
+      type: Global.Animator
+    content.vb: Public _animationIcon As Animator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Animator
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator

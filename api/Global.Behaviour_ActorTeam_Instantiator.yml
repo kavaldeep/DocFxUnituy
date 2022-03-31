@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_ActorTeam_Instantiator
+  commentId: T:Global.Behaviour_ActorTeam_Instantiator
+  id: Behaviour_ActorTeam_Instantiator
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_ActorTeam_Instantiator
+  nameWithType: Behaviour_ActorTeam_Instantiator
+  fullName: Behaviour_ActorTeam_Instantiator
+  type: Class
+  source:
+    id: Behaviour_ActorTeam_Instantiator
+    path: ''
+    startLine: 21978
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_ActorTeam_Instantiator : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_ActorTeam_Instantiator
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

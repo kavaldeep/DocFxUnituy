@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_friendDatas
+  commentId: T:Global.Behaviour_friendDatas
+  id: Behaviour_friendDatas
+  parent: Global
+  children:
+  - Global.Behaviour_friendDatas.datas
+  - Global.Behaviour_friendDatas.Datas
+  - Global.Behaviour_friendDatas.openChat
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_friendDatas
+  nameWithType: Behaviour_friendDatas
+  fullName: Behaviour_friendDatas
+  type: Class
+  source:
+    id: Behaviour_friendDatas
+    path: ''
+    startLine: 14990
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_friendDatas : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_friendDatas
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_friendDatas.datas
+  commentId: F:Global.Behaviour_friendDatas.datas
+  id: datas
+  parent: Global.Behaviour_friendDatas
+  langs:
+  - csharp
+  - vb
+  name: datas
+  nameWithType: Behaviour_friendDatas.datas
+  fullName: Behaviour_friendDatas.datas
+  type: Field
+  source:
+    id: datas
+    path: ''
+    startLine: 14992
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public FriendsInfo datas
+    return:
+      type: Global.FriendsInfo
+    content.vb: Public datas As FriendsInfo
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_friendDatas.Datas
+  commentId: F:Global.Behaviour_friendDatas.Datas
+  id: Datas
+  parent: Global.Behaviour_friendDatas
+  langs:
+  - csharp
+  - vb
+  name: Datas
+  nameWithType: Behaviour_friendDatas.Datas
+  fullName: Behaviour_friendDatas.Datas
+  type: Field
+  source:
+    id: Datas
+    path: ''
+    startLine: 14993
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject Datas
+    return:
+      type: Global.GameObject
+    content.vb: Public Datas As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_friendDatas.openChat
+  commentId: M:Global.Behaviour_friendDatas.openChat
+  id: openChat
+  parent: Global.Behaviour_friendDatas
+  langs:
+  - csharp
+  - vb
+  name: openChat()
+  nameWithType: Behaviour_friendDatas.openChat()
+  fullName: Behaviour_friendDatas.openChat()
+  type: Method
+  source:
+    id: openChat
+    path: ''
+    startLine: 14995
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void openChat()
+    content.vb: Public Sub openChat
+  overload: Global.Behaviour_friendDatas.openChat*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.FriendsInfo
+  commentId: T:Global.FriendsInfo
+  name: FriendsInfo
+  nameWithType: FriendsInfo
+  fullName: FriendsInfo
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_friendDatas.openChat*
+  commentId: Overload:Global.Behaviour_friendDatas.openChat
+  name: openChat
+  nameWithType: Behaviour_friendDatas.openChat
+  fullName: Behaviour_friendDatas.openChat

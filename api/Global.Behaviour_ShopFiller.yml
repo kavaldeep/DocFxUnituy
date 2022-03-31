@@ -1,0 +1,370 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_ShopFiller
+  commentId: T:Global.Behaviour_ShopFiller
+  id: Behaviour_ShopFiller
+  parent: Global
+  children:
+  - Global.Behaviour_ShopFiller.articleName
+  - Global.Behaviour_ShopFiller.coinDisplay
+  - Global.Behaviour_ShopFiller.descriptionDisplay
+  - Global.Behaviour_ShopFiller.gemDisplay
+  - Global.Behaviour_ShopFiller.GoBackToPrevious
+  - Global.Behaviour_ShopFiller.imageArticle_img
+  - Global.Behaviour_ShopFiller.Index
+  - Global.Behaviour_ShopFiller.Init(System.Int32,System.Int32)
+  - Global.Behaviour_ShopFiller.popUpShop
+  - Global.Behaviour_ShopFiller.ticketDisplay
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_ShopFiller
+  nameWithType: Behaviour_ShopFiller
+  fullName: Behaviour_ShopFiller
+  type: Class
+  source:
+    id: Behaviour_ShopFiller
+    path: ''
+    startLine: 24032
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_ShopFiller : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_ShopFiller
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_ShopFiller.popUpShop
+  commentId: F:Global.Behaviour_ShopFiller.popUpShop
+  id: popUpShop
+  parent: Global.Behaviour_ShopFiller
+  langs:
+  - csharp
+  - vb
+  name: popUpShop
+  nameWithType: Behaviour_ShopFiller.popUpShop
+  fullName: Behaviour_ShopFiller.popUpShop
+  type: Field
+  source:
+    id: popUpShop
+    path: ''
+    startLine: 24037
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject popUpShop
+    return:
+      type: Global.GameObject
+    content.vb: Public popUpShop As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ShopFiller.articleName
+  commentId: F:Global.Behaviour_ShopFiller.articleName
+  id: articleName
+  parent: Global.Behaviour_ShopFiller
+  langs:
+  - csharp
+  - vb
+  name: articleName
+  nameWithType: Behaviour_ShopFiller.articleName
+  fullName: Behaviour_ShopFiller.articleName
+  type: Field
+  source:
+    id: articleName
+    path: ''
+    startLine: 24039
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI articleName
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public articleName As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ShopFiller.descriptionDisplay
+  commentId: F:Global.Behaviour_ShopFiller.descriptionDisplay
+  id: descriptionDisplay
+  parent: Global.Behaviour_ShopFiller
+  langs:
+  - csharp
+  - vb
+  name: descriptionDisplay
+  nameWithType: Behaviour_ShopFiller.descriptionDisplay
+  fullName: Behaviour_ShopFiller.descriptionDisplay
+  type: Field
+  source:
+    id: descriptionDisplay
+    path: ''
+    startLine: 24040
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI descriptionDisplay
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public descriptionDisplay As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ShopFiller.coinDisplay
+  commentId: F:Global.Behaviour_ShopFiller.coinDisplay
+  id: coinDisplay
+  parent: Global.Behaviour_ShopFiller
+  langs:
+  - csharp
+  - vb
+  name: coinDisplay
+  nameWithType: Behaviour_ShopFiller.coinDisplay
+  fullName: Behaviour_ShopFiller.coinDisplay
+  type: Field
+  source:
+    id: coinDisplay
+    path: ''
+    startLine: 24042
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI coinDisplay
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public coinDisplay As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ShopFiller.gemDisplay
+  commentId: F:Global.Behaviour_ShopFiller.gemDisplay
+  id: gemDisplay
+  parent: Global.Behaviour_ShopFiller
+  langs:
+  - csharp
+  - vb
+  name: gemDisplay
+  nameWithType: Behaviour_ShopFiller.gemDisplay
+  fullName: Behaviour_ShopFiller.gemDisplay
+  type: Field
+  source:
+    id: gemDisplay
+    path: ''
+    startLine: 24043
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI gemDisplay
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public gemDisplay As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ShopFiller.ticketDisplay
+  commentId: F:Global.Behaviour_ShopFiller.ticketDisplay
+  id: ticketDisplay
+  parent: Global.Behaviour_ShopFiller
+  langs:
+  - csharp
+  - vb
+  name: ticketDisplay
+  nameWithType: Behaviour_ShopFiller.ticketDisplay
+  fullName: Behaviour_ShopFiller.ticketDisplay
+  type: Field
+  source:
+    id: ticketDisplay
+    path: ''
+    startLine: 24044
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI ticketDisplay
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public ticketDisplay As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ShopFiller.imageArticle_img
+  commentId: F:Global.Behaviour_ShopFiller.imageArticle_img
+  id: imageArticle_img
+  parent: Global.Behaviour_ShopFiller
+  langs:
+  - csharp
+  - vb
+  name: imageArticle_img
+  nameWithType: Behaviour_ShopFiller.imageArticle_img
+  fullName: Behaviour_ShopFiller.imageArticle_img
+  type: Field
+  source:
+    id: imageArticle_img
+    path: ''
+    startLine: 24046
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Image imageArticle_img
+    return:
+      type: Global.Image
+    content.vb: Public imageArticle_img As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ShopFiller.Index
+  commentId: F:Global.Behaviour_ShopFiller.Index
+  id: Index
+  parent: Global.Behaviour_ShopFiller
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: Behaviour_ShopFiller.Index
+  fullName: Behaviour_ShopFiller.Index
+  type: Field
+  source:
+    id: Index
+    path: ''
+    startLine: 24048
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int Index
+    return:
+      type: System.Int32
+    content.vb: Public Index As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ShopFiller.Init(System.Int32,System.Int32)
+  commentId: M:Global.Behaviour_ShopFiller.Init(System.Int32,System.Int32)
+  id: Init(System.Int32,System.Int32)
+  parent: Global.Behaviour_ShopFiller
+  langs:
+  - csharp
+  - vb
+  name: Init(Int32, Int32)
+  nameWithType: Behaviour_ShopFiller.Init(Int32, Int32)
+  fullName: Behaviour_ShopFiller.Init(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 24060
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Init(int _Index, int _TypeTrack)
+    parameters:
+    - id: _Index
+      type: System.Int32
+    - id: _TypeTrack
+      type: System.Int32
+    content.vb: Public Sub Init(_Index As Integer, _TypeTrack As Integer)
+  overload: Global.Behaviour_ShopFiller.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ShopFiller.GoBackToPrevious
+  commentId: M:Global.Behaviour_ShopFiller.GoBackToPrevious
+  id: GoBackToPrevious
+  parent: Global.Behaviour_ShopFiller
+  langs:
+  - csharp
+  - vb
+  name: GoBackToPrevious()
+  nameWithType: Behaviour_ShopFiller.GoBackToPrevious()
+  fullName: Behaviour_ShopFiller.GoBackToPrevious()
+  type: Method
+  source:
+    id: GoBackToPrevious
+    path: ''
+    startLine: 24113
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GoBackToPrevious()
+    content.vb: Public Sub GoBackToPrevious
+  overload: Global.Behaviour_ShopFiller.GoBackToPrevious*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_ShopFiller.Init*
+  commentId: Overload:Global.Behaviour_ShopFiller.Init
+  name: Init
+  nameWithType: Behaviour_ShopFiller.Init
+  fullName: Behaviour_ShopFiller.Init
+- uid: Global.Behaviour_ShopFiller.GoBackToPrevious*
+  commentId: Overload:Global.Behaviour_ShopFiller.GoBackToPrevious
+  name: GoBackToPrevious
+  nameWithType: Behaviour_ShopFiller.GoBackToPrevious
+  fullName: Behaviour_ShopFiller.GoBackToPrevious

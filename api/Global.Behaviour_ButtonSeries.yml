@@ -1,0 +1,333 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_ButtonSeries
+  commentId: T:Global.Behaviour_ButtonSeries
+  id: Behaviour_ButtonSeries
+  parent: Global
+  children:
+  - Global.Behaviour_ButtonSeries.barSeries
+  - Global.Behaviour_ButtonSeries.barSeriesBlur
+  - Global.Behaviour_ButtonSeries.buttonSeries
+  - Global.Behaviour_ButtonSeries.MoveBarSeries
+  - Global.Behaviour_ButtonSeries.OpenBarSeries
+  - Global.Behaviour_ButtonSeries.positionButton
+  - Global.Behaviour_ButtonSeries.ResetBarPosition
+  - Global.Behaviour_ButtonSeries.ResetPosition
+  - Global.Behaviour_ButtonSeries.targetObject
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_ButtonSeries
+  nameWithType: Behaviour_ButtonSeries
+  fullName: Behaviour_ButtonSeries
+  type: Class
+  source:
+    id: Behaviour_ButtonSeries
+    path: ''
+    startLine: 20075
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_ButtonSeries : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_ButtonSeries
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_ButtonSeries.barSeries
+  commentId: F:Global.Behaviour_ButtonSeries.barSeries
+  id: barSeries
+  parent: Global.Behaviour_ButtonSeries
+  langs:
+  - csharp
+  - vb
+  name: barSeries
+  nameWithType: Behaviour_ButtonSeries.barSeries
+  fullName: Behaviour_ButtonSeries.barSeries
+  type: Field
+  source:
+    id: barSeries
+    path: ''
+    startLine: 20077
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RectTransform barSeries
+    return:
+      type: Global.RectTransform
+    content.vb: Public barSeries As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSeries.barSeriesBlur
+  commentId: F:Global.Behaviour_ButtonSeries.barSeriesBlur
+  id: barSeriesBlur
+  parent: Global.Behaviour_ButtonSeries
+  langs:
+  - csharp
+  - vb
+  name: barSeriesBlur
+  nameWithType: Behaviour_ButtonSeries.barSeriesBlur
+  fullName: Behaviour_ButtonSeries.barSeriesBlur
+  type: Field
+  source:
+    id: barSeriesBlur
+    path: ''
+    startLine: 20078
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RectTransform barSeriesBlur
+    return:
+      type: Global.RectTransform
+    content.vb: Public barSeriesBlur As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSeries.buttonSeries
+  commentId: F:Global.Behaviour_ButtonSeries.buttonSeries
+  id: buttonSeries
+  parent: Global.Behaviour_ButtonSeries
+  langs:
+  - csharp
+  - vb
+  name: buttonSeries
+  nameWithType: Behaviour_ButtonSeries.buttonSeries
+  fullName: Behaviour_ButtonSeries.buttonSeries
+  type: Field
+  source:
+    id: buttonSeries
+    path: ''
+    startLine: 20079
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RectTransform buttonSeries
+    return:
+      type: Global.RectTransform
+    content.vb: Public buttonSeries As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSeries.targetObject
+  commentId: F:Global.Behaviour_ButtonSeries.targetObject
+  id: targetObject
+  parent: Global.Behaviour_ButtonSeries
+  langs:
+  - csharp
+  - vb
+  name: targetObject
+  nameWithType: Behaviour_ButtonSeries.targetObject
+  fullName: Behaviour_ButtonSeries.targetObject
+  type: Field
+  source:
+    id: targetObject
+    path: ''
+    startLine: 20080
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RectTransform targetObject
+    return:
+      type: Global.RectTransform
+    content.vb: Public targetObject As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSeries.positionButton
+  commentId: F:Global.Behaviour_ButtonSeries.positionButton
+  id: positionButton
+  parent: Global.Behaviour_ButtonSeries
+  langs:
+  - csharp
+  - vb
+  name: positionButton
+  nameWithType: Behaviour_ButtonSeries.positionButton
+  fullName: Behaviour_ButtonSeries.positionButton
+  type: Field
+  source:
+    id: positionButton
+    path: ''
+    startLine: 20081
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector3 positionButton
+    return:
+      type: Global.Vector3
+    content.vb: Public positionButton As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSeries.ResetBarPosition
+  commentId: M:Global.Behaviour_ButtonSeries.ResetBarPosition
+  id: ResetBarPosition
+  parent: Global.Behaviour_ButtonSeries
+  langs:
+  - csharp
+  - vb
+  name: ResetBarPosition()
+  nameWithType: Behaviour_ButtonSeries.ResetBarPosition()
+  fullName: Behaviour_ButtonSeries.ResetBarPosition()
+  type: Method
+  source:
+    id: ResetBarPosition
+    path: ''
+    startLine: 20110
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ResetBarPosition()
+    content.vb: Public Sub ResetBarPosition
+  overload: Global.Behaviour_ButtonSeries.ResetBarPosition*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSeries.ResetPosition
+  commentId: M:Global.Behaviour_ButtonSeries.ResetPosition
+  id: ResetPosition
+  parent: Global.Behaviour_ButtonSeries
+  langs:
+  - csharp
+  - vb
+  name: ResetPosition()
+  nameWithType: Behaviour_ButtonSeries.ResetPosition()
+  fullName: Behaviour_ButtonSeries.ResetPosition()
+  type: Method
+  source:
+    id: ResetPosition
+    path: ''
+    startLine: 20120
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ResetPosition()
+    content.vb: Public Sub ResetPosition
+  overload: Global.Behaviour_ButtonSeries.ResetPosition*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSeries.OpenBarSeries
+  commentId: M:Global.Behaviour_ButtonSeries.OpenBarSeries
+  id: OpenBarSeries
+  parent: Global.Behaviour_ButtonSeries
+  langs:
+  - csharp
+  - vb
+  name: OpenBarSeries()
+  nameWithType: Behaviour_ButtonSeries.OpenBarSeries()
+  fullName: Behaviour_ButtonSeries.OpenBarSeries()
+  type: Method
+  source:
+    id: OpenBarSeries
+    path: ''
+    startLine: 20130
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OpenBarSeries()
+    content.vb: Public Sub OpenBarSeries
+  overload: Global.Behaviour_ButtonSeries.OpenBarSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSeries.MoveBarSeries
+  commentId: M:Global.Behaviour_ButtonSeries.MoveBarSeries
+  id: MoveBarSeries
+  parent: Global.Behaviour_ButtonSeries
+  langs:
+  - csharp
+  - vb
+  name: MoveBarSeries()
+  nameWithType: Behaviour_ButtonSeries.MoveBarSeries()
+  fullName: Behaviour_ButtonSeries.MoveBarSeries()
+  type: Method
+  source:
+    id: MoveBarSeries
+    path: ''
+    startLine: 20139
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void MoveBarSeries()
+    content.vb: Public Sub MoveBarSeries
+  overload: Global.Behaviour_ButtonSeries.MoveBarSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.Behaviour_ButtonSeries.ResetBarPosition*
+  commentId: Overload:Global.Behaviour_ButtonSeries.ResetBarPosition
+  name: ResetBarPosition
+  nameWithType: Behaviour_ButtonSeries.ResetBarPosition
+  fullName: Behaviour_ButtonSeries.ResetBarPosition
+- uid: Global.Behaviour_ButtonSeries.ResetPosition*
+  commentId: Overload:Global.Behaviour_ButtonSeries.ResetPosition
+  name: ResetPosition
+  nameWithType: Behaviour_ButtonSeries.ResetPosition
+  fullName: Behaviour_ButtonSeries.ResetPosition
+- uid: Global.Behaviour_ButtonSeries.OpenBarSeries*
+  commentId: Overload:Global.Behaviour_ButtonSeries.OpenBarSeries
+  name: OpenBarSeries
+  nameWithType: Behaviour_ButtonSeries.OpenBarSeries
+  fullName: Behaviour_ButtonSeries.OpenBarSeries
+- uid: Global.Behaviour_ButtonSeries.MoveBarSeries*
+  commentId: Overload:Global.Behaviour_ButtonSeries.MoveBarSeries
+  name: MoveBarSeries
+  nameWithType: Behaviour_ButtonSeries.MoveBarSeries
+  fullName: Behaviour_ButtonSeries.MoveBarSeries

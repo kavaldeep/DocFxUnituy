@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_PopUpLoading
+  commentId: T:Global.Behaviour_PopUpLoading
+  id: Behaviour_PopUpLoading
+  parent: Global
+  children:
+  - Global.Behaviour_PopUpLoading.SelfDestroy
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_PopUpLoading
+  nameWithType: Behaviour_PopUpLoading
+  fullName: Behaviour_PopUpLoading
+  type: Class
+  source:
+    id: Behaviour_PopUpLoading
+    path: ''
+    startLine: 21507
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_PopUpLoading : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_PopUpLoading
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_PopUpLoading.SelfDestroy
+  commentId: M:Global.Behaviour_PopUpLoading.SelfDestroy
+  id: SelfDestroy
+  parent: Global.Behaviour_PopUpLoading
+  langs:
+  - csharp
+  - vb
+  name: SelfDestroy()
+  nameWithType: Behaviour_PopUpLoading.SelfDestroy()
+  fullName: Behaviour_PopUpLoading.SelfDestroy()
+  type: Method
+  source:
+    id: SelfDestroy
+    path: ''
+    startLine: 21545
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SelfDestroy()
+    content.vb: Public Sub SelfDestroy
+  overload: Global.Behaviour_PopUpLoading.SelfDestroy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_PopUpLoading.SelfDestroy*
+  commentId: Overload:Global.Behaviour_PopUpLoading.SelfDestroy
+  name: SelfDestroy
+  nameWithType: Behaviour_PopUpLoading.SelfDestroy
+  fullName: Behaviour_PopUpLoading.SelfDestroy

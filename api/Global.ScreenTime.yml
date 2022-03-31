@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ScreenTime
+  commentId: T:Global.ScreenTime
+  id: ScreenTime
+  parent: Global
+  children:
+  - Global.ScreenTime.#ctor(System.Single,System.Single)
+  - Global.ScreenTime.end
+  - Global.ScreenTime.start
+  langs:
+  - csharp
+  - vb
+  name: ScreenTime
+  nameWithType: ScreenTime
+  fullName: ScreenTime
+  type: Struct
+  source:
+    id: ScreenTime
+    path: ''
+    startLine: 16173
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct ScreenTime
+    content.vb: >-
+      <Serializable>
+
+      Public Structure ScreenTime
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.ScreenTime.start
+  commentId: F:Global.ScreenTime.start
+  id: start
+  parent: Global.ScreenTime
+  langs:
+  - csharp
+  - vb
+  name: start
+  nameWithType: ScreenTime.start
+  fullName: ScreenTime.start
+  type: Field
+  source:
+    id: start
+    path: ''
+    startLine: 16176
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float start
+    return:
+      type: System.Single
+    content.vb: Public start As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ScreenTime.end
+  commentId: F:Global.ScreenTime.end
+  id: end
+  parent: Global.ScreenTime
+  langs:
+  - csharp
+  - vb
+  name: end
+  nameWithType: ScreenTime.end
+  fullName: ScreenTime.end
+  type: Field
+  source:
+    id: end
+    path: ''
+    startLine: 16176
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float end
+    return:
+      type: System.Single
+    content.vb: Public end As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ScreenTime.#ctor(System.Single,System.Single)
+  commentId: M:Global.ScreenTime.#ctor(System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single)'
+  parent: Global.ScreenTime
+  langs:
+  - csharp
+  - vb
+  name: ScreenTime(Single, Single)
+  nameWithType: ScreenTime.ScreenTime(Single, Single)
+  fullName: ScreenTime.ScreenTime(System.Single, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16178
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ScreenTime(float _start, float _end)
+    parameters:
+    - id: _start
+      type: System.Single
+    - id: _end
+      type: System.Single
+    content.vb: Public Sub New(_start As Single, _end As Single)
+  overload: Global.ScreenTime.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ScreenTime.#ctor*
+  commentId: Overload:Global.ScreenTime.#ctor
+  name: ScreenTime
+  nameWithType: ScreenTime.ScreenTime
+  fullName: ScreenTime.ScreenTime

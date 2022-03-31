@@ -1,0 +1,265 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_FriendList
+  commentId: T:Global.Behaviour_FriendList
+  id: Behaviour_FriendList
+  parent: Global
+  children:
+  - Global.Behaviour_FriendList.friendCase
+  - Global.Behaviour_FriendList.friendList
+  - Global.Behaviour_FriendList.GetFriends
+  - Global.Behaviour_FriendList.InviteCase
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_FriendList
+  nameWithType: Behaviour_FriendList
+  fullName: Behaviour_FriendList
+  type: Class
+  source:
+    id: Behaviour_FriendList
+    path: ''
+    startLine: 15070
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_FriendList : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_FriendList
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_FriendList.friendCase
+  commentId: F:Global.Behaviour_FriendList.friendCase
+  id: friendCase
+  parent: Global.Behaviour_FriendList
+  langs:
+  - csharp
+  - vb
+  name: friendCase
+  nameWithType: Behaviour_FriendList.friendCase
+  fullName: Behaviour_FriendList.friendCase
+  type: Field
+  source:
+    id: friendCase
+    path: ''
+    startLine: 15072
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject friendCase
+    return:
+      type: Global.GameObject
+    content.vb: Public friendCase As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_FriendList.InviteCase
+  commentId: F:Global.Behaviour_FriendList.InviteCase
+  id: InviteCase
+  parent: Global.Behaviour_FriendList
+  langs:
+  - csharp
+  - vb
+  name: InviteCase
+  nameWithType: Behaviour_FriendList.InviteCase
+  fullName: Behaviour_FriendList.InviteCase
+  type: Field
+  source:
+    id: InviteCase
+    path: ''
+    startLine: 15073
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject InviteCase
+    return:
+      type: Global.GameObject
+    content.vb: Public InviteCase As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_FriendList.friendList
+  commentId: F:Global.Behaviour_FriendList.friendList
+  id: friendList
+  parent: Global.Behaviour_FriendList
+  langs:
+  - csharp
+  - vb
+  name: friendList
+  nameWithType: Behaviour_FriendList.friendList
+  fullName: Behaviour_FriendList.friendList
+  type: Field
+  source:
+    id: friendList
+    path: ''
+    startLine: 15075
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<string> friendList
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public friendList As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_FriendList.GetFriends
+  commentId: M:Global.Behaviour_FriendList.GetFriends
+  id: GetFriends
+  parent: Global.Behaviour_FriendList
+  langs:
+  - csharp
+  - vb
+  name: GetFriends()
+  nameWithType: Behaviour_FriendList.GetFriends()
+  fullName: Behaviour_FriendList.GetFriends()
+  type: Method
+  source:
+    id: GetFriends
+    path: ''
+    startLine: 15082
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GetFriends()
+    content.vb: Public Sub GetFriends
+  overload: Global.Behaviour_FriendList.GetFriends*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Behaviour_FriendList.GetFriends*
+  commentId: Overload:Global.Behaviour_FriendList.GetFriends
+  name: GetFriends
+  nameWithType: Behaviour_FriendList.GetFriends
+  fullName: Behaviour_FriendList.GetFriends

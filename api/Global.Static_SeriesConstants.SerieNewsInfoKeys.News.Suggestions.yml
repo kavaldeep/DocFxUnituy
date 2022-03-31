@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions
+  commentId: T:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions
+  id: Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions
+  parent: Global
+  children:
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions.title
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions.url
+  langs:
+  - csharp
+  - vb
+  name: Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions
+  type: Class
+  source:
+    id: Suggestions
+    path: ''
+    startLine: 16915
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Suggestions
+    content.vb: Public Module Suggestions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions.title
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions.title
+  id: title
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions
+  langs:
+  - csharp
+  - vb
+  name: title
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions.title
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions.title
+  type: Field
+  source:
+    id: title
+    path: ''
+    startLine: 16917
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string title = "title"
+    return:
+      type: System.String
+    content.vb: Public Const title As String = "title"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions.url
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions.url
+  id: url
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions.url
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 16918
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string url = "url"
+    return:
+      type: System.String
+    content.vb: Public Const url As String = "url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,265 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_NewsGenerator_NewsPage
+  commentId: T:Global.Behaviour_NewsGenerator_NewsPage
+  id: Behaviour_NewsGenerator_NewsPage
+  parent: Global
+  children:
+  - Global.Behaviour_NewsGenerator_NewsPage.Awake
+  - Global.Behaviour_NewsGenerator_NewsPage.EventArticles
+  - Global.Behaviour_NewsGenerator_NewsPage.miniNews
+  - Global.Behaviour_NewsGenerator_NewsPage.news_gridItem
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_NewsGenerator_NewsPage
+  nameWithType: Behaviour_NewsGenerator_NewsPage
+  fullName: Behaviour_NewsGenerator_NewsPage
+  type: Class
+  source:
+    id: Behaviour_NewsGenerator_NewsPage
+    path: ''
+    startLine: 21229
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_NewsGenerator_NewsPage : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_NewsGenerator_NewsPage
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_NewsGenerator_NewsPage.miniNews
+  commentId: F:Global.Behaviour_NewsGenerator_NewsPage.miniNews
+  id: miniNews
+  parent: Global.Behaviour_NewsGenerator_NewsPage
+  langs:
+  - csharp
+  - vb
+  name: miniNews
+  nameWithType: Behaviour_NewsGenerator_NewsPage.miniNews
+  fullName: Behaviour_NewsGenerator_NewsPage.miniNews
+  type: Field
+  source:
+    id: miniNews
+    path: ''
+    startLine: 21233
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject miniNews
+    return:
+      type: Global.GameObject
+    content.vb: Public miniNews As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsGenerator_NewsPage.news_gridItem
+  commentId: F:Global.Behaviour_NewsGenerator_NewsPage.news_gridItem
+  id: news_gridItem
+  parent: Global.Behaviour_NewsGenerator_NewsPage
+  langs:
+  - csharp
+  - vb
+  name: news_gridItem
+  nameWithType: Behaviour_NewsGenerator_NewsPage.news_gridItem
+  fullName: Behaviour_NewsGenerator_NewsPage.news_gridItem
+  type: Field
+  source:
+    id: news_gridItem
+    path: ''
+    startLine: 21235
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject news_gridItem
+    return:
+      type: Global.GameObject
+    content.vb: Public news_gridItem As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsGenerator_NewsPage.EventArticles
+  commentId: F:Global.Behaviour_NewsGenerator_NewsPage.EventArticles
+  id: EventArticles
+  parent: Global.Behaviour_NewsGenerator_NewsPage
+  langs:
+  - csharp
+  - vb
+  name: EventArticles
+  nameWithType: Behaviour_NewsGenerator_NewsPage.EventArticles
+  fullName: Behaviour_NewsGenerator_NewsPage.EventArticles
+  type: Field
+  source:
+    id: EventArticles
+    path: ''
+    startLine: 21239
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<GameObject> EventArticles
+    return:
+      type: System.Collections.Generic.List{GameObject}
+    content.vb: Public EventArticles As List(Of GameObject)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsGenerator_NewsPage.Awake
+  commentId: M:Global.Behaviour_NewsGenerator_NewsPage.Awake
+  id: Awake
+  parent: Global.Behaviour_NewsGenerator_NewsPage
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Behaviour_NewsGenerator_NewsPage.Awake()
+  fullName: Behaviour_NewsGenerator_NewsPage.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 21241
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: Global.Behaviour_NewsGenerator_NewsPage.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Collections.Generic.List{GameObject}
+  commentId: T:System.Collections.Generic.List{GameObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: System.Collections.Generic.List<GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: System.Collections.Generic.List(Of GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Behaviour_NewsGenerator_NewsPage.Awake*
+  commentId: Overload:Global.Behaviour_NewsGenerator_NewsPage.Awake
+  name: Awake
+  nameWithType: Behaviour_NewsGenerator_NewsPage.Awake
+  fullName: Behaviour_NewsGenerator_NewsPage.Awake

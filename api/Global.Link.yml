@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Link
+  commentId: T:Global.Link
+  id: Link
+  parent: Global
+  children:
+  - Global.Link.#ctor(System.String,System.String)
+  - Global.Link.link
+  - Global.Link.name
+  langs:
+  - csharp
+  - vb
+  name: Link
+  nameWithType: Link
+  fullName: Link
+  type: Class
+  source:
+    id: Link
+    path: ''
+    startLine: 16147
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Link
+    content.vb: >-
+      <Serializable>
+
+      Public Class Link
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Link.name
+  commentId: F:Global.Link.name
+  id: name
+  parent: Global.Link
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Link.name
+  fullName: Link.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 16150
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Link.link
+  commentId: F:Global.Link.link
+  id: link
+  parent: Global.Link
+  langs:
+  - csharp
+  - vb
+  name: link
+  nameWithType: Link.link
+  fullName: Link.link
+  type: Field
+  source:
+    id: link
+    path: ''
+    startLine: 16150
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string link
+    return:
+      type: System.String
+    content.vb: Public link As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Link.#ctor(System.String,System.String)
+  commentId: M:Global.Link.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: Global.Link
+  langs:
+  - csharp
+  - vb
+  name: Link(String, String)
+  nameWithType: Link.Link(String, String)
+  fullName: Link.Link(System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16152
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Link(string _name, string _link)
+    parameters:
+    - id: _name
+      type: System.String
+    - id: _link
+      type: System.String
+    content.vb: Public Sub New(_name As String, _link As String)
+  overload: Global.Link.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Link.#ctor*
+  commentId: Overload:Global.Link.#ctor
+  name: Link
+  nameWithType: Link.Link
+  fullName: Link.Link

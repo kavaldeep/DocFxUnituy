@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SVGImage
+  commentId: T:Global.SVGImage
+  id: SVGImage
+  parent: Global
+  children:
+  - Global.SVGImage.mainTexture
+  - Global.SVGImage.OnPopulateMesh(VertexHelper)
+  - Global.SVGImage.sprite
+  langs:
+  - csharp
+  - vb
+  name: SVGImage
+  nameWithType: SVGImage
+  fullName: SVGImage
+  type: Class
+  source:
+    id: SVGImage
+    path: ''
+    startLine: 27407
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SVGImage : MaskableGraphic'
+    content.vb: >-
+      Public Class SVGImage
+          Inherits MaskableGraphic
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SVGImage.sprite
+  commentId: P:Global.SVGImage.sprite
+  id: sprite
+  parent: Global.SVGImage
+  langs:
+  - csharp
+  - vb
+  name: sprite
+  nameWithType: SVGImage.sprite
+  fullName: SVGImage.sprite
+  type: Property
+  source:
+    id: sprite
+    path: ''
+    startLine: 27418
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThe sprite that is used to render this image.\n"
+  remarks: "\nThis returns the source Sprite of an Image. This Sprite can also be viewed and changed in the Inspector as part of an Image component. This can also be used to change the Sprite using a script.\n"
+  example: []
+  syntax:
+    content: public Sprite sprite { get; set; }
+    parameters: []
+    return:
+      type: Global.Sprite
+    content.vb: Public Property sprite As Sprite
+  overload: Global.SVGImage.sprite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.SVGImage.mainTexture
+  commentId: P:Global.SVGImage.mainTexture
+  id: mainTexture
+  parent: Global.SVGImage
+  langs:
+  - csharp
+  - vb
+  name: mainTexture
+  nameWithType: SVGImage.mainTexture
+  fullName: SVGImage.mainTexture
+  type: Property
+  source:
+    id: mainTexture
+    path: ''
+    startLine: 27430
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override Texture mainTexture { get; }
+    parameters: []
+    return:
+      type: Global.Texture
+    content.vb: Public Overrides ReadOnly Property mainTexture As Texture
+  overload: Global.SVGImage.mainTexture*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Global.SVGImage.OnPopulateMesh(VertexHelper)
+  commentId: M:Global.SVGImage.OnPopulateMesh(VertexHelper)
+  id: OnPopulateMesh(VertexHelper)
+  parent: Global.SVGImage
+  langs:
+  - csharp
+  - vb
+  name: OnPopulateMesh(VertexHelper)
+  nameWithType: SVGImage.OnPopulateMesh(VertexHelper)
+  fullName: SVGImage.OnPopulateMesh(VertexHelper)
+  type: Method
+  source:
+    id: OnPopulateMesh
+    path: ''
+    startLine: 27452
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override void OnPopulateMesh(VertexHelper toFill)
+    parameters:
+    - id: toFill
+      type: Global.VertexHelper
+    content.vb: Protected Overrides Sub OnPopulateMesh(toFill As VertexHelper)
+  overload: Global.SVGImage.OnPopulateMesh*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SVGImage.sprite*
+  commentId: Overload:Global.SVGImage.sprite
+  name: sprite
+  nameWithType: SVGImage.sprite
+  fullName: SVGImage.sprite
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Global.SVGImage.mainTexture*
+  commentId: Overload:Global.SVGImage.mainTexture
+  name: mainTexture
+  nameWithType: SVGImage.mainTexture
+  fullName: SVGImage.mainTexture
+- uid: Global.Texture
+  commentId: '!:Global.Texture'
+  isExternal: true
+  name: Texture
+  nameWithType: Texture
+  fullName: Texture
+- uid: Global.SVGImage.OnPopulateMesh*
+  commentId: Overload:Global.SVGImage.OnPopulateMesh
+  name: OnPopulateMesh
+  nameWithType: SVGImage.OnPopulateMesh
+  fullName: SVGImage.OnPopulateMesh
+- uid: Global.VertexHelper
+  commentId: '!:Global.VertexHelper'
+  isExternal: true
+  name: VertexHelper
+  nameWithType: VertexHelper
+  fullName: VertexHelper

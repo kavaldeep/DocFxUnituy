@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Tools_OpenWebUrl
+  commentId: T:Global.Tools_OpenWebUrl
+  id: Tools_OpenWebUrl
+  parent: Global
+  children:
+  - Global.Tools_OpenWebUrl.Open(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Tools_OpenWebUrl
+  nameWithType: Tools_OpenWebUrl
+  fullName: Tools_OpenWebUrl
+  type: Class
+  source:
+    id: Tools_OpenWebUrl
+    path: ''
+    startLine: 17196
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Tools_OpenWebUrl : MonoBehaviour'
+    content.vb: >-
+      Public Class Tools_OpenWebUrl
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Tools_OpenWebUrl.Open(System.String)
+  commentId: M:Global.Tools_OpenWebUrl.Open(System.String)
+  id: Open(System.String)
+  parent: Global.Tools_OpenWebUrl
+  langs:
+  - csharp
+  - vb
+  name: Open(String)
+  nameWithType: Tools_OpenWebUrl.Open(String)
+  fullName: Tools_OpenWebUrl.Open(System.String)
+  type: Method
+  source:
+    id: Open
+    path: ''
+    startLine: 17198
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Open(string _webUrl)
+    parameters:
+    - id: _webUrl
+      type: System.String
+    content.vb: Public Sub Open(_webUrl As String)
+  overload: Global.Tools_OpenWebUrl.Open*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Tools_OpenWebUrl.Open*
+  commentId: Overload:Global.Tools_OpenWebUrl.Open
+  name: Open
+  nameWithType: Tools_OpenWebUrl.Open
+  fullName: Tools_OpenWebUrl.Open
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

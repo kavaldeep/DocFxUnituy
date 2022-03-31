@@ -1,0 +1,347 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_PlayerTypeExp
+  commentId: T:Global.Behaviour_PlayerTypeExp
+  id: Behaviour_PlayerTypeExp
+  parent: Global
+  children:
+  - Global.Behaviour_PlayerTypeExp.f_exp1
+  - Global.Behaviour_PlayerTypeExp.f_exp2
+  - Global.Behaviour_PlayerTypeExp.f_exp3
+  - Global.Behaviour_PlayerTypeExp.f_exp4
+  - Global.Behaviour_PlayerTypeExp.f_exp5
+  - Global.Behaviour_PlayerTypeExp.i_exp1
+  - Global.Behaviour_PlayerTypeExp.i_exp2
+  - Global.Behaviour_PlayerTypeExp.i_exp3
+  - Global.Behaviour_PlayerTypeExp.i_exp4
+  - Global.Behaviour_PlayerTypeExp.i_exp5
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_PlayerTypeExp
+  nameWithType: Behaviour_PlayerTypeExp
+  fullName: Behaviour_PlayerTypeExp
+  type: Class
+  source:
+    id: Behaviour_PlayerTypeExp
+    path: ''
+    startLine: 28328
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_PlayerTypeExp : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_PlayerTypeExp
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_PlayerTypeExp.i_exp1
+  commentId: F:Global.Behaviour_PlayerTypeExp.i_exp1
+  id: i_exp1
+  parent: Global.Behaviour_PlayerTypeExp
+  langs:
+  - csharp
+  - vb
+  name: i_exp1
+  nameWithType: Behaviour_PlayerTypeExp.i_exp1
+  fullName: Behaviour_PlayerTypeExp.i_exp1
+  type: Field
+  source:
+    id: i_exp1
+    path: ''
+    startLine: 28330
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Image i_exp1
+    return:
+      type: Global.Image
+    content.vb: Public i_exp1 As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayerTypeExp.i_exp2
+  commentId: F:Global.Behaviour_PlayerTypeExp.i_exp2
+  id: i_exp2
+  parent: Global.Behaviour_PlayerTypeExp
+  langs:
+  - csharp
+  - vb
+  name: i_exp2
+  nameWithType: Behaviour_PlayerTypeExp.i_exp2
+  fullName: Behaviour_PlayerTypeExp.i_exp2
+  type: Field
+  source:
+    id: i_exp2
+    path: ''
+    startLine: 28331
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Image i_exp2
+    return:
+      type: Global.Image
+    content.vb: Public i_exp2 As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayerTypeExp.i_exp3
+  commentId: F:Global.Behaviour_PlayerTypeExp.i_exp3
+  id: i_exp3
+  parent: Global.Behaviour_PlayerTypeExp
+  langs:
+  - csharp
+  - vb
+  name: i_exp3
+  nameWithType: Behaviour_PlayerTypeExp.i_exp3
+  fullName: Behaviour_PlayerTypeExp.i_exp3
+  type: Field
+  source:
+    id: i_exp3
+    path: ''
+    startLine: 28332
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Image i_exp3
+    return:
+      type: Global.Image
+    content.vb: Public i_exp3 As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayerTypeExp.i_exp4
+  commentId: F:Global.Behaviour_PlayerTypeExp.i_exp4
+  id: i_exp4
+  parent: Global.Behaviour_PlayerTypeExp
+  langs:
+  - csharp
+  - vb
+  name: i_exp4
+  nameWithType: Behaviour_PlayerTypeExp.i_exp4
+  fullName: Behaviour_PlayerTypeExp.i_exp4
+  type: Field
+  source:
+    id: i_exp4
+    path: ''
+    startLine: 28333
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Image i_exp4
+    return:
+      type: Global.Image
+    content.vb: Public i_exp4 As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayerTypeExp.i_exp5
+  commentId: F:Global.Behaviour_PlayerTypeExp.i_exp5
+  id: i_exp5
+  parent: Global.Behaviour_PlayerTypeExp
+  langs:
+  - csharp
+  - vb
+  name: i_exp5
+  nameWithType: Behaviour_PlayerTypeExp.i_exp5
+  fullName: Behaviour_PlayerTypeExp.i_exp5
+  type: Field
+  source:
+    id: i_exp5
+    path: ''
+    startLine: 28334
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Image i_exp5
+    return:
+      type: Global.Image
+    content.vb: Public i_exp5 As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayerTypeExp.f_exp1
+  commentId: F:Global.Behaviour_PlayerTypeExp.f_exp1
+  id: f_exp1
+  parent: Global.Behaviour_PlayerTypeExp
+  langs:
+  - csharp
+  - vb
+  name: f_exp1
+  nameWithType: Behaviour_PlayerTypeExp.f_exp1
+  fullName: Behaviour_PlayerTypeExp.f_exp1
+  type: Field
+  source:
+    id: f_exp1
+    path: ''
+    startLine: 28335
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float f_exp1
+    return:
+      type: System.Single
+    content.vb: Public f_exp1 As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayerTypeExp.f_exp2
+  commentId: F:Global.Behaviour_PlayerTypeExp.f_exp2
+  id: f_exp2
+  parent: Global.Behaviour_PlayerTypeExp
+  langs:
+  - csharp
+  - vb
+  name: f_exp2
+  nameWithType: Behaviour_PlayerTypeExp.f_exp2
+  fullName: Behaviour_PlayerTypeExp.f_exp2
+  type: Field
+  source:
+    id: f_exp2
+    path: ''
+    startLine: 28336
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float f_exp2
+    return:
+      type: System.Single
+    content.vb: Public f_exp2 As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayerTypeExp.f_exp3
+  commentId: F:Global.Behaviour_PlayerTypeExp.f_exp3
+  id: f_exp3
+  parent: Global.Behaviour_PlayerTypeExp
+  langs:
+  - csharp
+  - vb
+  name: f_exp3
+  nameWithType: Behaviour_PlayerTypeExp.f_exp3
+  fullName: Behaviour_PlayerTypeExp.f_exp3
+  type: Field
+  source:
+    id: f_exp3
+    path: ''
+    startLine: 28337
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float f_exp3
+    return:
+      type: System.Single
+    content.vb: Public f_exp3 As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayerTypeExp.f_exp4
+  commentId: F:Global.Behaviour_PlayerTypeExp.f_exp4
+  id: f_exp4
+  parent: Global.Behaviour_PlayerTypeExp
+  langs:
+  - csharp
+  - vb
+  name: f_exp4
+  nameWithType: Behaviour_PlayerTypeExp.f_exp4
+  fullName: Behaviour_PlayerTypeExp.f_exp4
+  type: Field
+  source:
+    id: f_exp4
+    path: ''
+    startLine: 28338
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float f_exp4
+    return:
+      type: System.Single
+    content.vb: Public f_exp4 As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayerTypeExp.f_exp5
+  commentId: F:Global.Behaviour_PlayerTypeExp.f_exp5
+  id: f_exp5
+  parent: Global.Behaviour_PlayerTypeExp
+  langs:
+  - csharp
+  - vb
+  name: f_exp5
+  nameWithType: Behaviour_PlayerTypeExp.f_exp5
+  fullName: Behaviour_PlayerTypeExp.f_exp5
+  type: Field
+  source:
+    id: f_exp5
+    path: ''
+    startLine: 28339
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float f_exp5
+    return:
+      type: System.Single
+    content.vb: Public f_exp5 As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

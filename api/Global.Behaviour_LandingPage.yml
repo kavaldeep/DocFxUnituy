@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_LandingPage
+  commentId: T:Global.Behaviour_LandingPage
+  id: Behaviour_LandingPage
+  parent: Global
+  children:
+  - Global.Behaviour_LandingPage.bottomBar
+  - Global.Behaviour_LandingPage.buttonSerie
+  - Global.Behaviour_LandingPage.Destroy
+  - Global.Behaviour_LandingPage.Display
+  - Global.Behaviour_LandingPage.LaunchVideo
+  - Global.Behaviour_LandingPage.MediaController
+  - Global.Behaviour_LandingPage.PushBarDown
+  - Global.Behaviour_LandingPage.ScreenSwitcher
+  - Global.Behaviour_LandingPage.SerieData
+  - Global.Behaviour_LandingPage.timeForVideoToAppear
+  - Global.Behaviour_LandingPage.Youtubecontroller
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_LandingPage
+  nameWithType: Behaviour_LandingPage
+  fullName: Behaviour_LandingPage
+  type: Class
+  source:
+    id: Behaviour_LandingPage
+    path: ''
+    startLine: 22468
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_LandingPage : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_LandingPage
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_LandingPage.SerieData
+  commentId: F:Global.Behaviour_LandingPage.SerieData
+  id: SerieData
+  parent: Global.Behaviour_LandingPage
+  langs:
+  - csharp
+  - vb
+  name: SerieData
+  nameWithType: Behaviour_LandingPage.SerieData
+  fullName: Behaviour_LandingPage.SerieData
+  type: Field
+  source:
+    id: SerieData
+    path: ''
+    startLine: 22470
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieData SerieData
+    return:
+      type: Global.Behaviour_SerieData
+    content.vb: Public SerieData As Behaviour_SerieData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LandingPage.Youtubecontroller
+  commentId: F:Global.Behaviour_LandingPage.Youtubecontroller
+  id: Youtubecontroller
+  parent: Global.Behaviour_LandingPage
+  langs:
+  - csharp
+  - vb
+  name: Youtubecontroller
+  nameWithType: Behaviour_LandingPage.Youtubecontroller
+  fullName: Behaviour_LandingPage.Youtubecontroller
+  type: Field
+  source:
+    id: Youtubecontroller
+    path: ''
+    startLine: 22471
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_YoutubePlayer Youtubecontroller
+    return:
+      type: YoutubePlayer.Behaviour_YoutubePlayer
+    content.vb: Public Youtubecontroller As Behaviour_YoutubePlayer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LandingPage.MediaController
+  commentId: F:Global.Behaviour_LandingPage.MediaController
+  id: MediaController
+  parent: Global.Behaviour_LandingPage
+  langs:
+  - csharp
+  - vb
+  name: MediaController
+  nameWithType: Behaviour_LandingPage.MediaController
+  fullName: Behaviour_LandingPage.MediaController
+  type: Field
+  source:
+    id: MediaController
+    path: ''
+    startLine: 22472
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl MediaController
+    return:
+      type: Global.MediaPlayerCtrl
+    content.vb: Public MediaController As MediaPlayerCtrl
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LandingPage.ScreenSwitcher
+  commentId: F:Global.Behaviour_LandingPage.ScreenSwitcher
+  id: ScreenSwitcher
+  parent: Global.Behaviour_LandingPage
+  langs:
+  - csharp
+  - vb
+  name: ScreenSwitcher
+  nameWithType: Behaviour_LandingPage.ScreenSwitcher
+  fullName: Behaviour_LandingPage.ScreenSwitcher
+  type: Field
+  source:
+    id: ScreenSwitcher
+    path: ''
+    startLine: 22473
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_ScreenSwitcher ScreenSwitcher
+    return:
+      type: Global.Behaviour_ScreenSwitcher
+    content.vb: Public ScreenSwitcher As Behaviour_ScreenSwitcher
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LandingPage.bottomBar
+  commentId: F:Global.Behaviour_LandingPage.bottomBar
+  id: bottomBar
+  parent: Global.Behaviour_LandingPage
+  langs:
+  - csharp
+  - vb
+  name: bottomBar
+  nameWithType: Behaviour_LandingPage.bottomBar
+  fullName: Behaviour_LandingPage.bottomBar
+  type: Field
+  source:
+    id: bottomBar
+    path: ''
+    startLine: 22493
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject bottomBar
+    return:
+      type: Global.GameObject
+    content.vb: Public bottomBar As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LandingPage.buttonSerie
+  commentId: F:Global.Behaviour_LandingPage.buttonSerie
+  id: buttonSerie
+  parent: Global.Behaviour_LandingPage
+  langs:
+  - csharp
+  - vb
+  name: buttonSerie
+  nameWithType: Behaviour_LandingPage.buttonSerie
+  fullName: Behaviour_LandingPage.buttonSerie
+  type: Field
+  source:
+    id: buttonSerie
+    path: ''
+    startLine: 22494
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject buttonSerie
+    return:
+      type: Global.GameObject
+    content.vb: Public buttonSerie As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LandingPage.timeForVideoToAppear
+  commentId: F:Global.Behaviour_LandingPage.timeForVideoToAppear
+  id: timeForVideoToAppear
+  parent: Global.Behaviour_LandingPage
+  langs:
+  - csharp
+  - vb
+  name: timeForVideoToAppear
+  nameWithType: Behaviour_LandingPage.timeForVideoToAppear
+  fullName: Behaviour_LandingPage.timeForVideoToAppear
+  type: Field
+  source:
+    id: timeForVideoToAppear
+    path: ''
+    startLine: 22497
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float timeForVideoToAppear
+    return:
+      type: System.Single
+    content.vb: Public timeForVideoToAppear As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LandingPage.Display
+  commentId: M:Global.Behaviour_LandingPage.Display
+  id: Display
+  parent: Global.Behaviour_LandingPage
+  langs:
+  - csharp
+  - vb
+  name: Display()
+  nameWithType: Behaviour_LandingPage.Display()
+  fullName: Behaviour_LandingPage.Display()
+  type: Method
+  source:
+    id: Display
+    path: ''
+    startLine: 22536
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Display()
+    content.vb: Public Sub Display
+  overload: Global.Behaviour_LandingPage.Display*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LandingPage.PushBarDown
+  commentId: M:Global.Behaviour_LandingPage.PushBarDown
+  id: PushBarDown
+  parent: Global.Behaviour_LandingPage
+  langs:
+  - csharp
+  - vb
+  name: PushBarDown()
+  nameWithType: Behaviour_LandingPage.PushBarDown()
+  fullName: Behaviour_LandingPage.PushBarDown()
+  type: Method
+  source:
+    id: PushBarDown
+    path: ''
+    startLine: 22584
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PushBarDown()
+    content.vb: Public Sub PushBarDown
+  overload: Global.Behaviour_LandingPage.PushBarDown*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LandingPage.Destroy
+  commentId: M:Global.Behaviour_LandingPage.Destroy
+  id: Destroy
+  parent: Global.Behaviour_LandingPage
+  langs:
+  - csharp
+  - vb
+  name: Destroy()
+  nameWithType: Behaviour_LandingPage.Destroy()
+  fullName: Behaviour_LandingPage.Destroy()
+  type: Method
+  source:
+    id: Destroy
+    path: ''
+    startLine: 22595
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Destroy()
+    content.vb: Public Sub Destroy
+  overload: Global.Behaviour_LandingPage.Destroy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LandingPage.LaunchVideo
+  commentId: M:Global.Behaviour_LandingPage.LaunchVideo
+  id: LaunchVideo
+  parent: Global.Behaviour_LandingPage
+  langs:
+  - csharp
+  - vb
+  name: LaunchVideo()
+  nameWithType: Behaviour_LandingPage.LaunchVideo()
+  fullName: Behaviour_LandingPage.LaunchVideo()
+  type: Method
+  source:
+    id: LaunchVideo
+    path: ''
+    startLine: 22602
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public async void LaunchVideo()
+    content.vb: Public Sub LaunchVideo
+  overload: Global.Behaviour_LandingPage.LaunchVideo*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_SerieData
+  commentId: T:Global.Behaviour_SerieData
+  name: Behaviour_SerieData
+  nameWithType: Behaviour_SerieData
+  fullName: Behaviour_SerieData
+- uid: YoutubePlayer.Behaviour_YoutubePlayer
+  commentId: T:YoutubePlayer.Behaviour_YoutubePlayer
+  parent: YoutubePlayer
+  name: Behaviour_YoutubePlayer
+  nameWithType: Behaviour_YoutubePlayer
+  fullName: YoutubePlayer.Behaviour_YoutubePlayer
+- uid: YoutubePlayer
+  commentId: N:YoutubePlayer
+  name: YoutubePlayer
+  nameWithType: YoutubePlayer
+  fullName: YoutubePlayer
+- uid: Global.MediaPlayerCtrl
+  commentId: T:Global.MediaPlayerCtrl
+  name: MediaPlayerCtrl
+  nameWithType: MediaPlayerCtrl
+  fullName: MediaPlayerCtrl
+- uid: Global.Behaviour_ScreenSwitcher
+  commentId: T:Global.Behaviour_ScreenSwitcher
+  name: Behaviour_ScreenSwitcher
+  nameWithType: Behaviour_ScreenSwitcher
+  fullName: Behaviour_ScreenSwitcher
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Behaviour_LandingPage.Display*
+  commentId: Overload:Global.Behaviour_LandingPage.Display
+  name: Display
+  nameWithType: Behaviour_LandingPage.Display
+  fullName: Behaviour_LandingPage.Display
+- uid: Global.Behaviour_LandingPage.PushBarDown*
+  commentId: Overload:Global.Behaviour_LandingPage.PushBarDown
+  name: PushBarDown
+  nameWithType: Behaviour_LandingPage.PushBarDown
+  fullName: Behaviour_LandingPage.PushBarDown
+- uid: Global.Behaviour_LandingPage.Destroy*
+  commentId: Overload:Global.Behaviour_LandingPage.Destroy
+  name: Destroy
+  nameWithType: Behaviour_LandingPage.Destroy
+  fullName: Behaviour_LandingPage.Destroy
+- uid: Global.Behaviour_LandingPage.LaunchVideo*
+  commentId: Overload:Global.Behaviour_LandingPage.LaunchVideo
+  name: LaunchVideo
+  nameWithType: Behaviour_LandingPage.LaunchVideo
+  fullName: Behaviour_LandingPage.LaunchVideo

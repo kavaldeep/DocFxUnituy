@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_ChangeProfileInformationStatus
+  commentId: T:Global.Behaviour_ChangeProfileInformationStatus
+  id: Behaviour_ChangeProfileInformationStatus
+  parent: Global
+  children:
+  - Global.Behaviour_ChangeProfileInformationStatus.ChangeStatus
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_ChangeProfileInformationStatus
+  nameWithType: Behaviour_ChangeProfileInformationStatus
+  fullName: Behaviour_ChangeProfileInformationStatus
+  type: Class
+  source:
+    id: Behaviour_ChangeProfileInformationStatus
+    path: ''
+    startLine: 28090
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_ChangeProfileInformationStatus : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_ChangeProfileInformationStatus
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_ChangeProfileInformationStatus.ChangeStatus
+  commentId: M:Global.Behaviour_ChangeProfileInformationStatus.ChangeStatus
+  id: ChangeStatus
+  parent: Global.Behaviour_ChangeProfileInformationStatus
+  langs:
+  - csharp
+  - vb
+  name: ChangeStatus()
+  nameWithType: Behaviour_ChangeProfileInformationStatus.ChangeStatus()
+  fullName: Behaviour_ChangeProfileInformationStatus.ChangeStatus()
+  type: Method
+  source:
+    id: ChangeStatus
+    path: ''
+    startLine: 28107
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ChangeStatus()
+    content.vb: Public Sub ChangeStatus
+  overload: Global.Behaviour_ChangeProfileInformationStatus.ChangeStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_ChangeProfileInformationStatus.ChangeStatus*
+  commentId: Overload:Global.Behaviour_ChangeProfileInformationStatus.ChangeStatus
+  name: ChangeStatus
+  nameWithType: Behaviour_ChangeProfileInformationStatus.ChangeStatus
+  fullName: Behaviour_ChangeProfileInformationStatus.ChangeStatus

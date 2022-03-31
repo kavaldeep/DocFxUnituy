@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_PopUpButtonInitializer
+  commentId: T:Global.Behaviour_PopUpButtonInitializer
+  id: Behaviour_PopUpButtonInitializer
+  parent: Global
+  children:
+  - Global.Behaviour_PopUpButtonInitializer.CreatePopUp
+  - Global.Behaviour_PopUpButtonInitializer.InitializePopUP(GameObject)
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_PopUpButtonInitializer
+  nameWithType: Behaviour_PopUpButtonInitializer
+  fullName: Behaviour_PopUpButtonInitializer
+  type: Class
+  source:
+    id: Behaviour_PopUpButtonInitializer
+    path: ''
+    startLine: 21458
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_PopUpButtonInitializer : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_PopUpButtonInitializer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_PopUpButtonInitializer.InitializePopUP(GameObject)
+  commentId: M:Global.Behaviour_PopUpButtonInitializer.InitializePopUP(GameObject)
+  id: InitializePopUP(GameObject)
+  parent: Global.Behaviour_PopUpButtonInitializer
+  langs:
+  - csharp
+  - vb
+  name: InitializePopUP(GameObject)
+  nameWithType: Behaviour_PopUpButtonInitializer.InitializePopUP(GameObject)
+  fullName: Behaviour_PopUpButtonInitializer.InitializePopUP(GameObject)
+  type: Method
+  source:
+    id: InitializePopUP
+    path: ''
+    startLine: 21466
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void InitializePopUP(GameObject _popUpPrefab)
+    parameters:
+    - id: _popUpPrefab
+      type: Global.GameObject
+    content.vb: Public Sub InitializePopUP(_popUpPrefab As GameObject)
+  overload: Global.Behaviour_PopUpButtonInitializer.InitializePopUP*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PopUpButtonInitializer.CreatePopUp
+  commentId: M:Global.Behaviour_PopUpButtonInitializer.CreatePopUp
+  id: CreatePopUp
+  parent: Global.Behaviour_PopUpButtonInitializer
+  langs:
+  - csharp
+  - vb
+  name: CreatePopUp()
+  nameWithType: Behaviour_PopUpButtonInitializer.CreatePopUp()
+  fullName: Behaviour_PopUpButtonInitializer.CreatePopUp()
+  type: Method
+  source:
+    id: CreatePopUp
+    path: ''
+    startLine: 21475
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void CreatePopUp()
+    content.vb: Public Sub CreatePopUp
+  overload: Global.Behaviour_PopUpButtonInitializer.CreatePopUp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_PopUpButtonInitializer.InitializePopUP*
+  commentId: Overload:Global.Behaviour_PopUpButtonInitializer.InitializePopUP
+  name: InitializePopUP
+  nameWithType: Behaviour_PopUpButtonInitializer.InitializePopUP
+  fullName: Behaviour_PopUpButtonInitializer.InitializePopUP
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_PopUpButtonInitializer.CreatePopUp*
+  commentId: Overload:Global.Behaviour_PopUpButtonInitializer.CreatePopUp
+  name: CreatePopUp
+  nameWithType: Behaviour_PopUpButtonInitializer.CreatePopUp
+  fullName: Behaviour_PopUpButtonInitializer.CreatePopUp

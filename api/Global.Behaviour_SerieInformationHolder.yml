@@ -1,0 +1,667 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SerieInformationHolder
+  commentId: T:Global.Behaviour_SerieInformationHolder
+  id: Behaviour_SerieInformationHolder
+  parent: Global
+  children:
+  - Global.Behaviour_SerieInformationHolder.episodeNumber
+  - Global.Behaviour_SerieInformationHolder.episodes
+  - Global.Behaviour_SerieInformationHolder.fanarts
+  - Global.Behaviour_SerieInformationHolder.logo
+  - Global.Behaviour_SerieInformationHolder.mainBackgroundColor
+  - Global.Behaviour_SerieInformationHolder.mainFontColor
+  - Global.Behaviour_SerieInformationHolder.name
+  - Global.Behaviour_SerieInformationHolder.news
+  - Global.Behaviour_SerieInformationHolder.Nombre_acteurs
+  - Global.Behaviour_SerieInformationHolder.presentationClipURL
+  - Global.Behaviour_SerieInformationHolder.presentationImage
+  - Global.Behaviour_SerieInformationHolder.secondaryBackgroundColor
+  - Global.Behaviour_SerieInformationHolder.secondaryFontColor
+  - Global.Behaviour_SerieInformationHolder.summary
+  - Global.Behaviour_SerieInformationHolder.tags
+  - Global.Behaviour_SerieInformationHolder.team
+  - Global.Behaviour_SerieInformationHolder.trailers
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SerieInformationHolder
+  nameWithType: Behaviour_SerieInformationHolder
+  fullName: Behaviour_SerieInformationHolder
+  type: Class
+  source:
+    id: Behaviour_SerieInformationHolder
+    path: ''
+    startLine: 12880
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_SerieInformationHolder : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_SerieInformationHolder
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_SerieInformationHolder.name
+  commentId: F:Global.Behaviour_SerieInformationHolder.name
+  id: name
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Behaviour_SerieInformationHolder.name
+  fullName: Behaviour_SerieInformationHolder.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 12882
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.episodeNumber
+  commentId: F:Global.Behaviour_SerieInformationHolder.episodeNumber
+  id: episodeNumber
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: episodeNumber
+  nameWithType: Behaviour_SerieInformationHolder.episodeNumber
+  fullName: Behaviour_SerieInformationHolder.episodeNumber
+  type: Field
+  source:
+    id: episodeNumber
+    path: ''
+    startLine: 12883
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int episodeNumber
+    return:
+      type: System.Int32
+    content.vb: Public episodeNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.summary
+  commentId: F:Global.Behaviour_SerieInformationHolder.summary
+  id: summary
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: summary
+  nameWithType: Behaviour_SerieInformationHolder.summary
+  fullName: Behaviour_SerieInformationHolder.summary
+  type: Field
+  source:
+    id: summary
+    path: ''
+    startLine: 12884
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string summary
+    return:
+      type: System.String
+    content.vb: Public summary As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.presentationImage
+  commentId: F:Global.Behaviour_SerieInformationHolder.presentationImage
+  id: presentationImage
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: presentationImage
+  nameWithType: Behaviour_SerieInformationHolder.presentationImage
+  fullName: Behaviour_SerieInformationHolder.presentationImage
+  type: Field
+  source:
+    id: presentationImage
+    path: ''
+    startLine: 12885
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string presentationImage
+    return:
+      type: System.String
+    content.vb: Public presentationImage As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.presentationClipURL
+  commentId: F:Global.Behaviour_SerieInformationHolder.presentationClipURL
+  id: presentationClipURL
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: presentationClipURL
+  nameWithType: Behaviour_SerieInformationHolder.presentationClipURL
+  fullName: Behaviour_SerieInformationHolder.presentationClipURL
+  type: Field
+  source:
+    id: presentationClipURL
+    path: ''
+    startLine: 12886
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string presentationClipURL
+    return:
+      type: System.String
+    content.vb: Public presentationClipURL As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.mainBackgroundColor
+  commentId: F:Global.Behaviour_SerieInformationHolder.mainBackgroundColor
+  id: mainBackgroundColor
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: mainBackgroundColor
+  nameWithType: Behaviour_SerieInformationHolder.mainBackgroundColor
+  fullName: Behaviour_SerieInformationHolder.mainBackgroundColor
+  type: Field
+  source:
+    id: mainBackgroundColor
+    path: ''
+    startLine: 12887
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string mainBackgroundColor
+    return:
+      type: System.String
+    content.vb: Public mainBackgroundColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.secondaryBackgroundColor
+  commentId: F:Global.Behaviour_SerieInformationHolder.secondaryBackgroundColor
+  id: secondaryBackgroundColor
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: secondaryBackgroundColor
+  nameWithType: Behaviour_SerieInformationHolder.secondaryBackgroundColor
+  fullName: Behaviour_SerieInformationHolder.secondaryBackgroundColor
+  type: Field
+  source:
+    id: secondaryBackgroundColor
+    path: ''
+    startLine: 12888
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string secondaryBackgroundColor
+    return:
+      type: System.String
+    content.vb: Public secondaryBackgroundColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.mainFontColor
+  commentId: F:Global.Behaviour_SerieInformationHolder.mainFontColor
+  id: mainFontColor
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: mainFontColor
+  nameWithType: Behaviour_SerieInformationHolder.mainFontColor
+  fullName: Behaviour_SerieInformationHolder.mainFontColor
+  type: Field
+  source:
+    id: mainFontColor
+    path: ''
+    startLine: 12889
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string mainFontColor
+    return:
+      type: System.String
+    content.vb: Public mainFontColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.secondaryFontColor
+  commentId: F:Global.Behaviour_SerieInformationHolder.secondaryFontColor
+  id: secondaryFontColor
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: secondaryFontColor
+  nameWithType: Behaviour_SerieInformationHolder.secondaryFontColor
+  fullName: Behaviour_SerieInformationHolder.secondaryFontColor
+  type: Field
+  source:
+    id: secondaryFontColor
+    path: ''
+    startLine: 12890
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string secondaryFontColor
+    return:
+      type: System.String
+    content.vb: Public secondaryFontColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.logo
+  commentId: F:Global.Behaviour_SerieInformationHolder.logo
+  id: logo
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: logo
+  nameWithType: Behaviour_SerieInformationHolder.logo
+  fullName: Behaviour_SerieInformationHolder.logo
+  type: Field
+  source:
+    id: logo
+    path: ''
+    startLine: 12891
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string logo
+    return:
+      type: System.String
+    content.vb: Public logo As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.trailers
+  commentId: F:Global.Behaviour_SerieInformationHolder.trailers
+  id: trailers
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: trailers
+  nameWithType: Behaviour_SerieInformationHolder.trailers
+  fullName: Behaviour_SerieInformationHolder.trailers
+  type: Field
+  source:
+    id: trailers
+    path: ''
+    startLine: 12892
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string[] trailers
+    return:
+      type: System.String[]
+    content.vb: Public trailers As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.tags
+  commentId: F:Global.Behaviour_SerieInformationHolder.tags
+  id: tags
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: tags
+  nameWithType: Behaviour_SerieInformationHolder.tags
+  fullName: Behaviour_SerieInformationHolder.tags
+  type: Field
+  source:
+    id: tags
+    path: ''
+    startLine: 12893
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string[] tags
+    return:
+      type: System.String[]
+    content.vb: Public tags As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.team
+  commentId: F:Global.Behaviour_SerieInformationHolder.team
+  id: team
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: team
+  nameWithType: Behaviour_SerieInformationHolder.team
+  fullName: Behaviour_SerieInformationHolder.team
+  type: Field
+  source:
+    id: team
+    path: ''
+    startLine: 12894
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieInformationHolder.TeamMemberStruct[] team
+    return:
+      type: Global.Behaviour_SerieInformationHolder.TeamMemberStruct[]
+    content.vb: Public team As Behaviour_SerieInformationHolder.TeamMemberStruct()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.news
+  commentId: F:Global.Behaviour_SerieInformationHolder.news
+  id: news
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: news
+  nameWithType: Behaviour_SerieInformationHolder.news
+  fullName: Behaviour_SerieInformationHolder.news
+  type: Field
+  source:
+    id: news
+    path: ''
+    startLine: 12895
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieInformationHolder.newsStruct[] news
+    return:
+      type: Global.Behaviour_SerieInformationHolder.newsStruct[]
+    content.vb: Public news As Behaviour_SerieInformationHolder.newsStruct()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.episodes
+  commentId: F:Global.Behaviour_SerieInformationHolder.episodes
+  id: episodes
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: episodes
+  nameWithType: Behaviour_SerieInformationHolder.episodes
+  fullName: Behaviour_SerieInformationHolder.episodes
+  type: Field
+  source:
+    id: episodes
+    path: ''
+    startLine: 12896
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieInformationHolder.episodeStruct[] episodes
+    return:
+      type: Global.Behaviour_SerieInformationHolder.episodeStruct[]
+    content.vb: Public episodes As Behaviour_SerieInformationHolder.episodeStruct()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.fanarts
+  commentId: F:Global.Behaviour_SerieInformationHolder.fanarts
+  id: fanarts
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: fanarts
+  nameWithType: Behaviour_SerieInformationHolder.fanarts
+  fullName: Behaviour_SerieInformationHolder.fanarts
+  type: Field
+  source:
+    id: fanarts
+    path: ''
+    startLine: 12897
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieInformationHolder.fanartStruct[] fanarts
+    return:
+      type: Global.Behaviour_SerieInformationHolder.fanartStruct[]
+    content.vb: Public fanarts As Behaviour_SerieInformationHolder.fanartStruct()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.Nombre_acteurs
+  commentId: F:Global.Behaviour_SerieInformationHolder.Nombre_acteurs
+  id: Nombre_acteurs
+  parent: Global.Behaviour_SerieInformationHolder
+  langs:
+  - csharp
+  - vb
+  name: Nombre_acteurs
+  nameWithType: Behaviour_SerieInformationHolder.Nombre_acteurs
+  fullName: Behaviour_SerieInformationHolder.Nombre_acteurs
+  type: Field
+  source:
+    id: Nombre_acteurs
+    path: ''
+    startLine: 12899
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string Nombre_acteurs
+    return:
+      type: System.String
+    content.vb: Public Nombre_acteurs As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Behaviour_SerieInformationHolder.TeamMemberStruct[]
+  isExternal: true
+  name: Behaviour_SerieInformationHolder.TeamMemberStruct[]
+  nameWithType: Behaviour_SerieInformationHolder.TeamMemberStruct[]
+  fullName: Behaviour_SerieInformationHolder.TeamMemberStruct[]
+  nameWithType.vb: Behaviour_SerieInformationHolder.TeamMemberStruct()
+  fullName.vb: Behaviour_SerieInformationHolder.TeamMemberStruct()
+  name.vb: Behaviour_SerieInformationHolder.TeamMemberStruct()
+  spec.csharp:
+  - uid: Global.Behaviour_SerieInformationHolder.TeamMemberStruct
+    name: Behaviour_SerieInformationHolder.TeamMemberStruct
+    nameWithType: Behaviour_SerieInformationHolder.TeamMemberStruct
+    fullName: Behaviour_SerieInformationHolder.TeamMemberStruct
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Behaviour_SerieInformationHolder.TeamMemberStruct
+    name: Behaviour_SerieInformationHolder.TeamMemberStruct
+    nameWithType: Behaviour_SerieInformationHolder.TeamMemberStruct
+    fullName: Behaviour_SerieInformationHolder.TeamMemberStruct
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Behaviour_SerieInformationHolder.newsStruct[]
+  isExternal: true
+  name: Behaviour_SerieInformationHolder.newsStruct[]
+  nameWithType: Behaviour_SerieInformationHolder.newsStruct[]
+  fullName: Behaviour_SerieInformationHolder.newsStruct[]
+  nameWithType.vb: Behaviour_SerieInformationHolder.newsStruct()
+  fullName.vb: Behaviour_SerieInformationHolder.newsStruct()
+  name.vb: Behaviour_SerieInformationHolder.newsStruct()
+  spec.csharp:
+  - uid: Global.Behaviour_SerieInformationHolder.newsStruct
+    name: Behaviour_SerieInformationHolder.newsStruct
+    nameWithType: Behaviour_SerieInformationHolder.newsStruct
+    fullName: Behaviour_SerieInformationHolder.newsStruct
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Behaviour_SerieInformationHolder.newsStruct
+    name: Behaviour_SerieInformationHolder.newsStruct
+    nameWithType: Behaviour_SerieInformationHolder.newsStruct
+    fullName: Behaviour_SerieInformationHolder.newsStruct
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Behaviour_SerieInformationHolder.episodeStruct[]
+  isExternal: true
+  name: Behaviour_SerieInformationHolder.episodeStruct[]
+  nameWithType: Behaviour_SerieInformationHolder.episodeStruct[]
+  fullName: Behaviour_SerieInformationHolder.episodeStruct[]
+  nameWithType.vb: Behaviour_SerieInformationHolder.episodeStruct()
+  fullName.vb: Behaviour_SerieInformationHolder.episodeStruct()
+  name.vb: Behaviour_SerieInformationHolder.episodeStruct()
+  spec.csharp:
+  - uid: Global.Behaviour_SerieInformationHolder.episodeStruct
+    name: Behaviour_SerieInformationHolder.episodeStruct
+    nameWithType: Behaviour_SerieInformationHolder.episodeStruct
+    fullName: Behaviour_SerieInformationHolder.episodeStruct
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Behaviour_SerieInformationHolder.episodeStruct
+    name: Behaviour_SerieInformationHolder.episodeStruct
+    nameWithType: Behaviour_SerieInformationHolder.episodeStruct
+    fullName: Behaviour_SerieInformationHolder.episodeStruct
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Behaviour_SerieInformationHolder.fanartStruct[]
+  isExternal: true
+  name: Behaviour_SerieInformationHolder.fanartStruct[]
+  nameWithType: Behaviour_SerieInformationHolder.fanartStruct[]
+  fullName: Behaviour_SerieInformationHolder.fanartStruct[]
+  nameWithType.vb: Behaviour_SerieInformationHolder.fanartStruct()
+  fullName.vb: Behaviour_SerieInformationHolder.fanartStruct()
+  name.vb: Behaviour_SerieInformationHolder.fanartStruct()
+  spec.csharp:
+  - uid: Global.Behaviour_SerieInformationHolder.fanartStruct
+    name: Behaviour_SerieInformationHolder.fanartStruct
+    nameWithType: Behaviour_SerieInformationHolder.fanartStruct
+    fullName: Behaviour_SerieInformationHolder.fanartStruct
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Behaviour_SerieInformationHolder.fanartStruct
+    name: Behaviour_SerieInformationHolder.fanartStruct
+    nameWithType: Behaviour_SerieInformationHolder.fanartStruct
+    fullName: Behaviour_SerieInformationHolder.fanartStruct
+  - name: ()
+    nameWithType: ()
+    fullName: ()

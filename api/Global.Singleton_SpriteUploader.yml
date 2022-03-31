@@ -1,0 +1,654 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Singleton_SpriteUploader
+  commentId: T:Global.Singleton_SpriteUploader
+  id: Singleton_SpriteUploader
+  parent: Global
+  children:
+  - Global.Singleton_SpriteUploader.ResultText
+  - Global.Singleton_SpriteUploader.UploadImage(Texture2D,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: Singleton_SpriteUploader
+  nameWithType: Singleton_SpriteUploader
+  fullName: Singleton_SpriteUploader
+  type: Class
+  source:
+    id: Singleton_SpriteUploader
+    path: ''
+    startLine: 12162
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThis Singleton Class handles every Image Upload\n"
+  example: []
+  syntax:
+    content: 'public class Singleton_SpriteUploader : Singleton<Singleton_SpriteUploader>'
+    content.vb: >-
+      Public Class Singleton_SpriteUploader
+          Inherits Singleton(Of Singleton_SpriteUploader)
+  inheritance:
+  - System.Object
+  - Global.Singleton{Singleton_SpriteUploader}
+  inheritedMembers:
+  - Global.Singleton{Singleton_SpriteUploader}.Instance
+  - Global.Singleton{Singleton_SpriteUploader}.StartCoroutine(System.Collections.IEnumerator)
+  - Global.Singleton{Singleton_SpriteUploader}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  - Global.Singleton{Singleton_SpriteUploader}.Awake
+  - Global.Singleton{Singleton_SpriteUploader}.Start
+  - Global.Singleton{Singleton_SpriteUploader}.Update
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Singleton_SpriteUploader.ResultText
+  commentId: F:Global.Singleton_SpriteUploader.ResultText
+  id: ResultText
+  parent: Global.Singleton_SpriteUploader
+  langs:
+  - csharp
+  - vb
+  name: ResultText
+  nameWithType: Singleton_SpriteUploader.ResultText
+  fullName: Singleton_SpriteUploader.ResultText
+  type: Field
+  source:
+    id: ResultText
+    path: ''
+    startLine: 12164
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Text ResultText
+    return:
+      type: Global.Text
+    content.vb: Public ResultText As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_SpriteUploader.UploadImage(Texture2D,System.String,System.String)
+  commentId: M:Global.Singleton_SpriteUploader.UploadImage(Texture2D,System.String,System.String)
+  id: UploadImage(Texture2D,System.String,System.String)
+  parent: Global.Singleton_SpriteUploader
+  langs:
+  - csharp
+  - vb
+  name: UploadImage(Texture2D, String, String)
+  nameWithType: Singleton_SpriteUploader.UploadImage(Texture2D, String, String)
+  fullName: Singleton_SpriteUploader.UploadImage(Texture2D, System.String, System.String)
+  type: Method
+  source:
+    id: UploadImage
+    path: ''
+    startLine: 12180
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThis method takes an image in a parameter and uploads it to a given URL\n"
+  example: []
+  syntax:
+    content: public static void UploadImage(Texture2D _image, string _url, string _name = "")
+    parameters:
+    - id: _image
+      type: Global.Texture2D
+      description: The Image to upload, if the file isn&apos;t valid, The image is copied to a valid format.
+    - id: _url
+      type: System.String
+      description: The given URL
+    - id: _name
+      type: System.String
+      description: The Image&apos;s name. It is automaticaly generated if not given
+    content.vb: Public Shared Sub UploadImage(_image As Texture2D, _url As String, _name As String = "")
+  overload: Global.Singleton_SpriteUploader.UploadImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.Singleton{Singleton_SpriteUploader}
+  commentId: T:Global.Singleton{Singleton_SpriteUploader}
+  definition: Global.Singleton`1
+  name: Singleton<Singleton_SpriteUploader>
+  nameWithType: Singleton<Singleton_SpriteUploader>
+  fullName: Singleton<Singleton_SpriteUploader>
+  nameWithType.vb: Singleton(Of Singleton_SpriteUploader)
+  fullName.vb: Singleton(Of Singleton_SpriteUploader)
+  name.vb: Singleton(Of Singleton_SpriteUploader)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Singleton_SpriteUploader
+    name: Singleton_SpriteUploader
+    nameWithType: Singleton_SpriteUploader
+    fullName: Singleton_SpriteUploader
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Singleton_SpriteUploader
+    name: Singleton_SpriteUploader
+    nameWithType: Singleton_SpriteUploader
+    fullName: Singleton_SpriteUploader
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_SpriteUploader}.Instance
+  commentId: P:Global.Singleton{Singleton_SpriteUploader}.Instance
+  parent: Global.Singleton{Singleton_SpriteUploader}
+  definition: Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<Singleton_SpriteUploader>.Instance
+  fullName: Singleton<Singleton_SpriteUploader>.Instance
+  nameWithType.vb: Singleton(Of Singleton_SpriteUploader).Instance
+  fullName.vb: Singleton(Of Singleton_SpriteUploader).Instance
+- uid: Global.Singleton{Singleton_SpriteUploader}.StartCoroutine(System.Collections.IEnumerator)
+  commentId: M:Global.Singleton{Singleton_SpriteUploader}.StartCoroutine(System.Collections.IEnumerator)
+  parent: Global.Singleton{Singleton_SpriteUploader}
+  definition: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  name: StartCoroutine(IEnumerator)
+  nameWithType: Singleton<Singleton_SpriteUploader>.StartCoroutine(IEnumerator)
+  fullName: Singleton<Singleton_SpriteUploader>.StartCoroutine(System.Collections.IEnumerator)
+  nameWithType.vb: Singleton(Of Singleton_SpriteUploader).StartCoroutine(IEnumerator)
+  fullName.vb: Singleton(Of Singleton_SpriteUploader).StartCoroutine(System.Collections.IEnumerator)
+  spec.csharp:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton<Singleton_SpriteUploader>.StartCoroutine
+    fullName: Singleton<Singleton_SpriteUploader>.StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton(Of Singleton_SpriteUploader).StartCoroutine
+    fullName: Singleton(Of Singleton_SpriteUploader).StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_SpriteUploader}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Global.Singleton{Singleton_SpriteUploader}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  parent: Global.Singleton{Singleton_SpriteUploader}
+  definition: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  name: AddCallbacks(Boolean, Boolean, Boolean)
+  nameWithType: Singleton<Singleton_SpriteUploader>.AddCallbacks(Boolean, Boolean, Boolean)
+  fullName: Singleton<Singleton_SpriteUploader>.AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Singleton(Of Singleton_SpriteUploader).AddCallbacks(Boolean, Boolean, Boolean)
+  fullName.vb: Singleton(Of Singleton_SpriteUploader).AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton<Singleton_SpriteUploader>.AddCallbacks
+    fullName: Singleton<Singleton_SpriteUploader>.AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton(Of Singleton_SpriteUploader).AddCallbacks
+    fullName: Singleton(Of Singleton_SpriteUploader).AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_SpriteUploader}.Awake
+  commentId: M:Global.Singleton{Singleton_SpriteUploader}.Awake
+  parent: Global.Singleton{Singleton_SpriteUploader}
+  definition: Global.Singleton`1.Awake
+  name: Awake()
+  nameWithType: Singleton<Singleton_SpriteUploader>.Awake()
+  fullName: Singleton<Singleton_SpriteUploader>.Awake()
+  nameWithType.vb: Singleton(Of Singleton_SpriteUploader).Awake()
+  fullName.vb: Singleton(Of Singleton_SpriteUploader).Awake()
+  spec.csharp:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton<Singleton_SpriteUploader>.Awake
+    fullName: Singleton<Singleton_SpriteUploader>.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton(Of Singleton_SpriteUploader).Awake
+    fullName: Singleton(Of Singleton_SpriteUploader).Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_SpriteUploader}.Start
+  commentId: M:Global.Singleton{Singleton_SpriteUploader}.Start
+  parent: Global.Singleton{Singleton_SpriteUploader}
+  definition: Global.Singleton`1.Start
+  name: Start()
+  nameWithType: Singleton<Singleton_SpriteUploader>.Start()
+  fullName: Singleton<Singleton_SpriteUploader>.Start()
+  nameWithType.vb: Singleton(Of Singleton_SpriteUploader).Start()
+  fullName.vb: Singleton(Of Singleton_SpriteUploader).Start()
+  spec.csharp:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton<Singleton_SpriteUploader>.Start
+    fullName: Singleton<Singleton_SpriteUploader>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton(Of Singleton_SpriteUploader).Start
+    fullName: Singleton(Of Singleton_SpriteUploader).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_SpriteUploader}.Update
+  commentId: M:Global.Singleton{Singleton_SpriteUploader}.Update
+  parent: Global.Singleton{Singleton_SpriteUploader}
+  definition: Global.Singleton`1.Update
+  name: Update()
+  nameWithType: Singleton<Singleton_SpriteUploader>.Update()
+  fullName: Singleton<Singleton_SpriteUploader>.Update()
+  nameWithType.vb: Singleton(Of Singleton_SpriteUploader).Update()
+  fullName.vb: Singleton(Of Singleton_SpriteUploader).Update()
+  spec.csharp:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton<Singleton_SpriteUploader>.Update
+    fullName: Singleton<Singleton_SpriteUploader>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton(Of Singleton_SpriteUploader).Update
+    fullName: Singleton(Of Singleton_SpriteUploader).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Singleton`1
+  commentId: T:Global.Singleton`1
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: Singleton(Of T)
+  name.vb: Singleton(Of T)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Instance
+  commentId: P:Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<T>.Instance
+  fullName: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+  fullName.vb: Singleton(Of T).Instance
+- uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  commentId: M:Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  isExternal: true
+  name: StartCoroutine(IEnumerator)
+  nameWithType: Singleton<T>.StartCoroutine(IEnumerator)
+  fullName: Singleton<T>.StartCoroutine(System.Collections.IEnumerator)
+  nameWithType.vb: Singleton(Of T).StartCoroutine(IEnumerator)
+  fullName.vb: Singleton(Of T).StartCoroutine(System.Collections.IEnumerator)
+  spec.csharp:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton<T>.StartCoroutine
+    fullName: Singleton<T>.StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton(Of T).StartCoroutine
+    fullName: Singleton(Of T).StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  isExternal: true
+  name: AddCallbacks(Boolean, Boolean, Boolean)
+  nameWithType: Singleton<T>.AddCallbacks(Boolean, Boolean, Boolean)
+  fullName: Singleton<T>.AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Singleton(Of T).AddCallbacks(Boolean, Boolean, Boolean)
+  fullName.vb: Singleton(Of T).AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton<T>.AddCallbacks
+    fullName: Singleton<T>.AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton(Of T).AddCallbacks
+    fullName: Singleton(Of T).AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Awake
+  commentId: M:Global.Singleton`1.Awake
+  name: Awake()
+  nameWithType: Singleton<T>.Awake()
+  fullName: Singleton<T>.Awake()
+  nameWithType.vb: Singleton(Of T).Awake()
+  fullName.vb: Singleton(Of T).Awake()
+  spec.csharp:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton<T>.Awake
+    fullName: Singleton<T>.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton(Of T).Awake
+    fullName: Singleton(Of T).Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Start
+  commentId: M:Global.Singleton`1.Start
+  name: Start()
+  nameWithType: Singleton<T>.Start()
+  fullName: Singleton<T>.Start()
+  nameWithType.vb: Singleton(Of T).Start()
+  fullName.vb: Singleton(Of T).Start()
+  spec.csharp:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton<T>.Start
+    fullName: Singleton<T>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton(Of T).Start
+    fullName: Singleton(Of T).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Update
+  commentId: M:Global.Singleton`1.Update
+  name: Update()
+  nameWithType: Singleton<T>.Update()
+  fullName: Singleton<T>.Update()
+  nameWithType.vb: Singleton(Of T).Update()
+  fullName.vb: Singleton(Of T).Update()
+  spec.csharp:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton<T>.Update
+    fullName: Singleton<T>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton(Of T).Update
+    fullName: Singleton(Of T).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Text
+  commentId: '!:Global.Text'
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: Text
+- uid: Global.Singleton_SpriteUploader.UploadImage*
+  commentId: Overload:Global.Singleton_SpriteUploader.UploadImage
+  name: UploadImage
+  nameWithType: Singleton_SpriteUploader.UploadImage
+  fullName: Singleton_SpriteUploader.UploadImage
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Editor_LanguageCreator
+  commentId: T:Global.Editor_LanguageCreator
+  id: Editor_LanguageCreator
+  parent: Global
+  children:
+  - Global.Editor_LanguageCreator.OnGUI
+  langs:
+  - csharp
+  - vb
+  name: Editor_LanguageCreator
+  nameWithType: Editor_LanguageCreator
+  fullName: Editor_LanguageCreator
+  type: Class
+  source:
+    id: Editor_LanguageCreator
+    path: ''
+    startLine: 8829
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nEditor Script that handles the creation of keys and the update of langage files ans the template\n"
+  example: []
+  syntax:
+    content: 'public class Editor_LanguageCreator : EditorWindow'
+    content.vb: >-
+      Public Class Editor_LanguageCreator
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Editor_LanguageCreator.OnGUI
+  commentId: M:Global.Editor_LanguageCreator.OnGUI
+  id: OnGUI
+  parent: Global.Editor_LanguageCreator
+  langs:
+  - csharp
+  - vb
+  name: OnGUI()
+  nameWithType: Editor_LanguageCreator.OnGUI()
+  fullName: Editor_LanguageCreator.OnGUI()
+  type: Method
+  source:
+    id: OnGUI
+    path: ''
+    startLine: 8868
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nGui Update\n"
+  example: []
+  syntax:
+    content: protected void OnGUI()
+    content.vb: Protected Sub OnGUI
+  overload: Global.Editor_LanguageCreator.OnGUI*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Editor_LanguageCreator.OnGUI*
+  commentId: Overload:Global.Editor_LanguageCreator.OnGUI
+  name: OnGUI
+  nameWithType: Editor_LanguageCreator.OnGUI
+  fullName: Editor_LanguageCreator.OnGUI

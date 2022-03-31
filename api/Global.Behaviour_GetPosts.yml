@@ -1,0 +1,395 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_GetPosts
+  commentId: T:Global.Behaviour_GetPosts
+  id: Behaviour_GetPosts
+  parent: Global
+  children:
+  - Global.Behaviour_GetPosts.AddPost
+  - Global.Behaviour_GetPosts.FbPostsObject
+  - Global.Behaviour_GetPosts.ParsePost(JSONNode)
+  - Global.Behaviour_GetPosts.ParsePosts(JSONNode)
+  - Global.Behaviour_GetPosts.Prefab_Post
+  - Global.Behaviour_GetPosts.Refresh
+  - Global.Behaviour_GetPosts.SendPost
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_GetPosts
+  nameWithType: Behaviour_GetPosts
+  fullName: Behaviour_GetPosts
+  type: Class
+  source:
+    id: Behaviour_GetPosts
+    path: ''
+    startLine: 24563
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_GetPosts : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_GetPosts
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_GetPosts.Prefab_Post
+  commentId: F:Global.Behaviour_GetPosts.Prefab_Post
+  id: Prefab_Post
+  parent: Global.Behaviour_GetPosts
+  langs:
+  - csharp
+  - vb
+  name: Prefab_Post
+  nameWithType: Behaviour_GetPosts.Prefab_Post
+  fullName: Behaviour_GetPosts.Prefab_Post
+  type: Field
+  source:
+    id: Prefab_Post
+    path: ''
+    startLine: 24566
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject Prefab_Post
+    return:
+      type: Global.GameObject
+    content.vb: Public Prefab_Post As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GetPosts.FbPostsObject
+  commentId: F:Global.Behaviour_GetPosts.FbPostsObject
+  id: FbPostsObject
+  parent: Global.Behaviour_GetPosts
+  langs:
+  - csharp
+  - vb
+  name: FbPostsObject
+  nameWithType: Behaviour_GetPosts.FbPostsObject
+  fullName: Behaviour_GetPosts.FbPostsObject
+  type: Field
+  source:
+    id: FbPostsObject
+    path: ''
+    startLine: 24576
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Manager_GetFBposts FbPostsObject
+    return:
+      type: Global.Manager_GetFBposts
+    content.vb: Public FbPostsObject As Manager_GetFBposts
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GetPosts.SendPost
+  commentId: F:Global.Behaviour_GetPosts.SendPost
+  id: SendPost
+  parent: Global.Behaviour_GetPosts
+  langs:
+  - csharp
+  - vb
+  name: SendPost
+  nameWithType: Behaviour_GetPosts.SendPost
+  fullName: Behaviour_GetPosts.SendPost
+  type: Field
+  source:
+    id: SendPost
+    path: ''
+    startLine: 24593
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string SendPost
+    return:
+      type: System.String
+    content.vb: Public SendPost As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GetPosts.AddPost
+  commentId: M:Global.Behaviour_GetPosts.AddPost
+  id: AddPost
+  parent: Global.Behaviour_GetPosts
+  langs:
+  - csharp
+  - vb
+  name: AddPost()
+  nameWithType: Behaviour_GetPosts.AddPost()
+  fullName: Behaviour_GetPosts.AddPost()
+  type: Method
+  source:
+    id: AddPost
+    path: ''
+    startLine: 24595
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AddPost()
+    content.vb: Public Sub AddPost
+  overload: Global.Behaviour_GetPosts.AddPost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GetPosts.ParsePost(JSONNode)
+  commentId: M:Global.Behaviour_GetPosts.ParsePost(JSONNode)
+  id: ParsePost(JSONNode)
+  parent: Global.Behaviour_GetPosts
+  langs:
+  - csharp
+  - vb
+  name: ParsePost(JSONNode)
+  nameWithType: Behaviour_GetPosts.ParsePost(JSONNode)
+  fullName: Behaviour_GetPosts.ParsePost(JSONNode)
+  type: Method
+  source:
+    id: ParsePost
+    path: ''
+    startLine: 24644
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Post ParsePost(JSONNode jsonPost)
+    parameters:
+    - id: jsonPost
+      type: Global.JSONNode
+    return:
+      type: Global.Post
+    content.vb: Public Shared Function ParsePost(jsonPost As JSONNode) As Post
+  overload: Global.Behaviour_GetPosts.ParsePost*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Behaviour_GetPosts.ParsePosts(JSONNode)
+  commentId: M:Global.Behaviour_GetPosts.ParsePosts(JSONNode)
+  id: ParsePosts(JSONNode)
+  parent: Global.Behaviour_GetPosts
+  langs:
+  - csharp
+  - vb
+  name: ParsePosts(JSONNode)
+  nameWithType: Behaviour_GetPosts.ParsePosts(JSONNode)
+  fullName: Behaviour_GetPosts.ParsePosts(JSONNode)
+  type: Method
+  source:
+    id: ParsePosts
+    path: ''
+    startLine: 24693
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static List<Post> ParsePosts(JSONNode postsArray)
+    parameters:
+    - id: postsArray
+      type: Global.JSONNode
+    return:
+      type: System.Collections.Generic.List{Post}
+    content.vb: Public Shared Function ParsePosts(postsArray As JSONNode) As List(Of Post)
+  overload: Global.Behaviour_GetPosts.ParsePosts*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Behaviour_GetPosts.Refresh
+  commentId: M:Global.Behaviour_GetPosts.Refresh
+  id: Refresh
+  parent: Global.Behaviour_GetPosts
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: Behaviour_GetPosts.Refresh()
+  fullName: Behaviour_GetPosts.Refresh()
+  type: Method
+  source:
+    id: Refresh
+    path: ''
+    startLine: 24940
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Refresh()
+    content.vb: Public Sub Refresh
+  overload: Global.Behaviour_GetPosts.Refresh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Manager_GetFBposts
+  commentId: T:Global.Manager_GetFBposts
+  name: Manager_GetFBposts
+  nameWithType: Manager_GetFBposts
+  fullName: Manager_GetFBposts
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Behaviour_GetPosts.AddPost*
+  commentId: Overload:Global.Behaviour_GetPosts.AddPost
+  name: AddPost
+  nameWithType: Behaviour_GetPosts.AddPost
+  fullName: Behaviour_GetPosts.AddPost
+- uid: Global.Behaviour_GetPosts.ParsePost*
+  commentId: Overload:Global.Behaviour_GetPosts.ParsePost
+  name: ParsePost
+  nameWithType: Behaviour_GetPosts.ParsePost
+  fullName: Behaviour_GetPosts.ParsePost
+- uid: Global.JSONNode
+  isExternal: true
+  name: JSONNode
+  nameWithType: JSONNode
+  fullName: JSONNode
+- uid: Global.Post
+  commentId: T:Global.Post
+  name: Post
+  nameWithType: Post
+  fullName: Post
+- uid: Global.Behaviour_GetPosts.ParsePosts*
+  commentId: Overload:Global.Behaviour_GetPosts.ParsePosts
+  name: ParsePosts
+  nameWithType: Behaviour_GetPosts.ParsePosts
+  fullName: Behaviour_GetPosts.ParsePosts
+- uid: System.Collections.Generic.List{Post}
+  commentId: T:System.Collections.Generic.List{Post}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Post>
+  nameWithType: List<Post>
+  fullName: System.Collections.Generic.List<Post>
+  nameWithType.vb: List(Of Post)
+  fullName.vb: System.Collections.Generic.List(Of Post)
+  name.vb: List(Of Post)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Post
+    name: Post
+    nameWithType: Post
+    fullName: Post
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Post
+    name: Post
+    nameWithType: Post
+    fullName: Post
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Behaviour_GetPosts.Refresh*
+  commentId: Overload:Global.Behaviour_GetPosts.Refresh
+  name: Refresh
+  nameWithType: Behaviour_GetPosts.Refresh
+  fullName: Behaviour_GetPosts.Refresh

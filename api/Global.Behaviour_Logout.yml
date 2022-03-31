@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_Logout
+  commentId: T:Global.Behaviour_Logout
+  id: Behaviour_Logout
+  parent: Global
+  children:
+  - Global.Behaviour_Logout.loginFacebookSetting
+  - Global.Behaviour_Logout.LogOut
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_Logout
+  nameWithType: Behaviour_Logout
+  fullName: Behaviour_Logout
+  type: Class
+  source:
+    id: Behaviour_Logout
+    path: ''
+    startLine: 26699
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_Logout : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_Logout
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_Logout.LogOut
+  commentId: M:Global.Behaviour_Logout.LogOut
+  id: LogOut
+  parent: Global.Behaviour_Logout
+  langs:
+  - csharp
+  - vb
+  name: LogOut()
+  nameWithType: Behaviour_Logout.LogOut()
+  fullName: Behaviour_Logout.LogOut()
+  type: Method
+  source:
+    id: LogOut
+    path: ''
+    startLine: 26701
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LogOut()
+    content.vb: Public Sub LogOut
+  overload: Global.Behaviour_Logout.LogOut*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_Logout.loginFacebookSetting
+  commentId: M:Global.Behaviour_Logout.loginFacebookSetting
+  id: loginFacebookSetting
+  parent: Global.Behaviour_Logout
+  langs:
+  - csharp
+  - vb
+  name: loginFacebookSetting()
+  nameWithType: Behaviour_Logout.loginFacebookSetting()
+  fullName: Behaviour_Logout.loginFacebookSetting()
+  type: Method
+  source:
+    id: loginFacebookSetting
+    path: ''
+    startLine: 26721
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void loginFacebookSetting()
+    content.vb: Public Sub loginFacebookSetting
+  overload: Global.Behaviour_Logout.loginFacebookSetting*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_Logout.LogOut*
+  commentId: Overload:Global.Behaviour_Logout.LogOut
+  name: LogOut
+  nameWithType: Behaviour_Logout.LogOut
+  fullName: Behaviour_Logout.LogOut
+- uid: Global.Behaviour_Logout.loginFacebookSetting*
+  commentId: Overload:Global.Behaviour_Logout.loginFacebookSetting
+  name: loginFacebookSetting
+  nameWithType: Behaviour_Logout.loginFacebookSetting
+  fullName: Behaviour_Logout.loginFacebookSetting

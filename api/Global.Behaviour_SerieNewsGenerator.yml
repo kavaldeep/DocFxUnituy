@@ -1,0 +1,460 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SerieNewsGenerator
+  commentId: T:Global.Behaviour_SerieNewsGenerator
+  id: Behaviour_SerieNewsGenerator
+  parent: Global
+  children:
+  - Global.Behaviour_SerieNewsGenerator.Awake
+  - Global.Behaviour_SerieNewsGenerator.EventArticles
+  - Global.Behaviour_SerieNewsGenerator.miniNews
+  - Global.Behaviour_SerieNewsGenerator.news_gridItem
+  - Global.Behaviour_SerieNewsGenerator.onShowFullNewsButton
+  - Global.Behaviour_SerieNewsGenerator.Start
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SerieNewsGenerator
+  nameWithType: Behaviour_SerieNewsGenerator
+  fullName: Behaviour_SerieNewsGenerator
+  type: Class
+  source:
+    id: Behaviour_SerieNewsGenerator
+    path: ''
+    startLine: 21276
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_SerieNewsGenerator : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_SerieNewsGenerator
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_SerieNewsGenerator.onShowFullNewsButton
+  commentId: F:Global.Behaviour_SerieNewsGenerator.onShowFullNewsButton
+  id: onShowFullNewsButton
+  parent: Global.Behaviour_SerieNewsGenerator
+  langs:
+  - csharp
+  - vb
+  name: onShowFullNewsButton
+  nameWithType: Behaviour_SerieNewsGenerator.onShowFullNewsButton
+  fullName: Behaviour_SerieNewsGenerator.onShowFullNewsButton
+  type: Field
+  source:
+    id: onShowFullNewsButton
+    path: ''
+    startLine: 21284
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent<int, int, Behaviour_SerieData> onShowFullNewsButton
+    return:
+      type: Global.UnityEvent{System.Int32,System.Int32,Behaviour_SerieData}
+    content.vb: Public onShowFullNewsButton As UnityEvent(Of Integer, Integer, Behaviour_SerieData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieNewsGenerator.miniNews
+  commentId: F:Global.Behaviour_SerieNewsGenerator.miniNews
+  id: miniNews
+  parent: Global.Behaviour_SerieNewsGenerator
+  langs:
+  - csharp
+  - vb
+  name: miniNews
+  nameWithType: Behaviour_SerieNewsGenerator.miniNews
+  fullName: Behaviour_SerieNewsGenerator.miniNews
+  type: Field
+  source:
+    id: miniNews
+    path: ''
+    startLine: 21286
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject miniNews
+    return:
+      type: Global.GameObject
+    content.vb: Public miniNews As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieNewsGenerator.news_gridItem
+  commentId: F:Global.Behaviour_SerieNewsGenerator.news_gridItem
+  id: news_gridItem
+  parent: Global.Behaviour_SerieNewsGenerator
+  langs:
+  - csharp
+  - vb
+  name: news_gridItem
+  nameWithType: Behaviour_SerieNewsGenerator.news_gridItem
+  fullName: Behaviour_SerieNewsGenerator.news_gridItem
+  type: Field
+  source:
+    id: news_gridItem
+    path: ''
+    startLine: 21288
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject news_gridItem
+    return:
+      type: Global.GameObject
+    content.vb: Public news_gridItem As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieNewsGenerator.EventArticles
+  commentId: F:Global.Behaviour_SerieNewsGenerator.EventArticles
+  id: EventArticles
+  parent: Global.Behaviour_SerieNewsGenerator
+  langs:
+  - csharp
+  - vb
+  name: EventArticles
+  nameWithType: Behaviour_SerieNewsGenerator.EventArticles
+  fullName: Behaviour_SerieNewsGenerator.EventArticles
+  type: Field
+  source:
+    id: EventArticles
+    path: ''
+    startLine: 21291
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<GameObject> EventArticles
+    return:
+      type: System.Collections.Generic.List{GameObject}
+    content.vb: Public EventArticles As List(Of GameObject)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieNewsGenerator.Awake
+  commentId: M:Global.Behaviour_SerieNewsGenerator.Awake
+  id: Awake
+  parent: Global.Behaviour_SerieNewsGenerator
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Behaviour_SerieNewsGenerator.Awake()
+  fullName: Behaviour_SerieNewsGenerator.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 21293
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: Global.Behaviour_SerieNewsGenerator.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieNewsGenerator.Start
+  commentId: M:Global.Behaviour_SerieNewsGenerator.Start
+  id: Start
+  parent: Global.Behaviour_SerieNewsGenerator
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: Behaviour_SerieNewsGenerator.Start()
+  fullName: Behaviour_SerieNewsGenerator.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 21305
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start
+  overload: Global.Behaviour_SerieNewsGenerator.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UnityEvent{System.Int32,System.Int32,Behaviour_SerieData}
+  commentId: '!:Global.UnityEvent{System.Int32,System.Int32,Behaviour_SerieData}'
+  definition: Global.UnityEvent`3
+  name: UnityEvent<Int32, Int32, Behaviour_SerieData>
+  nameWithType: UnityEvent<Int32, Int32, Behaviour_SerieData>
+  fullName: UnityEvent<System.Int32, System.Int32, Behaviour_SerieData>
+  nameWithType.vb: UnityEvent(Of Int32, Int32, Behaviour_SerieData)
+  fullName.vb: UnityEvent(Of System.Int32, System.Int32, Behaviour_SerieData)
+  name.vb: UnityEvent(Of Int32, Int32, Behaviour_SerieData)
+  spec.csharp:
+  - uid: Global.UnityEvent`3
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Behaviour_SerieData
+    name: Behaviour_SerieData
+    nameWithType: Behaviour_SerieData
+    fullName: Behaviour_SerieData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityEvent`3
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Behaviour_SerieData
+    name: Behaviour_SerieData
+    nameWithType: Behaviour_SerieData
+    fullName: Behaviour_SerieData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UnityEvent`3
+  isExternal: true
+  name: UnityEvent<, , >
+  nameWithType: UnityEvent<, , >
+  fullName: UnityEvent<, , >
+  nameWithType.vb: UnityEvent(Of , , )
+  fullName.vb: UnityEvent(Of , , )
+  name.vb: UnityEvent(Of , , )
+  spec.csharp:
+  - uid: Global.UnityEvent`3
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityEvent`3
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Collections.Generic.List{GameObject}
+  commentId: T:System.Collections.Generic.List{GameObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: System.Collections.Generic.List<GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: System.Collections.Generic.List(Of GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Behaviour_SerieNewsGenerator.Awake*
+  commentId: Overload:Global.Behaviour_SerieNewsGenerator.Awake
+  name: Awake
+  nameWithType: Behaviour_SerieNewsGenerator.Awake
+  fullName: Behaviour_SerieNewsGenerator.Awake
+- uid: Global.Behaviour_SerieNewsGenerator.Start*
+  commentId: Overload:Global.Behaviour_SerieNewsGenerator.Start
+  name: Start
+  nameWithType: Behaviour_SerieNewsGenerator.Start
+  fullName: Behaviour_SerieNewsGenerator.Start

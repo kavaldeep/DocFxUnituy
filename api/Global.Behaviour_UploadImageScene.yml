@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_UploadImageScene
+  commentId: T:Global.Behaviour_UploadImageScene
+  id: Behaviour_UploadImageScene
+  parent: Global
+  children:
+  - Global.Behaviour_UploadImageScene.GetImageFunc
+  - Global.Behaviour_UploadImageScene.UploadImage
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_UploadImageScene
+  nameWithType: Behaviour_UploadImageScene
+  fullName: Behaviour_UploadImageScene
+  type: Class
+  source:
+    id: Behaviour_UploadImageScene
+    path: ''
+    startLine: 28478
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_UploadImageScene : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_UploadImageScene
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_UploadImageScene.GetImageFunc
+  commentId: M:Global.Behaviour_UploadImageScene.GetImageFunc
+  id: GetImageFunc
+  parent: Global.Behaviour_UploadImageScene
+  langs:
+  - csharp
+  - vb
+  name: GetImageFunc()
+  nameWithType: Behaviour_UploadImageScene.GetImageFunc()
+  fullName: Behaviour_UploadImageScene.GetImageFunc()
+  type: Method
+  source:
+    id: GetImageFunc
+    path: ''
+    startLine: 28490
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GetImageFunc()
+    content.vb: Public Sub GetImageFunc
+  overload: Global.Behaviour_UploadImageScene.GetImageFunc*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_UploadImageScene.UploadImage
+  commentId: M:Global.Behaviour_UploadImageScene.UploadImage
+  id: UploadImage
+  parent: Global.Behaviour_UploadImageScene
+  langs:
+  - csharp
+  - vb
+  name: UploadImage()
+  nameWithType: Behaviour_UploadImageScene.UploadImage()
+  fullName: Behaviour_UploadImageScene.UploadImage()
+  type: Method
+  source:
+    id: UploadImage
+    path: ''
+    startLine: 28513
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UploadImage()
+    content.vb: Public Sub UploadImage
+  overload: Global.Behaviour_UploadImageScene.UploadImage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_UploadImageScene.GetImageFunc*
+  commentId: Overload:Global.Behaviour_UploadImageScene.GetImageFunc
+  name: GetImageFunc
+  nameWithType: Behaviour_UploadImageScene.GetImageFunc
+  fullName: Behaviour_UploadImageScene.GetImageFunc
+- uid: Global.Behaviour_UploadImageScene.UploadImage*
+  commentId: Overload:Global.Behaviour_UploadImageScene.UploadImage
+  name: UploadImage
+  nameWithType: Behaviour_UploadImageScene.UploadImage
+  fullName: Behaviour_UploadImageScene.UploadImage

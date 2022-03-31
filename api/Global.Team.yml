@@ -1,0 +1,412 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Team
+  commentId: T:Global.Team
+  id: Team
+  parent: Global
+  children:
+  - Global.Team.#ctor
+  - Global.Team.#ctor(System.Int32,System.String,System.String,ImageFile,System.Int32,System.String,System.String,System.String,System.String)
+  - Global.Team.accountId
+  - Global.Team.discordId
+  - Global.Team.facebookId
+  - Global.Team.image
+  - Global.Team.lastName
+  - Global.Team.name
+  - Global.Team.role
+  - Global.Team.twitterId
+  - Global.Team.youtubeAccount
+  langs:
+  - csharp
+  - vb
+  name: Team
+  nameWithType: Team
+  fullName: Team
+  type: Class
+  source:
+    id: Team
+    path: ''
+    startLine: 15980
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Team
+    content.vb: >-
+      <Serializable>
+
+      Public Class Team
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Team.role
+  commentId: F:Global.Team.role
+  id: role
+  parent: Global.Team
+  langs:
+  - csharp
+  - vb
+  name: role
+  nameWithType: Team.role
+  fullName: Team.role
+  type: Field
+  source:
+    id: role
+    path: ''
+    startLine: 15983
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int role
+    return:
+      type: System.Int32
+    content.vb: Public role As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Team.name
+  commentId: F:Global.Team.name
+  id: name
+  parent: Global.Team
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Team.name
+  fullName: Team.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 15984
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Team.lastName
+  commentId: F:Global.Team.lastName
+  id: lastName
+  parent: Global.Team
+  langs:
+  - csharp
+  - vb
+  name: lastName
+  nameWithType: Team.lastName
+  fullName: Team.lastName
+  type: Field
+  source:
+    id: lastName
+    path: ''
+    startLine: 15985
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string lastName
+    return:
+      type: System.String
+    content.vb: Public lastName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Team.image
+  commentId: F:Global.Team.image
+  id: image
+  parent: Global.Team
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Team.image
+  fullName: Team.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 15986
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile image
+    return:
+      type: Global.ImageFile
+    content.vb: Public image As ImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Team.accountId
+  commentId: F:Global.Team.accountId
+  id: accountId
+  parent: Global.Team
+  langs:
+  - csharp
+  - vb
+  name: accountId
+  nameWithType: Team.accountId
+  fullName: Team.accountId
+  type: Field
+  source:
+    id: accountId
+    path: ''
+    startLine: 15987
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int accountId
+    return:
+      type: System.Int32
+    content.vb: Public accountId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Team.youtubeAccount
+  commentId: F:Global.Team.youtubeAccount
+  id: youtubeAccount
+  parent: Global.Team
+  langs:
+  - csharp
+  - vb
+  name: youtubeAccount
+  nameWithType: Team.youtubeAccount
+  fullName: Team.youtubeAccount
+  type: Field
+  source:
+    id: youtubeAccount
+    path: ''
+    startLine: 15988
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string youtubeAccount
+    return:
+      type: System.String
+    content.vb: Public youtubeAccount As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Team.facebookId
+  commentId: F:Global.Team.facebookId
+  id: facebookId
+  parent: Global.Team
+  langs:
+  - csharp
+  - vb
+  name: facebookId
+  nameWithType: Team.facebookId
+  fullName: Team.facebookId
+  type: Field
+  source:
+    id: facebookId
+    path: ''
+    startLine: 15989
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string facebookId
+    return:
+      type: System.String
+    content.vb: Public facebookId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Team.twitterId
+  commentId: F:Global.Team.twitterId
+  id: twitterId
+  parent: Global.Team
+  langs:
+  - csharp
+  - vb
+  name: twitterId
+  nameWithType: Team.twitterId
+  fullName: Team.twitterId
+  type: Field
+  source:
+    id: twitterId
+    path: ''
+    startLine: 15990
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string twitterId
+    return:
+      type: System.String
+    content.vb: Public twitterId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Team.discordId
+  commentId: F:Global.Team.discordId
+  id: discordId
+  parent: Global.Team
+  langs:
+  - csharp
+  - vb
+  name: discordId
+  nameWithType: Team.discordId
+  fullName: Team.discordId
+  type: Field
+  source:
+    id: discordId
+    path: ''
+    startLine: 15991
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string discordId
+    return:
+      type: System.String
+    content.vb: Public discordId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Team.#ctor
+  commentId: M:Global.Team.#ctor
+  id: '#ctor'
+  parent: Global.Team
+  langs:
+  - csharp
+  - vb
+  name: Team()
+  nameWithType: Team.Team()
+  fullName: Team.Team()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15994
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Team()
+    content.vb: Public Sub New
+  overload: Global.Team.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Team.#ctor(System.Int32,System.String,System.String,ImageFile,System.Int32,System.String,System.String,System.String,System.String)
+  commentId: M:Global.Team.#ctor(System.Int32,System.String,System.String,ImageFile,System.Int32,System.String,System.String,System.String,System.String)
+  id: '#ctor(System.Int32,System.String,System.String,ImageFile,System.Int32,System.String,System.String,System.String,System.String)'
+  parent: Global.Team
+  langs:
+  - csharp
+  - vb
+  name: Team(Int32, String, String, ImageFile, Int32, String, String, String, String)
+  nameWithType: Team.Team(Int32, String, String, ImageFile, Int32, String, String, String, String)
+  fullName: Team.Team(System.Int32, System.String, System.String, ImageFile, System.Int32, System.String, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15996
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Team(int _role, string _name, string _lastName, ImageFile _image, int _accountId, string _youtubeAccount, string _facebookId, string _twitterId, string _discordId)
+    parameters:
+    - id: _role
+      type: System.Int32
+    - id: _name
+      type: System.String
+    - id: _lastName
+      type: System.String
+    - id: _image
+      type: Global.ImageFile
+    - id: _accountId
+      type: System.Int32
+    - id: _youtubeAccount
+      type: System.String
+    - id: _facebookId
+      type: System.String
+    - id: _twitterId
+      type: System.String
+    - id: _discordId
+      type: System.String
+    content.vb: Public Sub New(_role As Integer, _name As String, _lastName As String, _image As ImageFile, _accountId As Integer, _youtubeAccount As String, _facebookId As String, _twitterId As String, _discordId As String)
+  overload: Global.Team.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+- uid: Global.Team.#ctor*
+  commentId: Overload:Global.Team.#ctor
+  name: Team
+  nameWithType: Team.Team
+  fullName: Team.Team

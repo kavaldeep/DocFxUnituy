@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UserFBInfo
+  commentId: T:Global.UserFBInfo
+  id: UserFBInfo
+  parent: Global
+  children:
+  - Global.UserFBInfo.myEmail
+  - Global.UserFBInfo.myFbId
+  - Global.UserFBInfo.myFirstName
+  - Global.UserFBInfo.myLastName
+  - Global.UserFBInfo.myName
+  - Global.UserFBInfo.myPictureURL
+  langs:
+  - csharp
+  - vb
+  name: UserFBInfo
+  nameWithType: UserFBInfo
+  fullName: UserFBInfo
+  type: Struct
+  source:
+    id: UserFBInfo
+    path: ''
+    startLine: 16741
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct UserFBInfo
+    content.vb: >-
+      <Serializable>
+
+      Public Structure UserFBInfo
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.UserFBInfo.myName
+  commentId: F:Global.UserFBInfo.myName
+  id: myName
+  parent: Global.UserFBInfo
+  langs:
+  - csharp
+  - vb
+  name: myName
+  nameWithType: UserFBInfo.myName
+  fullName: UserFBInfo.myName
+  type: Field
+  source:
+    id: myName
+    path: ''
+    startLine: 16744
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string myName
+    return:
+      type: System.String
+    content.vb: Public myName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserFBInfo.myPictureURL
+  commentId: F:Global.UserFBInfo.myPictureURL
+  id: myPictureURL
+  parent: Global.UserFBInfo
+  langs:
+  - csharp
+  - vb
+  name: myPictureURL
+  nameWithType: UserFBInfo.myPictureURL
+  fullName: UserFBInfo.myPictureURL
+  type: Field
+  source:
+    id: myPictureURL
+    path: ''
+    startLine: 16746
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string myPictureURL
+    return:
+      type: System.String
+    content.vb: Public myPictureURL As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserFBInfo.myFbId
+  commentId: F:Global.UserFBInfo.myFbId
+  id: myFbId
+  parent: Global.UserFBInfo
+  langs:
+  - csharp
+  - vb
+  name: myFbId
+  nameWithType: UserFBInfo.myFbId
+  fullName: UserFBInfo.myFbId
+  type: Field
+  source:
+    id: myFbId
+    path: ''
+    startLine: 16749
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string myFbId
+    return:
+      type: System.String
+    content.vb: Public myFbId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserFBInfo.myFirstName
+  commentId: F:Global.UserFBInfo.myFirstName
+  id: myFirstName
+  parent: Global.UserFBInfo
+  langs:
+  - csharp
+  - vb
+  name: myFirstName
+  nameWithType: UserFBInfo.myFirstName
+  fullName: UserFBInfo.myFirstName
+  type: Field
+  source:
+    id: myFirstName
+    path: ''
+    startLine: 16752
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string myFirstName
+    return:
+      type: System.String
+    content.vb: Public myFirstName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserFBInfo.myLastName
+  commentId: F:Global.UserFBInfo.myLastName
+  id: myLastName
+  parent: Global.UserFBInfo
+  langs:
+  - csharp
+  - vb
+  name: myLastName
+  nameWithType: UserFBInfo.myLastName
+  fullName: UserFBInfo.myLastName
+  type: Field
+  source:
+    id: myLastName
+    path: ''
+    startLine: 16753
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string myLastName
+    return:
+      type: System.String
+    content.vb: Public myLastName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserFBInfo.myEmail
+  commentId: F:Global.UserFBInfo.myEmail
+  id: myEmail
+  parent: Global.UserFBInfo
+  langs:
+  - csharp
+  - vb
+  name: myEmail
+  nameWithType: UserFBInfo.myEmail
+  fullName: UserFBInfo.myEmail
+  type: Field
+  source:
+    id: myEmail
+    path: ''
+    startLine: 16754
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string myEmail
+    return:
+      type: System.String
+    content.vb: Public myEmail As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

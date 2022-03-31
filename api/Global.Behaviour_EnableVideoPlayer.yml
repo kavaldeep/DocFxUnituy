@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_EnableVideoPlayer
+  commentId: T:Global.Behaviour_EnableVideoPlayer
+  id: Behaviour_EnableVideoPlayer
+  parent: Global
+  children:
+  - Global.Behaviour_EnableVideoPlayer.EnableVideoPlayer
+  - Global.Behaviour_EnableVideoPlayer.videoViewersWindow
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_EnableVideoPlayer
+  nameWithType: Behaviour_EnableVideoPlayer
+  fullName: Behaviour_EnableVideoPlayer
+  type: Class
+  source:
+    id: Behaviour_EnableVideoPlayer
+    path: ''
+    startLine: 28599
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_EnableVideoPlayer : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_EnableVideoPlayer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_EnableVideoPlayer.videoViewersWindow
+  commentId: F:Global.Behaviour_EnableVideoPlayer.videoViewersWindow
+  id: videoViewersWindow
+  parent: Global.Behaviour_EnableVideoPlayer
+  langs:
+  - csharp
+  - vb
+  name: videoViewersWindow
+  nameWithType: Behaviour_EnableVideoPlayer.videoViewersWindow
+  fullName: Behaviour_EnableVideoPlayer.videoViewersWindow
+  type: Field
+  source:
+    id: videoViewersWindow
+    path: ''
+    startLine: 28601
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Transform videoViewersWindow
+    return:
+      type: Global.Transform
+    content.vb: Public Shared videoViewersWindow As Transform
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Behaviour_EnableVideoPlayer.EnableVideoPlayer
+  commentId: M:Global.Behaviour_EnableVideoPlayer.EnableVideoPlayer
+  id: EnableVideoPlayer
+  parent: Global.Behaviour_EnableVideoPlayer
+  langs:
+  - csharp
+  - vb
+  name: EnableVideoPlayer()
+  nameWithType: Behaviour_EnableVideoPlayer.EnableVideoPlayer()
+  fullName: Behaviour_EnableVideoPlayer.EnableVideoPlayer()
+  type: Method
+  source:
+    id: EnableVideoPlayer
+    path: ''
+    startLine: 28612
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void EnableVideoPlayer()
+    content.vb: Public Sub EnableVideoPlayer
+  overload: Global.Behaviour_EnableVideoPlayer.EnableVideoPlayer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.Behaviour_EnableVideoPlayer.EnableVideoPlayer*
+  commentId: Overload:Global.Behaviour_EnableVideoPlayer.EnableVideoPlayer
+  name: EnableVideoPlayer
+  nameWithType: Behaviour_EnableVideoPlayer.EnableVideoPlayer
+  fullName: Behaviour_EnableVideoPlayer.EnableVideoPlayer

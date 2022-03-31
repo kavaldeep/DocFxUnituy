@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SharePopUPAnimations
+  commentId: T:Global.SharePopUPAnimations
+  id: SharePopUPAnimations
+  parent: Global
+  children:
+  - Global.SharePopUPAnimations.ApearAnimation
+  langs:
+  - csharp
+  - vb
+  name: SharePopUPAnimations
+  nameWithType: SharePopUPAnimations
+  fullName: SharePopUPAnimations
+  type: Class
+  source:
+    id: SharePopUPAnimations
+    path: ''
+    startLine: 14322
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SharePopUPAnimations : MonoBehaviour'
+    content.vb: >-
+      Public Class SharePopUPAnimations
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SharePopUPAnimations.ApearAnimation
+  commentId: M:Global.SharePopUPAnimations.ApearAnimation
+  id: ApearAnimation
+  parent: Global.SharePopUPAnimations
+  langs:
+  - csharp
+  - vb
+  name: ApearAnimation()
+  nameWithType: SharePopUPAnimations.ApearAnimation()
+  fullName: SharePopUPAnimations.ApearAnimation()
+  type: Method
+  source:
+    id: ApearAnimation
+    path: ''
+    startLine: 14337
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ApearAnimation()
+    content.vb: Public Sub ApearAnimation
+  overload: Global.SharePopUPAnimations.ApearAnimation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SharePopUPAnimations.ApearAnimation*
+  commentId: Overload:Global.SharePopUPAnimations.ApearAnimation
+  name: ApearAnimation
+  nameWithType: SharePopUPAnimations.ApearAnimation
+  fullName: SharePopUPAnimations.ApearAnimation

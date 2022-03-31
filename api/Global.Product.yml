@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Product
+  commentId: T:Global.Product
+  id: Product
+  parent: Global
+  children:
+  - Global.Product.#ctor(System.String,ImageFile,ScreenTime,System.String,System.Single)
+  - Global.Product.appearances
+  - Global.Product.image
+  - Global.Product.name
+  - Global.Product.price
+  - Global.Product.url
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: Product
+  fullName: Product
+  type: Class
+  source:
+    id: Product
+    path: ''
+    startLine: 15785
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Product
+    content.vb: >-
+      <Serializable>
+
+      Public Class Product
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Product.name
+  commentId: F:Global.Product.name
+  id: name
+  parent: Global.Product
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Product.name
+  fullName: Product.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 15788
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Product.image
+  commentId: F:Global.Product.image
+  id: image
+  parent: Global.Product
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Product.image
+  fullName: Product.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 15790
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile image
+    return:
+      type: Global.ImageFile
+    content.vb: Public image As ImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Product.appearances
+  commentId: F:Global.Product.appearances
+  id: appearances
+  parent: Global.Product
+  langs:
+  - csharp
+  - vb
+  name: appearances
+  nameWithType: Product.appearances
+  fullName: Product.appearances
+  type: Field
+  source:
+    id: appearances
+    path: ''
+    startLine: 15793
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ScreenTime appearances
+    return:
+      type: Global.ScreenTime
+    content.vb: Public appearances As ScreenTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Product.url
+  commentId: F:Global.Product.url
+  id: url
+  parent: Global.Product
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: Product.url
+  fullName: Product.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 15794
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string url
+    return:
+      type: System.String
+    content.vb: Public url As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Product.price
+  commentId: F:Global.Product.price
+  id: price
+  parent: Global.Product
+  langs:
+  - csharp
+  - vb
+  name: price
+  nameWithType: Product.price
+  fullName: Product.price
+  type: Field
+  source:
+    id: price
+    path: ''
+    startLine: 15795
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float price
+    return:
+      type: System.Single
+    content.vb: Public price As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Product.#ctor(System.String,ImageFile,ScreenTime,System.String,System.Single)
+  commentId: M:Global.Product.#ctor(System.String,ImageFile,ScreenTime,System.String,System.Single)
+  id: '#ctor(System.String,ImageFile,ScreenTime,System.String,System.Single)'
+  parent: Global.Product
+  langs:
+  - csharp
+  - vb
+  name: Product(String, ImageFile, ScreenTime, String, Single)
+  nameWithType: Product.Product(String, ImageFile, ScreenTime, String, Single)
+  fullName: Product.Product(System.String, ImageFile, ScreenTime, System.String, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15797
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Product(string _name, ImageFile _image, ScreenTime _appearances, string _url, float _price)
+    parameters:
+    - id: _name
+      type: System.String
+    - id: _image
+      type: Global.ImageFile
+    - id: _appearances
+      type: Global.ScreenTime
+    - id: _url
+      type: System.String
+    - id: _price
+      type: System.Single
+    content.vb: Public Sub New(_name As String, _image As ImageFile, _appearances As ScreenTime, _url As String, _price As Single)
+  overload: Global.Product.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+- uid: Global.ScreenTime
+  commentId: T:Global.ScreenTime
+  name: ScreenTime
+  nameWithType: ScreenTime
+  fullName: ScreenTime
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Product.#ctor*
+  commentId: Overload:Global.Product.#ctor
+  name: Product
+  nameWithType: Product.Product
+  fullName: Product.Product

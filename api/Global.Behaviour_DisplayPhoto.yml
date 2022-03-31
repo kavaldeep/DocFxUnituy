@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_DisplayPhoto
+  commentId: T:Global.Behaviour_DisplayPhoto
+  id: Behaviour_DisplayPhoto
+  parent: Global
+  children:
+  - Global.Behaviour_DisplayPhoto._tex
+  - Global.Behaviour_DisplayPhoto.Display(Texture2D)
+  - Global.Behaviour_DisplayPhoto.downURL
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_DisplayPhoto
+  nameWithType: Behaviour_DisplayPhoto
+  fullName: Behaviour_DisplayPhoto
+  type: Class
+  source:
+    id: Behaviour_DisplayPhoto
+    path: ''
+    startLine: 28145
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_DisplayPhoto : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_DisplayPhoto
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_DisplayPhoto._tex
+  commentId: F:Global.Behaviour_DisplayPhoto._tex
+  id: _tex
+  parent: Global.Behaviour_DisplayPhoto
+  langs:
+  - csharp
+  - vb
+  name: _tex
+  nameWithType: Behaviour_DisplayPhoto._tex
+  fullName: Behaviour_DisplayPhoto._tex
+  type: Field
+  source:
+    id: _tex
+    path: ''
+    startLine: 28147
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Unity.VectorGraphics.SVGImage _tex
+    return:
+      type: Global.Unity.VectorGraphics.SVGImage
+    content.vb: Public _tex As Unity.VectorGraphics.SVGImage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_DisplayPhoto.downURL
+  commentId: F:Global.Behaviour_DisplayPhoto.downURL
+  id: downURL
+  parent: Global.Behaviour_DisplayPhoto
+  langs:
+  - csharp
+  - vb
+  name: downURL
+  nameWithType: Behaviour_DisplayPhoto.downURL
+  fullName: Behaviour_DisplayPhoto.downURL
+  type: Field
+  source:
+    id: downURL
+    path: ''
+    startLine: 28148
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string downURL
+    return:
+      type: System.String
+    content.vb: Public downURL As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_DisplayPhoto.Display(Texture2D)
+  commentId: M:Global.Behaviour_DisplayPhoto.Display(Texture2D)
+  id: Display(Texture2D)
+  parent: Global.Behaviour_DisplayPhoto
+  langs:
+  - csharp
+  - vb
+  name: Display(Texture2D)
+  nameWithType: Behaviour_DisplayPhoto.Display(Texture2D)
+  fullName: Behaviour_DisplayPhoto.Display(Texture2D)
+  type: Method
+  source:
+    id: Display
+    path: ''
+    startLine: 28181
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Display(Texture2D newTex)
+    parameters:
+    - id: newTex
+      type: Global.Texture2D
+    content.vb: Public Sub Display(newTex As Texture2D)
+  overload: Global.Behaviour_DisplayPhoto.Display*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Unity.VectorGraphics.SVGImage
+  commentId: '!:Global.Unity.VectorGraphics.SVGImage'
+  isExternal: true
+  name: Unity.VectorGraphics.SVGImage
+  nameWithType: Unity.VectorGraphics.SVGImage
+  fullName: Unity.VectorGraphics.SVGImage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Behaviour_DisplayPhoto.Display*
+  commentId: Overload:Global.Behaviour_DisplayPhoto.Display
+  name: Display
+  nameWithType: Behaviour_DisplayPhoto.Display
+  fullName: Behaviour_DisplayPhoto.Display
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D

@@ -1,0 +1,289 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.FanArt
+  commentId: T:Global.FanArt
+  id: FanArt
+  parent: Global
+  children:
+  - Global.FanArt.#ctor
+  - Global.FanArt.#ctor(System.String,ImageFile,System.String)
+  - Global.FanArt.#ctor(System.String,ImageFile,System.String,System.String)
+  - Global.FanArt.idEpisode
+  - Global.FanArt.image
+  - Global.FanArt.name
+  - Global.FanArt.url
+  langs:
+  - csharp
+  - vb
+  name: FanArt
+  nameWithType: FanArt
+  fullName: FanArt
+  type: Class
+  source:
+    id: FanArt
+    path: ''
+    startLine: 15636
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class FanArt
+    content.vb: >-
+      <Serializable>
+
+      Public Class FanArt
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.FanArt.name
+  commentId: F:Global.FanArt.name
+  id: name
+  parent: Global.FanArt
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: FanArt.name
+  fullName: FanArt.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 15639
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FanArt.image
+  commentId: F:Global.FanArt.image
+  id: image
+  parent: Global.FanArt
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: FanArt.image
+  fullName: FanArt.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 15640
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile image
+    return:
+      type: Global.ImageFile
+    content.vb: Public image As ImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FanArt.url
+  commentId: F:Global.FanArt.url
+  id: url
+  parent: Global.FanArt
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: FanArt.url
+  fullName: FanArt.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 15641
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string url
+    return:
+      type: System.String
+    content.vb: Public url As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FanArt.idEpisode
+  commentId: F:Global.FanArt.idEpisode
+  id: idEpisode
+  parent: Global.FanArt
+  langs:
+  - csharp
+  - vb
+  name: idEpisode
+  nameWithType: FanArt.idEpisode
+  fullName: FanArt.idEpisode
+  type: Field
+  source:
+    id: idEpisode
+    path: ''
+    startLine: 15642
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string idEpisode
+    return:
+      type: System.String
+    content.vb: Public idEpisode As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FanArt.#ctor
+  commentId: M:Global.FanArt.#ctor
+  id: '#ctor'
+  parent: Global.FanArt
+  langs:
+  - csharp
+  - vb
+  name: FanArt()
+  nameWithType: FanArt.FanArt()
+  fullName: FanArt.FanArt()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15644
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public FanArt()
+    content.vb: Public Sub New
+  overload: Global.FanArt.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FanArt.#ctor(System.String,ImageFile,System.String,System.String)
+  commentId: M:Global.FanArt.#ctor(System.String,ImageFile,System.String,System.String)
+  id: '#ctor(System.String,ImageFile,System.String,System.String)'
+  parent: Global.FanArt
+  langs:
+  - csharp
+  - vb
+  name: FanArt(String, ImageFile, String, String)
+  nameWithType: FanArt.FanArt(String, ImageFile, String, String)
+  fullName: FanArt.FanArt(System.String, ImageFile, System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15646
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public FanArt(string _name, ImageFile _image, string _url, string _idEpisode)
+    parameters:
+    - id: _name
+      type: System.String
+    - id: _image
+      type: Global.ImageFile
+    - id: _url
+      type: System.String
+    - id: _idEpisode
+      type: System.String
+    content.vb: Public Sub New(_name As String, _image As ImageFile, _url As String, _idEpisode As String)
+  overload: Global.FanArt.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FanArt.#ctor(System.String,ImageFile,System.String)
+  commentId: M:Global.FanArt.#ctor(System.String,ImageFile,System.String)
+  id: '#ctor(System.String,ImageFile,System.String)'
+  parent: Global.FanArt
+  langs:
+  - csharp
+  - vb
+  name: FanArt(String, ImageFile, String)
+  nameWithType: FanArt.FanArt(String, ImageFile, String)
+  fullName: FanArt.FanArt(System.String, ImageFile, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15659
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public FanArt(string _name, ImageFile _image, string _url)
+    parameters:
+    - id: _name
+      type: System.String
+    - id: _image
+      type: Global.ImageFile
+    - id: _url
+      type: System.String
+    content.vb: Public Sub New(_name As String, _image As ImageFile, _url As String)
+  overload: Global.FanArt.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+- uid: Global.FanArt.#ctor*
+  commentId: Overload:Global.FanArt.#ctor
+  name: FanArt
+  nameWithType: FanArt.FanArt
+  fullName: FanArt.FanArt

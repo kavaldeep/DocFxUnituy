@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Editor_AssetImportModificator
+  commentId: T:Global.Editor_AssetImportModificator
+  id: Editor_AssetImportModificator
+  parent: Global
+  children:
+  - Global.Editor_AssetImportModificator.OnPreprocessAnimation
+  - Global.Editor_AssetImportModificator.OnPreprocessAudio
+  - Global.Editor_AssetImportModificator.OnPreprocessModel
+  - Global.Editor_AssetImportModificator.OnPreprocessSpeedTree
+  - Global.Editor_AssetImportModificator.OnPreprocessTexture
+  langs:
+  - csharp
+  - vb
+  name: Editor_AssetImportModificator
+  nameWithType: Editor_AssetImportModificator
+  fullName: Editor_AssetImportModificator
+  type: Class
+  source:
+    id: Editor_AssetImportModificator
+    path: ''
+    startLine: 9247
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Editor_AssetImportModificator : AssetPostprocessor'
+    content.vb: >-
+      Public Class Editor_AssetImportModificator
+          Inherits AssetPostprocessor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Editor_AssetImportModificator.OnPreprocessAnimation
+  commentId: M:Global.Editor_AssetImportModificator.OnPreprocessAnimation
+  id: OnPreprocessAnimation
+  parent: Global.Editor_AssetImportModificator
+  langs:
+  - csharp
+  - vb
+  name: OnPreprocessAnimation()
+  nameWithType: Editor_AssetImportModificator.OnPreprocessAnimation()
+  fullName: Editor_AssetImportModificator.OnPreprocessAnimation()
+  type: Method
+  source:
+    id: OnPreprocessAnimation
+    path: ''
+    startLine: 9249
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void OnPreprocessAnimation()
+    content.vb: Protected Sub OnPreprocessAnimation
+  overload: Global.Editor_AssetImportModificator.OnPreprocessAnimation*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.Editor_AssetImportModificator.OnPreprocessAudio
+  commentId: M:Global.Editor_AssetImportModificator.OnPreprocessAudio
+  id: OnPreprocessAudio
+  parent: Global.Editor_AssetImportModificator
+  langs:
+  - csharp
+  - vb
+  name: OnPreprocessAudio()
+  nameWithType: Editor_AssetImportModificator.OnPreprocessAudio()
+  fullName: Editor_AssetImportModificator.OnPreprocessAudio()
+  type: Method
+  source:
+    id: OnPreprocessAudio
+    path: ''
+    startLine: 9253
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void OnPreprocessAudio()
+    content.vb: Protected Sub OnPreprocessAudio
+  overload: Global.Editor_AssetImportModificator.OnPreprocessAudio*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.Editor_AssetImportModificator.OnPreprocessModel
+  commentId: M:Global.Editor_AssetImportModificator.OnPreprocessModel
+  id: OnPreprocessModel
+  parent: Global.Editor_AssetImportModificator
+  langs:
+  - csharp
+  - vb
+  name: OnPreprocessModel()
+  nameWithType: Editor_AssetImportModificator.OnPreprocessModel()
+  fullName: Editor_AssetImportModificator.OnPreprocessModel()
+  type: Method
+  source:
+    id: OnPreprocessModel
+    path: ''
+    startLine: 9257
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void OnPreprocessModel()
+    content.vb: Protected Sub OnPreprocessModel
+  overload: Global.Editor_AssetImportModificator.OnPreprocessModel*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.Editor_AssetImportModificator.OnPreprocessSpeedTree
+  commentId: M:Global.Editor_AssetImportModificator.OnPreprocessSpeedTree
+  id: OnPreprocessSpeedTree
+  parent: Global.Editor_AssetImportModificator
+  langs:
+  - csharp
+  - vb
+  name: OnPreprocessSpeedTree()
+  nameWithType: Editor_AssetImportModificator.OnPreprocessSpeedTree()
+  fullName: Editor_AssetImportModificator.OnPreprocessSpeedTree()
+  type: Method
+  source:
+    id: OnPreprocessSpeedTree
+    path: ''
+    startLine: 9261
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void OnPreprocessSpeedTree()
+    content.vb: Protected Sub OnPreprocessSpeedTree
+  overload: Global.Editor_AssetImportModificator.OnPreprocessSpeedTree*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.Editor_AssetImportModificator.OnPreprocessTexture
+  commentId: M:Global.Editor_AssetImportModificator.OnPreprocessTexture
+  id: OnPreprocessTexture
+  parent: Global.Editor_AssetImportModificator
+  langs:
+  - csharp
+  - vb
+  name: OnPreprocessTexture()
+  nameWithType: Editor_AssetImportModificator.OnPreprocessTexture()
+  fullName: Editor_AssetImportModificator.OnPreprocessTexture()
+  type: Method
+  source:
+    id: OnPreprocessTexture
+    path: ''
+    startLine: 9265
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void OnPreprocessTexture()
+    content.vb: Protected Sub OnPreprocessTexture
+  overload: Global.Editor_AssetImportModificator.OnPreprocessTexture*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Editor_AssetImportModificator.OnPreprocessAnimation*
+  commentId: Overload:Global.Editor_AssetImportModificator.OnPreprocessAnimation
+  name: OnPreprocessAnimation
+  nameWithType: Editor_AssetImportModificator.OnPreprocessAnimation
+  fullName: Editor_AssetImportModificator.OnPreprocessAnimation
+- uid: Global.Editor_AssetImportModificator.OnPreprocessAudio*
+  commentId: Overload:Global.Editor_AssetImportModificator.OnPreprocessAudio
+  name: OnPreprocessAudio
+  nameWithType: Editor_AssetImportModificator.OnPreprocessAudio
+  fullName: Editor_AssetImportModificator.OnPreprocessAudio
+- uid: Global.Editor_AssetImportModificator.OnPreprocessModel*
+  commentId: Overload:Global.Editor_AssetImportModificator.OnPreprocessModel
+  name: OnPreprocessModel
+  nameWithType: Editor_AssetImportModificator.OnPreprocessModel
+  fullName: Editor_AssetImportModificator.OnPreprocessModel
+- uid: Global.Editor_AssetImportModificator.OnPreprocessSpeedTree*
+  commentId: Overload:Global.Editor_AssetImportModificator.OnPreprocessSpeedTree
+  name: OnPreprocessSpeedTree
+  nameWithType: Editor_AssetImportModificator.OnPreprocessSpeedTree
+  fullName: Editor_AssetImportModificator.OnPreprocessSpeedTree
+- uid: Global.Editor_AssetImportModificator.OnPreprocessTexture*
+  commentId: Overload:Global.Editor_AssetImportModificator.OnPreprocessTexture
+  name: OnPreprocessTexture
+  nameWithType: Editor_AssetImportModificator.OnPreprocessTexture
+  fullName: Editor_AssetImportModificator.OnPreprocessTexture

@@ -1,0 +1,537 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_GlobalUserData
+  commentId: T:Global.Static_GlobalUserData
+  id: Static_GlobalUserData
+  parent: Global
+  children:
+  - Global.Static_GlobalUserData.Guest
+  - Global.Static_GlobalUserData.IsLoaded
+  - Global.Static_GlobalUserData.JWT
+  - Global.Static_GlobalUserData.onNewProfileLoad
+  - Global.Static_GlobalUserData.SetGuest(System.Boolean)
+  - Global.Static_GlobalUserData.SetJWT(System.String)
+  - Global.Static_GlobalUserData.SetUserFBInfo(UserFBInfo)
+  - Global.Static_GlobalUserData.SetUserInfo(UserInfo)
+  - Global.Static_GlobalUserData.SetUserSetting(UserSetting)
+  - Global.Static_GlobalUserData.UserFBInfo
+  - Global.Static_GlobalUserData.UserInfo
+  - Global.Static_GlobalUserData.UserSetting
+  langs:
+  - csharp
+  - vb
+  name: Static_GlobalUserData
+  nameWithType: Static_GlobalUserData
+  fullName: Static_GlobalUserData
+  type: Class
+  source:
+    id: Static_GlobalUserData
+    path: ''
+    startLine: 16662
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Static_GlobalUserData
+    content.vb: Public Module Static_GlobalUserData
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_GlobalUserData.onNewProfileLoad
+  commentId: F:Global.Static_GlobalUserData.onNewProfileLoad
+  id: onNewProfileLoad
+  parent: Global.Static_GlobalUserData
+  langs:
+  - csharp
+  - vb
+  name: onNewProfileLoad
+  nameWithType: Static_GlobalUserData.onNewProfileLoad
+  fullName: Static_GlobalUserData.onNewProfileLoad
+  type: Field
+  source:
+    id: onNewProfileLoad
+    path: ''
+    startLine: 16666
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Static_GlobalUserData.OnNewProfileLoadDelegate onNewProfileLoad
+    return:
+      type: Global.Static_GlobalUserData.OnNewProfileLoadDelegate
+    content.vb: Public Shared onNewProfileLoad As Static_GlobalUserData.OnNewProfileLoadDelegate
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_GlobalUserData.IsLoaded
+  commentId: P:Global.Static_GlobalUserData.IsLoaded
+  id: IsLoaded
+  parent: Global.Static_GlobalUserData
+  langs:
+  - csharp
+  - vb
+  name: IsLoaded
+  nameWithType: Static_GlobalUserData.IsLoaded
+  fullName: Static_GlobalUserData.IsLoaded
+  type: Property
+  source:
+    id: IsLoaded
+    path: ''
+    startLine: 16670
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool IsLoaded { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property IsLoaded As Boolean
+  overload: Global.Static_GlobalUserData.IsLoaded*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_GlobalUserData.UserInfo
+  commentId: P:Global.Static_GlobalUserData.UserInfo
+  id: UserInfo
+  parent: Global.Static_GlobalUserData
+  langs:
+  - csharp
+  - vb
+  name: UserInfo
+  nameWithType: Static_GlobalUserData.UserInfo
+  fullName: Static_GlobalUserData.UserInfo
+  type: Property
+  source:
+    id: UserInfo
+    path: ''
+    startLine: 16680
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static UserInfo UserInfo { get; }
+    parameters: []
+    return:
+      type: Global.UserInfo
+    content.vb: Public Shared ReadOnly Property UserInfo As UserInfo
+  overload: Global.Static_GlobalUserData.UserInfo*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_GlobalUserData.UserFBInfo
+  commentId: P:Global.Static_GlobalUserData.UserFBInfo
+  id: UserFBInfo
+  parent: Global.Static_GlobalUserData
+  langs:
+  - csharp
+  - vb
+  name: UserFBInfo
+  nameWithType: Static_GlobalUserData.UserFBInfo
+  fullName: Static_GlobalUserData.UserFBInfo
+  type: Property
+  source:
+    id: UserFBInfo
+    path: ''
+    startLine: 16681
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static UserFBInfo UserFBInfo { get; }
+    parameters: []
+    return:
+      type: Global.UserFBInfo
+    content.vb: Public Shared ReadOnly Property UserFBInfo As UserFBInfo
+  overload: Global.Static_GlobalUserData.UserFBInfo*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_GlobalUserData.JWT
+  commentId: P:Global.Static_GlobalUserData.JWT
+  id: JWT
+  parent: Global.Static_GlobalUserData
+  langs:
+  - csharp
+  - vb
+  name: JWT
+  nameWithType: Static_GlobalUserData.JWT
+  fullName: Static_GlobalUserData.JWT
+  type: Property
+  source:
+    id: JWT
+    path: ''
+    startLine: 16682
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string JWT { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property JWT As String
+  overload: Global.Static_GlobalUserData.JWT*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_GlobalUserData.UserSetting
+  commentId: P:Global.Static_GlobalUserData.UserSetting
+  id: UserSetting
+  parent: Global.Static_GlobalUserData
+  langs:
+  - csharp
+  - vb
+  name: UserSetting
+  nameWithType: Static_GlobalUserData.UserSetting
+  fullName: Static_GlobalUserData.UserSetting
+  type: Property
+  source:
+    id: UserSetting
+    path: ''
+    startLine: 16683
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static UserSetting UserSetting { get; }
+    parameters: []
+    return:
+      type: Global.UserSetting
+    content.vb: Public Shared ReadOnly Property UserSetting As UserSetting
+  overload: Global.Static_GlobalUserData.UserSetting*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_GlobalUserData.Guest
+  commentId: P:Global.Static_GlobalUserData.Guest
+  id: Guest
+  parent: Global.Static_GlobalUserData
+  langs:
+  - csharp
+  - vb
+  name: Guest
+  nameWithType: Static_GlobalUserData.Guest
+  fullName: Static_GlobalUserData.Guest
+  type: Property
+  source:
+    id: Guest
+    path: ''
+    startLine: 16684
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool Guest { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property Guest As Boolean
+  overload: Global.Static_GlobalUserData.Guest*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_GlobalUserData.SetUserInfo(UserInfo)
+  commentId: M:Global.Static_GlobalUserData.SetUserInfo(UserInfo)
+  id: SetUserInfo(UserInfo)
+  parent: Global.Static_GlobalUserData
+  langs:
+  - csharp
+  - vb
+  name: SetUserInfo(UserInfo)
+  nameWithType: Static_GlobalUserData.SetUserInfo(UserInfo)
+  fullName: Static_GlobalUserData.SetUserInfo(UserInfo)
+  type: Method
+  source:
+    id: SetUserInfo
+    path: ''
+    startLine: 16686
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SetUserInfo(UserInfo _userInfo)
+    parameters:
+    - id: _userInfo
+      type: Global.UserInfo
+    content.vb: Public Shared Sub SetUserInfo(_userInfo As UserInfo)
+  overload: Global.Static_GlobalUserData.SetUserInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_GlobalUserData.SetUserFBInfo(UserFBInfo)
+  commentId: M:Global.Static_GlobalUserData.SetUserFBInfo(UserFBInfo)
+  id: SetUserFBInfo(UserFBInfo)
+  parent: Global.Static_GlobalUserData
+  langs:
+  - csharp
+  - vb
+  name: SetUserFBInfo(UserFBInfo)
+  nameWithType: Static_GlobalUserData.SetUserFBInfo(UserFBInfo)
+  fullName: Static_GlobalUserData.SetUserFBInfo(UserFBInfo)
+  type: Method
+  source:
+    id: SetUserFBInfo
+    path: ''
+    startLine: 16691
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SetUserFBInfo(UserFBInfo _userFBInfo)
+    parameters:
+    - id: _userFBInfo
+      type: Global.UserFBInfo
+    content.vb: Public Shared Sub SetUserFBInfo(_userFBInfo As UserFBInfo)
+  overload: Global.Static_GlobalUserData.SetUserFBInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_GlobalUserData.SetJWT(System.String)
+  commentId: M:Global.Static_GlobalUserData.SetJWT(System.String)
+  id: SetJWT(System.String)
+  parent: Global.Static_GlobalUserData
+  langs:
+  - csharp
+  - vb
+  name: SetJWT(String)
+  nameWithType: Static_GlobalUserData.SetJWT(String)
+  fullName: Static_GlobalUserData.SetJWT(System.String)
+  type: Method
+  source:
+    id: SetJWT
+    path: ''
+    startLine: 16696
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SetJWT(string _token)
+    parameters:
+    - id: _token
+      type: System.String
+    content.vb: Public Shared Sub SetJWT(_token As String)
+  overload: Global.Static_GlobalUserData.SetJWT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_GlobalUserData.SetUserSetting(UserSetting)
+  commentId: M:Global.Static_GlobalUserData.SetUserSetting(UserSetting)
+  id: SetUserSetting(UserSetting)
+  parent: Global.Static_GlobalUserData
+  langs:
+  - csharp
+  - vb
+  name: SetUserSetting(UserSetting)
+  nameWithType: Static_GlobalUserData.SetUserSetting(UserSetting)
+  fullName: Static_GlobalUserData.SetUserSetting(UserSetting)
+  type: Method
+  source:
+    id: SetUserSetting
+    path: ''
+    startLine: 16701
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SetUserSetting(UserSetting _usersetting)
+    parameters:
+    - id: _usersetting
+      type: Global.UserSetting
+    content.vb: Public Shared Sub SetUserSetting(_usersetting As UserSetting)
+  overload: Global.Static_GlobalUserData.SetUserSetting*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_GlobalUserData.SetGuest(System.Boolean)
+  commentId: M:Global.Static_GlobalUserData.SetGuest(System.Boolean)
+  id: SetGuest(System.Boolean)
+  parent: Global.Static_GlobalUserData
+  langs:
+  - csharp
+  - vb
+  name: SetGuest(Boolean)
+  nameWithType: Static_GlobalUserData.SetGuest(Boolean)
+  fullName: Static_GlobalUserData.SetGuest(System.Boolean)
+  type: Method
+  source:
+    id: SetGuest
+    path: ''
+    startLine: 16706
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SetGuest(bool guest)
+    parameters:
+    - id: guest
+      type: System.Boolean
+    content.vb: Public Shared Sub SetGuest(guest As Boolean)
+  overload: Global.Static_GlobalUserData.SetGuest*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Static_GlobalUserData.OnNewProfileLoadDelegate
+  commentId: T:Global.Static_GlobalUserData.OnNewProfileLoadDelegate
+  name: Static_GlobalUserData.OnNewProfileLoadDelegate
+  nameWithType: Static_GlobalUserData.OnNewProfileLoadDelegate
+  fullName: Static_GlobalUserData.OnNewProfileLoadDelegate
+- uid: Global.Static_GlobalUserData.IsLoaded*
+  commentId: Overload:Global.Static_GlobalUserData.IsLoaded
+  name: IsLoaded
+  nameWithType: Static_GlobalUserData.IsLoaded
+  fullName: Static_GlobalUserData.IsLoaded
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Static_GlobalUserData.UserInfo*
+  commentId: Overload:Global.Static_GlobalUserData.UserInfo
+  name: UserInfo
+  nameWithType: Static_GlobalUserData.UserInfo
+  fullName: Static_GlobalUserData.UserInfo
+- uid: Global.UserInfo
+  commentId: T:Global.UserInfo
+  name: UserInfo
+  nameWithType: UserInfo
+  fullName: UserInfo
+- uid: Global.Static_GlobalUserData.UserFBInfo*
+  commentId: Overload:Global.Static_GlobalUserData.UserFBInfo
+  name: UserFBInfo
+  nameWithType: Static_GlobalUserData.UserFBInfo
+  fullName: Static_GlobalUserData.UserFBInfo
+- uid: Global.UserFBInfo
+  commentId: T:Global.UserFBInfo
+  name: UserFBInfo
+  nameWithType: UserFBInfo
+  fullName: UserFBInfo
+- uid: Global.Static_GlobalUserData.JWT*
+  commentId: Overload:Global.Static_GlobalUserData.JWT
+  name: JWT
+  nameWithType: Static_GlobalUserData.JWT
+  fullName: Static_GlobalUserData.JWT
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Static_GlobalUserData.UserSetting*
+  commentId: Overload:Global.Static_GlobalUserData.UserSetting
+  name: UserSetting
+  nameWithType: Static_GlobalUserData.UserSetting
+  fullName: Static_GlobalUserData.UserSetting
+- uid: Global.UserSetting
+  commentId: T:Global.UserSetting
+  name: UserSetting
+  nameWithType: UserSetting
+  fullName: UserSetting
+- uid: Global.Static_GlobalUserData.Guest*
+  commentId: Overload:Global.Static_GlobalUserData.Guest
+  name: Guest
+  nameWithType: Static_GlobalUserData.Guest
+  fullName: Static_GlobalUserData.Guest
+- uid: Global.Static_GlobalUserData.SetUserInfo*
+  commentId: Overload:Global.Static_GlobalUserData.SetUserInfo
+  name: SetUserInfo
+  nameWithType: Static_GlobalUserData.SetUserInfo
+  fullName: Static_GlobalUserData.SetUserInfo
+- uid: Global.Static_GlobalUserData.SetUserFBInfo*
+  commentId: Overload:Global.Static_GlobalUserData.SetUserFBInfo
+  name: SetUserFBInfo
+  nameWithType: Static_GlobalUserData.SetUserFBInfo
+  fullName: Static_GlobalUserData.SetUserFBInfo
+- uid: Global.Static_GlobalUserData.SetJWT*
+  commentId: Overload:Global.Static_GlobalUserData.SetJWT
+  name: SetJWT
+  nameWithType: Static_GlobalUserData.SetJWT
+  fullName: Static_GlobalUserData.SetJWT
+- uid: Global.Static_GlobalUserData.SetUserSetting*
+  commentId: Overload:Global.Static_GlobalUserData.SetUserSetting
+  name: SetUserSetting
+  nameWithType: Static_GlobalUserData.SetUserSetting
+  fullName: Static_GlobalUserData.SetUserSetting
+- uid: Global.Static_GlobalUserData.SetGuest*
+  commentId: Overload:Global.Static_GlobalUserData.SetGuest
+  name: SetGuest
+  nameWithType: Static_GlobalUserData.SetGuest
+  fullName: Static_GlobalUserData.SetGuest

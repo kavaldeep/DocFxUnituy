@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_MiniNewsFiller.NewsType
+  commentId: T:Global.Behaviour_MiniNewsFiller.NewsType
+  id: Behaviour_MiniNewsFiller.NewsType
+  parent: Global
+  children:
+  - Global.Behaviour_MiniNewsFiller.NewsType.serie
+  - Global.Behaviour_MiniNewsFiller.NewsType.shop
+  - Global.Behaviour_MiniNewsFiller.NewsType.tribiew
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_MiniNewsFiller.NewsType
+  nameWithType: Behaviour_MiniNewsFiller.NewsType
+  fullName: Behaviour_MiniNewsFiller.NewsType
+  type: Enum
+  source:
+    id: NewsType
+    path: ''
+    startLine: 20716
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum NewsType
+    content.vb: Public Enum NewsType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.Behaviour_MiniNewsFiller.NewsType.tribiew
+  commentId: F:Global.Behaviour_MiniNewsFiller.NewsType.tribiew
+  id: tribiew
+  parent: Global.Behaviour_MiniNewsFiller.NewsType
+  langs:
+  - csharp
+  - vb
+  name: tribiew
+  nameWithType: Behaviour_MiniNewsFiller.NewsType.tribiew
+  fullName: Behaviour_MiniNewsFiller.NewsType.tribiew
+  type: Field
+  source:
+    id: tribiew
+    path: ''
+    startLine: 20718
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: tribiew = 0
+    return:
+      type: Global.Behaviour_MiniNewsFiller.NewsType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Behaviour_MiniNewsFiller.NewsType.shop
+  commentId: F:Global.Behaviour_MiniNewsFiller.NewsType.shop
+  id: shop
+  parent: Global.Behaviour_MiniNewsFiller.NewsType
+  langs:
+  - csharp
+  - vb
+  name: shop
+  nameWithType: Behaviour_MiniNewsFiller.NewsType.shop
+  fullName: Behaviour_MiniNewsFiller.NewsType.shop
+  type: Field
+  source:
+    id: shop
+    path: ''
+    startLine: 20719
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: shop = 1
+    return:
+      type: Global.Behaviour_MiniNewsFiller.NewsType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Behaviour_MiniNewsFiller.NewsType.serie
+  commentId: F:Global.Behaviour_MiniNewsFiller.NewsType.serie
+  id: serie
+  parent: Global.Behaviour_MiniNewsFiller.NewsType
+  langs:
+  - csharp
+  - vb
+  name: serie
+  nameWithType: Behaviour_MiniNewsFiller.NewsType.serie
+  fullName: Behaviour_MiniNewsFiller.NewsType.serie
+  type: Field
+  source:
+    id: serie
+    path: ''
+    startLine: 20720
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: serie = 2
+    return:
+      type: Global.Behaviour_MiniNewsFiller.NewsType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Behaviour_MiniNewsFiller.NewsType
+  commentId: T:Global.Behaviour_MiniNewsFiller.NewsType
+  name: Behaviour_MiniNewsFiller.NewsType
+  nameWithType: Behaviour_MiniNewsFiller.NewsType
+  fullName: Behaviour_MiniNewsFiller.NewsType

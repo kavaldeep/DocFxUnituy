@@ -1,0 +1,268 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Editor_LanguageChecker.LanguageCheck
+  commentId: T:Global.Editor_LanguageChecker.LanguageCheck
+  id: Editor_LanguageChecker.LanguageCheck
+  parent: Global
+  children:
+  - Global.Editor_LanguageChecker.LanguageCheck.#ctor(System.String)
+  - Global.Editor_LanguageChecker.LanguageCheck.Available
+  - Global.Editor_LanguageChecker.LanguageCheck.keys
+  - Global.Editor_LanguageChecker.LanguageCheck.name
+  langs:
+  - csharp
+  - vb
+  name: Editor_LanguageChecker.LanguageCheck
+  nameWithType: Editor_LanguageChecker.LanguageCheck
+  fullName: Editor_LanguageChecker.LanguageCheck
+  type: Struct
+  source:
+    id: LanguageCheck
+    path: ''
+    startLine: 8709
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\ndata holder\n"
+  example: []
+  syntax:
+    content: public struct LanguageCheck
+    content.vb: Public Structure LanguageCheck
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.Editor_LanguageChecker.LanguageCheck.name
+  commentId: F:Global.Editor_LanguageChecker.LanguageCheck.name
+  id: name
+  parent: Global.Editor_LanguageChecker.LanguageCheck
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Editor_LanguageChecker.LanguageCheck.name
+  fullName: Editor_LanguageChecker.LanguageCheck.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 8710
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Editor_LanguageChecker.LanguageCheck.Available
+  commentId: F:Global.Editor_LanguageChecker.LanguageCheck.Available
+  id: Available
+  parent: Global.Editor_LanguageChecker.LanguageCheck
+  langs:
+  - csharp
+  - vb
+  name: Available
+  nameWithType: Editor_LanguageChecker.LanguageCheck.Available
+  fullName: Editor_LanguageChecker.LanguageCheck.Available
+  type: Field
+  source:
+    id: Available
+    path: ''
+    startLine: 8711
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool Available
+    return:
+      type: System.Boolean
+    content.vb: Public Available As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Editor_LanguageChecker.LanguageCheck.keys
+  commentId: F:Global.Editor_LanguageChecker.LanguageCheck.keys
+  id: keys
+  parent: Global.Editor_LanguageChecker.LanguageCheck
+  langs:
+  - csharp
+  - vb
+  name: keys
+  nameWithType: Editor_LanguageChecker.LanguageCheck.keys
+  fullName: Editor_LanguageChecker.LanguageCheck.keys
+  type: Field
+  source:
+    id: keys
+    path: ''
+    startLine: 8712
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<string> keys
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public keys As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Editor_LanguageChecker.LanguageCheck.#ctor(System.String)
+  commentId: M:Global.Editor_LanguageChecker.LanguageCheck.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Global.Editor_LanguageChecker.LanguageCheck
+  langs:
+  - csharp
+  - vb
+  name: LanguageCheck(String)
+  nameWithType: Editor_LanguageChecker.LanguageCheck.LanguageCheck(String)
+  fullName: Editor_LanguageChecker.LanguageCheck.LanguageCheck(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8714
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public LanguageCheck(string _name = "")
+    parameters:
+    - id: _name
+      type: System.String
+    content.vb: Public Sub New(_name As String = "")
+  overload: Global.Editor_LanguageChecker.LanguageCheck.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Editor_LanguageChecker.LanguageCheck.#ctor*
+  commentId: Overload:Global.Editor_LanguageChecker.LanguageCheck.#ctor
+  name: LanguageCheck
+  nameWithType: Editor_LanguageChecker.LanguageCheck.LanguageCheck
+  fullName: Editor_LanguageChecker.LanguageCheck.LanguageCheck

@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TribiewNews
+  commentId: T:Global.TribiewNews
+  id: TribiewNews
+  parent: Global
+  children:
+  - Global.TribiewNews.#ctor
+  - Global.TribiewNews.#ctor(System.Collections.Generic.List{NewsInfo},System.Collections.Generic.List{NewsInfo})
+  - Global.TribiewNews.shop
+  - Global.TribiewNews.tribiew
+  langs:
+  - csharp
+  - vb
+  name: TribiewNews
+  nameWithType: TribiewNews
+  fullName: TribiewNews
+  type: Class
+  source:
+    id: TribiewNews
+    path: ''
+    startLine: 16062
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class TribiewNews
+    content.vb: >-
+      <Serializable>
+
+      Public Class TribiewNews
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TribiewNews.tribiew
+  commentId: F:Global.TribiewNews.tribiew
+  id: tribiew
+  parent: Global.TribiewNews
+  langs:
+  - csharp
+  - vb
+  name: tribiew
+  nameWithType: TribiewNews.tribiew
+  fullName: TribiewNews.tribiew
+  type: Field
+  source:
+    id: tribiew
+    path: ''
+    startLine: 16065
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<NewsInfo> tribiew
+    return:
+      type: System.Collections.Generic.List{NewsInfo}
+    content.vb: Public tribiew As List(Of NewsInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TribiewNews.shop
+  commentId: F:Global.TribiewNews.shop
+  id: shop
+  parent: Global.TribiewNews
+  langs:
+  - csharp
+  - vb
+  name: shop
+  nameWithType: TribiewNews.shop
+  fullName: TribiewNews.shop
+  type: Field
+  source:
+    id: shop
+    path: ''
+    startLine: 16065
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<NewsInfo> shop
+    return:
+      type: System.Collections.Generic.List{NewsInfo}
+    content.vb: Public shop As List(Of NewsInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TribiewNews.#ctor
+  commentId: M:Global.TribiewNews.#ctor
+  id: '#ctor'
+  parent: Global.TribiewNews
+  langs:
+  - csharp
+  - vb
+  name: TribiewNews()
+  nameWithType: TribiewNews.TribiewNews()
+  fullName: TribiewNews.TribiewNews()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16067
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TribiewNews()
+    content.vb: Public Sub New
+  overload: Global.TribiewNews.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TribiewNews.#ctor(System.Collections.Generic.List{NewsInfo},System.Collections.Generic.List{NewsInfo})
+  commentId: M:Global.TribiewNews.#ctor(System.Collections.Generic.List{NewsInfo},System.Collections.Generic.List{NewsInfo})
+  id: '#ctor(System.Collections.Generic.List{NewsInfo},System.Collections.Generic.List{NewsInfo})'
+  parent: Global.TribiewNews
+  langs:
+  - csharp
+  - vb
+  name: TribiewNews(List<NewsInfo>, List<NewsInfo>)
+  nameWithType: TribiewNews.TribiewNews(List<NewsInfo>, List<NewsInfo>)
+  fullName: TribiewNews.TribiewNews(System.Collections.Generic.List<NewsInfo>, System.Collections.Generic.List<NewsInfo>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16073
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TribiewNews(List<NewsInfo> _tribiew, List<NewsInfo> _shop)
+    parameters:
+    - id: _tribiew
+      type: System.Collections.Generic.List{NewsInfo}
+    - id: _shop
+      type: System.Collections.Generic.List{NewsInfo}
+    content.vb: Public Sub New(_tribiew As List(Of NewsInfo), _shop As List(Of NewsInfo))
+  overload: Global.TribiewNews.#ctor*
+  nameWithType.vb: TribiewNews.TribiewNews(List(Of NewsInfo), List(Of NewsInfo))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TribiewNews.TribiewNews(System.Collections.Generic.List(Of NewsInfo), System.Collections.Generic.List(Of NewsInfo))
+  name.vb: TribiewNews(List(Of NewsInfo), List(Of NewsInfo))
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{NewsInfo}
+  commentId: T:System.Collections.Generic.List{NewsInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<NewsInfo>
+  nameWithType: List<NewsInfo>
+  fullName: System.Collections.Generic.List<NewsInfo>
+  nameWithType.vb: List(Of NewsInfo)
+  fullName.vb: System.Collections.Generic.List(Of NewsInfo)
+  name.vb: List(Of NewsInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.NewsInfo
+    name: NewsInfo
+    nameWithType: NewsInfo
+    fullName: NewsInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.NewsInfo
+    name: NewsInfo
+    nameWithType: NewsInfo
+    fullName: NewsInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.TribiewNews.#ctor*
+  commentId: Overload:Global.TribiewNews.#ctor
+  name: TribiewNews
+  nameWithType: TribiewNews.TribiewNews
+  fullName: TribiewNews.TribiewNews

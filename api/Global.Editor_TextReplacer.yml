@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Editor_TextReplacer
+  commentId: T:Global.Editor_TextReplacer
+  id: Editor_TextReplacer
+  parent: Global
+  children:
+  - Global.Editor_TextReplacer.OnGUI
+  langs:
+  - csharp
+  - vb
+  name: Editor_TextReplacer
+  nameWithType: Editor_TextReplacer
+  fullName: Editor_TextReplacer
+  type: Class
+  source:
+    id: Editor_TextReplacer
+    path: ''
+    startLine: 9069
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nText replacer is just a window Editor Script meant to replace all Text components and TMProText components into International texts\n"
+  example: []
+  syntax:
+    content: 'public class Editor_TextReplacer : EditorWindow'
+    content.vb: >-
+      Public Class Editor_TextReplacer
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Editor_TextReplacer.OnGUI
+  commentId: M:Global.Editor_TextReplacer.OnGUI
+  id: OnGUI
+  parent: Global.Editor_TextReplacer
+  langs:
+  - csharp
+  - vb
+  name: OnGUI()
+  nameWithType: Editor_TextReplacer.OnGUI()
+  fullName: Editor_TextReplacer.OnGUI()
+  type: Method
+  source:
+    id: OnGUI
+    path: ''
+    startLine: 9091
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void OnGUI()
+    content.vb: Protected Sub OnGUI
+  overload: Global.Editor_TextReplacer.OnGUI*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Editor_TextReplacer.OnGUI*
+  commentId: Overload:Global.Editor_TextReplacer.OnGUI
+  name: OnGUI
+  nameWithType: Editor_TextReplacer.OnGUI
+  fullName: Editor_TextReplacer.OnGUI

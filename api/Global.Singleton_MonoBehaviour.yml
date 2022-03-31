@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Singleton_MonoBehaviour
+  commentId: T:Global.Singleton_MonoBehaviour
+  id: Singleton_MonoBehaviour
+  parent: Global
+  children:
+  - Global.Singleton_MonoBehaviour.Instance
+  - Global.Singleton_MonoBehaviour.onAwake
+  - Global.Singleton_MonoBehaviour.onStart
+  - Global.Singleton_MonoBehaviour.onUpdate
+  langs:
+  - csharp
+  - vb
+  name: Singleton_MonoBehaviour
+  nameWithType: Singleton_MonoBehaviour
+  fullName: Singleton_MonoBehaviour
+  type: Class
+  source:
+    id: Singleton_MonoBehaviour
+    path: ''
+    startLine: 13322
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Singleton_MonoBehaviour : MonoBehaviour'
+    content.vb: >-
+      Public Class Singleton_MonoBehaviour
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Singleton_MonoBehaviour.Instance
+  commentId: P:Global.Singleton_MonoBehaviour.Instance
+  id: Instance
+  parent: Global.Singleton_MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Singleton_MonoBehaviour.Instance
+  fullName: Singleton_MonoBehaviour.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 13324
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Singleton_MonoBehaviour Instance { get; }
+    parameters: []
+    return:
+      type: Global.Singleton_MonoBehaviour
+    content.vb: Public Shared ReadOnly Property Instance As Singleton_MonoBehaviour
+  overload: Global.Singleton_MonoBehaviour.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Singleton_MonoBehaviour.onAwake
+  commentId: F:Global.Singleton_MonoBehaviour.onAwake
+  id: onAwake
+  parent: Global.Singleton_MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: onAwake
+  nameWithType: Singleton_MonoBehaviour.onAwake
+  fullName: Singleton_MonoBehaviour.onAwake
+  type: Field
+  source:
+    id: onAwake
+    path: ''
+    startLine: 13326
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Events.UnityAction onAwake
+    return:
+      type: UnityEngine.Events.UnityAction
+    content.vb: Public Shared onAwake As Events.UnityAction
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Singleton_MonoBehaviour.onStart
+  commentId: F:Global.Singleton_MonoBehaviour.onStart
+  id: onStart
+  parent: Global.Singleton_MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: onStart
+  nameWithType: Singleton_MonoBehaviour.onStart
+  fullName: Singleton_MonoBehaviour.onStart
+  type: Field
+  source:
+    id: onStart
+    path: ''
+    startLine: 13327
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Events.UnityAction onStart
+    return:
+      type: UnityEngine.Events.UnityAction
+    content.vb: Public Shared onStart As Events.UnityAction
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Singleton_MonoBehaviour.onUpdate
+  commentId: F:Global.Singleton_MonoBehaviour.onUpdate
+  id: onUpdate
+  parent: Global.Singleton_MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: onUpdate
+  nameWithType: Singleton_MonoBehaviour.onUpdate
+  fullName: Singleton_MonoBehaviour.onUpdate
+  type: Field
+  source:
+    id: onUpdate
+    path: ''
+    startLine: 13328
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Events.UnityAction onUpdate
+    return:
+      type: UnityEngine.Events.UnityAction
+    content.vb: Public Shared onUpdate As Events.UnityAction
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Singleton_MonoBehaviour.Instance*
+  commentId: Overload:Global.Singleton_MonoBehaviour.Instance
+  name: Instance
+  nameWithType: Singleton_MonoBehaviour.Instance
+  fullName: Singleton_MonoBehaviour.Instance
+- uid: Global.Singleton_MonoBehaviour
+  commentId: T:Global.Singleton_MonoBehaviour
+  name: Singleton_MonoBehaviour
+  nameWithType: Singleton_MonoBehaviour
+  fullName: Singleton_MonoBehaviour
+- uid: UnityEngine.Events.UnityAction
+  isExternal: true
+  name: Events.UnityAction
+  nameWithType: Events.UnityAction
+  fullName: UnityEngine.Events.UnityAction

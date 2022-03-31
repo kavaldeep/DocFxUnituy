@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_FriendInvite_Page
+  commentId: T:Global.Behaviour_FriendInvite_Page
+  id: Behaviour_FriendInvite_Page
+  parent: Global
+  children:
+  - Global.Behaviour_FriendInvite_Page.GetFriendRequests
+  - Global.Behaviour_FriendInvite_Page.InviteCase
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_FriendInvite_Page
+  nameWithType: Behaviour_FriendInvite_Page
+  fullName: Behaviour_FriendInvite_Page
+  type: Class
+  source:
+    id: Behaviour_FriendInvite_Page
+    path: ''
+    startLine: 15032
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_FriendInvite_Page : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_FriendInvite_Page
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_FriendInvite_Page.InviteCase
+  commentId: F:Global.Behaviour_FriendInvite_Page.InviteCase
+  id: InviteCase
+  parent: Global.Behaviour_FriendInvite_Page
+  langs:
+  - csharp
+  - vb
+  name: InviteCase
+  nameWithType: Behaviour_FriendInvite_Page.InviteCase
+  fullName: Behaviour_FriendInvite_Page.InviteCase
+  type: Field
+  source:
+    id: InviteCase
+    path: ''
+    startLine: 15035
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject InviteCase
+    return:
+      type: Global.GameObject
+    content.vb: Public InviteCase As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_FriendInvite_Page.GetFriendRequests
+  commentId: M:Global.Behaviour_FriendInvite_Page.GetFriendRequests
+  id: GetFriendRequests
+  parent: Global.Behaviour_FriendInvite_Page
+  langs:
+  - csharp
+  - vb
+  name: GetFriendRequests()
+  nameWithType: Behaviour_FriendInvite_Page.GetFriendRequests()
+  fullName: Behaviour_FriendInvite_Page.GetFriendRequests()
+  type: Method
+  source:
+    id: GetFriendRequests
+    path: ''
+    startLine: 15044
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GetFriendRequests()
+    content.vb: Public Sub GetFriendRequests
+  overload: Global.Behaviour_FriendInvite_Page.GetFriendRequests*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_FriendInvite_Page.GetFriendRequests*
+  commentId: Overload:Global.Behaviour_FriendInvite_Page.GetFriendRequests
+  name: GetFriendRequests
+  nameWithType: Behaviour_FriendInvite_Page.GetFriendRequests
+  fullName: Behaviour_FriendInvite_Page.GetFriendRequests

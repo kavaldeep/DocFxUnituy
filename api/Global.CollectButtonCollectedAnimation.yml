@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CollectButtonCollectedAnimation
+  commentId: T:Global.CollectButtonCollectedAnimation
+  id: CollectButtonCollectedAnimation
+  parent: Global
+  children:
+  - Global.CollectButtonCollectedAnimation.DestroyAnimation
+  langs:
+  - csharp
+  - vb
+  name: CollectButtonCollectedAnimation
+  nameWithType: CollectButtonCollectedAnimation
+  fullName: CollectButtonCollectedAnimation
+  type: Class
+  source:
+    id: CollectButtonCollectedAnimation
+    path: ''
+    startLine: 13861
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class CollectButtonCollectedAnimation : MonoBehaviour'
+    content.vb: >-
+      Public Class CollectButtonCollectedAnimation
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CollectButtonCollectedAnimation.DestroyAnimation
+  commentId: M:Global.CollectButtonCollectedAnimation.DestroyAnimation
+  id: DestroyAnimation
+  parent: Global.CollectButtonCollectedAnimation
+  langs:
+  - csharp
+  - vb
+  name: DestroyAnimation()
+  nameWithType: CollectButtonCollectedAnimation.DestroyAnimation()
+  fullName: CollectButtonCollectedAnimation.DestroyAnimation()
+  type: Method
+  source:
+    id: DestroyAnimation
+    path: ''
+    startLine: 13876
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DestroyAnimation()
+    content.vb: Public Sub DestroyAnimation
+  overload: Global.CollectButtonCollectedAnimation.DestroyAnimation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.CollectButtonCollectedAnimation.DestroyAnimation*
+  commentId: Overload:Global.CollectButtonCollectedAnimation.DestroyAnimation
+  name: DestroyAnimation
+  nameWithType: CollectButtonCollectedAnimation.DestroyAnimation
+  fullName: CollectButtonCollectedAnimation.DestroyAnimation

@@ -1,0 +1,569 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.NewsInfo
+  commentId: T:Global.NewsInfo
+  id: NewsInfo
+  parent: Global
+  children:
+  - Global.NewsInfo.#ctor
+  - Global.NewsInfo.#ctor(ImageFile,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.String,System.String,System.Collections.Generic.List{Link})
+  - Global.NewsInfo.authorID
+  - Global.NewsInfo.editDateTime
+  - Global.NewsInfo.image
+  - Global.NewsInfo.newsType
+  - Global.NewsInfo.publishDateTime
+  - Global.NewsInfo.subhead
+  - Global.NewsInfo.suggestions
+  - Global.NewsInfo.tags
+  - Global.NewsInfo.text
+  - Global.NewsInfo.title
+  langs:
+  - csharp
+  - vb
+  name: NewsInfo
+  nameWithType: NewsInfo
+  fullName: NewsInfo
+  type: Class
+  source:
+    id: NewsInfo
+    path: ''
+    startLine: 15739
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class NewsInfo
+    content.vb: >-
+      <Serializable>
+
+      Public Class NewsInfo
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.NewsInfo.image
+  commentId: F:Global.NewsInfo.image
+  id: image
+  parent: Global.NewsInfo
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: NewsInfo.image
+  fullName: NewsInfo.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 15742
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile image
+    return:
+      type: Global.ImageFile
+    content.vb: Public image As ImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.NewsInfo.title
+  commentId: F:Global.NewsInfo.title
+  id: title
+  parent: Global.NewsInfo
+  langs:
+  - csharp
+  - vb
+  name: title
+  nameWithType: NewsInfo.title
+  fullName: NewsInfo.title
+  type: Field
+  source:
+    id: title
+    path: ''
+    startLine: 15743
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string title
+    return:
+      type: System.String
+    content.vb: Public title As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.NewsInfo.subhead
+  commentId: F:Global.NewsInfo.subhead
+  id: subhead
+  parent: Global.NewsInfo
+  langs:
+  - csharp
+  - vb
+  name: subhead
+  nameWithType: NewsInfo.subhead
+  fullName: NewsInfo.subhead
+  type: Field
+  source:
+    id: subhead
+    path: ''
+    startLine: 15744
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string subhead
+    return:
+      type: System.String
+    content.vb: Public subhead As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.NewsInfo.text
+  commentId: F:Global.NewsInfo.text
+  id: text
+  parent: Global.NewsInfo
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: NewsInfo.text
+  fullName: NewsInfo.text
+  type: Field
+  source:
+    id: text
+    path: ''
+    startLine: 15745
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string text
+    return:
+      type: System.String
+    content.vb: Public text As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.NewsInfo.authorID
+  commentId: F:Global.NewsInfo.authorID
+  id: authorID
+  parent: Global.NewsInfo
+  langs:
+  - csharp
+  - vb
+  name: authorID
+  nameWithType: NewsInfo.authorID
+  fullName: NewsInfo.authorID
+  type: Field
+  source:
+    id: authorID
+    path: ''
+    startLine: 15746
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string authorID
+    return:
+      type: System.String
+    content.vb: Public authorID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.NewsInfo.newsType
+  commentId: F:Global.NewsInfo.newsType
+  id: newsType
+  parent: Global.NewsInfo
+  langs:
+  - csharp
+  - vb
+  name: newsType
+  nameWithType: NewsInfo.newsType
+  fullName: NewsInfo.newsType
+  type: Field
+  source:
+    id: newsType
+    path: ''
+    startLine: 15747
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string newsType
+    return:
+      type: System.String
+    content.vb: Public newsType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.NewsInfo.tags
+  commentId: F:Global.NewsInfo.tags
+  id: tags
+  parent: Global.NewsInfo
+  langs:
+  - csharp
+  - vb
+  name: tags
+  nameWithType: NewsInfo.tags
+  fullName: NewsInfo.tags
+  type: Field
+  source:
+    id: tags
+    path: ''
+    startLine: 15748
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<string> tags
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public tags As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.NewsInfo.publishDateTime
+  commentId: F:Global.NewsInfo.publishDateTime
+  id: publishDateTime
+  parent: Global.NewsInfo
+  langs:
+  - csharp
+  - vb
+  name: publishDateTime
+  nameWithType: NewsInfo.publishDateTime
+  fullName: NewsInfo.publishDateTime
+  type: Field
+  source:
+    id: publishDateTime
+    path: ''
+    startLine: 15749
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string publishDateTime
+    return:
+      type: System.String
+    content.vb: Public publishDateTime As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.NewsInfo.editDateTime
+  commentId: F:Global.NewsInfo.editDateTime
+  id: editDateTime
+  parent: Global.NewsInfo
+  langs:
+  - csharp
+  - vb
+  name: editDateTime
+  nameWithType: NewsInfo.editDateTime
+  fullName: NewsInfo.editDateTime
+  type: Field
+  source:
+    id: editDateTime
+    path: ''
+    startLine: 15750
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string editDateTime
+    return:
+      type: System.String
+    content.vb: Public editDateTime As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.NewsInfo.suggestions
+  commentId: F:Global.NewsInfo.suggestions
+  id: suggestions
+  parent: Global.NewsInfo
+  langs:
+  - csharp
+  - vb
+  name: suggestions
+  nameWithType: NewsInfo.suggestions
+  fullName: NewsInfo.suggestions
+  type: Field
+  source:
+    id: suggestions
+    path: ''
+    startLine: 15751
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<Link> suggestions
+    return:
+      type: System.Collections.Generic.List{Link}
+    content.vb: Public suggestions As List(Of Link)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.NewsInfo.#ctor
+  commentId: M:Global.NewsInfo.#ctor
+  id: '#ctor'
+  parent: Global.NewsInfo
+  langs:
+  - csharp
+  - vb
+  name: NewsInfo()
+  nameWithType: NewsInfo.NewsInfo()
+  fullName: NewsInfo.NewsInfo()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15753
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public NewsInfo()
+    content.vb: Public Sub New
+  overload: Global.NewsInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.NewsInfo.#ctor(ImageFile,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.String,System.String,System.Collections.Generic.List{Link})
+  commentId: M:Global.NewsInfo.#ctor(ImageFile,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.String,System.String,System.Collections.Generic.List{Link})
+  id: '#ctor(ImageFile,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String},System.String,System.String,System.Collections.Generic.List{Link})'
+  parent: Global.NewsInfo
+  langs:
+  - csharp
+  - vb
+  name: NewsInfo(ImageFile, String, String, String, String, String, List<String>, String, String, List<Link>)
+  nameWithType: NewsInfo.NewsInfo(ImageFile, String, String, String, String, String, List<String>, String, String, List<Link>)
+  fullName: NewsInfo.NewsInfo(ImageFile, System.String, System.String, System.String, System.String, System.String, System.Collections.Generic.List<System.String>, System.String, System.String, System.Collections.Generic.List<Link>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15755
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public NewsInfo(ImageFile _image, string _title, string _subhead, string _text, string _authorID, string _newsType, List<string> _tags, string _publishDateTime, string _editDateTime, List<Link> _suggestions)
+    parameters:
+    - id: _image
+      type: Global.ImageFile
+    - id: _title
+      type: System.String
+    - id: _subhead
+      type: System.String
+    - id: _text
+      type: System.String
+    - id: _authorID
+      type: System.String
+    - id: _newsType
+      type: System.String
+    - id: _tags
+      type: System.Collections.Generic.List{System.String}
+    - id: _publishDateTime
+      type: System.String
+    - id: _editDateTime
+      type: System.String
+    - id: _suggestions
+      type: System.Collections.Generic.List{Link}
+    content.vb: Public Sub New(_image As ImageFile, _title As String, _subhead As String, _text As String, _authorID As String, _newsType As String, _tags As List(Of String), _publishDateTime As String, _editDateTime As String, _suggestions As List(Of Link))
+  overload: Global.NewsInfo.#ctor*
+  nameWithType.vb: NewsInfo.NewsInfo(ImageFile, String, String, String, String, String, List(Of String), String, String, List(Of Link))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: NewsInfo.NewsInfo(ImageFile, System.String, System.String, System.String, System.String, System.String, System.Collections.Generic.List(Of System.String), System.String, System.String, System.Collections.Generic.List(Of Link))
+  name.vb: NewsInfo(ImageFile, String, String, String, String, String, List(Of String), String, String, List(Of Link))
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{Link}
+  commentId: T:System.Collections.Generic.List{Link}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Link>
+  nameWithType: List<Link>
+  fullName: System.Collections.Generic.List<Link>
+  nameWithType.vb: List(Of Link)
+  fullName.vb: System.Collections.Generic.List(Of Link)
+  name.vb: List(Of Link)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Link
+    name: Link
+    nameWithType: Link
+    fullName: Link
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Link
+    name: Link
+    nameWithType: Link
+    fullName: Link
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.NewsInfo.#ctor*
+  commentId: Overload:Global.NewsInfo.#ctor
+  name: NewsInfo
+  nameWithType: NewsInfo.NewsInfo
+  fullName: NewsInfo.NewsInfo

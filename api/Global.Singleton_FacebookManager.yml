@@ -1,0 +1,1448 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Singleton_FacebookManager
+  commentId: T:Global.Singleton_FacebookManager
+  id: Singleton_FacebookManager
+  parent: Global
+  children:
+  - Global.Singleton_FacebookManager._ReqEmail
+  - Global.Singleton_FacebookManager._ReqName
+  - Global.Singleton_FacebookManager.AmILoggedIn
+  - Global.Singleton_FacebookManager.AutoLoginEnabled
+  - Global.Singleton_FacebookManager.EXTRA_PERMS
+  - Global.Singleton_FacebookManager.FacebookLog(System.String,System.Boolean,System.Boolean,System.Boolean)
+  - Global.Singleton_FacebookManager.fbCanAccessEmail
+  - Global.Singleton_FacebookManager.fbCanAccessFriends
+  - Global.Singleton_FacebookManager.fbCanAccessPosts
+  - Global.Singleton_FacebookManager.fbCanAccessProfile
+  - Global.Singleton_FacebookManager.FBinviteFriend
+  - Global.Singleton_FacebookManager.FBloginButton
+  - Global.Singleton_FacebookManager.FBlogoutButton
+  - Global.Singleton_FacebookManager.getFBposts
+  - Global.Singleton_FacebookManager.GetFriendList
+  - Global.Singleton_FacebookManager.getfriendObject
+  - Global.Singleton_FacebookManager.Instance
+  - Global.Singleton_FacebookManager.InviteFriend(FriendsInfo)
+  - Global.Singleton_FacebookManager.IsLoggedIn
+  - Global.Singleton_FacebookManager.IsSDKReady
+  - Global.Singleton_FacebookManager.LogIn
+  - Global.Singleton_FacebookManager.LogIn(System.Boolean)
+  - Global.Singleton_FacebookManager.logOut
+  - Global.Singleton_FacebookManager.myEmail
+  - Global.Singleton_FacebookManager.myFbId
+  - Global.Singleton_FacebookManager.myFirstName
+  - Global.Singleton_FacebookManager.myLastName
+  - Global.Singleton_FacebookManager.myName
+  - Global.Singleton_FacebookManager.myPic
+  - Global.Singleton_FacebookManager.myPictureURL
+  - Global.Singleton_FacebookManager.op_Implicit(Singleton_FacebookManager)~System.String
+  - Global.Singleton_FacebookManager.PERM_EMAIL
+  - Global.Singleton_FacebookManager.PERM_PUBLICPROFILE
+  - Global.Singleton_FacebookManager.PERM_USERFRIENDS
+  - Global.Singleton_FacebookManager.Register
+  - Global.Singleton_FacebookManager.RequestUserInfo
+  langs:
+  - csharp
+  - vb
+  name: Singleton_FacebookManager
+  nameWithType: Singleton_FacebookManager
+  fullName: Singleton_FacebookManager
+  type: Class
+  source:
+    id: Singleton_FacebookManager
+    path: ''
+    startLine: 25629
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Singleton_FacebookManager : Interface_SocialNetwork'
+    content.vb: >-
+      Public Class Singleton_FacebookManager
+          Implements Interface_SocialNetwork
+  inheritance:
+  - System.Object
+  implements:
+  - Global.Interface_SocialNetwork
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Singleton_FacebookManager.Instance
+  commentId: P:Global.Singleton_FacebookManager.Instance
+  id: Instance
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Singleton_FacebookManager.Instance
+  fullName: Singleton_FacebookManager.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 25631
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Singleton_FacebookManager Instance { get; }
+    parameters: []
+    return:
+      type: Global.Singleton_FacebookManager
+    content.vb: Public Shared ReadOnly Property Instance As Singleton_FacebookManager
+  overload: Global.Singleton_FacebookManager.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Singleton_FacebookManager.IsSDKReady
+  commentId: F:Global.Singleton_FacebookManager.IsSDKReady
+  id: IsSDKReady
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: IsSDKReady
+  nameWithType: Singleton_FacebookManager.IsSDKReady
+  fullName: Singleton_FacebookManager.IsSDKReady
+  type: Field
+  source:
+    id: IsSDKReady
+    path: ''
+    startLine: 25634
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool IsSDKReady
+    return:
+      type: System.Boolean
+    content.vb: Public IsSDKReady As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.AutoLoginEnabled
+  commentId: F:Global.Singleton_FacebookManager.AutoLoginEnabled
+  id: AutoLoginEnabled
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: AutoLoginEnabled
+  nameWithType: Singleton_FacebookManager.AutoLoginEnabled
+  fullName: Singleton_FacebookManager.AutoLoginEnabled
+  type: Field
+  source:
+    id: AutoLoginEnabled
+    path: ''
+    startLine: 25635
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool AutoLoginEnabled
+    return:
+      type: System.Boolean
+    content.vb: Public AutoLoginEnabled As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.fbCanAccessEmail
+  commentId: F:Global.Singleton_FacebookManager.fbCanAccessEmail
+  id: fbCanAccessEmail
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: fbCanAccessEmail
+  nameWithType: Singleton_FacebookManager.fbCanAccessEmail
+  fullName: Singleton_FacebookManager.fbCanAccessEmail
+  type: Field
+  source:
+    id: fbCanAccessEmail
+    path: ''
+    startLine: 25638
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool fbCanAccessEmail
+    return:
+      type: System.Boolean
+    content.vb: Public fbCanAccessEmail As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.fbCanAccessProfile
+  commentId: F:Global.Singleton_FacebookManager.fbCanAccessProfile
+  id: fbCanAccessProfile
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: fbCanAccessProfile
+  nameWithType: Singleton_FacebookManager.fbCanAccessProfile
+  fullName: Singleton_FacebookManager.fbCanAccessProfile
+  type: Field
+  source:
+    id: fbCanAccessProfile
+    path: ''
+    startLine: 25640
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool fbCanAccessProfile
+    return:
+      type: System.Boolean
+    content.vb: Public fbCanAccessProfile As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.fbCanAccessFriends
+  commentId: F:Global.Singleton_FacebookManager.fbCanAccessFriends
+  id: fbCanAccessFriends
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: fbCanAccessFriends
+  nameWithType: Singleton_FacebookManager.fbCanAccessFriends
+  fullName: Singleton_FacebookManager.fbCanAccessFriends
+  type: Field
+  source:
+    id: fbCanAccessFriends
+    path: ''
+    startLine: 25641
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool fbCanAccessFriends
+    return:
+      type: System.Boolean
+    content.vb: Public fbCanAccessFriends As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.fbCanAccessPosts
+  commentId: F:Global.Singleton_FacebookManager.fbCanAccessPosts
+  id: fbCanAccessPosts
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: fbCanAccessPosts
+  nameWithType: Singleton_FacebookManager.fbCanAccessPosts
+  fullName: Singleton_FacebookManager.fbCanAccessPosts
+  type: Field
+  source:
+    id: fbCanAccessPosts
+    path: ''
+    startLine: 25642
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool fbCanAccessPosts
+    return:
+      type: System.Boolean
+    content.vb: Public fbCanAccessPosts As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.AmILoggedIn
+  commentId: F:Global.Singleton_FacebookManager.AmILoggedIn
+  id: AmILoggedIn
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: AmILoggedIn
+  nameWithType: Singleton_FacebookManager.AmILoggedIn
+  fullName: Singleton_FacebookManager.AmILoggedIn
+  type: Field
+  source:
+    id: AmILoggedIn
+    path: ''
+    startLine: 25644
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool AmILoggedIn
+    return:
+      type: System.Boolean
+    content.vb: Public AmILoggedIn As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.FBloginButton
+  commentId: F:Global.Singleton_FacebookManager.FBloginButton
+  id: FBloginButton
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: FBloginButton
+  nameWithType: Singleton_FacebookManager.FBloginButton
+  fullName: Singleton_FacebookManager.FBloginButton
+  type: Field
+  source:
+    id: FBloginButton
+    path: ''
+    startLine: 25648
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject FBloginButton
+    return:
+      type: Global.GameObject
+    content.vb: Public FBloginButton As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.FBlogoutButton
+  commentId: F:Global.Singleton_FacebookManager.FBlogoutButton
+  id: FBlogoutButton
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: FBlogoutButton
+  nameWithType: Singleton_FacebookManager.FBlogoutButton
+  fullName: Singleton_FacebookManager.FBlogoutButton
+  type: Field
+  source:
+    id: FBlogoutButton
+    path: ''
+    startLine: 25649
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject FBlogoutButton
+    return:
+      type: Global.GameObject
+    content.vb: Public FBlogoutButton As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.PERM_EMAIL
+  commentId: F:Global.Singleton_FacebookManager.PERM_EMAIL
+  id: PERM_EMAIL
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: PERM_EMAIL
+  nameWithType: Singleton_FacebookManager.PERM_EMAIL
+  fullName: Singleton_FacebookManager.PERM_EMAIL
+  type: Field
+  source:
+    id: PERM_EMAIL
+    path: ''
+    startLine: 25652
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool PERM_EMAIL
+    return:
+      type: System.Boolean
+    content.vb: Public PERM_EMAIL As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.PERM_PUBLICPROFILE
+  commentId: F:Global.Singleton_FacebookManager.PERM_PUBLICPROFILE
+  id: PERM_PUBLICPROFILE
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: PERM_PUBLICPROFILE
+  nameWithType: Singleton_FacebookManager.PERM_PUBLICPROFILE
+  fullName: Singleton_FacebookManager.PERM_PUBLICPROFILE
+  type: Field
+  source:
+    id: PERM_PUBLICPROFILE
+    path: ''
+    startLine: 25654
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool PERM_PUBLICPROFILE
+    return:
+      type: System.Boolean
+    content.vb: Public PERM_PUBLICPROFILE As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.PERM_USERFRIENDS
+  commentId: F:Global.Singleton_FacebookManager.PERM_USERFRIENDS
+  id: PERM_USERFRIENDS
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: PERM_USERFRIENDS
+  nameWithType: Singleton_FacebookManager.PERM_USERFRIENDS
+  fullName: Singleton_FacebookManager.PERM_USERFRIENDS
+  type: Field
+  source:
+    id: PERM_USERFRIENDS
+    path: ''
+    startLine: 25655
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool PERM_USERFRIENDS
+    return:
+      type: System.Boolean
+    content.vb: Public PERM_USERFRIENDS As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.EXTRA_PERMS
+  commentId: F:Global.Singleton_FacebookManager.EXTRA_PERMS
+  id: EXTRA_PERMS
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: EXTRA_PERMS
+  nameWithType: Singleton_FacebookManager.EXTRA_PERMS
+  fullName: Singleton_FacebookManager.EXTRA_PERMS
+  type: Field
+  source:
+    id: EXTRA_PERMS
+    path: ''
+    startLine: 25656
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string[] EXTRA_PERMS
+    return:
+      type: System.String[]
+    content.vb: Public EXTRA_PERMS As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager._ReqEmail
+  commentId: F:Global.Singleton_FacebookManager._ReqEmail
+  id: _ReqEmail
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: _ReqEmail
+  nameWithType: Singleton_FacebookManager._ReqEmail
+  fullName: Singleton_FacebookManager._ReqEmail
+  type: Field
+  source:
+    id: _ReqEmail
+    path: ''
+    startLine: 25658
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool _ReqEmail
+    return:
+      type: System.Boolean
+    content.vb: Public _ReqEmail As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager._ReqName
+  commentId: F:Global.Singleton_FacebookManager._ReqName
+  id: _ReqName
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: _ReqName
+  nameWithType: Singleton_FacebookManager._ReqName
+  fullName: Singleton_FacebookManager._ReqName
+  type: Field
+  source:
+    id: _ReqName
+    path: ''
+    startLine: 25659
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool _ReqName
+    return:
+      type: System.Boolean
+    content.vb: Public _ReqName As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.myFbId
+  commentId: F:Global.Singleton_FacebookManager.myFbId
+  id: myFbId
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: myFbId
+  nameWithType: Singleton_FacebookManager.myFbId
+  fullName: Singleton_FacebookManager.myFbId
+  type: Field
+  source:
+    id: myFbId
+    path: ''
+    startLine: 25662
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string myFbId
+    return:
+      type: System.String
+    content.vb: Public myFbId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.myName
+  commentId: F:Global.Singleton_FacebookManager.myName
+  id: myName
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: myName
+  nameWithType: Singleton_FacebookManager.myName
+  fullName: Singleton_FacebookManager.myName
+  type: Field
+  source:
+    id: myName
+    path: ''
+    startLine: 25664
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string myName
+    return:
+      type: System.String
+    content.vb: Public myName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.myFirstName
+  commentId: F:Global.Singleton_FacebookManager.myFirstName
+  id: myFirstName
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: myFirstName
+  nameWithType: Singleton_FacebookManager.myFirstName
+  fullName: Singleton_FacebookManager.myFirstName
+  type: Field
+  source:
+    id: myFirstName
+    path: ''
+    startLine: 25665
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string myFirstName
+    return:
+      type: System.String
+    content.vb: Public myFirstName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.myLastName
+  commentId: F:Global.Singleton_FacebookManager.myLastName
+  id: myLastName
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: myLastName
+  nameWithType: Singleton_FacebookManager.myLastName
+  fullName: Singleton_FacebookManager.myLastName
+  type: Field
+  source:
+    id: myLastName
+    path: ''
+    startLine: 25666
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string myLastName
+    return:
+      type: System.String
+    content.vb: Public myLastName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.myPictureURL
+  commentId: F:Global.Singleton_FacebookManager.myPictureURL
+  id: myPictureURL
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: myPictureURL
+  nameWithType: Singleton_FacebookManager.myPictureURL
+  fullName: Singleton_FacebookManager.myPictureURL
+  type: Field
+  source:
+    id: myPictureURL
+    path: ''
+    startLine: 25667
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string myPictureURL
+    return:
+      type: System.String
+    content.vb: Public myPictureURL As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.myPic
+  commentId: F:Global.Singleton_FacebookManager.myPic
+  id: myPic
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: myPic
+  nameWithType: Singleton_FacebookManager.myPic
+  fullName: Singleton_FacebookManager.myPic
+  type: Field
+  source:
+    id: myPic
+    path: ''
+    startLine: 25668
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Sprite myPic
+    return:
+      type: Global.Sprite
+    content.vb: Public myPic As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.myEmail
+  commentId: F:Global.Singleton_FacebookManager.myEmail
+  id: myEmail
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: myEmail
+  nameWithType: Singleton_FacebookManager.myEmail
+  fullName: Singleton_FacebookManager.myEmail
+  type: Field
+  source:
+    id: myEmail
+    path: ''
+    startLine: 25669
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string myEmail
+    return:
+      type: System.String
+    content.vb: Public myEmail As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.getfriendObject
+  commentId: F:Global.Singleton_FacebookManager.getfriendObject
+  id: getfriendObject
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: getfriendObject
+  nameWithType: Singleton_FacebookManager.getfriendObject
+  fullName: Singleton_FacebookManager.getfriendObject
+  type: Field
+  source:
+    id: getfriendObject
+    path: ''
+    startLine: 25672
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Manager_GetFBfriends getfriendObject
+    return:
+      type: Global.Manager_GetFBfriends
+    content.vb: Public getfriendObject As Manager_GetFBfriends
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.getFBposts
+  commentId: F:Global.Singleton_FacebookManager.getFBposts
+  id: getFBposts
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: getFBposts
+  nameWithType: Singleton_FacebookManager.getFBposts
+  fullName: Singleton_FacebookManager.getFBposts
+  type: Field
+  source:
+    id: getFBposts
+    path: ''
+    startLine: 25673
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Manager_GetFBposts getFBposts
+    return:
+      type: Global.Manager_GetFBposts
+    content.vb: Public getFBposts As Manager_GetFBposts
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.IsLoggedIn
+  commentId: P:Global.Singleton_FacebookManager.IsLoggedIn
+  id: IsLoggedIn
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: IsLoggedIn
+  nameWithType: Singleton_FacebookManager.IsLoggedIn
+  fullName: Singleton_FacebookManager.IsLoggedIn
+  type: Property
+  source:
+    id: IsLoggedIn
+    path: ''
+    startLine: 25711
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool IsLoggedIn { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLoggedIn As Boolean
+  overload: Global.Singleton_FacebookManager.IsLoggedIn*
+  implements:
+  - Global.Interface_SocialNetwork.IsLoggedIn
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.Singleton_FacebookManager.GetFriendList
+  commentId: M:Global.Singleton_FacebookManager.GetFriendList
+  id: GetFriendList
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: GetFriendList()
+  nameWithType: Singleton_FacebookManager.GetFriendList()
+  fullName: Singleton_FacebookManager.GetFriendList()
+  type: Method
+  source:
+    id: GetFriendList
+    path: ''
+    startLine: 25716
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<FriendsInfo> GetFriendList()
+    return:
+      type: System.Collections.Generic.List{FriendsInfo}
+    content.vb: Public Function GetFriendList As List(Of FriendsInfo)
+  overload: Global.Singleton_FacebookManager.GetFriendList*
+  implements:
+  - Global.Interface_SocialNetwork.GetFriendList
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.InviteFriend(FriendsInfo)
+  commentId: M:Global.Singleton_FacebookManager.InviteFriend(FriendsInfo)
+  id: InviteFriend(FriendsInfo)
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: InviteFriend(FriendsInfo)
+  nameWithType: Singleton_FacebookManager.InviteFriend(FriendsInfo)
+  fullName: Singleton_FacebookManager.InviteFriend(FriendsInfo)
+  type: Method
+  source:
+    id: InviteFriend
+    path: ''
+    startLine: 25733
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void InviteFriend(FriendsInfo info)
+    parameters:
+    - id: info
+      type: Global.FriendsInfo
+    content.vb: Public Sub InviteFriend(info As FriendsInfo)
+  overload: Global.Singleton_FacebookManager.InviteFriend*
+  implements:
+  - Global.Interface_SocialNetwork.InviteFriend(FriendsInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.LogIn
+  commentId: M:Global.Singleton_FacebookManager.LogIn
+  id: LogIn
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: LogIn()
+  nameWithType: Singleton_FacebookManager.LogIn()
+  fullName: Singleton_FacebookManager.LogIn()
+  type: Method
+  source:
+    id: LogIn
+    path: ''
+    startLine: 25737
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LogIn()
+    content.vb: Public Sub LogIn
+  overload: Global.Singleton_FacebookManager.LogIn*
+  implements:
+  - Global.Interface_SocialNetwork.LogIn
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.Register
+  commentId: M:Global.Singleton_FacebookManager.Register
+  id: Register
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: Register()
+  nameWithType: Singleton_FacebookManager.Register()
+  fullName: Singleton_FacebookManager.Register()
+  type: Method
+  source:
+    id: Register
+    path: ''
+    startLine: 25742
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Register()
+    content.vb: Public Sub Register
+  overload: Global.Singleton_FacebookManager.Register*
+  implements:
+  - Global.Interface_SocialNetwork.Register
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.LogIn(System.Boolean)
+  commentId: M:Global.Singleton_FacebookManager.LogIn(System.Boolean)
+  id: LogIn(System.Boolean)
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: LogIn(Boolean)
+  nameWithType: Singleton_FacebookManager.LogIn(Boolean)
+  fullName: Singleton_FacebookManager.LogIn(System.Boolean)
+  type: Method
+  source:
+    id: LogIn
+    path: ''
+    startLine: 25785
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LogIn(bool registering)
+    parameters:
+    - id: registering
+      type: System.Boolean
+    content.vb: Public Sub LogIn(registering As Boolean)
+  overload: Global.Singleton_FacebookManager.LogIn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.logOut
+  commentId: M:Global.Singleton_FacebookManager.logOut
+  id: logOut
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: logOut()
+  nameWithType: Singleton_FacebookManager.logOut()
+  fullName: Singleton_FacebookManager.logOut()
+  type: Method
+  source:
+    id: logOut
+    path: ''
+    startLine: 25821
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void logOut()
+    content.vb: Public Sub logOut
+  overload: Global.Singleton_FacebookManager.logOut*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.RequestUserInfo
+  commentId: M:Global.Singleton_FacebookManager.RequestUserInfo
+  id: RequestUserInfo
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: RequestUserInfo()
+  nameWithType: Singleton_FacebookManager.RequestUserInfo()
+  fullName: Singleton_FacebookManager.RequestUserInfo()
+  type: Method
+  source:
+    id: RequestUserInfo
+    path: ''
+    startLine: 25971
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void RequestUserInfo()
+    content.vb: Public Sub RequestUserInfo
+  overload: Global.Singleton_FacebookManager.RequestUserInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.FacebookLog(System.String,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Global.Singleton_FacebookManager.FacebookLog(System.String,System.Boolean,System.Boolean,System.Boolean)
+  id: FacebookLog(System.String,System.Boolean,System.Boolean,System.Boolean)
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: FacebookLog(String, Boolean, Boolean, Boolean)
+  nameWithType: Singleton_FacebookManager.FacebookLog(String, Boolean, Boolean, Boolean)
+  fullName: Singleton_FacebookManager.FacebookLog(System.String, System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    id: FacebookLog
+    path: ''
+    startLine: 26061
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void FacebookLog(string _msg, bool IsLog, bool IsError, bool IsWarning)
+    parameters:
+    - id: _msg
+      type: System.String
+    - id: IsLog
+      type: System.Boolean
+    - id: IsError
+      type: System.Boolean
+    - id: IsWarning
+      type: System.Boolean
+    content.vb: Public Sub FacebookLog(_msg As String, IsLog As Boolean, IsError As Boolean, IsWarning As Boolean)
+  overload: Global.Singleton_FacebookManager.FacebookLog*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.FBinviteFriend
+  commentId: M:Global.Singleton_FacebookManager.FBinviteFriend
+  id: FBinviteFriend
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: FBinviteFriend()
+  nameWithType: Singleton_FacebookManager.FBinviteFriend()
+  fullName: Singleton_FacebookManager.FBinviteFriend()
+  type: Method
+  source:
+    id: FBinviteFriend
+    path: ''
+    startLine: 26192
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void FBinviteFriend()
+    content.vb: Public Sub FBinviteFriend
+  overload: Global.Singleton_FacebookManager.FBinviteFriend*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FacebookManager.op_Implicit(Singleton_FacebookManager)~System.String
+  commentId: M:Global.Singleton_FacebookManager.op_Implicit(Singleton_FacebookManager)~System.String
+  id: op_Implicit(Singleton_FacebookManager)~System.String
+  parent: Global.Singleton_FacebookManager
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Singleton_FacebookManager to String)
+  nameWithType: Singleton_FacebookManager.Implicit(Singleton_FacebookManager to String)
+  fullName: Singleton_FacebookManager.Implicit(Singleton_FacebookManager to System.String)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 26198
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static implicit operator string (Singleton_FacebookManager v)
+    parameters:
+    - id: v
+      type: Global.Singleton_FacebookManager
+    return:
+      type: System.String
+    content.vb: Public Shared Widening Operator CType(v As Singleton_FacebookManager) As String
+  overload: Global.Singleton_FacebookManager.op_Implicit*
+  nameWithType.vb: Singleton_FacebookManager.Widening(Singleton_FacebookManager to String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Singleton_FacebookManager.Widening(Singleton_FacebookManager to System.String)
+  name.vb: Widening(Singleton_FacebookManager to String)
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.Interface_SocialNetwork
+  commentId: T:Global.Interface_SocialNetwork
+  name: Interface_SocialNetwork
+  nameWithType: Interface_SocialNetwork
+  fullName: Interface_SocialNetwork
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Singleton_FacebookManager.Instance*
+  commentId: Overload:Global.Singleton_FacebookManager.Instance
+  name: Instance
+  nameWithType: Singleton_FacebookManager.Instance
+  fullName: Singleton_FacebookManager.Instance
+- uid: Global.Singleton_FacebookManager
+  commentId: T:Global.Singleton_FacebookManager
+  name: Singleton_FacebookManager
+  nameWithType: Singleton_FacebookManager
+  fullName: Singleton_FacebookManager
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Global.Manager_GetFBfriends
+  commentId: T:Global.Manager_GetFBfriends
+  name: Manager_GetFBfriends
+  nameWithType: Manager_GetFBfriends
+  fullName: Manager_GetFBfriends
+- uid: Global.Manager_GetFBposts
+  commentId: T:Global.Manager_GetFBposts
+  name: Manager_GetFBposts
+  nameWithType: Manager_GetFBposts
+  fullName: Manager_GetFBposts
+- uid: Global.Singleton_FacebookManager.IsLoggedIn*
+  commentId: Overload:Global.Singleton_FacebookManager.IsLoggedIn
+  name: IsLoggedIn
+  nameWithType: Singleton_FacebookManager.IsLoggedIn
+  fullName: Singleton_FacebookManager.IsLoggedIn
+- uid: Global.Interface_SocialNetwork.IsLoggedIn
+  commentId: P:Global.Interface_SocialNetwork.IsLoggedIn
+  parent: Global.Interface_SocialNetwork
+  name: IsLoggedIn
+  nameWithType: Interface_SocialNetwork.IsLoggedIn
+  fullName: Interface_SocialNetwork.IsLoggedIn
+- uid: Global.Singleton_FacebookManager.GetFriendList*
+  commentId: Overload:Global.Singleton_FacebookManager.GetFriendList
+  name: GetFriendList
+  nameWithType: Singleton_FacebookManager.GetFriendList
+  fullName: Singleton_FacebookManager.GetFriendList
+- uid: Global.Interface_SocialNetwork.GetFriendList
+  commentId: M:Global.Interface_SocialNetwork.GetFriendList
+  parent: Global.Interface_SocialNetwork
+  name: GetFriendList()
+  nameWithType: Interface_SocialNetwork.GetFriendList()
+  fullName: Interface_SocialNetwork.GetFriendList()
+  spec.csharp:
+  - uid: Global.Interface_SocialNetwork.GetFriendList
+    name: GetFriendList
+    nameWithType: Interface_SocialNetwork.GetFriendList
+    fullName: Interface_SocialNetwork.GetFriendList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Interface_SocialNetwork.GetFriendList
+    name: GetFriendList
+    nameWithType: Interface_SocialNetwork.GetFriendList
+    fullName: Interface_SocialNetwork.GetFriendList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{FriendsInfo}
+  commentId: T:System.Collections.Generic.List{FriendsInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<FriendsInfo>
+  nameWithType: List<FriendsInfo>
+  fullName: System.Collections.Generic.List<FriendsInfo>
+  nameWithType.vb: List(Of FriendsInfo)
+  fullName.vb: System.Collections.Generic.List(Of FriendsInfo)
+  name.vb: List(Of FriendsInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.FriendsInfo
+    name: FriendsInfo
+    nameWithType: FriendsInfo
+    fullName: FriendsInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.FriendsInfo
+    name: FriendsInfo
+    nameWithType: FriendsInfo
+    fullName: FriendsInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Singleton_FacebookManager.InviteFriend*
+  commentId: Overload:Global.Singleton_FacebookManager.InviteFriend
+  name: InviteFriend
+  nameWithType: Singleton_FacebookManager.InviteFriend
+  fullName: Singleton_FacebookManager.InviteFriend
+- uid: Global.Interface_SocialNetwork.InviteFriend(FriendsInfo)
+  commentId: M:Global.Interface_SocialNetwork.InviteFriend(FriendsInfo)
+  parent: Global.Interface_SocialNetwork
+  name: InviteFriend(FriendsInfo)
+  nameWithType: Interface_SocialNetwork.InviteFriend(FriendsInfo)
+  fullName: Interface_SocialNetwork.InviteFriend(FriendsInfo)
+  spec.csharp:
+  - uid: Global.Interface_SocialNetwork.InviteFriend(FriendsInfo)
+    name: InviteFriend
+    nameWithType: Interface_SocialNetwork.InviteFriend
+    fullName: Interface_SocialNetwork.InviteFriend
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.FriendsInfo
+    name: FriendsInfo
+    nameWithType: FriendsInfo
+    fullName: FriendsInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Interface_SocialNetwork.InviteFriend(FriendsInfo)
+    name: InviteFriend
+    nameWithType: Interface_SocialNetwork.InviteFriend
+    fullName: Interface_SocialNetwork.InviteFriend
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.FriendsInfo
+    name: FriendsInfo
+    nameWithType: FriendsInfo
+    fullName: FriendsInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.FriendsInfo
+  commentId: T:Global.FriendsInfo
+  name: FriendsInfo
+  nameWithType: FriendsInfo
+  fullName: FriendsInfo
+- uid: Global.Singleton_FacebookManager.LogIn*
+  commentId: Overload:Global.Singleton_FacebookManager.LogIn
+  name: LogIn
+  nameWithType: Singleton_FacebookManager.LogIn
+  fullName: Singleton_FacebookManager.LogIn
+- uid: Global.Interface_SocialNetwork.LogIn
+  commentId: M:Global.Interface_SocialNetwork.LogIn
+  parent: Global.Interface_SocialNetwork
+  name: LogIn()
+  nameWithType: Interface_SocialNetwork.LogIn()
+  fullName: Interface_SocialNetwork.LogIn()
+  spec.csharp:
+  - uid: Global.Interface_SocialNetwork.LogIn
+    name: LogIn
+    nameWithType: Interface_SocialNetwork.LogIn
+    fullName: Interface_SocialNetwork.LogIn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Interface_SocialNetwork.LogIn
+    name: LogIn
+    nameWithType: Interface_SocialNetwork.LogIn
+    fullName: Interface_SocialNetwork.LogIn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_FacebookManager.Register*
+  commentId: Overload:Global.Singleton_FacebookManager.Register
+  name: Register
+  nameWithType: Singleton_FacebookManager.Register
+  fullName: Singleton_FacebookManager.Register
+- uid: Global.Interface_SocialNetwork.Register
+  commentId: M:Global.Interface_SocialNetwork.Register
+  parent: Global.Interface_SocialNetwork
+  name: Register()
+  nameWithType: Interface_SocialNetwork.Register()
+  fullName: Interface_SocialNetwork.Register()
+  spec.csharp:
+  - uid: Global.Interface_SocialNetwork.Register
+    name: Register
+    nameWithType: Interface_SocialNetwork.Register
+    fullName: Interface_SocialNetwork.Register
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Interface_SocialNetwork.Register
+    name: Register
+    nameWithType: Interface_SocialNetwork.Register
+    fullName: Interface_SocialNetwork.Register
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_FacebookManager.logOut*
+  commentId: Overload:Global.Singleton_FacebookManager.logOut
+  name: logOut
+  nameWithType: Singleton_FacebookManager.logOut
+  fullName: Singleton_FacebookManager.logOut
+- uid: Global.Singleton_FacebookManager.RequestUserInfo*
+  commentId: Overload:Global.Singleton_FacebookManager.RequestUserInfo
+  name: RequestUserInfo
+  nameWithType: Singleton_FacebookManager.RequestUserInfo
+  fullName: Singleton_FacebookManager.RequestUserInfo
+- uid: Global.Singleton_FacebookManager.FacebookLog*
+  commentId: Overload:Global.Singleton_FacebookManager.FacebookLog
+  name: FacebookLog
+  nameWithType: Singleton_FacebookManager.FacebookLog
+  fullName: Singleton_FacebookManager.FacebookLog
+- uid: Global.Singleton_FacebookManager.FBinviteFriend*
+  commentId: Overload:Global.Singleton_FacebookManager.FBinviteFriend
+  name: FBinviteFriend
+  nameWithType: Singleton_FacebookManager.FBinviteFriend
+  fullName: Singleton_FacebookManager.FBinviteFriend
+- uid: Global.Singleton_FacebookManager.op_Implicit*
+  commentId: Overload:Global.Singleton_FacebookManager.op_Implicit
+  name: Implicit
+  nameWithType: Singleton_FacebookManager.Implicit
+  fullName: Singleton_FacebookManager.Implicit
+  nameWithType.vb: Singleton_FacebookManager.Widening
+  fullName.vb: Singleton_FacebookManager.Widening
+  name.vb: Widening

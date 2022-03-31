@@ -1,0 +1,860 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_LogIn
+  commentId: T:Global.Behaviour_LogIn
+  id: Behaviour_LogIn
+  parent: Global
+  children:
+  - Global.Behaviour_LogIn.acceptedTermsAndCondition
+  - Global.Behaviour_LogIn.autolog
+  - Global.Behaviour_LogIn.AutologSave
+  - Global.Behaviour_LogIn.createRegisterPost
+  - Global.Behaviour_LogIn.FirstRegisterPost
+  - Global.Behaviour_LogIn.JWT
+  - Global.Behaviour_LogIn.Login
+  - Global.Behaviour_LogIn.logInEmailField
+  - Global.Behaviour_LogIn.LoginParse
+  - Global.Behaviour_LogIn.logInPasswordField
+  - Global.Behaviour_LogIn.loginQuery
+  - Global.Behaviour_LogIn.LoginQuery
+  - Global.Behaviour_LogIn.PostCompleted
+  - Global.Behaviour_LogIn.Register
+  - Global.Behaviour_LogIn.RegisterParse
+  - Global.Behaviour_LogIn.registerQuery
+  - Global.Behaviour_LogIn.RegisterQuery
+  - Global.Behaviour_LogIn.RetriveUserData
+  - Global.Behaviour_LogIn.retriveUserDataQuery
+  - Global.Behaviour_LogIn.signUpEmailField
+  - Global.Behaviour_LogIn.signUpPasswordField
+  - Global.Behaviour_LogIn.signUpUsernameField
+  - Global.Behaviour_LogIn.smoothTransition
+  - Global.Behaviour_LogIn.tickBoxTermsAndCondition
+  - Global.Behaviour_LogIn.ToggleTermsAndConditions
+  - Global.Behaviour_LogIn.UserDataParse
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_LogIn
+  nameWithType: Behaviour_LogIn
+  fullName: Behaviour_LogIn
+  type: Class
+  source:
+    id: Behaviour_LogIn
+    path: ''
+    startLine: 18653
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_LogIn : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_LogIn
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_LogIn.logInEmailField
+  commentId: F:Global.Behaviour_LogIn.logInEmailField
+  id: logInEmailField
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: logInEmailField
+  nameWithType: Behaviour_LogIn.logInEmailField
+  fullName: Behaviour_LogIn.logInEmailField
+  type: Field
+  source:
+    id: logInEmailField
+    path: ''
+    startLine: 18655
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TMP_InputField logInEmailField
+    return:
+      type: Global.TMP_InputField
+    content.vb: Public logInEmailField As TMP_InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.logInPasswordField
+  commentId: F:Global.Behaviour_LogIn.logInPasswordField
+  id: logInPasswordField
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: logInPasswordField
+  nameWithType: Behaviour_LogIn.logInPasswordField
+  fullName: Behaviour_LogIn.logInPasswordField
+  type: Field
+  source:
+    id: logInPasswordField
+    path: ''
+    startLine: 18656
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TMP_InputField logInPasswordField
+    return:
+      type: Global.TMP_InputField
+    content.vb: Public logInPasswordField As TMP_InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.signUpEmailField
+  commentId: F:Global.Behaviour_LogIn.signUpEmailField
+  id: signUpEmailField
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: signUpEmailField
+  nameWithType: Behaviour_LogIn.signUpEmailField
+  fullName: Behaviour_LogIn.signUpEmailField
+  type: Field
+  source:
+    id: signUpEmailField
+    path: ''
+    startLine: 18657
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TMP_InputField signUpEmailField
+    return:
+      type: Global.TMP_InputField
+    content.vb: Public signUpEmailField As TMP_InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.signUpPasswordField
+  commentId: F:Global.Behaviour_LogIn.signUpPasswordField
+  id: signUpPasswordField
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: signUpPasswordField
+  nameWithType: Behaviour_LogIn.signUpPasswordField
+  fullName: Behaviour_LogIn.signUpPasswordField
+  type: Field
+  source:
+    id: signUpPasswordField
+    path: ''
+    startLine: 18658
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TMP_InputField signUpPasswordField
+    return:
+      type: Global.TMP_InputField
+    content.vb: Public signUpPasswordField As TMP_InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.signUpUsernameField
+  commentId: F:Global.Behaviour_LogIn.signUpUsernameField
+  id: signUpUsernameField
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: signUpUsernameField
+  nameWithType: Behaviour_LogIn.signUpUsernameField
+  fullName: Behaviour_LogIn.signUpUsernameField
+  type: Field
+  source:
+    id: signUpUsernameField
+    path: ''
+    startLine: 18659
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TMP_InputField signUpUsernameField
+    return:
+      type: Global.TMP_InputField
+    content.vb: Public signUpUsernameField As TMP_InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.JWT
+  commentId: F:Global.Behaviour_LogIn.JWT
+  id: JWT
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: JWT
+  nameWithType: Behaviour_LogIn.JWT
+  fullName: Behaviour_LogIn.JWT
+  type: Field
+  source:
+    id: JWT
+    path: ''
+    startLine: 18666
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string JWT
+    return:
+      type: System.String
+    content.vb: Public JWT As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.autolog
+  commentId: F:Global.Behaviour_LogIn.autolog
+  id: autolog
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: autolog
+  nameWithType: Behaviour_LogIn.autolog
+  fullName: Behaviour_LogIn.autolog
+  type: Field
+  source:
+    id: autolog
+    path: ''
+    startLine: 18667
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool autolog
+    return:
+      type: System.Boolean
+    content.vb: Public autolog As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.acceptedTermsAndCondition
+  commentId: F:Global.Behaviour_LogIn.acceptedTermsAndCondition
+  id: acceptedTermsAndCondition
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: acceptedTermsAndCondition
+  nameWithType: Behaviour_LogIn.acceptedTermsAndCondition
+  fullName: Behaviour_LogIn.acceptedTermsAndCondition
+  type: Field
+  source:
+    id: acceptedTermsAndCondition
+    path: ''
+    startLine: 18668
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool acceptedTermsAndCondition
+    return:
+      type: System.Boolean
+    content.vb: Public acceptedTermsAndCondition As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.tickBoxTermsAndCondition
+  commentId: F:Global.Behaviour_LogIn.tickBoxTermsAndCondition
+  id: tickBoxTermsAndCondition
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: tickBoxTermsAndCondition
+  nameWithType: Behaviour_LogIn.tickBoxTermsAndCondition
+  fullName: Behaviour_LogIn.tickBoxTermsAndCondition
+  type: Field
+  source:
+    id: tickBoxTermsAndCondition
+    path: ''
+    startLine: 18669
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject tickBoxTermsAndCondition
+    return:
+      type: Global.GameObject
+    content.vb: Public tickBoxTermsAndCondition As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.smoothTransition
+  commentId: F:Global.Behaviour_LogIn.smoothTransition
+  id: smoothTransition
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: smoothTransition
+  nameWithType: Behaviour_LogIn.smoothTransition
+  fullName: Behaviour_LogIn.smoothTransition
+  type: Field
+  source:
+    id: smoothTransition
+    path: ''
+    startLine: 18670
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ButtonFadeInAnimation smoothTransition
+    return:
+      type: Global.ButtonFadeInAnimation
+    content.vb: Public smoothTransition As ButtonFadeInAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.AutologSave
+  commentId: M:Global.Behaviour_LogIn.AutologSave
+  id: AutologSave
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: AutologSave()
+  nameWithType: Behaviour_LogIn.AutologSave()
+  fullName: Behaviour_LogIn.AutologSave()
+  type: Method
+  source:
+    id: AutologSave
+    path: ''
+    startLine: 18699
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AutologSave()
+    content.vb: Public Sub AutologSave
+  overload: Global.Behaviour_LogIn.AutologSave*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.Login
+  commentId: M:Global.Behaviour_LogIn.Login
+  id: Login
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: Login()
+  nameWithType: Behaviour_LogIn.Login()
+  fullName: Behaviour_LogIn.Login()
+  type: Method
+  source:
+    id: Login
+    path: ''
+    startLine: 18707
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Login()
+    content.vb: Public Sub Login
+  overload: Global.Behaviour_LogIn.Login*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.loginQuery
+  commentId: F:Global.Behaviour_LogIn.loginQuery
+  id: loginQuery
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: loginQuery
+  nameWithType: Behaviour_LogIn.loginQuery
+  fullName: Behaviour_LogIn.loginQuery
+  type: Field
+  source:
+    id: loginQuery
+    path: ''
+    startLine: 18719
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string loginQuery
+    return:
+      type: System.String
+    content.vb: Public loginQuery As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.LoginQuery
+  commentId: M:Global.Behaviour_LogIn.LoginQuery
+  id: LoginQuery
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: LoginQuery()
+  nameWithType: Behaviour_LogIn.LoginQuery()
+  fullName: Behaviour_LogIn.LoginQuery()
+  type: Method
+  source:
+    id: LoginQuery
+    path: ''
+    startLine: 18721
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoginQuery()
+    content.vb: Public Sub LoginQuery
+  overload: Global.Behaviour_LogIn.LoginQuery*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.LoginParse
+  commentId: M:Global.Behaviour_LogIn.LoginParse
+  id: LoginParse
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: LoginParse()
+  nameWithType: Behaviour_LogIn.LoginParse()
+  fullName: Behaviour_LogIn.LoginParse()
+  type: Method
+  source:
+    id: LoginParse
+    path: ''
+    startLine: 18741
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoginParse()
+    content.vb: Public Sub LoginParse
+  overload: Global.Behaviour_LogIn.LoginParse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.Register
+  commentId: M:Global.Behaviour_LogIn.Register
+  id: Register
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: Register()
+  nameWithType: Behaviour_LogIn.Register()
+  fullName: Behaviour_LogIn.Register()
+  type: Method
+  source:
+    id: Register
+    path: ''
+    startLine: 18771
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Register()
+    content.vb: Public Sub Register
+  overload: Global.Behaviour_LogIn.Register*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.ToggleTermsAndConditions
+  commentId: M:Global.Behaviour_LogIn.ToggleTermsAndConditions
+  id: ToggleTermsAndConditions
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: ToggleTermsAndConditions()
+  nameWithType: Behaviour_LogIn.ToggleTermsAndConditions()
+  fullName: Behaviour_LogIn.ToggleTermsAndConditions()
+  type: Method
+  source:
+    id: ToggleTermsAndConditions
+    path: ''
+    startLine: 18791
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ToggleTermsAndConditions()
+    content.vb: Public Sub ToggleTermsAndConditions
+  overload: Global.Behaviour_LogIn.ToggleTermsAndConditions*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.registerQuery
+  commentId: F:Global.Behaviour_LogIn.registerQuery
+  id: registerQuery
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: registerQuery
+  nameWithType: Behaviour_LogIn.registerQuery
+  fullName: Behaviour_LogIn.registerQuery
+  type: Field
+  source:
+    id: registerQuery
+    path: ''
+    startLine: 18805
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string registerQuery
+    return:
+      type: System.String
+    content.vb: Public registerQuery As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.RegisterQuery
+  commentId: M:Global.Behaviour_LogIn.RegisterQuery
+  id: RegisterQuery
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: RegisterQuery()
+  nameWithType: Behaviour_LogIn.RegisterQuery()
+  fullName: Behaviour_LogIn.RegisterQuery()
+  type: Method
+  source:
+    id: RegisterQuery
+    path: ''
+    startLine: 18808
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void RegisterQuery()
+    content.vb: Public Sub RegisterQuery
+  overload: Global.Behaviour_LogIn.RegisterQuery*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.RegisterParse
+  commentId: M:Global.Behaviour_LogIn.RegisterParse
+  id: RegisterParse
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: RegisterParse()
+  nameWithType: Behaviour_LogIn.RegisterParse()
+  fullName: Behaviour_LogIn.RegisterParse()
+  type: Method
+  source:
+    id: RegisterParse
+    path: ''
+    startLine: 18823
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void RegisterParse()
+    content.vb: Public Sub RegisterParse
+  overload: Global.Behaviour_LogIn.RegisterParse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.createRegisterPost
+  commentId: F:Global.Behaviour_LogIn.createRegisterPost
+  id: createRegisterPost
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: createRegisterPost
+  nameWithType: Behaviour_LogIn.createRegisterPost
+  fullName: Behaviour_LogIn.createRegisterPost
+  type: Field
+  source:
+    id: createRegisterPost
+    path: ''
+    startLine: 18851
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string createRegisterPost
+    return:
+      type: System.String
+    content.vb: Public createRegisterPost As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.FirstRegisterPost
+  commentId: M:Global.Behaviour_LogIn.FirstRegisterPost
+  id: FirstRegisterPost
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: FirstRegisterPost()
+  nameWithType: Behaviour_LogIn.FirstRegisterPost()
+  fullName: Behaviour_LogIn.FirstRegisterPost()
+  type: Method
+  source:
+    id: FirstRegisterPost
+    path: ''
+    startLine: 18854
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void FirstRegisterPost()
+    content.vb: Public Sub FirstRegisterPost
+  overload: Global.Behaviour_LogIn.FirstRegisterPost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.PostCompleted
+  commentId: M:Global.Behaviour_LogIn.PostCompleted
+  id: PostCompleted
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: PostCompleted()
+  nameWithType: Behaviour_LogIn.PostCompleted()
+  fullName: Behaviour_LogIn.PostCompleted()
+  type: Method
+  source:
+    id: PostCompleted
+    path: ''
+    startLine: 18865
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PostCompleted()
+    content.vb: Public Sub PostCompleted
+  overload: Global.Behaviour_LogIn.PostCompleted*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.retriveUserDataQuery
+  commentId: F:Global.Behaviour_LogIn.retriveUserDataQuery
+  id: retriveUserDataQuery
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: retriveUserDataQuery
+  nameWithType: Behaviour_LogIn.retriveUserDataQuery
+  fullName: Behaviour_LogIn.retriveUserDataQuery
+  type: Field
+  source:
+    id: retriveUserDataQuery
+    path: ''
+    startLine: 18880
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string retriveUserDataQuery
+    return:
+      type: System.String
+    content.vb: Public retriveUserDataQuery As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.RetriveUserData
+  commentId: M:Global.Behaviour_LogIn.RetriveUserData
+  id: RetriveUserData
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: RetriveUserData()
+  nameWithType: Behaviour_LogIn.RetriveUserData()
+  fullName: Behaviour_LogIn.RetriveUserData()
+  type: Method
+  source:
+    id: RetriveUserData
+    path: ''
+    startLine: 18883
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void RetriveUserData()
+    content.vb: Public Sub RetriveUserData
+  overload: Global.Behaviour_LogIn.RetriveUserData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_LogIn.UserDataParse
+  commentId: M:Global.Behaviour_LogIn.UserDataParse
+  id: UserDataParse
+  parent: Global.Behaviour_LogIn
+  langs:
+  - csharp
+  - vb
+  name: UserDataParse()
+  nameWithType: Behaviour_LogIn.UserDataParse()
+  fullName: Behaviour_LogIn.UserDataParse()
+  type: Method
+  source:
+    id: UserDataParse
+    path: ''
+    startLine: 18892
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UserDataParse()
+    content.vb: Public Sub UserDataParse
+  overload: Global.Behaviour_LogIn.UserDataParse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TMP_InputField
+  isExternal: true
+  name: TMP_InputField
+  nameWithType: TMP_InputField
+  fullName: TMP_InputField
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.ButtonFadeInAnimation
+  commentId: T:Global.ButtonFadeInAnimation
+  name: ButtonFadeInAnimation
+  nameWithType: ButtonFadeInAnimation
+  fullName: ButtonFadeInAnimation
+- uid: Global.Behaviour_LogIn.AutologSave*
+  commentId: Overload:Global.Behaviour_LogIn.AutologSave
+  name: AutologSave
+  nameWithType: Behaviour_LogIn.AutologSave
+  fullName: Behaviour_LogIn.AutologSave
+- uid: Global.Behaviour_LogIn.Login*
+  commentId: Overload:Global.Behaviour_LogIn.Login
+  name: Login
+  nameWithType: Behaviour_LogIn.Login
+  fullName: Behaviour_LogIn.Login
+- uid: Global.Behaviour_LogIn.LoginQuery*
+  commentId: Overload:Global.Behaviour_LogIn.LoginQuery
+  name: LoginQuery
+  nameWithType: Behaviour_LogIn.LoginQuery
+  fullName: Behaviour_LogIn.LoginQuery
+- uid: Global.Behaviour_LogIn.LoginParse*
+  commentId: Overload:Global.Behaviour_LogIn.LoginParse
+  name: LoginParse
+  nameWithType: Behaviour_LogIn.LoginParse
+  fullName: Behaviour_LogIn.LoginParse
+- uid: Global.Behaviour_LogIn.Register*
+  commentId: Overload:Global.Behaviour_LogIn.Register
+  name: Register
+  nameWithType: Behaviour_LogIn.Register
+  fullName: Behaviour_LogIn.Register
+- uid: Global.Behaviour_LogIn.ToggleTermsAndConditions*
+  commentId: Overload:Global.Behaviour_LogIn.ToggleTermsAndConditions
+  name: ToggleTermsAndConditions
+  nameWithType: Behaviour_LogIn.ToggleTermsAndConditions
+  fullName: Behaviour_LogIn.ToggleTermsAndConditions
+- uid: Global.Behaviour_LogIn.RegisterQuery*
+  commentId: Overload:Global.Behaviour_LogIn.RegisterQuery
+  name: RegisterQuery
+  nameWithType: Behaviour_LogIn.RegisterQuery
+  fullName: Behaviour_LogIn.RegisterQuery
+- uid: Global.Behaviour_LogIn.RegisterParse*
+  commentId: Overload:Global.Behaviour_LogIn.RegisterParse
+  name: RegisterParse
+  nameWithType: Behaviour_LogIn.RegisterParse
+  fullName: Behaviour_LogIn.RegisterParse
+- uid: Global.Behaviour_LogIn.FirstRegisterPost*
+  commentId: Overload:Global.Behaviour_LogIn.FirstRegisterPost
+  name: FirstRegisterPost
+  nameWithType: Behaviour_LogIn.FirstRegisterPost
+  fullName: Behaviour_LogIn.FirstRegisterPost
+- uid: Global.Behaviour_LogIn.PostCompleted*
+  commentId: Overload:Global.Behaviour_LogIn.PostCompleted
+  name: PostCompleted
+  nameWithType: Behaviour_LogIn.PostCompleted
+  fullName: Behaviour_LogIn.PostCompleted
+- uid: Global.Behaviour_LogIn.RetriveUserData*
+  commentId: Overload:Global.Behaviour_LogIn.RetriveUserData
+  name: RetriveUserData
+  nameWithType: Behaviour_LogIn.RetriveUserData
+  fullName: Behaviour_LogIn.RetriveUserData
+- uid: Global.Behaviour_LogIn.UserDataParse*
+  commentId: Overload:Global.Behaviour_LogIn.UserDataParse
+  name: UserDataParse
+  nameWithType: Behaviour_LogIn.UserDataParse
+  fullName: Behaviour_LogIn.UserDataParse

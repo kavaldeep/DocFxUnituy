@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SerieData.OnEvent
+  commentId: T:Global.Behaviour_SerieData.OnEvent
+  id: Behaviour_SerieData.OnEvent
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SerieData.OnEvent
+  nameWithType: Behaviour_SerieData.OnEvent
+  fullName: Behaviour_SerieData.OnEvent
+  type: Delegate
+  source:
+    id: OnEvent
+    path: ''
+    startLine: 23028
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public delegate void OnEvent(Behaviour_SerieData _data);
+    parameters:
+    - id: _data
+      type: Global.Behaviour_SerieData
+    content.vb: Public Delegate Sub OnEvent(_data As Behaviour_SerieData)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Behaviour_SerieData
+  commentId: T:Global.Behaviour_SerieData
+  name: Behaviour_SerieData
+  nameWithType: Behaviour_SerieData
+  fullName: Behaviour_SerieData

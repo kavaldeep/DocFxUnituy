@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_ConversationList
+  commentId: T:Global.Behaviour_ConversationList
+  id: Behaviour_ConversationList
+  parent: Global
+  children:
+  - Global.Behaviour_ConversationList.friendBox_Holder
+  - Global.Behaviour_ConversationList.friendList
+  - Global.Behaviour_ConversationList.getConversation
+  - Global.Behaviour_ConversationList.GetConversation
+  - Global.Behaviour_ConversationList.getUserData
+  - Global.Behaviour_ConversationList.inviteList
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_ConversationList
+  nameWithType: Behaviour_ConversationList
+  fullName: Behaviour_ConversationList
+  type: Class
+  source:
+    id: Behaviour_ConversationList
+    path: ''
+    startLine: 14862
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_ConversationList : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_ConversationList
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_ConversationList.friendList
+  commentId: F:Global.Behaviour_ConversationList.friendList
+  id: friendList
+  parent: Global.Behaviour_ConversationList
+  langs:
+  - csharp
+  - vb
+  name: friendList
+  nameWithType: Behaviour_ConversationList.friendList
+  fullName: Behaviour_ConversationList.friendList
+  type: Field
+  source:
+    id: friendList
+    path: ''
+    startLine: 14866
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_FriendList friendList
+    return:
+      type: Global.Behaviour_FriendList
+    content.vb: Public friendList As Behaviour_FriendList
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ConversationList.inviteList
+  commentId: F:Global.Behaviour_ConversationList.inviteList
+  id: inviteList
+  parent: Global.Behaviour_ConversationList
+  langs:
+  - csharp
+  - vb
+  name: inviteList
+  nameWithType: Behaviour_ConversationList.inviteList
+  fullName: Behaviour_ConversationList.inviteList
+  type: Field
+  source:
+    id: inviteList
+    path: ''
+    startLine: 14867
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_InviteList inviteList
+    return:
+      type: Global.Behaviour_InviteList
+    content.vb: Public inviteList As Behaviour_InviteList
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ConversationList.friendBox_Holder
+  commentId: F:Global.Behaviour_ConversationList.friendBox_Holder
+  id: friendBox_Holder
+  parent: Global.Behaviour_ConversationList
+  langs:
+  - csharp
+  - vb
+  name: friendBox_Holder
+  nameWithType: Behaviour_ConversationList.friendBox_Holder
+  fullName: Behaviour_ConversationList.friendBox_Holder
+  type: Field
+  source:
+    id: friendBox_Holder
+    path: ''
+    startLine: 14875
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject friendBox_Holder
+    return:
+      type: Global.GameObject
+    content.vb: Public friendBox_Holder As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ConversationList.getConversation
+  commentId: F:Global.Behaviour_ConversationList.getConversation
+  id: getConversation
+  parent: Global.Behaviour_ConversationList
+  langs:
+  - csharp
+  - vb
+  name: getConversation
+  nameWithType: Behaviour_ConversationList.getConversation
+  fullName: Behaviour_ConversationList.getConversation
+  type: Field
+  source:
+    id: getConversation
+    path: ''
+    startLine: 14877
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string getConversation
+    return:
+      type: System.String
+    content.vb: Public getConversation As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ConversationList.GetConversation
+  commentId: M:Global.Behaviour_ConversationList.GetConversation
+  id: GetConversation
+  parent: Global.Behaviour_ConversationList
+  langs:
+  - csharp
+  - vb
+  name: GetConversation()
+  nameWithType: Behaviour_ConversationList.GetConversation()
+  fullName: Behaviour_ConversationList.GetConversation()
+  type: Method
+  source:
+    id: GetConversation
+    path: ''
+    startLine: 14879
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GetConversation()
+    content.vb: Public Sub GetConversation
+  overload: Global.Behaviour_ConversationList.GetConversation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ConversationList.getUserData
+  commentId: F:Global.Behaviour_ConversationList.getUserData
+  id: getUserData
+  parent: Global.Behaviour_ConversationList
+  langs:
+  - csharp
+  - vb
+  name: getUserData
+  nameWithType: Behaviour_ConversationList.getUserData
+  fullName: Behaviour_ConversationList.getUserData
+  type: Field
+  source:
+    id: getUserData
+    path: ''
+    startLine: 14887
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string getUserData
+    return:
+      type: System.String
+    content.vb: Public getUserData As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_FriendList
+  commentId: T:Global.Behaviour_FriendList
+  name: Behaviour_FriendList
+  nameWithType: Behaviour_FriendList
+  fullName: Behaviour_FriendList
+- uid: Global.Behaviour_InviteList
+  commentId: T:Global.Behaviour_InviteList
+  name: Behaviour_InviteList
+  nameWithType: Behaviour_InviteList
+  fullName: Behaviour_InviteList
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Behaviour_ConversationList.GetConversation*
+  commentId: Overload:Global.Behaviour_ConversationList.GetConversation
+  name: GetConversation
+  nameWithType: Behaviour_ConversationList.GetConversation
+  fullName: Behaviour_ConversationList.GetConversation

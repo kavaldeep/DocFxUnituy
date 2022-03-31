@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SafeArea
+  commentId: T:Global.Behaviour_SafeArea
+  id: Behaviour_SafeArea
+  parent: Global
+  children:
+  - Global.Behaviour_SafeArea.canvas
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SafeArea
+  nameWithType: Behaviour_SafeArea
+  fullName: Behaviour_SafeArea
+  type: Class
+  source:
+    id: Behaviour_SafeArea
+    path: ''
+    startLine: 26732
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_SafeArea : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_SafeArea
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_SafeArea.canvas
+  commentId: F:Global.Behaviour_SafeArea.canvas
+  id: canvas
+  parent: Global.Behaviour_SafeArea
+  langs:
+  - csharp
+  - vb
+  name: canvas
+  nameWithType: Behaviour_SafeArea.canvas
+  fullName: Behaviour_SafeArea.canvas
+  type: Field
+  source:
+    id: canvas
+    path: ''
+    startLine: 26734
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Canvas canvas
+    return:
+      type: Global.Canvas
+    content.vb: Public canvas As Canvas
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Canvas
+  commentId: '!:Global.Canvas'
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: Canvas

@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Post.Sender
+  commentId: T:Global.Post.Sender
+  id: Post.Sender
+  parent: Global
+  children:
+  - Global.Post.Sender.op
+  - Global.Post.Sender.op_id
+  - Global.Post.Sender.pp
+  - Global.Post.Sender.profileUrl
+  langs:
+  - csharp
+  - vb
+  name: Post.Sender
+  nameWithType: Post.Sender
+  fullName: Post.Sender
+  type: Struct
+  source:
+    id: Sender
+    path: ''
+    startLine: 26212
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct Sender
+    content.vb: >-
+      <Serializable>
+
+      Public Structure Sender
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.Post.Sender.op
+  commentId: F:Global.Post.Sender.op
+  id: op
+  parent: Global.Post.Sender
+  langs:
+  - csharp
+  - vb
+  name: op
+  nameWithType: Post.Sender.op
+  fullName: Post.Sender.op
+  type: Field
+  source:
+    id: op
+    path: ''
+    startLine: 26216
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string op
+    return:
+      type: System.String
+    content.vb: Public op As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Sender.op_id
+  commentId: F:Global.Post.Sender.op_id
+  id: op_id
+  parent: Global.Post.Sender
+  langs:
+  - csharp
+  - vb
+  name: op_id
+  nameWithType: Post.Sender.op_id
+  fullName: Post.Sender.op_id
+  type: Field
+  source:
+    id: op_id
+    path: ''
+    startLine: 26217
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string op_id
+    return:
+      type: System.String
+    content.vb: Public op_id As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Sender.profileUrl
+  commentId: F:Global.Post.Sender.profileUrl
+  id: profileUrl
+  parent: Global.Post.Sender
+  langs:
+  - csharp
+  - vb
+  name: profileUrl
+  nameWithType: Post.Sender.profileUrl
+  fullName: Post.Sender.profileUrl
+  type: Field
+  source:
+    id: profileUrl
+    path: ''
+    startLine: 26218
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string profileUrl
+    return:
+      type: System.String
+    content.vb: Public profileUrl As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Sender.pp
+  commentId: F:Global.Post.Sender.pp
+  id: pp
+  parent: Global.Post.Sender
+  langs:
+  - csharp
+  - vb
+  name: pp
+  nameWithType: Post.Sender.pp
+  fullName: Post.Sender.pp
+  type: Field
+  source:
+    id: pp
+    path: ''
+    startLine: 26219
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture2D pp
+    return:
+      type: Global.Texture2D
+    content.vb: Public pp As Texture2D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D

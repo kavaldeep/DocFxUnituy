@@ -1,0 +1,222 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_GetCommentaryPost
+  commentId: T:Global.Behaviour_GetCommentaryPost
+  id: Behaviour_GetCommentaryPost
+  parent: Global
+  children:
+  - Global.Behaviour_GetCommentaryPost.ChangeInfo
+  - Global.Behaviour_GetCommentaryPost.EraseIntel
+  - Global.Behaviour_GetCommentaryPost.NumberComment
+  - Global.Behaviour_GetCommentaryPost.Page
+  - Global.Behaviour_GetCommentaryPost.StockInformationPost(GameObject)
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_GetCommentaryPost
+  nameWithType: Behaviour_GetCommentaryPost
+  fullName: Behaviour_GetCommentaryPost
+  type: Class
+  source:
+    id: Behaviour_GetCommentaryPost
+    path: ''
+    startLine: 24379
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_GetCommentaryPost : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_GetCommentaryPost
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_GetCommentaryPost.NumberComment
+  commentId: F:Global.Behaviour_GetCommentaryPost.NumberComment
+  id: NumberComment
+  parent: Global.Behaviour_GetCommentaryPost
+  langs:
+  - csharp
+  - vb
+  name: NumberComment
+  nameWithType: Behaviour_GetCommentaryPost.NumberComment
+  fullName: Behaviour_GetCommentaryPost.NumberComment
+  type: Field
+  source:
+    id: NumberComment
+    path: ''
+    startLine: 24389
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int NumberComment
+    return:
+      type: System.Int32
+    content.vb: Public NumberComment As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GetCommentaryPost.Page
+  commentId: F:Global.Behaviour_GetCommentaryPost.Page
+  id: Page
+  parent: Global.Behaviour_GetCommentaryPost
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: Behaviour_GetCommentaryPost.Page
+  fullName: Behaviour_GetCommentaryPost.Page
+  type: Field
+  source:
+    id: Page
+    path: ''
+    startLine: 24391
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject Page
+    return:
+      type: Global.GameObject
+    content.vb: Public Page As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GetCommentaryPost.StockInformationPost(GameObject)
+  commentId: M:Global.Behaviour_GetCommentaryPost.StockInformationPost(GameObject)
+  id: StockInformationPost(GameObject)
+  parent: Global.Behaviour_GetCommentaryPost
+  langs:
+  - csharp
+  - vb
+  name: StockInformationPost(GameObject)
+  nameWithType: Behaviour_GetCommentaryPost.StockInformationPost(GameObject)
+  fullName: Behaviour_GetCommentaryPost.StockInformationPost(GameObject)
+  type: Method
+  source:
+    id: StockInformationPost
+    path: ''
+    startLine: 24393
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void StockInformationPost(GameObject post)
+    parameters:
+    - id: post
+      type: Global.GameObject
+    content.vb: Public Sub StockInformationPost(post As GameObject)
+  overload: Global.Behaviour_GetCommentaryPost.StockInformationPost*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GetCommentaryPost.ChangeInfo
+  commentId: M:Global.Behaviour_GetCommentaryPost.ChangeInfo
+  id: ChangeInfo
+  parent: Global.Behaviour_GetCommentaryPost
+  langs:
+  - csharp
+  - vb
+  name: ChangeInfo()
+  nameWithType: Behaviour_GetCommentaryPost.ChangeInfo()
+  fullName: Behaviour_GetCommentaryPost.ChangeInfo()
+  type: Method
+  source:
+    id: ChangeInfo
+    path: ''
+    startLine: 24405
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ChangeInfo()
+    content.vb: Public Sub ChangeInfo
+  overload: Global.Behaviour_GetCommentaryPost.ChangeInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GetCommentaryPost.EraseIntel
+  commentId: M:Global.Behaviour_GetCommentaryPost.EraseIntel
+  id: EraseIntel
+  parent: Global.Behaviour_GetCommentaryPost
+  langs:
+  - csharp
+  - vb
+  name: EraseIntel()
+  nameWithType: Behaviour_GetCommentaryPost.EraseIntel()
+  fullName: Behaviour_GetCommentaryPost.EraseIntel()
+  type: Method
+  source:
+    id: EraseIntel
+    path: ''
+    startLine: 24415
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void EraseIntel()
+    content.vb: Public Sub EraseIntel
+  overload: Global.Behaviour_GetCommentaryPost.EraseIntel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_GetCommentaryPost.StockInformationPost*
+  commentId: Overload:Global.Behaviour_GetCommentaryPost.StockInformationPost
+  name: StockInformationPost
+  nameWithType: Behaviour_GetCommentaryPost.StockInformationPost
+  fullName: Behaviour_GetCommentaryPost.StockInformationPost
+- uid: Global.Behaviour_GetCommentaryPost.ChangeInfo*
+  commentId: Overload:Global.Behaviour_GetCommentaryPost.ChangeInfo
+  name: ChangeInfo
+  nameWithType: Behaviour_GetCommentaryPost.ChangeInfo
+  fullName: Behaviour_GetCommentaryPost.ChangeInfo
+- uid: Global.Behaviour_GetCommentaryPost.EraseIntel*
+  commentId: Overload:Global.Behaviour_GetCommentaryPost.EraseIntel
+  name: EraseIntel
+  nameWithType: Behaviour_GetCommentaryPost.EraseIntel
+  fullName: Behaviour_GetCommentaryPost.EraseIntel

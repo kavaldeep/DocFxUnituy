@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_ScreenSwitcher
+  commentId: T:Global.Behaviour_ScreenSwitcher
+  id: Behaviour_ScreenSwitcher
+  parent: Global
+  children:
+  - Global.Behaviour_ScreenSwitcher.SwitchToBigPlayer
+  - Global.Behaviour_ScreenSwitcher.SwitchToSmallPlayer
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_ScreenSwitcher
+  nameWithType: Behaviour_ScreenSwitcher
+  fullName: Behaviour_ScreenSwitcher
+  type: Class
+  source:
+    id: Behaviour_ScreenSwitcher
+    path: ''
+    startLine: 28673
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_ScreenSwitcher : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_ScreenSwitcher
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_ScreenSwitcher.SwitchToBigPlayer
+  commentId: M:Global.Behaviour_ScreenSwitcher.SwitchToBigPlayer
+  id: SwitchToBigPlayer
+  parent: Global.Behaviour_ScreenSwitcher
+  langs:
+  - csharp
+  - vb
+  name: SwitchToBigPlayer()
+  nameWithType: Behaviour_ScreenSwitcher.SwitchToBigPlayer()
+  fullName: Behaviour_ScreenSwitcher.SwitchToBigPlayer()
+  type: Method
+  source:
+    id: SwitchToBigPlayer
+    path: ''
+    startLine: 28696
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SwitchToBigPlayer()
+    content.vb: Public Sub SwitchToBigPlayer
+  overload: Global.Behaviour_ScreenSwitcher.SwitchToBigPlayer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ScreenSwitcher.SwitchToSmallPlayer
+  commentId: M:Global.Behaviour_ScreenSwitcher.SwitchToSmallPlayer
+  id: SwitchToSmallPlayer
+  parent: Global.Behaviour_ScreenSwitcher
+  langs:
+  - csharp
+  - vb
+  name: SwitchToSmallPlayer()
+  nameWithType: Behaviour_ScreenSwitcher.SwitchToSmallPlayer()
+  fullName: Behaviour_ScreenSwitcher.SwitchToSmallPlayer()
+  type: Method
+  source:
+    id: SwitchToSmallPlayer
+    path: ''
+    startLine: 28718
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SwitchToSmallPlayer()
+    content.vb: Public Sub SwitchToSmallPlayer
+  overload: Global.Behaviour_ScreenSwitcher.SwitchToSmallPlayer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_ScreenSwitcher.SwitchToBigPlayer*
+  commentId: Overload:Global.Behaviour_ScreenSwitcher.SwitchToBigPlayer
+  name: SwitchToBigPlayer
+  nameWithType: Behaviour_ScreenSwitcher.SwitchToBigPlayer
+  fullName: Behaviour_ScreenSwitcher.SwitchToBigPlayer
+- uid: Global.Behaviour_ScreenSwitcher.SwitchToSmallPlayer*
+  commentId: Overload:Global.Behaviour_ScreenSwitcher.SwitchToSmallPlayer
+  name: SwitchToSmallPlayer
+  nameWithType: Behaviour_ScreenSwitcher.SwitchToSmallPlayer
+  fullName: Behaviour_ScreenSwitcher.SwitchToSmallPlayer

@@ -1,0 +1,555 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UserInfo
+  commentId: T:Global.UserInfo
+  id: UserInfo
+  parent: Global
+  children:
+  - Global.UserInfo.Email
+  - Global.UserInfo.FirstName
+  - Global.UserInfo.FriendCount
+  - Global.UserInfo.FriendsInfos
+  - Global.UserInfo.Name
+  - Global.UserInfo.ProfilePicName
+  - Global.UserInfo.ProfilePictureUrl
+  - Global.UserInfo.ProfilePicUrl
+  - Global.UserInfo.Roles
+  - Global.UserInfo.Title
+  - Global.UserInfo.UserId
+  - Global.UserInfo.Username
+  langs:
+  - csharp
+  - vb
+  name: UserInfo
+  nameWithType: UserInfo
+  fullName: UserInfo
+  type: Struct
+  source:
+    id: UserInfo
+    path: ''
+    startLine: 16712
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct UserInfo
+    content.vb: >-
+      <Serializable>
+
+      Public Structure UserInfo
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.UserInfo.UserId
+  commentId: F:Global.UserInfo.UserId
+  id: UserId
+  parent: Global.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: UserInfo.UserId
+  fullName: UserInfo.UserId
+  type: Field
+  source:
+    id: UserId
+    path: ''
+    startLine: 16715
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string UserId
+    return:
+      type: System.String
+    content.vb: Public UserId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserInfo.Username
+  commentId: F:Global.UserInfo.Username
+  id: Username
+  parent: Global.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: UserInfo.Username
+  fullName: UserInfo.Username
+  type: Field
+  source:
+    id: Username
+    path: ''
+    startLine: 16716
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string Username
+    return:
+      type: System.String
+    content.vb: Public Username As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserInfo.Email
+  commentId: F:Global.UserInfo.Email
+  id: Email
+  parent: Global.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: UserInfo.Email
+  fullName: UserInfo.Email
+  type: Field
+  source:
+    id: Email
+    path: ''
+    startLine: 16717
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string Email
+    return:
+      type: System.String
+    content.vb: Public Email As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserInfo.ProfilePictureUrl
+  commentId: F:Global.UserInfo.ProfilePictureUrl
+  id: ProfilePictureUrl
+  parent: Global.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: ProfilePictureUrl
+  nameWithType: UserInfo.ProfilePictureUrl
+  fullName: UserInfo.ProfilePictureUrl
+  type: Field
+  source:
+    id: ProfilePictureUrl
+    path: ''
+    startLine: 16718
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string ProfilePictureUrl
+    return:
+      type: System.String
+    content.vb: Public ProfilePictureUrl As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserInfo.Name
+  commentId: F:Global.UserInfo.Name
+  id: Name
+  parent: Global.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: UserInfo.Name
+  fullName: UserInfo.Name
+  type: Field
+  source:
+    id: Name
+    path: ''
+    startLine: 16719
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserInfo.FirstName
+  commentId: F:Global.UserInfo.FirstName
+  id: FirstName
+  parent: Global.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: UserInfo.FirstName
+  fullName: UserInfo.FirstName
+  type: Field
+  source:
+    id: FirstName
+    path: ''
+    startLine: 16720
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string FirstName
+    return:
+      type: System.String
+    content.vb: Public FirstName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserInfo.Title
+  commentId: F:Global.UserInfo.Title
+  id: Title
+  parent: Global.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: UserInfo.Title
+  fullName: UserInfo.Title
+  type: Field
+  source:
+    id: Title
+    path: ''
+    startLine: 16721
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string Title
+    return:
+      type: System.String
+    content.vb: Public Title As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserInfo.Roles
+  commentId: F:Global.UserInfo.Roles
+  id: Roles
+  parent: Global.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: Roles
+  nameWithType: UserInfo.Roles
+  fullName: UserInfo.Roles
+  type: Field
+  source:
+    id: Roles
+    path: ''
+    startLine: 16722
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<string> Roles
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Roles As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserInfo.FriendCount
+  commentId: F:Global.UserInfo.FriendCount
+  id: FriendCount
+  parent: Global.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: FriendCount
+  nameWithType: UserInfo.FriendCount
+  fullName: UserInfo.FriendCount
+  type: Field
+  source:
+    id: FriendCount
+    path: ''
+    startLine: 16723
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int FriendCount
+    return:
+      type: System.Int32
+    content.vb: Public FriendCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserInfo.FriendsInfos
+  commentId: F:Global.UserInfo.FriendsInfos
+  id: FriendsInfos
+  parent: Global.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: FriendsInfos
+  nameWithType: UserInfo.FriendsInfos
+  fullName: UserInfo.FriendsInfos
+  type: Field
+  source:
+    id: FriendsInfos
+    path: ''
+    startLine: 16724
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<FriendsInfo> FriendsInfos
+    return:
+      type: System.Collections.Generic.List{FriendsInfo}
+    content.vb: Public FriendsInfos As List(Of FriendsInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UserInfo.ProfilePicUrl
+  commentId: P:Global.UserInfo.ProfilePicUrl
+  id: ProfilePicUrl
+  parent: Global.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: ProfilePicUrl
+  nameWithType: UserInfo.ProfilePicUrl
+  fullName: UserInfo.ProfilePicUrl
+  type: Property
+  source:
+    id: ProfilePicUrl
+    path: ''
+    startLine: 16726
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly string ProfilePicUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ProfilePicUrl As String
+  overload: Global.UserInfo.ProfilePicUrl*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.UserInfo.ProfilePicName
+  commentId: P:Global.UserInfo.ProfilePicName
+  id: ProfilePicName
+  parent: Global.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: ProfilePicName
+  nameWithType: UserInfo.ProfilePicName
+  fullName: UserInfo.ProfilePicName
+  type: Property
+  source:
+    id: ProfilePicName
+    path: ''
+    startLine: 16735
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly string ProfilePicName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ProfilePicName As String
+  overload: Global.UserInfo.ProfilePicName*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{FriendsInfo}
+  commentId: T:System.Collections.Generic.List{FriendsInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<FriendsInfo>
+  nameWithType: List<FriendsInfo>
+  fullName: System.Collections.Generic.List<FriendsInfo>
+  nameWithType.vb: List(Of FriendsInfo)
+  fullName.vb: System.Collections.Generic.List(Of FriendsInfo)
+  name.vb: List(Of FriendsInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.FriendsInfo
+    name: FriendsInfo
+    nameWithType: FriendsInfo
+    fullName: FriendsInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.FriendsInfo
+    name: FriendsInfo
+    nameWithType: FriendsInfo
+    fullName: FriendsInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UserInfo.ProfilePicUrl*
+  commentId: Overload:Global.UserInfo.ProfilePicUrl
+  name: ProfilePicUrl
+  nameWithType: UserInfo.ProfilePicUrl
+  fullName: UserInfo.ProfilePicUrl
+- uid: Global.UserInfo.ProfilePicName*
+  commentId: Overload:Global.UserInfo.ProfilePicName
+  name: ProfilePicName
+  nameWithType: UserInfo.ProfilePicName
+  fullName: UserInfo.ProfilePicName

@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_FriendInvite
+  commentId: T:Global.Behaviour_FriendInvite
+  id: Behaviour_FriendInvite
+  parent: Global
+  children:
+  - Global.Behaviour_FriendInvite.AcceptInvite
+  - Global.Behaviour_FriendInvite.Behaviour_FriendListScript
+  - Global.Behaviour_FriendInvite.DeclineInvite
+  - Global.Behaviour_FriendInvite.FriendID
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_FriendInvite
+  nameWithType: Behaviour_FriendInvite
+  fullName: Behaviour_FriendInvite
+  type: Class
+  source:
+    id: Behaviour_FriendInvite
+    path: ''
+    startLine: 15009
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_FriendInvite : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_FriendInvite
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_FriendInvite.FriendID
+  commentId: F:Global.Behaviour_FriendInvite.FriendID
+  id: FriendID
+  parent: Global.Behaviour_FriendInvite
+  langs:
+  - csharp
+  - vb
+  name: FriendID
+  nameWithType: Behaviour_FriendInvite.FriendID
+  fullName: Behaviour_FriendInvite.FriendID
+  type: Field
+  source:
+    id: FriendID
+    path: ''
+    startLine: 15011
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string FriendID
+    return:
+      type: System.String
+    content.vb: Public FriendID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_FriendInvite.Behaviour_FriendListScript
+  commentId: F:Global.Behaviour_FriendInvite.Behaviour_FriendListScript
+  id: Behaviour_FriendListScript
+  parent: Global.Behaviour_FriendInvite
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_FriendListScript
+  nameWithType: Behaviour_FriendInvite.Behaviour_FriendListScript
+  fullName: Behaviour_FriendInvite.Behaviour_FriendListScript
+  type: Field
+  source:
+    id: Behaviour_FriendListScript
+    path: ''
+    startLine: 15013
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_FriendList Behaviour_FriendListScript
+    return:
+      type: Global.Behaviour_FriendList
+    content.vb: Public Behaviour_FriendListScript As Behaviour_FriendList
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_FriendInvite.AcceptInvite
+  commentId: M:Global.Behaviour_FriendInvite.AcceptInvite
+  id: AcceptInvite
+  parent: Global.Behaviour_FriendInvite
+  langs:
+  - csharp
+  - vb
+  name: AcceptInvite()
+  nameWithType: Behaviour_FriendInvite.AcceptInvite()
+  fullName: Behaviour_FriendInvite.AcceptInvite()
+  type: Method
+  source:
+    id: AcceptInvite
+    path: ''
+    startLine: 15015
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AcceptInvite()
+    content.vb: Public Sub AcceptInvite
+  overload: Global.Behaviour_FriendInvite.AcceptInvite*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_FriendInvite.DeclineInvite
+  commentId: M:Global.Behaviour_FriendInvite.DeclineInvite
+  id: DeclineInvite
+  parent: Global.Behaviour_FriendInvite
+  langs:
+  - csharp
+  - vb
+  name: DeclineInvite()
+  nameWithType: Behaviour_FriendInvite.DeclineInvite()
+  fullName: Behaviour_FriendInvite.DeclineInvite()
+  type: Method
+  source:
+    id: DeclineInvite
+    path: ''
+    startLine: 15022
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DeclineInvite()
+    content.vb: Public Sub DeclineInvite
+  overload: Global.Behaviour_FriendInvite.DeclineInvite*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Behaviour_FriendList
+  commentId: T:Global.Behaviour_FriendList
+  name: Behaviour_FriendList
+  nameWithType: Behaviour_FriendList
+  fullName: Behaviour_FriendList
+- uid: Global.Behaviour_FriendInvite.AcceptInvite*
+  commentId: Overload:Global.Behaviour_FriendInvite.AcceptInvite
+  name: AcceptInvite
+  nameWithType: Behaviour_FriendInvite.AcceptInvite
+  fullName: Behaviour_FriendInvite.AcceptInvite
+- uid: Global.Behaviour_FriendInvite.DeclineInvite*
+  commentId: Overload:Global.Behaviour_FriendInvite.DeclineInvite
+  name: DeclineInvite
+  nameWithType: Behaviour_FriendInvite.DeclineInvite
+  fullName: Behaviour_FriendInvite.DeclineInvite

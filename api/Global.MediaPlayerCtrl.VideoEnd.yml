@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MediaPlayerCtrl.VideoEnd
+  commentId: T:Global.MediaPlayerCtrl.VideoEnd
+  id: MediaPlayerCtrl.VideoEnd
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MediaPlayerCtrl.VideoEnd
+  nameWithType: MediaPlayerCtrl.VideoEnd
+  fullName: MediaPlayerCtrl.VideoEnd
+  type: Delegate
+  source:
+    id: VideoEnd
+    path: ''
+    startLine: 5759
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public delegate void VideoEnd();
+    content.vb: Public Delegate Sub VideoEnd
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''

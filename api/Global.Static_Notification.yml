@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_Notification
+  commentId: T:Global.Static_Notification
+  id: Static_Notification
+  parent: Global
+  children:
+  - Global.Static_Notification.CheckBiOS
+  - Global.Static_Notification.notificationsEnabled
+  - Global.Static_Notification.onAndroid
+  - Global.Static_Notification.onIOS
+  - Global.Static_Notification.SendNotification(System.String,System.String,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: Static_Notification
+  nameWithType: Static_Notification
+  fullName: Static_Notification
+  type: Class
+  source:
+    id: Static_Notification
+    path: ''
+    startLine: 21338
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Static_Notification
+    content.vb: Public Module Static_Notification
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_Notification.onAndroid
+  commentId: F:Global.Static_Notification.onAndroid
+  id: onAndroid
+  parent: Global.Static_Notification
+  langs:
+  - csharp
+  - vb
+  name: onAndroid
+  nameWithType: Static_Notification.onAndroid
+  fullName: Static_Notification.onAndroid
+  type: Field
+  source:
+    id: onAndroid
+    path: ''
+    startLine: 21340
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool onAndroid
+    return:
+      type: System.Boolean
+    content.vb: Public Shared onAndroid As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_Notification.onIOS
+  commentId: F:Global.Static_Notification.onIOS
+  id: onIOS
+  parent: Global.Static_Notification
+  langs:
+  - csharp
+  - vb
+  name: onIOS
+  nameWithType: Static_Notification.onIOS
+  fullName: Static_Notification.onIOS
+  type: Field
+  source:
+    id: onIOS
+    path: ''
+    startLine: 21341
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool onIOS
+    return:
+      type: System.Boolean
+    content.vb: Public Shared onIOS As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_Notification.notificationsEnabled
+  commentId: F:Global.Static_Notification.notificationsEnabled
+  id: notificationsEnabled
+  parent: Global.Static_Notification
+  langs:
+  - csharp
+  - vb
+  name: notificationsEnabled
+  nameWithType: Static_Notification.notificationsEnabled
+  fullName: Static_Notification.notificationsEnabled
+  type: Field
+  source:
+    id: notificationsEnabled
+    path: ''
+    startLine: 21343
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool notificationsEnabled
+    return:
+      type: System.Boolean
+    content.vb: Public Shared notificationsEnabled As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_Notification.CheckBiOS
+  commentId: M:Global.Static_Notification.CheckBiOS
+  id: CheckBiOS
+  parent: Global.Static_Notification
+  langs:
+  - csharp
+  - vb
+  name: CheckBiOS()
+  nameWithType: Static_Notification.CheckBiOS()
+  fullName: Static_Notification.CheckBiOS()
+  type: Method
+  source:
+    id: CheckBiOS
+    path: ''
+    startLine: 21345
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void CheckBiOS()
+    content.vb: Public Shared Sub CheckBiOS
+  overload: Global.Static_Notification.CheckBiOS*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_Notification.SendNotification(System.String,System.String,System.Single)
+  commentId: M:Global.Static_Notification.SendNotification(System.String,System.String,System.Single)
+  id: SendNotification(System.String,System.String,System.Single)
+  parent: Global.Static_Notification
+  langs:
+  - csharp
+  - vb
+  name: SendNotification(String, String, Single)
+  nameWithType: Static_Notification.SendNotification(String, String, Single)
+  fullName: Static_Notification.SendNotification(System.String, System.String, System.Single)
+  type: Method
+  source:
+    id: SendNotification
+    path: ''
+    startLine: 21358
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SendNotification(string title, string content, float TimeInMinutesBeforeSending)
+    parameters:
+    - id: title
+      type: System.String
+    - id: content
+      type: System.String
+    - id: TimeInMinutesBeforeSending
+      type: System.Single
+    content.vb: Public Shared Sub SendNotification(title As String, content As String, TimeInMinutesBeforeSending As Single)
+  overload: Global.Static_Notification.SendNotification*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Static_Notification.CheckBiOS*
+  commentId: Overload:Global.Static_Notification.CheckBiOS
+  name: CheckBiOS
+  nameWithType: Static_Notification.CheckBiOS
+  fullName: Static_Notification.CheckBiOS
+- uid: Global.Static_Notification.SendNotification*
+  commentId: Overload:Global.Static_Notification.SendNotification
+  name: SendNotification
+  nameWithType: Static_Notification.SendNotification
+  fullName: Static_Notification.SendNotification
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

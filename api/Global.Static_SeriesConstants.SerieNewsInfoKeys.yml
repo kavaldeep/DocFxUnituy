@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys
+  commentId: T:Global.Static_SeriesConstants.SerieNewsInfoKeys
+  id: Static_SeriesConstants.SerieNewsInfoKeys
+  parent: Global
+  children:
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.serieNews
+  langs:
+  - csharp
+  - vb
+  name: Static_SeriesConstants.SerieNewsInfoKeys
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys
+  type: Class
+  source:
+    id: SerieNewsInfoKeys
+    path: ''
+    startLine: 16898
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class SerieNewsInfoKeys
+    content.vb: Public Module SerieNewsInfoKeys
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.serieNews
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.serieNews
+  id: serieNews
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys
+  langs:
+  - csharp
+  - vb
+  name: serieNews
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.serieNews
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.serieNews
+  type: Field
+  source:
+    id: serieNews
+    path: ''
+    startLine: 16900
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string serieNews = "serienews"
+    return:
+      type: System.String
+    content.vb: Public Const serieNews As String = "serienews"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

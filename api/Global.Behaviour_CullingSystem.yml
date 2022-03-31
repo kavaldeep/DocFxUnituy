@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_CullingSystem
+  commentId: T:Global.Behaviour_CullingSystem
+  id: Behaviour_CullingSystem
+  parent: Global
+  children:
+  - Global.Behaviour_CullingSystem._localGraphicComponent
+  - Global.Behaviour_CullingSystem._optionalGO_to_On_Off
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_CullingSystem
+  nameWithType: Behaviour_CullingSystem
+  fullName: Behaviour_CullingSystem
+  type: Class
+  source:
+    id: Behaviour_CullingSystem
+    path: ''
+    startLine: 14428
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_CullingSystem : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_CullingSystem
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_CullingSystem._localGraphicComponent
+  commentId: F:Global.Behaviour_CullingSystem._localGraphicComponent
+  id: _localGraphicComponent
+  parent: Global.Behaviour_CullingSystem
+  langs:
+  - csharp
+  - vb
+  name: _localGraphicComponent
+  nameWithType: Behaviour_CullingSystem._localGraphicComponent
+  fullName: Behaviour_CullingSystem._localGraphicComponent
+  type: Field
+  source:
+    id: _localGraphicComponent
+    path: ''
+    startLine: 14435
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Graphic _localGraphicComponent
+    return:
+      type: Global.Graphic
+    content.vb: Public _localGraphicComponent As Graphic
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_CullingSystem._optionalGO_to_On_Off
+  commentId: F:Global.Behaviour_CullingSystem._optionalGO_to_On_Off
+  id: _optionalGO_to_On_Off
+  parent: Global.Behaviour_CullingSystem
+  langs:
+  - csharp
+  - vb
+  name: _optionalGO_to_On_Off
+  nameWithType: Behaviour_CullingSystem._optionalGO_to_On_Off
+  fullName: Behaviour_CullingSystem._optionalGO_to_On_Off
+  type: Field
+  source:
+    id: _optionalGO_to_On_Off
+    path: ''
+    startLine: 14436
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject[] _optionalGO_to_On_Off
+    return:
+      type: Global.GameObject[]
+    content.vb: Public _optionalGO_to_On_Off As GameObject()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Graphic
+  commentId: '!:Global.Graphic'
+  isExternal: true
+  name: Graphic
+  nameWithType: Graphic
+  fullName: Graphic
+- uid: Global.GameObject[]
+  isExternal: true
+  name: GameObject[]
+  nameWithType: GameObject[]
+  fullName: GameObject[]
+  nameWithType.vb: GameObject()
+  fullName.vb: GameObject()
+  name.vb: GameObject()
+  spec.csharp:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

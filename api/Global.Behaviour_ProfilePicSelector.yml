@@ -1,0 +1,510 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_ProfilePicSelector
+  commentId: T:Global.Behaviour_ProfilePicSelector
+  id: Behaviour_ProfilePicSelector
+  parent: Global
+  children:
+  - Global.Behaviour_ProfilePicSelector.Hide
+  - Global.Behaviour_ProfilePicSelector.InstantiateImportedPics(System.Collections.Generic.IList{ImportedPic})
+  - Global.Behaviour_ProfilePicSelector.InstantiateRewardedPics(System.Collections.Generic.IList{RewardedPic})
+  - Global.Behaviour_ProfilePicSelector.OnImageCropped(Texture2D)
+  - Global.Behaviour_ProfilePicSelector.PickAndCropImage(Behaviour_GalleryLink)
+  - Global.Behaviour_ProfilePicSelector.Refresh
+  - Global.Behaviour_ProfilePicSelector.SelectedPic
+  - Global.Behaviour_ProfilePicSelector.Show
+  - Global.Behaviour_ProfilePicSelector.UpdateProfilePic
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_ProfilePicSelector
+  nameWithType: Behaviour_ProfilePicSelector
+  fullName: Behaviour_ProfilePicSelector
+  type: Class
+  source:
+    id: Behaviour_ProfilePicSelector
+    path: ''
+    startLine: 26971
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_ProfilePicSelector : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_ProfilePicSelector
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_ProfilePicSelector.SelectedPic
+  commentId: P:Global.Behaviour_ProfilePicSelector.SelectedPic
+  id: SelectedPic
+  parent: Global.Behaviour_ProfilePicSelector
+  langs:
+  - csharp
+  - vb
+  name: SelectedPic
+  nameWithType: Behaviour_ProfilePicSelector.SelectedPic
+  fullName: Behaviour_ProfilePicSelector.SelectedPic
+  type: Property
+  source:
+    id: SelectedPic
+    path: ''
+    startLine: 26996
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_ImagePicProposition SelectedPic { get; set; }
+    parameters: []
+    return:
+      type: Global.Behaviour_ImagePicProposition
+    content.vb: Public Property SelectedPic As Behaviour_ImagePicProposition
+  overload: Global.Behaviour_ProfilePicSelector.SelectedPic*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ProfilePicSelector.InstantiateImportedPics(System.Collections.Generic.IList{ImportedPic})
+  commentId: M:Global.Behaviour_ProfilePicSelector.InstantiateImportedPics(System.Collections.Generic.IList{ImportedPic})
+  id: InstantiateImportedPics(System.Collections.Generic.IList{ImportedPic})
+  parent: Global.Behaviour_ProfilePicSelector
+  langs:
+  - csharp
+  - vb
+  name: InstantiateImportedPics(IList<ImportedPic>)
+  nameWithType: Behaviour_ProfilePicSelector.InstantiateImportedPics(IList<ImportedPic>)
+  fullName: Behaviour_ProfilePicSelector.InstantiateImportedPics(System.Collections.Generic.IList<ImportedPic>)
+  type: Method
+  source:
+    id: InstantiateImportedPics
+    path: ''
+    startLine: 27031
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void InstantiateImportedPics(IList<ImportedPic> picsList)
+    parameters:
+    - id: picsList
+      type: System.Collections.Generic.IList{ImportedPic}
+    content.vb: Public Sub InstantiateImportedPics(picsList As IList(Of ImportedPic))
+  overload: Global.Behaviour_ProfilePicSelector.InstantiateImportedPics*
+  nameWithType.vb: Behaviour_ProfilePicSelector.InstantiateImportedPics(IList(Of ImportedPic))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Behaviour_ProfilePicSelector.InstantiateImportedPics(System.Collections.Generic.IList(Of ImportedPic))
+  name.vb: InstantiateImportedPics(IList(Of ImportedPic))
+- uid: Global.Behaviour_ProfilePicSelector.InstantiateRewardedPics(System.Collections.Generic.IList{RewardedPic})
+  commentId: M:Global.Behaviour_ProfilePicSelector.InstantiateRewardedPics(System.Collections.Generic.IList{RewardedPic})
+  id: InstantiateRewardedPics(System.Collections.Generic.IList{RewardedPic})
+  parent: Global.Behaviour_ProfilePicSelector
+  langs:
+  - csharp
+  - vb
+  name: InstantiateRewardedPics(IList<RewardedPic>)
+  nameWithType: Behaviour_ProfilePicSelector.InstantiateRewardedPics(IList<RewardedPic>)
+  fullName: Behaviour_ProfilePicSelector.InstantiateRewardedPics(System.Collections.Generic.IList<RewardedPic>)
+  type: Method
+  source:
+    id: InstantiateRewardedPics
+    path: ''
+    startLine: 27062
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void InstantiateRewardedPics(IList<RewardedPic> picsList)
+    parameters:
+    - id: picsList
+      type: System.Collections.Generic.IList{RewardedPic}
+    content.vb: Public Sub InstantiateRewardedPics(picsList As IList(Of RewardedPic))
+  overload: Global.Behaviour_ProfilePicSelector.InstantiateRewardedPics*
+  nameWithType.vb: Behaviour_ProfilePicSelector.InstantiateRewardedPics(IList(Of RewardedPic))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Behaviour_ProfilePicSelector.InstantiateRewardedPics(System.Collections.Generic.IList(Of RewardedPic))
+  name.vb: InstantiateRewardedPics(IList(Of RewardedPic))
+- uid: Global.Behaviour_ProfilePicSelector.Refresh
+  commentId: M:Global.Behaviour_ProfilePicSelector.Refresh
+  id: Refresh
+  parent: Global.Behaviour_ProfilePicSelector
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: Behaviour_ProfilePicSelector.Refresh()
+  fullName: Behaviour_ProfilePicSelector.Refresh()
+  type: Method
+  source:
+    id: Refresh
+    path: ''
+    startLine: 27079
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Refresh()
+    content.vb: Public Sub Refresh
+  overload: Global.Behaviour_ProfilePicSelector.Refresh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ProfilePicSelector.Show
+  commentId: M:Global.Behaviour_ProfilePicSelector.Show
+  id: Show
+  parent: Global.Behaviour_ProfilePicSelector
+  langs:
+  - csharp
+  - vb
+  name: Show()
+  nameWithType: Behaviour_ProfilePicSelector.Show()
+  fullName: Behaviour_ProfilePicSelector.Show()
+  type: Method
+  source:
+    id: Show
+    path: ''
+    startLine: 27087
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Show()
+    content.vb: Public Sub Show
+  overload: Global.Behaviour_ProfilePicSelector.Show*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ProfilePicSelector.Hide
+  commentId: M:Global.Behaviour_ProfilePicSelector.Hide
+  id: Hide
+  parent: Global.Behaviour_ProfilePicSelector
+  langs:
+  - csharp
+  - vb
+  name: Hide()
+  nameWithType: Behaviour_ProfilePicSelector.Hide()
+  fullName: Behaviour_ProfilePicSelector.Hide()
+  type: Method
+  source:
+    id: Hide
+    path: ''
+    startLine: 27110
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Hide()
+    content.vb: Public Sub Hide
+  overload: Global.Behaviour_ProfilePicSelector.Hide*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ProfilePicSelector.PickAndCropImage(Behaviour_GalleryLink)
+  commentId: M:Global.Behaviour_ProfilePicSelector.PickAndCropImage(Behaviour_GalleryLink)
+  id: PickAndCropImage(Behaviour_GalleryLink)
+  parent: Global.Behaviour_ProfilePicSelector
+  langs:
+  - csharp
+  - vb
+  name: PickAndCropImage(Behaviour_GalleryLink)
+  nameWithType: Behaviour_ProfilePicSelector.PickAndCropImage(Behaviour_GalleryLink)
+  fullName: Behaviour_ProfilePicSelector.PickAndCropImage(Behaviour_GalleryLink)
+  type: Method
+  source:
+    id: PickAndCropImage
+    path: ''
+    startLine: 27129
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PickAndCropImage(Behaviour_GalleryLink galleryLink)
+    parameters:
+    - id: galleryLink
+      type: Global.Behaviour_GalleryLink
+    content.vb: Public Sub PickAndCropImage(galleryLink As Behaviour_GalleryLink)
+  overload: Global.Behaviour_ProfilePicSelector.PickAndCropImage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ProfilePicSelector.OnImageCropped(Texture2D)
+  commentId: M:Global.Behaviour_ProfilePicSelector.OnImageCropped(Texture2D)
+  id: OnImageCropped(Texture2D)
+  parent: Global.Behaviour_ProfilePicSelector
+  langs:
+  - csharp
+  - vb
+  name: OnImageCropped(Texture2D)
+  nameWithType: Behaviour_ProfilePicSelector.OnImageCropped(Texture2D)
+  fullName: Behaviour_ProfilePicSelector.OnImageCropped(Texture2D)
+  type: Method
+  source:
+    id: OnImageCropped
+    path: ''
+    startLine: 27140
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnImageCropped(Texture2D croppedImage)
+    parameters:
+    - id: croppedImage
+      type: Global.Texture2D
+    content.vb: Public Sub OnImageCropped(croppedImage As Texture2D)
+  overload: Global.Behaviour_ProfilePicSelector.OnImageCropped*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ProfilePicSelector.UpdateProfilePic
+  commentId: M:Global.Behaviour_ProfilePicSelector.UpdateProfilePic
+  id: UpdateProfilePic
+  parent: Global.Behaviour_ProfilePicSelector
+  langs:
+  - csharp
+  - vb
+  name: UpdateProfilePic()
+  nameWithType: Behaviour_ProfilePicSelector.UpdateProfilePic()
+  fullName: Behaviour_ProfilePicSelector.UpdateProfilePic()
+  type: Method
+  source:
+    id: UpdateProfilePic
+    path: ''
+    startLine: 27163
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UpdateProfilePic()
+    content.vb: Public Sub UpdateProfilePic
+  overload: Global.Behaviour_ProfilePicSelector.UpdateProfilePic*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_ProfilePicSelector.SelectedPic*
+  commentId: Overload:Global.Behaviour_ProfilePicSelector.SelectedPic
+  name: SelectedPic
+  nameWithType: Behaviour_ProfilePicSelector.SelectedPic
+  fullName: Behaviour_ProfilePicSelector.SelectedPic
+- uid: Global.Behaviour_ImagePicProposition
+  commentId: T:Global.Behaviour_ImagePicProposition
+  name: Behaviour_ImagePicProposition
+  nameWithType: Behaviour_ImagePicProposition
+  fullName: Behaviour_ImagePicProposition
+- uid: Global.Behaviour_ProfilePicSelector.InstantiateImportedPics*
+  commentId: Overload:Global.Behaviour_ProfilePicSelector.InstantiateImportedPics
+  name: InstantiateImportedPics
+  nameWithType: Behaviour_ProfilePicSelector.InstantiateImportedPics
+  fullName: Behaviour_ProfilePicSelector.InstantiateImportedPics
+- uid: System.Collections.Generic.IList{ImportedPic}
+  commentId: T:System.Collections.Generic.IList{ImportedPic}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<ImportedPic>
+  nameWithType: IList<ImportedPic>
+  fullName: System.Collections.Generic.IList<ImportedPic>
+  nameWithType.vb: IList(Of ImportedPic)
+  fullName.vb: System.Collections.Generic.IList(Of ImportedPic)
+  name.vb: IList(Of ImportedPic)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.ImportedPic
+    name: ImportedPic
+    nameWithType: ImportedPic
+    fullName: ImportedPic
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.ImportedPic
+    name: ImportedPic
+    nameWithType: ImportedPic
+    fullName: ImportedPic
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Behaviour_ProfilePicSelector.InstantiateRewardedPics*
+  commentId: Overload:Global.Behaviour_ProfilePicSelector.InstantiateRewardedPics
+  name: InstantiateRewardedPics
+  nameWithType: Behaviour_ProfilePicSelector.InstantiateRewardedPics
+  fullName: Behaviour_ProfilePicSelector.InstantiateRewardedPics
+- uid: System.Collections.Generic.IList{RewardedPic}
+  commentId: T:System.Collections.Generic.IList{RewardedPic}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<RewardedPic>
+  nameWithType: IList<RewardedPic>
+  fullName: System.Collections.Generic.IList<RewardedPic>
+  nameWithType.vb: IList(Of RewardedPic)
+  fullName.vb: System.Collections.Generic.IList(Of RewardedPic)
+  name.vb: IList(Of RewardedPic)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.RewardedPic
+    name: RewardedPic
+    nameWithType: RewardedPic
+    fullName: RewardedPic
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.RewardedPic
+    name: RewardedPic
+    nameWithType: RewardedPic
+    fullName: RewardedPic
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Behaviour_ProfilePicSelector.Refresh*
+  commentId: Overload:Global.Behaviour_ProfilePicSelector.Refresh
+  name: Refresh
+  nameWithType: Behaviour_ProfilePicSelector.Refresh
+  fullName: Behaviour_ProfilePicSelector.Refresh
+- uid: Global.Behaviour_ProfilePicSelector.Show*
+  commentId: Overload:Global.Behaviour_ProfilePicSelector.Show
+  name: Show
+  nameWithType: Behaviour_ProfilePicSelector.Show
+  fullName: Behaviour_ProfilePicSelector.Show
+- uid: Global.Behaviour_ProfilePicSelector.Hide*
+  commentId: Overload:Global.Behaviour_ProfilePicSelector.Hide
+  name: Hide
+  nameWithType: Behaviour_ProfilePicSelector.Hide
+  fullName: Behaviour_ProfilePicSelector.Hide
+- uid: Global.Behaviour_ProfilePicSelector.PickAndCropImage*
+  commentId: Overload:Global.Behaviour_ProfilePicSelector.PickAndCropImage
+  name: PickAndCropImage
+  nameWithType: Behaviour_ProfilePicSelector.PickAndCropImage
+  fullName: Behaviour_ProfilePicSelector.PickAndCropImage
+- uid: Global.Behaviour_GalleryLink
+  commentId: T:Global.Behaviour_GalleryLink
+  name: Behaviour_GalleryLink
+  nameWithType: Behaviour_GalleryLink
+  fullName: Behaviour_GalleryLink
+- uid: Global.Behaviour_ProfilePicSelector.OnImageCropped*
+  commentId: Overload:Global.Behaviour_ProfilePicSelector.OnImageCropped
+  name: OnImageCropped
+  nameWithType: Behaviour_ProfilePicSelector.OnImageCropped
+  fullName: Behaviour_ProfilePicSelector.OnImageCropped
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: Global.Behaviour_ProfilePicSelector.UpdateProfilePic*
+  commentId: Overload:Global.Behaviour_ProfilePicSelector.UpdateProfilePic
+  name: UpdateProfilePic
+  nameWithType: Behaviour_ProfilePicSelector.UpdateProfilePic
+  fullName: Behaviour_ProfilePicSelector.UpdateProfilePic

@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_JsonEditorSimple
+  commentId: T:Global.Behaviour_JsonEditorSimple
+  id: Behaviour_JsonEditorSimple
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_JsonEditorSimple
+  nameWithType: Behaviour_JsonEditorSimple
+  fullName: Behaviour_JsonEditorSimple
+  type: Class
+  source:
+    id: Behaviour_JsonEditorSimple
+    path: ''
+    startLine: 12659
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_JsonEditorSimple : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_JsonEditorSimple
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

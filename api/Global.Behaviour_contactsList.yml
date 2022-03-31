@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_contactsList
+  commentId: T:Global.Behaviour_contactsList
+  id: Behaviour_contactsList
+  parent: Global
+  children:
+  - Global.Behaviour_contactsList.getContacts
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_contactsList
+  nameWithType: Behaviour_contactsList
+  fullName: Behaviour_contactsList
+  type: Class
+  source:
+    id: Behaviour_contactsList
+    path: ''
+    startLine: 14806
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_contactsList : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_contactsList
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_contactsList.getContacts
+  commentId: M:Global.Behaviour_contactsList.getContacts
+  id: getContacts
+  parent: Global.Behaviour_contactsList
+  langs:
+  - csharp
+  - vb
+  name: getContacts()
+  nameWithType: Behaviour_contactsList.getContacts()
+  fullName: Behaviour_contactsList.getContacts()
+  type: Method
+  source:
+    id: getContacts
+    path: ''
+    startLine: 14814
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void getContacts()
+    content.vb: Public Sub getContacts
+  overload: Global.Behaviour_contactsList.getContacts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_contactsList.getContacts*
+  commentId: Overload:Global.Behaviour_contactsList.getContacts
+  name: getContacts
+  nameWithType: Behaviour_contactsList.getContacts
+  fullName: Behaviour_contactsList.getContacts

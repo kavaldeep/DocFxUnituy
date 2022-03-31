@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.AWS3
+  commentId: T:Global.AWS3
+  id: AWS3
+  parent: Global
+  children:
+  - Global.AWS3.DownloadImage(System.String)
+  - Global.AWS3.imageName
+  - Global.AWS3.kevin
+  - Global.AWS3.Update
+  - Global.AWS3.UpdloadImage(Texture2D)
+  - Global.AWS3.UploadImage(Texture2D,System.String,System.String)
+  - Global.AWS3.url
+  langs:
+  - csharp
+  - vb
+  name: AWS3
+  nameWithType: AWS3
+  fullName: AWS3
+  type: Class
+  source:
+    id: AWS3
+    path: ''
+    startLine: 13416
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class AWS3 : MonoBehaviour'
+    content.vb: >-
+      Public Class AWS3
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.AWS3.url
+  commentId: F:Global.AWS3.url
+  id: url
+  parent: Global.AWS3
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: AWS3.url
+  fullName: AWS3.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 13418
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string url = "https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/"
+    return:
+      type: System.String
+    content.vb: Public Const url As String = "https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AWS3.kevin
+  commentId: F:Global.AWS3.kevin
+  id: kevin
+  parent: Global.AWS3
+  langs:
+  - csharp
+  - vb
+  name: kevin
+  nameWithType: AWS3.kevin
+  fullName: AWS3.kevin
+  type: Field
+  source:
+    id: kevin
+    path: ''
+    startLine: 13420
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture2D kevin
+    return:
+      type: Global.Texture2D
+    content.vb: Public kevin As Texture2D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AWS3.imageName
+  commentId: F:Global.AWS3.imageName
+  id: imageName
+  parent: Global.AWS3
+  langs:
+  - csharp
+  - vb
+  name: imageName
+  nameWithType: AWS3.imageName
+  fullName: AWS3.imageName
+  type: Field
+  source:
+    id: imageName
+    path: ''
+    startLine: 13421
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string imageName
+    return:
+      type: System.String
+    content.vb: Public imageName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AWS3.UpdloadImage(Texture2D)
+  commentId: M:Global.AWS3.UpdloadImage(Texture2D)
+  id: UpdloadImage(Texture2D)
+  parent: Global.AWS3
+  langs:
+  - csharp
+  - vb
+  name: UpdloadImage(Texture2D)
+  nameWithType: AWS3.UpdloadImage(Texture2D)
+  fullName: AWS3.UpdloadImage(Texture2D)
+  type: Method
+  source:
+    id: UpdloadImage
+    path: ''
+    startLine: 13423
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UpdloadImage(Texture2D _tex)
+    parameters:
+    - id: _tex
+      type: Global.Texture2D
+    content.vb: Public Sub UpdloadImage(_tex As Texture2D)
+  overload: Global.AWS3.UpdloadImage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AWS3.DownloadImage(System.String)
+  commentId: M:Global.AWS3.DownloadImage(System.String)
+  id: DownloadImage(System.String)
+  parent: Global.AWS3
+  langs:
+  - csharp
+  - vb
+  name: DownloadImage(String)
+  nameWithType: AWS3.DownloadImage(String)
+  fullName: AWS3.DownloadImage(System.String)
+  type: Method
+  source:
+    id: DownloadImage
+    path: ''
+    startLine: 13427
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected IEnumerator DownloadImage(string _url)
+    parameters:
+    - id: _url
+      type: System.String
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Protected Function DownloadImage(_url As String) As IEnumerator
+  overload: Global.AWS3.DownloadImage*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.AWS3.Update
+  commentId: M:Global.AWS3.Update
+  id: Update
+  parent: Global.AWS3
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: AWS3.Update()
+  fullName: AWS3.Update()
+  type: Method
+  source:
+    id: Update
+    path: ''
+    startLine: 13444
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Update()
+    content.vb: Protected Sub Update
+  overload: Global.AWS3.Update*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.AWS3.UploadImage(Texture2D,System.String,System.String)
+  commentId: M:Global.AWS3.UploadImage(Texture2D,System.String,System.String)
+  id: UploadImage(Texture2D,System.String,System.String)
+  parent: Global.AWS3
+  langs:
+  - csharp
+  - vb
+  name: UploadImage(Texture2D, String, String)
+  nameWithType: AWS3.UploadImage(Texture2D, String, String)
+  fullName: AWS3.UploadImage(Texture2D, System.String, System.String)
+  type: Method
+  source:
+    id: UploadImage
+    path: ''
+    startLine: 13454
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected IEnumerator UploadImage(Texture2D _tex, string _url, string _name)
+    parameters:
+    - id: _tex
+      type: Global.Texture2D
+    - id: _url
+      type: System.String
+    - id: _name
+      type: System.String
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Protected Function UploadImage(_tex As Texture2D, _url As String, _name As String) As IEnumerator
+  overload: Global.AWS3.UploadImage*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: Global.AWS3.UpdloadImage*
+  commentId: Overload:Global.AWS3.UpdloadImage
+  name: UpdloadImage
+  nameWithType: AWS3.UpdloadImage
+  fullName: AWS3.UpdloadImage
+- uid: Global.AWS3.DownloadImage*
+  commentId: Overload:Global.AWS3.DownloadImage
+  name: DownloadImage
+  nameWithType: AWS3.DownloadImage
+  fullName: AWS3.DownloadImage
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Global.AWS3.Update*
+  commentId: Overload:Global.AWS3.Update
+  name: Update
+  nameWithType: AWS3.Update
+  fullName: AWS3.Update
+- uid: Global.AWS3.UploadImage*
+  commentId: Overload:Global.AWS3.UploadImage
+  name: UploadImage
+  nameWithType: AWS3.UploadImage
+  fullName: AWS3.UploadImage

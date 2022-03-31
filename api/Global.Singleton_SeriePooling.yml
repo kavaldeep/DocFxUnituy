@@ -1,0 +1,1204 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Singleton_SeriePooling
+  commentId: T:Global.Singleton_SeriePooling
+  id: Singleton_SeriePooling
+  parent: Global
+  children:
+  - Global.Singleton_SeriePooling.Awake
+  - Global.Singleton_SeriePooling.CleanLocalSeries
+  - Global.Singleton_SeriePooling.ClearSeries
+  - Global.Singleton_SeriePooling.DownloadSerie(System.String,System.String)
+  - Global.Singleton_SeriePooling.loaded
+  - Global.Singleton_SeriePooling.loadFolderPath
+  - Global.Singleton_SeriePooling.LoadLocalSeries
+  - Global.Singleton_SeriePooling.Local
+  - Global.Singleton_SeriePooling.localSerieCleaned
+  - Global.Singleton_SeriePooling.localSerieLoaded
+  - Global.Singleton_SeriePooling.localSerieUpdated
+  - Global.Singleton_SeriePooling.onlineSerieLoaded
+  - Global.Singleton_SeriePooling.onSerieDownloadComplete
+  - Global.Singleton_SeriePooling.PullOnlineSeries
+  - Global.Singleton_SeriePooling.updated
+  - Global.Singleton_SeriePooling.UpdateSeries
+  langs:
+  - csharp
+  - vb
+  name: Singleton_SeriePooling
+  nameWithType: Singleton_SeriePooling
+  fullName: Singleton_SeriePooling
+  type: Class
+  source:
+    id: Singleton_SeriePooling
+    path: ''
+    startLine: 19675
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nSerie Pooling completely encapsulate the loading and downloading of series\nEach ending of step triggers an event\nThere are 4 steps in total :\n- Local Series Loaded\n- Online Series Loaded\n- Local Series Cleared\n- Local Series Updated\n"
+  example: []
+  syntax:
+    content: 'public class Singleton_SeriePooling : Singleton<Singleton_SeriePooling>'
+    content.vb: >-
+      Public Class Singleton_SeriePooling
+          Inherits Singleton(Of Singleton_SeriePooling)
+  inheritance:
+  - System.Object
+  - Global.Singleton{Singleton_SeriePooling}
+  inheritedMembers:
+  - Global.Singleton{Singleton_SeriePooling}.Instance
+  - Global.Singleton{Singleton_SeriePooling}.StartCoroutine(System.Collections.IEnumerator)
+  - Global.Singleton{Singleton_SeriePooling}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  - Global.Singleton{Singleton_SeriePooling}.Start
+  - Global.Singleton{Singleton_SeriePooling}.Update
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Singleton_SeriePooling.loadFolderPath
+  commentId: P:Global.Singleton_SeriePooling.loadFolderPath
+  id: loadFolderPath
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: loadFolderPath
+  nameWithType: Singleton_SeriePooling.loadFolderPath
+  fullName: Singleton_SeriePooling.loadFolderPath
+  type: Property
+  source:
+    id: loadFolderPath
+    path: ''
+    startLine: 19677
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string loadFolderPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property loadFolderPath As String
+  overload: Global.Singleton_SeriePooling.loadFolderPath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Singleton_SeriePooling.localSerieLoaded
+  commentId: E:Global.Singleton_SeriePooling.localSerieLoaded
+  id: localSerieLoaded
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: localSerieLoaded
+  nameWithType: Singleton_SeriePooling.localSerieLoaded
+  fullName: Singleton_SeriePooling.localSerieLoaded
+  type: Event
+  source:
+    id: localSerieLoaded
+    path: ''
+    startLine: 19682
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public event OnSerieLoadingComplete localSerieLoaded
+    return:
+      type: Global.OnSerieLoadingComplete
+    content.vb: Public Event localSerieLoaded As OnSerieLoadingComplete
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_SeriePooling.onlineSerieLoaded
+  commentId: E:Global.Singleton_SeriePooling.onlineSerieLoaded
+  id: onlineSerieLoaded
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: onlineSerieLoaded
+  nameWithType: Singleton_SeriePooling.onlineSerieLoaded
+  fullName: Singleton_SeriePooling.onlineSerieLoaded
+  type: Event
+  source:
+    id: onlineSerieLoaded
+    path: ''
+    startLine: 19683
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public event OnSerieLoadingComplete onlineSerieLoaded
+    return:
+      type: Global.OnSerieLoadingComplete
+    content.vb: Public Event onlineSerieLoaded As OnSerieLoadingComplete
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_SeriePooling.localSerieCleaned
+  commentId: E:Global.Singleton_SeriePooling.localSerieCleaned
+  id: localSerieCleaned
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: localSerieCleaned
+  nameWithType: Singleton_SeriePooling.localSerieCleaned
+  fullName: Singleton_SeriePooling.localSerieCleaned
+  type: Event
+  source:
+    id: localSerieCleaned
+    path: ''
+    startLine: 19684
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public event OnSerieLoadingComplete localSerieCleaned
+    return:
+      type: Global.OnSerieLoadingComplete
+    content.vb: Public Event localSerieCleaned As OnSerieLoadingComplete
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_SeriePooling.localSerieUpdated
+  commentId: E:Global.Singleton_SeriePooling.localSerieUpdated
+  id: localSerieUpdated
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: localSerieUpdated
+  nameWithType: Singleton_SeriePooling.localSerieUpdated
+  fullName: Singleton_SeriePooling.localSerieUpdated
+  type: Event
+  source:
+    id: localSerieUpdated
+    path: ''
+    startLine: 19685
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public event OnSerieLoadingComplete localSerieUpdated
+    return:
+      type: Global.OnSerieLoadingComplete
+    content.vb: Public Event localSerieUpdated As OnSerieLoadingComplete
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_SeriePooling.onSerieDownloadComplete
+  commentId: E:Global.Singleton_SeriePooling.onSerieDownloadComplete
+  id: onSerieDownloadComplete
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: onSerieDownloadComplete
+  nameWithType: Singleton_SeriePooling.onSerieDownloadComplete
+  fullName: Singleton_SeriePooling.onSerieDownloadComplete
+  type: Event
+  source:
+    id: onSerieDownloadComplete
+    path: ''
+    startLine: 19687
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public event OnFileDownloadingComplete onSerieDownloadComplete
+    return:
+      type: Global.OnFileDownloadingComplete
+    content.vb: Public Event onSerieDownloadComplete As OnFileDownloadingComplete
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_SeriePooling.Local
+  commentId: P:Global.Singleton_SeriePooling.Local
+  id: Local
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: Local
+  nameWithType: Singleton_SeriePooling.Local
+  fullName: Singleton_SeriePooling.Local
+  type: Property
+  source:
+    id: Local
+    path: ''
+    startLine: 19698
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<string> Local { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public ReadOnly Property Local As List(Of String)
+  overload: Global.Singleton_SeriePooling.Local*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.Singleton_SeriePooling.loaded
+  commentId: P:Global.Singleton_SeriePooling.loaded
+  id: loaded
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: loaded
+  nameWithType: Singleton_SeriePooling.loaded
+  fullName: Singleton_SeriePooling.loaded
+  type: Property
+  source:
+    id: loaded
+    path: ''
+    startLine: 19701
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool loaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property loaded As Boolean
+  overload: Global.Singleton_SeriePooling.loaded*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.Singleton_SeriePooling.updated
+  commentId: P:Global.Singleton_SeriePooling.updated
+  id: updated
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: updated
+  nameWithType: Singleton_SeriePooling.updated
+  fullName: Singleton_SeriePooling.updated
+  type: Property
+  source:
+    id: updated
+    path: ''
+    startLine: 19702
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool updated { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property updated As Boolean
+  overload: Global.Singleton_SeriePooling.updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.Singleton_SeriePooling.Awake
+  commentId: M:Global.Singleton_SeriePooling.Awake
+  id: Awake
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Singleton_SeriePooling.Awake()
+  fullName: Singleton_SeriePooling.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 19711
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overridden: Global.Singleton{Singleton_SeriePooling}.Awake
+  overload: Global.Singleton_SeriePooling.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Global.Singleton_SeriePooling.LoadLocalSeries
+  commentId: M:Global.Singleton_SeriePooling.LoadLocalSeries
+  id: LoadLocalSeries
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: LoadLocalSeries()
+  nameWithType: Singleton_SeriePooling.LoadLocalSeries()
+  fullName: Singleton_SeriePooling.LoadLocalSeries()
+  type: Method
+  source:
+    id: LoadLocalSeries
+    path: ''
+    startLine: 19745
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nLoad all local series, simple\n"
+  example: []
+  syntax:
+    content: public void LoadLocalSeries()
+    content.vb: Public Sub LoadLocalSeries
+  overload: Global.Singleton_SeriePooling.LoadLocalSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_SeriePooling.PullOnlineSeries
+  commentId: M:Global.Singleton_SeriePooling.PullOnlineSeries
+  id: PullOnlineSeries
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: PullOnlineSeries()
+  nameWithType: Singleton_SeriePooling.PullOnlineSeries()
+  fullName: Singleton_SeriePooling.PullOnlineSeries()
+  type: Method
+  source:
+    id: PullOnlineSeries
+    path: ''
+    startLine: 19771
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PullOnlineSeries()
+    content.vb: Public Sub PullOnlineSeries
+  overload: Global.Singleton_SeriePooling.PullOnlineSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_SeriePooling.CleanLocalSeries
+  commentId: M:Global.Singleton_SeriePooling.CleanLocalSeries
+  id: CleanLocalSeries
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: CleanLocalSeries()
+  nameWithType: Singleton_SeriePooling.CleanLocalSeries()
+  fullName: Singleton_SeriePooling.CleanLocalSeries()
+  type: Method
+  source:
+    id: CleanLocalSeries
+    path: ''
+    startLine: 19818
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void CleanLocalSeries()
+    content.vb: Public Sub CleanLocalSeries
+  overload: Global.Singleton_SeriePooling.CleanLocalSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_SeriePooling.UpdateSeries
+  commentId: M:Global.Singleton_SeriePooling.UpdateSeries
+  id: UpdateSeries
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: UpdateSeries()
+  nameWithType: Singleton_SeriePooling.UpdateSeries()
+  fullName: Singleton_SeriePooling.UpdateSeries()
+  type: Method
+  source:
+    id: UpdateSeries
+    path: ''
+    startLine: 19841
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UpdateSeries()
+    content.vb: Public Sub UpdateSeries
+  overload: Global.Singleton_SeriePooling.UpdateSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_SeriePooling.DownloadSerie(System.String,System.String)
+  commentId: M:Global.Singleton_SeriePooling.DownloadSerie(System.String,System.String)
+  id: DownloadSerie(System.String,System.String)
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: DownloadSerie(String, String)
+  nameWithType: Singleton_SeriePooling.DownloadSerie(String, String)
+  fullName: Singleton_SeriePooling.DownloadSerie(System.String, System.String)
+  type: Method
+  source:
+    id: DownloadSerie
+    path: ''
+    startLine: 19878
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nDelete old folder and replace it with new one\nAlse launch downloads and store downloaded files\n"
+  example: []
+  syntax:
+    content: public void DownloadSerie(string _name, string _url)
+    parameters:
+    - id: _name
+      type: System.String
+      description: The name of the serie
+    - id: _url
+      type: System.String
+      description: The URL of the serie folder
+    content.vb: Public Sub DownloadSerie(_name As String, _url As String)
+  overload: Global.Singleton_SeriePooling.DownloadSerie*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_SeriePooling.ClearSeries
+  commentId: M:Global.Singleton_SeriePooling.ClearSeries
+  id: ClearSeries
+  parent: Global.Singleton_SeriePooling
+  langs:
+  - csharp
+  - vb
+  name: ClearSeries()
+  nameWithType: Singleton_SeriePooling.ClearSeries()
+  fullName: Singleton_SeriePooling.ClearSeries()
+  type: Method
+  source:
+    id: ClearSeries
+    path: ''
+    startLine: 19916
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThis is just a proxy for ease of use\n"
+  example: []
+  syntax:
+    content: public void ClearSeries()
+    content.vb: Public Sub ClearSeries
+  overload: Global.Singleton_SeriePooling.ClearSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.Singleton{Singleton_SeriePooling}
+  commentId: T:Global.Singleton{Singleton_SeriePooling}
+  definition: Global.Singleton`1
+  name: Singleton<Singleton_SeriePooling>
+  nameWithType: Singleton<Singleton_SeriePooling>
+  fullName: Singleton<Singleton_SeriePooling>
+  nameWithType.vb: Singleton(Of Singleton_SeriePooling)
+  fullName.vb: Singleton(Of Singleton_SeriePooling)
+  name.vb: Singleton(Of Singleton_SeriePooling)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Singleton_SeriePooling
+    name: Singleton_SeriePooling
+    nameWithType: Singleton_SeriePooling
+    fullName: Singleton_SeriePooling
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Singleton_SeriePooling
+    name: Singleton_SeriePooling
+    nameWithType: Singleton_SeriePooling
+    fullName: Singleton_SeriePooling
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_SeriePooling}.Instance
+  commentId: P:Global.Singleton{Singleton_SeriePooling}.Instance
+  parent: Global.Singleton{Singleton_SeriePooling}
+  definition: Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<Singleton_SeriePooling>.Instance
+  fullName: Singleton<Singleton_SeriePooling>.Instance
+  nameWithType.vb: Singleton(Of Singleton_SeriePooling).Instance
+  fullName.vb: Singleton(Of Singleton_SeriePooling).Instance
+- uid: Global.Singleton{Singleton_SeriePooling}.StartCoroutine(System.Collections.IEnumerator)
+  commentId: M:Global.Singleton{Singleton_SeriePooling}.StartCoroutine(System.Collections.IEnumerator)
+  parent: Global.Singleton{Singleton_SeriePooling}
+  definition: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  name: StartCoroutine(IEnumerator)
+  nameWithType: Singleton<Singleton_SeriePooling>.StartCoroutine(IEnumerator)
+  fullName: Singleton<Singleton_SeriePooling>.StartCoroutine(System.Collections.IEnumerator)
+  nameWithType.vb: Singleton(Of Singleton_SeriePooling).StartCoroutine(IEnumerator)
+  fullName.vb: Singleton(Of Singleton_SeriePooling).StartCoroutine(System.Collections.IEnumerator)
+  spec.csharp:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton<Singleton_SeriePooling>.StartCoroutine
+    fullName: Singleton<Singleton_SeriePooling>.StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton(Of Singleton_SeriePooling).StartCoroutine
+    fullName: Singleton(Of Singleton_SeriePooling).StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_SeriePooling}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Global.Singleton{Singleton_SeriePooling}.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  parent: Global.Singleton{Singleton_SeriePooling}
+  definition: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  name: AddCallbacks(Boolean, Boolean, Boolean)
+  nameWithType: Singleton<Singleton_SeriePooling>.AddCallbacks(Boolean, Boolean, Boolean)
+  fullName: Singleton<Singleton_SeriePooling>.AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Singleton(Of Singleton_SeriePooling).AddCallbacks(Boolean, Boolean, Boolean)
+  fullName.vb: Singleton(Of Singleton_SeriePooling).AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton<Singleton_SeriePooling>.AddCallbacks
+    fullName: Singleton<Singleton_SeriePooling>.AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton(Of Singleton_SeriePooling).AddCallbacks
+    fullName: Singleton(Of Singleton_SeriePooling).AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_SeriePooling}.Start
+  commentId: M:Global.Singleton{Singleton_SeriePooling}.Start
+  parent: Global.Singleton{Singleton_SeriePooling}
+  definition: Global.Singleton`1.Start
+  name: Start()
+  nameWithType: Singleton<Singleton_SeriePooling>.Start()
+  fullName: Singleton<Singleton_SeriePooling>.Start()
+  nameWithType.vb: Singleton(Of Singleton_SeriePooling).Start()
+  fullName.vb: Singleton(Of Singleton_SeriePooling).Start()
+  spec.csharp:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton<Singleton_SeriePooling>.Start
+    fullName: Singleton<Singleton_SeriePooling>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton(Of Singleton_SeriePooling).Start
+    fullName: Singleton(Of Singleton_SeriePooling).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{Singleton_SeriePooling}.Update
+  commentId: M:Global.Singleton{Singleton_SeriePooling}.Update
+  parent: Global.Singleton{Singleton_SeriePooling}
+  definition: Global.Singleton`1.Update
+  name: Update()
+  nameWithType: Singleton<Singleton_SeriePooling>.Update()
+  fullName: Singleton<Singleton_SeriePooling>.Update()
+  nameWithType.vb: Singleton(Of Singleton_SeriePooling).Update()
+  fullName.vb: Singleton(Of Singleton_SeriePooling).Update()
+  spec.csharp:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton<Singleton_SeriePooling>.Update
+    fullName: Singleton<Singleton_SeriePooling>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton(Of Singleton_SeriePooling).Update
+    fullName: Singleton(Of Singleton_SeriePooling).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Singleton`1
+  commentId: T:Global.Singleton`1
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: Singleton(Of T)
+  name.vb: Singleton(Of T)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Instance
+  commentId: P:Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<T>.Instance
+  fullName: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+  fullName.vb: Singleton(Of T).Instance
+- uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  commentId: M:Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+  isExternal: true
+  name: StartCoroutine(IEnumerator)
+  nameWithType: Singleton<T>.StartCoroutine(IEnumerator)
+  fullName: Singleton<T>.StartCoroutine(System.Collections.IEnumerator)
+  nameWithType.vb: Singleton(Of T).StartCoroutine(IEnumerator)
+  fullName.vb: Singleton(Of T).StartCoroutine(System.Collections.IEnumerator)
+  spec.csharp:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton<T>.StartCoroutine
+    fullName: Singleton<T>.StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.StartCoroutine(System.Collections.IEnumerator)
+    name: StartCoroutine
+    nameWithType: Singleton(Of T).StartCoroutine
+    fullName: Singleton(Of T).StartCoroutine
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerator
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.IEnumerator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+  isExternal: true
+  name: AddCallbacks(Boolean, Boolean, Boolean)
+  nameWithType: Singleton<T>.AddCallbacks(Boolean, Boolean, Boolean)
+  fullName: Singleton<T>.AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType.vb: Singleton(Of T).AddCallbacks(Boolean, Boolean, Boolean)
+  fullName.vb: Singleton(Of T).AddCallbacks(System.Boolean, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton<T>.AddCallbacks
+    fullName: Singleton<T>.AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.AddCallbacks(System.Boolean,System.Boolean,System.Boolean)
+    name: AddCallbacks
+    nameWithType: Singleton(Of T).AddCallbacks
+    fullName: Singleton(Of T).AddCallbacks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Start
+  commentId: M:Global.Singleton`1.Start
+  name: Start()
+  nameWithType: Singleton<T>.Start()
+  fullName: Singleton<T>.Start()
+  nameWithType.vb: Singleton(Of T).Start()
+  fullName.vb: Singleton(Of T).Start()
+  spec.csharp:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton<T>.Start
+    fullName: Singleton<T>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Start
+    name: Start
+    nameWithType: Singleton(Of T).Start
+    fullName: Singleton(Of T).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Update
+  commentId: M:Global.Singleton`1.Update
+  name: Update()
+  nameWithType: Singleton<T>.Update()
+  fullName: Singleton<T>.Update()
+  nameWithType.vb: Singleton(Of T).Update()
+  fullName.vb: Singleton(Of T).Update()
+  spec.csharp:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton<T>.Update
+    fullName: Singleton<T>.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Update
+    name: Update
+    nameWithType: Singleton(Of T).Update
+    fullName: Singleton(Of T).Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_SeriePooling.loadFolderPath*
+  commentId: Overload:Global.Singleton_SeriePooling.loadFolderPath
+  name: loadFolderPath
+  nameWithType: Singleton_SeriePooling.loadFolderPath
+  fullName: Singleton_SeriePooling.loadFolderPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.OnSerieLoadingComplete
+  commentId: T:Global.OnSerieLoadingComplete
+  name: OnSerieLoadingComplete
+  nameWithType: OnSerieLoadingComplete
+  fullName: OnSerieLoadingComplete
+- uid: Global.OnFileDownloadingComplete
+  commentId: T:Global.OnFileDownloadingComplete
+  name: OnFileDownloadingComplete
+  nameWithType: OnFileDownloadingComplete
+  fullName: OnFileDownloadingComplete
+- uid: Global.Singleton_SeriePooling.Local*
+  commentId: Overload:Global.Singleton_SeriePooling.Local
+  name: Local
+  nameWithType: Singleton_SeriePooling.Local
+  fullName: Singleton_SeriePooling.Local
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Singleton_SeriePooling.loaded*
+  commentId: Overload:Global.Singleton_SeriePooling.loaded
+  name: loaded
+  nameWithType: Singleton_SeriePooling.loaded
+  fullName: Singleton_SeriePooling.loaded
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Singleton_SeriePooling.updated*
+  commentId: Overload:Global.Singleton_SeriePooling.updated
+  name: updated
+  nameWithType: Singleton_SeriePooling.updated
+  fullName: Singleton_SeriePooling.updated
+- uid: Global.Singleton{Singleton_SeriePooling}.Awake
+  commentId: M:Global.Singleton{Singleton_SeriePooling}.Awake
+  parent: Global.Singleton{Singleton_SeriePooling}
+  definition: Global.Singleton`1.Awake
+  name: Awake()
+  nameWithType: Singleton<Singleton_SeriePooling>.Awake()
+  fullName: Singleton<Singleton_SeriePooling>.Awake()
+  nameWithType.vb: Singleton(Of Singleton_SeriePooling).Awake()
+  fullName.vb: Singleton(Of Singleton_SeriePooling).Awake()
+  spec.csharp:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton<Singleton_SeriePooling>.Awake
+    fullName: Singleton<Singleton_SeriePooling>.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton(Of Singleton_SeriePooling).Awake
+    fullName: Singleton(Of Singleton_SeriePooling).Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_SeriePooling.Awake*
+  commentId: Overload:Global.Singleton_SeriePooling.Awake
+  name: Awake
+  nameWithType: Singleton_SeriePooling.Awake
+  fullName: Singleton_SeriePooling.Awake
+- uid: Global.Singleton`1.Awake
+  commentId: M:Global.Singleton`1.Awake
+  name: Awake()
+  nameWithType: Singleton<T>.Awake()
+  fullName: Singleton<T>.Awake()
+  nameWithType.vb: Singleton(Of T).Awake()
+  fullName.vb: Singleton(Of T).Awake()
+  spec.csharp:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton<T>.Awake
+    fullName: Singleton<T>.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Singleton`1.Awake
+    name: Awake
+    nameWithType: Singleton(Of T).Awake
+    fullName: Singleton(Of T).Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton_SeriePooling.LoadLocalSeries*
+  commentId: Overload:Global.Singleton_SeriePooling.LoadLocalSeries
+  name: LoadLocalSeries
+  nameWithType: Singleton_SeriePooling.LoadLocalSeries
+  fullName: Singleton_SeriePooling.LoadLocalSeries
+- uid: Global.Singleton_SeriePooling.PullOnlineSeries*
+  commentId: Overload:Global.Singleton_SeriePooling.PullOnlineSeries
+  name: PullOnlineSeries
+  nameWithType: Singleton_SeriePooling.PullOnlineSeries
+  fullName: Singleton_SeriePooling.PullOnlineSeries
+- uid: Global.Singleton_SeriePooling.CleanLocalSeries*
+  commentId: Overload:Global.Singleton_SeriePooling.CleanLocalSeries
+  name: CleanLocalSeries
+  nameWithType: Singleton_SeriePooling.CleanLocalSeries
+  fullName: Singleton_SeriePooling.CleanLocalSeries
+- uid: Global.Singleton_SeriePooling.UpdateSeries*
+  commentId: Overload:Global.Singleton_SeriePooling.UpdateSeries
+  name: UpdateSeries
+  nameWithType: Singleton_SeriePooling.UpdateSeries
+  fullName: Singleton_SeriePooling.UpdateSeries
+- uid: Global.Singleton_SeriePooling.DownloadSerie*
+  commentId: Overload:Global.Singleton_SeriePooling.DownloadSerie
+  name: DownloadSerie
+  nameWithType: Singleton_SeriePooling.DownloadSerie
+  fullName: Singleton_SeriePooling.DownloadSerie
+- uid: Global.Singleton_SeriePooling.ClearSeries*
+  commentId: Overload:Global.Singleton_SeriePooling.ClearSeries
+  name: ClearSeries
+  nameWithType: Singleton_SeriePooling.ClearSeries
+  fullName: Singleton_SeriePooling.ClearSeries

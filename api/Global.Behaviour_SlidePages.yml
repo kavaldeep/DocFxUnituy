@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SlidePages
+  commentId: T:Global.Behaviour_SlidePages
+  id: Behaviour_SlidePages
+  parent: Global
+  children:
+  - Global.Behaviour_SlidePages.canvasFTUE
+  - Global.Behaviour_SlidePages.doneOnboarding
+  - Global.Behaviour_SlidePages.EnterPage(RectTransform)
+  - Global.Behaviour_SlidePages.ExitPage(RectTransform)
+  - Global.Behaviour_SlidePages.GoToLoginScene
+  - Global.Behaviour_SlidePages.transitionSpeed
+  - Global.Behaviour_SlidePages.val
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SlidePages
+  nameWithType: Behaviour_SlidePages
+  fullName: Behaviour_SlidePages
+  type: Class
+  source:
+    id: Behaviour_SlidePages
+    path: ''
+    startLine: 15326
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_SlidePages : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_SlidePages
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_SlidePages.canvasFTUE
+  commentId: F:Global.Behaviour_SlidePages.canvasFTUE
+  id: canvasFTUE
+  parent: Global.Behaviour_SlidePages
+  langs:
+  - csharp
+  - vb
+  name: canvasFTUE
+  nameWithType: Behaviour_SlidePages.canvasFTUE
+  fullName: Behaviour_SlidePages.canvasFTUE
+  type: Field
+  source:
+    id: canvasFTUE
+    path: ''
+    startLine: 15328
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RectTransform canvasFTUE
+    return:
+      type: Global.RectTransform
+    content.vb: Public canvasFTUE As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SlidePages.transitionSpeed
+  commentId: F:Global.Behaviour_SlidePages.transitionSpeed
+  id: transitionSpeed
+  parent: Global.Behaviour_SlidePages
+  langs:
+  - csharp
+  - vb
+  name: transitionSpeed
+  nameWithType: Behaviour_SlidePages.transitionSpeed
+  fullName: Behaviour_SlidePages.transitionSpeed
+  type: Field
+  source:
+    id: transitionSpeed
+    path: ''
+    startLine: 15329
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float transitionSpeed
+    return:
+      type: System.Single
+    content.vb: Public transitionSpeed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SlidePages.doneOnboarding
+  commentId: F:Global.Behaviour_SlidePages.doneOnboarding
+  id: doneOnboarding
+  parent: Global.Behaviour_SlidePages
+  langs:
+  - csharp
+  - vb
+  name: doneOnboarding
+  nameWithType: Behaviour_SlidePages.doneOnboarding
+  fullName: Behaviour_SlidePages.doneOnboarding
+  type: Field
+  source:
+    id: doneOnboarding
+    path: ''
+    startLine: 15330
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool doneOnboarding
+    return:
+      type: System.Boolean
+    content.vb: Public doneOnboarding As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SlidePages.val
+  commentId: F:Global.Behaviour_SlidePages.val
+  id: val
+  parent: Global.Behaviour_SlidePages
+  langs:
+  - csharp
+  - vb
+  name: val
+  nameWithType: Behaviour_SlidePages.val
+  fullName: Behaviour_SlidePages.val
+  type: Field
+  source:
+    id: val
+    path: ''
+    startLine: 15331
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int val
+    return:
+      type: System.Int32
+    content.vb: Public val As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SlidePages.ExitPage(RectTransform)
+  commentId: M:Global.Behaviour_SlidePages.ExitPage(RectTransform)
+  id: ExitPage(RectTransform)
+  parent: Global.Behaviour_SlidePages
+  langs:
+  - csharp
+  - vb
+  name: ExitPage(RectTransform)
+  nameWithType: Behaviour_SlidePages.ExitPage(RectTransform)
+  fullName: Behaviour_SlidePages.ExitPage(RectTransform)
+  type: Method
+  source:
+    id: ExitPage
+    path: ''
+    startLine: 15333
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ExitPage(RectTransform pageToExit)
+    parameters:
+    - id: pageToExit
+      type: Global.RectTransform
+    content.vb: Public Sub ExitPage(pageToExit As RectTransform)
+  overload: Global.Behaviour_SlidePages.ExitPage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SlidePages.EnterPage(RectTransform)
+  commentId: M:Global.Behaviour_SlidePages.EnterPage(RectTransform)
+  id: EnterPage(RectTransform)
+  parent: Global.Behaviour_SlidePages
+  langs:
+  - csharp
+  - vb
+  name: EnterPage(RectTransform)
+  nameWithType: Behaviour_SlidePages.EnterPage(RectTransform)
+  fullName: Behaviour_SlidePages.EnterPage(RectTransform)
+  type: Method
+  source:
+    id: EnterPage
+    path: ''
+    startLine: 15340
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void EnterPage(RectTransform pageToEnter)
+    parameters:
+    - id: pageToEnter
+      type: Global.RectTransform
+    content.vb: Public Sub EnterPage(pageToEnter As RectTransform)
+  overload: Global.Behaviour_SlidePages.EnterPage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SlidePages.GoToLoginScene
+  commentId: M:Global.Behaviour_SlidePages.GoToLoginScene
+  id: GoToLoginScene
+  parent: Global.Behaviour_SlidePages
+  langs:
+  - csharp
+  - vb
+  name: GoToLoginScene()
+  nameWithType: Behaviour_SlidePages.GoToLoginScene()
+  fullName: Behaviour_SlidePages.GoToLoginScene()
+  type: Method
+  source:
+    id: GoToLoginScene
+    path: ''
+    startLine: 15345
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GoToLoginScene()
+    content.vb: Public Sub GoToLoginScene
+  overload: Global.Behaviour_SlidePages.GoToLoginScene*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_SlidePages.ExitPage*
+  commentId: Overload:Global.Behaviour_SlidePages.ExitPage
+  name: ExitPage
+  nameWithType: Behaviour_SlidePages.ExitPage
+  fullName: Behaviour_SlidePages.ExitPage
+- uid: Global.Behaviour_SlidePages.EnterPage*
+  commentId: Overload:Global.Behaviour_SlidePages.EnterPage
+  name: EnterPage
+  nameWithType: Behaviour_SlidePages.EnterPage
+  fullName: Behaviour_SlidePages.EnterPage
+- uid: Global.Behaviour_SlidePages.GoToLoginScene*
+  commentId: Overload:Global.Behaviour_SlidePages.GoToLoginScene
+  name: GoToLoginScene
+  nameWithType: Behaviour_SlidePages.GoToLoginScene
+  fullName: Behaviour_SlidePages.GoToLoginScene

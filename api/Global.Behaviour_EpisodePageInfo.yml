@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_EpisodePageInfo
+  commentId: T:Global.Behaviour_EpisodePageInfo
+  id: Behaviour_EpisodePageInfo
+  parent: Global
+  children:
+  - Global.Behaviour_EpisodePageInfo.DisplayEpisodeInfos
+  - Global.Behaviour_EpisodePageInfo.episode
+  - Global.Behaviour_EpisodePageInfo.season
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_EpisodePageInfo
+  nameWithType: Behaviour_EpisodePageInfo
+  fullName: Behaviour_EpisodePageInfo
+  type: Class
+  source:
+    id: Behaviour_EpisodePageInfo
+    path: ''
+    startLine: 22263
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_EpisodePageInfo : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_EpisodePageInfo
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_EpisodePageInfo.season
+  commentId: F:Global.Behaviour_EpisodePageInfo.season
+  id: season
+  parent: Global.Behaviour_EpisodePageInfo
+  langs:
+  - csharp
+  - vb
+  name: season
+  nameWithType: Behaviour_EpisodePageInfo.season
+  fullName: Behaviour_EpisodePageInfo.season
+  type: Field
+  source:
+    id: season
+    path: ''
+    startLine: 22268
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int season
+    return:
+      type: System.Int32
+    content.vb: Public season As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodePageInfo.episode
+  commentId: F:Global.Behaviour_EpisodePageInfo.episode
+  id: episode
+  parent: Global.Behaviour_EpisodePageInfo
+  langs:
+  - csharp
+  - vb
+  name: episode
+  nameWithType: Behaviour_EpisodePageInfo.episode
+  fullName: Behaviour_EpisodePageInfo.episode
+  type: Field
+  source:
+    id: episode
+    path: ''
+    startLine: 22269
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int episode
+    return:
+      type: System.Int32
+    content.vb: Public episode As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodePageInfo.DisplayEpisodeInfos
+  commentId: M:Global.Behaviour_EpisodePageInfo.DisplayEpisodeInfos
+  id: DisplayEpisodeInfos
+  parent: Global.Behaviour_EpisodePageInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayEpisodeInfos()
+  nameWithType: Behaviour_EpisodePageInfo.DisplayEpisodeInfos()
+  fullName: Behaviour_EpisodePageInfo.DisplayEpisodeInfos()
+  type: Method
+  source:
+    id: DisplayEpisodeInfos
+    path: ''
+    startLine: 22271
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DisplayEpisodeInfos()
+    content.vb: Public Sub DisplayEpisodeInfos
+  overload: Global.Behaviour_EpisodePageInfo.DisplayEpisodeInfos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_EpisodePageInfo.DisplayEpisodeInfos*
+  commentId: Overload:Global.Behaviour_EpisodePageInfo.DisplayEpisodeInfos
+  name: DisplayEpisodeInfos
+  nameWithType: Behaviour_EpisodePageInfo.DisplayEpisodeInfos
+  fullName: Behaviour_EpisodePageInfo.DisplayEpisodeInfos

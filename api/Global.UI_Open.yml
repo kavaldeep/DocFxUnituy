@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UI_Open
+  commentId: T:Global.UI_Open
+  id: UI_Open
+  parent: Global
+  children:
+  - Global.UI_Open.Open
+  langs:
+  - csharp
+  - vb
+  name: UI_Open
+  nameWithType: UI_Open
+  fullName: UI_Open
+  type: Class
+  source:
+    id: UI_Open
+    path: ''
+    startLine: 27648
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UI_Open : MonoBehaviour'
+    content.vb: >-
+      Public Class UI_Open
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UI_Open.Open
+  commentId: M:Global.UI_Open.Open
+  id: Open
+  parent: Global.UI_Open
+  langs:
+  - csharp
+  - vb
+  name: Open()
+  nameWithType: UI_Open.Open()
+  fullName: UI_Open.Open()
+  type: Method
+  source:
+    id: Open
+    path: ''
+    startLine: 27652
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Open()
+    content.vb: Public Sub Open
+  overload: Global.UI_Open.Open*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UI_Open.Open*
+  commentId: Overload:Global.UI_Open.Open
+  name: Open
+  nameWithType: UI_Open.Open
+  fullName: UI_Open.Open

@@ -1,0 +1,348 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_FlexibleGridLayout
+  commentId: T:Global.Behaviour_FlexibleGridLayout
+  id: Behaviour_FlexibleGridLayout
+  parent: Global
+  children:
+  - Global.Behaviour_FlexibleGridLayout.CalculateLayoutInputHorizontal
+  - Global.Behaviour_FlexibleGridLayout.CalculateLayoutInputVertical
+  - Global.Behaviour_FlexibleGridLayout.cellSize
+  - Global.Behaviour_FlexibleGridLayout.columns
+  - Global.Behaviour_FlexibleGridLayout.fitType
+  - Global.Behaviour_FlexibleGridLayout.rows
+  - Global.Behaviour_FlexibleGridLayout.SetLayoutHorizontal
+  - Global.Behaviour_FlexibleGridLayout.SetLayoutVertical
+  - Global.Behaviour_FlexibleGridLayout.spacing
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_FlexibleGridLayout
+  nameWithType: Behaviour_FlexibleGridLayout
+  fullName: Behaviour_FlexibleGridLayout
+  type: Class
+  source:
+    id: Behaviour_FlexibleGridLayout
+    path: ''
+    startLine: 13011
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_FlexibleGridLayout : LayoutGroup'
+    content.vb: >-
+      Public Class Behaviour_FlexibleGridLayout
+          Inherits LayoutGroup
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_FlexibleGridLayout.fitType
+  commentId: F:Global.Behaviour_FlexibleGridLayout.fitType
+  id: fitType
+  parent: Global.Behaviour_FlexibleGridLayout
+  langs:
+  - csharp
+  - vb
+  name: fitType
+  nameWithType: Behaviour_FlexibleGridLayout.fitType
+  fullName: Behaviour_FlexibleGridLayout.fitType
+  type: Field
+  source:
+    id: fitType
+    path: ''
+    startLine: 13022
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_FlexibleGridLayout.FitType fitType
+    return:
+      type: Global.Behaviour_FlexibleGridLayout.FitType
+    content.vb: Public fitType As Behaviour_FlexibleGridLayout.FitType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_FlexibleGridLayout.rows
+  commentId: F:Global.Behaviour_FlexibleGridLayout.rows
+  id: rows
+  parent: Global.Behaviour_FlexibleGridLayout
+  langs:
+  - csharp
+  - vb
+  name: rows
+  nameWithType: Behaviour_FlexibleGridLayout.rows
+  fullName: Behaviour_FlexibleGridLayout.rows
+  type: Field
+  source:
+    id: rows
+    path: ''
+    startLine: 13024
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int rows
+    return:
+      type: System.Int32
+    content.vb: Public rows As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_FlexibleGridLayout.columns
+  commentId: F:Global.Behaviour_FlexibleGridLayout.columns
+  id: columns
+  parent: Global.Behaviour_FlexibleGridLayout
+  langs:
+  - csharp
+  - vb
+  name: columns
+  nameWithType: Behaviour_FlexibleGridLayout.columns
+  fullName: Behaviour_FlexibleGridLayout.columns
+  type: Field
+  source:
+    id: columns
+    path: ''
+    startLine: 13025
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int columns
+    return:
+      type: System.Int32
+    content.vb: Public columns As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_FlexibleGridLayout.cellSize
+  commentId: F:Global.Behaviour_FlexibleGridLayout.cellSize
+  id: cellSize
+  parent: Global.Behaviour_FlexibleGridLayout
+  langs:
+  - csharp
+  - vb
+  name: cellSize
+  nameWithType: Behaviour_FlexibleGridLayout.cellSize
+  fullName: Behaviour_FlexibleGridLayout.cellSize
+  type: Field
+  source:
+    id: cellSize
+    path: ''
+    startLine: 13026
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector2 cellSize
+    return:
+      type: Global.Vector2
+    content.vb: Public cellSize As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_FlexibleGridLayout.spacing
+  commentId: F:Global.Behaviour_FlexibleGridLayout.spacing
+  id: spacing
+  parent: Global.Behaviour_FlexibleGridLayout
+  langs:
+  - csharp
+  - vb
+  name: spacing
+  nameWithType: Behaviour_FlexibleGridLayout.spacing
+  fullName: Behaviour_FlexibleGridLayout.spacing
+  type: Field
+  source:
+    id: spacing
+    path: ''
+    startLine: 13027
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector2 spacing
+    return:
+      type: Global.Vector2
+    content.vb: Public spacing As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_FlexibleGridLayout.CalculateLayoutInputHorizontal
+  commentId: M:Global.Behaviour_FlexibleGridLayout.CalculateLayoutInputHorizontal
+  id: CalculateLayoutInputHorizontal
+  parent: Global.Behaviour_FlexibleGridLayout
+  langs:
+  - csharp
+  - vb
+  name: CalculateLayoutInputHorizontal()
+  nameWithType: Behaviour_FlexibleGridLayout.CalculateLayoutInputHorizontal()
+  fullName: Behaviour_FlexibleGridLayout.CalculateLayoutInputHorizontal()
+  type: Method
+  source:
+    id: CalculateLayoutInputHorizontal
+    path: ''
+    startLine: 13032
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void CalculateLayoutInputHorizontal()
+    content.vb: Public Overrides Sub CalculateLayoutInputHorizontal
+  overload: Global.Behaviour_FlexibleGridLayout.CalculateLayoutInputHorizontal*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.Behaviour_FlexibleGridLayout.CalculateLayoutInputVertical
+  commentId: M:Global.Behaviour_FlexibleGridLayout.CalculateLayoutInputVertical
+  id: CalculateLayoutInputVertical
+  parent: Global.Behaviour_FlexibleGridLayout
+  langs:
+  - csharp
+  - vb
+  name: CalculateLayoutInputVertical()
+  nameWithType: Behaviour_FlexibleGridLayout.CalculateLayoutInputVertical()
+  fullName: Behaviour_FlexibleGridLayout.CalculateLayoutInputVertical()
+  type: Method
+  source:
+    id: CalculateLayoutInputVertical
+    path: ''
+    startLine: 13088
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void CalculateLayoutInputVertical()
+    content.vb: Public Overrides Sub CalculateLayoutInputVertical
+  overload: Global.Behaviour_FlexibleGridLayout.CalculateLayoutInputVertical*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.Behaviour_FlexibleGridLayout.SetLayoutHorizontal
+  commentId: M:Global.Behaviour_FlexibleGridLayout.SetLayoutHorizontal
+  id: SetLayoutHorizontal
+  parent: Global.Behaviour_FlexibleGridLayout
+  langs:
+  - csharp
+  - vb
+  name: SetLayoutHorizontal()
+  nameWithType: Behaviour_FlexibleGridLayout.SetLayoutHorizontal()
+  fullName: Behaviour_FlexibleGridLayout.SetLayoutHorizontal()
+  type: Method
+  source:
+    id: SetLayoutHorizontal
+    path: ''
+    startLine: 13090
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void SetLayoutHorizontal()
+    content.vb: Public Overrides Sub SetLayoutHorizontal
+  overload: Global.Behaviour_FlexibleGridLayout.SetLayoutHorizontal*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.Behaviour_FlexibleGridLayout.SetLayoutVertical
+  commentId: M:Global.Behaviour_FlexibleGridLayout.SetLayoutVertical
+  id: SetLayoutVertical
+  parent: Global.Behaviour_FlexibleGridLayout
+  langs:
+  - csharp
+  - vb
+  name: SetLayoutVertical()
+  nameWithType: Behaviour_FlexibleGridLayout.SetLayoutVertical()
+  fullName: Behaviour_FlexibleGridLayout.SetLayoutVertical()
+  type: Method
+  source:
+    id: SetLayoutVertical
+    path: ''
+    startLine: 13092
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void SetLayoutVertical()
+    content.vb: Public Overrides Sub SetLayoutVertical
+  overload: Global.Behaviour_FlexibleGridLayout.SetLayoutVertical*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_FlexibleGridLayout.FitType
+  commentId: T:Global.Behaviour_FlexibleGridLayout.FitType
+  name: Behaviour_FlexibleGridLayout.FitType
+  nameWithType: Behaviour_FlexibleGridLayout.FitType
+  fullName: Behaviour_FlexibleGridLayout.FitType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.Behaviour_FlexibleGridLayout.CalculateLayoutInputHorizontal*
+  commentId: Overload:Global.Behaviour_FlexibleGridLayout.CalculateLayoutInputHorizontal
+  name: CalculateLayoutInputHorizontal
+  nameWithType: Behaviour_FlexibleGridLayout.CalculateLayoutInputHorizontal
+  fullName: Behaviour_FlexibleGridLayout.CalculateLayoutInputHorizontal
+- uid: Global.Behaviour_FlexibleGridLayout.CalculateLayoutInputVertical*
+  commentId: Overload:Global.Behaviour_FlexibleGridLayout.CalculateLayoutInputVertical
+  name: CalculateLayoutInputVertical
+  nameWithType: Behaviour_FlexibleGridLayout.CalculateLayoutInputVertical
+  fullName: Behaviour_FlexibleGridLayout.CalculateLayoutInputVertical
+- uid: Global.Behaviour_FlexibleGridLayout.SetLayoutHorizontal*
+  commentId: Overload:Global.Behaviour_FlexibleGridLayout.SetLayoutHorizontal
+  name: SetLayoutHorizontal
+  nameWithType: Behaviour_FlexibleGridLayout.SetLayoutHorizontal
+  fullName: Behaviour_FlexibleGridLayout.SetLayoutHorizontal
+- uid: Global.Behaviour_FlexibleGridLayout.SetLayoutVertical*
+  commentId: Overload:Global.Behaviour_FlexibleGridLayout.SetLayoutVertical
+  name: SetLayoutVertical
+  nameWithType: Behaviour_FlexibleGridLayout.SetLayoutVertical
+  fullName: Behaviour_FlexibleGridLayout.SetLayoutVertical

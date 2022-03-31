@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.StaffProfil
+  commentId: T:Global.StaffProfil
+  id: StaffProfil
+  parent: Global
+  children:
+  - Global.StaffProfil.#ctor(System.String,System.String,System.String,ImageFile,System.String,System.Collections.Generic.List{Link})
+  - Global.StaffProfil.lastname
+  - Global.StaffProfil.role
+  langs:
+  - csharp
+  - vb
+  name: StaffProfil
+  nameWithType: StaffProfil
+  fullName: StaffProfil
+  type: Class
+  source:
+    id: StaffProfil
+    path: ''
+    startLine: 15957
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class StaffProfil : Profil
+    content.vb: >-
+      <Serializable>
+
+      Public Class StaffProfil
+          Inherits Profil
+  inheritance:
+  - System.Object
+  - Global.Profil
+  inheritedMembers:
+  - Global.Profil.name
+  - Global.Profil.surname
+  - Global.Profil.image
+  - Global.Profil.tribiewID
+  - Global.Profil.links
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.StaffProfil.role
+  commentId: F:Global.StaffProfil.role
+  id: role
+  parent: Global.StaffProfil
+  langs:
+  - csharp
+  - vb
+  name: role
+  nameWithType: StaffProfil.role
+  fullName: StaffProfil.role
+  type: Field
+  source:
+    id: role
+    path: ''
+    startLine: 15960
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string role
+    return:
+      type: System.String
+    content.vb: Public role As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.StaffProfil.lastname
+  commentId: F:Global.StaffProfil.lastname
+  id: lastname
+  parent: Global.StaffProfil
+  langs:
+  - csharp
+  - vb
+  name: lastname
+  nameWithType: StaffProfil.lastname
+  fullName: StaffProfil.lastname
+  type: Field
+  source:
+    id: lastname
+    path: ''
+    startLine: 15961
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string lastname
+    return:
+      type: System.String
+    content.vb: Public lastname As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.StaffProfil.#ctor(System.String,System.String,System.String,ImageFile,System.String,System.Collections.Generic.List{Link})
+  commentId: M:Global.StaffProfil.#ctor(System.String,System.String,System.String,ImageFile,System.String,System.Collections.Generic.List{Link})
+  id: '#ctor(System.String,System.String,System.String,ImageFile,System.String,System.Collections.Generic.List{Link})'
+  parent: Global.StaffProfil
+  langs:
+  - csharp
+  - vb
+  name: StaffProfil(String, String, String, ImageFile, String, List<Link>)
+  nameWithType: StaffProfil.StaffProfil(String, String, String, ImageFile, String, List<Link>)
+  fullName: StaffProfil.StaffProfil(System.String, System.String, System.String, ImageFile, System.String, System.Collections.Generic.List<Link>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15963
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public StaffProfil(string _role, string _lastname, string _name, ImageFile _image, string _tribiewID = "", List<Link> _links = null)
+    parameters:
+    - id: _role
+      type: System.String
+    - id: _lastname
+      type: System.String
+    - id: _name
+      type: System.String
+    - id: _image
+      type: Global.ImageFile
+    - id: _tribiewID
+      type: System.String
+    - id: _links
+      type: System.Collections.Generic.List{Link}
+    content.vb: Public Sub New(_role As String, _lastname As String, _name As String, _image As ImageFile, _tribiewID As String = "", _links As List(Of Link) = Nothing)
+  overload: Global.StaffProfil.#ctor*
+  nameWithType.vb: StaffProfil.StaffProfil(String, String, String, ImageFile, String, List(Of Link))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StaffProfil.StaffProfil(System.String, System.String, System.String, ImageFile, System.String, System.Collections.Generic.List(Of Link))
+  name.vb: StaffProfil(String, String, String, ImageFile, String, List(Of Link))
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.Profil
+  commentId: T:Global.Profil
+  name: Profil
+  nameWithType: Profil
+  fullName: Profil
+- uid: Global.Profil.name
+  commentId: F:Global.Profil.name
+  parent: Global.Profil
+  name: name
+  nameWithType: Profil.name
+  fullName: Profil.name
+- uid: Global.Profil.surname
+  commentId: F:Global.Profil.surname
+  parent: Global.Profil
+  name: surname
+  nameWithType: Profil.surname
+  fullName: Profil.surname
+- uid: Global.Profil.image
+  commentId: F:Global.Profil.image
+  parent: Global.Profil
+  name: image
+  nameWithType: Profil.image
+  fullName: Profil.image
+- uid: Global.Profil.tribiewID
+  commentId: F:Global.Profil.tribiewID
+  parent: Global.Profil
+  name: tribiewID
+  nameWithType: Profil.tribiewID
+  fullName: Profil.tribiewID
+- uid: Global.Profil.links
+  commentId: F:Global.Profil.links
+  parent: Global.Profil
+  name: links
+  nameWithType: Profil.links
+  fullName: Profil.links
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.StaffProfil.#ctor*
+  commentId: Overload:Global.StaffProfil.#ctor
+  name: StaffProfil
+  nameWithType: StaffProfil.StaffProfil
+  fullName: StaffProfil.StaffProfil
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+- uid: System.Collections.Generic.List{Link}
+  commentId: T:System.Collections.Generic.List{Link}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Link>
+  nameWithType: List<Link>
+  fullName: System.Collections.Generic.List<Link>
+  nameWithType.vb: List(Of Link)
+  fullName.vb: System.Collections.Generic.List(Of Link)
+  name.vb: List(Of Link)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Link
+    name: Link
+    nameWithType: Link
+    fullName: Link
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Link
+    name: Link
+    nameWithType: Link
+    fullName: Link
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

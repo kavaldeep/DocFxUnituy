@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_MiniShopFiller.ShopType
+  commentId: T:Global.Behaviour_MiniShopFiller.ShopType
+  id: Behaviour_MiniShopFiller.ShopType
+  parent: Global
+  children:
+  - Global.Behaviour_MiniShopFiller.ShopType.events
+  - Global.Behaviour_MiniShopFiller.ShopType.physicals
+  - Global.Behaviour_MiniShopFiller.ShopType.virtuals
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_MiniShopFiller.ShopType
+  nameWithType: Behaviour_MiniShopFiller.ShopType
+  fullName: Behaviour_MiniShopFiller.ShopType
+  type: Enum
+  source:
+    id: ShopType
+    path: ''
+    startLine: 23960
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum ShopType
+    content.vb: Public Enum ShopType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.Behaviour_MiniShopFiller.ShopType.virtuals
+  commentId: F:Global.Behaviour_MiniShopFiller.ShopType.virtuals
+  id: virtuals
+  parent: Global.Behaviour_MiniShopFiller.ShopType
+  langs:
+  - csharp
+  - vb
+  name: virtuals
+  nameWithType: Behaviour_MiniShopFiller.ShopType.virtuals
+  fullName: Behaviour_MiniShopFiller.ShopType.virtuals
+  type: Field
+  source:
+    id: virtuals
+    path: ''
+    startLine: 23962
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: virtuals = 0
+    return:
+      type: Global.Behaviour_MiniShopFiller.ShopType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Behaviour_MiniShopFiller.ShopType.physicals
+  commentId: F:Global.Behaviour_MiniShopFiller.ShopType.physicals
+  id: physicals
+  parent: Global.Behaviour_MiniShopFiller.ShopType
+  langs:
+  - csharp
+  - vb
+  name: physicals
+  nameWithType: Behaviour_MiniShopFiller.ShopType.physicals
+  fullName: Behaviour_MiniShopFiller.ShopType.physicals
+  type: Field
+  source:
+    id: physicals
+    path: ''
+    startLine: 23963
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: physicals = 1
+    return:
+      type: Global.Behaviour_MiniShopFiller.ShopType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Behaviour_MiniShopFiller.ShopType.events
+  commentId: F:Global.Behaviour_MiniShopFiller.ShopType.events
+  id: events
+  parent: Global.Behaviour_MiniShopFiller.ShopType
+  langs:
+  - csharp
+  - vb
+  name: events
+  nameWithType: Behaviour_MiniShopFiller.ShopType.events
+  fullName: Behaviour_MiniShopFiller.ShopType.events
+  type: Field
+  source:
+    id: events
+    path: ''
+    startLine: 23964
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: events = 2
+    return:
+      type: Global.Behaviour_MiniShopFiller.ShopType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Behaviour_MiniShopFiller.ShopType
+  commentId: T:Global.Behaviour_MiniShopFiller.ShopType
+  name: Behaviour_MiniShopFiller.ShopType
+  nameWithType: Behaviour_MiniShopFiller.ShopType
+  fullName: Behaviour_MiniShopFiller.ShopType

@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PickImage
+  commentId: T:Global.PickImage
+  id: PickImage
+  parent: Global
+  children:
+  - Global.PickImage.image
+  - Global.PickImage.Upload
+  - Global.PickImage.Upload2
+  langs:
+  - csharp
+  - vb
+  name: PickImage
+  nameWithType: PickImage
+  fullName: PickImage
+  type: Class
+  source:
+    id: PickImage
+    path: ''
+    startLine: 13497
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PickImage : MonoBehaviour'
+    content.vb: >-
+      Public Class PickImage
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PickImage.image
+  commentId: F:Global.PickImage.image
+  id: image
+  parent: Global.PickImage
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: PickImage.image
+  fullName: PickImage.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 13502
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture2D image
+    return:
+      type: Global.Texture2D
+    content.vb: Public image As Texture2D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PickImage.Upload
+  commentId: M:Global.PickImage.Upload
+  id: Upload
+  parent: Global.PickImage
+  langs:
+  - csharp
+  - vb
+  name: Upload()
+  nameWithType: PickImage.Upload()
+  fullName: PickImage.Upload()
+  type: Method
+  source:
+    id: Upload
+    path: ''
+    startLine: 13505
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Upload()
+    content.vb: Public Sub Upload
+  overload: Global.PickImage.Upload*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PickImage.Upload2
+  commentId: M:Global.PickImage.Upload2
+  id: Upload2
+  parent: Global.PickImage
+  langs:
+  - csharp
+  - vb
+  name: Upload2()
+  nameWithType: PickImage.Upload2()
+  fullName: PickImage.Upload2()
+  type: Method
+  source:
+    id: Upload2
+    path: ''
+    startLine: 13509
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Upload2()
+    content.vb: Public Sub Upload2
+  overload: Global.PickImage.Upload2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: Global.PickImage.Upload*
+  commentId: Overload:Global.PickImage.Upload
+  name: Upload
+  nameWithType: PickImage.Upload
+  fullName: PickImage.Upload
+- uid: Global.PickImage.Upload2*
+  commentId: Overload:Global.PickImage.Upload2
+  name: Upload2
+  nameWithType: PickImage.Upload2
+  fullName: PickImage.Upload2

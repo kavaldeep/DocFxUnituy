@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_TribiewConstants.ShopInfoKeys
+  commentId: T:Global.Static_TribiewConstants.ShopInfoKeys
+  id: Static_TribiewConstants.ShopInfoKeys
+  parent: Global
+  children:
+  - Global.Static_TribiewConstants.ShopInfoKeys.eventProduct
+  - Global.Static_TribiewConstants.ShopInfoKeys.physicProduct
+  - Global.Static_TribiewConstants.ShopInfoKeys.virtualProduct
+  langs:
+  - csharp
+  - vb
+  name: Static_TribiewConstants.ShopInfoKeys
+  nameWithType: Static_TribiewConstants.ShopInfoKeys
+  fullName: Static_TribiewConstants.ShopInfoKeys
+  type: Class
+  source:
+    id: ShopInfoKeys
+    path: ''
+    startLine: 16975
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class ShopInfoKeys
+    content.vb: Public Module ShopInfoKeys
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_TribiewConstants.ShopInfoKeys.eventProduct
+  commentId: F:Global.Static_TribiewConstants.ShopInfoKeys.eventProduct
+  id: eventProduct
+  parent: Global.Static_TribiewConstants.ShopInfoKeys
+  langs:
+  - csharp
+  - vb
+  name: eventProduct
+  nameWithType: Static_TribiewConstants.ShopInfoKeys.eventProduct
+  fullName: Static_TribiewConstants.ShopInfoKeys.eventProduct
+  type: Field
+  source:
+    id: eventProduct
+    path: ''
+    startLine: 16977
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string eventProduct = "event"
+    return:
+      type: System.String
+    content.vb: Public Const eventProduct As String = "event"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.ShopInfoKeys.physicProduct
+  commentId: F:Global.Static_TribiewConstants.ShopInfoKeys.physicProduct
+  id: physicProduct
+  parent: Global.Static_TribiewConstants.ShopInfoKeys
+  langs:
+  - csharp
+  - vb
+  name: physicProduct
+  nameWithType: Static_TribiewConstants.ShopInfoKeys.physicProduct
+  fullName: Static_TribiewConstants.ShopInfoKeys.physicProduct
+  type: Field
+  source:
+    id: physicProduct
+    path: ''
+    startLine: 16978
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string physicProduct = "physic"
+    return:
+      type: System.String
+    content.vb: Public Const physicProduct As String = "physic"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.ShopInfoKeys.virtualProduct
+  commentId: F:Global.Static_TribiewConstants.ShopInfoKeys.virtualProduct
+  id: virtualProduct
+  parent: Global.Static_TribiewConstants.ShopInfoKeys
+  langs:
+  - csharp
+  - vb
+  name: virtualProduct
+  nameWithType: Static_TribiewConstants.ShopInfoKeys.virtualProduct
+  fullName: Static_TribiewConstants.ShopInfoKeys.virtualProduct
+  type: Field
+  source:
+    id: virtualProduct
+    path: ''
+    startLine: 16979
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string virtualProduct = "virtual"
+    return:
+      type: System.String
+    content.vb: Public Const virtualProduct As String = "virtual"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

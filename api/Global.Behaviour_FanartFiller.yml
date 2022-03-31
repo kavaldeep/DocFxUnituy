@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_FanartFiller
+  commentId: T:Global.Behaviour_FanartFiller
+  id: Behaviour_FanartFiller
+  parent: Global
+  children:
+  - Global.Behaviour_FanartFiller.Awake
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_FanartFiller
+  nameWithType: Behaviour_FanartFiller
+  fullName: Behaviour_FanartFiller
+  type: Class
+  source:
+    id: Behaviour_FanartFiller
+    path: ''
+    startLine: 22402
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nJust place this on the same object as Serie Data and all other Fillers\n"
+  example: []
+  syntax:
+    content: 'public class Behaviour_FanartFiller : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_FanartFiller
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_FanartFiller.Awake
+  commentId: M:Global.Behaviour_FanartFiller.Awake
+  id: Awake
+  parent: Global.Behaviour_FanartFiller
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Behaviour_FanartFiller.Awake()
+  fullName: Behaviour_FanartFiller.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 22413
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Awake()
+    content.vb: Protected Sub Awake
+  overload: Global.Behaviour_FanartFiller.Awake*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_FanartFiller.Awake*
+  commentId: Overload:Global.Behaviour_FanartFiller.Awake
+  name: Awake
+  nameWithType: Behaviour_FanartFiller.Awake
+  fullName: Behaviour_FanartFiller.Awake

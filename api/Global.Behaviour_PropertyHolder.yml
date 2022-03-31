@@ -1,0 +1,216 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_PropertyHolder
+  commentId: T:Global.Behaviour_PropertyHolder
+  id: Behaviour_PropertyHolder
+  parent: Global
+  children:
+  - Global.Behaviour_PropertyHolder.ArrayIndex
+  - Global.Behaviour_PropertyHolder.FullToken
+  - Global.Behaviour_PropertyHolder.JsonEditorHandlerScript
+  - Global.Behaviour_PropertyHolder.ParentToken
+  - Global.Behaviour_PropertyHolder.StartListening
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_PropertyHolder
+  nameWithType: Behaviour_PropertyHolder
+  fullName: Behaviour_PropertyHolder
+  type: Class
+  source:
+    id: Behaviour_PropertyHolder
+    path: ''
+    startLine: 12825
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_PropertyHolder : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_PropertyHolder
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_PropertyHolder.FullToken
+  commentId: F:Global.Behaviour_PropertyHolder.FullToken
+  id: FullToken
+  parent: Global.Behaviour_PropertyHolder
+  langs:
+  - csharp
+  - vb
+  name: FullToken
+  nameWithType: Behaviour_PropertyHolder.FullToken
+  fullName: Behaviour_PropertyHolder.FullToken
+  type: Field
+  source:
+    id: FullToken
+    path: ''
+    startLine: 12827
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public JToken FullToken
+    return:
+      type: Global.JToken
+    content.vb: Public FullToken As JToken
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PropertyHolder.ParentToken
+  commentId: F:Global.Behaviour_PropertyHolder.ParentToken
+  id: ParentToken
+  parent: Global.Behaviour_PropertyHolder
+  langs:
+  - csharp
+  - vb
+  name: ParentToken
+  nameWithType: Behaviour_PropertyHolder.ParentToken
+  fullName: Behaviour_PropertyHolder.ParentToken
+  type: Field
+  source:
+    id: ParentToken
+    path: ''
+    startLine: 12828
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public JToken ParentToken
+    return:
+      type: Global.JToken
+    content.vb: Public ParentToken As JToken
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PropertyHolder.ArrayIndex
+  commentId: F:Global.Behaviour_PropertyHolder.ArrayIndex
+  id: ArrayIndex
+  parent: Global.Behaviour_PropertyHolder
+  langs:
+  - csharp
+  - vb
+  name: ArrayIndex
+  nameWithType: Behaviour_PropertyHolder.ArrayIndex
+  fullName: Behaviour_PropertyHolder.ArrayIndex
+  type: Field
+  source:
+    id: ArrayIndex
+    path: ''
+    startLine: 12829
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int ArrayIndex
+    return:
+      type: System.Int32
+    content.vb: Public ArrayIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PropertyHolder.JsonEditorHandlerScript
+  commentId: F:Global.Behaviour_PropertyHolder.JsonEditorHandlerScript
+  id: JsonEditorHandlerScript
+  parent: Global.Behaviour_PropertyHolder
+  langs:
+  - csharp
+  - vb
+  name: JsonEditorHandlerScript
+  nameWithType: Behaviour_PropertyHolder.JsonEditorHandlerScript
+  fullName: Behaviour_PropertyHolder.JsonEditorHandlerScript
+  type: Field
+  source:
+    id: JsonEditorHandlerScript
+    path: ''
+    startLine: 12830
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_JsonEditorHandler JsonEditorHandlerScript
+    return:
+      type: Global.Behaviour_JsonEditorHandler
+    content.vb: Public JsonEditorHandlerScript As Behaviour_JsonEditorHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PropertyHolder.StartListening
+  commentId: M:Global.Behaviour_PropertyHolder.StartListening
+  id: StartListening
+  parent: Global.Behaviour_PropertyHolder
+  langs:
+  - csharp
+  - vb
+  name: StartListening()
+  nameWithType: Behaviour_PropertyHolder.StartListening()
+  fullName: Behaviour_PropertyHolder.StartListening()
+  type: Method
+  source:
+    id: StartListening
+    path: ''
+    startLine: 12836
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void StartListening()
+    content.vb: Public Sub StartListening
+  overload: Global.Behaviour_PropertyHolder.StartListening*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.JToken
+  isExternal: true
+  name: JToken
+  nameWithType: JToken
+  fullName: JToken
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_JsonEditorHandler
+  commentId: T:Global.Behaviour_JsonEditorHandler
+  name: Behaviour_JsonEditorHandler
+  nameWithType: Behaviour_JsonEditorHandler
+  fullName: Behaviour_JsonEditorHandler
+- uid: Global.Behaviour_PropertyHolder.StartListening*
+  commentId: Overload:Global.Behaviour_PropertyHolder.StartListening
+  name: StartListening
+  nameWithType: Behaviour_PropertyHolder.StartListening
+  fullName: Behaviour_PropertyHolder.StartListening

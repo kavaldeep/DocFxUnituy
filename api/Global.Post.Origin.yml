@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Post.Origin
+  commentId: T:Global.Post.Origin
+  id: Post.Origin
+  parent: Global
+  children:
+  - Global.Post.Origin.Facebook
+  - Global.Post.Origin.Instagram
+  - Global.Post.Origin.Tribiew
+  - Global.Post.Origin.Twitter
+  - Global.Post.Origin.Youtube
+  langs:
+  - csharp
+  - vb
+  name: Post.Origin
+  nameWithType: Post.Origin
+  fullName: Post.Origin
+  type: Enum
+  source:
+    id: Origin
+    path: ''
+    startLine: 26249
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum Origin
+    content.vb: Public Enum Origin
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.Post.Origin.Tribiew
+  commentId: F:Global.Post.Origin.Tribiew
+  id: Tribiew
+  parent: Global.Post.Origin
+  langs:
+  - csharp
+  - vb
+  name: Tribiew
+  nameWithType: Post.Origin.Tribiew
+  fullName: Post.Origin.Tribiew
+  type: Field
+  source:
+    id: Tribiew
+    path: ''
+    startLine: 26251
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Tribiew = 0
+    return:
+      type: Global.Post.Origin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Post.Origin.Twitter
+  commentId: F:Global.Post.Origin.Twitter
+  id: Twitter
+  parent: Global.Post.Origin
+  langs:
+  - csharp
+  - vb
+  name: Twitter
+  nameWithType: Post.Origin.Twitter
+  fullName: Post.Origin.Twitter
+  type: Field
+  source:
+    id: Twitter
+    path: ''
+    startLine: 26252
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Twitter = 1
+    return:
+      type: Global.Post.Origin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Post.Origin.Facebook
+  commentId: F:Global.Post.Origin.Facebook
+  id: Facebook
+  parent: Global.Post.Origin
+  langs:
+  - csharp
+  - vb
+  name: Facebook
+  nameWithType: Post.Origin.Facebook
+  fullName: Post.Origin.Facebook
+  type: Field
+  source:
+    id: Facebook
+    path: ''
+    startLine: 26253
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Facebook = 2
+    return:
+      type: Global.Post.Origin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Post.Origin.Instagram
+  commentId: F:Global.Post.Origin.Instagram
+  id: Instagram
+  parent: Global.Post.Origin
+  langs:
+  - csharp
+  - vb
+  name: Instagram
+  nameWithType: Post.Origin.Instagram
+  fullName: Post.Origin.Instagram
+  type: Field
+  source:
+    id: Instagram
+    path: ''
+    startLine: 26254
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Instagram = 3
+    return:
+      type: Global.Post.Origin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Post.Origin.Youtube
+  commentId: F:Global.Post.Origin.Youtube
+  id: Youtube
+  parent: Global.Post.Origin
+  langs:
+  - csharp
+  - vb
+  name: Youtube
+  nameWithType: Post.Origin.Youtube
+  fullName: Post.Origin.Youtube
+  type: Field
+  source:
+    id: Youtube
+    path: ''
+    startLine: 26255
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Youtube = 4
+    return:
+      type: Global.Post.Origin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Post.Origin
+  commentId: T:Global.Post.Origin
+  name: Post.Origin
+  nameWithType: Post.Origin
+  fullName: Post.Origin

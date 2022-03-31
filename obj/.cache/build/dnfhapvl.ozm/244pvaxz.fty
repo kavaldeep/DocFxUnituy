@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> | Example Unity documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content=" | Example Unity documentation ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../manual/coniunctis.html" title="Manual">Manual</a>
+                      </li>
+                      <li>
+                          <a href="../api/Global.html" title="Scripting API">Scripting API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="coniunctis.html" title="Coniunctis nec qui" class="">Coniunctis nec qui</a>
+                    </li>
+                    <li class="">
+                      <a href="etiam.html" title="Etiam nantemque exul" class="">Etiam nantemque exul</a>
+                    </li>
+                    <li class="">
+                      <a href="tuto1.html" title="Tuto1" class="">Tuto1</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="1" sourceendlinenumber="1">Comment créer un build pour android 7.0 et PLUS ?</p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="3" sourceendlinenumber="5">Version Unity : 2020.2.4f1
+Version du projet : 0.5.0
+Date : 28/10/2021</p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="7" sourceendlinenumber="9">La toute première chose qu&#39;il faut vérifier avant de faire votre build est de voir si vous avez votre &quot;build affiliation&quot; avec <em>Android</em> ou <em>iOS</em>.
+<img src="../ressources/BUILDSETTINGSAndroid/Aspose.Words.83a8d5d0-0eaf-4178-8e0e-2b5d1dd65668.001.png" alt="" sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="8" sourceendlinenumber="8">
+Ensuite vous devrez aller vérifier dans Preferences --) External tools que votre JDK, SDK, NDK et Gladle se sont bien setup quand vous avez installé les modules du Unity Hub.</p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="11" sourceendlinenumber="11"><img src="../ressources/BUILDSETTINGSAndroid/Aspose.Words.83a8d5d0-0eaf-4178-8e0e-2b5d1dd65668.002.png" alt="" sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="11" sourceendlinenumber="11"></p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="14" sourceendlinenumber="14">Si les modules sont bien installés, vous pouvez tenter de faire un build pour vérifier leur installation. Si tout marche GG aller vers la partie IL2CPP du tutoriel.</p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="16" sourceendlinenumber="16">Si les modules ne se sont pas correctement installés (modules manquants, mauvaise version, ect.)</p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="18" sourceendlinenumber="18">Vous devrez voir quel module manque (SDK, JDK, Ndk, etc.) En fonction de cela vous devrez télécharger les versions ci-dessous et les intégrer à vos projets.</p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="20" sourceendlinenumber="20">JDK, SDK, NDK et gradle : </p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="22" sourceendlinenumber="22"><a href="https://drive.google.com/drive/folders/11FE9c_rRtwuOpD4OMBJEMXLjYFsopW4r?usp=sharing" data-raw-source="&lt;https://drive.google.com/drive/folders/11FE9c_rRtwuOpD4OMBJEMXLjYFsopW4r?usp=sharing&gt;" sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="22" sourceendlinenumber="22">https://drive.google.com/drive/folders/11FE9c_rRtwuOpD4OMBJEMXLjYFsopW4r?usp=sharing</a></p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="24" sourceendlinenumber="24"><img src="../ressources/BUILDSETTINGSAndroid/Aspose.Words.83a8d5d0-0eaf-4178-8e0e-2b5d1dd65668.003.png" alt="" sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="24" sourceendlinenumber="24"></p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="26" sourceendlinenumber="26">Quand vous avez récupérer les liens du drive il suffit de les ajouter dans votre version unity depuis votre bibliothèque (sauf pour le gradle qu&#39;après avoir unzip vous pouvez laisser dans votre téléchargement) voici le path : </p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="28" sourceendlinenumber="28">C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Data\PlaybackEngines\AndroidPlayer </p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="30" sourceendlinenumber="30">Suprimez les dossiers SDK, JDK, NDK s&#39;ils sont présent dans votre bibliothèque au path indiqué, ATTENTION quand vous Unzippez à bien respecter le path et ne pas avoir de double exemple ...Data\PlaybackEngines\AndroidPlayer\SDK\SDK ! Bien faire gaffe au doublon !</p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="32" sourceendlinenumber="32">Dans unity après l&#39;avoir lancé vous devriez obtenir le résultat ci-dessous :</p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="34" sourceendlinenumber="34"><img src="../ressources/BUILDSETTINGSAndroid/Aspose.Words.83a8d5d0-0eaf-4178-8e0e-2b5d1dd65668.004.png" alt="" sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="34" sourceendlinenumber="34"></p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="37" sourceendlinenumber="37">(Nécessaire pour lire avec bluestack mais normalement automatique au prochain push)</p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="40" sourceendlinenumber="40">Une fois que tout est bien setup aller dans les project settings changer dans Player le scripting backend pour le mettre en IL2CPP.</p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="43" sourceendlinenumber="43"><img src="../ressources/BUILDSETTINGSAndroid/Aspose.Words.83a8d5d0-0eaf-4178-8e0e-2b5d1dd65668.005.png" alt="" sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="43" sourceendlinenumber="43"></p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="45" sourceendlinenumber="45">Voilà vous avez maintenant tout prêt pour un build, il vous suffit juste de BUILD et faire votre APK.</p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="47" sourceendlinenumber="47">Avec l&#39;APK vous pouvez l&#39;exporter sur BlueStacks ou LD player pour tester l&#39;application ! </p>
+<p sourcefile="manual/TUTO_BUILDSETTINGSAndroid.md" sourcestartlinenumber="49" sourceendlinenumber="49">PS : Merci de reporter tous les bugs rencontrés et comment vous les avez réglés ou remplir une FAQ ! :D</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://bitbucket.org/hyperseries/tribiewapp//src/dev/Documentation/manual/TUTO_BUILDSETTINGSAndroid.md#lines-1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Example Unity documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

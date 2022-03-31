@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>INTRODUCTION | Example Unity documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="INTRODUCTION | Example Unity documentation ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../manual/coniunctis.html" title="Manual">Manual</a>
+                      </li>
+                      <li>
+                          <a href="../api/Global.html" title="Scripting API">Scripting API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="coniunctis.html" title="Coniunctis nec qui" class="">Coniunctis nec qui</a>
+                    </li>
+                    <li class="">
+                      <a href="etiam.html" title="Etiam nantemque exul" class="">Etiam nantemque exul</a>
+                    </li>
+                    <li class="">
+                      <a href="tuto1.html" title="Tuto1" class="">Tuto1</a>
+                    </li>
+                    <li class="">
+                      <a href="TUTO_BUILDSETTINGSAndroid.html" title="Android Build Settings" class="">Android Build Settings</a>
+                    </li>
+                    <li class="">
+                      <a href="TUTO_Liaison_Serveur_GraphQL.html" title="Liaison Server GraphQL" class="">Liaison Server GraphQL</a>
+                    </li>
+                    <li class="">
+                      <a href="DOC_Unity_a_connaitre.html" title="DOC Unity &#224; connaitre" class="">DOC Unity &#224; connaitre</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="1" sourceendlinenumber="1">LIAISONS S3</p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="4" sourceendlinenumber="4">SOMMAIRE</p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="6" sourceendlinenumber="6"><a href="#_2z45yrnhv5an" data-raw-source="[INTRODUCTION](#_2z45yrnhv5an)" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="6" sourceendlinenumber="6">INTRODUCTION</a></p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="8" sourceendlinenumber="8"><a href="#_5qh5wq80t81c" data-raw-source="[URL &amp; MDP](#_5qh5wq80t81c)" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="8" sourceendlinenumber="8">URL &amp; MDP</a></p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="10" sourceendlinenumber="10"><a href="#_ds90ao6b70d8" data-raw-source="[UPLOAD SUR LE S3](#_ds90ao6b70d8)" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="10" sourceendlinenumber="10">UPLOAD SUR LE S3</a></p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="12" sourceendlinenumber="12"><a href="#_frjgafcsrq32" data-raw-source="[DOWNLOAD SUR LE S3](#_frjgafcsrq32)" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="12" sourceendlinenumber="12">DOWNLOAD SUR LE S3</a></p>
+<h2 id="introduction" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="15" sourceendlinenumber="15">INTRODUCTION</h2>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="17" sourceendlinenumber="17"><a href="https://aws.amazon.com/fr/s3/" data-raw-source="&lt;https://aws.amazon.com/fr/s3/&gt;" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="17" sourceendlinenumber="17">https://aws.amazon.com/fr/s3/</a></p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="19" sourceendlinenumber="19"><a href="https://821544427390.signin.aws.amazon.com/console" data-raw-source="&lt;https://821544427390.signin.aws.amazon.com/console&gt;" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="19" sourceendlinenumber="19">https://821544427390.signin.aws.amazon.com/console</a> </p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="21" sourceendlinenumber="21">Dossier du projet :</p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="23" sourceendlinenumber="23">s3://com.tribiew.testwebapp/TribiewV0.4/Series/</p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="26" sourceendlinenumber="26">Amazon Simple Storage Service (Amazon S3) est un service de stockage d&#39;objets offrant une évolutivité, une disponibilité des données, une sécurité et des performances de pointe. Les clients de toutes tailles et de tous secteurs peuvent ainsi utiliser ce service afin de stocker et protéger n&#39;importe quelle quantité de données pour un large éventail de cas d&#39;utilisation comme des lacs de données, des sites web, des applications mobiles, la sauvegarde et la restauration, l&#39;archivage, des applications d&#39;entreprise, des appareils IoT et des analyses du Big Data. Amazon S3 fournit des fonctions de gestion faciles à utiliser pour vous permettre d&#39;organiser vos données et de configurer des contrôles d&#39;accès affinés pour vos exigences métier, d&#39;organisation et de conformité spécifiques. Amazon S3 est conçu pour offrir 99,999999999 % (11 9) de durabilité et stocker les données de millions d&#39;applications pour des entreprises du monde entier.</p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="29" sourceendlinenumber="29"><a href="http://whats-in-a-game.com/how-to-connect-to-s3-in-unity/" data-raw-source="&lt;http://whats-in-a-game.com/how-to-connect-to-s3-in-unity/&gt;" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="29" sourceendlinenumber="29">http://whats-in-a-game.com/how-to-connect-to-s3-in-unity/</a></p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="31" sourceendlinenumber="31"><a href="https://docs.aws.amazon.com/fr_fr/mobile/sdkforunity/developerguide/what-is-unity-plugin.html" data-raw-source="&lt;https://docs.aws.amazon.com/fr_fr/mobile/sdkforunity/developerguide/what-is-unity-plugin.html&gt;" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="31" sourceendlinenumber="31">https://docs.aws.amazon.com/fr_fr/mobile/sdkforunity/developerguide/what-is-unity-plugin.html</a> </p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="33" sourceendlinenumber="33"><a href="https://aws.amazon.com/fr/s3/getting-started/" data-raw-source="&lt;https://aws.amazon.com/fr/s3/getting-started/&gt;" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="33" sourceendlinenumber="33">https://aws.amazon.com/fr/s3/getting-started/</a></p>
+<h2 id="url--mdp" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="35" sourceendlinenumber="35">URL &amp; MDP</h2>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="37" sourceendlinenumber="37">Tribiew URL</p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="39" sourceendlinenumber="39"><a href="https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/ProfilePic1.png/" data-raw-source="[https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/](https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/ProfilePic1.png/)" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="39" sourceendlinenumber="39">https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/</a></p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="41" sourceendlinenumber="41"><a href="http://163.172.93.149:3010/graphql/" data-raw-source="&lt;http://163.172.93.149:3010/graphql/&gt;" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="41" sourceendlinenumber="41">http://163.172.93.149:3010/graphql/</a></p>
+<h2 id="upload-dimages-sur-le-s3" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="44" sourceendlinenumber="44">UPLOAD D’IMAGES SUR LE S3</h2>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="45" sourceendlinenumber="45">Pour upload une image sur le S3 il suffit d’appeler la fonction “UploadImage” du script “Singleton_ImageUploader” et de lui passer la Texture2D en question ainsi que l’Url ou l’on désire l’uploader et enfin le nom de l’image</p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="47" sourceendlinenumber="47">UPLOAD D’IMAGES DE NEWS SUR LE S3 AVEC LA SCENE “UploadImage”</p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="49" sourceendlinenumber="49">Pour upload une image de news d’une série sur le S3, il suffit de spécifier le path local de l’image et d’appuyer sur “choose Image” pour qu’elle s’affiche, puis de spécifier le nom de l’image, et le nom de la série (attention aux fautes) puis de cliquer sur upload.<img src="../resources/TUTO_Liaison_S3/Aspose.Words.10eca7a9-dd2e-4674-abbb-7f3d76f3d1f6.001.png" alt="" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="49" sourceendlinenumber="49"></p>
+<h2 id="download-sur-le-s3" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="51" sourceendlinenumber="51">DOWNLOAD SUR LE S3</h2>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="52" sourceendlinenumber="52">Pour pouvoir télécharger un fichier depuis le S3, il faut correctement Setup ses autorisations lors de l’upload (que ce soit un Upload via script ou via l’interface AWS).</p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="54" sourceendlinenumber="54">Les autorisations doivent être setup comme l’image ci-dessous, c’est-à-dire en Lecture publique.</p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="57" sourceendlinenumber="57">par la suite, en script il suffira de récupérer l’URL de l’objet et de la faire passer dans une fonction de Download comme ci-dessous:<img src="../resources/TUTO_Liaison_S3/Aspose.Words.10eca7a9-dd2e-4674-abbb-7f3d76f3d1f6.002.png" alt="" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="57" sourceendlinenumber="57"></p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="59" sourceendlinenumber="59"><em>exemple pour le téléchargement d’une image<img src="../resources/TUTO_Liaison_S3/Aspose.Words.10eca7a9-dd2e-4674-abbb-7f3d76f3d1f6.003.png" alt="" sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="59" sourceendlinenumber="59"></em></p>
+<p sourcefile="manual/TUTO_Liaison_S3.md" sourcestartlinenumber="61" sourceendlinenumber="61">Des exemples peuvent être trouvées dans les scripts “BehaviourPopUpLoading” et “JsonManager”.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://bitbucket.org/hyperseries/tribiewapp//src/dev/Documentation/manual/TUTO_Liaison_S3.md#lines-1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Example Unity documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Editor_ImageCkecker
+  commentId: T:Global.Editor_ImageCkecker
+  id: Editor_ImageCkecker
+  parent: Global
+  children:
+  - Global.Editor_ImageCkecker.OnGUI
+  langs:
+  - csharp
+  - vb
+  name: Editor_ImageCkecker
+  nameWithType: Editor_ImageCkecker
+  fullName: Editor_ImageCkecker
+  type: Class
+  source:
+    id: Editor_ImageCkecker
+    path: ''
+    startLine: 8498
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nEditor script checks if every component Images has their texture2D set\n"
+  example: []
+  syntax:
+    content: 'public class Editor_ImageCkecker : EditorWindow'
+    content.vb: >-
+      Public Class Editor_ImageCkecker
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Editor_ImageCkecker.OnGUI
+  commentId: M:Global.Editor_ImageCkecker.OnGUI
+  id: OnGUI
+  parent: Global.Editor_ImageCkecker
+  langs:
+  - csharp
+  - vb
+  name: OnGUI()
+  nameWithType: Editor_ImageCkecker.OnGUI()
+  fullName: Editor_ImageCkecker.OnGUI()
+  type: Method
+  source:
+    id: OnGUI
+    path: ''
+    startLine: 8543
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nSpawn 2 butons to check {Scene Image, Asset Image}\neach buton loops over every element of it&apos;s respective environment and stocks the found images in one of two lists\nThe script instanciates 2 lists and defines the state of each image\n"
+  example: []
+  syntax:
+    content: protected void OnGUI()
+    content.vb: Protected Sub OnGUI
+  overload: Global.Editor_ImageCkecker.OnGUI*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Editor_ImageCkecker.OnGUI*
+  commentId: Overload:Global.Editor_ImageCkecker.OnGUI
+  name: OnGUI
+  nameWithType: Editor_ImageCkecker.OnGUI
+  fullName: Editor_ImageCkecker.OnGUI

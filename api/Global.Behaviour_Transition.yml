@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_Transition
+  commentId: T:Global.Behaviour_Transition
+  id: Behaviour_Transition
+  parent: Global
+  children:
+  - Global.Behaviour_Transition.canvasFTUE
+  - Global.Behaviour_Transition.currentScreen
+  - Global.Behaviour_Transition.Desactivate
+  - Global.Behaviour_Transition.durationFade
+  - Global.Behaviour_Transition.myParticleSystem
+  - Global.Behaviour_Transition.Transition(GameObject)
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_Transition
+  nameWithType: Behaviour_Transition
+  fullName: Behaviour_Transition
+  type: Class
+  source:
+    id: Behaviour_Transition
+    path: ''
+    startLine: 15367
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_Transition : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_Transition
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_Transition.currentScreen
+  commentId: F:Global.Behaviour_Transition.currentScreen
+  id: currentScreen
+  parent: Global.Behaviour_Transition
+  langs:
+  - csharp
+  - vb
+  name: currentScreen
+  nameWithType: Behaviour_Transition.currentScreen
+  fullName: Behaviour_Transition.currentScreen
+  type: Field
+  source:
+    id: currentScreen
+    path: ''
+    startLine: 15369
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject currentScreen
+    return:
+      type: Global.GameObject
+    content.vb: Public currentScreen As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_Transition.canvasFTUE
+  commentId: F:Global.Behaviour_Transition.canvasFTUE
+  id: canvasFTUE
+  parent: Global.Behaviour_Transition
+  langs:
+  - csharp
+  - vb
+  name: canvasFTUE
+  nameWithType: Behaviour_Transition.canvasFTUE
+  fullName: Behaviour_Transition.canvasFTUE
+  type: Field
+  source:
+    id: canvasFTUE
+    path: ''
+    startLine: 15370
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject canvasFTUE
+    return:
+      type: Global.GameObject
+    content.vb: Public canvasFTUE As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_Transition.myParticleSystem
+  commentId: F:Global.Behaviour_Transition.myParticleSystem
+  id: myParticleSystem
+  parent: Global.Behaviour_Transition
+  langs:
+  - csharp
+  - vb
+  name: myParticleSystem
+  nameWithType: Behaviour_Transition.myParticleSystem
+  fullName: Behaviour_Transition.myParticleSystem
+  type: Field
+  source:
+    id: myParticleSystem
+    path: ''
+    startLine: 15371
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject myParticleSystem
+    return:
+      type: Global.GameObject
+    content.vb: Public myParticleSystem As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_Transition.durationFade
+  commentId: F:Global.Behaviour_Transition.durationFade
+  id: durationFade
+  parent: Global.Behaviour_Transition
+  langs:
+  - csharp
+  - vb
+  name: durationFade
+  nameWithType: Behaviour_Transition.durationFade
+  fullName: Behaviour_Transition.durationFade
+  type: Field
+  source:
+    id: durationFade
+    path: ''
+    startLine: 15372
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float durationFade
+    return:
+      type: System.Single
+    content.vb: Public durationFade As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_Transition.Transition(GameObject)
+  commentId: M:Global.Behaviour_Transition.Transition(GameObject)
+  id: Transition(GameObject)
+  parent: Global.Behaviour_Transition
+  langs:
+  - csharp
+  - vb
+  name: Transition(GameObject)
+  nameWithType: Behaviour_Transition.Transition(GameObject)
+  fullName: Behaviour_Transition.Transition(GameObject)
+  type: Method
+  source:
+    id: Transition
+    path: ''
+    startLine: 15379
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Transition(GameObject _pageSetToActive)
+    parameters:
+    - id: _pageSetToActive
+      type: Global.GameObject
+    content.vb: Public Sub Transition(_pageSetToActive As GameObject)
+  overload: Global.Behaviour_Transition.Transition*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_Transition.Desactivate
+  commentId: M:Global.Behaviour_Transition.Desactivate
+  id: Desactivate
+  parent: Global.Behaviour_Transition
+  langs:
+  - csharp
+  - vb
+  name: Desactivate()
+  nameWithType: Behaviour_Transition.Desactivate()
+  fullName: Behaviour_Transition.Desactivate()
+  type: Method
+  source:
+    id: Desactivate
+    path: ''
+    startLine: 15388
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Desactivate()
+    content.vb: Public Sub Desactivate
+  overload: Global.Behaviour_Transition.Desactivate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Behaviour_Transition.Transition*
+  commentId: Overload:Global.Behaviour_Transition.Transition
+  name: Transition
+  nameWithType: Behaviour_Transition.Transition
+  fullName: Behaviour_Transition.Transition
+- uid: Global.Behaviour_Transition.Desactivate*
+  commentId: Overload:Global.Behaviour_Transition.Desactivate
+  name: Desactivate
+  nameWithType: Behaviour_Transition.Desactivate
+  fullName: Behaviour_Transition.Desactivate

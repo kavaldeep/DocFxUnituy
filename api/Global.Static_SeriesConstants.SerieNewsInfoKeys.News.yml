@@ -1,0 +1,361 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News
+  commentId: T:Global.Static_SeriesConstants.SerieNewsInfoKeys.News
+  id: Static_SeriesConstants.SerieNewsInfoKeys.News
+  parent: Global
+  children:
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.News.author_id
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.News.editdate
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.News.headline
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.News.image
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.News.newsType
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.News.publishdate
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.News.subtitle
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.News.suggestions
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.News.tags
+  - Global.Static_SeriesConstants.SerieNewsInfoKeys.News.text
+  langs:
+  - csharp
+  - vb
+  name: Static_SeriesConstants.SerieNewsInfoKeys.News
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News
+  type: Class
+  source:
+    id: News
+    path: ''
+    startLine: 16902
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class News
+    content.vb: Public Module News
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.image
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.image
+  id: image
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys.News
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.image
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 16904
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string image = "image"
+    return:
+      type: System.String
+    content.vb: Public Const image As String = "image"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.headline
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.headline
+  id: headline
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys.News
+  langs:
+  - csharp
+  - vb
+  name: headline
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.headline
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.headline
+  type: Field
+  source:
+    id: headline
+    path: ''
+    startLine: 16905
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string headline = "headline"
+    return:
+      type: System.String
+    content.vb: Public Const headline As String = "headline"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.subtitle
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.subtitle
+  id: subtitle
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys.News
+  langs:
+  - csharp
+  - vb
+  name: subtitle
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.subtitle
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.subtitle
+  type: Field
+  source:
+    id: subtitle
+    path: ''
+    startLine: 16906
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string subtitle = "subtitle"
+    return:
+      type: System.String
+    content.vb: Public Const subtitle As String = "subtitle"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.text
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.text
+  id: text
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys.News
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.text
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.text
+  type: Field
+  source:
+    id: text
+    path: ''
+    startLine: 16907
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string text = "text"
+    return:
+      type: System.String
+    content.vb: Public Const text As String = "text"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.author_id
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.author_id
+  id: author_id
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys.News
+  langs:
+  - csharp
+  - vb
+  name: author_id
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.author_id
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.author_id
+  type: Field
+  source:
+    id: author_id
+    path: ''
+    startLine: 16908
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string author_id = "author_id"
+    return:
+      type: System.String
+    content.vb: Public Const author_id As String = "author_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.tags
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.tags
+  id: tags
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys.News
+  langs:
+  - csharp
+  - vb
+  name: tags
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.tags
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.tags
+  type: Field
+  source:
+    id: tags
+    path: ''
+    startLine: 16909
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string tags = "tags"
+    return:
+      type: System.String
+    content.vb: Public Const tags As String = "tags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.newsType
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.newsType
+  id: newsType
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys.News
+  langs:
+  - csharp
+  - vb
+  name: newsType
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.newsType
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.newsType
+  type: Field
+  source:
+    id: newsType
+    path: ''
+    startLine: 16910
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string newsType = "newsType"
+    return:
+      type: System.String
+    content.vb: Public Const newsType As String = "newsType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.publishdate
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.publishdate
+  id: publishdate
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys.News
+  langs:
+  - csharp
+  - vb
+  name: publishdate
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.publishdate
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.publishdate
+  type: Field
+  source:
+    id: publishdate
+    path: ''
+    startLine: 16911
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string publishdate = "publishdate"
+    return:
+      type: System.String
+    content.vb: Public Const publishdate As String = "publishdate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.editdate
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.editdate
+  id: editdate
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys.News
+  langs:
+  - csharp
+  - vb
+  name: editdate
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.editdate
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.editdate
+  type: Field
+  source:
+    id: editdate
+    path: ''
+    startLine: 16912
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string editdate = "editdate"
+    return:
+      type: System.String
+    content.vb: Public Const editdate As String = "editdate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieNewsInfoKeys.News.suggestions
+  commentId: F:Global.Static_SeriesConstants.SerieNewsInfoKeys.News.suggestions
+  id: suggestions
+  parent: Global.Static_SeriesConstants.SerieNewsInfoKeys.News
+  langs:
+  - csharp
+  - vb
+  name: suggestions
+  nameWithType: Static_SeriesConstants.SerieNewsInfoKeys.News.suggestions
+  fullName: Static_SeriesConstants.SerieNewsInfoKeys.News.suggestions
+  type: Field
+  source:
+    id: suggestions
+    path: ''
+    startLine: 16913
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string suggestions = "suggestions"
+    return:
+      type: System.String
+    content.vb: Public Const suggestions As String = "suggestions"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

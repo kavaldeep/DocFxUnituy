@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_Tribute_SerieInfos
+  commentId: T:Global.Behaviour_Tribute_SerieInfos
+  id: Behaviour_Tribute_SerieInfos
+  parent: Global
+  children:
+  - Global.Behaviour_Tribute_SerieInfos.Update
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_Tribute_SerieInfos
+  nameWithType: Behaviour_Tribute_SerieInfos
+  fullName: Behaviour_Tribute_SerieInfos
+  type: Class
+  source:
+    id: Behaviour_Tribute_SerieInfos
+    path: ''
+    startLine: 23889
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_Tribute_SerieInfos : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_Tribute_SerieInfos
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_Tribute_SerieInfos.Update
+  commentId: M:Global.Behaviour_Tribute_SerieInfos.Update
+  id: Update
+  parent: Global.Behaviour_Tribute_SerieInfos
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: Behaviour_Tribute_SerieInfos.Update()
+  fullName: Behaviour_Tribute_SerieInfos.Update()
+  type: Method
+  source:
+    id: Update
+    path: ''
+    startLine: 23917
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: Global.Behaviour_Tribute_SerieInfos.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_Tribute_SerieInfos.Update*
+  commentId: Overload:Global.Behaviour_Tribute_SerieInfos.Update
+  name: Update
+  nameWithType: Behaviour_Tribute_SerieInfos.Update
+  fullName: Behaviour_Tribute_SerieInfos.Update

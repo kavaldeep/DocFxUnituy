@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SeasonChanger
+  commentId: T:Global.Behaviour_SeasonChanger
+  id: Behaviour_SeasonChanger
+  parent: Global
+  children:
+  - Global.Behaviour_SeasonChanger.changeSeason
+  - Global.Behaviour_SeasonChanger.epSelector
+  - Global.Behaviour_SeasonChanger.season
+  - Global.Behaviour_SeasonChanger.TestButtonO
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SeasonChanger
+  nameWithType: Behaviour_SeasonChanger
+  fullName: Behaviour_SeasonChanger
+  type: Class
+  source:
+    id: Behaviour_SeasonChanger
+    path: ''
+    startLine: 22918
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_SeasonChanger : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_SeasonChanger
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_SeasonChanger.season
+  commentId: F:Global.Behaviour_SeasonChanger.season
+  id: season
+  parent: Global.Behaviour_SeasonChanger
+  langs:
+  - csharp
+  - vb
+  name: season
+  nameWithType: Behaviour_SeasonChanger.season
+  fullName: Behaviour_SeasonChanger.season
+  type: Field
+  source:
+    id: season
+    path: ''
+    startLine: 22920
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int season
+    return:
+      type: System.Int32
+    content.vb: Public season As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SeasonChanger.epSelector
+  commentId: F:Global.Behaviour_SeasonChanger.epSelector
+  id: epSelector
+  parent: Global.Behaviour_SeasonChanger
+  langs:
+  - csharp
+  - vb
+  name: epSelector
+  nameWithType: Behaviour_SeasonChanger.epSelector
+  fullName: Behaviour_SeasonChanger.epSelector
+  type: Field
+  source:
+    id: epSelector
+    path: ''
+    startLine: 22921
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_EpisodeSelectionInstantiator epSelector
+    return:
+      type: Global.Behaviour_EpisodeSelectionInstantiator
+    content.vb: Public epSelector As Behaviour_EpisodeSelectionInstantiator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SeasonChanger.TestButtonO
+  commentId: F:Global.Behaviour_SeasonChanger.TestButtonO
+  id: TestButtonO
+  parent: Global.Behaviour_SeasonChanger
+  langs:
+  - csharp
+  - vb
+  name: TestButtonO
+  nameWithType: Behaviour_SeasonChanger.TestButtonO
+  fullName: Behaviour_SeasonChanger.TestButtonO
+  type: Field
+  source:
+    id: TestButtonO
+    path: ''
+    startLine: 22922
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject TestButtonO
+    return:
+      type: Global.GameObject
+    content.vb: Public TestButtonO As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SeasonChanger.changeSeason
+  commentId: M:Global.Behaviour_SeasonChanger.changeSeason
+  id: changeSeason
+  parent: Global.Behaviour_SeasonChanger
+  langs:
+  - csharp
+  - vb
+  name: changeSeason()
+  nameWithType: Behaviour_SeasonChanger.changeSeason()
+  fullName: Behaviour_SeasonChanger.changeSeason()
+  type: Method
+  source:
+    id: changeSeason
+    path: ''
+    startLine: 22924
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void changeSeason()
+    content.vb: Public Sub changeSeason
+  overload: Global.Behaviour_SeasonChanger.changeSeason*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_EpisodeSelectionInstantiator
+  commentId: T:Global.Behaviour_EpisodeSelectionInstantiator
+  name: Behaviour_EpisodeSelectionInstantiator
+  nameWithType: Behaviour_EpisodeSelectionInstantiator
+  fullName: Behaviour_EpisodeSelectionInstantiator
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_SeasonChanger.changeSeason*
+  commentId: Overload:Global.Behaviour_SeasonChanger.changeSeason
+  name: changeSeason
+  nameWithType: Behaviour_SeasonChanger.changeSeason
+  fullName: Behaviour_SeasonChanger.changeSeason

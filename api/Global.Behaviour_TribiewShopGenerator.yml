@@ -1,0 +1,371 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_TribiewShopGenerator
+  commentId: T:Global.Behaviour_TribiewShopGenerator
+  id: Behaviour_TribiewShopGenerator
+  parent: Global
+  children:
+  - Global.Behaviour_TribiewShopGenerator.event_gridItem
+  - Global.Behaviour_TribiewShopGenerator.EventArticles
+  - Global.Behaviour_TribiewShopGenerator.eventCount
+  - Global.Behaviour_TribiewShopGenerator.OpenShopFiller(System.Int32,System.Int32)
+  - Global.Behaviour_TribiewShopGenerator.physical_gridItem
+  - Global.Behaviour_TribiewShopGenerator.prefabEventBigArticle
+  - Global.Behaviour_TribiewShopGenerator.virtual_gridItem
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_TribiewShopGenerator
+  nameWithType: Behaviour_TribiewShopGenerator
+  fullName: Behaviour_TribiewShopGenerator
+  type: Class
+  source:
+    id: Behaviour_TribiewShopGenerator
+    path: ''
+    startLine: 24127
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_TribiewShopGenerator : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_TribiewShopGenerator
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_TribiewShopGenerator.prefabEventBigArticle
+  commentId: F:Global.Behaviour_TribiewShopGenerator.prefabEventBigArticle
+  id: prefabEventBigArticle
+  parent: Global.Behaviour_TribiewShopGenerator
+  langs:
+  - csharp
+  - vb
+  name: prefabEventBigArticle
+  nameWithType: Behaviour_TribiewShopGenerator.prefabEventBigArticle
+  fullName: Behaviour_TribiewShopGenerator.prefabEventBigArticle
+  type: Field
+  source:
+    id: prefabEventBigArticle
+    path: ''
+    startLine: 24131
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject prefabEventBigArticle
+    return:
+      type: Global.GameObject
+    content.vb: Public prefabEventBigArticle As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_TribiewShopGenerator.event_gridItem
+  commentId: F:Global.Behaviour_TribiewShopGenerator.event_gridItem
+  id: event_gridItem
+  parent: Global.Behaviour_TribiewShopGenerator
+  langs:
+  - csharp
+  - vb
+  name: event_gridItem
+  nameWithType: Behaviour_TribiewShopGenerator.event_gridItem
+  fullName: Behaviour_TribiewShopGenerator.event_gridItem
+  type: Field
+  source:
+    id: event_gridItem
+    path: ''
+    startLine: 24133
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject event_gridItem
+    return:
+      type: Global.GameObject
+    content.vb: Public event_gridItem As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_TribiewShopGenerator.virtual_gridItem
+  commentId: F:Global.Behaviour_TribiewShopGenerator.virtual_gridItem
+  id: virtual_gridItem
+  parent: Global.Behaviour_TribiewShopGenerator
+  langs:
+  - csharp
+  - vb
+  name: virtual_gridItem
+  nameWithType: Behaviour_TribiewShopGenerator.virtual_gridItem
+  fullName: Behaviour_TribiewShopGenerator.virtual_gridItem
+  type: Field
+  source:
+    id: virtual_gridItem
+    path: ''
+    startLine: 24134
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject virtual_gridItem
+    return:
+      type: Global.GameObject
+    content.vb: Public virtual_gridItem As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_TribiewShopGenerator.physical_gridItem
+  commentId: F:Global.Behaviour_TribiewShopGenerator.physical_gridItem
+  id: physical_gridItem
+  parent: Global.Behaviour_TribiewShopGenerator
+  langs:
+  - csharp
+  - vb
+  name: physical_gridItem
+  nameWithType: Behaviour_TribiewShopGenerator.physical_gridItem
+  fullName: Behaviour_TribiewShopGenerator.physical_gridItem
+  type: Field
+  source:
+    id: physical_gridItem
+    path: ''
+    startLine: 24135
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject physical_gridItem
+    return:
+      type: Global.GameObject
+    content.vb: Public physical_gridItem As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_TribiewShopGenerator.EventArticles
+  commentId: F:Global.Behaviour_TribiewShopGenerator.EventArticles
+  id: EventArticles
+  parent: Global.Behaviour_TribiewShopGenerator
+  langs:
+  - csharp
+  - vb
+  name: EventArticles
+  nameWithType: Behaviour_TribiewShopGenerator.EventArticles
+  fullName: Behaviour_TribiewShopGenerator.EventArticles
+  type: Field
+  source:
+    id: EventArticles
+    path: ''
+    startLine: 24140
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public List<GameObject> EventArticles
+    return:
+      type: System.Collections.Generic.List{GameObject}
+    content.vb: >-
+      <NonSerialized>
+
+      Public EventArticles As List(Of GameObject)
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_TribiewShopGenerator.eventCount
+  commentId: F:Global.Behaviour_TribiewShopGenerator.eventCount
+  id: eventCount
+  parent: Global.Behaviour_TribiewShopGenerator
+  langs:
+  - csharp
+  - vb
+  name: eventCount
+  nameWithType: Behaviour_TribiewShopGenerator.eventCount
+  fullName: Behaviour_TribiewShopGenerator.eventCount
+  type: Field
+  source:
+    id: eventCount
+    path: ''
+    startLine: 24141
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int eventCount
+    return:
+      type: System.Int32
+    content.vb: Public eventCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_TribiewShopGenerator.OpenShopFiller(System.Int32,System.Int32)
+  commentId: M:Global.Behaviour_TribiewShopGenerator.OpenShopFiller(System.Int32,System.Int32)
+  id: OpenShopFiller(System.Int32,System.Int32)
+  parent: Global.Behaviour_TribiewShopGenerator
+  langs:
+  - csharp
+  - vb
+  name: OpenShopFiller(Int32, Int32)
+  nameWithType: Behaviour_TribiewShopGenerator.OpenShopFiller(Int32, Int32)
+  fullName: Behaviour_TribiewShopGenerator.OpenShopFiller(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: OpenShopFiller
+    path: ''
+    startLine: 24186
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OpenShopFiller(int _Index, int _TypeTrack)
+    parameters:
+    - id: _Index
+      type: System.Int32
+    - id: _TypeTrack
+      type: System.Int32
+    content.vb: Public Sub OpenShopFiller(_Index As Integer, _TypeTrack As Integer)
+  overload: Global.Behaviour_TribiewShopGenerator.OpenShopFiller*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Collections.Generic.List{GameObject}
+  commentId: T:System.Collections.Generic.List{GameObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: System.Collections.Generic.List<GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: System.Collections.Generic.List(Of GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_TribiewShopGenerator.OpenShopFiller*
+  commentId: Overload:Global.Behaviour_TribiewShopGenerator.OpenShopFiller
+  name: OpenShopFiller
+  nameWithType: Behaviour_TribiewShopGenerator.OpenShopFiller
+  fullName: Behaviour_TribiewShopGenerator.OpenShopFiller

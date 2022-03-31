@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Tribute_AddUserPIcture
+  commentId: T:Global.Tribute_AddUserPIcture
+  id: Tribute_AddUserPIcture
+  parent: Global
+  children:
+  - Global.Tribute_AddUserPIcture.tributeImage
+  langs:
+  - csharp
+  - vb
+  name: Tribute_AddUserPIcture
+  nameWithType: Tribute_AddUserPIcture
+  fullName: Tribute_AddUserPIcture
+  type: Class
+  source:
+    id: Tribute_AddUserPIcture
+    path: ''
+    startLine: 26787
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Tribute_AddUserPIcture : MonoBehaviour'
+    content.vb: >-
+      Public Class Tribute_AddUserPIcture
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Tribute_AddUserPIcture.tributeImage
+  commentId: F:Global.Tribute_AddUserPIcture.tributeImage
+  id: tributeImage
+  parent: Global.Tribute_AddUserPIcture
+  langs:
+  - csharp
+  - vb
+  name: tributeImage
+  nameWithType: Tribute_AddUserPIcture.tributeImage
+  fullName: Tribute_AddUserPIcture.tributeImage
+  type: Field
+  source:
+    id: tributeImage
+    path: ''
+    startLine: 26789
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject tributeImage
+    return:
+      type: Global.GameObject
+    content.vb: Public tributeImage As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

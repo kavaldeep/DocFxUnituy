@@ -1,0 +1,288 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UI_VoteButton
+  commentId: T:Global.UI_VoteButton
+  id: UI_VoteButton
+  parent: Global
+  children:
+  - Global.UI_VoteButton._colorArrowChosen
+  - Global.UI_VoteButton._colorArrowNotChosen
+  - Global.UI_VoteButton._numberOfVote
+  - Global.UI_VoteButton.ChosenOne(RectTransform)
+  - Global.UI_VoteButton.NumberOfVoteFloat
+  - Global.UI_VoteButton.Select
+  - Global.UI_VoteButton.Unselect
+  langs:
+  - csharp
+  - vb
+  name: UI_VoteButton
+  nameWithType: UI_VoteButton
+  fullName: UI_VoteButton
+  type: Class
+  source:
+    id: UI_VoteButton
+    path: ''
+    startLine: 25028
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UI_VoteButton : MonoBehaviour'
+    content.vb: >-
+      Public Class UI_VoteButton
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UI_VoteButton._colorArrowChosen
+  commentId: F:Global.UI_VoteButton._colorArrowChosen
+  id: _colorArrowChosen
+  parent: Global.UI_VoteButton
+  langs:
+  - csharp
+  - vb
+  name: _colorArrowChosen
+  nameWithType: UI_VoteButton._colorArrowChosen
+  fullName: UI_VoteButton._colorArrowChosen
+  type: Field
+  source:
+    id: _colorArrowChosen
+    path: ''
+    startLine: 25031
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Color _colorArrowChosen
+    return:
+      type: Global.Color
+    content.vb: Public _colorArrowChosen As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_VoteButton._colorArrowNotChosen
+  commentId: F:Global.UI_VoteButton._colorArrowNotChosen
+  id: _colorArrowNotChosen
+  parent: Global.UI_VoteButton
+  langs:
+  - csharp
+  - vb
+  name: _colorArrowNotChosen
+  nameWithType: UI_VoteButton._colorArrowNotChosen
+  fullName: UI_VoteButton._colorArrowNotChosen
+  type: Field
+  source:
+    id: _colorArrowNotChosen
+    path: ''
+    startLine: 25032
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Color _colorArrowNotChosen
+    return:
+      type: Global.Color
+    content.vb: Public _colorArrowNotChosen As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_VoteButton._numberOfVote
+  commentId: F:Global.UI_VoteButton._numberOfVote
+  id: _numberOfVote
+  parent: Global.UI_VoteButton
+  langs:
+  - csharp
+  - vb
+  name: _numberOfVote
+  nameWithType: UI_VoteButton._numberOfVote
+  fullName: UI_VoteButton._numberOfVote
+  type: Field
+  source:
+    id: _numberOfVote
+    path: ''
+    startLine: 25035
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI _numberOfVote
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public _numberOfVote As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_VoteButton.NumberOfVoteFloat
+  commentId: F:Global.UI_VoteButton.NumberOfVoteFloat
+  id: NumberOfVoteFloat
+  parent: Global.UI_VoteButton
+  langs:
+  - csharp
+  - vb
+  name: NumberOfVoteFloat
+  nameWithType: UI_VoteButton.NumberOfVoteFloat
+  fullName: UI_VoteButton.NumberOfVoteFloat
+  type: Field
+  source:
+    id: NumberOfVoteFloat
+    path: ''
+    startLine: 25036
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int NumberOfVoteFloat
+    return:
+      type: System.Int32
+    content.vb: Public NumberOfVoteFloat As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_VoteButton.Select
+  commentId: M:Global.UI_VoteButton.Select
+  id: Select
+  parent: Global.UI_VoteButton
+  langs:
+  - csharp
+  - vb
+  name: Select()
+  nameWithType: UI_VoteButton.Select()
+  fullName: UI_VoteButton.Select()
+  type: Method
+  source:
+    id: Select
+    path: ''
+    startLine: 25048
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Select()
+    content.vb: Public Sub Select
+  overload: Global.UI_VoteButton.Select*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_VoteButton.Unselect
+  commentId: M:Global.UI_VoteButton.Unselect
+  id: Unselect
+  parent: Global.UI_VoteButton
+  langs:
+  - csharp
+  - vb
+  name: Unselect()
+  nameWithType: UI_VoteButton.Unselect()
+  fullName: UI_VoteButton.Unselect()
+  type: Method
+  source:
+    id: Unselect
+    path: ''
+    startLine: 25055
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Unselect()
+    content.vb: Public Sub Unselect
+  overload: Global.UI_VoteButton.Unselect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_VoteButton.ChosenOne(RectTransform)
+  commentId: M:Global.UI_VoteButton.ChosenOne(RectTransform)
+  id: ChosenOne(RectTransform)
+  parent: Global.UI_VoteButton
+  langs:
+  - csharp
+  - vb
+  name: ChosenOne(RectTransform)
+  nameWithType: UI_VoteButton.ChosenOne(RectTransform)
+  fullName: UI_VoteButton.ChosenOne(RectTransform)
+  type: Method
+  source:
+    id: ChosenOne
+    path: ''
+    startLine: 25062
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ChosenOne(RectTransform _arrowNotChosen)
+    parameters:
+    - id: _arrowNotChosen
+      type: Global.RectTransform
+    content.vb: Public Sub ChosenOne(_arrowNotChosen As RectTransform)
+  overload: Global.UI_VoteButton.ChosenOne*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.UI_VoteButton.Select*
+  commentId: Overload:Global.UI_VoteButton.Select
+  name: Select
+  nameWithType: UI_VoteButton.Select
+  fullName: UI_VoteButton.Select
+- uid: Global.UI_VoteButton.Unselect*
+  commentId: Overload:Global.UI_VoteButton.Unselect
+  name: Unselect
+  nameWithType: UI_VoteButton.Unselect
+  fullName: UI_VoteButton.Unselect
+- uid: Global.UI_VoteButton.ChosenOne*
+  commentId: Overload:Global.UI_VoteButton.ChosenOne
+  name: ChosenOne
+  nameWithType: UI_VoteButton.ChosenOne
+  fullName: UI_VoteButton.ChosenOne
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform

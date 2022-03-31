@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TopBarSerieSelectorController
+  commentId: T:Global.TopBarSerieSelectorController
+  id: TopBarSerieSelectorController
+  parent: Global
+  children:
+  - Global.TopBarSerieSelectorController._serieManager
+  - Global.TopBarSerieSelectorController.HideFeedback
+  - Global.TopBarSerieSelectorController.MoveFeedback(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: TopBarSerieSelectorController
+  nameWithType: TopBarSerieSelectorController
+  fullName: TopBarSerieSelectorController
+  type: Class
+  source:
+    id: TopBarSerieSelectorController
+    path: ''
+    startLine: 14348
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TopBarSerieSelectorController : MonoBehaviour'
+    content.vb: >-
+      Public Class TopBarSerieSelectorController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TopBarSerieSelectorController._serieManager
+  commentId: F:Global.TopBarSerieSelectorController._serieManager
+  id: _serieManager
+  parent: Global.TopBarSerieSelectorController
+  langs:
+  - csharp
+  - vb
+  name: _serieManager
+  nameWithType: TopBarSerieSelectorController._serieManager
+  fullName: TopBarSerieSelectorController._serieManager
+  type: Field
+  source:
+    id: _serieManager
+    path: ''
+    startLine: 14350
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieManager _serieManager
+    return:
+      type: Global.Behaviour_SerieManager
+    content.vb: Public _serieManager As Behaviour_SerieManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TopBarSerieSelectorController.MoveFeedback(System.Single)
+  commentId: M:Global.TopBarSerieSelectorController.MoveFeedback(System.Single)
+  id: MoveFeedback(System.Single)
+  parent: Global.TopBarSerieSelectorController
+  langs:
+  - csharp
+  - vb
+  name: MoveFeedback(Single)
+  nameWithType: TopBarSerieSelectorController.MoveFeedback(Single)
+  fullName: TopBarSerieSelectorController.MoveFeedback(System.Single)
+  type: Method
+  source:
+    id: MoveFeedback
+    path: ''
+    startLine: 14370
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void MoveFeedback(float feedbackPos)
+    parameters:
+    - id: feedbackPos
+      type: System.Single
+    content.vb: Public Sub MoveFeedback(feedbackPos As Single)
+  overload: Global.TopBarSerieSelectorController.MoveFeedback*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TopBarSerieSelectorController.HideFeedback
+  commentId: M:Global.TopBarSerieSelectorController.HideFeedback
+  id: HideFeedback
+  parent: Global.TopBarSerieSelectorController
+  langs:
+  - csharp
+  - vb
+  name: HideFeedback()
+  nameWithType: TopBarSerieSelectorController.HideFeedback()
+  fullName: TopBarSerieSelectorController.HideFeedback()
+  type: Method
+  source:
+    id: HideFeedback
+    path: ''
+    startLine: 14401
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void HideFeedback()
+    content.vb: Public Sub HideFeedback
+  overload: Global.TopBarSerieSelectorController.HideFeedback*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_SerieManager
+  commentId: T:Global.Behaviour_SerieManager
+  name: Behaviour_SerieManager
+  nameWithType: Behaviour_SerieManager
+  fullName: Behaviour_SerieManager
+- uid: Global.TopBarSerieSelectorController.MoveFeedback*
+  commentId: Overload:Global.TopBarSerieSelectorController.MoveFeedback
+  name: MoveFeedback
+  nameWithType: TopBarSerieSelectorController.MoveFeedback
+  fullName: TopBarSerieSelectorController.MoveFeedback
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.TopBarSerieSelectorController.HideFeedback*
+  commentId: Overload:Global.TopBarSerieSelectorController.HideFeedback
+  name: HideFeedback
+  nameWithType: TopBarSerieSelectorController.HideFeedback
+  fullName: TopBarSerieSelectorController.HideFeedback

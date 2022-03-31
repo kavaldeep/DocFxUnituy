@@ -1,0 +1,241 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_SeriesConstants.VaultInfoKeys
+  commentId: T:Global.Static_SeriesConstants.VaultInfoKeys
+  id: Static_SeriesConstants.VaultInfoKeys
+  parent: Global
+  children:
+  - Global.Static_SeriesConstants.VaultInfoKeys.actual
+  - Global.Static_SeriesConstants.VaultInfoKeys.collectiveRewards
+  - Global.Static_SeriesConstants.VaultInfoKeys.episode
+  - Global.Static_SeriesConstants.VaultInfoKeys.objective
+  - Global.Static_SeriesConstants.VaultInfoKeys.personnalReward
+  - Global.Static_SeriesConstants.VaultInfoKeys.timer
+  langs:
+  - csharp
+  - vb
+  name: Static_SeriesConstants.VaultInfoKeys
+  nameWithType: Static_SeriesConstants.VaultInfoKeys
+  fullName: Static_SeriesConstants.VaultInfoKeys
+  type: Class
+  source:
+    id: VaultInfoKeys
+    path: ''
+    startLine: 16923
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class VaultInfoKeys
+    content.vb: Public Module VaultInfoKeys
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.objective
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.objective
+  id: objective
+  parent: Global.Static_SeriesConstants.VaultInfoKeys
+  langs:
+  - csharp
+  - vb
+  name: objective
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.objective
+  fullName: Static_SeriesConstants.VaultInfoKeys.objective
+  type: Field
+  source:
+    id: objective
+    path: ''
+    startLine: 16925
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string objective = "objective"
+    return:
+      type: System.String
+    content.vb: Public Const objective As String = "objective"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.actual
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.actual
+  id: actual
+  parent: Global.Static_SeriesConstants.VaultInfoKeys
+  langs:
+  - csharp
+  - vb
+  name: actual
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.actual
+  fullName: Static_SeriesConstants.VaultInfoKeys.actual
+  type: Field
+  source:
+    id: actual
+    path: ''
+    startLine: 16926
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string actual = "actual"
+    return:
+      type: System.String
+    content.vb: Public Const actual As String = "actual"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.timer
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.timer
+  id: timer
+  parent: Global.Static_SeriesConstants.VaultInfoKeys
+  langs:
+  - csharp
+  - vb
+  name: timer
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.timer
+  fullName: Static_SeriesConstants.VaultInfoKeys.timer
+  type: Field
+  source:
+    id: timer
+    path: ''
+    startLine: 16927
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string timer = "timer"
+    return:
+      type: System.String
+    content.vb: Public Const timer As String = "timer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.collectiveRewards
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.collectiveRewards
+  id: collectiveRewards
+  parent: Global.Static_SeriesConstants.VaultInfoKeys
+  langs:
+  - csharp
+  - vb
+  name: collectiveRewards
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.collectiveRewards
+  fullName: Static_SeriesConstants.VaultInfoKeys.collectiveRewards
+  type: Field
+  source:
+    id: collectiveRewards
+    path: ''
+    startLine: 16928
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string collectiveRewards = "collectiveRewards"
+    return:
+      type: System.String
+    content.vb: Public Const collectiveRewards As String = "collectiveRewards"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.personnalReward
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.personnalReward
+  id: personnalReward
+  parent: Global.Static_SeriesConstants.VaultInfoKeys
+  langs:
+  - csharp
+  - vb
+  name: personnalReward
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.personnalReward
+  fullName: Static_SeriesConstants.VaultInfoKeys.personnalReward
+  type: Field
+  source:
+    id: personnalReward
+    path: ''
+    startLine: 16929
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string personnalReward = "personnalReward"
+    return:
+      type: System.String
+    content.vb: Public Const personnalReward As String = "personnalReward"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.episode
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.episode
+  id: episode
+  parent: Global.Static_SeriesConstants.VaultInfoKeys
+  langs:
+  - csharp
+  - vb
+  name: episode
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.episode
+  fullName: Static_SeriesConstants.VaultInfoKeys.episode
+  type: Field
+  source:
+    id: episode
+    path: ''
+    startLine: 16937
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string episode = "episode"
+    return:
+      type: System.String
+    content.vb: Public Const episode As String = "episode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

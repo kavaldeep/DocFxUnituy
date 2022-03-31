@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SerieFiller
+  commentId: T:Global.Behaviour_SerieFiller
+  id: Behaviour_SerieFiller
+  parent: Global
+  children:
+  - Global.Behaviour_SerieFiller.Awake
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SerieFiller
+  nameWithType: Behaviour_SerieFiller
+  fullName: Behaviour_SerieFiller
+  type: Class
+  source:
+    id: Behaviour_SerieFiller
+    path: ''
+    startLine: 23662
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nJust place this on the same object as Serie Data and all other Fillers\n"
+  example: []
+  syntax:
+    content: 'public class Behaviour_SerieFiller : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_SerieFiller
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_SerieFiller.Awake
+  commentId: M:Global.Behaviour_SerieFiller.Awake
+  id: Awake
+  parent: Global.Behaviour_SerieFiller
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Behaviour_SerieFiller.Awake()
+  fullName: Behaviour_SerieFiller.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 23684
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Awake()
+    content.vb: Protected Sub Awake
+  overload: Global.Behaviour_SerieFiller.Awake*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_SerieFiller.Awake*
+  commentId: Overload:Global.Behaviour_SerieFiller.Awake
+  name: Awake
+  nameWithType: Behaviour_SerieFiller.Awake
+  fullName: Behaviour_SerieFiller.Awake

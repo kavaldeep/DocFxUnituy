@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MedaiPlayerSampleSphereGUI
+  commentId: T:Global.MedaiPlayerSampleSphereGUI
+  id: MedaiPlayerSampleSphereGUI
+  parent: Global
+  children:
+  - Global.MedaiPlayerSampleSphereGUI.scrMedia
+  langs:
+  - csharp
+  - vb
+  name: MedaiPlayerSampleSphereGUI
+  nameWithType: MedaiPlayerSampleSphereGUI
+  fullName: MedaiPlayerSampleSphereGUI
+  type: Class
+  source:
+    id: MedaiPlayerSampleSphereGUI
+    path: ''
+    startLine: 5664
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MedaiPlayerSampleSphereGUI : MonoBehaviour'
+    content.vb: >-
+      Public Class MedaiPlayerSampleSphereGUI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MedaiPlayerSampleSphereGUI.scrMedia
+  commentId: F:Global.MedaiPlayerSampleSphereGUI.scrMedia
+  id: scrMedia
+  parent: Global.MedaiPlayerSampleSphereGUI
+  langs:
+  - csharp
+  - vb
+  name: scrMedia
+  nameWithType: MedaiPlayerSampleSphereGUI.scrMedia
+  fullName: MedaiPlayerSampleSphereGUI.scrMedia
+  type: Field
+  source:
+    id: scrMedia
+    path: ''
+    startLine: 5666
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl scrMedia
+    return:
+      type: Global.MediaPlayerCtrl
+    content.vb: Public scrMedia As MediaPlayerCtrl
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MediaPlayerCtrl
+  commentId: T:Global.MediaPlayerCtrl
+  name: MediaPlayerCtrl
+  nameWithType: MediaPlayerCtrl
+  fullName: MediaPlayerCtrl

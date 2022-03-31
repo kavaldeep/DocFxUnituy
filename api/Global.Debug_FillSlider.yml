@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Debug_FillSlider
+  commentId: T:Global.Debug_FillSlider
+  id: Debug_FillSlider
+  parent: Global
+  children:
+  - Global.Debug_FillSlider.Update
+  langs:
+  - csharp
+  - vb
+  name: Debug_FillSlider
+  nameWithType: Debug_FillSlider
+  fullName: Debug_FillSlider
+  type: Class
+  source:
+    id: Debug_FillSlider
+    path: ''
+    startLine: 27182
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Debug_FillSlider : MonoBehaviour'
+    content.vb: >-
+      Public Class Debug_FillSlider
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Debug_FillSlider.Update
+  commentId: M:Global.Debug_FillSlider.Update
+  id: Update
+  parent: Global.Debug_FillSlider
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: Debug_FillSlider.Update()
+  fullName: Debug_FillSlider.Update()
+  type: Method
+  source:
+    id: Update
+    path: ''
+    startLine: 27199
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: Global.Debug_FillSlider.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Debug_FillSlider.Update*
+  commentId: Overload:Global.Debug_FillSlider.Update
+  name: Update
+  nameWithType: Debug_FillSlider.Update
+  fullName: Debug_FillSlider.Update

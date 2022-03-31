@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Post.Stats
+  commentId: T:Global.Post.Stats
+  id: Post.Stats
+  parent: Global
+  children:
+  - Global.Post.Stats.CommentsAmount
+  - Global.Post.Stats.date
+  - Global.Post.Stats.dislikes
+  - Global.Post.Stats.dislikesAmount
+  - Global.Post.Stats.liked
+  - Global.Post.Stats.likesAmount
+  - Global.Post.Stats.post_origin
+  langs:
+  - csharp
+  - vb
+  name: Post.Stats
+  nameWithType: Post.Stats
+  fullName: Post.Stats
+  type: Struct
+  source:
+    id: Stats
+    path: ''
+    startLine: 26235
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct Stats
+    content.vb: >-
+      <Serializable>
+
+      Public Structure Stats
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.Post.Stats.CommentsAmount
+  commentId: F:Global.Post.Stats.CommentsAmount
+  id: CommentsAmount
+  parent: Global.Post.Stats
+  langs:
+  - csharp
+  - vb
+  name: CommentsAmount
+  nameWithType: Post.Stats.CommentsAmount
+  fullName: Post.Stats.CommentsAmount
+  type: Field
+  source:
+    id: CommentsAmount
+    path: ''
+    startLine: 26239
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int CommentsAmount
+    return:
+      type: System.Int32
+    content.vb: Public CommentsAmount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Stats.likesAmount
+  commentId: F:Global.Post.Stats.likesAmount
+  id: likesAmount
+  parent: Global.Post.Stats
+  langs:
+  - csharp
+  - vb
+  name: likesAmount
+  nameWithType: Post.Stats.likesAmount
+  fullName: Post.Stats.likesAmount
+  type: Field
+  source:
+    id: likesAmount
+    path: ''
+    startLine: 26240
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int likesAmount
+    return:
+      type: System.Int32
+    content.vb: Public likesAmount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Stats.dislikesAmount
+  commentId: F:Global.Post.Stats.dislikesAmount
+  id: dislikesAmount
+  parent: Global.Post.Stats
+  langs:
+  - csharp
+  - vb
+  name: dislikesAmount
+  nameWithType: Post.Stats.dislikesAmount
+  fullName: Post.Stats.dislikesAmount
+  type: Field
+  source:
+    id: dislikesAmount
+    path: ''
+    startLine: 26241
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int dislikesAmount
+    return:
+      type: System.Int32
+    content.vb: Public dislikesAmount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Stats.liked
+  commentId: F:Global.Post.Stats.liked
+  id: liked
+  parent: Global.Post.Stats
+  langs:
+  - csharp
+  - vb
+  name: liked
+  nameWithType: Post.Stats.liked
+  fullName: Post.Stats.liked
+  type: Field
+  source:
+    id: liked
+    path: ''
+    startLine: 26242
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool liked
+    return:
+      type: System.Boolean
+    content.vb: Public liked As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Stats.dislikes
+  commentId: F:Global.Post.Stats.dislikes
+  id: dislikes
+  parent: Global.Post.Stats
+  langs:
+  - csharp
+  - vb
+  name: dislikes
+  nameWithType: Post.Stats.dislikes
+  fullName: Post.Stats.dislikes
+  type: Field
+  source:
+    id: dislikes
+    path: ''
+    startLine: 26243
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool dislikes
+    return:
+      type: System.Boolean
+    content.vb: Public dislikes As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Stats.date
+  commentId: F:Global.Post.Stats.date
+  id: date
+  parent: Global.Post.Stats
+  langs:
+  - csharp
+  - vb
+  name: date
+  nameWithType: Post.Stats.date
+  fullName: Post.Stats.date
+  type: Field
+  source:
+    id: date
+    path: ''
+    startLine: 26244
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public DateTime date
+    return:
+      type: System.DateTime
+    content.vb: Public date As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Stats.post_origin
+  commentId: F:Global.Post.Stats.post_origin
+  id: post_origin
+  parent: Global.Post.Stats
+  langs:
+  - csharp
+  - vb
+  name: post_origin
+  nameWithType: Post.Stats.post_origin
+  fullName: Post.Stats.post_origin
+  type: Field
+  source:
+    id: post_origin
+    path: ''
+    startLine: 26245
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Post.Origin post_origin
+    return:
+      type: Global.Post.Origin
+    content.vb: Public post_origin As Post.Origin
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Global.Post.Origin
+  commentId: T:Global.Post.Origin
+  name: Post.Origin
+  nameWithType: Post.Origin
+  fullName: Post.Origin

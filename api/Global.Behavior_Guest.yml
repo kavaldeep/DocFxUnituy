@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behavior_Guest
+  commentId: T:Global.Behavior_Guest
+  id: Behavior_Guest
+  parent: Global
+  children:
+  - Global.Behavior_Guest.Behaviour_LogIn
+  - Global.Behavior_Guest.blocker
+  - Global.Behavior_Guest.CheckConnection
+  - Global.Behavior_Guest.CheckParse
+  - Global.Behavior_Guest.checkQuery
+  - Global.Behavior_Guest.CheckQuery
+  - Global.Behavior_Guest.GoingGuest
+  langs:
+  - csharp
+  - vb
+  name: Behavior_Guest
+  nameWithType: Behavior_Guest
+  fullName: Behavior_Guest
+  type: Class
+  source:
+    id: Behavior_Guest
+    path: ''
+    startLine: 17218
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behavior_Guest : MonoBehaviour'
+    content.vb: >-
+      Public Class Behavior_Guest
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behavior_Guest.blocker
+  commentId: F:Global.Behavior_Guest.blocker
+  id: blocker
+  parent: Global.Behavior_Guest
+  langs:
+  - csharp
+  - vb
+  name: blocker
+  nameWithType: Behavior_Guest.blocker
+  fullName: Behavior_Guest.blocker
+  type: Field
+  source:
+    id: blocker
+    path: ''
+    startLine: 17221
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject blocker
+    return:
+      type: Global.GameObject
+    content.vb: Public blocker As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behavior_Guest.Behaviour_LogIn
+  commentId: F:Global.Behavior_Guest.Behaviour_LogIn
+  id: Behaviour_LogIn
+  parent: Global.Behavior_Guest
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_LogIn
+  nameWithType: Behavior_Guest.Behaviour_LogIn
+  fullName: Behavior_Guest.Behaviour_LogIn
+  type: Field
+  source:
+    id: Behaviour_LogIn
+    path: ''
+    startLine: 17223
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_LogIn Behaviour_LogIn
+    return:
+      type: Global.Behaviour_LogIn
+    content.vb: Public Behaviour_LogIn As Behaviour_LogIn
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behavior_Guest.CheckConnection
+  commentId: M:Global.Behavior_Guest.CheckConnection
+  id: CheckConnection
+  parent: Global.Behavior_Guest
+  langs:
+  - csharp
+  - vb
+  name: CheckConnection()
+  nameWithType: Behavior_Guest.CheckConnection()
+  fullName: Behavior_Guest.CheckConnection()
+  type: Method
+  source:
+    id: CheckConnection
+    path: ''
+    startLine: 17226
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void CheckConnection()
+    content.vb: Public Sub CheckConnection
+  overload: Global.Behavior_Guest.CheckConnection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behavior_Guest.checkQuery
+  commentId: F:Global.Behavior_Guest.checkQuery
+  id: checkQuery
+  parent: Global.Behavior_Guest
+  langs:
+  - csharp
+  - vb
+  name: checkQuery
+  nameWithType: Behavior_Guest.checkQuery
+  fullName: Behavior_Guest.checkQuery
+  type: Field
+  source:
+    id: checkQuery
+    path: ''
+    startLine: 17231
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string checkQuery
+    return:
+      type: System.String
+    content.vb: Public checkQuery As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behavior_Guest.CheckQuery
+  commentId: M:Global.Behavior_Guest.CheckQuery
+  id: CheckQuery
+  parent: Global.Behavior_Guest
+  langs:
+  - csharp
+  - vb
+  name: CheckQuery()
+  nameWithType: Behavior_Guest.CheckQuery()
+  fullName: Behavior_Guest.CheckQuery()
+  type: Method
+  source:
+    id: CheckQuery
+    path: ''
+    startLine: 17233
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void CheckQuery()
+    content.vb: Public Sub CheckQuery
+  overload: Global.Behavior_Guest.CheckQuery*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behavior_Guest.CheckParse
+  commentId: M:Global.Behavior_Guest.CheckParse
+  id: CheckParse
+  parent: Global.Behavior_Guest
+  langs:
+  - csharp
+  - vb
+  name: CheckParse()
+  nameWithType: Behavior_Guest.CheckParse()
+  fullName: Behavior_Guest.CheckParse()
+  type: Method
+  source:
+    id: CheckParse
+    path: ''
+    startLine: 17241
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void CheckParse()
+    content.vb: Public Sub CheckParse
+  overload: Global.Behavior_Guest.CheckParse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behavior_Guest.GoingGuest
+  commentId: M:Global.Behavior_Guest.GoingGuest
+  id: GoingGuest
+  parent: Global.Behavior_Guest
+  langs:
+  - csharp
+  - vb
+  name: GoingGuest()
+  nameWithType: Behavior_Guest.GoingGuest()
+  fullName: Behavior_Guest.GoingGuest()
+  type: Method
+  source:
+    id: GoingGuest
+    path: ''
+    startLine: 17266
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GoingGuest()
+    content.vb: Public Sub GoingGuest
+  overload: Global.Behavior_Guest.GoingGuest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_LogIn
+  commentId: T:Global.Behaviour_LogIn
+  name: Behaviour_LogIn
+  nameWithType: Behaviour_LogIn
+  fullName: Behaviour_LogIn
+- uid: Global.Behavior_Guest.CheckConnection*
+  commentId: Overload:Global.Behavior_Guest.CheckConnection
+  name: CheckConnection
+  nameWithType: Behavior_Guest.CheckConnection
+  fullName: Behavior_Guest.CheckConnection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Behavior_Guest.CheckQuery*
+  commentId: Overload:Global.Behavior_Guest.CheckQuery
+  name: CheckQuery
+  nameWithType: Behavior_Guest.CheckQuery
+  fullName: Behavior_Guest.CheckQuery
+- uid: Global.Behavior_Guest.CheckParse*
+  commentId: Overload:Global.Behavior_Guest.CheckParse
+  name: CheckParse
+  nameWithType: Behavior_Guest.CheckParse
+  fullName: Behavior_Guest.CheckParse
+- uid: Global.Behavior_Guest.GoingGuest*
+  commentId: Overload:Global.Behavior_Guest.GoingGuest
+  name: GoingGuest
+  nameWithType: Behavior_Guest.GoingGuest
+  fullName: Behavior_Guest.GoingGuest

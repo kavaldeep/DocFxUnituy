@@ -1,0 +1,648 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_BottomButtonAction
+  commentId: T:Global.Behaviour_BottomButtonAction
+  id: Behaviour_BottomButtonAction
+  parent: Global
+  children:
+  - Global.Behaviour_BottomButtonAction.ChangeIconColor
+  - Global.Behaviour_BottomButtonAction.ChangeOtherIconsColor
+  - Global.Behaviour_BottomButtonAction.contentPanel
+  - Global.Behaviour_BottomButtonAction.GoToPage(System.Int32)
+  - Global.Behaviour_BottomButtonAction.isSelected
+  - Global.Behaviour_BottomButtonAction.LandingPageToTribiewLobby
+  - Global.Behaviour_BottomButtonAction.otherAnimations
+  - Global.Behaviour_BottomButtonAction.otherIcons
+  - Global.Behaviour_BottomButtonAction.PlayAnimation
+  - Global.Behaviour_BottomButtonAction.PlayInvertAnimation
+  - Global.Behaviour_BottomButtonAction.scrollRect
+  - Global.Behaviour_BottomButtonAction.serieManager
+  - Global.Behaviour_BottomButtonAction.SnapTo(RectTransform)
+  - Global.Behaviour_BottomButtonAction.switchTopBarStatus
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_BottomButtonAction
+  nameWithType: Behaviour_BottomButtonAction
+  fullName: Behaviour_BottomButtonAction
+  type: Class
+  source:
+    id: Behaviour_BottomButtonAction
+    path: ''
+    startLine: 19928
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_BottomButtonAction : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_BottomButtonAction
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_BottomButtonAction.serieManager
+  commentId: F:Global.Behaviour_BottomButtonAction.serieManager
+  id: serieManager
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: serieManager
+  nameWithType: Behaviour_BottomButtonAction.serieManager
+  fullName: Behaviour_BottomButtonAction.serieManager
+  type: Field
+  source:
+    id: serieManager
+    path: ''
+    startLine: 19930
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieManager serieManager
+    return:
+      type: Global.Behaviour_SerieManager
+    content.vb: Public serieManager As Behaviour_SerieManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.otherIcons
+  commentId: F:Global.Behaviour_BottomButtonAction.otherIcons
+  id: otherIcons
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: otherIcons
+  nameWithType: Behaviour_BottomButtonAction.otherIcons
+  fullName: Behaviour_BottomButtonAction.otherIcons
+  type: Field
+  source:
+    id: otherIcons
+    path: ''
+    startLine: 19936
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<Image> otherIcons
+    return:
+      type: System.Collections.Generic.List{Image}
+    content.vb: Public otherIcons As List(Of Image)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.otherAnimations
+  commentId: F:Global.Behaviour_BottomButtonAction.otherAnimations
+  id: otherAnimations
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: otherAnimations
+  nameWithType: Behaviour_BottomButtonAction.otherAnimations
+  fullName: Behaviour_BottomButtonAction.otherAnimations
+  type: Field
+  source:
+    id: otherAnimations
+    path: ''
+    startLine: 19937
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<Animator> otherAnimations
+    return:
+      type: System.Collections.Generic.List{Animator}
+    content.vb: Public otherAnimations As List(Of Animator)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.isSelected
+  commentId: F:Global.Behaviour_BottomButtonAction.isSelected
+  id: isSelected
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: isSelected
+  nameWithType: Behaviour_BottomButtonAction.isSelected
+  fullName: Behaviour_BottomButtonAction.isSelected
+  type: Field
+  source:
+    id: isSelected
+    path: ''
+    startLine: 19938
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool isSelected
+    return:
+      type: System.Boolean
+    content.vb: Public isSelected As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.scrollRect
+  commentId: F:Global.Behaviour_BottomButtonAction.scrollRect
+  id: scrollRect
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: scrollRect
+  nameWithType: Behaviour_BottomButtonAction.scrollRect
+  fullName: Behaviour_BottomButtonAction.scrollRect
+  type: Field
+  source:
+    id: scrollRect
+    path: ''
+    startLine: 19939
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ScrollRect scrollRect
+    return:
+      type: Global.ScrollRect
+    content.vb: Public scrollRect As ScrollRect
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.contentPanel
+  commentId: F:Global.Behaviour_BottomButtonAction.contentPanel
+  id: contentPanel
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: contentPanel
+  nameWithType: Behaviour_BottomButtonAction.contentPanel
+  fullName: Behaviour_BottomButtonAction.contentPanel
+  type: Field
+  source:
+    id: contentPanel
+    path: ''
+    startLine: 19940
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RectTransform contentPanel
+    return:
+      type: Global.RectTransform
+    content.vb: Public contentPanel As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.GoToPage(System.Int32)
+  commentId: M:Global.Behaviour_BottomButtonAction.GoToPage(System.Int32)
+  id: GoToPage(System.Int32)
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: GoToPage(Int32)
+  nameWithType: Behaviour_BottomButtonAction.GoToPage(Int32)
+  fullName: Behaviour_BottomButtonAction.GoToPage(System.Int32)
+  type: Method
+  source:
+    id: GoToPage
+    path: ''
+    startLine: 19979
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GoToPage(int _PageNb)
+    parameters:
+    - id: _PageNb
+      type: System.Int32
+    content.vb: Public Sub GoToPage(_PageNb As Integer)
+  overload: Global.Behaviour_BottomButtonAction.GoToPage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.switchTopBarStatus
+  commentId: M:Global.Behaviour_BottomButtonAction.switchTopBarStatus
+  id: switchTopBarStatus
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: switchTopBarStatus()
+  nameWithType: Behaviour_BottomButtonAction.switchTopBarStatus()
+  fullName: Behaviour_BottomButtonAction.switchTopBarStatus()
+  type: Method
+  source:
+    id: switchTopBarStatus
+    path: ''
+    startLine: 19992
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void switchTopBarStatus()
+    content.vb: Public Sub switchTopBarStatus
+  overload: Global.Behaviour_BottomButtonAction.switchTopBarStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.ChangeIconColor
+  commentId: M:Global.Behaviour_BottomButtonAction.ChangeIconColor
+  id: ChangeIconColor
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: ChangeIconColor()
+  nameWithType: Behaviour_BottomButtonAction.ChangeIconColor()
+  fullName: Behaviour_BottomButtonAction.ChangeIconColor()
+  type: Method
+  source:
+    id: ChangeIconColor
+    path: ''
+    startLine: 20003
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ChangeIconColor()
+    content.vb: Public Sub ChangeIconColor
+  overload: Global.Behaviour_BottomButtonAction.ChangeIconColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.ChangeOtherIconsColor
+  commentId: M:Global.Behaviour_BottomButtonAction.ChangeOtherIconsColor
+  id: ChangeOtherIconsColor
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: ChangeOtherIconsColor()
+  nameWithType: Behaviour_BottomButtonAction.ChangeOtherIconsColor()
+  fullName: Behaviour_BottomButtonAction.ChangeOtherIconsColor()
+  type: Method
+  source:
+    id: ChangeOtherIconsColor
+    path: ''
+    startLine: 20019
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ChangeOtherIconsColor()
+    content.vb: Public Sub ChangeOtherIconsColor
+  overload: Global.Behaviour_BottomButtonAction.ChangeOtherIconsColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.SnapTo(RectTransform)
+  commentId: M:Global.Behaviour_BottomButtonAction.SnapTo(RectTransform)
+  id: SnapTo(RectTransform)
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: SnapTo(RectTransform)
+  nameWithType: Behaviour_BottomButtonAction.SnapTo(RectTransform)
+  fullName: Behaviour_BottomButtonAction.SnapTo(RectTransform)
+  type: Method
+  source:
+    id: SnapTo
+    path: ''
+    startLine: 20032
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SnapTo(RectTransform target)
+    parameters:
+    - id: target
+      type: Global.RectTransform
+    content.vb: Public Sub SnapTo(target As RectTransform)
+  overload: Global.Behaviour_BottomButtonAction.SnapTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.LandingPageToTribiewLobby
+  commentId: M:Global.Behaviour_BottomButtonAction.LandingPageToTribiewLobby
+  id: LandingPageToTribiewLobby
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: LandingPageToTribiewLobby()
+  nameWithType: Behaviour_BottomButtonAction.LandingPageToTribiewLobby()
+  fullName: Behaviour_BottomButtonAction.LandingPageToTribiewLobby()
+  type: Method
+  source:
+    id: LandingPageToTribiewLobby
+    path: ''
+    startLine: 20040
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LandingPageToTribiewLobby()
+    content.vb: Public Sub LandingPageToTribiewLobby
+  overload: Global.Behaviour_BottomButtonAction.LandingPageToTribiewLobby*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.PlayAnimation
+  commentId: M:Global.Behaviour_BottomButtonAction.PlayAnimation
+  id: PlayAnimation
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: PlayAnimation()
+  nameWithType: Behaviour_BottomButtonAction.PlayAnimation()
+  fullName: Behaviour_BottomButtonAction.PlayAnimation()
+  type: Method
+  source:
+    id: PlayAnimation
+    path: ''
+    startLine: 20058
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PlayAnimation()
+    content.vb: Public Sub PlayAnimation
+  overload: Global.Behaviour_BottomButtonAction.PlayAnimation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomButtonAction.PlayInvertAnimation
+  commentId: M:Global.Behaviour_BottomButtonAction.PlayInvertAnimation
+  id: PlayInvertAnimation
+  parent: Global.Behaviour_BottomButtonAction
+  langs:
+  - csharp
+  - vb
+  name: PlayInvertAnimation()
+  nameWithType: Behaviour_BottomButtonAction.PlayInvertAnimation()
+  fullName: Behaviour_BottomButtonAction.PlayInvertAnimation()
+  type: Method
+  source:
+    id: PlayInvertAnimation
+    path: ''
+    startLine: 20064
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PlayInvertAnimation()
+    content.vb: Public Sub PlayInvertAnimation
+  overload: Global.Behaviour_BottomButtonAction.PlayInvertAnimation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_SerieManager
+  commentId: T:Global.Behaviour_SerieManager
+  name: Behaviour_SerieManager
+  nameWithType: Behaviour_SerieManager
+  fullName: Behaviour_SerieManager
+- uid: System.Collections.Generic.List{Image}
+  commentId: T:System.Collections.Generic.List{Image}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Image>
+  nameWithType: List<Image>
+  fullName: System.Collections.Generic.List<Image>
+  nameWithType.vb: List(Of Image)
+  fullName.vb: System.Collections.Generic.List(Of Image)
+  name.vb: List(Of Image)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Image
+    name: Image
+    nameWithType: Image
+    fullName: Image
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Image
+    name: Image
+    nameWithType: Image
+    fullName: Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{Animator}
+  commentId: T:System.Collections.Generic.List{Animator}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Animator>
+  nameWithType: List<Animator>
+  fullName: System.Collections.Generic.List<Animator>
+  nameWithType.vb: List(Of Animator)
+  fullName.vb: System.Collections.Generic.List(Of Animator)
+  name.vb: List(Of Animator)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Animator
+    name: Animator
+    nameWithType: Animator
+    fullName: Animator
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Animator
+    name: Animator
+    nameWithType: Animator
+    fullName: Animator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.ScrollRect
+  commentId: '!:Global.ScrollRect'
+  isExternal: true
+  name: ScrollRect
+  nameWithType: ScrollRect
+  fullName: ScrollRect
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.Behaviour_BottomButtonAction.GoToPage*
+  commentId: Overload:Global.Behaviour_BottomButtonAction.GoToPage
+  name: GoToPage
+  nameWithType: Behaviour_BottomButtonAction.GoToPage
+  fullName: Behaviour_BottomButtonAction.GoToPage
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_BottomButtonAction.switchTopBarStatus*
+  commentId: Overload:Global.Behaviour_BottomButtonAction.switchTopBarStatus
+  name: switchTopBarStatus
+  nameWithType: Behaviour_BottomButtonAction.switchTopBarStatus
+  fullName: Behaviour_BottomButtonAction.switchTopBarStatus
+- uid: Global.Behaviour_BottomButtonAction.ChangeIconColor*
+  commentId: Overload:Global.Behaviour_BottomButtonAction.ChangeIconColor
+  name: ChangeIconColor
+  nameWithType: Behaviour_BottomButtonAction.ChangeIconColor
+  fullName: Behaviour_BottomButtonAction.ChangeIconColor
+- uid: Global.Behaviour_BottomButtonAction.ChangeOtherIconsColor*
+  commentId: Overload:Global.Behaviour_BottomButtonAction.ChangeOtherIconsColor
+  name: ChangeOtherIconsColor
+  nameWithType: Behaviour_BottomButtonAction.ChangeOtherIconsColor
+  fullName: Behaviour_BottomButtonAction.ChangeOtherIconsColor
+- uid: Global.Behaviour_BottomButtonAction.SnapTo*
+  commentId: Overload:Global.Behaviour_BottomButtonAction.SnapTo
+  name: SnapTo
+  nameWithType: Behaviour_BottomButtonAction.SnapTo
+  fullName: Behaviour_BottomButtonAction.SnapTo
+- uid: Global.Behaviour_BottomButtonAction.LandingPageToTribiewLobby*
+  commentId: Overload:Global.Behaviour_BottomButtonAction.LandingPageToTribiewLobby
+  name: LandingPageToTribiewLobby
+  nameWithType: Behaviour_BottomButtonAction.LandingPageToTribiewLobby
+  fullName: Behaviour_BottomButtonAction.LandingPageToTribiewLobby
+- uid: Global.Behaviour_BottomButtonAction.PlayAnimation*
+  commentId: Overload:Global.Behaviour_BottomButtonAction.PlayAnimation
+  name: PlayAnimation
+  nameWithType: Behaviour_BottomButtonAction.PlayAnimation
+  fullName: Behaviour_BottomButtonAction.PlayAnimation
+- uid: Global.Behaviour_BottomButtonAction.PlayInvertAnimation*
+  commentId: Overload:Global.Behaviour_BottomButtonAction.PlayInvertAnimation
+  name: PlayInvertAnimation
+  nameWithType: Behaviour_BottomButtonAction.PlayInvertAnimation
+  fullName: Behaviour_BottomButtonAction.PlayInvertAnimation

@@ -1,0 +1,1840 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_Constants
+  commentId: T:Global.Static_Constants
+  id: Static_Constants
+  parent: Global
+  children:
+  - Global.Static_Constants.charKeySeparator
+  - Global.Static_Constants.commentChar
+  - Global.Static_Constants.commentString
+  - Global.Static_Constants.fontsPath
+  - Global.Static_Constants.genericImageURL
+  - Global.Static_Constants.imageExtensions
+  - Global.Static_Constants.keySeparator
+  - Global.Static_Constants.languageFolder
+  - Global.Static_Constants.languagePlayerPrefKey
+  - Global.Static_Constants.lineSeparator
+  - Global.Static_Constants.lineSeparatorChar
+  - Global.Static_Constants.loadingText
+  - Global.Static_Constants.newsSerieTemplateFileName
+  - Global.Static_Constants.newsTemplateFilePath
+  - Global.Static_Constants.PlayerPrefsAutologString
+  - Global.Static_Constants.PlayerPrefsEmailString
+  - Global.Static_Constants.PlayerPrefsPasswordString
+  - Global.Static_Constants.resourcesLanguageFolder
+  - Global.Static_Constants.resourcesNewsTemplateFilePath
+  - Global.Static_Constants.resourcesSeriesTemplatePath
+  - Global.Static_Constants.resourcesSerieTemplateFilePath
+  - Global.Static_Constants.resourcesShopSerieTemplateFilePath
+  - Global.Static_Constants.resourcesTribiewJsonTemplatePath
+  - Global.Static_Constants.resourcesVaultTemplateFilePath
+  - Global.Static_Constants.resourceTribiewNewsTemplateFilePath
+  - Global.Static_Constants.resourceTribiewShopTemplateFilePath
+  - Global.Static_Constants.runtimeDownloadFolder
+  - Global.Static_Constants.runtimeMessageDownloadFolder
+  - Global.Static_Constants.runtimeSeriesDownloadFolder
+  - Global.Static_Constants.runtimeSeriesUploadFolder
+  - Global.Static_Constants.runtimeTextureDownloadFolder
+  - Global.Static_Constants.runtimeTribiewDownloadFolder
+  - Global.Static_Constants.runtimeVideoDownloadFolder
+  - Global.Static_Constants.s3SeriesInfoURL
+  - Global.Static_Constants.s3SeriesURL
+  - Global.Static_Constants.s3TribiewNewsURL
+  - Global.Static_Constants.s3TribiewShopURL
+  - Global.Static_Constants.seriesFolder
+  - Global.Static_Constants.seriesTemplatePath
+  - Global.Static_Constants.serieTemplateFileName
+  - Global.Static_Constants.serieTemplateFilePath
+  - Global.Static_Constants.shopSerieTemplateFileName
+  - Global.Static_Constants.shopSerieTemplateFilePath
+  - Global.Static_Constants.supportInfo
+  - Global.Static_Constants.templateFile
+  - Global.Static_Constants.tribiewJsonPath
+  - Global.Static_Constants.tribiewNewsTemplateFileName
+  - Global.Static_Constants.tribiewNewsTemplateFilePath
+  - Global.Static_Constants.tribiewShopTemplateFileName
+  - Global.Static_Constants.tribiewShopTemplateFilePath
+  - Global.Static_Constants.unsupportedTag
+  - Global.Static_Constants.UrlPageSeparator
+  - Global.Static_Constants.UrlPageSeparatorChar
+  - Global.Static_Constants.UrlServer
+  - Global.Static_Constants.UrlServerGraphQL
+  - Global.Static_Constants.vaultSerieTemplateFileName
+  - Global.Static_Constants.vaultTemplateFilePath
+  - Global.Static_Constants.videoExtensions
+  langs:
+  - csharp
+  - vb
+  name: Static_Constants
+  nameWithType: Static_Constants
+  fullName: Static_Constants
+  type: Class
+  source:
+    id: Static_Constants
+    path: ''
+    startLine: 16187
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nClass containing this project&apos;s contants\n"
+  example: []
+  syntax:
+    content: public static class Static_Constants
+    content.vb: Public Module Static_Constants
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_Constants.keySeparator
+  commentId: F:Global.Static_Constants.keySeparator
+  id: keySeparator
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: keySeparator
+  nameWithType: Static_Constants.keySeparator
+  fullName: Static_Constants.keySeparator
+  type: Field
+  source:
+    id: keySeparator
+    path: ''
+    startLine: 16189
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string keySeparator = "¤"
+    return:
+      type: System.String
+    content.vb: Public Const keySeparator As String = "¤"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.charKeySeparator
+  commentId: F:Global.Static_Constants.charKeySeparator
+  id: charKeySeparator
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: charKeySeparator
+  nameWithType: Static_Constants.charKeySeparator
+  fullName: Static_Constants.charKeySeparator
+  type: Field
+  source:
+    id: charKeySeparator
+    path: ''
+    startLine: 16190
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const char charKeySeparator = '¤'
+    return:
+      type: System.Char
+    content.vb: Public Const charKeySeparator As Char = "¤"c
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.commentString
+  commentId: F:Global.Static_Constants.commentString
+  id: commentString
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: commentString
+  nameWithType: Static_Constants.commentString
+  fullName: Static_Constants.commentString
+  type: Field
+  source:
+    id: commentString
+    path: ''
+    startLine: 16191
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string commentString = "#"
+    return:
+      type: System.String
+    content.vb: Public Const commentString As String = "#"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.commentChar
+  commentId: F:Global.Static_Constants.commentChar
+  id: commentChar
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: commentChar
+  nameWithType: Static_Constants.commentChar
+  fullName: Static_Constants.commentChar
+  type: Field
+  source:
+    id: commentChar
+    path: ''
+    startLine: 16192
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const char commentChar = '#'
+    return:
+      type: System.Char
+    content.vb: Public Const commentChar As Char = "#"c
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.supportInfo
+  commentId: F:Global.Static_Constants.supportInfo
+  id: supportInfo
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: supportInfo
+  nameWithType: Static_Constants.supportInfo
+  fullName: Static_Constants.supportInfo
+  type: Field
+  source:
+    id: supportInfo
+    path: ''
+    startLine: 16193
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string supportInfo = "!"
+    return:
+      type: System.String
+    content.vb: Public Const supportInfo As String = "!"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.lineSeparator
+  commentId: F:Global.Static_Constants.lineSeparator
+  id: lineSeparator
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: lineSeparator
+  nameWithType: Static_Constants.lineSeparator
+  fullName: Static_Constants.lineSeparator
+  type: Field
+  source:
+    id: lineSeparator
+    path: ''
+    startLine: 16194
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string lineSeparator = "\n"
+    return:
+      type: System.String
+    content.vb: Public Const lineSeparator As String = vbLf
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.lineSeparatorChar
+  commentId: F:Global.Static_Constants.lineSeparatorChar
+  id: lineSeparatorChar
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: lineSeparatorChar
+  nameWithType: Static_Constants.lineSeparatorChar
+  fullName: Static_Constants.lineSeparatorChar
+  type: Field
+  source:
+    id: lineSeparatorChar
+    path: ''
+    startLine: 16195
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const char lineSeparatorChar = '\n'
+    return:
+      type: System.Char
+    content.vb: Public Const lineSeparatorChar As Char = vbLf
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.unsupportedTag
+  commentId: F:Global.Static_Constants.unsupportedTag
+  id: unsupportedTag
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: unsupportedTag
+  nameWithType: Static_Constants.unsupportedTag
+  fullName: Static_Constants.unsupportedTag
+  type: Field
+  source:
+    id: unsupportedTag
+    path: ''
+    startLine: 16196
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string unsupportedTag = "!Unsupported"
+    return:
+      type: System.String
+    content.vb: Public Const unsupportedTag As String = "!Unsupported"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.languageFolder
+  commentId: F:Global.Static_Constants.languageFolder
+  id: languageFolder
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: languageFolder
+  nameWithType: Static_Constants.languageFolder
+  fullName: Static_Constants.languageFolder
+  type: Field
+  source:
+    id: languageFolder
+    path: ''
+    startLine: 16198
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string languageFolder = "/Resources/Languages/"
+    return:
+      type: System.String
+    content.vb: Public Const languageFolder As String = "/Resources/Languages/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.resourcesLanguageFolder
+  commentId: F:Global.Static_Constants.resourcesLanguageFolder
+  id: resourcesLanguageFolder
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: resourcesLanguageFolder
+  nameWithType: Static_Constants.resourcesLanguageFolder
+  fullName: Static_Constants.resourcesLanguageFolder
+  type: Field
+  source:
+    id: resourcesLanguageFolder
+    path: ''
+    startLine: 16199
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string resourcesLanguageFolder = "Languages/"
+    return:
+      type: System.String
+    content.vb: Public Const resourcesLanguageFolder As String = "Languages/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.templateFile
+  commentId: F:Global.Static_Constants.templateFile
+  id: templateFile
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: templateFile
+  nameWithType: Static_Constants.templateFile
+  fullName: Static_Constants.templateFile
+  type: Field
+  source:
+    id: templateFile
+    path: ''
+    startLine: 16200
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string templateFile = "/Editor/Resources/language_keys.txt"
+    return:
+      type: System.String
+    content.vb: Public Const templateFile As String = "/Editor/Resources/language_keys.txt"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.languagePlayerPrefKey
+  commentId: F:Global.Static_Constants.languagePlayerPrefKey
+  id: languagePlayerPrefKey
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: languagePlayerPrefKey
+  nameWithType: Static_Constants.languagePlayerPrefKey
+  fullName: Static_Constants.languagePlayerPrefKey
+  type: Field
+  source:
+    id: languagePlayerPrefKey
+    path: ''
+    startLine: 16202
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string languagePlayerPrefKey = "Language"
+    return:
+      type: System.String
+    content.vb: Public Const languagePlayerPrefKey As String = "Language"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.fontsPath
+  commentId: F:Global.Static_Constants.fontsPath
+  id: fontsPath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: fontsPath
+  nameWithType: Static_Constants.fontsPath
+  fullName: Static_Constants.fontsPath
+  type: Field
+  source:
+    id: fontsPath
+    path: ''
+    startLine: 16203
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string fontsPath = "Fonts"
+    return:
+      type: System.String
+    content.vb: Public Const fontsPath As String = "Fonts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.loadingText
+  commentId: F:Global.Static_Constants.loadingText
+  id: loadingText
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: loadingText
+  nameWithType: Static_Constants.loadingText
+  fullName: Static_Constants.loadingText
+  type: Field
+  source:
+    id: loadingText
+    path: ''
+    startLine: 16205
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string loadingText = "Loading Texts ..."
+    return:
+      type: System.String
+    content.vb: Public Const loadingText As String = "Loading Texts ..."
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.UrlServerGraphQL
+  commentId: F:Global.Static_Constants.UrlServerGraphQL
+  id: UrlServerGraphQL
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: UrlServerGraphQL
+  nameWithType: Static_Constants.UrlServerGraphQL
+  fullName: Static_Constants.UrlServerGraphQL
+  type: Field
+  source:
+    id: UrlServerGraphQL
+    path: ''
+    startLine: 16207
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string UrlServerGraphQL = "http://163.172.93.149:3010/graphql/"
+    return:
+      type: System.String
+    content.vb: Public Const UrlServerGraphQL As String = "http://163.172.93.149:3010/graphql/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.UrlServer
+  commentId: F:Global.Static_Constants.UrlServer
+  id: UrlServer
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: UrlServer
+  nameWithType: Static_Constants.UrlServer
+  fullName: Static_Constants.UrlServer
+  type: Field
+  source:
+    id: UrlServer
+    path: ''
+    startLine: 16208
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string UrlServer = "http://163.172.93.149:3010/"
+    return:
+      type: System.String
+    content.vb: Public Const UrlServer As String = "http://163.172.93.149:3010/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.UrlPageSeparatorChar
+  commentId: F:Global.Static_Constants.UrlPageSeparatorChar
+  id: UrlPageSeparatorChar
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: UrlPageSeparatorChar
+  nameWithType: Static_Constants.UrlPageSeparatorChar
+  fullName: Static_Constants.UrlPageSeparatorChar
+  type: Field
+  source:
+    id: UrlPageSeparatorChar
+    path: ''
+    startLine: 16209
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const char UrlPageSeparatorChar = '/'
+    return:
+      type: System.Char
+    content.vb: Public Const UrlPageSeparatorChar As Char = "/"c
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.UrlPageSeparator
+  commentId: F:Global.Static_Constants.UrlPageSeparator
+  id: UrlPageSeparator
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: UrlPageSeparator
+  nameWithType: Static_Constants.UrlPageSeparator
+  fullName: Static_Constants.UrlPageSeparator
+  type: Field
+  source:
+    id: UrlPageSeparator
+    path: ''
+    startLine: 16210
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string UrlPageSeparator = "/"
+    return:
+      type: System.String
+    content.vb: Public Const UrlPageSeparator As String = "/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.PlayerPrefsAutologString
+  commentId: F:Global.Static_Constants.PlayerPrefsAutologString
+  id: PlayerPrefsAutologString
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: PlayerPrefsAutologString
+  nameWithType: Static_Constants.PlayerPrefsAutologString
+  fullName: Static_Constants.PlayerPrefsAutologString
+  type: Field
+  source:
+    id: PlayerPrefsAutologString
+    path: ''
+    startLine: 16212
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string PlayerPrefsAutologString = "autolog"
+    return:
+      type: System.String
+    content.vb: Public Const PlayerPrefsAutologString As String = "autolog"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.PlayerPrefsEmailString
+  commentId: F:Global.Static_Constants.PlayerPrefsEmailString
+  id: PlayerPrefsEmailString
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: PlayerPrefsEmailString
+  nameWithType: Static_Constants.PlayerPrefsEmailString
+  fullName: Static_Constants.PlayerPrefsEmailString
+  type: Field
+  source:
+    id: PlayerPrefsEmailString
+    path: ''
+    startLine: 16213
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string PlayerPrefsEmailString = "email"
+    return:
+      type: System.String
+    content.vb: Public Const PlayerPrefsEmailString As String = "email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.PlayerPrefsPasswordString
+  commentId: F:Global.Static_Constants.PlayerPrefsPasswordString
+  id: PlayerPrefsPasswordString
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: PlayerPrefsPasswordString
+  nameWithType: Static_Constants.PlayerPrefsPasswordString
+  fullName: Static_Constants.PlayerPrefsPasswordString
+  type: Field
+  source:
+    id: PlayerPrefsPasswordString
+    path: ''
+    startLine: 16214
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string PlayerPrefsPasswordString = "password"
+    return:
+      type: System.String
+    content.vb: Public Const PlayerPrefsPasswordString As String = "password"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.runtimeDownloadFolder
+  commentId: F:Global.Static_Constants.runtimeDownloadFolder
+  id: runtimeDownloadFolder
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: runtimeDownloadFolder
+  nameWithType: Static_Constants.runtimeDownloadFolder
+  fullName: Static_Constants.runtimeDownloadFolder
+  type: Field
+  source:
+    id: runtimeDownloadFolder
+    path: ''
+    startLine: 16216
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string runtimeDownloadFolder = "/Runtime/"
+    return:
+      type: System.String
+    content.vb: Public Const runtimeDownloadFolder As String = "/Runtime/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.runtimeTextureDownloadFolder
+  commentId: F:Global.Static_Constants.runtimeTextureDownloadFolder
+  id: runtimeTextureDownloadFolder
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: runtimeTextureDownloadFolder
+  nameWithType: Static_Constants.runtimeTextureDownloadFolder
+  fullName: Static_Constants.runtimeTextureDownloadFolder
+  type: Field
+  source:
+    id: runtimeTextureDownloadFolder
+    path: ''
+    startLine: 16217
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string runtimeTextureDownloadFolder = "/Runtime/Images/"
+    return:
+      type: System.String
+    content.vb: Public Const runtimeTextureDownloadFolder As String = "/Runtime/Images/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.runtimeVideoDownloadFolder
+  commentId: F:Global.Static_Constants.runtimeVideoDownloadFolder
+  id: runtimeVideoDownloadFolder
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: runtimeVideoDownloadFolder
+  nameWithType: Static_Constants.runtimeVideoDownloadFolder
+  fullName: Static_Constants.runtimeVideoDownloadFolder
+  type: Field
+  source:
+    id: runtimeVideoDownloadFolder
+    path: ''
+    startLine: 16218
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string runtimeVideoDownloadFolder = "/Runtime/Videos/"
+    return:
+      type: System.String
+    content.vb: Public Const runtimeVideoDownloadFolder As String = "/Runtime/Videos/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.runtimeMessageDownloadFolder
+  commentId: F:Global.Static_Constants.runtimeMessageDownloadFolder
+  id: runtimeMessageDownloadFolder
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: runtimeMessageDownloadFolder
+  nameWithType: Static_Constants.runtimeMessageDownloadFolder
+  fullName: Static_Constants.runtimeMessageDownloadFolder
+  type: Field
+  source:
+    id: runtimeMessageDownloadFolder
+    path: ''
+    startLine: 16219
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string runtimeMessageDownloadFolder = "/Runtime/Messages/"
+    return:
+      type: System.String
+    content.vb: Public Const runtimeMessageDownloadFolder As String = "/Runtime/Messages/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.runtimeSeriesDownloadFolder
+  commentId: F:Global.Static_Constants.runtimeSeriesDownloadFolder
+  id: runtimeSeriesDownloadFolder
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: runtimeSeriesDownloadFolder
+  nameWithType: Static_Constants.runtimeSeriesDownloadFolder
+  fullName: Static_Constants.runtimeSeriesDownloadFolder
+  type: Field
+  source:
+    id: runtimeSeriesDownloadFolder
+    path: ''
+    startLine: 16220
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string runtimeSeriesDownloadFolder = "/Runtime/Series/"
+    return:
+      type: System.String
+    content.vb: Public Const runtimeSeriesDownloadFolder As String = "/Runtime/Series/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.runtimeSeriesUploadFolder
+  commentId: F:Global.Static_Constants.runtimeSeriesUploadFolder
+  id: runtimeSeriesUploadFolder
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: runtimeSeriesUploadFolder
+  nameWithType: Static_Constants.runtimeSeriesUploadFolder
+  fullName: Static_Constants.runtimeSeriesUploadFolder
+  type: Field
+  source:
+    id: runtimeSeriesUploadFolder
+    path: ''
+    startLine: 16221
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string runtimeSeriesUploadFolder = "/Runtime/Upload/"
+    return:
+      type: System.String
+    content.vb: Public Const runtimeSeriesUploadFolder As String = "/Runtime/Upload/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.runtimeTribiewDownloadFolder
+  commentId: F:Global.Static_Constants.runtimeTribiewDownloadFolder
+  id: runtimeTribiewDownloadFolder
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: runtimeTribiewDownloadFolder
+  nameWithType: Static_Constants.runtimeTribiewDownloadFolder
+  fullName: Static_Constants.runtimeTribiewDownloadFolder
+  type: Field
+  source:
+    id: runtimeTribiewDownloadFolder
+    path: ''
+    startLine: 16223
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string runtimeTribiewDownloadFolder = "/Runtime/Tribiew/"
+    return:
+      type: System.String
+    content.vb: Public Const runtimeTribiewDownloadFolder As String = "/Runtime/Tribiew/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.genericImageURL
+  commentId: F:Global.Static_Constants.genericImageURL
+  id: genericImageURL
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: genericImageURL
+  nameWithType: Static_Constants.genericImageURL
+  fullName: Static_Constants.genericImageURL
+  type: Field
+  source:
+    id: genericImageURL
+    path: ''
+    startLine: 16227
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string genericImageURL = ""
+    return:
+      type: System.String
+    content.vb: Public Const genericImageURL As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.seriesFolder
+  commentId: F:Global.Static_Constants.seriesFolder
+  id: seriesFolder
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: seriesFolder
+  nameWithType: Static_Constants.seriesFolder
+  fullName: Static_Constants.seriesFolder
+  type: Field
+  source:
+    id: seriesFolder
+    path: ''
+    startLine: 16229
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string seriesFolder = "/Series/"
+    return:
+      type: System.String
+    content.vb: Public Const seriesFolder As String = "/Series/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.seriesTemplatePath
+  commentId: F:Global.Static_Constants.seriesTemplatePath
+  id: seriesTemplatePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: seriesTemplatePath
+  nameWithType: Static_Constants.seriesTemplatePath
+  fullName: Static_Constants.seriesTemplatePath
+  type: Field
+  source:
+    id: seriesTemplatePath
+    path: ''
+    startLine: 16230
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string seriesTemplatePath = "/Resources/Series/Templates/"
+    return:
+      type: System.String
+    content.vb: Public Const seriesTemplatePath As String = "/Resources/Series/Templates/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.resourcesSeriesTemplatePath
+  commentId: F:Global.Static_Constants.resourcesSeriesTemplatePath
+  id: resourcesSeriesTemplatePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: resourcesSeriesTemplatePath
+  nameWithType: Static_Constants.resourcesSeriesTemplatePath
+  fullName: Static_Constants.resourcesSeriesTemplatePath
+  type: Field
+  source:
+    id: resourcesSeriesTemplatePath
+    path: ''
+    startLine: 16231
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string resourcesSeriesTemplatePath = "Series/Templates/"
+    return:
+      type: System.String
+    content.vb: Public Const resourcesSeriesTemplatePath As String = "Series/Templates/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.serieTemplateFileName
+  commentId: F:Global.Static_Constants.serieTemplateFileName
+  id: serieTemplateFileName
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: serieTemplateFileName
+  nameWithType: Static_Constants.serieTemplateFileName
+  fullName: Static_Constants.serieTemplateFileName
+  type: Field
+  source:
+    id: serieTemplateFileName
+    path: ''
+    startLine: 16232
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string serieTemplateFileName = "/Serie.json"
+    return:
+      type: System.String
+    content.vb: Public Const serieTemplateFileName As String = "/Serie.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.serieTemplateFilePath
+  commentId: F:Global.Static_Constants.serieTemplateFilePath
+  id: serieTemplateFilePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: serieTemplateFilePath
+  nameWithType: Static_Constants.serieTemplateFilePath
+  fullName: Static_Constants.serieTemplateFilePath
+  type: Field
+  source:
+    id: serieTemplateFilePath
+    path: ''
+    startLine: 16233
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string serieTemplateFilePath = "/Resources/Series/Templates//Serie.json"
+    return:
+      type: System.String
+    content.vb: Public Const serieTemplateFilePath As String = "/Resources/Series/Templates//Serie.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.resourcesSerieTemplateFilePath
+  commentId: F:Global.Static_Constants.resourcesSerieTemplateFilePath
+  id: resourcesSerieTemplateFilePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: resourcesSerieTemplateFilePath
+  nameWithType: Static_Constants.resourcesSerieTemplateFilePath
+  fullName: Static_Constants.resourcesSerieTemplateFilePath
+  type: Field
+  source:
+    id: resourcesSerieTemplateFilePath
+    path: ''
+    startLine: 16234
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string resourcesSerieTemplateFilePath = "Series/Templates//Serie.json"
+    return:
+      type: System.String
+    content.vb: Public Const resourcesSerieTemplateFilePath As String = "Series/Templates//Serie.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.shopSerieTemplateFileName
+  commentId: F:Global.Static_Constants.shopSerieTemplateFileName
+  id: shopSerieTemplateFileName
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: shopSerieTemplateFileName
+  nameWithType: Static_Constants.shopSerieTemplateFileName
+  fullName: Static_Constants.shopSerieTemplateFileName
+  type: Field
+  source:
+    id: shopSerieTemplateFileName
+    path: ''
+    startLine: 16235
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string shopSerieTemplateFileName = "/Shop.json"
+    return:
+      type: System.String
+    content.vb: Public Const shopSerieTemplateFileName As String = "/Shop.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.shopSerieTemplateFilePath
+  commentId: F:Global.Static_Constants.shopSerieTemplateFilePath
+  id: shopSerieTemplateFilePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: shopSerieTemplateFilePath
+  nameWithType: Static_Constants.shopSerieTemplateFilePath
+  fullName: Static_Constants.shopSerieTemplateFilePath
+  type: Field
+  source:
+    id: shopSerieTemplateFilePath
+    path: ''
+    startLine: 16236
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string shopSerieTemplateFilePath = "/Resources/Series/Templates//Shop.json"
+    return:
+      type: System.String
+    content.vb: Public Const shopSerieTemplateFilePath As String = "/Resources/Series/Templates//Shop.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.resourcesShopSerieTemplateFilePath
+  commentId: F:Global.Static_Constants.resourcesShopSerieTemplateFilePath
+  id: resourcesShopSerieTemplateFilePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: resourcesShopSerieTemplateFilePath
+  nameWithType: Static_Constants.resourcesShopSerieTemplateFilePath
+  fullName: Static_Constants.resourcesShopSerieTemplateFilePath
+  type: Field
+  source:
+    id: resourcesShopSerieTemplateFilePath
+    path: ''
+    startLine: 16237
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string resourcesShopSerieTemplateFilePath = "Series/Templates//Shop.json"
+    return:
+      type: System.String
+    content.vb: Public Const resourcesShopSerieTemplateFilePath As String = "Series/Templates//Shop.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.vaultSerieTemplateFileName
+  commentId: F:Global.Static_Constants.vaultSerieTemplateFileName
+  id: vaultSerieTemplateFileName
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: vaultSerieTemplateFileName
+  nameWithType: Static_Constants.vaultSerieTemplateFileName
+  fullName: Static_Constants.vaultSerieTemplateFileName
+  type: Field
+  source:
+    id: vaultSerieTemplateFileName
+    path: ''
+    startLine: 16238
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string vaultSerieTemplateFileName = "/Vault.json"
+    return:
+      type: System.String
+    content.vb: Public Const vaultSerieTemplateFileName As String = "/Vault.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.vaultTemplateFilePath
+  commentId: F:Global.Static_Constants.vaultTemplateFilePath
+  id: vaultTemplateFilePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: vaultTemplateFilePath
+  nameWithType: Static_Constants.vaultTemplateFilePath
+  fullName: Static_Constants.vaultTemplateFilePath
+  type: Field
+  source:
+    id: vaultTemplateFilePath
+    path: ''
+    startLine: 16239
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string vaultTemplateFilePath = "/Resources/Series/Templates//Vault.json"
+    return:
+      type: System.String
+    content.vb: Public Const vaultTemplateFilePath As String = "/Resources/Series/Templates//Vault.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.resourcesVaultTemplateFilePath
+  commentId: F:Global.Static_Constants.resourcesVaultTemplateFilePath
+  id: resourcesVaultTemplateFilePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: resourcesVaultTemplateFilePath
+  nameWithType: Static_Constants.resourcesVaultTemplateFilePath
+  fullName: Static_Constants.resourcesVaultTemplateFilePath
+  type: Field
+  source:
+    id: resourcesVaultTemplateFilePath
+    path: ''
+    startLine: 16240
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string resourcesVaultTemplateFilePath = "Series/Templates//Vault.json"
+    return:
+      type: System.String
+    content.vb: Public Const resourcesVaultTemplateFilePath As String = "Series/Templates//Vault.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.newsSerieTemplateFileName
+  commentId: F:Global.Static_Constants.newsSerieTemplateFileName
+  id: newsSerieTemplateFileName
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: newsSerieTemplateFileName
+  nameWithType: Static_Constants.newsSerieTemplateFileName
+  fullName: Static_Constants.newsSerieTemplateFileName
+  type: Field
+  source:
+    id: newsSerieTemplateFileName
+    path: ''
+    startLine: 16241
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string newsSerieTemplateFileName = "/News.json"
+    return:
+      type: System.String
+    content.vb: Public Const newsSerieTemplateFileName As String = "/News.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.newsTemplateFilePath
+  commentId: F:Global.Static_Constants.newsTemplateFilePath
+  id: newsTemplateFilePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: newsTemplateFilePath
+  nameWithType: Static_Constants.newsTemplateFilePath
+  fullName: Static_Constants.newsTemplateFilePath
+  type: Field
+  source:
+    id: newsTemplateFilePath
+    path: ''
+    startLine: 16242
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string newsTemplateFilePath = "/Resources/Series/Templates//News.json"
+    return:
+      type: System.String
+    content.vb: Public Const newsTemplateFilePath As String = "/Resources/Series/Templates//News.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.resourcesNewsTemplateFilePath
+  commentId: F:Global.Static_Constants.resourcesNewsTemplateFilePath
+  id: resourcesNewsTemplateFilePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: resourcesNewsTemplateFilePath
+  nameWithType: Static_Constants.resourcesNewsTemplateFilePath
+  fullName: Static_Constants.resourcesNewsTemplateFilePath
+  type: Field
+  source:
+    id: resourcesNewsTemplateFilePath
+    path: ''
+    startLine: 16243
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string resourcesNewsTemplateFilePath = "Series/Templates//News.json"
+    return:
+      type: System.String
+    content.vb: Public Const resourcesNewsTemplateFilePath As String = "Series/Templates//News.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.tribiewJsonPath
+  commentId: F:Global.Static_Constants.tribiewJsonPath
+  id: tribiewJsonPath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: tribiewJsonPath
+  nameWithType: Static_Constants.tribiewJsonPath
+  fullName: Static_Constants.tribiewJsonPath
+  type: Field
+  source:
+    id: tribiewJsonPath
+    path: ''
+    startLine: 16246
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string tribiewJsonPath = "/Resources/Tribiew_json/"
+    return:
+      type: System.String
+    content.vb: Public Const tribiewJsonPath As String = "/Resources/Tribiew_json/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.resourcesTribiewJsonTemplatePath
+  commentId: F:Global.Static_Constants.resourcesTribiewJsonTemplatePath
+  id: resourcesTribiewJsonTemplatePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: resourcesTribiewJsonTemplatePath
+  nameWithType: Static_Constants.resourcesTribiewJsonTemplatePath
+  fullName: Static_Constants.resourcesTribiewJsonTemplatePath
+  type: Field
+  source:
+    id: resourcesTribiewJsonTemplatePath
+    path: ''
+    startLine: 16247
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string resourcesTribiewJsonTemplatePath = "Tribiew_json/Templates/"
+    return:
+      type: System.String
+    content.vb: Public Const resourcesTribiewJsonTemplatePath As String = "Tribiew_json/Templates/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.tribiewShopTemplateFileName
+  commentId: F:Global.Static_Constants.tribiewShopTemplateFileName
+  id: tribiewShopTemplateFileName
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: tribiewShopTemplateFileName
+  nameWithType: Static_Constants.tribiewShopTemplateFileName
+  fullName: Static_Constants.tribiewShopTemplateFileName
+  type: Field
+  source:
+    id: tribiewShopTemplateFileName
+    path: ''
+    startLine: 16251
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string tribiewShopTemplateFileName = "/Tribiew_shop.json"
+    return:
+      type: System.String
+    content.vb: Public Const tribiewShopTemplateFileName As String = "/Tribiew_shop.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.tribiewShopTemplateFilePath
+  commentId: F:Global.Static_Constants.tribiewShopTemplateFilePath
+  id: tribiewShopTemplateFilePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: tribiewShopTemplateFilePath
+  nameWithType: Static_Constants.tribiewShopTemplateFilePath
+  fullName: Static_Constants.tribiewShopTemplateFilePath
+  type: Field
+  source:
+    id: tribiewShopTemplateFilePath
+    path: ''
+    startLine: 16252
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string tribiewShopTemplateFilePath = "/Resources/Tribiew_json//Tribiew_shop.json"
+    return:
+      type: System.String
+    content.vb: Public Const tribiewShopTemplateFilePath As String = "/Resources/Tribiew_json//Tribiew_shop.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.resourceTribiewShopTemplateFilePath
+  commentId: F:Global.Static_Constants.resourceTribiewShopTemplateFilePath
+  id: resourceTribiewShopTemplateFilePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: resourceTribiewShopTemplateFilePath
+  nameWithType: Static_Constants.resourceTribiewShopTemplateFilePath
+  fullName: Static_Constants.resourceTribiewShopTemplateFilePath
+  type: Field
+  source:
+    id: resourceTribiewShopTemplateFilePath
+    path: ''
+    startLine: 16254
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string resourceTribiewShopTemplateFilePath = "Tribiew_json/Templates//Tribiew_shop.json"
+    return:
+      type: System.String
+    content.vb: Public Const resourceTribiewShopTemplateFilePath As String = "Tribiew_json/Templates//Tribiew_shop.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.tribiewNewsTemplateFileName
+  commentId: F:Global.Static_Constants.tribiewNewsTemplateFileName
+  id: tribiewNewsTemplateFileName
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: tribiewNewsTemplateFileName
+  nameWithType: Static_Constants.tribiewNewsTemplateFileName
+  fullName: Static_Constants.tribiewNewsTemplateFileName
+  type: Field
+  source:
+    id: tribiewNewsTemplateFileName
+    path: ''
+    startLine: 16259
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string tribiewNewsTemplateFileName = "/Tribiew_news.json"
+    return:
+      type: System.String
+    content.vb: Public Const tribiewNewsTemplateFileName As String = "/Tribiew_news.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.tribiewNewsTemplateFilePath
+  commentId: F:Global.Static_Constants.tribiewNewsTemplateFilePath
+  id: tribiewNewsTemplateFilePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: tribiewNewsTemplateFilePath
+  nameWithType: Static_Constants.tribiewNewsTemplateFilePath
+  fullName: Static_Constants.tribiewNewsTemplateFilePath
+  type: Field
+  source:
+    id: tribiewNewsTemplateFilePath
+    path: ''
+    startLine: 16260
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string tribiewNewsTemplateFilePath = "/Resources/Tribiew_json//Tribiew_news.json"
+    return:
+      type: System.String
+    content.vb: Public Const tribiewNewsTemplateFilePath As String = "/Resources/Tribiew_json//Tribiew_news.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.resourceTribiewNewsTemplateFilePath
+  commentId: F:Global.Static_Constants.resourceTribiewNewsTemplateFilePath
+  id: resourceTribiewNewsTemplateFilePath
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: resourceTribiewNewsTemplateFilePath
+  nameWithType: Static_Constants.resourceTribiewNewsTemplateFilePath
+  fullName: Static_Constants.resourceTribiewNewsTemplateFilePath
+  type: Field
+  source:
+    id: resourceTribiewNewsTemplateFilePath
+    path: ''
+    startLine: 16262
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string resourceTribiewNewsTemplateFilePath = "Tribiew_json/Templates//Tribiew_news.json"
+    return:
+      type: System.String
+    content.vb: Public Const resourceTribiewNewsTemplateFilePath As String = "Tribiew_json/Templates//Tribiew_news.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.s3SeriesURL
+  commentId: F:Global.Static_Constants.s3SeriesURL
+  id: s3SeriesURL
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: s3SeriesURL
+  nameWithType: Static_Constants.s3SeriesURL
+  fullName: Static_Constants.s3SeriesURL
+  type: Field
+  source:
+    id: s3SeriesURL
+    path: ''
+    startLine: 16265
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string s3SeriesURL = "https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/Series/"
+    return:
+      type: System.String
+    content.vb: Public Const s3SeriesURL As String = "https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/Series/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.s3SeriesInfoURL
+  commentId: F:Global.Static_Constants.s3SeriesInfoURL
+  id: s3SeriesInfoURL
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: s3SeriesInfoURL
+  nameWithType: Static_Constants.s3SeriesInfoURL
+  fullName: Static_Constants.s3SeriesInfoURL
+  type: Field
+  source:
+    id: s3SeriesInfoURL
+    path: ''
+    startLine: 16267
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string s3SeriesInfoURL = "https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/Series/Info.json"
+    return:
+      type: System.String
+    content.vb: Public Const s3SeriesInfoURL As String = "https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/Series/Info.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.s3TribiewShopURL
+  commentId: F:Global.Static_Constants.s3TribiewShopURL
+  id: s3TribiewShopURL
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: s3TribiewShopURL
+  nameWithType: Static_Constants.s3TribiewShopURL
+  fullName: Static_Constants.s3TribiewShopURL
+  type: Field
+  source:
+    id: s3TribiewShopURL
+    path: ''
+    startLine: 16270
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string s3TribiewShopURL = "https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/Tribiew_json/Tribiew_shop.json"
+    return:
+      type: System.String
+    content.vb: Public Const s3TribiewShopURL As String = "https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/Tribiew_json/Tribiew_shop.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.s3TribiewNewsURL
+  commentId: F:Global.Static_Constants.s3TribiewNewsURL
+  id: s3TribiewNewsURL
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: s3TribiewNewsURL
+  nameWithType: Static_Constants.s3TribiewNewsURL
+  fullName: Static_Constants.s3TribiewNewsURL
+  type: Field
+  source:
+    id: s3TribiewNewsURL
+    path: ''
+    startLine: 16273
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string s3TribiewNewsURL = "https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/Tribiew_json/Tribiew_news.json"
+    return:
+      type: System.String
+    content.vb: Public Const s3TribiewNewsURL As String = "https://s3-us-west-1.amazonaws.com/com.tribiew.testwebapp/TribiewV0.4/Tribiew_json/Tribiew_news.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_Constants.imageExtensions
+  commentId: F:Global.Static_Constants.imageExtensions
+  id: imageExtensions
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: imageExtensions
+  nameWithType: Static_Constants.imageExtensions
+  fullName: Static_Constants.imageExtensions
+  type: Field
+  source:
+    id: imageExtensions
+    path: ''
+    startLine: 16277
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static readonly string[] imageExtensions
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly imageExtensions As String()
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_Constants.videoExtensions
+  commentId: F:Global.Static_Constants.videoExtensions
+  id: videoExtensions
+  parent: Global.Static_Constants
+  langs:
+  - csharp
+  - vb
+  name: videoExtensions
+  nameWithType: Static_Constants.videoExtensions
+  fullName: Static_Constants.videoExtensions
+  type: Field
+  source:
+    id: videoExtensions
+    path: ''
+    startLine: 16292
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static readonly string[] videoExtensions
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly videoExtensions As String()
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

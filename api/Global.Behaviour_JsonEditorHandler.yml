@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_JsonEditorHandler
+  commentId: T:Global.Behaviour_JsonEditorHandler
+  id: Behaviour_JsonEditorHandler
+  parent: Global
+  children:
+  - Global.Behaviour_JsonEditorHandler.AddNewEpisode
+  - Global.Behaviour_JsonEditorHandler.ApplyEvent
+  - Global.Behaviour_JsonEditorHandler.ApplyModifications
+  - Global.Behaviour_JsonEditorHandler.UploadNewJson
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_JsonEditorHandler
+  nameWithType: Behaviour_JsonEditorHandler
+  fullName: Behaviour_JsonEditorHandler
+  type: Class
+  source:
+    id: Behaviour_JsonEditorHandler
+    path: ''
+    startLine: 12398
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_JsonEditorHandler : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_JsonEditorHandler
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_JsonEditorHandler.ApplyEvent
+  commentId: F:Global.Behaviour_JsonEditorHandler.ApplyEvent
+  id: ApplyEvent
+  parent: Global.Behaviour_JsonEditorHandler
+  langs:
+  - csharp
+  - vb
+  name: ApplyEvent
+  nameWithType: Behaviour_JsonEditorHandler.ApplyEvent
+  fullName: Behaviour_JsonEditorHandler.ApplyEvent
+  type: Field
+  source:
+    id: ApplyEvent
+    path: ''
+    startLine: 12402
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ApplyToAll ApplyEvent
+    return:
+      type: Global.ApplyToAll
+    content.vb: Public ApplyEvent As ApplyToAll
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_JsonEditorHandler.AddNewEpisode
+  commentId: M:Global.Behaviour_JsonEditorHandler.AddNewEpisode
+  id: AddNewEpisode
+  parent: Global.Behaviour_JsonEditorHandler
+  langs:
+  - csharp
+  - vb
+  name: AddNewEpisode()
+  nameWithType: Behaviour_JsonEditorHandler.AddNewEpisode()
+  fullName: Behaviour_JsonEditorHandler.AddNewEpisode()
+  type: Method
+  source:
+    id: AddNewEpisode
+    path: ''
+    startLine: 12583
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AddNewEpisode()
+    content.vb: Public Sub AddNewEpisode
+  overload: Global.Behaviour_JsonEditorHandler.AddNewEpisode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_JsonEditorHandler.ApplyModifications
+  commentId: M:Global.Behaviour_JsonEditorHandler.ApplyModifications
+  id: ApplyModifications
+  parent: Global.Behaviour_JsonEditorHandler
+  langs:
+  - csharp
+  - vb
+  name: ApplyModifications()
+  nameWithType: Behaviour_JsonEditorHandler.ApplyModifications()
+  fullName: Behaviour_JsonEditorHandler.ApplyModifications()
+  type: Method
+  source:
+    id: ApplyModifications
+    path: ''
+    startLine: 12618
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ApplyModifications()
+    content.vb: Public Sub ApplyModifications
+  overload: Global.Behaviour_JsonEditorHandler.ApplyModifications*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_JsonEditorHandler.UploadNewJson
+  commentId: M:Global.Behaviour_JsonEditorHandler.UploadNewJson
+  id: UploadNewJson
+  parent: Global.Behaviour_JsonEditorHandler
+  langs:
+  - csharp
+  - vb
+  name: UploadNewJson()
+  nameWithType: Behaviour_JsonEditorHandler.UploadNewJson()
+  fullName: Behaviour_JsonEditorHandler.UploadNewJson()
+  type: Method
+  source:
+    id: UploadNewJson
+    path: ''
+    startLine: 12626
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UploadNewJson()
+    content.vb: Public Sub UploadNewJson
+  overload: Global.Behaviour_JsonEditorHandler.UploadNewJson*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ApplyToAll
+  commentId: T:Global.ApplyToAll
+  name: ApplyToAll
+  nameWithType: ApplyToAll
+  fullName: ApplyToAll
+- uid: Global.Behaviour_JsonEditorHandler.AddNewEpisode*
+  commentId: Overload:Global.Behaviour_JsonEditorHandler.AddNewEpisode
+  name: AddNewEpisode
+  nameWithType: Behaviour_JsonEditorHandler.AddNewEpisode
+  fullName: Behaviour_JsonEditorHandler.AddNewEpisode
+- uid: Global.Behaviour_JsonEditorHandler.ApplyModifications*
+  commentId: Overload:Global.Behaviour_JsonEditorHandler.ApplyModifications
+  name: ApplyModifications
+  nameWithType: Behaviour_JsonEditorHandler.ApplyModifications
+  fullName: Behaviour_JsonEditorHandler.ApplyModifications
+- uid: Global.Behaviour_JsonEditorHandler.UploadNewJson*
+  commentId: Overload:Global.Behaviour_JsonEditorHandler.UploadNewJson
+  name: UploadNewJson
+  nameWithType: Behaviour_JsonEditorHandler.UploadNewJson
+  fullName: Behaviour_JsonEditorHandler.UploadNewJson

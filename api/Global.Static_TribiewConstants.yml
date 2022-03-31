@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_TribiewConstants
+  commentId: T:Global.Static_TribiewConstants
+  id: Static_TribiewConstants
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Static_TribiewConstants
+  nameWithType: Static_TribiewConstants
+  fullName: Static_TribiewConstants
+  type: Class
+  source:
+    id: Static_TribiewConstants
+    path: ''
+    startLine: 16973
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Static_TribiewConstants
+    content.vb: Public Module Static_TribiewConstants
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

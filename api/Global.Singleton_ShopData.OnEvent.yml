@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Singleton_ShopData.OnEvent
+  commentId: T:Global.Singleton_ShopData.OnEvent
+  id: Singleton_ShopData.OnEvent
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Singleton_ShopData.OnEvent
+  nameWithType: Singleton_ShopData.OnEvent
+  fullName: Singleton_ShopData.OnEvent
+  type: Delegate
+  source:
+    id: OnEvent
+    path: ''
+    startLine: 24210
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public delegate void OnEvent(Singleton_ShopData _data);
+    parameters:
+    - id: _data
+      type: Global.Singleton_ShopData
+    content.vb: Public Delegate Sub OnEvent(_data As Singleton_ShopData)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Singleton_ShopData
+  commentId: T:Global.Singleton_ShopData
+  name: Singleton_ShopData
+  nameWithType: Singleton_ShopData
+  fullName: Singleton_ShopData

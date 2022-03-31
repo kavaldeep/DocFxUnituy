@@ -1,0 +1,361 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_TribiewConstants.TeamKeys
+  commentId: T:Global.Static_TribiewConstants.TeamKeys
+  id: Static_TribiewConstants.TeamKeys
+  parent: Global
+  children:
+  - Global.Static_TribiewConstants.TeamKeys._url
+  - Global.Static_TribiewConstants.TeamKeys.accountId
+  - Global.Static_TribiewConstants.TeamKeys.discordId
+  - Global.Static_TribiewConstants.TeamKeys.facebookId
+  - Global.Static_TribiewConstants.TeamKeys.image
+  - Global.Static_TribiewConstants.TeamKeys.lastName
+  - Global.Static_TribiewConstants.TeamKeys.name
+  - Global.Static_TribiewConstants.TeamKeys.role
+  - Global.Static_TribiewConstants.TeamKeys.twitterId
+  - Global.Static_TribiewConstants.TeamKeys.youtubeAccount
+  langs:
+  - csharp
+  - vb
+  name: Static_TribiewConstants.TeamKeys
+  nameWithType: Static_TribiewConstants.TeamKeys
+  fullName: Static_TribiewConstants.TeamKeys
+  type: Class
+  source:
+    id: TeamKeys
+    path: ''
+    startLine: 17042
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class TeamKeys
+    content.vb: Public Module TeamKeys
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_TribiewConstants.TeamKeys.role
+  commentId: F:Global.Static_TribiewConstants.TeamKeys.role
+  id: role
+  parent: Global.Static_TribiewConstants.TeamKeys
+  langs:
+  - csharp
+  - vb
+  name: role
+  nameWithType: Static_TribiewConstants.TeamKeys.role
+  fullName: Static_TribiewConstants.TeamKeys.role
+  type: Field
+  source:
+    id: role
+    path: ''
+    startLine: 17044
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string role = "Role"
+    return:
+      type: System.String
+    content.vb: Public Const role As String = "Role"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TeamKeys.name
+  commentId: F:Global.Static_TribiewConstants.TeamKeys.name
+  id: name
+  parent: Global.Static_TribiewConstants.TeamKeys
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Static_TribiewConstants.TeamKeys.name
+  fullName: Static_TribiewConstants.TeamKeys.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 17045
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string name = "Name"
+    return:
+      type: System.String
+    content.vb: Public Const name As String = "Name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TeamKeys.lastName
+  commentId: F:Global.Static_TribiewConstants.TeamKeys.lastName
+  id: lastName
+  parent: Global.Static_TribiewConstants.TeamKeys
+  langs:
+  - csharp
+  - vb
+  name: lastName
+  nameWithType: Static_TribiewConstants.TeamKeys.lastName
+  fullName: Static_TribiewConstants.TeamKeys.lastName
+  type: Field
+  source:
+    id: lastName
+    path: ''
+    startLine: 17046
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string lastName = "LastName"
+    return:
+      type: System.String
+    content.vb: Public Const lastName As String = "LastName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TeamKeys.image
+  commentId: F:Global.Static_TribiewConstants.TeamKeys.image
+  id: image
+  parent: Global.Static_TribiewConstants.TeamKeys
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Static_TribiewConstants.TeamKeys.image
+  fullName: Static_TribiewConstants.TeamKeys.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 17047
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string image = "Image"
+    return:
+      type: System.String
+    content.vb: Public Const image As String = "Image"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TeamKeys.accountId
+  commentId: F:Global.Static_TribiewConstants.TeamKeys.accountId
+  id: accountId
+  parent: Global.Static_TribiewConstants.TeamKeys
+  langs:
+  - csharp
+  - vb
+  name: accountId
+  nameWithType: Static_TribiewConstants.TeamKeys.accountId
+  fullName: Static_TribiewConstants.TeamKeys.accountId
+  type: Field
+  source:
+    id: accountId
+    path: ''
+    startLine: 17048
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string accountId = "AccountId"
+    return:
+      type: System.String
+    content.vb: Public Const accountId As String = "AccountId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TeamKeys.youtubeAccount
+  commentId: F:Global.Static_TribiewConstants.TeamKeys.youtubeAccount
+  id: youtubeAccount
+  parent: Global.Static_TribiewConstants.TeamKeys
+  langs:
+  - csharp
+  - vb
+  name: youtubeAccount
+  nameWithType: Static_TribiewConstants.TeamKeys.youtubeAccount
+  fullName: Static_TribiewConstants.TeamKeys.youtubeAccount
+  type: Field
+  source:
+    id: youtubeAccount
+    path: ''
+    startLine: 17049
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string youtubeAccount = "YoutubeAccount"
+    return:
+      type: System.String
+    content.vb: Public Const youtubeAccount As String = "YoutubeAccount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TeamKeys.twitterId
+  commentId: F:Global.Static_TribiewConstants.TeamKeys.twitterId
+  id: twitterId
+  parent: Global.Static_TribiewConstants.TeamKeys
+  langs:
+  - csharp
+  - vb
+  name: twitterId
+  nameWithType: Static_TribiewConstants.TeamKeys.twitterId
+  fullName: Static_TribiewConstants.TeamKeys.twitterId
+  type: Field
+  source:
+    id: twitterId
+    path: ''
+    startLine: 17050
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string twitterId = "TwitterId"
+    return:
+      type: System.String
+    content.vb: Public Const twitterId As String = "TwitterId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TeamKeys.facebookId
+  commentId: F:Global.Static_TribiewConstants.TeamKeys.facebookId
+  id: facebookId
+  parent: Global.Static_TribiewConstants.TeamKeys
+  langs:
+  - csharp
+  - vb
+  name: facebookId
+  nameWithType: Static_TribiewConstants.TeamKeys.facebookId
+  fullName: Static_TribiewConstants.TeamKeys.facebookId
+  type: Field
+  source:
+    id: facebookId
+    path: ''
+    startLine: 17051
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string facebookId = "FacebookId"
+    return:
+      type: System.String
+    content.vb: Public Const facebookId As String = "FacebookId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TeamKeys.discordId
+  commentId: F:Global.Static_TribiewConstants.TeamKeys.discordId
+  id: discordId
+  parent: Global.Static_TribiewConstants.TeamKeys
+  langs:
+  - csharp
+  - vb
+  name: discordId
+  nameWithType: Static_TribiewConstants.TeamKeys.discordId
+  fullName: Static_TribiewConstants.TeamKeys.discordId
+  type: Field
+  source:
+    id: discordId
+    path: ''
+    startLine: 17052
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string discordId = "DiscordId"
+    return:
+      type: System.String
+    content.vb: Public Const discordId As String = "DiscordId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TeamKeys._url
+  commentId: F:Global.Static_TribiewConstants.TeamKeys._url
+  id: _url
+  parent: Global.Static_TribiewConstants.TeamKeys
+  langs:
+  - csharp
+  - vb
+  name: _url
+  nameWithType: Static_TribiewConstants.TeamKeys._url
+  fullName: Static_TribiewConstants.TeamKeys._url
+  type: Field
+  source:
+    id: _url
+    path: ''
+    startLine: 17053
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string _url = "Url"
+    return:
+      type: System.String
+    content.vb: Public Const _url As String = "Url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

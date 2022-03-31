@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UI_TimerVideo
+  commentId: T:Global.UI_TimerVideo
+  id: UI_TimerVideo
+  parent: Global
+  children:
+  - Global.UI_TimerVideo.TimeCode
+  - Global.UI_TimerVideo.timerVertical
+  - Global.UI_TimerVideo.videoPlayer
+  langs:
+  - csharp
+  - vb
+  name: UI_TimerVideo
+  nameWithType: UI_TimerVideo
+  fullName: UI_TimerVideo
+  type: Class
+  source:
+    id: UI_TimerVideo
+    path: ''
+    startLine: 27792
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UI_TimerVideo : MonoBehaviour'
+    content.vb: >-
+      Public Class UI_TimerVideo
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UI_TimerVideo.timerVertical
+  commentId: F:Global.UI_TimerVideo.timerVertical
+  id: timerVertical
+  parent: Global.UI_TimerVideo
+  langs:
+  - csharp
+  - vb
+  name: timerVertical
+  nameWithType: UI_TimerVideo.timerVertical
+  fullName: UI_TimerVideo.timerVertical
+  type: Field
+  source:
+    id: timerVertical
+    path: ''
+    startLine: 27794
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI timerVertical
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public timerVertical As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_TimerVideo.videoPlayer
+  commentId: F:Global.UI_TimerVideo.videoPlayer
+  id: videoPlayer
+  parent: Global.UI_TimerVideo
+  langs:
+  - csharp
+  - vb
+  name: videoPlayer
+  nameWithType: UI_TimerVideo.videoPlayer
+  fullName: UI_TimerVideo.videoPlayer
+  type: Field
+  source:
+    id: videoPlayer
+    path: ''
+    startLine: 27797
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public VideoPlayer videoPlayer
+    return:
+      type: Global.VideoPlayer
+    content.vb: Public videoPlayer As VideoPlayer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_TimerVideo.TimeCode
+  commentId: M:Global.UI_TimerVideo.TimeCode
+  id: TimeCode
+  parent: Global.UI_TimerVideo
+  langs:
+  - csharp
+  - vb
+  name: TimeCode()
+  nameWithType: UI_TimerVideo.TimeCode()
+  fullName: UI_TimerVideo.TimeCode()
+  type: Method
+  source:
+    id: TimeCode
+    path: ''
+    startLine: 27849
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float TimeCode()
+    return:
+      type: System.Single
+    content.vb: Public Function TimeCode As Single
+  overload: Global.UI_TimerVideo.TimeCode*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.VideoPlayer
+  isExternal: true
+  name: VideoPlayer
+  nameWithType: VideoPlayer
+  fullName: VideoPlayer
+- uid: Global.UI_TimerVideo.TimeCode*
+  commentId: Overload:Global.UI_TimerVideo.TimeCode
+  name: TimeCode
+  nameWithType: UI_TimerVideo.TimeCode
+  fullName: UI_TimerVideo.TimeCode
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CoinsManager
+  commentId: T:Global.CoinsManager
+  id: CoinsManager
+  parent: Global
+  children:
+  - Global.CoinsManager.AddCoins(Vector3,System.Int32)
+  - Global.CoinsManager.ClickButton(Transform)
+  langs:
+  - csharp
+  - vb
+  name: CoinsManager
+  nameWithType: CoinsManager
+  fullName: CoinsManager
+  type: Class
+  source:
+    id: CoinsManager
+    path: ''
+    startLine: 9
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class CoinsManager : MonoBehaviour'
+    content.vb: >-
+      Public Class CoinsManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CoinsManager.AddCoins(Vector3,System.Int32)
+  commentId: M:Global.CoinsManager.AddCoins(Vector3,System.Int32)
+  id: AddCoins(Vector3,System.Int32)
+  parent: Global.CoinsManager
+  langs:
+  - csharp
+  - vb
+  name: AddCoins(Vector3, Int32)
+  nameWithType: CoinsManager.AddCoins(Vector3, Int32)
+  fullName: CoinsManager.AddCoins(Vector3, System.Int32)
+  type: Method
+  source:
+    id: AddCoins
+    path: ''
+    startLine: 94
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AddCoins(Vector3 collectedCoinPosition, int amount)
+    parameters:
+    - id: collectedCoinPosition
+      type: Global.Vector3
+    - id: amount
+      type: System.Int32
+    content.vb: Public Sub AddCoins(collectedCoinPosition As Vector3, amount As Integer)
+  overload: Global.CoinsManager.AddCoins*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CoinsManager.ClickButton(Transform)
+  commentId: M:Global.CoinsManager.ClickButton(Transform)
+  id: ClickButton(Transform)
+  parent: Global.CoinsManager
+  langs:
+  - csharp
+  - vb
+  name: ClickButton(Transform)
+  nameWithType: CoinsManager.ClickButton(Transform)
+  fullName: CoinsManager.ClickButton(Transform)
+  type: Method
+  source:
+    id: ClickButton
+    path: ''
+    startLine: 99
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ClickButton(Transform transform)
+    parameters:
+    - id: transform
+      type: Global.Transform
+    content.vb: Public Sub ClickButton(transform As Transform)
+  overload: Global.CoinsManager.ClickButton*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.CoinsManager.AddCoins*
+  commentId: Overload:Global.CoinsManager.AddCoins
+  name: AddCoins
+  nameWithType: CoinsManager.AddCoins
+  fullName: CoinsManager.AddCoins
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.CoinsManager.ClickButton*
+  commentId: Overload:Global.CoinsManager.ClickButton
+  name: ClickButton
+  nameWithType: CoinsManager.ClickButton
+  fullName: CoinsManager.ClickButton
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform

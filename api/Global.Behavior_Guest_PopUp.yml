@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behavior_Guest_PopUp
+  commentId: T:Global.Behavior_Guest_PopUp
+  id: Behavior_Guest_PopUp
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Behavior_Guest_PopUp
+  nameWithType: Behavior_Guest_PopUp
+  fullName: Behavior_Guest_PopUp
+  type: Class
+  source:
+    id: Behavior_Guest_PopUp
+    path: ''
+    startLine: 17307
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behavior_Guest_PopUp : MonoBehaviour'
+    content.vb: >-
+      Public Class Behavior_Guest_PopUp
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,519 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TimeStamp
+  commentId: T:Global.TimeStamp
+  id: TimeStamp
+  parent: Global
+  children:
+  - Global.TimeStamp.#ctor
+  - Global.TimeStamp.#ctor(System.String,System.Single,ImageFile)
+  - Global.TimeStamp.duration
+  - Global.TimeStamp.end
+  - Global.TimeStamp.entityId
+  - Global.TimeStamp.episode
+  - Global.TimeStamp.episodeId
+  - Global.TimeStamp.name
+  - Global.TimeStamp.preview
+  - Global.TimeStamp.season
+  - Global.TimeStamp.serie
+  - Global.TimeStamp.start
+  - Global.TimeStamp.time
+  - Global.TimeStamp.type
+  - Global.TimeStamp.url
+  langs:
+  - csharp
+  - vb
+  name: TimeStamp
+  nameWithType: TimeStamp
+  fullName: TimeStamp
+  type: Class
+  source:
+    id: TimeStamp
+    path: ''
+    startLine: 16029
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class TimeStamp
+    content.vb: >-
+      <Serializable>
+
+      Public Class TimeStamp
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TimeStamp.name
+  commentId: F:Global.TimeStamp.name
+  id: name
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: TimeStamp.name
+  fullName: TimeStamp.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 16032
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.time
+  commentId: F:Global.TimeStamp.time
+  id: time
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: time
+  nameWithType: TimeStamp.time
+  fullName: TimeStamp.time
+  type: Field
+  source:
+    id: time
+    path: ''
+    startLine: 16033
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float time
+    return:
+      type: System.Single
+    content.vb: Public time As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.preview
+  commentId: F:Global.TimeStamp.preview
+  id: preview
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: preview
+  nameWithType: TimeStamp.preview
+  fullName: TimeStamp.preview
+  type: Field
+  source:
+    id: preview
+    path: ''
+    startLine: 16034
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile preview
+    return:
+      type: Global.ImageFile
+    content.vb: Public preview As ImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.serie
+  commentId: F:Global.TimeStamp.serie
+  id: serie
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: serie
+  nameWithType: TimeStamp.serie
+  fullName: TimeStamp.serie
+  type: Field
+  source:
+    id: serie
+    path: ''
+    startLine: 16036
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string serie
+    return:
+      type: System.String
+    content.vb: Public serie As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.season
+  commentId: F:Global.TimeStamp.season
+  id: season
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: season
+  nameWithType: TimeStamp.season
+  fullName: TimeStamp.season
+  type: Field
+  source:
+    id: season
+    path: ''
+    startLine: 16037
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int season
+    return:
+      type: System.Int32
+    content.vb: Public season As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.episode
+  commentId: F:Global.TimeStamp.episode
+  id: episode
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: episode
+  nameWithType: TimeStamp.episode
+  fullName: TimeStamp.episode
+  type: Field
+  source:
+    id: episode
+    path: ''
+    startLine: 16038
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int episode
+    return:
+      type: System.Int32
+    content.vb: Public episode As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.episodeId
+  commentId: F:Global.TimeStamp.episodeId
+  id: episodeId
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: episodeId
+  nameWithType: TimeStamp.episodeId
+  fullName: TimeStamp.episodeId
+  type: Field
+  source:
+    id: episodeId
+    path: ''
+    startLine: 16039
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string episodeId
+    return:
+      type: System.String
+    content.vb: Public episodeId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.type
+  commentId: F:Global.TimeStamp.type
+  id: type
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: TimeStamp.type
+  fullName: TimeStamp.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 16040
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string type
+    return:
+      type: System.String
+    content.vb: Public type As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.start
+  commentId: F:Global.TimeStamp.start
+  id: start
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: start
+  nameWithType: TimeStamp.start
+  fullName: TimeStamp.start
+  type: Field
+  source:
+    id: start
+    path: ''
+    startLine: 16041
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int start
+    return:
+      type: System.Int32
+    content.vb: Public start As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.end
+  commentId: F:Global.TimeStamp.end
+  id: end
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: end
+  nameWithType: TimeStamp.end
+  fullName: TimeStamp.end
+  type: Field
+  source:
+    id: end
+    path: ''
+    startLine: 16042
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int end
+    return:
+      type: System.Int32
+    content.vb: Public end As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.duration
+  commentId: F:Global.TimeStamp.duration
+  id: duration
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: duration
+  nameWithType: TimeStamp.duration
+  fullName: TimeStamp.duration
+  type: Field
+  source:
+    id: duration
+    path: ''
+    startLine: 16043
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int duration
+    return:
+      type: System.Int32
+    content.vb: Public duration As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.entityId
+  commentId: F:Global.TimeStamp.entityId
+  id: entityId
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: entityId
+  nameWithType: TimeStamp.entityId
+  fullName: TimeStamp.entityId
+  type: Field
+  source:
+    id: entityId
+    path: ''
+    startLine: 16044
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string entityId
+    return:
+      type: System.String
+    content.vb: Public entityId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.url
+  commentId: F:Global.TimeStamp.url
+  id: url
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: TimeStamp.url
+  fullName: TimeStamp.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 16045
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string url
+    return:
+      type: System.String
+    content.vb: Public url As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.#ctor
+  commentId: M:Global.TimeStamp.#ctor
+  id: '#ctor'
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: TimeStamp()
+  nameWithType: TimeStamp.TimeStamp()
+  fullName: TimeStamp.TimeStamp()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16047
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TimeStamp()
+    content.vb: Public Sub New
+  overload: Global.TimeStamp.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimeStamp.#ctor(System.String,System.Single,ImageFile)
+  commentId: M:Global.TimeStamp.#ctor(System.String,System.Single,ImageFile)
+  id: '#ctor(System.String,System.Single,ImageFile)'
+  parent: Global.TimeStamp
+  langs:
+  - csharp
+  - vb
+  name: TimeStamp(String, Single, ImageFile)
+  nameWithType: TimeStamp.TimeStamp(String, Single, ImageFile)
+  fullName: TimeStamp.TimeStamp(System.String, System.Single, ImageFile)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16049
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TimeStamp(string _name, float _time, ImageFile _preview)
+    parameters:
+    - id: _name
+      type: System.String
+    - id: _time
+      type: System.Single
+    - id: _preview
+      type: Global.ImageFile
+    content.vb: Public Sub New(_name As String, _time As Single, _preview As ImageFile)
+  overload: Global.TimeStamp.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.TimeStamp.#ctor*
+  commentId: Overload:Global.TimeStamp.#ctor
+  name: TimeStamp
+  nameWithType: TimeStamp.TimeStamp
+  fullName: TimeStamp.TimeStamp

@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_FlexibleGridLayout.FitType
+  commentId: T:Global.Behaviour_FlexibleGridLayout.FitType
+  id: Behaviour_FlexibleGridLayout.FitType
+  parent: Global
+  children:
+  - Global.Behaviour_FlexibleGridLayout.FitType.FixedColumns
+  - Global.Behaviour_FlexibleGridLayout.FitType.FixedRows
+  - Global.Behaviour_FlexibleGridLayout.FitType.Height
+  - Global.Behaviour_FlexibleGridLayout.FitType.Uniform
+  - Global.Behaviour_FlexibleGridLayout.FitType.Width
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_FlexibleGridLayout.FitType
+  nameWithType: Behaviour_FlexibleGridLayout.FitType
+  fullName: Behaviour_FlexibleGridLayout.FitType
+  type: Enum
+  source:
+    id: FitType
+    path: ''
+    startLine: 13013
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum FitType
+    content.vb: Public Enum FitType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.Behaviour_FlexibleGridLayout.FitType.Uniform
+  commentId: F:Global.Behaviour_FlexibleGridLayout.FitType.Uniform
+  id: Uniform
+  parent: Global.Behaviour_FlexibleGridLayout.FitType
+  langs:
+  - csharp
+  - vb
+  name: Uniform
+  nameWithType: Behaviour_FlexibleGridLayout.FitType.Uniform
+  fullName: Behaviour_FlexibleGridLayout.FitType.Uniform
+  type: Field
+  source:
+    id: Uniform
+    path: ''
+    startLine: 13015
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Uniform = 0
+    return:
+      type: Global.Behaviour_FlexibleGridLayout.FitType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Behaviour_FlexibleGridLayout.FitType.Width
+  commentId: F:Global.Behaviour_FlexibleGridLayout.FitType.Width
+  id: Width
+  parent: Global.Behaviour_FlexibleGridLayout.FitType
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Behaviour_FlexibleGridLayout.FitType.Width
+  fullName: Behaviour_FlexibleGridLayout.FitType.Width
+  type: Field
+  source:
+    id: Width
+    path: ''
+    startLine: 13016
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Width = 1
+    return:
+      type: Global.Behaviour_FlexibleGridLayout.FitType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Behaviour_FlexibleGridLayout.FitType.Height
+  commentId: F:Global.Behaviour_FlexibleGridLayout.FitType.Height
+  id: Height
+  parent: Global.Behaviour_FlexibleGridLayout.FitType
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: Behaviour_FlexibleGridLayout.FitType.Height
+  fullName: Behaviour_FlexibleGridLayout.FitType.Height
+  type: Field
+  source:
+    id: Height
+    path: ''
+    startLine: 13017
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Height = 2
+    return:
+      type: Global.Behaviour_FlexibleGridLayout.FitType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Behaviour_FlexibleGridLayout.FitType.FixedRows
+  commentId: F:Global.Behaviour_FlexibleGridLayout.FitType.FixedRows
+  id: FixedRows
+  parent: Global.Behaviour_FlexibleGridLayout.FitType
+  langs:
+  - csharp
+  - vb
+  name: FixedRows
+  nameWithType: Behaviour_FlexibleGridLayout.FitType.FixedRows
+  fullName: Behaviour_FlexibleGridLayout.FitType.FixedRows
+  type: Field
+  source:
+    id: FixedRows
+    path: ''
+    startLine: 13018
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: FixedRows = 3
+    return:
+      type: Global.Behaviour_FlexibleGridLayout.FitType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Behaviour_FlexibleGridLayout.FitType.FixedColumns
+  commentId: F:Global.Behaviour_FlexibleGridLayout.FitType.FixedColumns
+  id: FixedColumns
+  parent: Global.Behaviour_FlexibleGridLayout.FitType
+  langs:
+  - csharp
+  - vb
+  name: FixedColumns
+  nameWithType: Behaviour_FlexibleGridLayout.FitType.FixedColumns
+  fullName: Behaviour_FlexibleGridLayout.FitType.FixedColumns
+  type: Field
+  source:
+    id: FixedColumns
+    path: ''
+    startLine: 13019
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: FixedColumns = 4
+    return:
+      type: Global.Behaviour_FlexibleGridLayout.FitType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Behaviour_FlexibleGridLayout.FitType
+  commentId: T:Global.Behaviour_FlexibleGridLayout.FitType
+  name: Behaviour_FlexibleGridLayout.FitType
+  nameWithType: Behaviour_FlexibleGridLayout.FitType
+  fullName: Behaviour_FlexibleGridLayout.FitType

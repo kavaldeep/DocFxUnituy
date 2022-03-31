@@ -1,0 +1,353 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SerieInformationHolder.newsStruct
+  commentId: T:Global.Behaviour_SerieInformationHolder.newsStruct
+  id: Behaviour_SerieInformationHolder.newsStruct
+  parent: Global
+  children:
+  - Global.Behaviour_SerieInformationHolder.newsStruct.author_id
+  - Global.Behaviour_SerieInformationHolder.newsStruct.editdate
+  - Global.Behaviour_SerieInformationHolder.newsStruct.headline
+  - Global.Behaviour_SerieInformationHolder.newsStruct.image
+  - Global.Behaviour_SerieInformationHolder.newsStruct.publishdate
+  - Global.Behaviour_SerieInformationHolder.newsStruct.subtitle
+  - Global.Behaviour_SerieInformationHolder.newsStruct.suggestions
+  - Global.Behaviour_SerieInformationHolder.newsStruct.tags
+  - Global.Behaviour_SerieInformationHolder.newsStruct.text
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SerieInformationHolder.newsStruct
+  nameWithType: Behaviour_SerieInformationHolder.newsStruct
+  fullName: Behaviour_SerieInformationHolder.newsStruct
+  type: Struct
+  source:
+    id: newsStruct
+    path: ''
+    startLine: 12937
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct newsStruct
+    content.vb: Public Structure newsStruct
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.Behaviour_SerieInformationHolder.newsStruct.image
+  commentId: F:Global.Behaviour_SerieInformationHolder.newsStruct.image
+  id: image
+  parent: Global.Behaviour_SerieInformationHolder.newsStruct
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Behaviour_SerieInformationHolder.newsStruct.image
+  fullName: Behaviour_SerieInformationHolder.newsStruct.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 12939
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string image
+    return:
+      type: System.String
+    content.vb: Public image As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.newsStruct.headline
+  commentId: F:Global.Behaviour_SerieInformationHolder.newsStruct.headline
+  id: headline
+  parent: Global.Behaviour_SerieInformationHolder.newsStruct
+  langs:
+  - csharp
+  - vb
+  name: headline
+  nameWithType: Behaviour_SerieInformationHolder.newsStruct.headline
+  fullName: Behaviour_SerieInformationHolder.newsStruct.headline
+  type: Field
+  source:
+    id: headline
+    path: ''
+    startLine: 12940
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string headline
+    return:
+      type: System.String
+    content.vb: Public headline As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.newsStruct.subtitle
+  commentId: F:Global.Behaviour_SerieInformationHolder.newsStruct.subtitle
+  id: subtitle
+  parent: Global.Behaviour_SerieInformationHolder.newsStruct
+  langs:
+  - csharp
+  - vb
+  name: subtitle
+  nameWithType: Behaviour_SerieInformationHolder.newsStruct.subtitle
+  fullName: Behaviour_SerieInformationHolder.newsStruct.subtitle
+  type: Field
+  source:
+    id: subtitle
+    path: ''
+    startLine: 12941
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string subtitle
+    return:
+      type: System.String
+    content.vb: Public subtitle As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.newsStruct.text
+  commentId: F:Global.Behaviour_SerieInformationHolder.newsStruct.text
+  id: text
+  parent: Global.Behaviour_SerieInformationHolder.newsStruct
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: Behaviour_SerieInformationHolder.newsStruct.text
+  fullName: Behaviour_SerieInformationHolder.newsStruct.text
+  type: Field
+  source:
+    id: text
+    path: ''
+    startLine: 12942
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string text
+    return:
+      type: System.String
+    content.vb: Public text As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.newsStruct.author_id
+  commentId: F:Global.Behaviour_SerieInformationHolder.newsStruct.author_id
+  id: author_id
+  parent: Global.Behaviour_SerieInformationHolder.newsStruct
+  langs:
+  - csharp
+  - vb
+  name: author_id
+  nameWithType: Behaviour_SerieInformationHolder.newsStruct.author_id
+  fullName: Behaviour_SerieInformationHolder.newsStruct.author_id
+  type: Field
+  source:
+    id: author_id
+    path: ''
+    startLine: 12943
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string author_id
+    return:
+      type: System.String
+    content.vb: Public author_id As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.newsStruct.tags
+  commentId: F:Global.Behaviour_SerieInformationHolder.newsStruct.tags
+  id: tags
+  parent: Global.Behaviour_SerieInformationHolder.newsStruct
+  langs:
+  - csharp
+  - vb
+  name: tags
+  nameWithType: Behaviour_SerieInformationHolder.newsStruct.tags
+  fullName: Behaviour_SerieInformationHolder.newsStruct.tags
+  type: Field
+  source:
+    id: tags
+    path: ''
+    startLine: 12944
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string[] tags
+    return:
+      type: System.String[]
+    content.vb: Public tags As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.newsStruct.publishdate
+  commentId: F:Global.Behaviour_SerieInformationHolder.newsStruct.publishdate
+  id: publishdate
+  parent: Global.Behaviour_SerieInformationHolder.newsStruct
+  langs:
+  - csharp
+  - vb
+  name: publishdate
+  nameWithType: Behaviour_SerieInformationHolder.newsStruct.publishdate
+  fullName: Behaviour_SerieInformationHolder.newsStruct.publishdate
+  type: Field
+  source:
+    id: publishdate
+    path: ''
+    startLine: 12945
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string publishdate
+    return:
+      type: System.String
+    content.vb: Public publishdate As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.newsStruct.editdate
+  commentId: F:Global.Behaviour_SerieInformationHolder.newsStruct.editdate
+  id: editdate
+  parent: Global.Behaviour_SerieInformationHolder.newsStruct
+  langs:
+  - csharp
+  - vb
+  name: editdate
+  nameWithType: Behaviour_SerieInformationHolder.newsStruct.editdate
+  fullName: Behaviour_SerieInformationHolder.newsStruct.editdate
+  type: Field
+  source:
+    id: editdate
+    path: ''
+    startLine: 12946
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string editdate
+    return:
+      type: System.String
+    content.vb: Public editdate As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.newsStruct.suggestions
+  commentId: F:Global.Behaviour_SerieInformationHolder.newsStruct.suggestions
+  id: suggestions
+  parent: Global.Behaviour_SerieInformationHolder.newsStruct
+  langs:
+  - csharp
+  - vb
+  name: suggestions
+  nameWithType: Behaviour_SerieInformationHolder.newsStruct.suggestions
+  fullName: Behaviour_SerieInformationHolder.newsStruct.suggestions
+  type: Field
+  source:
+    id: suggestions
+    path: ''
+    startLine: 12947
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieInformationHolder.suggestionsStruct[] suggestions
+    return:
+      type: Global.Behaviour_SerieInformationHolder.suggestionsStruct[]
+    content.vb: Public suggestions As Behaviour_SerieInformationHolder.suggestionsStruct()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Behaviour_SerieInformationHolder.suggestionsStruct[]
+  isExternal: true
+  name: Behaviour_SerieInformationHolder.suggestionsStruct[]
+  nameWithType: Behaviour_SerieInformationHolder.suggestionsStruct[]
+  fullName: Behaviour_SerieInformationHolder.suggestionsStruct[]
+  nameWithType.vb: Behaviour_SerieInformationHolder.suggestionsStruct()
+  fullName.vb: Behaviour_SerieInformationHolder.suggestionsStruct()
+  name.vb: Behaviour_SerieInformationHolder.suggestionsStruct()
+  spec.csharp:
+  - uid: Global.Behaviour_SerieInformationHolder.suggestionsStruct
+    name: Behaviour_SerieInformationHolder.suggestionsStruct
+    nameWithType: Behaviour_SerieInformationHolder.suggestionsStruct
+    fullName: Behaviour_SerieInformationHolder.suggestionsStruct
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Behaviour_SerieInformationHolder.suggestionsStruct
+    name: Behaviour_SerieInformationHolder.suggestionsStruct
+    nameWithType: Behaviour_SerieInformationHolder.suggestionsStruct
+    fullName: Behaviour_SerieInformationHolder.suggestionsStruct
+  - name: ()
+    nameWithType: ()
+    fullName: ()

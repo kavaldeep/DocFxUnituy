@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_CameraInitializer
+  commentId: T:Global.Behaviour_CameraInitializer
+  id: Behaviour_CameraInitializer
+  parent: Global
+  children:
+  - Global.Behaviour_CameraInitializer.Awake
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_CameraInitializer
+  nameWithType: Behaviour_CameraInitializer
+  fullName: Behaviour_CameraInitializer
+  type: Class
+  source:
+    id: Behaviour_CameraInitializer
+    path: ''
+    startLine: 27858
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_CameraInitializer : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_CameraInitializer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_CameraInitializer.Awake
+  commentId: M:Global.Behaviour_CameraInitializer.Awake
+  id: Awake
+  parent: Global.Behaviour_CameraInitializer
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Behaviour_CameraInitializer.Awake()
+  fullName: Behaviour_CameraInitializer.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 27860
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Awake()
+    content.vb: Protected Sub Awake
+  overload: Global.Behaviour_CameraInitializer.Awake*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_CameraInitializer.Awake*
+  commentId: Overload:Global.Behaviour_CameraInitializer.Awake
+  name: Awake
+  nameWithType: Behaviour_CameraInitializer.Awake
+  fullName: Behaviour_CameraInitializer.Awake

@@ -1,0 +1,1793 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_Extention
+  commentId: T:Global.Static_Extention
+  id: Static_Extention
+  parent: Global
+  children:
+  - Global.Static_Extention.Add(System.String[],System.String)
+  - Global.Static_Extention.AddLineBreak(System.String[])
+  - Global.Static_Extention.AddSeparator(System.String[],System.String)
+  - Global.Static_Extention.AddValues(System.String[],System.String[])
+  - Global.Static_Extention.ClearEmpty(System.String[])
+  - Global.Static_Extention.Contains``1(``0[],``0)
+  - Global.Static_Extention.Copy``1(System.Collections.Generic.List{``0})
+  - Global.Static_Extention.Exists(System.String)
+  - Global.Static_Extention.FindIndex``1(``0[],``0)
+  - Global.Static_Extention.FindInList``1(``0,System.Collections.Generic.List{``0})
+  - Global.Static_Extention.FindKey(System.String,System.Collections.Generic.List{System.String})
+  - Global.Static_Extention.FindKey(System.String,System.String[])
+  - Global.Static_Extention.GetHierarchyList``1(``0,System.Boolean)
+  - Global.Static_Extention.GetHierarchyPath``1(``0,System.Boolean)
+  - Global.Static_Extention.GetKeys(System.String[],System.Char)
+  - Global.Static_Extention.GetOrAddComponent``1(GameObject)
+  - Global.Static_Extention.GetOrAddComponent``1(MonoBehaviour)
+  - Global.Static_Extention.GetValues(System.String[],System.Char)
+  - Global.Static_Extention.HasKey(System.Collections.Generic.List{System.String},System.String)
+  - Global.Static_Extention.HasKey(System.String[],System.String)
+  - Global.Static_Extention.IsInList``1(``0,System.Collections.Generic.List{``0})
+  - Global.Static_Extention.ListEqual``1(System.Collections.Generic.List{``0},System.Collections.Generic.List{``0})
+  - Global.Static_Extention.ParseEnum``1(System.String)
+  - Global.Static_Extention.ReadAllLines(System.String,System.String[]@)
+  - Global.Static_Extention.ReadAllLines(TextAsset)
+  - Global.Static_Extention.RemoveAt``1(``0[],System.Int32)
+  - Global.Static_Extention.RemoveSeparator(System.String[],System.String)
+  - Global.Static_Extention.ToColor(System.String)
+  - Global.Static_Extention.ToText(System.Collections.Generic.List{System.String})
+  - Global.Static_Extention.ToText(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: Static_Extention
+  nameWithType: Static_Extention
+  fullName: Static_Extention
+  type: Class
+  source:
+    id: Static_Extention
+    path: ''
+    startLine: 16300
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Static_Extention
+    content.vb: Public Module Static_Extention
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_Extention.ParseEnum``1(System.String)
+  commentId: M:Global.Static_Extention.ParseEnum``1(System.String)
+  id: ParseEnum``1(System.String)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: ParseEnum<T>(String)
+  nameWithType: Static_Extention.ParseEnum<T>(String)
+  fullName: Static_Extention.ParseEnum<T>(System.String)
+  type: Method
+  source:
+    id: ParseEnum
+    path: ''
+    startLine: 16308
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThis method parses a sring into an enum of type T\n"
+  example: []
+  syntax:
+    content: public static T ParseEnum<T>(this string _value)
+    parameters:
+    - id: _value
+      type: System.String
+      description: _value is the string to parse
+    typeParameters:
+    - id: T
+      description: T is an enum
+    return:
+      type: '{T}'
+      description: returns the string parsed to an enum
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ParseEnum(Of T)(_value As String) As T
+  overload: Global.Static_Extention.ParseEnum*
+  nameWithType.vb: Static_Extention.ParseEnum(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.ParseEnum(Of T)(System.String)
+  name.vb: ParseEnum(Of T)(String)
+- uid: Global.Static_Extention.ListEqual``1(System.Collections.Generic.List{``0},System.Collections.Generic.List{``0})
+  commentId: M:Global.Static_Extention.ListEqual``1(System.Collections.Generic.List{``0},System.Collections.Generic.List{``0})
+  id: ListEqual``1(System.Collections.Generic.List{``0},System.Collections.Generic.List{``0})
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: ListEqual<T>(List<T>, List<T>)
+  nameWithType: Static_Extention.ListEqual<T>(List<T>, List<T>)
+  fullName: Static_Extention.ListEqual<T>(System.Collections.Generic.List<T>, System.Collections.Generic.List<T>)
+  type: Method
+  source:
+    id: ListEqual
+    path: ''
+    startLine: 16320
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThis method verifies the equality of two lists\n"
+  example: []
+  syntax:
+    content: >-
+      public static bool ListEqual<T>(this List<T> _src, List<T> _other)
+          where T : class
+    parameters:
+    - id: _src
+      type: System.Collections.Generic.List{{T}}
+      description: _src si the compared
+    - id: _other
+      type: System.Collections.Generic.List{{T}}
+      description: _other is the comparer
+    typeParameters:
+    - id: T
+      description: T si the type of the lists to compare
+    return:
+      type: System.Boolean
+      description: Returns True if equal
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ListEqual(Of T As Class)(_src As List(Of T), _other As List(Of T)) As Boolean
+  overload: Global.Static_Extention.ListEqual*
+  nameWithType.vb: Static_Extention.ListEqual(Of T)(List(Of T), List(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.ListEqual(Of T)(System.Collections.Generic.List(Of T), System.Collections.Generic.List(Of T))
+  name.vb: ListEqual(Of T)(List(Of T), List(Of T))
+- uid: Global.Static_Extention.Copy``1(System.Collections.Generic.List{``0})
+  commentId: M:Global.Static_Extention.Copy``1(System.Collections.Generic.List{``0})
+  id: Copy``1(System.Collections.Generic.List{``0})
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: Copy<T>(List<T>)
+  nameWithType: Static_Extention.Copy<T>(List<T>)
+  fullName: Static_Extention.Copy<T>(System.Collections.Generic.List<T>)
+  type: Method
+  source:
+    id: Copy
+    path: ''
+    startLine: 16337
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nCopies a list of type T to a new list\n"
+  example: []
+  syntax:
+    content: public static List<T> Copy<T>(this List<T> _list)
+    parameters:
+    - id: _list
+      type: System.Collections.Generic.List{{T}}
+      description: _list is the list to copy
+    typeParameters:
+    - id: T
+      description: T is the type of the list to copy to
+    return:
+      type: System.Collections.Generic.List{{T}}
+      description: Returns the new list
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Copy(Of T)(_list As List(Of T)) As List(Of T)
+  overload: Global.Static_Extention.Copy*
+  nameWithType.vb: Static_Extention.Copy(Of T)(List(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.Copy(Of T)(System.Collections.Generic.List(Of T))
+  name.vb: Copy(Of T)(List(Of T))
+- uid: Global.Static_Extention.RemoveAt``1(``0[],System.Int32)
+  commentId: M:Global.Static_Extention.RemoveAt``1(``0[],System.Int32)
+  id: RemoveAt``1(``0[],System.Int32)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: RemoveAt<T>(T[], Int32)
+  nameWithType: Static_Extention.RemoveAt<T>(T[], Int32)
+  fullName: Static_Extention.RemoveAt<T>(T[], System.Int32)
+  type: Method
+  source:
+    id: RemoveAt
+    path: ''
+    startLine: 16352
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nAllows the removal of an item in a list at a specific index\n"
+  example: []
+  syntax:
+    content: public static T[] RemoveAt<T>(this T[] arr, int index)
+    parameters:
+    - id: arr
+      type: '{T}[]'
+      description: arr is the array to remove from
+    - id: index
+      type: System.Int32
+      description: index is the index of the list where the element needs to be removed
+    typeParameters:
+    - id: T
+      description: T is the type of the list
+    return:
+      type: '{T}[]'
+      description: Returns the array without the element
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveAt(Of T)(arr As T(), index As Integer) As T()
+  overload: Global.Static_Extention.RemoveAt*
+  nameWithType.vb: Static_Extention.RemoveAt(Of T)(T(), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.RemoveAt(Of T)(T(), System.Int32)
+  name.vb: RemoveAt(Of T)(T(), Int32)
+- uid: Global.Static_Extention.GetHierarchyPath``1(``0,System.Boolean)
+  commentId: M:Global.Static_Extention.GetHierarchyPath``1(``0,System.Boolean)
+  id: GetHierarchyPath``1(``0,System.Boolean)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: GetHierarchyPath<T>(T, Boolean)
+  nameWithType: Static_Extention.GetHierarchyPath<T>(T, Boolean)
+  fullName: Static_Extention.GetHierarchyPath<T>(T, System.Boolean)
+  type: Method
+  source:
+    id: GetHierarchyPath
+    path: ''
+    startLine: 16375
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      public static string GetHierarchyPath<T>(this T _item, bool _includeObject = false)
+          where T : MonoBehaviour
+    parameters:
+    - id: _item
+      type: '{T}'
+    - id: _includeObject
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetHierarchyPath(Of T As MonoBehaviour)(_item As T, _includeObject As Boolean = False) As String
+  overload: Global.Static_Extention.GetHierarchyPath*
+  nameWithType.vb: Static_Extention.GetHierarchyPath(Of T)(T, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.GetHierarchyPath(Of T)(T, System.Boolean)
+  name.vb: GetHierarchyPath(Of T)(T, Boolean)
+- uid: Global.Static_Extention.GetHierarchyList``1(``0,System.Boolean)
+  commentId: M:Global.Static_Extention.GetHierarchyList``1(``0,System.Boolean)
+  id: GetHierarchyList``1(``0,System.Boolean)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: GetHierarchyList<T>(T, Boolean)
+  nameWithType: Static_Extention.GetHierarchyList<T>(T, Boolean)
+  fullName: Static_Extention.GetHierarchyList<T>(T, System.Boolean)
+  type: Method
+  source:
+    id: GetHierarchyList
+    path: ''
+    startLine: 16401
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      public static List<Transform> GetHierarchyList<T>(this T _item, bool _includeObject = false)
+          where T : MonoBehaviour
+    parameters:
+    - id: _item
+      type: '{T}'
+    - id: _includeObject
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.List{Transform}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetHierarchyList(Of T As MonoBehaviour)(_item As T, _includeObject As Boolean = False) As List(Of Transform)
+  overload: Global.Static_Extention.GetHierarchyList*
+  nameWithType.vb: Static_Extention.GetHierarchyList(Of T)(T, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.GetHierarchyList(Of T)(T, System.Boolean)
+  name.vb: GetHierarchyList(Of T)(T, Boolean)
+- uid: Global.Static_Extention.IsInList``1(``0,System.Collections.Generic.List{``0})
+  commentId: M:Global.Static_Extention.IsInList``1(``0,System.Collections.Generic.List{``0})
+  id: IsInList``1(``0,System.Collections.Generic.List{``0})
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: IsInList<T>(T, List<T>)
+  nameWithType: Static_Extention.IsInList<T>(T, List<T>)
+  fullName: Static_Extention.IsInList<T>(T, System.Collections.Generic.List<T>)
+  type: Method
+  source:
+    id: IsInList
+    path: ''
+    startLine: 16424
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThis method check whether an item of type T is in the List of Type T\n"
+  example: []
+  syntax:
+    content: >-
+      public static bool IsInList<T>(this T _item, List<T> _list)
+          where T : class
+    parameters:
+    - id: _item
+      type: '{T}'
+      description: The objet to look for in the list
+    - id: _list
+      type: System.Collections.Generic.List{{T}}
+      description: The list in which to look
+    typeParameters:
+    - id: T
+      description: The type T of the List. must inherit from class
+    return:
+      type: System.Boolean
+      description: true if the object is in the list
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsInList(Of T As Class)(_item As T, _list As List(Of T)) As Boolean
+  overload: Global.Static_Extention.IsInList*
+  nameWithType.vb: Static_Extention.IsInList(Of T)(T, List(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.IsInList(Of T)(T, System.Collections.Generic.List(Of T))
+  name.vb: IsInList(Of T)(T, List(Of T))
+- uid: Global.Static_Extention.FindInList``1(``0,System.Collections.Generic.List{``0})
+  commentId: M:Global.Static_Extention.FindInList``1(``0,System.Collections.Generic.List{``0})
+  id: FindInList``1(``0,System.Collections.Generic.List{``0})
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: FindInList<T>(T, List<T>)
+  nameWithType: Static_Extention.FindInList<T>(T, List<T>)
+  fullName: Static_Extention.FindInList<T>(T, System.Collections.Generic.List<T>)
+  type: Method
+  source:
+    id: FindInList
+    path: ''
+    startLine: 16439
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThis method check whether an item of type T is in the List of Type T and returns it&apos;s index\n"
+  example: []
+  syntax:
+    content: >-
+      public static int FindInList<T>(this T _item, List<T> _list)
+          where T : class
+    parameters:
+    - id: _item
+      type: '{T}'
+      description: The objet to look for in the list
+    - id: _list
+      type: System.Collections.Generic.List{{T}}
+      description: The list in which to look
+    typeParameters:
+    - id: T
+      description: The type T of the List. must inherit from class
+    return:
+      type: System.Int32
+      description: Returns the index of the objet, or -1 if not inside the list
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FindInList(Of T As Class)(_item As T, _list As List(Of T)) As Integer
+  overload: Global.Static_Extention.FindInList*
+  nameWithType.vb: Static_Extention.FindInList(Of T)(T, List(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.FindInList(Of T)(T, System.Collections.Generic.List(Of T))
+  name.vb: FindInList(Of T)(T, List(Of T))
+- uid: Global.Static_Extention.Contains``1(``0[],``0)
+  commentId: M:Global.Static_Extention.Contains``1(``0[],``0)
+  id: Contains``1(``0[],``0)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: Contains<T>(T[], T)
+  nameWithType: Static_Extention.Contains<T>(T[], T)
+  fullName: Static_Extention.Contains<T>(T[], T)
+  type: Method
+  source:
+    id: Contains
+    path: ''
+    startLine: 16454
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nChecks if an object is inside an array\n"
+  example: []
+  syntax:
+    content: >-
+      public static bool Contains<T>(this T[] _array, T _item)
+          where T : class
+    parameters:
+    - id: _array
+      type: '{T}[]'
+      description: The array in which to look
+    - id: _item
+      type: '{T}'
+      description: the object to look for
+    typeParameters:
+    - id: T
+      description: The type of the array and the objet, T must inherit from class
+    return:
+      type: System.Boolean
+      description: true if the object is inside the array
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Contains(Of T As Class)(_array As T(), _item As T) As Boolean
+  overload: Global.Static_Extention.Contains*
+  nameWithType.vb: Static_Extention.Contains(Of T)(T(), T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.Contains(Of T)(T(), T)
+  name.vb: Contains(Of T)(T(), T)
+- uid: Global.Static_Extention.FindIndex``1(``0[],``0)
+  commentId: M:Global.Static_Extention.FindIndex``1(``0[],``0)
+  id: FindIndex``1(``0[],``0)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: FindIndex<T>(T[], T)
+  nameWithType: Static_Extention.FindIndex<T>(T[], T)
+  fullName: Static_Extention.FindIndex<T>(T[], T)
+  type: Method
+  source:
+    id: FindIndex
+    path: ''
+    startLine: 16468
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      public static int FindIndex<T>(this T[] _array, T _item)
+          where T : class
+    parameters:
+    - id: _array
+      type: '{T}[]'
+    - id: _item
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FindIndex(Of T As Class)(_array As T(), _item As T) As Integer
+  overload: Global.Static_Extention.FindIndex*
+  nameWithType.vb: Static_Extention.FindIndex(Of T)(T(), T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.FindIndex(Of T)(T(), T)
+  name.vb: FindIndex(Of T)(T(), T)
+- uid: Global.Static_Extention.FindKey(System.String,System.Collections.Generic.List{System.String})
+  commentId: M:Global.Static_Extention.FindKey(System.String,System.Collections.Generic.List{System.String})
+  id: FindKey(System.String,System.Collections.Generic.List{System.String})
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: FindKey(String, List<String>)
+  nameWithType: Static_Extention.FindKey(String, List<String>)
+  fullName: Static_Extention.FindKey(System.String, System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    id: FindKey
+    path: ''
+    startLine: 16476
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool FindKey(this string _item, List<string> _list)
+    parameters:
+    - id: _item
+      type: System.String
+    - id: _list
+      type: System.Collections.Generic.List{System.String}
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FindKey(_item As String, _list As List(Of String)) As Boolean
+  overload: Global.Static_Extention.FindKey*
+  nameWithType.vb: Static_Extention.FindKey(String, List(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.FindKey(System.String, System.Collections.Generic.List(Of System.String))
+  name.vb: FindKey(String, List(Of String))
+- uid: Global.Static_Extention.FindKey(System.String,System.String[])
+  commentId: M:Global.Static_Extention.FindKey(System.String,System.String[])
+  id: FindKey(System.String,System.String[])
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: FindKey(String, String[])
+  nameWithType: Static_Extention.FindKey(String, String[])
+  fullName: Static_Extention.FindKey(System.String, System.String[])
+  type: Method
+  source:
+    id: FindKey
+    path: ''
+    startLine: 16484
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool FindKey(this string _item, string[] _array)
+    parameters:
+    - id: _item
+      type: System.String
+    - id: _array
+      type: System.String[]
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FindKey(_item As String, _array As String()) As Boolean
+  overload: Global.Static_Extention.FindKey*
+  nameWithType.vb: Static_Extention.FindKey(String, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.FindKey(System.String, System.String())
+  name.vb: FindKey(String, String())
+- uid: Global.Static_Extention.HasKey(System.Collections.Generic.List{System.String},System.String)
+  commentId: M:Global.Static_Extention.HasKey(System.Collections.Generic.List{System.String},System.String)
+  id: HasKey(System.Collections.Generic.List{System.String},System.String)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: HasKey(List<String>, String)
+  nameWithType: Static_Extention.HasKey(List<String>, String)
+  fullName: Static_Extention.HasKey(System.Collections.Generic.List<System.String>, System.String)
+  type: Method
+  source:
+    id: HasKey
+    path: ''
+    startLine: 16492
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool HasKey(this List<string> _list, string _item)
+    parameters:
+    - id: _list
+      type: System.Collections.Generic.List{System.String}
+    - id: _item
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasKey(_list As List(Of String), _item As String) As Boolean
+  overload: Global.Static_Extention.HasKey*
+  nameWithType.vb: Static_Extention.HasKey(List(Of String), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.HasKey(System.Collections.Generic.List(Of System.String), System.String)
+  name.vb: HasKey(List(Of String), String)
+- uid: Global.Static_Extention.HasKey(System.String[],System.String)
+  commentId: M:Global.Static_Extention.HasKey(System.String[],System.String)
+  id: HasKey(System.String[],System.String)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: HasKey(String[], String)
+  nameWithType: Static_Extention.HasKey(String[], String)
+  fullName: Static_Extention.HasKey(System.String[], System.String)
+  type: Method
+  source:
+    id: HasKey
+    path: ''
+    startLine: 16500
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool HasKey(this string[] _array, string _item)
+    parameters:
+    - id: _array
+      type: System.String[]
+    - id: _item
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasKey(_array As String(), _item As String) As Boolean
+  overload: Global.Static_Extention.HasKey*
+  nameWithType.vb: Static_Extention.HasKey(String(), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.HasKey(System.String(), System.String)
+  name.vb: HasKey(String(), String)
+- uid: Global.Static_Extention.ToText(System.Collections.Generic.List{System.String})
+  commentId: M:Global.Static_Extention.ToText(System.Collections.Generic.List{System.String})
+  id: ToText(System.Collections.Generic.List{System.String})
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: ToText(List<String>)
+  nameWithType: Static_Extention.ToText(List<String>)
+  fullName: Static_Extention.ToText(System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    id: ToText
+    path: ''
+    startLine: 16508
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string ToText(this List<string> _list)
+    parameters:
+    - id: _list
+      type: System.Collections.Generic.List{System.String}
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToText(_list As List(Of String)) As String
+  overload: Global.Static_Extention.ToText*
+  nameWithType.vb: Static_Extention.ToText(List(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.ToText(System.Collections.Generic.List(Of System.String))
+  name.vb: ToText(List(Of String))
+- uid: Global.Static_Extention.ToText(System.String[])
+  commentId: M:Global.Static_Extention.ToText(System.String[])
+  id: ToText(System.String[])
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: ToText(String[])
+  nameWithType: Static_Extention.ToText(String[])
+  fullName: Static_Extention.ToText(System.String[])
+  type: Method
+  source:
+    id: ToText
+    path: ''
+    startLine: 16516
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string ToText(this string[] _array)
+    parameters:
+    - id: _array
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToText(_array As String()) As String
+  overload: Global.Static_Extention.ToText*
+  nameWithType.vb: Static_Extention.ToText(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.ToText(System.String())
+  name.vb: ToText(String())
+- uid: Global.Static_Extention.RemoveSeparator(System.String[],System.String)
+  commentId: M:Global.Static_Extention.RemoveSeparator(System.String[],System.String)
+  id: RemoveSeparator(System.String[],System.String)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: RemoveSeparator(String[], String)
+  nameWithType: Static_Extention.RemoveSeparator(String[], String)
+  fullName: Static_Extention.RemoveSeparator(System.String[], System.String)
+  type: Method
+  source:
+    id: RemoveSeparator
+    path: ''
+    startLine: 16524
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string[] RemoveSeparator(this string[] _str, string _separator)
+    parameters:
+    - id: _str
+      type: System.String[]
+    - id: _separator
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveSeparator(_str As String(), _separator As String) As String()
+  overload: Global.Static_Extention.RemoveSeparator*
+  nameWithType.vb: Static_Extention.RemoveSeparator(String(), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.RemoveSeparator(System.String(), System.String)
+  name.vb: RemoveSeparator(String(), String)
+- uid: Global.Static_Extention.AddSeparator(System.String[],System.String)
+  commentId: M:Global.Static_Extention.AddSeparator(System.String[],System.String)
+  id: AddSeparator(System.String[],System.String)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: AddSeparator(String[], String)
+  nameWithType: Static_Extention.AddSeparator(String[], String)
+  fullName: Static_Extention.AddSeparator(System.String[], System.String)
+  type: Method
+  source:
+    id: AddSeparator
+    path: ''
+    startLine: 16531
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string[] AddSeparator(this string[] _str, string _separator)
+    parameters:
+    - id: _str
+      type: System.String[]
+    - id: _separator
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddSeparator(_str As String(), _separator As String) As String()
+  overload: Global.Static_Extention.AddSeparator*
+  nameWithType.vb: Static_Extention.AddSeparator(String(), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.AddSeparator(System.String(), System.String)
+  name.vb: AddSeparator(String(), String)
+- uid: Global.Static_Extention.Add(System.String[],System.String)
+  commentId: M:Global.Static_Extention.Add(System.String[],System.String)
+  id: Add(System.String[],System.String)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: Add(String[], String)
+  nameWithType: Static_Extention.Add(String[], String)
+  fullName: Static_Extention.Add(System.String[], System.String)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 16541
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string[] Add(this string[] _array, string _str)
+    parameters:
+    - id: _array
+      type: System.String[]
+    - id: _str
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Add(_array As String(), _str As String) As String()
+  overload: Global.Static_Extention.Add*
+  nameWithType.vb: Static_Extention.Add(String(), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.Add(System.String(), System.String)
+  name.vb: Add(String(), String)
+- uid: Global.Static_Extention.AddLineBreak(System.String[])
+  commentId: M:Global.Static_Extention.AddLineBreak(System.String[])
+  id: AddLineBreak(System.String[])
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: AddLineBreak(String[])
+  nameWithType: Static_Extention.AddLineBreak(String[])
+  fullName: Static_Extention.AddLineBreak(System.String[])
+  type: Method
+  source:
+    id: AddLineBreak
+    path: ''
+    startLine: 16548
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string[] AddLineBreak(this string[] _str)
+    parameters:
+    - id: _str
+      type: System.String[]
+    return:
+      type: System.String[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddLineBreak(_str As String()) As String()
+  overload: Global.Static_Extention.AddLineBreak*
+  nameWithType.vb: Static_Extention.AddLineBreak(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.AddLineBreak(System.String())
+  name.vb: AddLineBreak(String())
+- uid: Global.Static_Extention.GetKeys(System.String[],System.Char)
+  commentId: M:Global.Static_Extention.GetKeys(System.String[],System.Char)
+  id: GetKeys(System.String[],System.Char)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: GetKeys(String[], Char)
+  nameWithType: Static_Extention.GetKeys(String[], Char)
+  fullName: Static_Extention.GetKeys(System.String[], System.Char)
+  type: Method
+  source:
+    id: GetKeys
+    path: ''
+    startLine: 16555
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string[] GetKeys(this string[] _str, char _separator)
+    parameters:
+    - id: _str
+      type: System.String[]
+    - id: _separator
+      type: System.Char
+    return:
+      type: System.String[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetKeys(_str As String(), _separator As Char) As String()
+  overload: Global.Static_Extention.GetKeys*
+  nameWithType.vb: Static_Extention.GetKeys(String(), Char)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.GetKeys(System.String(), System.Char)
+  name.vb: GetKeys(String(), Char)
+- uid: Global.Static_Extention.ClearEmpty(System.String[])
+  commentId: M:Global.Static_Extention.ClearEmpty(System.String[])
+  id: ClearEmpty(System.String[])
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: ClearEmpty(String[])
+  nameWithType: Static_Extention.ClearEmpty(String[])
+  fullName: Static_Extention.ClearEmpty(System.String[])
+  type: Method
+  source:
+    id: ClearEmpty
+    path: ''
+    startLine: 16562
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string[] ClearEmpty(this string[] _str)
+    parameters:
+    - id: _str
+      type: System.String[]
+    return:
+      type: System.String[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ClearEmpty(_str As String()) As String()
+  overload: Global.Static_Extention.ClearEmpty*
+  nameWithType.vb: Static_Extention.ClearEmpty(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.ClearEmpty(System.String())
+  name.vb: ClearEmpty(String())
+- uid: Global.Static_Extention.GetValues(System.String[],System.Char)
+  commentId: M:Global.Static_Extention.GetValues(System.String[],System.Char)
+  id: GetValues(System.String[],System.Char)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: GetValues(String[], Char)
+  nameWithType: Static_Extention.GetValues(String[], Char)
+  fullName: Static_Extention.GetValues(System.String[], System.Char)
+  type: Method
+  source:
+    id: GetValues
+    path: ''
+    startLine: 16573
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string[] GetValues(this string[] _str, char _separator)
+    parameters:
+    - id: _str
+      type: System.String[]
+    - id: _separator
+      type: System.Char
+    return:
+      type: System.String[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetValues(_str As String(), _separator As Char) As String()
+  overload: Global.Static_Extention.GetValues*
+  nameWithType.vb: Static_Extention.GetValues(String(), Char)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.GetValues(System.String(), System.Char)
+  name.vb: GetValues(String(), Char)
+- uid: Global.Static_Extention.AddValues(System.String[],System.String[])
+  commentId: M:Global.Static_Extention.AddValues(System.String[],System.String[])
+  id: AddValues(System.String[],System.String[])
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: AddValues(String[], String[])
+  nameWithType: Static_Extention.AddValues(String[], String[])
+  fullName: Static_Extention.AddValues(System.String[], System.String[])
+  type: Method
+  source:
+    id: AddValues
+    path: ''
+    startLine: 16587
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string[] AddValues(this string[] _str, string[] _values)
+    parameters:
+    - id: _str
+      type: System.String[]
+    - id: _values
+      type: System.String[]
+    return:
+      type: System.String[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddValues(_str As String(), _values As String()) As String()
+  overload: Global.Static_Extention.AddValues*
+  nameWithType.vb: Static_Extention.AddValues(String(), String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.AddValues(System.String(), System.String())
+  name.vb: AddValues(String(), String())
+- uid: Global.Static_Extention.ReadAllLines(TextAsset)
+  commentId: M:Global.Static_Extention.ReadAllLines(TextAsset)
+  id: ReadAllLines(TextAsset)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: ReadAllLines(TextAsset)
+  nameWithType: Static_Extention.ReadAllLines(TextAsset)
+  fullName: Static_Extention.ReadAllLines(TextAsset)
+  type: Method
+  source:
+    id: ReadAllLines
+    path: ''
+    startLine: 16598
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string[] ReadAllLines(this TextAsset _text)
+    parameters:
+    - id: _text
+      type: Global.TextAsset
+    return:
+      type: System.String[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReadAllLines(_text As TextAsset) As String()
+  overload: Global.Static_Extention.ReadAllLines*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_Extention.ReadAllLines(System.String,System.String[]@)
+  commentId: M:Global.Static_Extention.ReadAllLines(System.String,System.String[]@)
+  id: ReadAllLines(System.String,System.String[]@)
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: ReadAllLines(String, out String[])
+  nameWithType: Static_Extention.ReadAllLines(String, out String[])
+  fullName: Static_Extention.ReadAllLines(System.String, out System.String[])
+  type: Method
+  source:
+    id: ReadAllLines
+    path: ''
+    startLine: 16603
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool ReadAllLines(string _path, out string[] _lines)
+    parameters:
+    - id: _path
+      type: System.String
+    - id: _lines
+      type: System.String[]
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ReadAllLines(_path As String, ByRef _lines As String()) As Boolean
+  overload: Global.Static_Extention.ReadAllLines*
+  nameWithType.vb: Static_Extention.ReadAllLines(String, ByRef String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.ReadAllLines(System.String, ByRef System.String())
+  name.vb: ReadAllLines(String, ByRef String())
+- uid: Global.Static_Extention.Exists(System.String)
+  commentId: M:Global.Static_Extention.Exists(System.String)
+  id: Exists(System.String)
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: Exists(String)
+  nameWithType: Static_Extention.Exists(String)
+  fullName: Static_Extention.Exists(System.String)
+  type: Method
+  source:
+    id: Exists
+    path: ''
+    startLine: 16613
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool Exists(string _path)
+    parameters:
+    - id: _path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Exists(_path As String) As Boolean
+  overload: Global.Static_Extention.Exists*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_Extention.GetOrAddComponent``1(GameObject)
+  commentId: M:Global.Static_Extention.GetOrAddComponent``1(GameObject)
+  id: GetOrAddComponent``1(GameObject)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: GetOrAddComponent<T>(GameObject)
+  nameWithType: Static_Extention.GetOrAddComponent<T>(GameObject)
+  fullName: Static_Extention.GetOrAddComponent<T>(GameObject)
+  type: Method
+  source:
+    id: GetOrAddComponent
+    path: ''
+    startLine: 16619
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      public static T GetOrAddComponent<T>(this GameObject _obj)
+          where T : MonoBehaviour
+    parameters:
+    - id: _obj
+      type: Global.GameObject
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetOrAddComponent(Of T As MonoBehaviour)(_obj As GameObject) As T
+  overload: Global.Static_Extention.GetOrAddComponent*
+  nameWithType.vb: Static_Extention.GetOrAddComponent(Of T)(GameObject)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.GetOrAddComponent(Of T)(GameObject)
+  name.vb: GetOrAddComponent(Of T)(GameObject)
+- uid: Global.Static_Extention.GetOrAddComponent``1(MonoBehaviour)
+  commentId: M:Global.Static_Extention.GetOrAddComponent``1(MonoBehaviour)
+  id: GetOrAddComponent``1(MonoBehaviour)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: GetOrAddComponent<T>(MonoBehaviour)
+  nameWithType: Static_Extention.GetOrAddComponent<T>(MonoBehaviour)
+  fullName: Static_Extention.GetOrAddComponent<T>(MonoBehaviour)
+  type: Method
+  source:
+    id: GetOrAddComponent
+    path: ''
+    startLine: 16627
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      public static T GetOrAddComponent<T>(this MonoBehaviour _mbh)
+          where T : MonoBehaviour
+    parameters:
+    - id: _mbh
+      type: Global.MonoBehaviour
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetOrAddComponent(Of T As MonoBehaviour)(_mbh As MonoBehaviour) As T
+  overload: Global.Static_Extention.GetOrAddComponent*
+  nameWithType.vb: Static_Extention.GetOrAddComponent(Of T)(MonoBehaviour)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_Extention.GetOrAddComponent(Of T)(MonoBehaviour)
+  name.vb: GetOrAddComponent(Of T)(MonoBehaviour)
+- uid: Global.Static_Extention.ToColor(System.String)
+  commentId: M:Global.Static_Extention.ToColor(System.String)
+  id: ToColor(System.String)
+  isExtensionMethod: true
+  parent: Global.Static_Extention
+  langs:
+  - csharp
+  - vb
+  name: ToColor(String)
+  nameWithType: Static_Extention.ToColor(String)
+  fullName: Static_Extention.ToColor(System.String)
+  type: Method
+  source:
+    id: ToColor
+    path: ''
+    startLine: 16635
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Color ToColor(this string _str)
+    parameters:
+    - id: _str
+      type: System.String
+    return:
+      type: Global.Color
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToColor(_str As String) As Color
+  overload: Global.Static_Extention.ToColor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Static_Extention.ParseEnum*
+  commentId: Overload:Global.Static_Extention.ParseEnum
+  name: ParseEnum
+  nameWithType: Static_Extention.ParseEnum
+  fullName: Static_Extention.ParseEnum
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.Static_Extention.ListEqual*
+  commentId: Overload:Global.Static_Extention.ListEqual
+  name: ListEqual
+  nameWithType: Static_Extention.ListEqual
+  fullName: Static_Extention.ListEqual
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Static_Extention.Copy*
+  commentId: Overload:Global.Static_Extention.Copy
+  name: Copy
+  nameWithType: Static_Extention.Copy
+  fullName: Static_Extention.Copy
+- uid: Global.Static_Extention.RemoveAt*
+  commentId: Overload:Global.Static_Extention.RemoveAt
+  name: RemoveAt
+  nameWithType: Static_Extention.RemoveAt
+  fullName: Static_Extention.RemoveAt
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Static_Extention.GetHierarchyPath*
+  commentId: Overload:Global.Static_Extention.GetHierarchyPath
+  name: GetHierarchyPath
+  nameWithType: Static_Extention.GetHierarchyPath
+  fullName: Static_Extention.GetHierarchyPath
+- uid: Global.Static_Extention.GetHierarchyList*
+  commentId: Overload:Global.Static_Extention.GetHierarchyList
+  name: GetHierarchyList
+  nameWithType: Static_Extention.GetHierarchyList
+  fullName: Static_Extention.GetHierarchyList
+- uid: System.Collections.Generic.List{Transform}
+  commentId: T:System.Collections.Generic.List{Transform}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Transform>
+  nameWithType: List<Transform>
+  fullName: System.Collections.Generic.List<Transform>
+  nameWithType.vb: List(Of Transform)
+  fullName.vb: System.Collections.Generic.List(Of Transform)
+  name.vb: List(Of Transform)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Static_Extention.IsInList*
+  commentId: Overload:Global.Static_Extention.IsInList
+  name: IsInList
+  nameWithType: Static_Extention.IsInList
+  fullName: Static_Extention.IsInList
+- uid: Global.Static_Extention.FindInList*
+  commentId: Overload:Global.Static_Extention.FindInList
+  name: FindInList
+  nameWithType: Static_Extention.FindInList
+  fullName: Static_Extention.FindInList
+- uid: Global.Static_Extention.Contains*
+  commentId: Overload:Global.Static_Extention.Contains
+  name: Contains
+  nameWithType: Static_Extention.Contains
+  fullName: Static_Extention.Contains
+- uid: Global.Static_Extention.FindIndex*
+  commentId: Overload:Global.Static_Extention.FindIndex
+  name: FindIndex
+  nameWithType: Static_Extention.FindIndex
+  fullName: Static_Extention.FindIndex
+- uid: Global.Static_Extention.FindKey*
+  commentId: Overload:Global.Static_Extention.FindKey
+  name: FindKey
+  nameWithType: Static_Extention.FindKey
+  fullName: Static_Extention.FindKey
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Static_Extention.HasKey*
+  commentId: Overload:Global.Static_Extention.HasKey
+  name: HasKey
+  nameWithType: Static_Extention.HasKey
+  fullName: Static_Extention.HasKey
+- uid: Global.Static_Extention.ToText*
+  commentId: Overload:Global.Static_Extention.ToText
+  name: ToText
+  nameWithType: Static_Extention.ToText
+  fullName: Static_Extention.ToText
+- uid: Global.Static_Extention.RemoveSeparator*
+  commentId: Overload:Global.Static_Extention.RemoveSeparator
+  name: RemoveSeparator
+  nameWithType: Static_Extention.RemoveSeparator
+  fullName: Static_Extention.RemoveSeparator
+- uid: Global.Static_Extention.AddSeparator*
+  commentId: Overload:Global.Static_Extention.AddSeparator
+  name: AddSeparator
+  nameWithType: Static_Extention.AddSeparator
+  fullName: Static_Extention.AddSeparator
+- uid: Global.Static_Extention.Add*
+  commentId: Overload:Global.Static_Extention.Add
+  name: Add
+  nameWithType: Static_Extention.Add
+  fullName: Static_Extention.Add
+- uid: Global.Static_Extention.AddLineBreak*
+  commentId: Overload:Global.Static_Extention.AddLineBreak
+  name: AddLineBreak
+  nameWithType: Static_Extention.AddLineBreak
+  fullName: Static_Extention.AddLineBreak
+- uid: Global.Static_Extention.GetKeys*
+  commentId: Overload:Global.Static_Extention.GetKeys
+  name: GetKeys
+  nameWithType: Static_Extention.GetKeys
+  fullName: Static_Extention.GetKeys
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: Global.Static_Extention.ClearEmpty*
+  commentId: Overload:Global.Static_Extention.ClearEmpty
+  name: ClearEmpty
+  nameWithType: Static_Extention.ClearEmpty
+  fullName: Static_Extention.ClearEmpty
+- uid: Global.Static_Extention.GetValues*
+  commentId: Overload:Global.Static_Extention.GetValues
+  name: GetValues
+  nameWithType: Static_Extention.GetValues
+  fullName: Static_Extention.GetValues
+- uid: Global.Static_Extention.AddValues*
+  commentId: Overload:Global.Static_Extention.AddValues
+  name: AddValues
+  nameWithType: Static_Extention.AddValues
+  fullName: Static_Extention.AddValues
+- uid: Global.Static_Extention.ReadAllLines*
+  commentId: Overload:Global.Static_Extention.ReadAllLines
+  name: ReadAllLines
+  nameWithType: Static_Extention.ReadAllLines
+  fullName: Static_Extention.ReadAllLines
+- uid: Global.TextAsset
+  commentId: '!:Global.TextAsset'
+  isExternal: true
+  name: TextAsset
+  nameWithType: TextAsset
+  fullName: TextAsset
+- uid: Global.Static_Extention.Exists*
+  commentId: Overload:Global.Static_Extention.Exists
+  name: Exists
+  nameWithType: Static_Extention.Exists
+  fullName: Static_Extention.Exists
+- uid: Global.Static_Extention.GetOrAddComponent*
+  commentId: Overload:Global.Static_Extention.GetOrAddComponent
+  name: GetOrAddComponent
+  nameWithType: Static_Extention.GetOrAddComponent
+  fullName: Static_Extention.GetOrAddComponent
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.MonoBehaviour
+  commentId: '!:Global.MonoBehaviour'
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: MonoBehaviour
+- uid: Global.Static_Extention.ToColor*
+  commentId: Overload:Global.Static_Extention.ToColor
+  name: ToColor
+  nameWithType: Static_Extention.ToColor
+  fullName: Static_Extention.ToColor
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color

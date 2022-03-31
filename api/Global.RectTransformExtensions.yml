@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.RectTransformExtensions
+  commentId: T:Global.RectTransformExtensions
+  id: RectTransformExtensions
+  parent: Global
+  children:
+  - Global.RectTransformExtensions.SetAnchor(RectTransform,AnchorPresets,System.Single,System.Single,System.Single,Ease)
+  - Global.RectTransformExtensions.SetPivot(RectTransform,PivotPresets,System.Single,Ease)
+  langs:
+  - csharp
+  - vb
+  name: RectTransformExtensions
+  nameWithType: RectTransformExtensions
+  fullName: RectTransformExtensions
+  type: Class
+  source:
+    id: RectTransformExtensions
+    path: ''
+    startLine: 14139
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class RectTransformExtensions
+    content.vb: Public Module RectTransformExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.RectTransformExtensions.SetAnchor(RectTransform,AnchorPresets,System.Single,System.Single,System.Single,Ease)
+  commentId: M:Global.RectTransformExtensions.SetAnchor(RectTransform,AnchorPresets,System.Single,System.Single,System.Single,Ease)
+  id: SetAnchor(RectTransform,AnchorPresets,System.Single,System.Single,System.Single,Ease)
+  isExtensionMethod: true
+  parent: Global.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetAnchor(RectTransform, AnchorPresets, Single, Single, Single, Ease)
+  nameWithType: RectTransformExtensions.SetAnchor(RectTransform, AnchorPresets, Single, Single, Single, Ease)
+  fullName: RectTransformExtensions.SetAnchor(RectTransform, AnchorPresets, System.Single, System.Single, System.Single, Ease)
+  type: Method
+  source:
+    id: SetAnchor
+    path: ''
+    startLine: 14141
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Tween SetAnchor(this RectTransform source, AnchorPresets allign, float offsetX = 0F, float offsetY = 0F, float duration = 1F, Ease ease = null)
+    parameters:
+    - id: source
+      type: Global.RectTransform
+    - id: allign
+      type: Global.AnchorPresets
+    - id: offsetX
+      type: System.Single
+    - id: offsetY
+      type: System.Single
+    - id: duration
+      type: System.Single
+    - id: ease
+      type: Global.Ease
+    return:
+      type: Global.Tween
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetAnchor(source As RectTransform, allign As AnchorPresets, offsetX As Single = 0F, offsetY As Single = 0F, duration As Single = 1F, ease As Ease = Nothing) As Tween
+  overload: Global.RectTransformExtensions.SetAnchor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.RectTransformExtensions.SetPivot(RectTransform,PivotPresets,System.Single,Ease)
+  commentId: M:Global.RectTransformExtensions.SetPivot(RectTransform,PivotPresets,System.Single,Ease)
+  id: SetPivot(RectTransform,PivotPresets,System.Single,Ease)
+  isExtensionMethod: true
+  parent: Global.RectTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetPivot(RectTransform, PivotPresets, Single, Ease)
+  nameWithType: RectTransformExtensions.SetPivot(RectTransform, PivotPresets, Single, Ease)
+  fullName: RectTransformExtensions.SetPivot(RectTransform, PivotPresets, System.Single, Ease)
+  type: Method
+  source:
+    id: SetPivot
+    path: ''
+    startLine: 14258
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Tween SetPivot(this RectTransform source, PivotPresets preset, float duration = 1F, Ease ease = null)
+    parameters:
+    - id: source
+      type: Global.RectTransform
+    - id: preset
+      type: Global.PivotPresets
+    - id: duration
+      type: System.Single
+    - id: ease
+      type: Global.Ease
+    return:
+      type: Global.Tween
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetPivot(source As RectTransform, preset As PivotPresets, duration As Single = 1F, ease As Ease = Nothing) As Tween
+  overload: Global.RectTransformExtensions.SetPivot*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RectTransformExtensions.SetAnchor*
+  commentId: Overload:Global.RectTransformExtensions.SetAnchor
+  name: SetAnchor
+  nameWithType: RectTransformExtensions.SetAnchor
+  fullName: RectTransformExtensions.SetAnchor
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.AnchorPresets
+  commentId: T:Global.AnchorPresets
+  name: AnchorPresets
+  nameWithType: AnchorPresets
+  fullName: AnchorPresets
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Ease
+  isExternal: true
+  name: Ease
+  nameWithType: Ease
+  fullName: Ease
+- uid: Global.Tween
+  isExternal: true
+  name: Tween
+  nameWithType: Tween
+  fullName: Tween
+- uid: Global.RectTransformExtensions.SetPivot*
+  commentId: Overload:Global.RectTransformExtensions.SetPivot
+  name: SetPivot
+  nameWithType: RectTransformExtensions.SetPivot
+  fullName: RectTransformExtensions.SetPivot
+- uid: Global.PivotPresets
+  commentId: T:Global.PivotPresets
+  name: PivotPresets
+  nameWithType: PivotPresets
+  fullName: PivotPresets

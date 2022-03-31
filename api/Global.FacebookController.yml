@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.FacebookController
+  commentId: T:Global.FacebookController
+  id: FacebookController
+  parent: Global
+  children:
+  - Global.FacebookController.FbLogin
+  - Global.FacebookController.usernameF
+  langs:
+  - csharp
+  - vb
+  name: FacebookController
+  nameWithType: FacebookController
+  fullName: FacebookController
+  type: Class
+  source:
+    id: FacebookController
+    path: ''
+    startLine: 25256
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class FacebookController : MonoBehaviour'
+    content.vb: >-
+      Public Class FacebookController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.FacebookController.usernameF
+  commentId: F:Global.FacebookController.usernameF
+  id: usernameF
+  parent: Global.FacebookController
+  langs:
+  - csharp
+  - vb
+  name: usernameF
+  nameWithType: FacebookController.usernameF
+  fullName: FacebookController.usernameF
+  type: Field
+  source:
+    id: usernameF
+    path: ''
+    startLine: 25258
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject usernameF
+    return:
+      type: Global.GameObject
+    content.vb: Public usernameF As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FacebookController.FbLogin
+  commentId: M:Global.FacebookController.FbLogin
+  id: FbLogin
+  parent: Global.FacebookController
+  langs:
+  - csharp
+  - vb
+  name: FbLogin()
+  nameWithType: FacebookController.FbLogin()
+  fullName: FacebookController.FbLogin()
+  type: Method
+  source:
+    id: FbLogin
+    path: ''
+    startLine: 25285
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void FbLogin()
+    content.vb: Public Sub FbLogin
+  overload: Global.FacebookController.FbLogin*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.FacebookController.FbLogin*
+  commentId: Overload:Global.FacebookController.FbLogin
+  name: FbLogin
+  nameWithType: FacebookController.FbLogin
+  fullName: FacebookController.FbLogin

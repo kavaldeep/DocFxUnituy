@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MaskSizeFixer
+  commentId: T:Global.MaskSizeFixer
+  id: MaskSizeFixer
+  parent: Global
+  children:
+  - Global.MaskSizeFixer.GO_image
+  langs:
+  - csharp
+  - vb
+  name: MaskSizeFixer
+  nameWithType: MaskSizeFixer
+  fullName: MaskSizeFixer
+  type: Class
+  source:
+    id: MaskSizeFixer
+    path: ''
+    startLine: 27369
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MaskSizeFixer : MonoBehaviour'
+    content.vb: >-
+      Public Class MaskSizeFixer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MaskSizeFixer.GO_image
+  commentId: F:Global.MaskSizeFixer.GO_image
+  id: GO_image
+  parent: Global.MaskSizeFixer
+  langs:
+  - csharp
+  - vb
+  name: GO_image
+  nameWithType: MaskSizeFixer.GO_image
+  fullName: MaskSizeFixer.GO_image
+  type: Field
+  source:
+    id: GO_image
+    path: ''
+    startLine: 27372
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject GO_image
+    return:
+      type: Global.GameObject
+    content.vb: Public GO_image As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

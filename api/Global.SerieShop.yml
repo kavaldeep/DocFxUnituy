@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SerieShop
+  commentId: T:Global.SerieShop
+  id: SerieShop
+  parent: Global
+  children:
+  - Global.SerieShop.#ctor
+  - Global.SerieShop.#ctor(System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct})
+  - Global.SerieShop.events
+  - Global.SerieShop.physicals
+  - Global.SerieShop.virtuals
+  langs:
+  - csharp
+  - vb
+  name: SerieShop
+  nameWithType: SerieShop
+  fullName: SerieShop
+  type: Class
+  source:
+    id: SerieShop
+    path: ''
+    startLine: 15860
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SerieShop
+    content.vb: >-
+      <Serializable>
+
+      Public Class SerieShop
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SerieShop.events
+  commentId: F:Global.SerieShop.events
+  id: events
+  parent: Global.SerieShop
+  langs:
+  - csharp
+  - vb
+  name: events
+  nameWithType: SerieShop.events
+  fullName: SerieShop.events
+  type: Field
+  source:
+    id: events
+    path: ''
+    startLine: 15863
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<ShopProduct> events
+    return:
+      type: System.Collections.Generic.List{ShopProduct}
+    content.vb: Public events As List(Of ShopProduct)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SerieShop.physicals
+  commentId: F:Global.SerieShop.physicals
+  id: physicals
+  parent: Global.SerieShop
+  langs:
+  - csharp
+  - vb
+  name: physicals
+  nameWithType: SerieShop.physicals
+  fullName: SerieShop.physicals
+  type: Field
+  source:
+    id: physicals
+    path: ''
+    startLine: 15863
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<ShopProduct> physicals
+    return:
+      type: System.Collections.Generic.List{ShopProduct}
+    content.vb: Public physicals As List(Of ShopProduct)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SerieShop.virtuals
+  commentId: F:Global.SerieShop.virtuals
+  id: virtuals
+  parent: Global.SerieShop
+  langs:
+  - csharp
+  - vb
+  name: virtuals
+  nameWithType: SerieShop.virtuals
+  fullName: SerieShop.virtuals
+  type: Field
+  source:
+    id: virtuals
+    path: ''
+    startLine: 15863
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<ShopProduct> virtuals
+    return:
+      type: System.Collections.Generic.List{ShopProduct}
+    content.vb: Public virtuals As List(Of ShopProduct)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SerieShop.#ctor
+  commentId: M:Global.SerieShop.#ctor
+  id: '#ctor'
+  parent: Global.SerieShop
+  langs:
+  - csharp
+  - vb
+  name: SerieShop()
+  nameWithType: SerieShop.SerieShop()
+  fullName: SerieShop.SerieShop()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15865
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public SerieShop()
+    content.vb: Public Sub New
+  overload: Global.SerieShop.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SerieShop.#ctor(System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct})
+  commentId: M:Global.SerieShop.#ctor(System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct})
+  id: '#ctor(System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct})'
+  parent: Global.SerieShop
+  langs:
+  - csharp
+  - vb
+  name: SerieShop(List<ShopProduct>, List<ShopProduct>, List<ShopProduct>)
+  nameWithType: SerieShop.SerieShop(List<ShopProduct>, List<ShopProduct>, List<ShopProduct>)
+  fullName: SerieShop.SerieShop(System.Collections.Generic.List<ShopProduct>, System.Collections.Generic.List<ShopProduct>, System.Collections.Generic.List<ShopProduct>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15872
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public SerieShop(List<ShopProduct> _events, List<ShopProduct> _physicals, List<ShopProduct> _virtuals)
+    parameters:
+    - id: _events
+      type: System.Collections.Generic.List{ShopProduct}
+    - id: _physicals
+      type: System.Collections.Generic.List{ShopProduct}
+    - id: _virtuals
+      type: System.Collections.Generic.List{ShopProduct}
+    content.vb: Public Sub New(_events As List(Of ShopProduct), _physicals As List(Of ShopProduct), _virtuals As List(Of ShopProduct))
+  overload: Global.SerieShop.#ctor*
+  nameWithType.vb: SerieShop.SerieShop(List(Of ShopProduct), List(Of ShopProduct), List(Of ShopProduct))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SerieShop.SerieShop(System.Collections.Generic.List(Of ShopProduct), System.Collections.Generic.List(Of ShopProduct), System.Collections.Generic.List(Of ShopProduct))
+  name.vb: SerieShop(List(Of ShopProduct), List(Of ShopProduct), List(Of ShopProduct))
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{ShopProduct}
+  commentId: T:System.Collections.Generic.List{ShopProduct}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ShopProduct>
+  nameWithType: List<ShopProduct>
+  fullName: System.Collections.Generic.List<ShopProduct>
+  nameWithType.vb: List(Of ShopProduct)
+  fullName.vb: System.Collections.Generic.List(Of ShopProduct)
+  name.vb: List(Of ShopProduct)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.ShopProduct
+    name: ShopProduct
+    nameWithType: ShopProduct
+    fullName: ShopProduct
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.ShopProduct
+    name: ShopProduct
+    nameWithType: ShopProduct
+    fullName: ShopProduct
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.SerieShop.#ctor*
+  commentId: Overload:Global.SerieShop.#ctor
+  name: SerieShop
+  nameWithType: SerieShop.SerieShop
+  fullName: SerieShop.SerieShop

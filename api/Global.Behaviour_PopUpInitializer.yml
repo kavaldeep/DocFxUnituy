@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_PopUpInitializer
+  commentId: T:Global.Behaviour_PopUpInitializer
+  id: Behaviour_PopUpInitializer
+  parent: Global
+  children:
+  - Global.Behaviour_PopUpInitializer.Awake
+  - Global.Behaviour_PopUpInitializer.popUpPrefab
+  - Global.Behaviour_PopUpInitializer.popUpRoot
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_PopUpInitializer
+  nameWithType: Behaviour_PopUpInitializer
+  fullName: Behaviour_PopUpInitializer
+  type: Class
+  source:
+    id: Behaviour_PopUpInitializer
+    path: ''
+    startLine: 21484
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_PopUpInitializer : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_PopUpInitializer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_PopUpInitializer.popUpPrefab
+  commentId: F:Global.Behaviour_PopUpInitializer.popUpPrefab
+  id: popUpPrefab
+  parent: Global.Behaviour_PopUpInitializer
+  langs:
+  - csharp
+  - vb
+  name: popUpPrefab
+  nameWithType: Behaviour_PopUpInitializer.popUpPrefab
+  fullName: Behaviour_PopUpInitializer.popUpPrefab
+  type: Field
+  source:
+    id: popUpPrefab
+    path: ''
+    startLine: 21486
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject popUpPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public popUpPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PopUpInitializer.popUpRoot
+  commentId: F:Global.Behaviour_PopUpInitializer.popUpRoot
+  id: popUpRoot
+  parent: Global.Behaviour_PopUpInitializer
+  langs:
+  - csharp
+  - vb
+  name: popUpRoot
+  nameWithType: Behaviour_PopUpInitializer.popUpRoot
+  fullName: Behaviour_PopUpInitializer.popUpRoot
+  type: Field
+  source:
+    id: popUpRoot
+    path: ''
+    startLine: 21487
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Transform popUpRoot
+    return:
+      type: Global.Transform
+    content.vb: Public popUpRoot As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PopUpInitializer.Awake
+  commentId: M:Global.Behaviour_PopUpInitializer.Awake
+  id: Awake
+  parent: Global.Behaviour_PopUpInitializer
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Behaviour_PopUpInitializer.Awake()
+  fullName: Behaviour_PopUpInitializer.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 21489
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Awake()
+    content.vb: Protected Sub Awake
+  overload: Global.Behaviour_PopUpInitializer.Awake*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.Behaviour_PopUpInitializer.Awake*
+  commentId: Overload:Global.Behaviour_PopUpInitializer.Awake
+  name: Awake
+  nameWithType: Behaviour_PopUpInitializer.Awake
+  fullName: Behaviour_PopUpInitializer.Awake

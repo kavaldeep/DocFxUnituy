@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_EpisodeLauncher_Information
+  commentId: T:Global.Behaviour_EpisodeLauncher_Information
+  id: Behaviour_EpisodeLauncher_Information
+  parent: Global
+  children:
+  - Global.Behaviour_EpisodeLauncher_Information.BehaviourPageInfoScript
+  - Global.Behaviour_EpisodeLauncher_Information.controllerParent
+  - Global.Behaviour_EpisodeLauncher_Information.episodeNumber
+  - Global.Behaviour_EpisodeLauncher_Information.episodeURL
+  - Global.Behaviour_EpisodeLauncher_Information.LaunchEpisode
+  - Global.Behaviour_EpisodeLauncher_Information.MediaController
+  - Global.Behaviour_EpisodeLauncher_Information.parent
+  - Global.Behaviour_EpisodeLauncher_Information.seasonNumber
+  - Global.Behaviour_EpisodeLauncher_Information.SmallSlider
+  - Global.Behaviour_EpisodeLauncher_Information.Youtubecontroller
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_EpisodeLauncher_Information
+  nameWithType: Behaviour_EpisodeLauncher_Information
+  fullName: Behaviour_EpisodeLauncher_Information
+  type: Class
+  source:
+    id: Behaviour_EpisodeLauncher_Information
+    path: ''
+    startLine: 22198
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_EpisodeLauncher_Information : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_EpisodeLauncher_Information
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_EpisodeLauncher_Information.episodeURL
+  commentId: F:Global.Behaviour_EpisodeLauncher_Information.episodeURL
+  id: episodeURL
+  parent: Global.Behaviour_EpisodeLauncher_Information
+  langs:
+  - csharp
+  - vb
+  name: episodeURL
+  nameWithType: Behaviour_EpisodeLauncher_Information.episodeURL
+  fullName: Behaviour_EpisodeLauncher_Information.episodeURL
+  type: Field
+  source:
+    id: episodeURL
+    path: ''
+    startLine: 22201
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string episodeURL
+    return:
+      type: System.String
+    content.vb: Public episodeURL As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeLauncher_Information.seasonNumber
+  commentId: F:Global.Behaviour_EpisodeLauncher_Information.seasonNumber
+  id: seasonNumber
+  parent: Global.Behaviour_EpisodeLauncher_Information
+  langs:
+  - csharp
+  - vb
+  name: seasonNumber
+  nameWithType: Behaviour_EpisodeLauncher_Information.seasonNumber
+  fullName: Behaviour_EpisodeLauncher_Information.seasonNumber
+  type: Field
+  source:
+    id: seasonNumber
+    path: ''
+    startLine: 22202
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int seasonNumber
+    return:
+      type: System.Int32
+    content.vb: Public seasonNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeLauncher_Information.episodeNumber
+  commentId: F:Global.Behaviour_EpisodeLauncher_Information.episodeNumber
+  id: episodeNumber
+  parent: Global.Behaviour_EpisodeLauncher_Information
+  langs:
+  - csharp
+  - vb
+  name: episodeNumber
+  nameWithType: Behaviour_EpisodeLauncher_Information.episodeNumber
+  fullName: Behaviour_EpisodeLauncher_Information.episodeNumber
+  type: Field
+  source:
+    id: episodeNumber
+    path: ''
+    startLine: 22203
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int episodeNumber
+    return:
+      type: System.Int32
+    content.vb: Public episodeNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeLauncher_Information.BehaviourPageInfoScript
+  commentId: F:Global.Behaviour_EpisodeLauncher_Information.BehaviourPageInfoScript
+  id: BehaviourPageInfoScript
+  parent: Global.Behaviour_EpisodeLauncher_Information
+  langs:
+  - csharp
+  - vb
+  name: BehaviourPageInfoScript
+  nameWithType: Behaviour_EpisodeLauncher_Information.BehaviourPageInfoScript
+  fullName: Behaviour_EpisodeLauncher_Information.BehaviourPageInfoScript
+  type: Field
+  source:
+    id: BehaviourPageInfoScript
+    path: ''
+    startLine: 22205
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_EpisodePageInfo BehaviourPageInfoScript
+    return:
+      type: Global.Behaviour_EpisodePageInfo
+    content.vb: Public BehaviourPageInfoScript As Behaviour_EpisodePageInfo
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeLauncher_Information.Youtubecontroller
+  commentId: F:Global.Behaviour_EpisodeLauncher_Information.Youtubecontroller
+  id: Youtubecontroller
+  parent: Global.Behaviour_EpisodeLauncher_Information
+  langs:
+  - csharp
+  - vb
+  name: Youtubecontroller
+  nameWithType: Behaviour_EpisodeLauncher_Information.Youtubecontroller
+  fullName: Behaviour_EpisodeLauncher_Information.Youtubecontroller
+  type: Field
+  source:
+    id: Youtubecontroller
+    path: ''
+    startLine: 22206
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_YoutubePlayer Youtubecontroller
+    return:
+      type: YoutubePlayer.Behaviour_YoutubePlayer
+    content.vb: Public Youtubecontroller As Behaviour_YoutubePlayer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeLauncher_Information.MediaController
+  commentId: F:Global.Behaviour_EpisodeLauncher_Information.MediaController
+  id: MediaController
+  parent: Global.Behaviour_EpisodeLauncher_Information
+  langs:
+  - csharp
+  - vb
+  name: MediaController
+  nameWithType: Behaviour_EpisodeLauncher_Information.MediaController
+  fullName: Behaviour_EpisodeLauncher_Information.MediaController
+  type: Field
+  source:
+    id: MediaController
+    path: ''
+    startLine: 22207
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl MediaController
+    return:
+      type: Global.MediaPlayerCtrl
+    content.vb: Public MediaController As MediaPlayerCtrl
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeLauncher_Information.parent
+  commentId: F:Global.Behaviour_EpisodeLauncher_Information.parent
+  id: parent
+  parent: Global.Behaviour_EpisodeLauncher_Information
+  langs:
+  - csharp
+  - vb
+  name: parent
+  nameWithType: Behaviour_EpisodeLauncher_Information.parent
+  fullName: Behaviour_EpisodeLauncher_Information.parent
+  type: Field
+  source:
+    id: parent
+    path: ''
+    startLine: 22208
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject parent
+    return:
+      type: Global.GameObject
+    content.vb: Public parent As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeLauncher_Information.controllerParent
+  commentId: F:Global.Behaviour_EpisodeLauncher_Information.controllerParent
+  id: controllerParent
+  parent: Global.Behaviour_EpisodeLauncher_Information
+  langs:
+  - csharp
+  - vb
+  name: controllerParent
+  nameWithType: Behaviour_EpisodeLauncher_Information.controllerParent
+  fullName: Behaviour_EpisodeLauncher_Information.controllerParent
+  type: Field
+  source:
+    id: controllerParent
+    path: ''
+    startLine: 22209
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject controllerParent
+    return:
+      type: Global.GameObject
+    content.vb: Public controllerParent As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeLauncher_Information.SmallSlider
+  commentId: F:Global.Behaviour_EpisodeLauncher_Information.SmallSlider
+  id: SmallSlider
+  parent: Global.Behaviour_EpisodeLauncher_Information
+  langs:
+  - csharp
+  - vb
+  name: SmallSlider
+  nameWithType: Behaviour_EpisodeLauncher_Information.SmallSlider
+  fullName: Behaviour_EpisodeLauncher_Information.SmallSlider
+  type: Field
+  source:
+    id: SmallSlider
+    path: ''
+    startLine: 22210
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject SmallSlider
+    return:
+      type: Global.GameObject
+    content.vb: Public SmallSlider As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeLauncher_Information.LaunchEpisode
+  commentId: M:Global.Behaviour_EpisodeLauncher_Information.LaunchEpisode
+  id: LaunchEpisode
+  parent: Global.Behaviour_EpisodeLauncher_Information
+  langs:
+  - csharp
+  - vb
+  name: LaunchEpisode()
+  nameWithType: Behaviour_EpisodeLauncher_Information.LaunchEpisode()
+  fullName: Behaviour_EpisodeLauncher_Information.LaunchEpisode()
+  type: Method
+  source:
+    id: LaunchEpisode
+    path: ''
+    startLine: 22212
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public async void LaunchEpisode()
+    content.vb: Public Sub LaunchEpisode
+  overload: Global.Behaviour_EpisodeLauncher_Information.LaunchEpisode*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_EpisodePageInfo
+  commentId: T:Global.Behaviour_EpisodePageInfo
+  name: Behaviour_EpisodePageInfo
+  nameWithType: Behaviour_EpisodePageInfo
+  fullName: Behaviour_EpisodePageInfo
+- uid: YoutubePlayer.Behaviour_YoutubePlayer
+  commentId: T:YoutubePlayer.Behaviour_YoutubePlayer
+  parent: YoutubePlayer
+  name: Behaviour_YoutubePlayer
+  nameWithType: Behaviour_YoutubePlayer
+  fullName: YoutubePlayer.Behaviour_YoutubePlayer
+- uid: YoutubePlayer
+  commentId: N:YoutubePlayer
+  name: YoutubePlayer
+  nameWithType: YoutubePlayer
+  fullName: YoutubePlayer
+- uid: Global.MediaPlayerCtrl
+  commentId: T:Global.MediaPlayerCtrl
+  name: MediaPlayerCtrl
+  nameWithType: MediaPlayerCtrl
+  fullName: MediaPlayerCtrl
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_EpisodeLauncher_Information.LaunchEpisode*
+  commentId: Overload:Global.Behaviour_EpisodeLauncher_Information.LaunchEpisode
+  name: LaunchEpisode
+  nameWithType: Behaviour_EpisodeLauncher_Information.LaunchEpisode
+  fullName: Behaviour_EpisodeLauncher_Information.LaunchEpisode

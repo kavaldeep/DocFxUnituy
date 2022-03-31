@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TribiewShop
+  commentId: T:Global.TribiewShop
+  id: TribiewShop
+  parent: Global
+  children:
+  - Global.TribiewShop.#ctor
+  - Global.TribiewShop.#ctor(System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct})
+  - Global.TribiewShop.events
+  - Global.TribiewShop.physicals
+  - Global.TribiewShop.virtuals
+  langs:
+  - csharp
+  - vb
+  name: TribiewShop
+  nameWithType: TribiewShop
+  fullName: TribiewShop
+  type: Class
+  source:
+    id: TribiewShop
+    path: ''
+    startLine: 16081
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class TribiewShop
+    content.vb: >-
+      <Serializable>
+
+      Public Class TribiewShop
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TribiewShop.events
+  commentId: F:Global.TribiewShop.events
+  id: events
+  parent: Global.TribiewShop
+  langs:
+  - csharp
+  - vb
+  name: events
+  nameWithType: TribiewShop.events
+  fullName: TribiewShop.events
+  type: Field
+  source:
+    id: events
+    path: ''
+    startLine: 16084
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<ShopProduct> events
+    return:
+      type: System.Collections.Generic.List{ShopProduct}
+    content.vb: Public events As List(Of ShopProduct)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TribiewShop.physicals
+  commentId: F:Global.TribiewShop.physicals
+  id: physicals
+  parent: Global.TribiewShop
+  langs:
+  - csharp
+  - vb
+  name: physicals
+  nameWithType: TribiewShop.physicals
+  fullName: TribiewShop.physicals
+  type: Field
+  source:
+    id: physicals
+    path: ''
+    startLine: 16084
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<ShopProduct> physicals
+    return:
+      type: System.Collections.Generic.List{ShopProduct}
+    content.vb: Public physicals As List(Of ShopProduct)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TribiewShop.virtuals
+  commentId: F:Global.TribiewShop.virtuals
+  id: virtuals
+  parent: Global.TribiewShop
+  langs:
+  - csharp
+  - vb
+  name: virtuals
+  nameWithType: TribiewShop.virtuals
+  fullName: TribiewShop.virtuals
+  type: Field
+  source:
+    id: virtuals
+    path: ''
+    startLine: 16084
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<ShopProduct> virtuals
+    return:
+      type: System.Collections.Generic.List{ShopProduct}
+    content.vb: Public virtuals As List(Of ShopProduct)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TribiewShop.#ctor
+  commentId: M:Global.TribiewShop.#ctor
+  id: '#ctor'
+  parent: Global.TribiewShop
+  langs:
+  - csharp
+  - vb
+  name: TribiewShop()
+  nameWithType: TribiewShop.TribiewShop()
+  fullName: TribiewShop.TribiewShop()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16086
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TribiewShop()
+    content.vb: Public Sub New
+  overload: Global.TribiewShop.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TribiewShop.#ctor(System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct})
+  commentId: M:Global.TribiewShop.#ctor(System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct})
+  id: '#ctor(System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct},System.Collections.Generic.List{ShopProduct})'
+  parent: Global.TribiewShop
+  langs:
+  - csharp
+  - vb
+  name: TribiewShop(List<ShopProduct>, List<ShopProduct>, List<ShopProduct>)
+  nameWithType: TribiewShop.TribiewShop(List<ShopProduct>, List<ShopProduct>, List<ShopProduct>)
+  fullName: TribiewShop.TribiewShop(System.Collections.Generic.List<ShopProduct>, System.Collections.Generic.List<ShopProduct>, System.Collections.Generic.List<ShopProduct>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16093
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TribiewShop(List<ShopProduct> _events, List<ShopProduct> _physicals, List<ShopProduct> _virtuals)
+    parameters:
+    - id: _events
+      type: System.Collections.Generic.List{ShopProduct}
+    - id: _physicals
+      type: System.Collections.Generic.List{ShopProduct}
+    - id: _virtuals
+      type: System.Collections.Generic.List{ShopProduct}
+    content.vb: Public Sub New(_events As List(Of ShopProduct), _physicals As List(Of ShopProduct), _virtuals As List(Of ShopProduct))
+  overload: Global.TribiewShop.#ctor*
+  nameWithType.vb: TribiewShop.TribiewShop(List(Of ShopProduct), List(Of ShopProduct), List(Of ShopProduct))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TribiewShop.TribiewShop(System.Collections.Generic.List(Of ShopProduct), System.Collections.Generic.List(Of ShopProduct), System.Collections.Generic.List(Of ShopProduct))
+  name.vb: TribiewShop(List(Of ShopProduct), List(Of ShopProduct), List(Of ShopProduct))
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{ShopProduct}
+  commentId: T:System.Collections.Generic.List{ShopProduct}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ShopProduct>
+  nameWithType: List<ShopProduct>
+  fullName: System.Collections.Generic.List<ShopProduct>
+  nameWithType.vb: List(Of ShopProduct)
+  fullName.vb: System.Collections.Generic.List(Of ShopProduct)
+  name.vb: List(Of ShopProduct)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.ShopProduct
+    name: ShopProduct
+    nameWithType: ShopProduct
+    fullName: ShopProduct
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.ShopProduct
+    name: ShopProduct
+    nameWithType: ShopProduct
+    fullName: ShopProduct
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.TribiewShop.#ctor*
+  commentId: Overload:Global.TribiewShop.#ctor
+  name: TribiewShop
+  nameWithType: TribiewShop.TribiewShop
+  fullName: TribiewShop.TribiewShop

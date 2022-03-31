@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_TMProTextLoader
+  commentId: T:Global.Behaviour_TMProTextLoader
+  id: Behaviour_TMProTextLoader
+  parent: Global
+  children:
+  - Global.Behaviour_TMProTextLoader.Awake
+  - Global.Behaviour_TMProTextLoader.keyToLoad
+  - Global.Behaviour_TMProTextLoader.OnLanguageLoaded
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_TMProTextLoader
+  nameWithType: Behaviour_TMProTextLoader
+  fullName: Behaviour_TMProTextLoader
+  type: Class
+  source:
+    id: Behaviour_TMProTextLoader
+    path: ''
+    startLine: 18239
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nAdd to a UI text object\nScript will automatically load the value of the input key in the loaded language file\nIf Value is not present or not readable, Behaviour will print ! ERROR TYPE ! and log a warning\n"
+  example: []
+  syntax:
+    content: 'public class Behaviour_TMProTextLoader : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_TMProTextLoader
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_TMProTextLoader.keyToLoad
+  commentId: F:Global.Behaviour_TMProTextLoader.keyToLoad
+  id: keyToLoad
+  parent: Global.Behaviour_TMProTextLoader
+  langs:
+  - csharp
+  - vb
+  name: keyToLoad
+  nameWithType: Behaviour_TMProTextLoader.keyToLoad
+  fullName: Behaviour_TMProTextLoader.keyToLoad
+  type: Field
+  source:
+    id: keyToLoad
+    path: ''
+    startLine: 18243
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string keyToLoad
+    return:
+      type: System.String
+    content.vb: Public keyToLoad As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_TMProTextLoader.Awake
+  commentId: M:Global.Behaviour_TMProTextLoader.Awake
+  id: Awake
+  parent: Global.Behaviour_TMProTextLoader
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Behaviour_TMProTextLoader.Awake()
+  fullName: Behaviour_TMProTextLoader.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 18248
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Awake()
+    content.vb: Protected Sub Awake
+  overload: Global.Behaviour_TMProTextLoader.Awake*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.Behaviour_TMProTextLoader.OnLanguageLoaded
+  commentId: M:Global.Behaviour_TMProTextLoader.OnLanguageLoaded
+  id: OnLanguageLoaded
+  parent: Global.Behaviour_TMProTextLoader
+  langs:
+  - csharp
+  - vb
+  name: OnLanguageLoaded()
+  nameWithType: Behaviour_TMProTextLoader.OnLanguageLoaded()
+  fullName: Behaviour_TMProTextLoader.OnLanguageLoaded()
+  type: Method
+  source:
+    id: OnLanguageLoaded
+    path: ''
+    startLine: 18263
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nExact same as DelayedStart except it&apos;s on Event triggers instead of wait\n"
+  example: []
+  syntax:
+    content: public void OnLanguageLoaded()
+    content.vb: Public Sub OnLanguageLoaded
+  overload: Global.Behaviour_TMProTextLoader.OnLanguageLoaded*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Behaviour_TMProTextLoader.Awake*
+  commentId: Overload:Global.Behaviour_TMProTextLoader.Awake
+  name: Awake
+  nameWithType: Behaviour_TMProTextLoader.Awake
+  fullName: Behaviour_TMProTextLoader.Awake
+- uid: Global.Behaviour_TMProTextLoader.OnLanguageLoaded*
+  commentId: Overload:Global.Behaviour_TMProTextLoader.OnLanguageLoaded
+  name: OnLanguageLoaded
+  nameWithType: Behaviour_TMProTextLoader.OnLanguageLoaded
+  fullName: Behaviour_TMProTextLoader.OnLanguageLoaded

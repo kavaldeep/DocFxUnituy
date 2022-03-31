@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_FacebookLogInButton
+  commentId: T:Global.Behaviour_FacebookLogInButton
+  id: Behaviour_FacebookLogInButton
+  parent: Global
+  children:
+  - Global.Behaviour_FacebookLogInButton.OnClick
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_FacebookLogInButton
+  nameWithType: Behaviour_FacebookLogInButton
+  fullName: Behaviour_FacebookLogInButton
+  type: Class
+  source:
+    id: Behaviour_FacebookLogInButton
+    path: ''
+    startLine: 25198
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_FacebookLogInButton : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_FacebookLogInButton
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_FacebookLogInButton.OnClick
+  commentId: M:Global.Behaviour_FacebookLogInButton.OnClick
+  id: OnClick
+  parent: Global.Behaviour_FacebookLogInButton
+  langs:
+  - csharp
+  - vb
+  name: OnClick()
+  nameWithType: Behaviour_FacebookLogInButton.OnClick()
+  fullName: Behaviour_FacebookLogInButton.OnClick()
+  type: Method
+  source:
+    id: OnClick
+    path: ''
+    startLine: 25223
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnClick()
+    content.vb: Public Sub OnClick
+  overload: Global.Behaviour_FacebookLogInButton.OnClick*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_FacebookLogInButton.OnClick*
+  commentId: Overload:Global.Behaviour_FacebookLogInButton.OnClick
+  name: OnClick
+  nameWithType: Behaviour_FacebookLogInButton.OnClick
+  fullName: Behaviour_FacebookLogInButton.OnClick

@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_DisplayPost
+  commentId: T:Global.Behaviour_DisplayPost
+  id: Behaviour_DisplayPost
+  parent: Global
+  children:
+  - Global.Behaviour_DisplayPost.DisplayedPost
+  - Global.Behaviour_DisplayPost.SwitchDislike
+  - Global.Behaviour_DisplayPost.SwitchLike
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_DisplayPost
+  nameWithType: Behaviour_DisplayPost
+  fullName: Behaviour_DisplayPost
+  type: Class
+  source:
+    id: Behaviour_DisplayPost
+    path: ''
+    startLine: 21606
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_DisplayPost : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_DisplayPost
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_DisplayPost.DisplayedPost
+  commentId: P:Global.Behaviour_DisplayPost.DisplayedPost
+  id: DisplayedPost
+  parent: Global.Behaviour_DisplayPost
+  langs:
+  - csharp
+  - vb
+  name: DisplayedPost
+  nameWithType: Behaviour_DisplayPost.DisplayedPost
+  fullName: Behaviour_DisplayPost.DisplayedPost
+  type: Property
+  source:
+    id: DisplayedPost
+    path: ''
+    startLine: 21663
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Post DisplayedPost { get; set; }
+    parameters: []
+    return:
+      type: Global.Post
+    content.vb: Public Property DisplayedPost As Post
+  overload: Global.Behaviour_DisplayPost.DisplayedPost*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_DisplayPost.SwitchLike
+  commentId: M:Global.Behaviour_DisplayPost.SwitchLike
+  id: SwitchLike
+  parent: Global.Behaviour_DisplayPost
+  langs:
+  - csharp
+  - vb
+  name: SwitchLike()
+  nameWithType: Behaviour_DisplayPost.SwitchLike()
+  fullName: Behaviour_DisplayPost.SwitchLike()
+  type: Method
+  source:
+    id: SwitchLike
+    path: ''
+    startLine: 21738
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SwitchLike()
+    content.vb: Public Sub SwitchLike
+  overload: Global.Behaviour_DisplayPost.SwitchLike*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_DisplayPost.SwitchDislike
+  commentId: M:Global.Behaviour_DisplayPost.SwitchDislike
+  id: SwitchDislike
+  parent: Global.Behaviour_DisplayPost
+  langs:
+  - csharp
+  - vb
+  name: SwitchDislike()
+  nameWithType: Behaviour_DisplayPost.SwitchDislike()
+  fullName: Behaviour_DisplayPost.SwitchDislike()
+  type: Method
+  source:
+    id: SwitchDislike
+    path: ''
+    startLine: 21764
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SwitchDislike()
+    content.vb: Public Sub SwitchDislike
+  overload: Global.Behaviour_DisplayPost.SwitchDislike*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_DisplayPost.DisplayedPost*
+  commentId: Overload:Global.Behaviour_DisplayPost.DisplayedPost
+  name: DisplayedPost
+  nameWithType: Behaviour_DisplayPost.DisplayedPost
+  fullName: Behaviour_DisplayPost.DisplayedPost
+- uid: Global.Post
+  commentId: T:Global.Post
+  name: Post
+  nameWithType: Post
+  fullName: Post
+- uid: Global.Behaviour_DisplayPost.SwitchLike*
+  commentId: Overload:Global.Behaviour_DisplayPost.SwitchLike
+  name: SwitchLike
+  nameWithType: Behaviour_DisplayPost.SwitchLike
+  fullName: Behaviour_DisplayPost.SwitchLike
+- uid: Global.Behaviour_DisplayPost.SwitchDislike*
+  commentId: Overload:Global.Behaviour_DisplayPost.SwitchDislike
+  name: SwitchDislike
+  nameWithType: Behaviour_DisplayPost.SwitchDislike
+  fullName: Behaviour_DisplayPost.SwitchDislike

@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DownloadReturnInfos
+  commentId: T:Global.DownloadReturnInfos
+  id: DownloadReturnInfos
+  parent: Global
+  children:
+  - Global.DownloadReturnInfos.#ctor(System.Boolean,System.String)
+  - Global.DownloadReturnInfos.error
+  - Global.DownloadReturnInfos.success
+  langs:
+  - csharp
+  - vb
+  name: DownloadReturnInfos
+  nameWithType: DownloadReturnInfos
+  fullName: DownloadReturnInfos
+  type: Struct
+  source:
+    id: DownloadReturnInfos
+    path: ''
+    startLine: 16132
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct DownloadReturnInfos
+    content.vb: Public Structure DownloadReturnInfos
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.DownloadReturnInfos.success
+  commentId: F:Global.DownloadReturnInfos.success
+  id: success
+  parent: Global.DownloadReturnInfos
+  langs:
+  - csharp
+  - vb
+  name: success
+  nameWithType: DownloadReturnInfos.success
+  fullName: DownloadReturnInfos.success
+  type: Field
+  source:
+    id: success
+    path: ''
+    startLine: 16134
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool success
+    return:
+      type: System.Boolean
+    content.vb: Public success As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DownloadReturnInfos.error
+  commentId: F:Global.DownloadReturnInfos.error
+  id: error
+  parent: Global.DownloadReturnInfos
+  langs:
+  - csharp
+  - vb
+  name: error
+  nameWithType: DownloadReturnInfos.error
+  fullName: DownloadReturnInfos.error
+  type: Field
+  source:
+    id: error
+    path: ''
+    startLine: 16135
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string error
+    return:
+      type: System.String
+    content.vb: Public error As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DownloadReturnInfos.#ctor(System.Boolean,System.String)
+  commentId: M:Global.DownloadReturnInfos.#ctor(System.Boolean,System.String)
+  id: '#ctor(System.Boolean,System.String)'
+  parent: Global.DownloadReturnInfos
+  langs:
+  - csharp
+  - vb
+  name: DownloadReturnInfos(Boolean, String)
+  nameWithType: DownloadReturnInfos.DownloadReturnInfos(Boolean, String)
+  fullName: DownloadReturnInfos.DownloadReturnInfos(System.Boolean, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16137
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public DownloadReturnInfos(bool _success, string _error)
+    parameters:
+    - id: _success
+      type: System.Boolean
+    - id: _error
+      type: System.String
+    content.vb: Public Sub New(_success As Boolean, _error As String)
+  overload: Global.DownloadReturnInfos.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.DownloadReturnInfos.#ctor*
+  commentId: Overload:Global.DownloadReturnInfos.#ctor
+  name: DownloadReturnInfos
+  nameWithType: DownloadReturnInfos.DownloadReturnInfos
+  fullName: DownloadReturnInfos.DownloadReturnInfos

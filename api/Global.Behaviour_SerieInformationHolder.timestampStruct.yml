@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SerieInformationHolder.timestampStruct
+  commentId: T:Global.Behaviour_SerieInformationHolder.timestampStruct
+  id: Behaviour_SerieInformationHolder.timestampStruct
+  parent: Global
+  children:
+  - Global.Behaviour_SerieInformationHolder.timestampStruct.name
+  - Global.Behaviour_SerieInformationHolder.timestampStruct.preview
+  - Global.Behaviour_SerieInformationHolder.timestampStruct.time
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SerieInformationHolder.timestampStruct
+  nameWithType: Behaviour_SerieInformationHolder.timestampStruct
+  fullName: Behaviour_SerieInformationHolder.timestampStruct
+  type: Struct
+  source:
+    id: timestampStruct
+    path: ''
+    startLine: 12974
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct timestampStruct
+    content.vb: Public Structure timestampStruct
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.Behaviour_SerieInformationHolder.timestampStruct.name
+  commentId: F:Global.Behaviour_SerieInformationHolder.timestampStruct.name
+  id: name
+  parent: Global.Behaviour_SerieInformationHolder.timestampStruct
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Behaviour_SerieInformationHolder.timestampStruct.name
+  fullName: Behaviour_SerieInformationHolder.timestampStruct.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 12976
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.timestampStruct.time
+  commentId: F:Global.Behaviour_SerieInformationHolder.timestampStruct.time
+  id: time
+  parent: Global.Behaviour_SerieInformationHolder.timestampStruct
+  langs:
+  - csharp
+  - vb
+  name: time
+  nameWithType: Behaviour_SerieInformationHolder.timestampStruct.time
+  fullName: Behaviour_SerieInformationHolder.timestampStruct.time
+  type: Field
+  source:
+    id: time
+    path: ''
+    startLine: 12977
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string time
+    return:
+      type: System.String
+    content.vb: Public time As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.timestampStruct.preview
+  commentId: F:Global.Behaviour_SerieInformationHolder.timestampStruct.preview
+  id: preview
+  parent: Global.Behaviour_SerieInformationHolder.timestampStruct
+  langs:
+  - csharp
+  - vb
+  name: preview
+  nameWithType: Behaviour_SerieInformationHolder.timestampStruct.preview
+  fullName: Behaviour_SerieInformationHolder.timestampStruct.preview
+  type: Field
+  source:
+    id: preview
+    path: ''
+    startLine: 12978
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string preview
+    return:
+      type: System.String
+    content.vb: Public preview As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

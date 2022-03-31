@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SerieInformationHolder.TeamMemberStruct
+  commentId: T:Global.Behaviour_SerieInformationHolder.TeamMemberStruct
+  id: Behaviour_SerieInformationHolder.TeamMemberStruct
+  parent: Global
+  children:
+  - Global.Behaviour_SerieInformationHolder.TeamMemberStruct.account
+  - Global.Behaviour_SerieInformationHolder.TeamMemberStruct.image
+  - Global.Behaviour_SerieInformationHolder.TeamMemberStruct.last_name
+  - Global.Behaviour_SerieInformationHolder.TeamMemberStruct.name
+  - Global.Behaviour_SerieInformationHolder.TeamMemberStruct.role
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SerieInformationHolder.TeamMemberStruct
+  nameWithType: Behaviour_SerieInformationHolder.TeamMemberStruct
+  fullName: Behaviour_SerieInformationHolder.TeamMemberStruct
+  type: Struct
+  source:
+    id: TeamMemberStruct
+    path: ''
+    startLine: 12912
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct TeamMemberStruct
+    content.vb: Public Structure TeamMemberStruct
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.Behaviour_SerieInformationHolder.TeamMemberStruct.role
+  commentId: F:Global.Behaviour_SerieInformationHolder.TeamMemberStruct.role
+  id: role
+  parent: Global.Behaviour_SerieInformationHolder.TeamMemberStruct
+  langs:
+  - csharp
+  - vb
+  name: role
+  nameWithType: Behaviour_SerieInformationHolder.TeamMemberStruct.role
+  fullName: Behaviour_SerieInformationHolder.TeamMemberStruct.role
+  type: Field
+  source:
+    id: role
+    path: ''
+    startLine: 12914
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int role
+    return:
+      type: System.Int32
+    content.vb: Public role As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.TeamMemberStruct.name
+  commentId: F:Global.Behaviour_SerieInformationHolder.TeamMemberStruct.name
+  id: name
+  parent: Global.Behaviour_SerieInformationHolder.TeamMemberStruct
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Behaviour_SerieInformationHolder.TeamMemberStruct.name
+  fullName: Behaviour_SerieInformationHolder.TeamMemberStruct.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 12915
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.TeamMemberStruct.last_name
+  commentId: F:Global.Behaviour_SerieInformationHolder.TeamMemberStruct.last_name
+  id: last_name
+  parent: Global.Behaviour_SerieInformationHolder.TeamMemberStruct
+  langs:
+  - csharp
+  - vb
+  name: last_name
+  nameWithType: Behaviour_SerieInformationHolder.TeamMemberStruct.last_name
+  fullName: Behaviour_SerieInformationHolder.TeamMemberStruct.last_name
+  type: Field
+  source:
+    id: last_name
+    path: ''
+    startLine: 12916
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string last_name
+    return:
+      type: System.String
+    content.vb: Public last_name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.TeamMemberStruct.image
+  commentId: F:Global.Behaviour_SerieInformationHolder.TeamMemberStruct.image
+  id: image
+  parent: Global.Behaviour_SerieInformationHolder.TeamMemberStruct
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Behaviour_SerieInformationHolder.TeamMemberStruct.image
+  fullName: Behaviour_SerieInformationHolder.TeamMemberStruct.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 12917
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string image
+    return:
+      type: System.String
+    content.vb: Public image As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.TeamMemberStruct.account
+  commentId: F:Global.Behaviour_SerieInformationHolder.TeamMemberStruct.account
+  id: account
+  parent: Global.Behaviour_SerieInformationHolder.TeamMemberStruct
+  langs:
+  - csharp
+  - vb
+  name: account
+  nameWithType: Behaviour_SerieInformationHolder.TeamMemberStruct.account
+  fullName: Behaviour_SerieInformationHolder.TeamMemberStruct.account
+  type: Field
+  source:
+    id: account
+    path: ''
+    startLine: 12918
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieInformationHolder.accountStruct account
+    return:
+      type: Global.Behaviour_SerieInformationHolder.accountStruct
+    content.vb: Public account As Behaviour_SerieInformationHolder.accountStruct
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Behaviour_SerieInformationHolder.accountStruct
+  commentId: T:Global.Behaviour_SerieInformationHolder.accountStruct
+  name: Behaviour_SerieInformationHolder.accountStruct
+  nameWithType: Behaviour_SerieInformationHolder.accountStruct
+  fullName: Behaviour_SerieInformationHolder.accountStruct

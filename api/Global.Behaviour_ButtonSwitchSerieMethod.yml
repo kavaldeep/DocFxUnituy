@@ -1,0 +1,314 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_ButtonSwitchSerieMethod
+  commentId: T:Global.Behaviour_ButtonSwitchSerieMethod
+  id: Behaviour_ButtonSwitchSerieMethod
+  parent: Global
+  children:
+  - Global.Behaviour_ButtonSwitchSerieMethod._mySerieSelectorController
+  - Global.Behaviour_ButtonSwitchSerieMethod.image
+  - Global.Behaviour_ButtonSwitchSerieMethod.LogoChange
+  - Global.Behaviour_ButtonSwitchSerieMethod.LogoTribiew_Green
+  - Global.Behaviour_ButtonSwitchSerieMethod.LogoTribiew_Grey
+  - Global.Behaviour_ButtonSwitchSerieMethod.mySerieName
+  - Global.Behaviour_ButtonSwitchSerieMethod.SwitchSerie
+  - Global.Behaviour_ButtonSwitchSerieMethod.text
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_ButtonSwitchSerieMethod
+  nameWithType: Behaviour_ButtonSwitchSerieMethod
+  fullName: Behaviour_ButtonSwitchSerieMethod
+  type: Class
+  source:
+    id: Behaviour_ButtonSwitchSerieMethod
+    path: ''
+    startLine: 20151
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_ButtonSwitchSerieMethod : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_ButtonSwitchSerieMethod
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_ButtonSwitchSerieMethod.mySerieName
+  commentId: F:Global.Behaviour_ButtonSwitchSerieMethod.mySerieName
+  id: mySerieName
+  parent: Global.Behaviour_ButtonSwitchSerieMethod
+  langs:
+  - csharp
+  - vb
+  name: mySerieName
+  nameWithType: Behaviour_ButtonSwitchSerieMethod.mySerieName
+  fullName: Behaviour_ButtonSwitchSerieMethod.mySerieName
+  type: Field
+  source:
+    id: mySerieName
+    path: ''
+    startLine: 20153
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string mySerieName
+    return:
+      type: System.String
+    content.vb: Public mySerieName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSwitchSerieMethod.LogoTribiew_Green
+  commentId: F:Global.Behaviour_ButtonSwitchSerieMethod.LogoTribiew_Green
+  id: LogoTribiew_Green
+  parent: Global.Behaviour_ButtonSwitchSerieMethod
+  langs:
+  - csharp
+  - vb
+  name: LogoTribiew_Green
+  nameWithType: Behaviour_ButtonSwitchSerieMethod.LogoTribiew_Green
+  fullName: Behaviour_ButtonSwitchSerieMethod.LogoTribiew_Green
+  type: Field
+  source:
+    id: LogoTribiew_Green
+    path: ''
+    startLine: 20156
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture2D LogoTribiew_Green
+    return:
+      type: Global.Texture2D
+    content.vb: Public LogoTribiew_Green As Texture2D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSwitchSerieMethod.LogoTribiew_Grey
+  commentId: F:Global.Behaviour_ButtonSwitchSerieMethod.LogoTribiew_Grey
+  id: LogoTribiew_Grey
+  parent: Global.Behaviour_ButtonSwitchSerieMethod
+  langs:
+  - csharp
+  - vb
+  name: LogoTribiew_Grey
+  nameWithType: Behaviour_ButtonSwitchSerieMethod.LogoTribiew_Grey
+  fullName: Behaviour_ButtonSwitchSerieMethod.LogoTribiew_Grey
+  type: Field
+  source:
+    id: LogoTribiew_Grey
+    path: ''
+    startLine: 20157
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture2D LogoTribiew_Grey
+    return:
+      type: Global.Texture2D
+    content.vb: Public LogoTribiew_Grey As Texture2D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSwitchSerieMethod.image
+  commentId: F:Global.Behaviour_ButtonSwitchSerieMethod.image
+  id: image
+  parent: Global.Behaviour_ButtonSwitchSerieMethod
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Behaviour_ButtonSwitchSerieMethod.image
+  fullName: Behaviour_ButtonSwitchSerieMethod.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 20160
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RawImage image
+    return:
+      type: Global.RawImage
+    content.vb: Public image As RawImage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSwitchSerieMethod.text
+  commentId: F:Global.Behaviour_ButtonSwitchSerieMethod.text
+  id: text
+  parent: Global.Behaviour_ButtonSwitchSerieMethod
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: Behaviour_ButtonSwitchSerieMethod.text
+  fullName: Behaviour_ButtonSwitchSerieMethod.text
+  type: Field
+  source:
+    id: text
+    path: ''
+    startLine: 20161
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI text
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public text As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSwitchSerieMethod._mySerieSelectorController
+  commentId: F:Global.Behaviour_ButtonSwitchSerieMethod._mySerieSelectorController
+  id: _mySerieSelectorController
+  parent: Global.Behaviour_ButtonSwitchSerieMethod
+  langs:
+  - csharp
+  - vb
+  name: _mySerieSelectorController
+  nameWithType: Behaviour_ButtonSwitchSerieMethod._mySerieSelectorController
+  fullName: Behaviour_ButtonSwitchSerieMethod._mySerieSelectorController
+  type: Field
+  source:
+    id: _mySerieSelectorController
+    path: ''
+    startLine: 20166
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TopBarSerieSelectorController _mySerieSelectorController
+    return:
+      type: Global.TopBarSerieSelectorController
+    content.vb: Public _mySerieSelectorController As TopBarSerieSelectorController
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSwitchSerieMethod.SwitchSerie
+  commentId: M:Global.Behaviour_ButtonSwitchSerieMethod.SwitchSerie
+  id: SwitchSerie
+  parent: Global.Behaviour_ButtonSwitchSerieMethod
+  langs:
+  - csharp
+  - vb
+  name: SwitchSerie()
+  nameWithType: Behaviour_ButtonSwitchSerieMethod.SwitchSerie()
+  fullName: Behaviour_ButtonSwitchSerieMethod.SwitchSerie()
+  type: Method
+  source:
+    id: SwitchSerie
+    path: ''
+    startLine: 20226
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SwitchSerie()
+    content.vb: Public Sub SwitchSerie
+  overload: Global.Behaviour_ButtonSwitchSerieMethod.SwitchSerie*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ButtonSwitchSerieMethod.LogoChange
+  commentId: M:Global.Behaviour_ButtonSwitchSerieMethod.LogoChange
+  id: LogoChange
+  parent: Global.Behaviour_ButtonSwitchSerieMethod
+  langs:
+  - csharp
+  - vb
+  name: LogoChange()
+  nameWithType: Behaviour_ButtonSwitchSerieMethod.LogoChange()
+  fullName: Behaviour_ButtonSwitchSerieMethod.LogoChange()
+  type: Method
+  source:
+    id: LogoChange
+    path: ''
+    startLine: 20243
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LogoChange()
+    content.vb: Public Sub LogoChange
+  overload: Global.Behaviour_ButtonSwitchSerieMethod.LogoChange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: Global.RawImage
+  isExternal: true
+  name: RawImage
+  nameWithType: RawImage
+  fullName: RawImage
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.TopBarSerieSelectorController
+  commentId: T:Global.TopBarSerieSelectorController
+  name: TopBarSerieSelectorController
+  nameWithType: TopBarSerieSelectorController
+  fullName: TopBarSerieSelectorController
+- uid: Global.Behaviour_ButtonSwitchSerieMethod.SwitchSerie*
+  commentId: Overload:Global.Behaviour_ButtonSwitchSerieMethod.SwitchSerie
+  name: SwitchSerie
+  nameWithType: Behaviour_ButtonSwitchSerieMethod.SwitchSerie
+  fullName: Behaviour_ButtonSwitchSerieMethod.SwitchSerie
+- uid: Global.Behaviour_ButtonSwitchSerieMethod.LogoChange*
+  commentId: Overload:Global.Behaviour_ButtonSwitchSerieMethod.LogoChange
+  name: LogoChange
+  nameWithType: Behaviour_ButtonSwitchSerieMethod.LogoChange
+  fullName: Behaviour_ButtonSwitchSerieMethod.LogoChange

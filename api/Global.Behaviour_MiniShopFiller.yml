@@ -1,0 +1,398 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_MiniShopFiller
+  commentId: T:Global.Behaviour_MiniShopFiller
+  id: Behaviour_MiniShopFiller
+  parent: Global
+  children:
+  - Global.Behaviour_MiniShopFiller.articleName
+  - Global.Behaviour_MiniShopFiller.coinDisplay
+  - Global.Behaviour_MiniShopFiller.EnterShop
+  - Global.Behaviour_MiniShopFiller.gemDisplay
+  - Global.Behaviour_MiniShopFiller.imageArticle_img
+  - Global.Behaviour_MiniShopFiller.Index
+  - Global.Behaviour_MiniShopFiller.Init
+  - Global.Behaviour_MiniShopFiller.shopGenerator
+  - Global.Behaviour_MiniShopFiller.ticketDisplay
+  - Global.Behaviour_MiniShopFiller.TypeShop
+  - Global.Behaviour_MiniShopFiller.TypeTrackShop
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_MiniShopFiller
+  nameWithType: Behaviour_MiniShopFiller
+  fullName: Behaviour_MiniShopFiller
+  type: Class
+  source:
+    id: Behaviour_MiniShopFiller
+    path: ''
+    startLine: 23933
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_MiniShopFiller : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_MiniShopFiller
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_MiniShopFiller.coinDisplay
+  commentId: F:Global.Behaviour_MiniShopFiller.coinDisplay
+  id: coinDisplay
+  parent: Global.Behaviour_MiniShopFiller
+  langs:
+  - csharp
+  - vb
+  name: coinDisplay
+  nameWithType: Behaviour_MiniShopFiller.coinDisplay
+  fullName: Behaviour_MiniShopFiller.coinDisplay
+  type: Field
+  source:
+    id: coinDisplay
+    path: ''
+    startLine: 23939
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI coinDisplay
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public coinDisplay As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniShopFiller.gemDisplay
+  commentId: F:Global.Behaviour_MiniShopFiller.gemDisplay
+  id: gemDisplay
+  parent: Global.Behaviour_MiniShopFiller
+  langs:
+  - csharp
+  - vb
+  name: gemDisplay
+  nameWithType: Behaviour_MiniShopFiller.gemDisplay
+  fullName: Behaviour_MiniShopFiller.gemDisplay
+  type: Field
+  source:
+    id: gemDisplay
+    path: ''
+    startLine: 23940
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI gemDisplay
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public gemDisplay As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniShopFiller.ticketDisplay
+  commentId: F:Global.Behaviour_MiniShopFiller.ticketDisplay
+  id: ticketDisplay
+  parent: Global.Behaviour_MiniShopFiller
+  langs:
+  - csharp
+  - vb
+  name: ticketDisplay
+  nameWithType: Behaviour_MiniShopFiller.ticketDisplay
+  fullName: Behaviour_MiniShopFiller.ticketDisplay
+  type: Field
+  source:
+    id: ticketDisplay
+    path: ''
+    startLine: 23941
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI ticketDisplay
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public ticketDisplay As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniShopFiller.articleName
+  commentId: F:Global.Behaviour_MiniShopFiller.articleName
+  id: articleName
+  parent: Global.Behaviour_MiniShopFiller
+  langs:
+  - csharp
+  - vb
+  name: articleName
+  nameWithType: Behaviour_MiniShopFiller.articleName
+  fullName: Behaviour_MiniShopFiller.articleName
+  type: Field
+  source:
+    id: articleName
+    path: ''
+    startLine: 23943
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI articleName
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public articleName As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniShopFiller.imageArticle_img
+  commentId: F:Global.Behaviour_MiniShopFiller.imageArticle_img
+  id: imageArticle_img
+  parent: Global.Behaviour_MiniShopFiller
+  langs:
+  - csharp
+  - vb
+  name: imageArticle_img
+  nameWithType: Behaviour_MiniShopFiller.imageArticle_img
+  fullName: Behaviour_MiniShopFiller.imageArticle_img
+  type: Field
+  source:
+    id: imageArticle_img
+    path: ''
+    startLine: 23945
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Image imageArticle_img
+    return:
+      type: Global.Image
+    content.vb: Public imageArticle_img As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniShopFiller.shopGenerator
+  commentId: F:Global.Behaviour_MiniShopFiller.shopGenerator
+  id: shopGenerator
+  parent: Global.Behaviour_MiniShopFiller
+  langs:
+  - csharp
+  - vb
+  name: shopGenerator
+  nameWithType: Behaviour_MiniShopFiller.shopGenerator
+  fullName: Behaviour_MiniShopFiller.shopGenerator
+  type: Field
+  source:
+    id: shopGenerator
+    path: ''
+    startLine: 23947
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_TribiewShopGenerator shopGenerator
+    return:
+      type: Global.Behaviour_TribiewShopGenerator
+    content.vb: Public shopGenerator As Behaviour_TribiewShopGenerator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniShopFiller.Index
+  commentId: F:Global.Behaviour_MiniShopFiller.Index
+  id: Index
+  parent: Global.Behaviour_MiniShopFiller
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: Behaviour_MiniShopFiller.Index
+  fullName: Behaviour_MiniShopFiller.Index
+  type: Field
+  source:
+    id: Index
+    path: ''
+    startLine: 23949
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int Index
+    return:
+      type: System.Int32
+    content.vb: Public Index As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniShopFiller.TypeShop
+  commentId: F:Global.Behaviour_MiniShopFiller.TypeShop
+  id: TypeShop
+  parent: Global.Behaviour_MiniShopFiller
+  langs:
+  - csharp
+  - vb
+  name: TypeShop
+  nameWithType: Behaviour_MiniShopFiller.TypeShop
+  fullName: Behaviour_MiniShopFiller.TypeShop
+  type: Field
+  source:
+    id: TypeShop
+    path: ''
+    startLine: 23967
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_MiniShopFiller.ShopType TypeShop
+    return:
+      type: Global.Behaviour_MiniShopFiller.ShopType
+    content.vb: Public TypeShop As Behaviour_MiniShopFiller.ShopType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniShopFiller.TypeTrackShop
+  commentId: F:Global.Behaviour_MiniShopFiller.TypeTrackShop
+  id: TypeTrackShop
+  parent: Global.Behaviour_MiniShopFiller
+  langs:
+  - csharp
+  - vb
+  name: TypeTrackShop
+  nameWithType: Behaviour_MiniShopFiller.TypeTrackShop
+  fullName: Behaviour_MiniShopFiller.TypeTrackShop
+  type: Field
+  source:
+    id: TypeTrackShop
+    path: ''
+    startLine: 23969
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int TypeTrackShop
+    return:
+      type: System.Int32
+    content.vb: Public TypeTrackShop As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniShopFiller.Init
+  commentId: M:Global.Behaviour_MiniShopFiller.Init
+  id: Init
+  parent: Global.Behaviour_MiniShopFiller
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: Behaviour_MiniShopFiller.Init()
+  fullName: Behaviour_MiniShopFiller.Init()
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 23971
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Init()
+    content.vb: Public Sub Init
+  overload: Global.Behaviour_MiniShopFiller.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniShopFiller.EnterShop
+  commentId: M:Global.Behaviour_MiniShopFiller.EnterShop
+  id: EnterShop
+  parent: Global.Behaviour_MiniShopFiller
+  langs:
+  - csharp
+  - vb
+  name: EnterShop()
+  nameWithType: Behaviour_MiniShopFiller.EnterShop()
+  fullName: Behaviour_MiniShopFiller.EnterShop()
+  type: Method
+  source:
+    id: EnterShop
+    path: ''
+    startLine: 24018
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void EnterShop()
+    content.vb: Public Sub EnterShop
+  overload: Global.Behaviour_MiniShopFiller.EnterShop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.Behaviour_TribiewShopGenerator
+  commentId: T:Global.Behaviour_TribiewShopGenerator
+  name: Behaviour_TribiewShopGenerator
+  nameWithType: Behaviour_TribiewShopGenerator
+  fullName: Behaviour_TribiewShopGenerator
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_MiniShopFiller.ShopType
+  commentId: T:Global.Behaviour_MiniShopFiller.ShopType
+  name: Behaviour_MiniShopFiller.ShopType
+  nameWithType: Behaviour_MiniShopFiller.ShopType
+  fullName: Behaviour_MiniShopFiller.ShopType
+- uid: Global.Behaviour_MiniShopFiller.Init*
+  commentId: Overload:Global.Behaviour_MiniShopFiller.Init
+  name: Init
+  nameWithType: Behaviour_MiniShopFiller.Init
+  fullName: Behaviour_MiniShopFiller.Init
+- uid: Global.Behaviour_MiniShopFiller.EnterShop*
+  commentId: Overload:Global.Behaviour_MiniShopFiller.EnterShop
+  name: EnterShop
+  nameWithType: Behaviour_MiniShopFiller.EnterShop
+  fullName: Behaviour_MiniShopFiller.EnterShop

@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SendFriendRequest
+  commentId: T:Global.Behaviour_SendFriendRequest
+  id: Behaviour_SendFriendRequest
+  parent: Global
+  children:
+  - Global.Behaviour_SendFriendRequest.FriendInfo
+  - Global.Behaviour_SendFriendRequest.IsInvitationPending
+  - Global.Behaviour_SendFriendRequest.SocialNetwork
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SendFriendRequest
+  nameWithType: Behaviour_SendFriendRequest
+  fullName: Behaviour_SendFriendRequest
+  type: Class
+  source:
+    id: Behaviour_SendFriendRequest
+    path: ''
+    startLine: 15196
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_SendFriendRequest : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_SendFriendRequest
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_SendFriendRequest.FriendInfo
+  commentId: P:Global.Behaviour_SendFriendRequest.FriendInfo
+  id: FriendInfo
+  parent: Global.Behaviour_SendFriendRequest
+  langs:
+  - csharp
+  - vb
+  name: FriendInfo
+  nameWithType: Behaviour_SendFriendRequest.FriendInfo
+  fullName: Behaviour_SendFriendRequest.FriendInfo
+  type: Property
+  source:
+    id: FriendInfo
+    path: ''
+    startLine: 15215
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public FriendsInfo FriendInfo { get; set; }
+    parameters: []
+    return:
+      type: Global.FriendsInfo
+    content.vb: Public Property FriendInfo As FriendsInfo
+  overload: Global.Behaviour_SendFriendRequest.FriendInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SendFriendRequest.SocialNetwork
+  commentId: P:Global.Behaviour_SendFriendRequest.SocialNetwork
+  id: SocialNetwork
+  parent: Global.Behaviour_SendFriendRequest
+  langs:
+  - csharp
+  - vb
+  name: SocialNetwork
+  nameWithType: Behaviour_SendFriendRequest.SocialNetwork
+  fullName: Behaviour_SendFriendRequest.SocialNetwork
+  type: Property
+  source:
+    id: SocialNetwork
+    path: ''
+    startLine: 15233
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Interface_SocialNetwork SocialNetwork { get; set; }
+    parameters: []
+    return:
+      type: Global.Interface_SocialNetwork
+    content.vb: Public Property SocialNetwork As Interface_SocialNetwork
+  overload: Global.Behaviour_SendFriendRequest.SocialNetwork*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SendFriendRequest.IsInvitationPending
+  commentId: P:Global.Behaviour_SendFriendRequest.IsInvitationPending
+  id: IsInvitationPending
+  parent: Global.Behaviour_SendFriendRequest
+  langs:
+  - csharp
+  - vb
+  name: IsInvitationPending
+  nameWithType: Behaviour_SendFriendRequest.IsInvitationPending
+  fullName: Behaviour_SendFriendRequest.IsInvitationPending
+  type: Property
+  source:
+    id: IsInvitationPending
+    path: ''
+    startLine: 15257
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool IsInvitationPending { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsInvitationPending As Boolean
+  overload: Global.Behaviour_SendFriendRequest.IsInvitationPending*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_SendFriendRequest.FriendInfo*
+  commentId: Overload:Global.Behaviour_SendFriendRequest.FriendInfo
+  name: FriendInfo
+  nameWithType: Behaviour_SendFriendRequest.FriendInfo
+  fullName: Behaviour_SendFriendRequest.FriendInfo
+- uid: Global.FriendsInfo
+  commentId: T:Global.FriendsInfo
+  name: FriendsInfo
+  nameWithType: FriendsInfo
+  fullName: FriendsInfo
+- uid: Global.Behaviour_SendFriendRequest.SocialNetwork*
+  commentId: Overload:Global.Behaviour_SendFriendRequest.SocialNetwork
+  name: SocialNetwork
+  nameWithType: Behaviour_SendFriendRequest.SocialNetwork
+  fullName: Behaviour_SendFriendRequest.SocialNetwork
+- uid: Global.Interface_SocialNetwork
+  commentId: T:Global.Interface_SocialNetwork
+  name: Interface_SocialNetwork
+  nameWithType: Interface_SocialNetwork
+  fullName: Interface_SocialNetwork
+- uid: Global.Behaviour_SendFriendRequest.IsInvitationPending*
+  commentId: Overload:Global.Behaviour_SendFriendRequest.IsInvitationPending
+  name: IsInvitationPending
+  nameWithType: Behaviour_SendFriendRequest.IsInvitationPending
+  fullName: Behaviour_SendFriendRequest.IsInvitationPending
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

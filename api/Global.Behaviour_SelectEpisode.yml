@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SelectEpisode
+  commentId: T:Global.Behaviour_SelectEpisode
+  id: Behaviour_SelectEpisode
+  parent: Global
+  children:
+  - Global.Behaviour_SelectEpisode.onVideoOpen
+  - Global.Behaviour_SelectEpisode.OpenVideo
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SelectEpisode
+  nameWithType: Behaviour_SelectEpisode
+  fullName: Behaviour_SelectEpisode
+  type: Class
+  source:
+    id: Behaviour_SelectEpisode
+    path: ''
+    startLine: 22944
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_SelectEpisode : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_SelectEpisode
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_SelectEpisode.onVideoOpen
+  commentId: F:Global.Behaviour_SelectEpisode.onVideoOpen
+  id: onVideoOpen
+  parent: Global.Behaviour_SelectEpisode
+  langs:
+  - csharp
+  - vb
+  name: onVideoOpen
+  nameWithType: Behaviour_SelectEpisode.onVideoOpen
+  fullName: Behaviour_SelectEpisode.onVideoOpen
+  type: Field
+  source:
+    id: onVideoOpen
+    path: ''
+    startLine: 22948
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent onVideoOpen
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onVideoOpen As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SelectEpisode.OpenVideo
+  commentId: M:Global.Behaviour_SelectEpisode.OpenVideo
+  id: OpenVideo
+  parent: Global.Behaviour_SelectEpisode
+  langs:
+  - csharp
+  - vb
+  name: OpenVideo()
+  nameWithType: Behaviour_SelectEpisode.OpenVideo()
+  fullName: Behaviour_SelectEpisode.OpenVideo()
+  type: Method
+  source:
+    id: OpenVideo
+    path: ''
+    startLine: 22950
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OpenVideo()
+    content.vb: Public Sub OpenVideo
+  overload: Global.Behaviour_SelectEpisode.OpenVideo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Global.Behaviour_SelectEpisode.OpenVideo*
+  commentId: Overload:Global.Behaviour_SelectEpisode.OpenVideo
+  name: OpenVideo
+  nameWithType: Behaviour_SelectEpisode.OpenVideo
+  fullName: Behaviour_SelectEpisode.OpenVideo

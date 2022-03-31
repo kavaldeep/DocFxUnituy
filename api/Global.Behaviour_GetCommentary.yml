@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_GetCommentary
+  commentId: T:Global.Behaviour_GetCommentary
+  id: Behaviour_GetCommentary
+  parent: Global
+  children:
+  - Global.Behaviour_GetCommentary._commentary
+  - Global.Behaviour_GetCommentary._numberComment
+  - Global.Behaviour_GetCommentary.CreateComment
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_GetCommentary
+  nameWithType: Behaviour_GetCommentary
+  fullName: Behaviour_GetCommentary
+  type: Class
+  source:
+    id: Behaviour_GetCommentary
+    path: ''
+    startLine: 24345
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_GetCommentary : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_GetCommentary
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_GetCommentary._numberComment
+  commentId: F:Global.Behaviour_GetCommentary._numberComment
+  id: _numberComment
+  parent: Global.Behaviour_GetCommentary
+  langs:
+  - csharp
+  - vb
+  name: _numberComment
+  nameWithType: Behaviour_GetCommentary._numberComment
+  fullName: Behaviour_GetCommentary._numberComment
+  type: Field
+  source:
+    id: _numberComment
+    path: ''
+    startLine: 24347
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int _numberComment
+    return:
+      type: System.Int32
+    content.vb: Public _numberComment As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GetCommentary._commentary
+  commentId: F:Global.Behaviour_GetCommentary._commentary
+  id: _commentary
+  parent: Global.Behaviour_GetCommentary
+  langs:
+  - csharp
+  - vb
+  name: _commentary
+  nameWithType: Behaviour_GetCommentary._commentary
+  fullName: Behaviour_GetCommentary._commentary
+  type: Field
+  source:
+    id: _commentary
+    path: ''
+    startLine: 24348
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject _commentary
+    return:
+      type: Global.GameObject
+    content.vb: Public _commentary As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GetCommentary.CreateComment
+  commentId: M:Global.Behaviour_GetCommentary.CreateComment
+  id: CreateComment
+  parent: Global.Behaviour_GetCommentary
+  langs:
+  - csharp
+  - vb
+  name: CreateComment()
+  nameWithType: Behaviour_GetCommentary.CreateComment()
+  fullName: Behaviour_GetCommentary.CreateComment()
+  type: Method
+  source:
+    id: CreateComment
+    path: ''
+    startLine: 24351
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void CreateComment()
+    content.vb: Public Sub CreateComment
+  overload: Global.Behaviour_GetCommentary.CreateComment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_GetCommentary.CreateComment*
+  commentId: Overload:Global.Behaviour_GetCommentary.CreateComment
+  name: CreateComment
+  nameWithType: Behaviour_GetCommentary.CreateComment
+  fullName: Behaviour_GetCommentary.CreateComment

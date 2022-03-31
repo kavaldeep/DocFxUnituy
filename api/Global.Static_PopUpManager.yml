@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_PopUpManager
+  commentId: T:Global.Static_PopUpManager
+  id: Static_PopUpManager
+  parent: Global
+  children:
+  - Global.Static_PopUpManager.CreatePopUp(System.String)
+  - Global.Static_PopUpManager.CreatePrefabPopUp
+  - Global.Static_PopUpManager.Initialize(GameObject,Transform)
+  - Global.Static_PopUpManager.initialized
+  - Global.Static_PopUpManager.popUpPrefab
+  - Global.Static_PopUpManager.popUpRoot
+  langs:
+  - csharp
+  - vb
+  name: Static_PopUpManager
+  nameWithType: Static_PopUpManager
+  fullName: Static_PopUpManager
+  type: Class
+  source:
+    id: Static_PopUpManager
+    path: ''
+    startLine: 21555
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class Static_PopUpManager
+    content.vb: Public Class Static_PopUpManager
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Static_PopUpManager.popUpPrefab
+  commentId: P:Global.Static_PopUpManager.popUpPrefab
+  id: popUpPrefab
+  parent: Global.Static_PopUpManager
+  langs:
+  - csharp
+  - vb
+  name: popUpPrefab
+  nameWithType: Static_PopUpManager.popUpPrefab
+  fullName: Static_PopUpManager.popUpPrefab
+  type: Property
+  source:
+    id: popUpPrefab
+    path: ''
+    startLine: 21557
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static GameObject popUpPrefab { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public Shared ReadOnly Property popUpPrefab As GameObject
+  overload: Global.Static_PopUpManager.popUpPrefab*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_PopUpManager.popUpRoot
+  commentId: P:Global.Static_PopUpManager.popUpRoot
+  id: popUpRoot
+  parent: Global.Static_PopUpManager
+  langs:
+  - csharp
+  - vb
+  name: popUpRoot
+  nameWithType: Static_PopUpManager.popUpRoot
+  fullName: Static_PopUpManager.popUpRoot
+  type: Property
+  source:
+    id: popUpRoot
+    path: ''
+    startLine: 21558
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Transform popUpRoot { get; }
+    parameters: []
+    return:
+      type: Global.Transform
+    content.vb: Public Shared ReadOnly Property popUpRoot As Transform
+  overload: Global.Static_PopUpManager.popUpRoot*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_PopUpManager.initialized
+  commentId: P:Global.Static_PopUpManager.initialized
+  id: initialized
+  parent: Global.Static_PopUpManager
+  langs:
+  - csharp
+  - vb
+  name: initialized
+  nameWithType: Static_PopUpManager.initialized
+  fullName: Static_PopUpManager.initialized
+  type: Property
+  source:
+    id: initialized
+    path: ''
+    startLine: 21559
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool initialized { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property initialized As Boolean
+  overload: Global.Static_PopUpManager.initialized*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_PopUpManager.Initialize(GameObject,Transform)
+  commentId: M:Global.Static_PopUpManager.Initialize(GameObject,Transform)
+  id: Initialize(GameObject,Transform)
+  parent: Global.Static_PopUpManager
+  langs:
+  - csharp
+  - vb
+  name: Initialize(GameObject, Transform)
+  nameWithType: Static_PopUpManager.Initialize(GameObject, Transform)
+  fullName: Static_PopUpManager.Initialize(GameObject, Transform)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 21561
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void Initialize(GameObject _popUpPrefab, Transform _popUpRoot)
+    parameters:
+    - id: _popUpPrefab
+      type: Global.GameObject
+    - id: _popUpRoot
+      type: Global.Transform
+    content.vb: Public Shared Sub Initialize(_popUpPrefab As GameObject, _popUpRoot As Transform)
+  overload: Global.Static_PopUpManager.Initialize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_PopUpManager.CreatePopUp(System.String)
+  commentId: M:Global.Static_PopUpManager.CreatePopUp(System.String)
+  id: CreatePopUp(System.String)
+  parent: Global.Static_PopUpManager
+  langs:
+  - csharp
+  - vb
+  name: CreatePopUp(String)
+  nameWithType: Static_PopUpManager.CreatePopUp(String)
+  fullName: Static_PopUpManager.CreatePopUp(System.String)
+  type: Method
+  source:
+    id: CreatePopUp
+    path: ''
+    startLine: 21568
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void CreatePopUp(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub CreatePopUp(message As String)
+  overload: Global.Static_PopUpManager.CreatePopUp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_PopUpManager.CreatePrefabPopUp
+  commentId: M:Global.Static_PopUpManager.CreatePrefabPopUp
+  id: CreatePrefabPopUp
+  parent: Global.Static_PopUpManager
+  langs:
+  - csharp
+  - vb
+  name: CreatePrefabPopUp()
+  nameWithType: Static_PopUpManager.CreatePrefabPopUp()
+  fullName: Static_PopUpManager.CreatePrefabPopUp()
+  type: Method
+  source:
+    id: CreatePrefabPopUp
+    path: ''
+    startLine: 21588
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void CreatePrefabPopUp()
+    content.vb: Public Shared Sub CreatePrefabPopUp
+  overload: Global.Static_PopUpManager.CreatePrefabPopUp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Static_PopUpManager.popUpPrefab*
+  commentId: Overload:Global.Static_PopUpManager.popUpPrefab
+  name: popUpPrefab
+  nameWithType: Static_PopUpManager.popUpPrefab
+  fullName: Static_PopUpManager.popUpPrefab
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Static_PopUpManager.popUpRoot*
+  commentId: Overload:Global.Static_PopUpManager.popUpRoot
+  name: popUpRoot
+  nameWithType: Static_PopUpManager.popUpRoot
+  fullName: Static_PopUpManager.popUpRoot
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.Static_PopUpManager.initialized*
+  commentId: Overload:Global.Static_PopUpManager.initialized
+  name: initialized
+  nameWithType: Static_PopUpManager.initialized
+  fullName: Static_PopUpManager.initialized
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Static_PopUpManager.Initialize*
+  commentId: Overload:Global.Static_PopUpManager.Initialize
+  name: Initialize
+  nameWithType: Static_PopUpManager.Initialize
+  fullName: Static_PopUpManager.Initialize
+- uid: Global.Static_PopUpManager.CreatePopUp*
+  commentId: Overload:Global.Static_PopUpManager.CreatePopUp
+  name: CreatePopUp
+  nameWithType: Static_PopUpManager.CreatePopUp
+  fullName: Static_PopUpManager.CreatePopUp
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Static_PopUpManager.CreatePrefabPopUp*
+  commentId: Overload:Global.Static_PopUpManager.CreatePrefabPopUp
+  name: CreatePrefabPopUp
+  nameWithType: Static_PopUpManager.CreatePrefabPopUp
+  fullName: Static_PopUpManager.CreatePrefabPopUp

@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.pickimageviastatic
+  commentId: T:Global.pickimageviastatic
+  id: pickimageviastatic
+  parent: Global
+  children:
+  - Global.pickimageviastatic._tex
+  - Global.pickimageviastatic.downloadImage
+  - Global.pickimageviastatic.downURL
+  - Global.pickimageviastatic.UploadThisImage
+  langs:
+  - csharp
+  - vb
+  name: pickimageviastatic
+  nameWithType: pickimageviastatic
+  fullName: pickimageviastatic
+  type: Class
+  source:
+    id: pickimageviastatic
+    path: ''
+    startLine: 13687
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class pickimageviastatic : MonoBehaviour'
+    content.vb: >-
+      Public Class pickimageviastatic
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.pickimageviastatic._tex
+  commentId: F:Global.pickimageviastatic._tex
+  id: _tex
+  parent: Global.pickimageviastatic
+  langs:
+  - csharp
+  - vb
+  name: _tex
+  nameWithType: pickimageviastatic._tex
+  fullName: pickimageviastatic._tex
+  type: Field
+  source:
+    id: _tex
+    path: ''
+    startLine: 13689
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RawImage _tex
+    return:
+      type: Global.RawImage
+    content.vb: Public _tex As RawImage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.pickimageviastatic.downURL
+  commentId: F:Global.pickimageviastatic.downURL
+  id: downURL
+  parent: Global.pickimageviastatic
+  langs:
+  - csharp
+  - vb
+  name: downURL
+  nameWithType: pickimageviastatic.downURL
+  fullName: pickimageviastatic.downURL
+  type: Field
+  source:
+    id: downURL
+    path: ''
+    startLine: 13692
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string downURL
+    return:
+      type: System.String
+    content.vb: Public downURL As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.pickimageviastatic.UploadThisImage
+  commentId: M:Global.pickimageviastatic.UploadThisImage
+  id: UploadThisImage
+  parent: Global.pickimageviastatic
+  langs:
+  - csharp
+  - vb
+  name: UploadThisImage()
+  nameWithType: pickimageviastatic.UploadThisImage()
+  fullName: pickimageviastatic.UploadThisImage()
+  type: Method
+  source:
+    id: UploadThisImage
+    path: ''
+    startLine: 13694
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UploadThisImage()
+    content.vb: Public Sub UploadThisImage
+  overload: Global.pickimageviastatic.UploadThisImage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.pickimageviastatic.downloadImage
+  commentId: M:Global.pickimageviastatic.downloadImage
+  id: downloadImage
+  parent: Global.pickimageviastatic
+  langs:
+  - csharp
+  - vb
+  name: downloadImage()
+  nameWithType: pickimageviastatic.downloadImage()
+  fullName: pickimageviastatic.downloadImage()
+  type: Method
+  source:
+    id: downloadImage
+    path: ''
+    startLine: 13698
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void downloadImage()
+    content.vb: Public Sub downloadImage
+  overload: Global.pickimageviastatic.downloadImage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RawImage
+  isExternal: true
+  name: RawImage
+  nameWithType: RawImage
+  fullName: RawImage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.pickimageviastatic.UploadThisImage*
+  commentId: Overload:Global.pickimageviastatic.UploadThisImage
+  name: UploadThisImage
+  nameWithType: pickimageviastatic.UploadThisImage
+  fullName: pickimageviastatic.UploadThisImage
+- uid: Global.pickimageviastatic.downloadImage*
+  commentId: Overload:Global.pickimageviastatic.downloadImage
+  name: downloadImage
+  nameWithType: pickimageviastatic.downloadImage
+  fullName: pickimageviastatic.downloadImage

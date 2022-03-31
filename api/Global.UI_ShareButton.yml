@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UI_ShareButton
+  commentId: T:Global.UI_ShareButton
+  id: UI_ShareButton
+  parent: Global
+  children:
+  - Global.UI_ShareButton._shareDone
+  - Global.UI_ShareButton.Share
+  - Global.UI_ShareButton.text
+  langs:
+  - csharp
+  - vb
+  name: UI_ShareButton
+  nameWithType: UI_ShareButton
+  fullName: UI_ShareButton
+  type: Class
+  source:
+    id: UI_ShareButton
+    path: ''
+    startLine: 27663
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UI_ShareButton : MonoBehaviour'
+    content.vb: >-
+      Public Class UI_ShareButton
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UI_ShareButton._shareDone
+  commentId: F:Global.UI_ShareButton._shareDone
+  id: _shareDone
+  parent: Global.UI_ShareButton
+  langs:
+  - csharp
+  - vb
+  name: _shareDone
+  nameWithType: UI_ShareButton._shareDone
+  fullName: UI_ShareButton._shareDone
+  type: Field
+  source:
+    id: _shareDone
+    path: ''
+    startLine: 27665
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Color _shareDone
+    return:
+      type: Global.Color
+    content.vb: Public _shareDone As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_ShareButton.text
+  commentId: F:Global.UI_ShareButton.text
+  id: text
+  parent: Global.UI_ShareButton
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: UI_ShareButton.text
+  fullName: UI_ShareButton.text
+  type: Field
+  source:
+    id: text
+    path: ''
+    startLine: 27667
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI text
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public text As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_ShareButton.Share
+  commentId: M:Global.UI_ShareButton.Share
+  id: Share
+  parent: Global.UI_ShareButton
+  langs:
+  - csharp
+  - vb
+  name: Share()
+  nameWithType: UI_ShareButton.Share()
+  fullName: UI_ShareButton.Share()
+  type: Method
+  source:
+    id: Share
+    path: ''
+    startLine: 27669
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Share()
+    content.vb: Public Sub Share
+  overload: Global.UI_ShareButton.Share*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.UI_ShareButton.Share*
+  commentId: Overload:Global.UI_ShareButton.Share
+  name: Share
+  nameWithType: UI_ShareButton.Share
+  fullName: UI_ShareButton.Share

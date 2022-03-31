@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Singleton_FTUEManager.FTUEData
+  commentId: T:Global.Singleton_FTUEManager.FTUEData
+  id: Singleton_FTUEManager.FTUEData
+  parent: Global
+  children:
+  - Global.Singleton_FTUEManager.FTUEData.#ctor(System.String)
+  - Global.Singleton_FTUEManager.FTUEData.Check
+  - Global.Singleton_FTUEManager.FTUEData.isFTUE
+  - Global.Singleton_FTUEManager.FTUEData.Load
+  - Global.Singleton_FTUEManager.FTUEData.op_Implicit(Singleton_FTUEManager.FTUEData)~System.Boolean
+  - Global.Singleton_FTUEManager.FTUEData.ResetFTUE
+  - Global.Singleton_FTUEManager.FTUEData.saveName
+  langs:
+  - csharp
+  - vb
+  name: Singleton_FTUEManager.FTUEData
+  nameWithType: Singleton_FTUEManager.FTUEData
+  fullName: Singleton_FTUEManager.FTUEData
+  type: Class
+  source:
+    id: FTUEData
+    path: ''
+    startLine: 15425
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class FTUEData
+    content.vb: Public Class FTUEData
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Singleton_FTUEManager.FTUEData.isFTUE
+  commentId: F:Global.Singleton_FTUEManager.FTUEData.isFTUE
+  id: isFTUE
+  parent: Global.Singleton_FTUEManager.FTUEData
+  langs:
+  - csharp
+  - vb
+  name: isFTUE
+  nameWithType: Singleton_FTUEManager.FTUEData.isFTUE
+  fullName: Singleton_FTUEManager.FTUEData.isFTUE
+  type: Field
+  source:
+    id: isFTUE
+    path: ''
+    startLine: 15427
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool isFTUE
+    return:
+      type: System.Boolean
+    content.vb: Public isFTUE As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FTUEManager.FTUEData.saveName
+  commentId: F:Global.Singleton_FTUEManager.FTUEData.saveName
+  id: saveName
+  parent: Global.Singleton_FTUEManager.FTUEData
+  langs:
+  - csharp
+  - vb
+  name: saveName
+  nameWithType: Singleton_FTUEManager.FTUEData.saveName
+  fullName: Singleton_FTUEManager.FTUEData.saveName
+  type: Field
+  source:
+    id: saveName
+    path: ''
+    startLine: 15428
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string saveName
+    return:
+      type: System.String
+    content.vb: Public saveName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FTUEManager.FTUEData.#ctor(System.String)
+  commentId: M:Global.Singleton_FTUEManager.FTUEData.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Global.Singleton_FTUEManager.FTUEData
+  langs:
+  - csharp
+  - vb
+  name: FTUEData(String)
+  nameWithType: Singleton_FTUEManager.FTUEData.FTUEData(String)
+  fullName: Singleton_FTUEManager.FTUEData.FTUEData(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15430
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public FTUEData(string saveName)
+    parameters:
+    - id: saveName
+      type: System.String
+    content.vb: Public Sub New(saveName As String)
+  overload: Global.Singleton_FTUEManager.FTUEData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FTUEManager.FTUEData.Load
+  commentId: M:Global.Singleton_FTUEManager.FTUEData.Load
+  id: Load
+  parent: Global.Singleton_FTUEManager.FTUEData
+  langs:
+  - csharp
+  - vb
+  name: Load()
+  nameWithType: Singleton_FTUEManager.FTUEData.Load()
+  fullName: Singleton_FTUEManager.FTUEData.Load()
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 15437
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Load()
+    content.vb: Public Sub Load
+  overload: Global.Singleton_FTUEManager.FTUEData.Load*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FTUEManager.FTUEData.op_Implicit(Singleton_FTUEManager.FTUEData)~System.Boolean
+  commentId: M:Global.Singleton_FTUEManager.FTUEData.op_Implicit(Singleton_FTUEManager.FTUEData)~System.Boolean
+  id: op_Implicit(Singleton_FTUEManager.FTUEData)~System.Boolean
+  parent: Global.Singleton_FTUEManager.FTUEData
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Singleton_FTUEManager.FTUEData to Boolean)
+  nameWithType: Singleton_FTUEManager.FTUEData.Implicit(Singleton_FTUEManager.FTUEData to Boolean)
+  fullName: Singleton_FTUEManager.FTUEData.Implicit(Singleton_FTUEManager.FTUEData to System.Boolean)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 15443
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static implicit operator bool (Singleton_FTUEManager.FTUEData obj)
+    parameters:
+    - id: obj
+      type: Global.Singleton_FTUEManager.FTUEData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Widening Operator CType(obj As Singleton_FTUEManager.FTUEData) As Boolean
+  overload: Global.Singleton_FTUEManager.FTUEData.op_Implicit*
+  nameWithType.vb: Singleton_FTUEManager.FTUEData.Widening(Singleton_FTUEManager.FTUEData to Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Singleton_FTUEManager.FTUEData.Widening(Singleton_FTUEManager.FTUEData to System.Boolean)
+  name.vb: Widening(Singleton_FTUEManager.FTUEData to Boolean)
+- uid: Global.Singleton_FTUEManager.FTUEData.Check
+  commentId: M:Global.Singleton_FTUEManager.FTUEData.Check
+  id: Check
+  parent: Global.Singleton_FTUEManager.FTUEData
+  langs:
+  - csharp
+  - vb
+  name: Check()
+  nameWithType: Singleton_FTUEManager.FTUEData.Check()
+  fullName: Singleton_FTUEManager.FTUEData.Check()
+  type: Method
+  source:
+    id: Check
+    path: ''
+    startLine: 15449
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Check()
+    content.vb: Public Sub Check
+  overload: Global.Singleton_FTUEManager.FTUEData.Check*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Singleton_FTUEManager.FTUEData.ResetFTUE
+  commentId: M:Global.Singleton_FTUEManager.FTUEData.ResetFTUE
+  id: ResetFTUE
+  parent: Global.Singleton_FTUEManager.FTUEData
+  langs:
+  - csharp
+  - vb
+  name: ResetFTUE()
+  nameWithType: Singleton_FTUEManager.FTUEData.ResetFTUE()
+  fullName: Singleton_FTUEManager.FTUEData.ResetFTUE()
+  type: Method
+  source:
+    id: ResetFTUE
+    path: ''
+    startLine: 15455
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ResetFTUE()
+    content.vb: Public Sub ResetFTUE
+  overload: Global.Singleton_FTUEManager.FTUEData.ResetFTUE*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Singleton_FTUEManager.FTUEData.#ctor*
+  commentId: Overload:Global.Singleton_FTUEManager.FTUEData.#ctor
+  name: FTUEData
+  nameWithType: Singleton_FTUEManager.FTUEData.FTUEData
+  fullName: Singleton_FTUEManager.FTUEData.FTUEData
+- uid: Global.Singleton_FTUEManager.FTUEData.Load*
+  commentId: Overload:Global.Singleton_FTUEManager.FTUEData.Load
+  name: Load
+  nameWithType: Singleton_FTUEManager.FTUEData.Load
+  fullName: Singleton_FTUEManager.FTUEData.Load
+- uid: Global.Singleton_FTUEManager.FTUEData.op_Implicit*
+  commentId: Overload:Global.Singleton_FTUEManager.FTUEData.op_Implicit
+  name: Implicit
+  nameWithType: Singleton_FTUEManager.FTUEData.Implicit
+  fullName: Singleton_FTUEManager.FTUEData.Implicit
+  nameWithType.vb: Singleton_FTUEManager.FTUEData.Widening
+  fullName.vb: Singleton_FTUEManager.FTUEData.Widening
+  name.vb: Widening
+- uid: Global.Singleton_FTUEManager.FTUEData
+  commentId: T:Global.Singleton_FTUEManager.FTUEData
+  name: Singleton_FTUEManager.FTUEData
+  nameWithType: Singleton_FTUEManager.FTUEData
+  fullName: Singleton_FTUEManager.FTUEData
+- uid: Global.Singleton_FTUEManager.FTUEData.Check*
+  commentId: Overload:Global.Singleton_FTUEManager.FTUEData.Check
+  name: Check
+  nameWithType: Singleton_FTUEManager.FTUEData.Check
+  fullName: Singleton_FTUEManager.FTUEData.Check
+- uid: Global.Singleton_FTUEManager.FTUEData.ResetFTUE*
+  commentId: Overload:Global.Singleton_FTUEManager.FTUEData.ResetFTUE
+  name: ResetFTUE
+  nameWithType: Singleton_FTUEManager.FTUEData.ResetFTUE
+  fullName: Singleton_FTUEManager.FTUEData.ResetFTUE

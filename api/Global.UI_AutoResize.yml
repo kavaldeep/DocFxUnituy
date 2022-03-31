@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UI_AutoResize
+  commentId: T:Global.UI_AutoResize
+  id: UI_AutoResize
+  parent: Global
+  children:
+  - Global.UI_AutoResize.Awake
+  langs:
+  - csharp
+  - vb
+  name: UI_AutoResize
+  nameWithType: UI_AutoResize
+  fullName: UI_AutoResize
+  type: Class
+  source:
+    id: UI_AutoResize
+    path: ''
+    startLine: 27550
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UI_AutoResize : MonoBehaviour'
+    content.vb: >-
+      Public Class UI_AutoResize
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UI_AutoResize.Awake
+  commentId: M:Global.UI_AutoResize.Awake
+  id: Awake
+  parent: Global.UI_AutoResize
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: UI_AutoResize.Awake()
+  fullName: UI_AutoResize.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 27552
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Awake()
+    content.vb: Protected Sub Awake
+  overload: Global.UI_AutoResize.Awake*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UI_AutoResize.Awake*
+  commentId: Overload:Global.UI_AutoResize.Awake
+  name: Awake
+  nameWithType: UI_AutoResize.Awake
+  fullName: UI_AutoResize.Awake

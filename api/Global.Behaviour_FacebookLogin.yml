@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_FacebookLogin
+  commentId: T:Global.Behaviour_FacebookLogin
+  id: Behaviour_FacebookLogin
+  parent: Global
+  children:
+  - Global.Behaviour_FacebookLogin.LoginFacebook(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_FacebookLogin
+  nameWithType: Behaviour_FacebookLogin
+  fullName: Behaviour_FacebookLogin
+  type: Class
+  source:
+    id: Behaviour_FacebookLogin
+    path: ''
+    startLine: 25185
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_FacebookLogin : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_FacebookLogin
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_FacebookLogin.LoginFacebook(System.Boolean)
+  commentId: M:Global.Behaviour_FacebookLogin.LoginFacebook(System.Boolean)
+  id: LoginFacebook(System.Boolean)
+  parent: Global.Behaviour_FacebookLogin
+  langs:
+  - csharp
+  - vb
+  name: LoginFacebook(Boolean)
+  nameWithType: Behaviour_FacebookLogin.LoginFacebook(Boolean)
+  fullName: Behaviour_FacebookLogin.LoginFacebook(System.Boolean)
+  type: Method
+  source:
+    id: LoginFacebook
+    path: ''
+    startLine: 25187
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoginFacebook(bool doesRegister)
+    parameters:
+    - id: doesRegister
+      type: System.Boolean
+    content.vb: Public Sub LoginFacebook(doesRegister As Boolean)
+  overload: Global.Behaviour_FacebookLogin.LoginFacebook*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_FacebookLogin.LoginFacebook*
+  commentId: Overload:Global.Behaviour_FacebookLogin.LoginFacebook
+  name: LoginFacebook
+  nameWithType: Behaviour_FacebookLogin.LoginFacebook
+  fullName: Behaviour_FacebookLogin.LoginFacebook
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

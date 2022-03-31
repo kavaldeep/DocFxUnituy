@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ButtonFadeInAnimation
+  commentId: T:Global.ButtonFadeInAnimation
+  id: ButtonFadeInAnimation
+  parent: Global
+  children:
+  - Global.ButtonFadeInAnimation.ColourChange
+  - Global.ButtonFadeInAnimation.FadeIn
+  - Global.ButtonFadeInAnimation.setColourBackToBasic
+  langs:
+  - csharp
+  - vb
+  name: ButtonFadeInAnimation
+  nameWithType: ButtonFadeInAnimation
+  fullName: ButtonFadeInAnimation
+  type: Class
+  source:
+    id: ButtonFadeInAnimation
+    path: ''
+    startLine: 13804
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ButtonFadeInAnimation : MonoBehaviour'
+    content.vb: >-
+      Public Class ButtonFadeInAnimation
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ButtonFadeInAnimation.FadeIn
+  commentId: M:Global.ButtonFadeInAnimation.FadeIn
+  id: FadeIn
+  parent: Global.ButtonFadeInAnimation
+  langs:
+  - csharp
+  - vb
+  name: FadeIn()
+  nameWithType: ButtonFadeInAnimation.FadeIn()
+  fullName: ButtonFadeInAnimation.FadeIn()
+  type: Method
+  source:
+    id: FadeIn
+    path: ''
+    startLine: 13834
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void FadeIn()
+    content.vb: Public Sub FadeIn
+  overload: Global.ButtonFadeInAnimation.FadeIn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ButtonFadeInAnimation.ColourChange
+  commentId: M:Global.ButtonFadeInAnimation.ColourChange
+  id: ColourChange
+  parent: Global.ButtonFadeInAnimation
+  langs:
+  - csharp
+  - vb
+  name: ColourChange()
+  nameWithType: ButtonFadeInAnimation.ColourChange()
+  fullName: ButtonFadeInAnimation.ColourChange()
+  type: Method
+  source:
+    id: ColourChange
+    path: ''
+    startLine: 13841
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ColourChange()
+    content.vb: Public Sub ColourChange
+  overload: Global.ButtonFadeInAnimation.ColourChange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ButtonFadeInAnimation.setColourBackToBasic
+  commentId: M:Global.ButtonFadeInAnimation.setColourBackToBasic
+  id: setColourBackToBasic
+  parent: Global.ButtonFadeInAnimation
+  langs:
+  - csharp
+  - vb
+  name: setColourBackToBasic()
+  nameWithType: ButtonFadeInAnimation.setColourBackToBasic()
+  fullName: ButtonFadeInAnimation.setColourBackToBasic()
+  type: Method
+  source:
+    id: setColourBackToBasic
+    path: ''
+    startLine: 13846
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void setColourBackToBasic()
+    content.vb: Public Sub setColourBackToBasic
+  overload: Global.ButtonFadeInAnimation.setColourBackToBasic*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ButtonFadeInAnimation.FadeIn*
+  commentId: Overload:Global.ButtonFadeInAnimation.FadeIn
+  name: FadeIn
+  nameWithType: ButtonFadeInAnimation.FadeIn
+  fullName: ButtonFadeInAnimation.FadeIn
+- uid: Global.ButtonFadeInAnimation.ColourChange*
+  commentId: Overload:Global.ButtonFadeInAnimation.ColourChange
+  name: ColourChange
+  nameWithType: ButtonFadeInAnimation.ColourChange
+  fullName: ButtonFadeInAnimation.ColourChange
+- uid: Global.ButtonFadeInAnimation.setColourBackToBasic*
+  commentId: Overload:Global.ButtonFadeInAnimation.setColourBackToBasic
+  name: setColourBackToBasic
+  nameWithType: ButtonFadeInAnimation.setColourBackToBasic
+  fullName: ButtonFadeInAnimation.setColourBackToBasic

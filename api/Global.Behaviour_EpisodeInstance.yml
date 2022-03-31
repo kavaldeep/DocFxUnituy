@@ -1,0 +1,403 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_EpisodeInstance
+  commentId: T:Global.Behaviour_EpisodeInstance
+  id: Behaviour_EpisodeInstance
+  parent: Global
+  children:
+  - Global.Behaviour_EpisodeInstance.episodeNumber
+  - Global.Behaviour_EpisodeInstance.Initialize(Episode)
+  - Global.Behaviour_EpisodeInstance.name
+  - Global.Behaviour_EpisodeInstance.previewImage
+  - Global.Behaviour_EpisodeInstance.seasonNumber
+  - Global.Behaviour_EpisodeInstance.summary
+  - Global.Behaviour_EpisodeInstance.URL
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_EpisodeInstance
+  nameWithType: Behaviour_EpisodeInstance
+  fullName: Behaviour_EpisodeInstance
+  type: Class
+  source:
+    id: Behaviour_EpisodeInstance
+    path: ''
+    startLine: 22145
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_EpisodeInstance : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_EpisodeInstance
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_EpisodeInstance.name
+  commentId: F:Global.Behaviour_EpisodeInstance.name
+  id: name
+  parent: Global.Behaviour_EpisodeInstance
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Behaviour_EpisodeInstance.name
+  fullName: Behaviour_EpisodeInstance.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 22147
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<TextMeshProUGUI> name
+    return:
+      type: System.Collections.Generic.List{TextMeshProUGUI}
+    content.vb: Public name As List(Of TextMeshProUGUI)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeInstance.episodeNumber
+  commentId: F:Global.Behaviour_EpisodeInstance.episodeNumber
+  id: episodeNumber
+  parent: Global.Behaviour_EpisodeInstance
+  langs:
+  - csharp
+  - vb
+  name: episodeNumber
+  nameWithType: Behaviour_EpisodeInstance.episodeNumber
+  fullName: Behaviour_EpisodeInstance.episodeNumber
+  type: Field
+  source:
+    id: episodeNumber
+    path: ''
+    startLine: 22148
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<TextMeshProUGUI> episodeNumber
+    return:
+      type: System.Collections.Generic.List{TextMeshProUGUI}
+    content.vb: Public episodeNumber As List(Of TextMeshProUGUI)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeInstance.seasonNumber
+  commentId: F:Global.Behaviour_EpisodeInstance.seasonNumber
+  id: seasonNumber
+  parent: Global.Behaviour_EpisodeInstance
+  langs:
+  - csharp
+  - vb
+  name: seasonNumber
+  nameWithType: Behaviour_EpisodeInstance.seasonNumber
+  fullName: Behaviour_EpisodeInstance.seasonNumber
+  type: Field
+  source:
+    id: seasonNumber
+    path: ''
+    startLine: 22149
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<TextMeshProUGUI> seasonNumber
+    return:
+      type: System.Collections.Generic.List{TextMeshProUGUI}
+    content.vb: Public seasonNumber As List(Of TextMeshProUGUI)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeInstance.previewImage
+  commentId: F:Global.Behaviour_EpisodeInstance.previewImage
+  id: previewImage
+  parent: Global.Behaviour_EpisodeInstance
+  langs:
+  - csharp
+  - vb
+  name: previewImage
+  nameWithType: Behaviour_EpisodeInstance.previewImage
+  fullName: Behaviour_EpisodeInstance.previewImage
+  type: Field
+  source:
+    id: previewImage
+    path: ''
+    startLine: 22150
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<RawImage> previewImage
+    return:
+      type: System.Collections.Generic.List{RawImage}
+    content.vb: Public previewImage As List(Of RawImage)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeInstance.URL
+  commentId: F:Global.Behaviour_EpisodeInstance.URL
+  id: URL
+  parent: Global.Behaviour_EpisodeInstance
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: Behaviour_EpisodeInstance.URL
+  fullName: Behaviour_EpisodeInstance.URL
+  type: Field
+  source:
+    id: URL
+    path: ''
+    startLine: 22153
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string URL
+    return:
+      type: System.String
+    content.vb: Public URL As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeInstance.summary
+  commentId: F:Global.Behaviour_EpisodeInstance.summary
+  id: summary
+  parent: Global.Behaviour_EpisodeInstance
+  langs:
+  - csharp
+  - vb
+  name: summary
+  nameWithType: Behaviour_EpisodeInstance.summary
+  fullName: Behaviour_EpisodeInstance.summary
+  type: Field
+  source:
+    id: summary
+    path: ''
+    startLine: 22155
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<TextMeshProUGUI> summary
+    return:
+      type: System.Collections.Generic.List{TextMeshProUGUI}
+    content.vb: Public summary As List(Of TextMeshProUGUI)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_EpisodeInstance.Initialize(Episode)
+  commentId: M:Global.Behaviour_EpisodeInstance.Initialize(Episode)
+  id: Initialize(Episode)
+  parent: Global.Behaviour_EpisodeInstance
+  langs:
+  - csharp
+  - vb
+  name: Initialize(Episode)
+  nameWithType: Behaviour_EpisodeInstance.Initialize(Episode)
+  fullName: Behaviour_EpisodeInstance.Initialize(Episode)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 22161
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Initialize(Episode _episode)
+    parameters:
+    - id: _episode
+      type: Global.Episode
+    content.vb: Public Sub Initialize(_episode As Episode)
+  overload: Global.Behaviour_EpisodeInstance.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{TextMeshProUGUI}
+  commentId: T:System.Collections.Generic.List{TextMeshProUGUI}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<TextMeshProUGUI>
+  nameWithType: List<TextMeshProUGUI>
+  fullName: System.Collections.Generic.List<TextMeshProUGUI>
+  nameWithType.vb: List(Of TextMeshProUGUI)
+  fullName.vb: System.Collections.Generic.List(Of TextMeshProUGUI)
+  name.vb: List(Of TextMeshProUGUI)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.TextMeshProUGUI
+    name: TextMeshProUGUI
+    nameWithType: TextMeshProUGUI
+    fullName: TextMeshProUGUI
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.TextMeshProUGUI
+    name: TextMeshProUGUI
+    nameWithType: TextMeshProUGUI
+    fullName: TextMeshProUGUI
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{RawImage}
+  commentId: T:System.Collections.Generic.List{RawImage}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<RawImage>
+  nameWithType: List<RawImage>
+  fullName: System.Collections.Generic.List<RawImage>
+  nameWithType.vb: List(Of RawImage)
+  fullName.vb: System.Collections.Generic.List(Of RawImage)
+  name.vb: List(Of RawImage)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.RawImage
+    name: RawImage
+    nameWithType: RawImage
+    fullName: RawImage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.RawImage
+    name: RawImage
+    nameWithType: RawImage
+    fullName: RawImage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Behaviour_EpisodeInstance.Initialize*
+  commentId: Overload:Global.Behaviour_EpisodeInstance.Initialize
+  name: Initialize
+  nameWithType: Behaviour_EpisodeInstance.Initialize
+  fullName: Behaviour_EpisodeInstance.Initialize
+- uid: Global.Episode
+  commentId: T:Global.Episode
+  name: Episode
+  nameWithType: Episode
+  fullName: Episode

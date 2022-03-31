@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Post
+  commentId: T:Global.Post
+  id: Post
+  parent: Global
+  children:
+  - Global.Post.content
+  - Global.Post.id
+  - Global.Post.sender
+  - Global.Post.stats
+  langs:
+  - csharp
+  - vb
+  name: Post
+  nameWithType: Post
+  fullName: Post
+  type: Class
+  source:
+    id: Post
+    path: ''
+    startLine: 26207
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Post
+    content.vb: >-
+      <Serializable>
+
+      Public Class Post
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Global.TwitPost
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Post.id
+  commentId: F:Global.Post.id
+  id: id
+  parent: Global.Post
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: Post.id
+  fullName: Post.id
+  type: Field
+  source:
+    id: id
+    path: ''
+    startLine: 26210
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string id
+    return:
+      type: System.String
+    content.vb: Public id As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.sender
+  commentId: F:Global.Post.sender
+  id: sender
+  parent: Global.Post
+  langs:
+  - csharp
+  - vb
+  name: sender
+  nameWithType: Post.sender
+  fullName: Post.sender
+  type: Field
+  source:
+    id: sender
+    path: ''
+    startLine: 26221
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Post.Sender sender
+    return:
+      type: Global.Post.Sender
+    content.vb: Public sender As Post.Sender
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.content
+  commentId: F:Global.Post.content
+  id: content
+  parent: Global.Post
+  langs:
+  - csharp
+  - vb
+  name: content
+  nameWithType: Post.content
+  fullName: Post.content
+  type: Field
+  source:
+    id: content
+    path: ''
+    startLine: 26233
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Post.Content content
+    return:
+      type: Global.Post.Content
+    content.vb: Public content As Post.Content
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.stats
+  commentId: F:Global.Post.stats
+  id: stats
+  parent: Global.Post
+  langs:
+  - csharp
+  - vb
+  name: stats
+  nameWithType: Post.stats
+  fullName: Post.stats
+  type: Field
+  source:
+    id: stats
+    path: ''
+    startLine: 26247
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Post.Stats stats
+    return:
+      type: Global.Post.Stats
+    content.vb: Public stats As Post.Stats
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Post.Sender
+  commentId: T:Global.Post.Sender
+  name: Post.Sender
+  nameWithType: Post.Sender
+  fullName: Post.Sender
+- uid: Global.Post.Content
+  commentId: T:Global.Post.Content
+  name: Post.Content
+  nameWithType: Post.Content
+  fullName: Post.Content
+- uid: Global.Post.Stats
+  commentId: T:Global.Post.Stats
+  name: Post.Stats
+  nameWithType: Post.Stats
+  fullName: Post.Stats

@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SerieInformationHolder.linksStruct
+  commentId: T:Global.Behaviour_SerieInformationHolder.linksStruct
+  id: Behaviour_SerieInformationHolder.linksStruct
+  parent: Global
+  children:
+  - Global.Behaviour_SerieInformationHolder.linksStruct.name
+  - Global.Behaviour_SerieInformationHolder.linksStruct.url
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SerieInformationHolder.linksStruct
+  nameWithType: Behaviour_SerieInformationHolder.linksStruct
+  fullName: Behaviour_SerieInformationHolder.linksStruct
+  type: Struct
+  source:
+    id: linksStruct
+    path: ''
+    startLine: 12927
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct linksStruct
+    content.vb: Public Structure linksStruct
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.Behaviour_SerieInformationHolder.linksStruct.name
+  commentId: F:Global.Behaviour_SerieInformationHolder.linksStruct.name
+  id: name
+  parent: Global.Behaviour_SerieInformationHolder.linksStruct
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Behaviour_SerieInformationHolder.linksStruct.name
+  fullName: Behaviour_SerieInformationHolder.linksStruct.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 12929
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.linksStruct.url
+  commentId: F:Global.Behaviour_SerieInformationHolder.linksStruct.url
+  id: url
+  parent: Global.Behaviour_SerieInformationHolder.linksStruct
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: Behaviour_SerieInformationHolder.linksStruct.url
+  fullName: Behaviour_SerieInformationHolder.linksStruct.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 12930
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string url
+    return:
+      type: System.String
+    content.vb: Public url As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

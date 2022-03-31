@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  id: ImageFile
+  parent: Global
+  children:
+  - Global.ImageFile.#ctor(System.String,Texture2D)
+  - Global.ImageFile.texture
+  - Global.ImageFile.url
+  langs:
+  - csharp
+  - vb
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+  type: Class
+  source:
+    id: ImageFile
+    path: ''
+    startLine: 15673
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class ImageFile
+    content.vb: >-
+      <Serializable>
+
+      Public Class ImageFile
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ImageFile.url
+  commentId: F:Global.ImageFile.url
+  id: url
+  parent: Global.ImageFile
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: ImageFile.url
+  fullName: ImageFile.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 15676
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string url
+    return:
+      type: System.String
+    content.vb: Public url As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ImageFile.texture
+  commentId: F:Global.ImageFile.texture
+  id: texture
+  parent: Global.ImageFile
+  langs:
+  - csharp
+  - vb
+  name: texture
+  nameWithType: ImageFile.texture
+  fullName: ImageFile.texture
+  type: Field
+  source:
+    id: texture
+    path: ''
+    startLine: 15677
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture2D texture
+    return:
+      type: Global.Texture2D
+    content.vb: Public texture As Texture2D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ImageFile.#ctor(System.String,Texture2D)
+  commentId: M:Global.ImageFile.#ctor(System.String,Texture2D)
+  id: '#ctor(System.String,Texture2D)'
+  parent: Global.ImageFile
+  langs:
+  - csharp
+  - vb
+  name: ImageFile(String, Texture2D)
+  nameWithType: ImageFile.ImageFile(String, Texture2D)
+  fullName: ImageFile.ImageFile(System.String, Texture2D)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15679
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile(string _url, Texture2D _image)
+    parameters:
+    - id: _url
+      type: System.String
+    - id: _image
+      type: Global.Texture2D
+    content.vb: Public Sub New(_url As String, _image As Texture2D)
+  overload: Global.ImageFile.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: Global.ImageFile.#ctor*
+  commentId: Overload:Global.ImageFile.#ctor
+  name: ImageFile
+  nameWithType: ImageFile.ImageFile
+  fullName: ImageFile.ImageFile

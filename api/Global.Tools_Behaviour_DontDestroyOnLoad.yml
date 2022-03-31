@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Tools_Behaviour_DontDestroyOnLoad
+  commentId: T:Global.Tools_Behaviour_DontDestroyOnLoad
+  id: Tools_Behaviour_DontDestroyOnLoad
+  parent: Global
+  children:
+  - Global.Tools_Behaviour_DontDestroyOnLoad.Instance
+  langs:
+  - csharp
+  - vb
+  name: Tools_Behaviour_DontDestroyOnLoad
+  nameWithType: Tools_Behaviour_DontDestroyOnLoad
+  fullName: Tools_Behaviour_DontDestroyOnLoad
+  type: Class
+  source:
+    id: Tools_Behaviour_DontDestroyOnLoad
+    path: ''
+    startLine: 17115
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Tools_Behaviour_DontDestroyOnLoad : MonoBehaviour'
+    content.vb: >-
+      Public Class Tools_Behaviour_DontDestroyOnLoad
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Tools_Behaviour_DontDestroyOnLoad.Instance
+  commentId: F:Global.Tools_Behaviour_DontDestroyOnLoad.Instance
+  id: Instance
+  parent: Global.Tools_Behaviour_DontDestroyOnLoad
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Tools_Behaviour_DontDestroyOnLoad.Instance
+  fullName: Tools_Behaviour_DontDestroyOnLoad.Instance
+  type: Field
+  source:
+    id: Instance
+    path: ''
+    startLine: 17117
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Tools_Behaviour_DontDestroyOnLoad Instance
+    return:
+      type: Global.Tools_Behaviour_DontDestroyOnLoad
+    content.vb: Public Shared Instance As Tools_Behaviour_DontDestroyOnLoad
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Tools_Behaviour_DontDestroyOnLoad
+  commentId: T:Global.Tools_Behaviour_DontDestroyOnLoad
+  name: Tools_Behaviour_DontDestroyOnLoad
+  nameWithType: Tools_Behaviour_DontDestroyOnLoad
+  fullName: Tools_Behaviour_DontDestroyOnLoad

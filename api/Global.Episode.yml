@@ -1,0 +1,859 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Episode
+  commentId: T:Global.Episode
+  id: Episode
+  parent: Global
+  children:
+  - Global.Episode.#ctor
+  - Global.Episode.#ctor(System.Boolean,System.String,System.Int32,System.Int32,ImageFile)
+  - Global.Episode.#ctor(System.Boolean,System.String,System.Int32,System.Int32,ImageFile,System.String,System.String,System.Collections.Generic.List{StaffProfil},System.Collections.Generic.List{TimeStamp},System.Collections.Generic.List{Product})
+  - Global.Episode.bonus
+  - Global.Episode.episodeNumber
+  - Global.Episode.image
+  - Global.Episode.name
+  - Global.Episode.products
+  - Global.Episode.released
+  - Global.Episode.seasonNumber
+  - Global.Episode.serie
+  - Global.Episode.shopId
+  - Global.Episode.staff
+  - Global.Episode.staffId
+  - Global.Episode.summary
+  - Global.Episode.timestamps
+  - Global.Episode.url
+  langs:
+  - csharp
+  - vb
+  name: Episode
+  nameWithType: Episode
+  fullName: Episode
+  type: Class
+  source:
+    id: Episode
+    path: ''
+    startLine: 15568
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Episode
+    content.vb: >-
+      <Serializable>
+
+      Public Class Episode
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Episode.serie
+  commentId: F:Global.Episode.serie
+  id: serie
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: serie
+  nameWithType: Episode.serie
+  fullName: Episode.serie
+  type: Field
+  source:
+    id: serie
+    path: ''
+    startLine: 15571
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string serie
+    return:
+      type: System.String
+    content.vb: Public serie As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.name
+  commentId: F:Global.Episode.name
+  id: name
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Episode.name
+  fullName: Episode.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 15572
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.episodeNumber
+  commentId: F:Global.Episode.episodeNumber
+  id: episodeNumber
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: episodeNumber
+  nameWithType: Episode.episodeNumber
+  fullName: Episode.episodeNumber
+  type: Field
+  source:
+    id: episodeNumber
+    path: ''
+    startLine: 15573
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int episodeNumber
+    return:
+      type: System.Int32
+    content.vb: Public episodeNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.seasonNumber
+  commentId: F:Global.Episode.seasonNumber
+  id: seasonNumber
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: seasonNumber
+  nameWithType: Episode.seasonNumber
+  fullName: Episode.seasonNumber
+  type: Field
+  source:
+    id: seasonNumber
+    path: ''
+    startLine: 15574
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int seasonNumber
+    return:
+      type: System.Int32
+    content.vb: Public seasonNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.image
+  commentId: F:Global.Episode.image
+  id: image
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Episode.image
+  fullName: Episode.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 15575
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile image
+    return:
+      type: Global.ImageFile
+    content.vb: Public image As ImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.released
+  commentId: F:Global.Episode.released
+  id: released
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: released
+  nameWithType: Episode.released
+  fullName: Episode.released
+  type: Field
+  source:
+    id: released
+    path: ''
+    startLine: 15576
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool released
+    return:
+      type: System.Boolean
+    content.vb: Public released As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.shopId
+  commentId: F:Global.Episode.shopId
+  id: shopId
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: shopId
+  nameWithType: Episode.shopId
+  fullName: Episode.shopId
+  type: Field
+  source:
+    id: shopId
+    path: ''
+    startLine: 15578
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<string> shopId
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public shopId As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.bonus
+  commentId: F:Global.Episode.bonus
+  id: bonus
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: bonus
+  nameWithType: Episode.bonus
+  fullName: Episode.bonus
+  type: Field
+  source:
+    id: bonus
+    path: ''
+    startLine: 15579
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<Link> bonus
+    return:
+      type: System.Collections.Generic.List{Link}
+    content.vb: Public bonus As List(Of Link)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.staffId
+  commentId: F:Global.Episode.staffId
+  id: staffId
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: staffId
+  nameWithType: Episode.staffId
+  fullName: Episode.staffId
+  type: Field
+  source:
+    id: staffId
+    path: ''
+    startLine: 15580
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<string> staffId
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public staffId As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.url
+  commentId: F:Global.Episode.url
+  id: url
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: Episode.url
+  fullName: Episode.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 15583
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string url
+    return:
+      type: System.String
+    content.vb: Public url As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.summary
+  commentId: F:Global.Episode.summary
+  id: summary
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: summary
+  nameWithType: Episode.summary
+  fullName: Episode.summary
+  type: Field
+  source:
+    id: summary
+    path: ''
+    startLine: 15585
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string summary
+    return:
+      type: System.String
+    content.vb: Public summary As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.staff
+  commentId: F:Global.Episode.staff
+  id: staff
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: staff
+  nameWithType: Episode.staff
+  fullName: Episode.staff
+  type: Field
+  source:
+    id: staff
+    path: ''
+    startLine: 15586
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<StaffProfil> staff
+    return:
+      type: System.Collections.Generic.List{StaffProfil}
+    content.vb: Public staff As List(Of StaffProfil)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.timestamps
+  commentId: F:Global.Episode.timestamps
+  id: timestamps
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: timestamps
+  nameWithType: Episode.timestamps
+  fullName: Episode.timestamps
+  type: Field
+  source:
+    id: timestamps
+    path: ''
+    startLine: 15587
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<TimeStamp> timestamps
+    return:
+      type: System.Collections.Generic.List{TimeStamp}
+    content.vb: Public timestamps As List(Of TimeStamp)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.products
+  commentId: F:Global.Episode.products
+  id: products
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: products
+  nameWithType: Episode.products
+  fullName: Episode.products
+  type: Field
+  source:
+    id: products
+    path: ''
+    startLine: 15588
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<Product> products
+    return:
+      type: System.Collections.Generic.List{Product}
+    content.vb: Public products As List(Of Product)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.#ctor
+  commentId: M:Global.Episode.#ctor
+  id: '#ctor'
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: Episode()
+  nameWithType: Episode.Episode()
+  fullName: Episode.Episode()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15590
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Episode()
+    content.vb: Public Sub New
+  overload: Global.Episode.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.#ctor(System.Boolean,System.String,System.Int32,System.Int32,ImageFile)
+  commentId: M:Global.Episode.#ctor(System.Boolean,System.String,System.Int32,System.Int32,ImageFile)
+  id: '#ctor(System.Boolean,System.String,System.Int32,System.Int32,ImageFile)'
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: Episode(Boolean, String, Int32, Int32, ImageFile)
+  nameWithType: Episode.Episode(Boolean, String, Int32, Int32, ImageFile)
+  fullName: Episode.Episode(System.Boolean, System.String, System.Int32, System.Int32, ImageFile)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15592
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Episode(bool _released, string _name, int _episodeNumber, int _seasonNumber, ImageFile _previewImage)
+    parameters:
+    - id: _released
+      type: System.Boolean
+    - id: _name
+      type: System.String
+    - id: _episodeNumber
+      type: System.Int32
+    - id: _seasonNumber
+      type: System.Int32
+    - id: _previewImage
+      type: Global.ImageFile
+    content.vb: Public Sub New(_released As Boolean, _name As String, _episodeNumber As Integer, _seasonNumber As Integer, _previewImage As ImageFile)
+  overload: Global.Episode.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Episode.#ctor(System.Boolean,System.String,System.Int32,System.Int32,ImageFile,System.String,System.String,System.Collections.Generic.List{StaffProfil},System.Collections.Generic.List{TimeStamp},System.Collections.Generic.List{Product})
+  commentId: M:Global.Episode.#ctor(System.Boolean,System.String,System.Int32,System.Int32,ImageFile,System.String,System.String,System.Collections.Generic.List{StaffProfil},System.Collections.Generic.List{TimeStamp},System.Collections.Generic.List{Product})
+  id: '#ctor(System.Boolean,System.String,System.Int32,System.Int32,ImageFile,System.String,System.String,System.Collections.Generic.List{StaffProfil},System.Collections.Generic.List{TimeStamp},System.Collections.Generic.List{Product})'
+  parent: Global.Episode
+  langs:
+  - csharp
+  - vb
+  name: Episode(Boolean, String, Int32, Int32, ImageFile, String, String, List<StaffProfil>, List<TimeStamp>, List<Product>)
+  nameWithType: Episode.Episode(Boolean, String, Int32, Int32, ImageFile, String, String, List<StaffProfil>, List<TimeStamp>, List<Product>)
+  fullName: Episode.Episode(System.Boolean, System.String, System.Int32, System.Int32, ImageFile, System.String, System.String, System.Collections.Generic.List<StaffProfil>, System.Collections.Generic.List<TimeStamp>, System.Collections.Generic.List<Product>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15607
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Episode(bool _released, string _name, int _episodeNumber, int _seasonNumber, ImageFile _previewImage, string _url, string _summary, List<StaffProfil> _staff, List<TimeStamp> _timeStamps, List<Product> _products)
+    parameters:
+    - id: _released
+      type: System.Boolean
+    - id: _name
+      type: System.String
+    - id: _episodeNumber
+      type: System.Int32
+    - id: _seasonNumber
+      type: System.Int32
+    - id: _previewImage
+      type: Global.ImageFile
+    - id: _url
+      type: System.String
+    - id: _summary
+      type: System.String
+    - id: _staff
+      type: System.Collections.Generic.List{StaffProfil}
+    - id: _timeStamps
+      type: System.Collections.Generic.List{TimeStamp}
+    - id: _products
+      type: System.Collections.Generic.List{Product}
+    content.vb: Public Sub New(_released As Boolean, _name As String, _episodeNumber As Integer, _seasonNumber As Integer, _previewImage As ImageFile, _url As String, _summary As String, _staff As List(Of StaffProfil), _timeStamps As List(Of TimeStamp), _products As List(Of Product))
+  overload: Global.Episode.#ctor*
+  nameWithType.vb: Episode.Episode(Boolean, String, Int32, Int32, ImageFile, String, String, List(Of StaffProfil), List(Of TimeStamp), List(Of Product))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Episode.Episode(System.Boolean, System.String, System.Int32, System.Int32, ImageFile, System.String, System.String, System.Collections.Generic.List(Of StaffProfil), System.Collections.Generic.List(Of TimeStamp), System.Collections.Generic.List(Of Product))
+  name.vb: Episode(Boolean, String, Int32, Int32, ImageFile, String, String, List(Of StaffProfil), List(Of TimeStamp), List(Of Product))
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{Link}
+  commentId: T:System.Collections.Generic.List{Link}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Link>
+  nameWithType: List<Link>
+  fullName: System.Collections.Generic.List<Link>
+  nameWithType.vb: List(Of Link)
+  fullName.vb: System.Collections.Generic.List(Of Link)
+  name.vb: List(Of Link)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Link
+    name: Link
+    nameWithType: Link
+    fullName: Link
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Link
+    name: Link
+    nameWithType: Link
+    fullName: Link
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{StaffProfil}
+  commentId: T:System.Collections.Generic.List{StaffProfil}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<StaffProfil>
+  nameWithType: List<StaffProfil>
+  fullName: System.Collections.Generic.List<StaffProfil>
+  nameWithType.vb: List(Of StaffProfil)
+  fullName.vb: System.Collections.Generic.List(Of StaffProfil)
+  name.vb: List(Of StaffProfil)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.StaffProfil
+    name: StaffProfil
+    nameWithType: StaffProfil
+    fullName: StaffProfil
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.StaffProfil
+    name: StaffProfil
+    nameWithType: StaffProfil
+    fullName: StaffProfil
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{TimeStamp}
+  commentId: T:System.Collections.Generic.List{TimeStamp}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<TimeStamp>
+  nameWithType: List<TimeStamp>
+  fullName: System.Collections.Generic.List<TimeStamp>
+  nameWithType.vb: List(Of TimeStamp)
+  fullName.vb: System.Collections.Generic.List(Of TimeStamp)
+  name.vb: List(Of TimeStamp)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.TimeStamp
+    name: TimeStamp
+    nameWithType: TimeStamp
+    fullName: TimeStamp
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.TimeStamp
+    name: TimeStamp
+    nameWithType: TimeStamp
+    fullName: TimeStamp
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Product}
+  commentId: T:System.Collections.Generic.List{Product}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Product>
+  nameWithType: List<Product>
+  fullName: System.Collections.Generic.List<Product>
+  nameWithType.vb: List(Of Product)
+  fullName.vb: System.Collections.Generic.List(Of Product)
+  name.vb: List(Of Product)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Product
+    name: Product
+    nameWithType: Product
+    fullName: Product
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Product
+    name: Product
+    nameWithType: Product
+    fullName: Product
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Episode.#ctor*
+  commentId: Overload:Global.Episode.#ctor
+  name: Episode
+  nameWithType: Episode.Episode
+  fullName: Episode.Episode

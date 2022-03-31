@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.OnSerieLoadingComplete
+  commentId: T:Global.OnSerieLoadingComplete
+  id: OnSerieLoadingComplete
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: OnSerieLoadingComplete
+  nameWithType: OnSerieLoadingComplete
+  fullName: OnSerieLoadingComplete
+  type: Delegate
+  source:
+    id: OnSerieLoadingComplete
+    path: ''
+    startLine: 15531
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nDelegate type used on serie loading\n"
+  example: []
+  syntax:
+    content: public delegate void OnSerieLoadingComplete();
+    content.vb: Public Delegate Sub OnSerieLoadingComplete
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''

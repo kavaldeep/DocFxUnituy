@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> | Example Unity documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content=" | Example Unity documentation ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../manual/coniunctis.html" title="Manual">Manual</a>
+                      </li>
+                      <li>
+                          <a href="../api/Global.html" title="Scripting API">Scripting API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="coniunctis.html" title="Coniunctis nec qui" class="">Coniunctis nec qui</a>
+                    </li>
+                    <li class="">
+                      <a href="etiam.html" title="Etiam nantemque exul" class="">Etiam nantemque exul</a>
+                    </li>
+                    <li class="">
+                      <a href="tuto1.html" title="Tuto1" class="">Tuto1</a>
+                    </li>
+                    <li class="">
+                      <a href="TUTO_BUILDSETTINGSAndroid.html" title="Android Build Settings" class="">Android Build Settings</a>
+                    </li>
+                    <li class="active">
+                      <a href="TUTO_Liaison_Serveur_GraphQL.html" title="Liaison Server GraphQL" class="active">Liaison Server GraphQL</a>
+                    </li>
+                    <li class="">
+                      <a href="DOC_Unity_a_connaitre.html" title="DOC Unity &#224; connaitre" class="">DOC Unity &#224; connaitre</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="1" sourceendlinenumber="1">GraphQL</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="3" sourceendlinenumber="3">Le GraphQL est un langage de query permettant de récupérer facilement des information sur un serveur de base de donnée</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="5" sourceendlinenumber="5"><strong>playground :</strong></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="7" sourceendlinenumber="7"><a href="http://163.172.93.149:3010/graphql/" data-raw-source="&lt;http://163.172.93.149:3010/graphql/&gt;" sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="7" sourceendlinenumber="7">http://163.172.93.149:3010/graphql/</a></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="9" sourceendlinenumber="9">le lien ci-dessus mène au playground GraphQL du serveur</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="11" sourceendlinenumber="11">C’est un espace dans lequel nous pouvons tester l’envoie de query ou mutation au serveur</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="13" sourceendlinenumber="13"><img src="../resources/TUTO_Liaison_Serveur_GraphQL/Aspose.Words.e909697a-fd51-49f4-b76b-3756a2e2d285.001.png" alt="" sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="13" sourceendlinenumber="13"></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="15" sourceendlinenumber="15">ci-dessus est un exemple de query (la query currentPosts), elle récupère tous les posts enregistré sur le serveur</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="17" sourceendlinenumber="17">Cette query est composé de 3 fenêtre, une fenêtre input (haut à gauche), une fenêtre output (à droite) et une fenêtre headers (bas à gauche)</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="19" sourceendlinenumber="19"><strong>Query:</strong></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="21" sourceendlinenumber="21">Une méthode ayant pour but de récupérer une information précise en fonction d’un argument</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="23" sourceendlinenumber="23"><strong>Mutation:</strong></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="25" sourceendlinenumber="25">Une méthode ayant une action sur le serveur, notamment, login ou createPost</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="28" sourceendlinenumber="28"><img src="../resources/TUTO_Liaison_Serveur_GraphQL/Aspose.Words.e909697a-fd51-49f4-b76b-3756a2e2d285.002.png" alt="" sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="28" sourceendlinenumber="28"><img src="Aspose.Words.e909697a-fd51-49f4-b76b-3756a2e2d285.003.png" alt="" sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="28" sourceendlinenumber="28"></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="30" sourceendlinenumber="30">Toutes les méthodes sont répertorié dans l’onglet schéma à droite de l’écran<img src="Aspose.Words.e909697a-fd51-49f4-b76b-3756a2e2d285.004.png" alt="" sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="30" sourceendlinenumber="30"></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="32" sourceendlinenumber="32"><strong>X-Access-Token / Header:</strong></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="34" sourceendlinenumber="34">La plupart des Query et Mutation, on besoin d’un x-access-token </p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="36" sourceendlinenumber="36">Il faut donc le récupérer cette access token (aussi appelé JWT) avec une mutation de Login ou de Register</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="38" sourceendlinenumber="38"><img src="../resources/TUTO_Liaison_Serveur_GraphQL/Aspose.Words.e909697a-fd51-49f4-b76b-3756a2e2d285.005.png" alt="" sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="38" sourceendlinenumber="38"></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="40" sourceendlinenumber="40">Dans le playground l’x-access-token resemble à </p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="42" sourceendlinenumber="42">{“x-access-token” = &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZDZkMTYzNzRhOGJjNDQ3YThhY2ZjYTUiLCJpc3MiOiJHYW1lIENvcmUiLCJ1c2VybmFtZSI6IjEiLCJvcmdzIjpbXSwiZW50X29yZ3MiOltdLCJlbnRzIjpbXSwic2NvcGUiOlsiZ3Vlc3QiXSwiaWF0IjoxNTY4NzEwNjAxLCJleHAiOjE1Njg3OTcwMDF9.ou2bRAWhPTTJleDvri8jb1HeV2eV_yfL_nb1-qd-VW8&quot;}</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="44" sourceendlinenumber="44">Au bout d’un moment ce token devient invalide mais à chaque connection, un nouvelle x-access-token est généré</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="46" sourceendlinenumber="46">Si la méthode demande un token, et que ce token et manquant, incomplet, ou vide, la plupart des query/mutation ne fonctionnent pas et renverra un message vide</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="48" sourceendlinenumber="48"><img src="../resources/TUTO_Liaison_Serveur_GraphQL/Aspose.Words.e909697a-fd51-49f4-b76b-3756a2e2d285.006.png" alt="" sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="48" sourceendlinenumber="48"></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="50" sourceendlinenumber="50"><strong>Dans Unity:</strong></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="52" sourceendlinenumber="52">Dans Unity nous utilison l’Api GraphQL Cette Api nous permet d’envoyer plus simplement des requêtes GraphQL vers le serveur</p>
+<ul sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="54" sourceendlinenumber="54">
+<li sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="54" sourceendlinenumber="54">GraphQuery.cs</li>
+</ul>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="56" sourceendlinenumber="56">(Example de Query, currentPosts)</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="58" sourceendlinenumber="58">SocialFeedScreen.cs</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="60" sourceendlinenumber="60"><img src="../resources/TUTO_Liaison_Serveur_GraphQL/Aspose.Words.e909697a-fd51-49f4-b76b-3756a2e2d285.007.png" alt="" sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="60" sourceendlinenumber="60"></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="62" sourceendlinenumber="62"><img src="../resources/TUTO_Liaison_Serveur_GraphQL/Aspose.Words.e909697a-fd51-49f4-b76b-3756a2e2d285.008.png" alt="" sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="62" sourceendlinenumber="62"></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="64" sourceendlinenumber="64">On commence par Clear() l&#39;éventuelle Query précédente.</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="66" sourceendlinenumber="66">On Set l’Url avec <a href="http://163.172.93.149:3010/graphql/" data-raw-source="&lt;http://163.172.93.149:3010/graphql/&gt;" sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="66" sourceendlinenumber="66">http://163.172.93.149:3010/graphql/</a></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="68" sourceendlinenumber="68">On Set le Header/x-access-token avec le token récupéré lors que login/register</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="70" sourceendlinenumber="70">On sélectionne la méthode à exécuter quand la query est achevé </p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="72" sourceendlinenumber="72">On finit par POST la query souhaité </p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="74" sourceendlinenumber="74">La méthode exécuté après est utilisé pour “Parse” le message renvoyé par le serveur</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="76" sourceendlinenumber="76">(Example de Mutation, createPost)</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="78" sourceendlinenumber="78">PostHandler.cs</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="80" sourceendlinenumber="80"><img src="../resources/TUTO_Liaison_Serveur_GraphQL/Aspose.Words.e909697a-fd51-49f4-b76b-3756a2e2d285.007.png" alt="" sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="80" sourceendlinenumber="80"></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="82" sourceendlinenumber="82"><img src="../resources/TUTO_Liaison_Serveur_GraphQL/Aspose.Words.e909697a-fd51-49f4-b76b-3756a2e2d285.009.png" alt="" sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="82" sourceendlinenumber="82"></p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="84" sourceendlinenumber="84">À noter : les queries peuvent avoir des éléments variables, notamment ici “title” et “description” pour que ces variables soit prise en compte il faut dans la query, encadré le morceau de query par $ et ^ (“$title^” et “$description^”)</p>
+<p sourcefile="manual/TUTO_Liaison_Serveur_GraphQL.md" sourcestartlinenumber="86" sourceendlinenumber="86">Dans ce cas la ligne, <em>GraphQuery.variable[“title”] = post.message;</em> ,va remplacer $title^ de la query par le message souhaité</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://bitbucket.org/hyperseries/tribiewapp//src/dev/Documentation/manual/TUTO_Liaison_Serveur_GraphQL.md#lines-1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Example Unity documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

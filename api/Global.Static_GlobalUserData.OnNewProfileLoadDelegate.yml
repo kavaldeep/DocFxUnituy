@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_GlobalUserData.OnNewProfileLoadDelegate
+  commentId: T:Global.Static_GlobalUserData.OnNewProfileLoadDelegate
+  id: Static_GlobalUserData.OnNewProfileLoadDelegate
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Static_GlobalUserData.OnNewProfileLoadDelegate
+  nameWithType: Static_GlobalUserData.OnNewProfileLoadDelegate
+  fullName: Static_GlobalUserData.OnNewProfileLoadDelegate
+  type: Delegate
+  source:
+    id: OnNewProfileLoadDelegate
+    path: ''
+    startLine: 16664
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public delegate void OnNewProfileLoadDelegate();
+    content.vb: Public Delegate Sub OnNewProfileLoadDelegate
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''

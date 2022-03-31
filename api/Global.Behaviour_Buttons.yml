@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_Buttons
+  commentId: T:Global.Behaviour_Buttons
+  id: Behaviour_Buttons
+  parent: Global
+  children:
+  - Global.Behaviour_Buttons.IsVisible
+  - Global.Behaviour_Buttons.PutButtonsVisible
+  - Global.Behaviour_Buttons.TimeBeforeInvisible
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_Buttons
+  nameWithType: Behaviour_Buttons
+  fullName: Behaviour_Buttons
+  type: Class
+  source:
+    id: Behaviour_Buttons
+    path: ''
+    startLine: 28527
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_Buttons : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_Buttons
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_Buttons.IsVisible
+  commentId: F:Global.Behaviour_Buttons.IsVisible
+  id: IsVisible
+  parent: Global.Behaviour_Buttons
+  langs:
+  - csharp
+  - vb
+  name: IsVisible
+  nameWithType: Behaviour_Buttons.IsVisible
+  fullName: Behaviour_Buttons.IsVisible
+  type: Field
+  source:
+    id: IsVisible
+    path: ''
+    startLine: 28529
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool IsVisible
+    return:
+      type: System.Boolean
+    content.vb: Public IsVisible As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_Buttons.TimeBeforeInvisible
+  commentId: F:Global.Behaviour_Buttons.TimeBeforeInvisible
+  id: TimeBeforeInvisible
+  parent: Global.Behaviour_Buttons
+  langs:
+  - csharp
+  - vb
+  name: TimeBeforeInvisible
+  nameWithType: Behaviour_Buttons.TimeBeforeInvisible
+  fullName: Behaviour_Buttons.TimeBeforeInvisible
+  type: Field
+  source:
+    id: TimeBeforeInvisible
+    path: ''
+    startLine: 28531
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float TimeBeforeInvisible
+    return:
+      type: System.Single
+    content.vb: Public TimeBeforeInvisible As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_Buttons.PutButtonsVisible
+  commentId: M:Global.Behaviour_Buttons.PutButtonsVisible
+  id: PutButtonsVisible
+  parent: Global.Behaviour_Buttons
+  langs:
+  - csharp
+  - vb
+  name: PutButtonsVisible()
+  nameWithType: Behaviour_Buttons.PutButtonsVisible()
+  fullName: Behaviour_Buttons.PutButtonsVisible()
+  type: Method
+  source:
+    id: PutButtonsVisible
+    path: ''
+    startLine: 28570
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PutButtonsVisible()
+    content.vb: Public Sub PutButtonsVisible
+  overload: Global.Behaviour_Buttons.PutButtonsVisible*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Behaviour_Buttons.PutButtonsVisible*
+  commentId: Overload:Global.Behaviour_Buttons.PutButtonsVisible
+  name: PutButtonsVisible
+  nameWithType: Behaviour_Buttons.PutButtonsVisible
+  fullName: Behaviour_Buttons.PutButtonsVisible

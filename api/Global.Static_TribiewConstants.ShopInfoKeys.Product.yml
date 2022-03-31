@@ -1,0 +1,271 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_TribiewConstants.ShopInfoKeys.Product
+  commentId: T:Global.Static_TribiewConstants.ShopInfoKeys.Product
+  id: Static_TribiewConstants.ShopInfoKeys.Product
+  parent: Global
+  children:
+  - Global.Static_TribiewConstants.ShopInfoKeys.Product.coinValue
+  - Global.Static_TribiewConstants.ShopInfoKeys.Product.description
+  - Global.Static_TribiewConstants.ShopInfoKeys.Product.gemValue
+  - Global.Static_TribiewConstants.ShopInfoKeys.Product.image
+  - Global.Static_TribiewConstants.ShopInfoKeys.Product.name
+  - Global.Static_TribiewConstants.ShopInfoKeys.Product.ticketValue
+  - Global.Static_TribiewConstants.ShopInfoKeys.Product.url
+  langs:
+  - csharp
+  - vb
+  name: Static_TribiewConstants.ShopInfoKeys.Product
+  nameWithType: Static_TribiewConstants.ShopInfoKeys.Product
+  fullName: Static_TribiewConstants.ShopInfoKeys.Product
+  type: Class
+  source:
+    id: Product
+    path: ''
+    startLine: 16981
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Product
+    content.vb: Public Module Product
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_TribiewConstants.ShopInfoKeys.Product.name
+  commentId: F:Global.Static_TribiewConstants.ShopInfoKeys.Product.name
+  id: name
+  parent: Global.Static_TribiewConstants.ShopInfoKeys.Product
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Static_TribiewConstants.ShopInfoKeys.Product.name
+  fullName: Static_TribiewConstants.ShopInfoKeys.Product.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 16983
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.ShopInfoKeys.Product.image
+  commentId: F:Global.Static_TribiewConstants.ShopInfoKeys.Product.image
+  id: image
+  parent: Global.Static_TribiewConstants.ShopInfoKeys.Product
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Static_TribiewConstants.ShopInfoKeys.Product.image
+  fullName: Static_TribiewConstants.ShopInfoKeys.Product.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 16984
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string image = "image"
+    return:
+      type: System.String
+    content.vb: Public Const image As String = "image"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.ShopInfoKeys.Product.coinValue
+  commentId: F:Global.Static_TribiewConstants.ShopInfoKeys.Product.coinValue
+  id: coinValue
+  parent: Global.Static_TribiewConstants.ShopInfoKeys.Product
+  langs:
+  - csharp
+  - vb
+  name: coinValue
+  nameWithType: Static_TribiewConstants.ShopInfoKeys.Product.coinValue
+  fullName: Static_TribiewConstants.ShopInfoKeys.Product.coinValue
+  type: Field
+  source:
+    id: coinValue
+    path: ''
+    startLine: 16985
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string coinValue = "coinValue"
+    return:
+      type: System.String
+    content.vb: Public Const coinValue As String = "coinValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.ShopInfoKeys.Product.gemValue
+  commentId: F:Global.Static_TribiewConstants.ShopInfoKeys.Product.gemValue
+  id: gemValue
+  parent: Global.Static_TribiewConstants.ShopInfoKeys.Product
+  langs:
+  - csharp
+  - vb
+  name: gemValue
+  nameWithType: Static_TribiewConstants.ShopInfoKeys.Product.gemValue
+  fullName: Static_TribiewConstants.ShopInfoKeys.Product.gemValue
+  type: Field
+  source:
+    id: gemValue
+    path: ''
+    startLine: 16986
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string gemValue = "gemValue"
+    return:
+      type: System.String
+    content.vb: Public Const gemValue As String = "gemValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.ShopInfoKeys.Product.ticketValue
+  commentId: F:Global.Static_TribiewConstants.ShopInfoKeys.Product.ticketValue
+  id: ticketValue
+  parent: Global.Static_TribiewConstants.ShopInfoKeys.Product
+  langs:
+  - csharp
+  - vb
+  name: ticketValue
+  nameWithType: Static_TribiewConstants.ShopInfoKeys.Product.ticketValue
+  fullName: Static_TribiewConstants.ShopInfoKeys.Product.ticketValue
+  type: Field
+  source:
+    id: ticketValue
+    path: ''
+    startLine: 16987
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ticketValue = "ticketValue"
+    return:
+      type: System.String
+    content.vb: Public Const ticketValue As String = "ticketValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.ShopInfoKeys.Product.description
+  commentId: F:Global.Static_TribiewConstants.ShopInfoKeys.Product.description
+  id: description
+  parent: Global.Static_TribiewConstants.ShopInfoKeys.Product
+  langs:
+  - csharp
+  - vb
+  name: description
+  nameWithType: Static_TribiewConstants.ShopInfoKeys.Product.description
+  fullName: Static_TribiewConstants.ShopInfoKeys.Product.description
+  type: Field
+  source:
+    id: description
+    path: ''
+    startLine: 16988
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.ShopInfoKeys.Product.url
+  commentId: F:Global.Static_TribiewConstants.ShopInfoKeys.Product.url
+  id: url
+  parent: Global.Static_TribiewConstants.ShopInfoKeys.Product
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: Static_TribiewConstants.ShopInfoKeys.Product.url
+  fullName: Static_TribiewConstants.ShopInfoKeys.Product.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 16989
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string url = "url"
+    return:
+      type: System.String
+    content.vb: Public Const url As String = "url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

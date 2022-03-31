@@ -1,0 +1,365 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Shop
+  commentId: T:Global.Shop
+  id: Shop
+  parent: Global
+  children:
+  - Global.Shop.#ctor
+  - Global.Shop.#ctor(System.String,System.String,System.String,System.String,ImageFile,System.String,System.String,System.String)
+  - Global.Shop.description
+  - Global.Shop.id
+  - Global.Shop.image
+  - Global.Shop.name
+  - Global.Shop.price
+  - Global.Shop.serieName
+  - Global.Shop.shopType
+  - Global.Shop.url
+  langs:
+  - csharp
+  - vb
+  name: Shop
+  nameWithType: Shop
+  fullName: Shop
+  type: Class
+  source:
+    id: Shop
+    path: ''
+    startLine: 15883
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class Shop
+    content.vb: Public Class Shop
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Shop.image
+  commentId: F:Global.Shop.image
+  id: image
+  parent: Global.Shop
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Shop.image
+  fullName: Shop.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 15885
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile image
+    return:
+      type: Global.ImageFile
+    content.vb: Public image As ImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Shop.name
+  commentId: F:Global.Shop.name
+  id: name
+  parent: Global.Shop
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Shop.name
+  fullName: Shop.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 15886
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Shop.serieName
+  commentId: F:Global.Shop.serieName
+  id: serieName
+  parent: Global.Shop
+  langs:
+  - csharp
+  - vb
+  name: serieName
+  nameWithType: Shop.serieName
+  fullName: Shop.serieName
+  type: Field
+  source:
+    id: serieName
+    path: ''
+    startLine: 15887
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string serieName
+    return:
+      type: System.String
+    content.vb: Public serieName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Shop.shopType
+  commentId: F:Global.Shop.shopType
+  id: shopType
+  parent: Global.Shop
+  langs:
+  - csharp
+  - vb
+  name: shopType
+  nameWithType: Shop.shopType
+  fullName: Shop.shopType
+  type: Field
+  source:
+    id: shopType
+    path: ''
+    startLine: 15888
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string shopType
+    return:
+      type: System.String
+    content.vb: Public shopType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Shop.id
+  commentId: F:Global.Shop.id
+  id: id
+  parent: Global.Shop
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: Shop.id
+  fullName: Shop.id
+  type: Field
+  source:
+    id: id
+    path: ''
+    startLine: 15889
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string id
+    return:
+      type: System.String
+    content.vb: Public id As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Shop.price
+  commentId: F:Global.Shop.price
+  id: price
+  parent: Global.Shop
+  langs:
+  - csharp
+  - vb
+  name: price
+  nameWithType: Shop.price
+  fullName: Shop.price
+  type: Field
+  source:
+    id: price
+    path: ''
+    startLine: 15890
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string price
+    return:
+      type: System.String
+    content.vb: Public price As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Shop.description
+  commentId: F:Global.Shop.description
+  id: description
+  parent: Global.Shop
+  langs:
+  - csharp
+  - vb
+  name: description
+  nameWithType: Shop.description
+  fullName: Shop.description
+  type: Field
+  source:
+    id: description
+    path: ''
+    startLine: 15891
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string description
+    return:
+      type: System.String
+    content.vb: Public description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Shop.url
+  commentId: F:Global.Shop.url
+  id: url
+  parent: Global.Shop
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: Shop.url
+  fullName: Shop.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 15892
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string url
+    return:
+      type: System.String
+    content.vb: Public url As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Shop.#ctor
+  commentId: M:Global.Shop.#ctor
+  id: '#ctor'
+  parent: Global.Shop
+  langs:
+  - csharp
+  - vb
+  name: Shop()
+  nameWithType: Shop.Shop()
+  fullName: Shop.Shop()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15894
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Shop()
+    content.vb: Public Sub New
+  overload: Global.Shop.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Shop.#ctor(System.String,System.String,System.String,System.String,ImageFile,System.String,System.String,System.String)
+  commentId: M:Global.Shop.#ctor(System.String,System.String,System.String,System.String,ImageFile,System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String,System.String,ImageFile,System.String,System.String,System.String)'
+  parent: Global.Shop
+  langs:
+  - csharp
+  - vb
+  name: Shop(String, String, String, String, ImageFile, String, String, String)
+  nameWithType: Shop.Shop(String, String, String, String, ImageFile, String, String, String)
+  fullName: Shop.Shop(System.String, System.String, System.String, System.String, ImageFile, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15896
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Shop(string _name, string _serieName, string _episodeNumber, string _summary, ImageFile _presentationImage, string _presentationClipUrl, string _mainBackgroundColor, string _secondaryFontColor)
+    parameters:
+    - id: _name
+      type: System.String
+    - id: _serieName
+      type: System.String
+    - id: _episodeNumber
+      type: System.String
+    - id: _summary
+      type: System.String
+    - id: _presentationImage
+      type: Global.ImageFile
+    - id: _presentationClipUrl
+      type: System.String
+    - id: _mainBackgroundColor
+      type: System.String
+    - id: _secondaryFontColor
+      type: System.String
+    content.vb: Public Sub New(_name As String, _serieName As String, _episodeNumber As String, _summary As String, _presentationImage As ImageFile, _presentationClipUrl As String, _mainBackgroundColor As String, _secondaryFontColor As String)
+  overload: Global.Shop.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Shop.#ctor*
+  commentId: Overload:Global.Shop.#ctor
+  name: Shop
+  nameWithType: Shop.Shop
+  fullName: Shop.Shop

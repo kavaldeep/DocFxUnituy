@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_GetNewUser
+  commentId: T:Global.Behaviour_GetNewUser
+  id: Behaviour_GetNewUser
+  parent: Global
+  children:
+  - Global.Behaviour_GetNewUser.GetNewUserPosts
+  - Global.Behaviour_GetNewUser.GetSomePosts
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_GetNewUser
+  nameWithType: Behaviour_GetNewUser
+  fullName: Behaviour_GetNewUser
+  type: Class
+  source:
+    id: Behaviour_GetNewUser
+    path: ''
+    startLine: 24438
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_GetNewUser : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_GetNewUser
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_GetNewUser.GetSomePosts
+  commentId: M:Global.Behaviour_GetNewUser.GetSomePosts
+  id: GetSomePosts
+  parent: Global.Behaviour_GetNewUser
+  langs:
+  - csharp
+  - vb
+  name: GetSomePosts()
+  nameWithType: Behaviour_GetNewUser.GetSomePosts()
+  fullName: Behaviour_GetNewUser.GetSomePosts()
+  type: Method
+  source:
+    id: GetSomePosts
+    path: ''
+    startLine: 24481
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GetSomePosts()
+    content.vb: Public Sub GetSomePosts
+  overload: Global.Behaviour_GetNewUser.GetSomePosts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GetNewUser.GetNewUserPosts
+  commentId: M:Global.Behaviour_GetNewUser.GetNewUserPosts
+  id: GetNewUserPosts
+  parent: Global.Behaviour_GetNewUser
+  langs:
+  - csharp
+  - vb
+  name: GetNewUserPosts()
+  nameWithType: Behaviour_GetNewUser.GetNewUserPosts()
+  fullName: Behaviour_GetNewUser.GetNewUserPosts()
+  type: Method
+  source:
+    id: GetNewUserPosts
+    path: ''
+    startLine: 24490
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GetNewUserPosts()
+    content.vb: Public Sub GetNewUserPosts
+  overload: Global.Behaviour_GetNewUser.GetNewUserPosts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_GetNewUser.GetSomePosts*
+  commentId: Overload:Global.Behaviour_GetNewUser.GetSomePosts
+  name: GetSomePosts
+  nameWithType: Behaviour_GetNewUser.GetSomePosts
+  fullName: Behaviour_GetNewUser.GetSomePosts
+- uid: Global.Behaviour_GetNewUser.GetNewUserPosts*
+  commentId: Overload:Global.Behaviour_GetNewUser.GetNewUserPosts
+  name: GetNewUserPosts
+  nameWithType: Behaviour_GetNewUser.GetNewUserPosts
+  fullName: Behaviour_GetNewUser.GetNewUserPosts

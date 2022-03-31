@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Singleton_EpisodeDataSimple.MyEvent
+  commentId: T:Global.Singleton_EpisodeDataSimple.MyEvent
+  id: Singleton_EpisodeDataSimple.MyEvent
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Singleton_EpisodeDataSimple.MyEvent
+  nameWithType: Singleton_EpisodeDataSimple.MyEvent
+  fullName: Singleton_EpisodeDataSimple.MyEvent
+  type: Delegate
+  source:
+    id: MyEvent
+    path: ''
+    startLine: 17414
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public delegate void MyEvent(Interface_Singleton_Data data);
+    parameters:
+    - id: data
+      type: Global.Interface_Singleton_Data
+    content.vb: Public Delegate Sub MyEvent(data As Interface_Singleton_Data)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Interface_Singleton_Data
+  commentId: T:Global.Interface_Singleton_Data
+  name: Interface_Singleton_Data
+  nameWithType: Interface_Singleton_Data
+  fullName: Interface_Singleton_Data

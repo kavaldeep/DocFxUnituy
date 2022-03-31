@@ -1,0 +1,456 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_PreviousNextEpisode
+  commentId: T:Global.Behaviour_PreviousNextEpisode
+  id: Behaviour_PreviousNextEpisode
+  parent: Global
+  children:
+  - Global.Behaviour_PreviousNextEpisode.DisplayArrow
+  - Global.Behaviour_PreviousNextEpisode.DisplayNextAndInitialize
+  - Global.Behaviour_PreviousNextEpisode.DisplayPreviousAndInitialize
+  - Global.Behaviour_PreviousNextEpisode.DisplayThumbnails
+  - Global.Behaviour_PreviousNextEpisode.episodeURL
+  - Global.Behaviour_PreviousNextEpisode.HubActivated
+  - Global.Behaviour_PreviousNextEpisode.LaunchNextEpisode
+  - Global.Behaviour_PreviousNextEpisode.LaunchPreviousEpisode
+  - Global.Behaviour_PreviousNextEpisode.MediaController
+  - Global.Behaviour_PreviousNextEpisode.ThumbnailsInitialised
+  - Global.Behaviour_PreviousNextEpisode.videoPlayer
+  - Global.Behaviour_PreviousNextEpisode.Youtubecontroller
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_PreviousNextEpisode
+  nameWithType: Behaviour_PreviousNextEpisode
+  fullName: Behaviour_PreviousNextEpisode
+  type: Class
+  source:
+    id: Behaviour_PreviousNextEpisode
+    path: ''
+    startLine: 22762
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_PreviousNextEpisode : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_PreviousNextEpisode
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_PreviousNextEpisode.Youtubecontroller
+  commentId: F:Global.Behaviour_PreviousNextEpisode.Youtubecontroller
+  id: Youtubecontroller
+  parent: Global.Behaviour_PreviousNextEpisode
+  langs:
+  - csharp
+  - vb
+  name: Youtubecontroller
+  nameWithType: Behaviour_PreviousNextEpisode.Youtubecontroller
+  fullName: Behaviour_PreviousNextEpisode.Youtubecontroller
+  type: Field
+  source:
+    id: Youtubecontroller
+    path: ''
+    startLine: 22768
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_YoutubePlayer Youtubecontroller
+    return:
+      type: YoutubePlayer.Behaviour_YoutubePlayer
+    content.vb: Public Youtubecontroller As Behaviour_YoutubePlayer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PreviousNextEpisode.episodeURL
+  commentId: F:Global.Behaviour_PreviousNextEpisode.episodeURL
+  id: episodeURL
+  parent: Global.Behaviour_PreviousNextEpisode
+  langs:
+  - csharp
+  - vb
+  name: episodeURL
+  nameWithType: Behaviour_PreviousNextEpisode.episodeURL
+  fullName: Behaviour_PreviousNextEpisode.episodeURL
+  type: Field
+  source:
+    id: episodeURL
+    path: ''
+    startLine: 22769
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string episodeURL
+    return:
+      type: System.String
+    content.vb: Public episodeURL As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PreviousNextEpisode.MediaController
+  commentId: F:Global.Behaviour_PreviousNextEpisode.MediaController
+  id: MediaController
+  parent: Global.Behaviour_PreviousNextEpisode
+  langs:
+  - csharp
+  - vb
+  name: MediaController
+  nameWithType: Behaviour_PreviousNextEpisode.MediaController
+  fullName: Behaviour_PreviousNextEpisode.MediaController
+  type: Field
+  source:
+    id: MediaController
+    path: ''
+    startLine: 22770
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl MediaController
+    return:
+      type: Global.MediaPlayerCtrl
+    content.vb: Public MediaController As MediaPlayerCtrl
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PreviousNextEpisode.videoPlayer
+  commentId: F:Global.Behaviour_PreviousNextEpisode.videoPlayer
+  id: videoPlayer
+  parent: Global.Behaviour_PreviousNextEpisode
+  langs:
+  - csharp
+  - vb
+  name: videoPlayer
+  nameWithType: Behaviour_PreviousNextEpisode.videoPlayer
+  fullName: Behaviour_PreviousNextEpisode.videoPlayer
+  type: Field
+  source:
+    id: videoPlayer
+    path: ''
+    startLine: 22771
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public VideoPlayer videoPlayer
+    return:
+      type: Global.VideoPlayer
+    content.vb: Public videoPlayer As VideoPlayer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PreviousNextEpisode.ThumbnailsInitialised
+  commentId: F:Global.Behaviour_PreviousNextEpisode.ThumbnailsInitialised
+  id: ThumbnailsInitialised
+  parent: Global.Behaviour_PreviousNextEpisode
+  langs:
+  - csharp
+  - vb
+  name: ThumbnailsInitialised
+  nameWithType: Behaviour_PreviousNextEpisode.ThumbnailsInitialised
+  fullName: Behaviour_PreviousNextEpisode.ThumbnailsInitialised
+  type: Field
+  source:
+    id: ThumbnailsInitialised
+    path: ''
+    startLine: 22772
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool ThumbnailsInitialised
+    return:
+      type: System.Boolean
+    content.vb: Public ThumbnailsInitialised As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PreviousNextEpisode.HubActivated
+  commentId: M:Global.Behaviour_PreviousNextEpisode.HubActivated
+  id: HubActivated
+  parent: Global.Behaviour_PreviousNextEpisode
+  langs:
+  - csharp
+  - vb
+  name: HubActivated()
+  nameWithType: Behaviour_PreviousNextEpisode.HubActivated()
+  fullName: Behaviour_PreviousNextEpisode.HubActivated()
+  type: Method
+  source:
+    id: HubActivated
+    path: ''
+    startLine: 22774
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void HubActivated()
+    content.vb: Public Sub HubActivated
+  overload: Global.Behaviour_PreviousNextEpisode.HubActivated*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PreviousNextEpisode.DisplayPreviousAndInitialize
+  commentId: M:Global.Behaviour_PreviousNextEpisode.DisplayPreviousAndInitialize
+  id: DisplayPreviousAndInitialize
+  parent: Global.Behaviour_PreviousNextEpisode
+  langs:
+  - csharp
+  - vb
+  name: DisplayPreviousAndInitialize()
+  nameWithType: Behaviour_PreviousNextEpisode.DisplayPreviousAndInitialize()
+  fullName: Behaviour_PreviousNextEpisode.DisplayPreviousAndInitialize()
+  type: Method
+  source:
+    id: DisplayPreviousAndInitialize
+    path: ''
+    startLine: 22804
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DisplayPreviousAndInitialize()
+    content.vb: Public Sub DisplayPreviousAndInitialize
+  overload: Global.Behaviour_PreviousNextEpisode.DisplayPreviousAndInitialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PreviousNextEpisode.DisplayNextAndInitialize
+  commentId: M:Global.Behaviour_PreviousNextEpisode.DisplayNextAndInitialize
+  id: DisplayNextAndInitialize
+  parent: Global.Behaviour_PreviousNextEpisode
+  langs:
+  - csharp
+  - vb
+  name: DisplayNextAndInitialize()
+  nameWithType: Behaviour_PreviousNextEpisode.DisplayNextAndInitialize()
+  fullName: Behaviour_PreviousNextEpisode.DisplayNextAndInitialize()
+  type: Method
+  source:
+    id: DisplayNextAndInitialize
+    path: ''
+    startLine: 22822
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DisplayNextAndInitialize()
+    content.vb: Public Sub DisplayNextAndInitialize
+  overload: Global.Behaviour_PreviousNextEpisode.DisplayNextAndInitialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PreviousNextEpisode.DisplayThumbnails
+  commentId: M:Global.Behaviour_PreviousNextEpisode.DisplayThumbnails
+  id: DisplayThumbnails
+  parent: Global.Behaviour_PreviousNextEpisode
+  langs:
+  - csharp
+  - vb
+  name: DisplayThumbnails()
+  nameWithType: Behaviour_PreviousNextEpisode.DisplayThumbnails()
+  fullName: Behaviour_PreviousNextEpisode.DisplayThumbnails()
+  type: Method
+  source:
+    id: DisplayThumbnails
+    path: ''
+    startLine: 22841
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DisplayThumbnails()
+    content.vb: Public Sub DisplayThumbnails
+  overload: Global.Behaviour_PreviousNextEpisode.DisplayThumbnails*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PreviousNextEpisode.DisplayArrow
+  commentId: M:Global.Behaviour_PreviousNextEpisode.DisplayArrow
+  id: DisplayArrow
+  parent: Global.Behaviour_PreviousNextEpisode
+  langs:
+  - csharp
+  - vb
+  name: DisplayArrow()
+  nameWithType: Behaviour_PreviousNextEpisode.DisplayArrow()
+  fullName: Behaviour_PreviousNextEpisode.DisplayArrow()
+  type: Method
+  source:
+    id: DisplayArrow
+    path: ''
+    startLine: 22847
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DisplayArrow()
+    content.vb: Public Sub DisplayArrow
+  overload: Global.Behaviour_PreviousNextEpisode.DisplayArrow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PreviousNextEpisode.LaunchPreviousEpisode
+  commentId: M:Global.Behaviour_PreviousNextEpisode.LaunchPreviousEpisode
+  id: LaunchPreviousEpisode
+  parent: Global.Behaviour_PreviousNextEpisode
+  langs:
+  - csharp
+  - vb
+  name: LaunchPreviousEpisode()
+  nameWithType: Behaviour_PreviousNextEpisode.LaunchPreviousEpisode()
+  fullName: Behaviour_PreviousNextEpisode.LaunchPreviousEpisode()
+  type: Method
+  source:
+    id: LaunchPreviousEpisode
+    path: ''
+    startLine: 22854
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public async void LaunchPreviousEpisode()
+    content.vb: Public Sub LaunchPreviousEpisode
+  overload: Global.Behaviour_PreviousNextEpisode.LaunchPreviousEpisode*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PreviousNextEpisode.LaunchNextEpisode
+  commentId: M:Global.Behaviour_PreviousNextEpisode.LaunchNextEpisode
+  id: LaunchNextEpisode
+  parent: Global.Behaviour_PreviousNextEpisode
+  langs:
+  - csharp
+  - vb
+  name: LaunchNextEpisode()
+  nameWithType: Behaviour_PreviousNextEpisode.LaunchNextEpisode()
+  fullName: Behaviour_PreviousNextEpisode.LaunchNextEpisode()
+  type: Method
+  source:
+    id: LaunchNextEpisode
+    path: ''
+    startLine: 22883
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public async void LaunchNextEpisode()
+    content.vb: Public Sub LaunchNextEpisode
+  overload: Global.Behaviour_PreviousNextEpisode.LaunchNextEpisode*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YoutubePlayer.Behaviour_YoutubePlayer
+  commentId: T:YoutubePlayer.Behaviour_YoutubePlayer
+  parent: YoutubePlayer
+  name: Behaviour_YoutubePlayer
+  nameWithType: Behaviour_YoutubePlayer
+  fullName: YoutubePlayer.Behaviour_YoutubePlayer
+- uid: YoutubePlayer
+  commentId: N:YoutubePlayer
+  name: YoutubePlayer
+  nameWithType: YoutubePlayer
+  fullName: YoutubePlayer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.MediaPlayerCtrl
+  commentId: T:Global.MediaPlayerCtrl
+  name: MediaPlayerCtrl
+  nameWithType: MediaPlayerCtrl
+  fullName: MediaPlayerCtrl
+- uid: Global.VideoPlayer
+  isExternal: true
+  name: VideoPlayer
+  nameWithType: VideoPlayer
+  fullName: VideoPlayer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Behaviour_PreviousNextEpisode.HubActivated*
+  commentId: Overload:Global.Behaviour_PreviousNextEpisode.HubActivated
+  name: HubActivated
+  nameWithType: Behaviour_PreviousNextEpisode.HubActivated
+  fullName: Behaviour_PreviousNextEpisode.HubActivated
+- uid: Global.Behaviour_PreviousNextEpisode.DisplayPreviousAndInitialize*
+  commentId: Overload:Global.Behaviour_PreviousNextEpisode.DisplayPreviousAndInitialize
+  name: DisplayPreviousAndInitialize
+  nameWithType: Behaviour_PreviousNextEpisode.DisplayPreviousAndInitialize
+  fullName: Behaviour_PreviousNextEpisode.DisplayPreviousAndInitialize
+- uid: Global.Behaviour_PreviousNextEpisode.DisplayNextAndInitialize*
+  commentId: Overload:Global.Behaviour_PreviousNextEpisode.DisplayNextAndInitialize
+  name: DisplayNextAndInitialize
+  nameWithType: Behaviour_PreviousNextEpisode.DisplayNextAndInitialize
+  fullName: Behaviour_PreviousNextEpisode.DisplayNextAndInitialize
+- uid: Global.Behaviour_PreviousNextEpisode.DisplayThumbnails*
+  commentId: Overload:Global.Behaviour_PreviousNextEpisode.DisplayThumbnails
+  name: DisplayThumbnails
+  nameWithType: Behaviour_PreviousNextEpisode.DisplayThumbnails
+  fullName: Behaviour_PreviousNextEpisode.DisplayThumbnails
+- uid: Global.Behaviour_PreviousNextEpisode.DisplayArrow*
+  commentId: Overload:Global.Behaviour_PreviousNextEpisode.DisplayArrow
+  name: DisplayArrow
+  nameWithType: Behaviour_PreviousNextEpisode.DisplayArrow
+  fullName: Behaviour_PreviousNextEpisode.DisplayArrow
+- uid: Global.Behaviour_PreviousNextEpisode.LaunchPreviousEpisode*
+  commentId: Overload:Global.Behaviour_PreviousNextEpisode.LaunchPreviousEpisode
+  name: LaunchPreviousEpisode
+  nameWithType: Behaviour_PreviousNextEpisode.LaunchPreviousEpisode
+  fullName: Behaviour_PreviousNextEpisode.LaunchPreviousEpisode
+- uid: Global.Behaviour_PreviousNextEpisode.LaunchNextEpisode*
+  commentId: Overload:Global.Behaviour_PreviousNextEpisode.LaunchNextEpisode
+  name: LaunchNextEpisode
+  nameWithType: Behaviour_PreviousNextEpisode.LaunchNextEpisode
+  fullName: Behaviour_PreviousNextEpisode.LaunchNextEpisode

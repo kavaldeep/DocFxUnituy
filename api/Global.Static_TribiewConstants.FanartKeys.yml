@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_TribiewConstants.FanartKeys
+  commentId: T:Global.Static_TribiewConstants.FanartKeys
+  id: Static_TribiewConstants.FanartKeys
+  parent: Global
+  children:
+  - Global.Static_TribiewConstants.FanartKeys.idEpisode
+  - Global.Static_TribiewConstants.FanartKeys.image
+  - Global.Static_TribiewConstants.FanartKeys.name
+  - Global.Static_TribiewConstants.FanartKeys.url
+  langs:
+  - csharp
+  - vb
+  name: Static_TribiewConstants.FanartKeys
+  nameWithType: Static_TribiewConstants.FanartKeys
+  fullName: Static_TribiewConstants.FanartKeys
+  type: Class
+  source:
+    id: FanartKeys
+    path: ''
+    startLine: 17034
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class FanartKeys
+    content.vb: Public Module FanartKeys
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_TribiewConstants.FanartKeys.name
+  commentId: F:Global.Static_TribiewConstants.FanartKeys.name
+  id: name
+  parent: Global.Static_TribiewConstants.FanartKeys
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Static_TribiewConstants.FanartKeys.name
+  fullName: Static_TribiewConstants.FanartKeys.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 17036
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string name = "Name"
+    return:
+      type: System.String
+    content.vb: Public Const name As String = "Name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.FanartKeys.image
+  commentId: F:Global.Static_TribiewConstants.FanartKeys.image
+  id: image
+  parent: Global.Static_TribiewConstants.FanartKeys
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Static_TribiewConstants.FanartKeys.image
+  fullName: Static_TribiewConstants.FanartKeys.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 17037
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string image = "Image"
+    return:
+      type: System.String
+    content.vb: Public Const image As String = "Image"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.FanartKeys.url
+  commentId: F:Global.Static_TribiewConstants.FanartKeys.url
+  id: url
+  parent: Global.Static_TribiewConstants.FanartKeys
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: Static_TribiewConstants.FanartKeys.url
+  fullName: Static_TribiewConstants.FanartKeys.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 17038
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string url = "Url"
+    return:
+      type: System.String
+    content.vb: Public Const url As String = "Url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.FanartKeys.idEpisode
+  commentId: F:Global.Static_TribiewConstants.FanartKeys.idEpisode
+  id: idEpisode
+  parent: Global.Static_TribiewConstants.FanartKeys
+  langs:
+  - csharp
+  - vb
+  name: idEpisode
+  nameWithType: Static_TribiewConstants.FanartKeys.idEpisode
+  fullName: Static_TribiewConstants.FanartKeys.idEpisode
+  type: Field
+  source:
+    id: idEpisode
+    path: ''
+    startLine: 17039
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string idEpisode = "ID_Episode"
+    return:
+      type: System.String
+    content.vb: Public Const idEpisode As String = "ID_Episode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

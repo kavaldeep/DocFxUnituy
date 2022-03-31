@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Interface_SocialNetwork
+  commentId: T:Global.Interface_SocialNetwork
+  id: Interface_SocialNetwork
+  parent: Global
+  children:
+  - Global.Interface_SocialNetwork.GetFriendList
+  - Global.Interface_SocialNetwork.InviteFriend(FriendsInfo)
+  - Global.Interface_SocialNetwork.IsLoggedIn
+  - Global.Interface_SocialNetwork.LogIn
+  - Global.Interface_SocialNetwork.Register
+  langs:
+  - csharp
+  - vb
+  name: Interface_SocialNetwork
+  nameWithType: Interface_SocialNetwork
+  fullName: Interface_SocialNetwork
+  type: Interface
+  source:
+    id: Interface_SocialNetwork
+    path: ''
+    startLine: 25168
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public interface Interface_SocialNetwork
+    content.vb: Public Interface Interface_SocialNetwork
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Global.Interface_SocialNetwork.IsLoggedIn
+  commentId: P:Global.Interface_SocialNetwork.IsLoggedIn
+  id: IsLoggedIn
+  parent: Global.Interface_SocialNetwork
+  langs:
+  - csharp
+  - vb
+  name: IsLoggedIn
+  nameWithType: Interface_SocialNetwork.IsLoggedIn
+  fullName: Interface_SocialNetwork.IsLoggedIn
+  type: Property
+  source:
+    id: IsLoggedIn
+    path: ''
+    startLine: 25170
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: bool IsLoggedIn { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsLoggedIn As Boolean
+  overload: Global.Interface_SocialNetwork.IsLoggedIn*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Global.Interface_SocialNetwork.LogIn
+  commentId: M:Global.Interface_SocialNetwork.LogIn
+  id: LogIn
+  parent: Global.Interface_SocialNetwork
+  langs:
+  - csharp
+  - vb
+  name: LogIn()
+  nameWithType: Interface_SocialNetwork.LogIn()
+  fullName: Interface_SocialNetwork.LogIn()
+  type: Method
+  source:
+    id: LogIn
+    path: ''
+    startLine: 25171
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: void LogIn()
+    content.vb: Sub LogIn
+  overload: Global.Interface_SocialNetwork.LogIn*
+- uid: Global.Interface_SocialNetwork.Register
+  commentId: M:Global.Interface_SocialNetwork.Register
+  id: Register
+  parent: Global.Interface_SocialNetwork
+  langs:
+  - csharp
+  - vb
+  name: Register()
+  nameWithType: Interface_SocialNetwork.Register()
+  fullName: Interface_SocialNetwork.Register()
+  type: Method
+  source:
+    id: Register
+    path: ''
+    startLine: 25173
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: void Register()
+    content.vb: Sub Register
+  overload: Global.Interface_SocialNetwork.Register*
+- uid: Global.Interface_SocialNetwork.GetFriendList
+  commentId: M:Global.Interface_SocialNetwork.GetFriendList
+  id: GetFriendList
+  parent: Global.Interface_SocialNetwork
+  langs:
+  - csharp
+  - vb
+  name: GetFriendList()
+  nameWithType: Interface_SocialNetwork.GetFriendList()
+  fullName: Interface_SocialNetwork.GetFriendList()
+  type: Method
+  source:
+    id: GetFriendList
+    path: ''
+    startLine: 25176
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: List<FriendsInfo> GetFriendList()
+    return:
+      type: System.Collections.Generic.List{FriendsInfo}
+    content.vb: Function GetFriendList As List(Of FriendsInfo)
+  overload: Global.Interface_SocialNetwork.GetFriendList*
+- uid: Global.Interface_SocialNetwork.InviteFriend(FriendsInfo)
+  commentId: M:Global.Interface_SocialNetwork.InviteFriend(FriendsInfo)
+  id: InviteFriend(FriendsInfo)
+  parent: Global.Interface_SocialNetwork
+  langs:
+  - csharp
+  - vb
+  name: InviteFriend(FriendsInfo)
+  nameWithType: Interface_SocialNetwork.InviteFriend(FriendsInfo)
+  fullName: Interface_SocialNetwork.InviteFriend(FriendsInfo)
+  type: Method
+  source:
+    id: InviteFriend
+    path: ''
+    startLine: 25179
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: void InviteFriend(FriendsInfo info)
+    parameters:
+    - id: info
+      type: Global.FriendsInfo
+    content.vb: Sub InviteFriend(info As FriendsInfo)
+  overload: Global.Interface_SocialNetwork.InviteFriend*
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Interface_SocialNetwork.IsLoggedIn*
+  commentId: Overload:Global.Interface_SocialNetwork.IsLoggedIn
+  name: IsLoggedIn
+  nameWithType: Interface_SocialNetwork.IsLoggedIn
+  fullName: Interface_SocialNetwork.IsLoggedIn
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Interface_SocialNetwork.LogIn*
+  commentId: Overload:Global.Interface_SocialNetwork.LogIn
+  name: LogIn
+  nameWithType: Interface_SocialNetwork.LogIn
+  fullName: Interface_SocialNetwork.LogIn
+- uid: Global.Interface_SocialNetwork.Register*
+  commentId: Overload:Global.Interface_SocialNetwork.Register
+  name: Register
+  nameWithType: Interface_SocialNetwork.Register
+  fullName: Interface_SocialNetwork.Register
+- uid: Global.Interface_SocialNetwork.GetFriendList*
+  commentId: Overload:Global.Interface_SocialNetwork.GetFriendList
+  name: GetFriendList
+  nameWithType: Interface_SocialNetwork.GetFriendList
+  fullName: Interface_SocialNetwork.GetFriendList
+- uid: System.Collections.Generic.List{FriendsInfo}
+  commentId: T:System.Collections.Generic.List{FriendsInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<FriendsInfo>
+  nameWithType: List<FriendsInfo>
+  fullName: System.Collections.Generic.List<FriendsInfo>
+  nameWithType.vb: List(Of FriendsInfo)
+  fullName.vb: System.Collections.Generic.List(Of FriendsInfo)
+  name.vb: List(Of FriendsInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.FriendsInfo
+    name: FriendsInfo
+    nameWithType: FriendsInfo
+    fullName: FriendsInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.FriendsInfo
+    name: FriendsInfo
+    nameWithType: FriendsInfo
+    fullName: FriendsInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Interface_SocialNetwork.InviteFriend*
+  commentId: Overload:Global.Interface_SocialNetwork.InviteFriend
+  name: InviteFriend
+  nameWithType: Interface_SocialNetwork.InviteFriend
+  fullName: Interface_SocialNetwork.InviteFriend
+- uid: Global.FriendsInfo
+  commentId: T:Global.FriendsInfo
+  name: FriendsInfo
+  nameWithType: FriendsInfo
+  fullName: FriendsInfo

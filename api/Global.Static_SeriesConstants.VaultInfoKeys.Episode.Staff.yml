@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff
+  commentId: T:Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff
+  id: Static_SeriesConstants.VaultInfoKeys.Episode.Staff
+  parent: Global
+  children:
+  - Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.account
+  - Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.image
+  - Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.last_name
+  - Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.name
+  - Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.role
+  langs:
+  - csharp
+  - vb
+  name: Static_SeriesConstants.VaultInfoKeys.Episode.Staff
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.Episode.Staff
+  fullName: Static_SeriesConstants.VaultInfoKeys.Episode.Staff
+  type: Class
+  source:
+    id: Staff
+    path: ''
+    startLine: 16950
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Staff
+    content.vb: Public Module Staff
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.name
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.name
+  id: name
+  parent: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.name
+  fullName: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 16952
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.last_name
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.last_name
+  id: last_name
+  parent: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff
+  langs:
+  - csharp
+  - vb
+  name: last_name
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.last_name
+  fullName: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.last_name
+  type: Field
+  source:
+    id: last_name
+    path: ''
+    startLine: 16953
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string last_name = "last_name"
+    return:
+      type: System.String
+    content.vb: Public Const last_name As String = "last_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.image
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.image
+  id: image
+  parent: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.image
+  fullName: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 16954
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string image = "image"
+    return:
+      type: System.String
+    content.vb: Public Const image As String = "image"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.role
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.role
+  id: role
+  parent: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff
+  langs:
+  - csharp
+  - vb
+  name: role
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.role
+  fullName: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.role
+  type: Field
+  source:
+    id: role
+    path: ''
+    startLine: 16955
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string role = "role"
+    return:
+      type: System.String
+    content.vb: Public Const role As String = "role"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.account
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.account
+  id: account
+  parent: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff
+  langs:
+  - csharp
+  - vb
+  name: account
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.account
+  fullName: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.account
+  type: Field
+  source:
+    id: account
+    path: ''
+    startLine: 16956
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string account = "account"
+    return:
+      type: System.String
+    content.vb: Public Const account As String = "account"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

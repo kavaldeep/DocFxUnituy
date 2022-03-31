@@ -1,0 +1,1319 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Enum_Language
+  commentId: T:Global.Enum_Language
+  id: Enum_Language
+  parent: Global
+  children:
+  - Global.Enum_Language.Afrikaans
+  - Global.Enum_Language.Arabic
+  - Global.Enum_Language.Auto
+  - Global.Enum_Language.Basque
+  - Global.Enum_Language.Belarusian
+  - Global.Enum_Language.Bulgarian
+  - Global.Enum_Language.Catalan
+  - Global.Enum_Language.Chinese
+  - Global.Enum_Language.ChineseSimplified
+  - Global.Enum_Language.ChineseTraditional
+  - Global.Enum_Language.Czech
+  - Global.Enum_Language.Danish
+  - Global.Enum_Language.Dutch
+  - Global.Enum_Language.English
+  - Global.Enum_Language.Estonian
+  - Global.Enum_Language.Faroese
+  - Global.Enum_Language.Finnish
+  - Global.Enum_Language.French
+  - Global.Enum_Language.German
+  - Global.Enum_Language.Greek
+  - Global.Enum_Language.Hebrew
+  - Global.Enum_Language.Hungarian
+  - Global.Enum_Language.Icelandic
+  - Global.Enum_Language.Indonesian
+  - Global.Enum_Language.Italian
+  - Global.Enum_Language.Japanese
+  - Global.Enum_Language.Korean
+  - Global.Enum_Language.Latvian
+  - Global.Enum_Language.Lithuanian
+  - Global.Enum_Language.Norwegian
+  - Global.Enum_Language.Polish
+  - Global.Enum_Language.Portuguese
+  - Global.Enum_Language.Romanian
+  - Global.Enum_Language.Russian
+  - Global.Enum_Language.SerboCroatian
+  - Global.Enum_Language.Slovak
+  - Global.Enum_Language.Slovenian
+  - Global.Enum_Language.Spanish
+  - Global.Enum_Language.Swedish
+  - Global.Enum_Language.Thai
+  - Global.Enum_Language.Turkish
+  - Global.Enum_Language.Ukrainian
+  - Global.Enum_Language.Unknown
+  - Global.Enum_Language.Vietnamese
+  langs:
+  - csharp
+  - vb
+  name: Enum_Language
+  nameWithType: Enum_Language
+  fullName: Enum_Language
+  type: Enum
+  source:
+    id: Enum_Language
+    path: ''
+    startLine: 18274
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum Enum_Language
+    content.vb: Public Enum Enum_Language
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.Enum_Language.Afrikaans
+  commentId: F:Global.Enum_Language.Afrikaans
+  id: Afrikaans
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Afrikaans
+  nameWithType: Enum_Language.Afrikaans
+  fullName: Enum_Language.Afrikaans
+  type: Field
+  source:
+    id: Afrikaans
+    path: ''
+    startLine: 18276
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Afrikaans = 0
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Arabic
+  commentId: F:Global.Enum_Language.Arabic
+  id: Arabic
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Arabic
+  nameWithType: Enum_Language.Arabic
+  fullName: Enum_Language.Arabic
+  type: Field
+  source:
+    id: Arabic
+    path: ''
+    startLine: 18277
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Arabic = 1
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Basque
+  commentId: F:Global.Enum_Language.Basque
+  id: Basque
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Basque
+  nameWithType: Enum_Language.Basque
+  fullName: Enum_Language.Basque
+  type: Field
+  source:
+    id: Basque
+    path: ''
+    startLine: 18278
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Basque = 2
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Belarusian
+  commentId: F:Global.Enum_Language.Belarusian
+  id: Belarusian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Belarusian
+  nameWithType: Enum_Language.Belarusian
+  fullName: Enum_Language.Belarusian
+  type: Field
+  source:
+    id: Belarusian
+    path: ''
+    startLine: 18279
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Belarusian = 3
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Bulgarian
+  commentId: F:Global.Enum_Language.Bulgarian
+  id: Bulgarian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Bulgarian
+  nameWithType: Enum_Language.Bulgarian
+  fullName: Enum_Language.Bulgarian
+  type: Field
+  source:
+    id: Bulgarian
+    path: ''
+    startLine: 18280
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Bulgarian = 4
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Catalan
+  commentId: F:Global.Enum_Language.Catalan
+  id: Catalan
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Catalan
+  nameWithType: Enum_Language.Catalan
+  fullName: Enum_Language.Catalan
+  type: Field
+  source:
+    id: Catalan
+    path: ''
+    startLine: 18281
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Catalan = 5
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Chinese
+  commentId: F:Global.Enum_Language.Chinese
+  id: Chinese
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Chinese
+  nameWithType: Enum_Language.Chinese
+  fullName: Enum_Language.Chinese
+  type: Field
+  source:
+    id: Chinese
+    path: ''
+    startLine: 18282
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Chinese = 6
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Czech
+  commentId: F:Global.Enum_Language.Czech
+  id: Czech
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Czech
+  nameWithType: Enum_Language.Czech
+  fullName: Enum_Language.Czech
+  type: Field
+  source:
+    id: Czech
+    path: ''
+    startLine: 18283
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Czech = 7
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Danish
+  commentId: F:Global.Enum_Language.Danish
+  id: Danish
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Danish
+  nameWithType: Enum_Language.Danish
+  fullName: Enum_Language.Danish
+  type: Field
+  source:
+    id: Danish
+    path: ''
+    startLine: 18284
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Danish = 8
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Dutch
+  commentId: F:Global.Enum_Language.Dutch
+  id: Dutch
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Dutch
+  nameWithType: Enum_Language.Dutch
+  fullName: Enum_Language.Dutch
+  type: Field
+  source:
+    id: Dutch
+    path: ''
+    startLine: 18285
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Dutch = 9
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.English
+  commentId: F:Global.Enum_Language.English
+  id: English
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: English
+  nameWithType: Enum_Language.English
+  fullName: Enum_Language.English
+  type: Field
+  source:
+    id: English
+    path: ''
+    startLine: 18286
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: English = 10
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Estonian
+  commentId: F:Global.Enum_Language.Estonian
+  id: Estonian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Estonian
+  nameWithType: Enum_Language.Estonian
+  fullName: Enum_Language.Estonian
+  type: Field
+  source:
+    id: Estonian
+    path: ''
+    startLine: 18287
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Estonian = 11
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Faroese
+  commentId: F:Global.Enum_Language.Faroese
+  id: Faroese
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Faroese
+  nameWithType: Enum_Language.Faroese
+  fullName: Enum_Language.Faroese
+  type: Field
+  source:
+    id: Faroese
+    path: ''
+    startLine: 18288
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Faroese = 12
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Finnish
+  commentId: F:Global.Enum_Language.Finnish
+  id: Finnish
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Finnish
+  nameWithType: Enum_Language.Finnish
+  fullName: Enum_Language.Finnish
+  type: Field
+  source:
+    id: Finnish
+    path: ''
+    startLine: 18289
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Finnish = 13
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.French
+  commentId: F:Global.Enum_Language.French
+  id: French
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: French
+  nameWithType: Enum_Language.French
+  fullName: Enum_Language.French
+  type: Field
+  source:
+    id: French
+    path: ''
+    startLine: 18290
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: French = 14
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.German
+  commentId: F:Global.Enum_Language.German
+  id: German
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: German
+  nameWithType: Enum_Language.German
+  fullName: Enum_Language.German
+  type: Field
+  source:
+    id: German
+    path: ''
+    startLine: 18291
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: German = 15
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Greek
+  commentId: F:Global.Enum_Language.Greek
+  id: Greek
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Greek
+  nameWithType: Enum_Language.Greek
+  fullName: Enum_Language.Greek
+  type: Field
+  source:
+    id: Greek
+    path: ''
+    startLine: 18292
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Greek = 16
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Hebrew
+  commentId: F:Global.Enum_Language.Hebrew
+  id: Hebrew
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Hebrew
+  nameWithType: Enum_Language.Hebrew
+  fullName: Enum_Language.Hebrew
+  type: Field
+  source:
+    id: Hebrew
+    path: ''
+    startLine: 18293
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Hebrew = 17
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Icelandic
+  commentId: F:Global.Enum_Language.Icelandic
+  id: Icelandic
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Icelandic
+  nameWithType: Enum_Language.Icelandic
+  fullName: Enum_Language.Icelandic
+  type: Field
+  source:
+    id: Icelandic
+    path: ''
+    startLine: 18294
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Icelandic = 18
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Indonesian
+  commentId: F:Global.Enum_Language.Indonesian
+  id: Indonesian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Indonesian
+  nameWithType: Enum_Language.Indonesian
+  fullName: Enum_Language.Indonesian
+  type: Field
+  source:
+    id: Indonesian
+    path: ''
+    startLine: 18295
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Indonesian = 19
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Italian
+  commentId: F:Global.Enum_Language.Italian
+  id: Italian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Italian
+  nameWithType: Enum_Language.Italian
+  fullName: Enum_Language.Italian
+  type: Field
+  source:
+    id: Italian
+    path: ''
+    startLine: 18296
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Italian = 20
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Japanese
+  commentId: F:Global.Enum_Language.Japanese
+  id: Japanese
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Japanese
+  nameWithType: Enum_Language.Japanese
+  fullName: Enum_Language.Japanese
+  type: Field
+  source:
+    id: Japanese
+    path: ''
+    startLine: 18297
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Japanese = 21
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Korean
+  commentId: F:Global.Enum_Language.Korean
+  id: Korean
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Korean
+  nameWithType: Enum_Language.Korean
+  fullName: Enum_Language.Korean
+  type: Field
+  source:
+    id: Korean
+    path: ''
+    startLine: 18298
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Korean = 22
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Latvian
+  commentId: F:Global.Enum_Language.Latvian
+  id: Latvian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Latvian
+  nameWithType: Enum_Language.Latvian
+  fullName: Enum_Language.Latvian
+  type: Field
+  source:
+    id: Latvian
+    path: ''
+    startLine: 18299
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Latvian = 23
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Lithuanian
+  commentId: F:Global.Enum_Language.Lithuanian
+  id: Lithuanian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Lithuanian
+  nameWithType: Enum_Language.Lithuanian
+  fullName: Enum_Language.Lithuanian
+  type: Field
+  source:
+    id: Lithuanian
+    path: ''
+    startLine: 18300
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Lithuanian = 24
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Norwegian
+  commentId: F:Global.Enum_Language.Norwegian
+  id: Norwegian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Norwegian
+  nameWithType: Enum_Language.Norwegian
+  fullName: Enum_Language.Norwegian
+  type: Field
+  source:
+    id: Norwegian
+    path: ''
+    startLine: 18301
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Norwegian = 25
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Polish
+  commentId: F:Global.Enum_Language.Polish
+  id: Polish
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Polish
+  nameWithType: Enum_Language.Polish
+  fullName: Enum_Language.Polish
+  type: Field
+  source:
+    id: Polish
+    path: ''
+    startLine: 18302
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Polish = 26
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Portuguese
+  commentId: F:Global.Enum_Language.Portuguese
+  id: Portuguese
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Portuguese
+  nameWithType: Enum_Language.Portuguese
+  fullName: Enum_Language.Portuguese
+  type: Field
+  source:
+    id: Portuguese
+    path: ''
+    startLine: 18303
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Portuguese = 27
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Romanian
+  commentId: F:Global.Enum_Language.Romanian
+  id: Romanian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Romanian
+  nameWithType: Enum_Language.Romanian
+  fullName: Enum_Language.Romanian
+  type: Field
+  source:
+    id: Romanian
+    path: ''
+    startLine: 18304
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Romanian = 28
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Russian
+  commentId: F:Global.Enum_Language.Russian
+  id: Russian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Russian
+  nameWithType: Enum_Language.Russian
+  fullName: Enum_Language.Russian
+  type: Field
+  source:
+    id: Russian
+    path: ''
+    startLine: 18305
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Russian = 29
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.SerboCroatian
+  commentId: F:Global.Enum_Language.SerboCroatian
+  id: SerboCroatian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: SerboCroatian
+  nameWithType: Enum_Language.SerboCroatian
+  fullName: Enum_Language.SerboCroatian
+  type: Field
+  source:
+    id: SerboCroatian
+    path: ''
+    startLine: 18306
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: SerboCroatian = 30
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Slovak
+  commentId: F:Global.Enum_Language.Slovak
+  id: Slovak
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Slovak
+  nameWithType: Enum_Language.Slovak
+  fullName: Enum_Language.Slovak
+  type: Field
+  source:
+    id: Slovak
+    path: ''
+    startLine: 18307
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Slovak = 31
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Slovenian
+  commentId: F:Global.Enum_Language.Slovenian
+  id: Slovenian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Slovenian
+  nameWithType: Enum_Language.Slovenian
+  fullName: Enum_Language.Slovenian
+  type: Field
+  source:
+    id: Slovenian
+    path: ''
+    startLine: 18308
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Slovenian = 32
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Spanish
+  commentId: F:Global.Enum_Language.Spanish
+  id: Spanish
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Spanish
+  nameWithType: Enum_Language.Spanish
+  fullName: Enum_Language.Spanish
+  type: Field
+  source:
+    id: Spanish
+    path: ''
+    startLine: 18309
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Spanish = 33
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Swedish
+  commentId: F:Global.Enum_Language.Swedish
+  id: Swedish
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Swedish
+  nameWithType: Enum_Language.Swedish
+  fullName: Enum_Language.Swedish
+  type: Field
+  source:
+    id: Swedish
+    path: ''
+    startLine: 18310
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Swedish = 34
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Thai
+  commentId: F:Global.Enum_Language.Thai
+  id: Thai
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Thai
+  nameWithType: Enum_Language.Thai
+  fullName: Enum_Language.Thai
+  type: Field
+  source:
+    id: Thai
+    path: ''
+    startLine: 18311
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Thai = 35
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Turkish
+  commentId: F:Global.Enum_Language.Turkish
+  id: Turkish
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Turkish
+  nameWithType: Enum_Language.Turkish
+  fullName: Enum_Language.Turkish
+  type: Field
+  source:
+    id: Turkish
+    path: ''
+    startLine: 18312
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Turkish = 36
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Ukrainian
+  commentId: F:Global.Enum_Language.Ukrainian
+  id: Ukrainian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Ukrainian
+  nameWithType: Enum_Language.Ukrainian
+  fullName: Enum_Language.Ukrainian
+  type: Field
+  source:
+    id: Ukrainian
+    path: ''
+    startLine: 18313
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Ukrainian = 37
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Vietnamese
+  commentId: F:Global.Enum_Language.Vietnamese
+  id: Vietnamese
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Vietnamese
+  nameWithType: Enum_Language.Vietnamese
+  fullName: Enum_Language.Vietnamese
+  type: Field
+  source:
+    id: Vietnamese
+    path: ''
+    startLine: 18314
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Vietnamese = 38
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.ChineseSimplified
+  commentId: F:Global.Enum_Language.ChineseSimplified
+  id: ChineseSimplified
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: ChineseSimplified
+  nameWithType: Enum_Language.ChineseSimplified
+  fullName: Enum_Language.ChineseSimplified
+  type: Field
+  source:
+    id: ChineseSimplified
+    path: ''
+    startLine: 18315
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: ChineseSimplified = 39
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.ChineseTraditional
+  commentId: F:Global.Enum_Language.ChineseTraditional
+  id: ChineseTraditional
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: ChineseTraditional
+  nameWithType: Enum_Language.ChineseTraditional
+  fullName: Enum_Language.ChineseTraditional
+  type: Field
+  source:
+    id: ChineseTraditional
+    path: ''
+    startLine: 18316
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: ChineseTraditional = 40
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Unknown
+  commentId: F:Global.Enum_Language.Unknown
+  id: Unknown
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: Enum_Language.Unknown
+  fullName: Enum_Language.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: ''
+    startLine: 18317
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Unknown = 41
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Hungarian
+  commentId: F:Global.Enum_Language.Hungarian
+  id: Hungarian
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Hungarian
+  nameWithType: Enum_Language.Hungarian
+  fullName: Enum_Language.Hungarian
+  type: Field
+  source:
+    id: Hungarian
+    path: ''
+    startLine: 18318
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Hungarian = 42
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Enum_Language.Auto
+  commentId: F:Global.Enum_Language.Auto
+  id: Auto
+  parent: Global.Enum_Language
+  langs:
+  - csharp
+  - vb
+  name: Auto
+  nameWithType: Enum_Language.Auto
+  fullName: Enum_Language.Auto
+  type: Field
+  source:
+    id: Auto
+    path: ''
+    startLine: 18319
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Auto = 43
+    return:
+      type: Global.Enum_Language
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Enum_Language
+  commentId: T:Global.Enum_Language
+  name: Enum_Language
+  nameWithType: Enum_Language
+  fullName: Enum_Language

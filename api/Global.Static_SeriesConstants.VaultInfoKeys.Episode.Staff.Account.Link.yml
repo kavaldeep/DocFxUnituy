@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link
+  commentId: T:Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link
+  id: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link
+  parent: Global
+  children:
+  - Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link.name
+  - Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link.url
+  langs:
+  - csharp
+  - vb
+  name: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link
+  fullName: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link
+  type: Class
+  source:
+    id: Link
+    path: ''
+    startLine: 16963
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Link
+    content.vb: Public Module Link
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link.name
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link.name
+  id: name
+  parent: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link.name
+  fullName: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 16965
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link.url
+  commentId: F:Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link.url
+  id: url
+  parent: Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link.url
+  fullName: Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 16966
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string url = "url"
+    return:
+      type: System.String
+    content.vb: Public Const url As String = "url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

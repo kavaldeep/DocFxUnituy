@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Post.Content
+  commentId: T:Global.Post.Content
+  id: Post.Content
+  parent: Global
+  children:
+  - Global.Post.Content.image_texture
+  - Global.Post.Content.image_url
+  - Global.Post.Content.message
+  - Global.Post.Content.tags
+  - Global.Post.Content.title
+  langs:
+  - csharp
+  - vb
+  name: Post.Content
+  nameWithType: Post.Content
+  fullName: Post.Content
+  type: Struct
+  source:
+    id: Content
+    path: ''
+    startLine: 26223
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct Content
+    content.vb: >-
+      <Serializable>
+
+      Public Structure Content
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.Post.Content.title
+  commentId: F:Global.Post.Content.title
+  id: title
+  parent: Global.Post.Content
+  langs:
+  - csharp
+  - vb
+  name: title
+  nameWithType: Post.Content.title
+  fullName: Post.Content.title
+  type: Field
+  source:
+    id: title
+    path: ''
+    startLine: 26227
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string title
+    return:
+      type: System.String
+    content.vb: Public title As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Content.message
+  commentId: F:Global.Post.Content.message
+  id: message
+  parent: Global.Post.Content
+  langs:
+  - csharp
+  - vb
+  name: message
+  nameWithType: Post.Content.message
+  fullName: Post.Content.message
+  type: Field
+  source:
+    id: message
+    path: ''
+    startLine: 26228
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string message
+    return:
+      type: System.String
+    content.vb: Public message As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Content.image_url
+  commentId: F:Global.Post.Content.image_url
+  id: image_url
+  parent: Global.Post.Content
+  langs:
+  - csharp
+  - vb
+  name: image_url
+  nameWithType: Post.Content.image_url
+  fullName: Post.Content.image_url
+  type: Field
+  source:
+    id: image_url
+    path: ''
+    startLine: 26229
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string image_url
+    return:
+      type: System.String
+    content.vb: Public image_url As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Content.image_texture
+  commentId: F:Global.Post.Content.image_texture
+  id: image_texture
+  parent: Global.Post.Content
+  langs:
+  - csharp
+  - vb
+  name: image_texture
+  nameWithType: Post.Content.image_texture
+  fullName: Post.Content.image_texture
+  type: Field
+  source:
+    id: image_texture
+    path: ''
+    startLine: 26230
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture2D image_texture
+    return:
+      type: Global.Texture2D
+    content.vb: Public image_texture As Texture2D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Post.Content.tags
+  commentId: F:Global.Post.Content.tags
+  id: tags
+  parent: Global.Post.Content
+  langs:
+  - csharp
+  - vb
+  name: tags
+  nameWithType: Post.Content.tags
+  fullName: Post.Content.tags
+  type: Field
+  source:
+    id: tags
+    path: ''
+    startLine: 26231
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string tags
+    return:
+      type: System.String
+    content.vb: Public tags As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D

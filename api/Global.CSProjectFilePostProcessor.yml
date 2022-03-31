@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CSProjectFilePostProcessor
+  commentId: T:Global.CSProjectFilePostProcessor
+  id: CSProjectFilePostProcessor
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: CSProjectFilePostProcessor
+  nameWithType: CSProjectFilePostProcessor
+  fullName: CSProjectFilePostProcessor
+  type: Class
+  source:
+    id: CSProjectFilePostProcessor
+    path: ''
+    startLine: 110
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class CSProjectFilePostProcessor : AssetPostprocessor'
+    content.vb: >-
+      Public Class CSProjectFilePostProcessor
+          Inherits AssetPostprocessor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

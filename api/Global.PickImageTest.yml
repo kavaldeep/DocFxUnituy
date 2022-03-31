@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PickImageTest
+  commentId: T:Global.PickImageTest
+  id: PickImageTest
+  parent: Global
+  children:
+  - Global.PickImageTest.Activate
+  - Global.PickImageTest.image
+  - Global.PickImageTest.tex
+  langs:
+  - csharp
+  - vb
+  name: PickImageTest
+  nameWithType: PickImageTest
+  fullName: PickImageTest
+  type: Class
+  source:
+    id: PickImageTest
+    path: ''
+    startLine: 13621
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PickImageTest : MonoBehaviour'
+    content.vb: >-
+      Public Class PickImageTest
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PickImageTest.tex
+  commentId: F:Global.PickImageTest.tex
+  id: tex
+  parent: Global.PickImageTest
+  langs:
+  - csharp
+  - vb
+  name: tex
+  nameWithType: PickImageTest.tex
+  fullName: PickImageTest.tex
+  type: Field
+  source:
+    id: tex
+    path: ''
+    startLine: 13628
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture2D tex
+    return:
+      type: Global.Texture2D
+    content.vb: Public tex As Texture2D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PickImageTest.image
+  commentId: F:Global.PickImageTest.image
+  id: image
+  parent: Global.PickImageTest
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: PickImageTest.image
+  fullName: PickImageTest.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 13629
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RawImage image
+    return:
+      type: Global.RawImage
+    content.vb: Public image As RawImage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PickImageTest.Activate
+  commentId: M:Global.PickImageTest.Activate
+  id: Activate
+  parent: Global.PickImageTest
+  langs:
+  - csharp
+  - vb
+  name: Activate()
+  nameWithType: PickImageTest.Activate()
+  fullName: PickImageTest.Activate()
+  type: Method
+  source:
+    id: Activate
+    path: ''
+    startLine: 13632
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Activate()
+    content.vb: Public Sub Activate
+  overload: Global.PickImageTest.Activate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: Global.RawImage
+  isExternal: true
+  name: RawImage
+  nameWithType: RawImage
+  fullName: RawImage
+- uid: Global.PickImageTest.Activate*
+  commentId: Overload:Global.PickImageTest.Activate
+  name: Activate
+  nameWithType: PickImageTest.Activate
+  fullName: PickImageTest.Activate

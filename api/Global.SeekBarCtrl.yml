@@ -1,0 +1,410 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SeekBarCtrl
+  commentId: T:Global.SeekBarCtrl
+  id: SeekBarCtrl
+  parent: Global
+  children:
+  - Global.SeekBarCtrl.m_fDragTime
+  - Global.SeekBarCtrl.m_srcSlider
+  - Global.SeekBarCtrl.m_srcVideo
+  - Global.SeekBarCtrl.OnDrag(PointerEventData)
+  - Global.SeekBarCtrl.OnPointerDown(PointerEventData)
+  - Global.SeekBarCtrl.OnPointerEnter(PointerEventData)
+  - Global.SeekBarCtrl.OnPointerExit(PointerEventData)
+  - Global.SeekBarCtrl.OnPointerUp(PointerEventData)
+  - Global.SeekBarCtrl.TextTimeCode
+  langs:
+  - csharp
+  - vb
+  name: SeekBarCtrl
+  nameWithType: SeekBarCtrl
+  fullName: SeekBarCtrl
+  type: Class
+  source:
+    id: SeekBarCtrl
+    path: ''
+    startLine: 8368
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SeekBarCtrl : MonoBehaviour'
+    content.vb: >-
+      Public Class SeekBarCtrl
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IPointerDownHandler
+  - Global.IPointerUpHandler
+  - Global.IPointerEnterHandler
+  - Global.IPointerExitHandler
+  - Global.IDragHandler
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SeekBarCtrl.m_srcVideo
+  commentId: F:Global.SeekBarCtrl.m_srcVideo
+  id: m_srcVideo
+  parent: Global.SeekBarCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_srcVideo
+  nameWithType: SeekBarCtrl.m_srcVideo
+  fullName: SeekBarCtrl.m_srcVideo
+  type: Field
+  source:
+    id: m_srcVideo
+    path: ''
+    startLine: 8370
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_YoutubePlayer m_srcVideo
+    return:
+      type: YoutubePlayer.Behaviour_YoutubePlayer
+    content.vb: Public m_srcVideo As Behaviour_YoutubePlayer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SeekBarCtrl.TextTimeCode
+  commentId: F:Global.SeekBarCtrl.TextTimeCode
+  id: TextTimeCode
+  parent: Global.SeekBarCtrl
+  langs:
+  - csharp
+  - vb
+  name: TextTimeCode
+  nameWithType: SeekBarCtrl.TextTimeCode
+  fullName: SeekBarCtrl.TextTimeCode
+  type: Field
+  source:
+    id: TextTimeCode
+    path: ''
+    startLine: 8371
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI TextTimeCode
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public TextTimeCode As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SeekBarCtrl.m_srcSlider
+  commentId: F:Global.SeekBarCtrl.m_srcSlider
+  id: m_srcSlider
+  parent: Global.SeekBarCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_srcSlider
+  nameWithType: SeekBarCtrl.m_srcSlider
+  fullName: SeekBarCtrl.m_srcSlider
+  type: Field
+  source:
+    id: m_srcSlider
+    path: ''
+    startLine: 8372
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Slider m_srcSlider
+    return:
+      type: Global.Slider
+    content.vb: Public m_srcSlider As Slider
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SeekBarCtrl.m_fDragTime
+  commentId: F:Global.SeekBarCtrl.m_fDragTime
+  id: m_fDragTime
+  parent: Global.SeekBarCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_fDragTime
+  nameWithType: SeekBarCtrl.m_fDragTime
+  fullName: SeekBarCtrl.m_fDragTime
+  type: Field
+  source:
+    id: m_fDragTime
+    path: ''
+    startLine: 8373
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float m_fDragTime
+    return:
+      type: System.Single
+    content.vb: Public m_fDragTime As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SeekBarCtrl.OnPointerEnter(PointerEventData)
+  commentId: M:Global.SeekBarCtrl.OnPointerEnter(PointerEventData)
+  id: OnPointerEnter(PointerEventData)
+  parent: Global.SeekBarCtrl
+  langs:
+  - csharp
+  - vb
+  name: OnPointerEnter(PointerEventData)
+  nameWithType: SeekBarCtrl.OnPointerEnter(PointerEventData)
+  fullName: SeekBarCtrl.OnPointerEnter(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerEnter
+    path: ''
+    startLine: 8420
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnPointerEnter(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerEnter(eventData As PointerEventData)
+  overload: Global.SeekBarCtrl.OnPointerEnter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SeekBarCtrl.OnPointerExit(PointerEventData)
+  commentId: M:Global.SeekBarCtrl.OnPointerExit(PointerEventData)
+  id: OnPointerExit(PointerEventData)
+  parent: Global.SeekBarCtrl
+  langs:
+  - csharp
+  - vb
+  name: OnPointerExit(PointerEventData)
+  nameWithType: SeekBarCtrl.OnPointerExit(PointerEventData)
+  fullName: SeekBarCtrl.OnPointerExit(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerExit
+    path: ''
+    startLine: 8425
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnPointerExit(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerExit(eventData As PointerEventData)
+  overload: Global.SeekBarCtrl.OnPointerExit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SeekBarCtrl.OnPointerDown(PointerEventData)
+  commentId: M:Global.SeekBarCtrl.OnPointerDown(PointerEventData)
+  id: OnPointerDown(PointerEventData)
+  parent: Global.SeekBarCtrl
+  langs:
+  - csharp
+  - vb
+  name: OnPointerDown(PointerEventData)
+  nameWithType: SeekBarCtrl.OnPointerDown(PointerEventData)
+  fullName: SeekBarCtrl.OnPointerDown(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerDown
+    path: ''
+    startLine: 8430
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnPointerDown(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerDown(eventData As PointerEventData)
+  overload: Global.SeekBarCtrl.OnPointerDown*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SeekBarCtrl.OnPointerUp(PointerEventData)
+  commentId: M:Global.SeekBarCtrl.OnPointerUp(PointerEventData)
+  id: OnPointerUp(PointerEventData)
+  parent: Global.SeekBarCtrl
+  langs:
+  - csharp
+  - vb
+  name: OnPointerUp(PointerEventData)
+  nameWithType: SeekBarCtrl.OnPointerUp(PointerEventData)
+  fullName: SeekBarCtrl.OnPointerUp(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerUp
+    path: ''
+    startLine: 8436
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnPointerUp(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerUp(eventData As PointerEventData)
+  overload: Global.SeekBarCtrl.OnPointerUp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SeekBarCtrl.OnDrag(PointerEventData)
+  commentId: M:Global.SeekBarCtrl.OnDrag(PointerEventData)
+  id: OnDrag(PointerEventData)
+  parent: Global.SeekBarCtrl
+  langs:
+  - csharp
+  - vb
+  name: OnDrag(PointerEventData)
+  nameWithType: SeekBarCtrl.OnDrag(PointerEventData)
+  fullName: SeekBarCtrl.OnDrag(PointerEventData)
+  type: Method
+  source:
+    id: OnDrag
+    path: ''
+    startLine: 8449
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnDrag(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnDrag(eventData As PointerEventData)
+  overload: Global.SeekBarCtrl.OnDrag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.IPointerDownHandler
+  commentId: '!:Global.IPointerDownHandler'
+  isExternal: true
+  name: IPointerDownHandler
+  nameWithType: IPointerDownHandler
+  fullName: IPointerDownHandler
+- uid: Global.IPointerUpHandler
+  commentId: '!:Global.IPointerUpHandler'
+  isExternal: true
+  name: IPointerUpHandler
+  nameWithType: IPointerUpHandler
+  fullName: IPointerUpHandler
+- uid: Global.IPointerEnterHandler
+  isExternal: true
+  name: IPointerEnterHandler
+  nameWithType: IPointerEnterHandler
+  fullName: IPointerEnterHandler
+- uid: Global.IPointerExitHandler
+  isExternal: true
+  name: IPointerExitHandler
+  nameWithType: IPointerExitHandler
+  fullName: IPointerExitHandler
+- uid: Global.IDragHandler
+  commentId: '!:Global.IDragHandler'
+  isExternal: true
+  name: IDragHandler
+  nameWithType: IDragHandler
+  fullName: IDragHandler
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YoutubePlayer.Behaviour_YoutubePlayer
+  commentId: T:YoutubePlayer.Behaviour_YoutubePlayer
+  parent: YoutubePlayer
+  name: Behaviour_YoutubePlayer
+  nameWithType: Behaviour_YoutubePlayer
+  fullName: YoutubePlayer.Behaviour_YoutubePlayer
+- uid: YoutubePlayer
+  commentId: N:YoutubePlayer
+  name: YoutubePlayer
+  nameWithType: YoutubePlayer
+  fullName: YoutubePlayer
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Slider
+  commentId: '!:Global.Slider'
+  isExternal: true
+  name: Slider
+  nameWithType: Slider
+  fullName: Slider
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.SeekBarCtrl.OnPointerEnter*
+  commentId: Overload:Global.SeekBarCtrl.OnPointerEnter
+  name: OnPointerEnter
+  nameWithType: SeekBarCtrl.OnPointerEnter
+  fullName: SeekBarCtrl.OnPointerEnter
+- uid: Global.PointerEventData
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: PointerEventData
+- uid: Global.SeekBarCtrl.OnPointerExit*
+  commentId: Overload:Global.SeekBarCtrl.OnPointerExit
+  name: OnPointerExit
+  nameWithType: SeekBarCtrl.OnPointerExit
+  fullName: SeekBarCtrl.OnPointerExit
+- uid: Global.SeekBarCtrl.OnPointerDown*
+  commentId: Overload:Global.SeekBarCtrl.OnPointerDown
+  name: OnPointerDown
+  nameWithType: SeekBarCtrl.OnPointerDown
+  fullName: SeekBarCtrl.OnPointerDown
+- uid: Global.SeekBarCtrl.OnPointerUp*
+  commentId: Overload:Global.SeekBarCtrl.OnPointerUp
+  name: OnPointerUp
+  nameWithType: SeekBarCtrl.OnPointerUp
+  fullName: SeekBarCtrl.OnPointerUp
+- uid: Global.SeekBarCtrl.OnDrag*
+  commentId: Overload:Global.SeekBarCtrl.OnDrag
+  name: OnDrag
+  nameWithType: SeekBarCtrl.OnDrag
+  fullName: SeekBarCtrl.OnDrag

@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps
+  commentId: T:Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps
+  id: Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps
+  parent: Global
+  children:
+  - Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.name
+  - Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.preview
+  - Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.time
+  langs:
+  - csharp
+  - vb
+  name: Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps
+  fullName: Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps
+  type: Class
+  source:
+    id: Timestamps
+    path: ''
+    startLine: 16850
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Timestamps
+    content.vb: Public Module Timestamps
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.name
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.name
+  id: name
+  parent: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.name
+  fullName: Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 16852
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.time
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.time
+  id: time
+  parent: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps
+  langs:
+  - csharp
+  - vb
+  name: time
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.time
+  fullName: Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.time
+  type: Field
+  source:
+    id: time
+    path: ''
+    startLine: 16853
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string time = "time"
+    return:
+      type: System.String
+    content.vb: Public Const time As String = "time"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.preview
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.preview
+  id: preview
+  parent: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps
+  langs:
+  - csharp
+  - vb
+  name: preview
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.preview
+  fullName: Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.preview
+  type: Field
+  source:
+    id: preview
+    path: ''
+    startLine: 16854
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string preview = "preview"
+    return:
+      type: System.String
+    content.vb: Public Const preview As String = "preview"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_PropertyEditor
+  commentId: T:Global.Behaviour_PropertyEditor
+  id: Behaviour_PropertyEditor
+  parent: Global
+  children:
+  - Global.Behaviour_PropertyEditor.ContentTypeBool
+  - Global.Behaviour_PropertyEditor.ContentTypeInt
+  - Global.Behaviour_PropertyEditor.PropertyName
+  - Global.Behaviour_PropertyEditor.PropertyValue
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_PropertyEditor
+  nameWithType: Behaviour_PropertyEditor
+  fullName: Behaviour_PropertyEditor
+  type: Class
+  source:
+    id: Behaviour_PropertyEditor
+    path: ''
+    startLine: 12781
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_PropertyEditor : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_PropertyEditor
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_PropertyEditor.PropertyName
+  commentId: P:Global.Behaviour_PropertyEditor.PropertyName
+  id: PropertyName
+  parent: Global.Behaviour_PropertyEditor
+  langs:
+  - csharp
+  - vb
+  name: PropertyName
+  nameWithType: Behaviour_PropertyEditor.PropertyName
+  fullName: Behaviour_PropertyEditor.PropertyName
+  type: Property
+  source:
+    id: PropertyName
+    path: ''
+    startLine: 12790
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string PropertyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PropertyName As String
+  overload: Global.Behaviour_PropertyEditor.PropertyName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PropertyEditor.PropertyValue
+  commentId: P:Global.Behaviour_PropertyEditor.PropertyValue
+  id: PropertyValue
+  parent: Global.Behaviour_PropertyEditor
+  langs:
+  - csharp
+  - vb
+  name: PropertyValue
+  nameWithType: Behaviour_PropertyEditor.PropertyValue
+  fullName: Behaviour_PropertyEditor.PropertyValue
+  type: Property
+  source:
+    id: PropertyValue
+    path: ''
+    startLine: 12791
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string PropertyValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PropertyValue As String
+  overload: Global.Behaviour_PropertyEditor.PropertyValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PropertyEditor.ContentTypeInt
+  commentId: M:Global.Behaviour_PropertyEditor.ContentTypeInt
+  id: ContentTypeInt
+  parent: Global.Behaviour_PropertyEditor
+  langs:
+  - csharp
+  - vb
+  name: ContentTypeInt()
+  nameWithType: Behaviour_PropertyEditor.ContentTypeInt()
+  fullName: Behaviour_PropertyEditor.ContentTypeInt()
+  type: Method
+  source:
+    id: ContentTypeInt
+    path: ''
+    startLine: 12804
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ContentTypeInt()
+    content.vb: Public Sub ContentTypeInt
+  overload: Global.Behaviour_PropertyEditor.ContentTypeInt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PropertyEditor.ContentTypeBool
+  commentId: M:Global.Behaviour_PropertyEditor.ContentTypeBool
+  id: ContentTypeBool
+  parent: Global.Behaviour_PropertyEditor
+  langs:
+  - csharp
+  - vb
+  name: ContentTypeBool()
+  nameWithType: Behaviour_PropertyEditor.ContentTypeBool()
+  fullName: Behaviour_PropertyEditor.ContentTypeBool()
+  type: Method
+  source:
+    id: ContentTypeBool
+    path: ''
+    startLine: 12810
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ContentTypeBool()
+    content.vb: Public Sub ContentTypeBool
+  overload: Global.Behaviour_PropertyEditor.ContentTypeBool*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_PropertyEditor.PropertyName*
+  commentId: Overload:Global.Behaviour_PropertyEditor.PropertyName
+  name: PropertyName
+  nameWithType: Behaviour_PropertyEditor.PropertyName
+  fullName: Behaviour_PropertyEditor.PropertyName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Behaviour_PropertyEditor.PropertyValue*
+  commentId: Overload:Global.Behaviour_PropertyEditor.PropertyValue
+  name: PropertyValue
+  nameWithType: Behaviour_PropertyEditor.PropertyValue
+  fullName: Behaviour_PropertyEditor.PropertyValue
+- uid: Global.Behaviour_PropertyEditor.ContentTypeInt*
+  commentId: Overload:Global.Behaviour_PropertyEditor.ContentTypeInt
+  name: ContentTypeInt
+  nameWithType: Behaviour_PropertyEditor.ContentTypeInt
+  fullName: Behaviour_PropertyEditor.ContentTypeInt
+- uid: Global.Behaviour_PropertyEditor.ContentTypeBool*
+  commentId: Overload:Global.Behaviour_PropertyEditor.ContentTypeBool
+  name: ContentTypeBool
+  nameWithType: Behaviour_PropertyEditor.ContentTypeBool
+  fullName: Behaviour_PropertyEditor.ContentTypeBool

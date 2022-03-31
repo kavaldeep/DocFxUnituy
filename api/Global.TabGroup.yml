@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TabGroup
+  commentId: T:Global.TabGroup
+  id: TabGroup
+  parent: Global
+  children:
+  - Global.TabGroup.OnTabEnter(TabButton)
+  - Global.TabGroup.OnTabExit(TabButton)
+  - Global.TabGroup.OnTabSelected(TabButton)
+  - Global.TabGroup.ResetTabs
+  - Global.TabGroup.Subscribe(TabButton)
+  langs:
+  - csharp
+  - vb
+  name: TabGroup
+  nameWithType: TabGroup
+  fullName: TabGroup
+  type: Class
+  source:
+    id: TabGroup
+    path: ''
+    startLine: 13169
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TabGroup : MonoBehaviour'
+    content.vb: >-
+      Public Class TabGroup
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TabGroup.Subscribe(TabButton)
+  commentId: M:Global.TabGroup.Subscribe(TabButton)
+  id: Subscribe(TabButton)
+  parent: Global.TabGroup
+  langs:
+  - csharp
+  - vb
+  name: Subscribe(TabButton)
+  nameWithType: TabGroup.Subscribe(TabButton)
+  fullName: TabGroup.Subscribe(TabButton)
+  type: Method
+  source:
+    id: Subscribe
+    path: ''
+    startLine: 13180
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Subscribe(TabButton button)
+    parameters:
+    - id: button
+      type: Global.TabButton
+    content.vb: Public Sub Subscribe(button As TabButton)
+  overload: Global.TabGroup.Subscribe*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TabGroup.OnTabEnter(TabButton)
+  commentId: M:Global.TabGroup.OnTabEnter(TabButton)
+  id: OnTabEnter(TabButton)
+  parent: Global.TabGroup
+  langs:
+  - csharp
+  - vb
+  name: OnTabEnter(TabButton)
+  nameWithType: TabGroup.OnTabEnter(TabButton)
+  fullName: TabGroup.OnTabEnter(TabButton)
+  type: Method
+  source:
+    id: OnTabEnter
+    path: ''
+    startLine: 13192
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnTabEnter(TabButton button)
+    parameters:
+    - id: button
+      type: Global.TabButton
+    content.vb: Public Sub OnTabEnter(button As TabButton)
+  overload: Global.TabGroup.OnTabEnter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TabGroup.OnTabExit(TabButton)
+  commentId: M:Global.TabGroup.OnTabExit(TabButton)
+  id: OnTabExit(TabButton)
+  parent: Global.TabGroup
+  langs:
+  - csharp
+  - vb
+  name: OnTabExit(TabButton)
+  nameWithType: TabGroup.OnTabExit(TabButton)
+  fullName: TabGroup.OnTabExit(TabButton)
+  type: Method
+  source:
+    id: OnTabExit
+    path: ''
+    startLine: 13199
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnTabExit(TabButton button)
+    parameters:
+    - id: button
+      type: Global.TabButton
+    content.vb: Public Sub OnTabExit(button As TabButton)
+  overload: Global.TabGroup.OnTabExit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TabGroup.OnTabSelected(TabButton)
+  commentId: M:Global.TabGroup.OnTabSelected(TabButton)
+  id: OnTabSelected(TabButton)
+  parent: Global.TabGroup
+  langs:
+  - csharp
+  - vb
+  name: OnTabSelected(TabButton)
+  nameWithType: TabGroup.OnTabSelected(TabButton)
+  fullName: TabGroup.OnTabSelected(TabButton)
+  type: Method
+  source:
+    id: OnTabSelected
+    path: ''
+    startLine: 13204
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnTabSelected(TabButton button)
+    parameters:
+    - id: button
+      type: Global.TabButton
+    content.vb: Public Sub OnTabSelected(button As TabButton)
+  overload: Global.TabGroup.OnTabSelected*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TabGroup.ResetTabs
+  commentId: M:Global.TabGroup.ResetTabs
+  id: ResetTabs
+  parent: Global.TabGroup
+  langs:
+  - csharp
+  - vb
+  name: ResetTabs()
+  nameWithType: TabGroup.ResetTabs()
+  fullName: TabGroup.ResetTabs()
+  type: Method
+  source:
+    id: ResetTabs
+    path: ''
+    startLine: 13225
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ResetTabs()
+    content.vb: Public Sub ResetTabs
+  overload: Global.TabGroup.ResetTabs*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TabGroup.Subscribe*
+  commentId: Overload:Global.TabGroup.Subscribe
+  name: Subscribe
+  nameWithType: TabGroup.Subscribe
+  fullName: TabGroup.Subscribe
+- uid: Global.TabButton
+  commentId: T:Global.TabButton
+  name: TabButton
+  nameWithType: TabButton
+  fullName: TabButton
+- uid: Global.TabGroup.OnTabEnter*
+  commentId: Overload:Global.TabGroup.OnTabEnter
+  name: OnTabEnter
+  nameWithType: TabGroup.OnTabEnter
+  fullName: TabGroup.OnTabEnter
+- uid: Global.TabGroup.OnTabExit*
+  commentId: Overload:Global.TabGroup.OnTabExit
+  name: OnTabExit
+  nameWithType: TabGroup.OnTabExit
+  fullName: TabGroup.OnTabExit
+- uid: Global.TabGroup.OnTabSelected*
+  commentId: Overload:Global.TabGroup.OnTabSelected
+  name: OnTabSelected
+  nameWithType: TabGroup.OnTabSelected
+  fullName: TabGroup.OnTabSelected
+- uid: Global.TabGroup.ResetTabs*
+  commentId: Overload:Global.TabGroup.ResetTabs
+  name: ResetTabs
+  nameWithType: TabGroup.ResetTabs
+  fullName: TabGroup.ResetTabs

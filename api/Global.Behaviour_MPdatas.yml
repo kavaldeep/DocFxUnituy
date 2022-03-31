@@ -1,0 +1,808 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_MPdatas
+  commentId: T:Global.Behaviour_MPdatas
+  id: Behaviour_MPdatas
+  parent: Global
+  children:
+  - Global.Behaviour_MPdatas.chatScreen
+  - Global.Behaviour_MPdatas.CheckMessages
+  - Global.Behaviour_MPdatas.ClearScreen
+  - Global.Behaviour_MPdatas.CloseChat
+  - Global.Behaviour_MPdatas.fields
+  - Global.Behaviour_MPdatas.friendMessagePrefab
+  - Global.Behaviour_MPdatas.GetDatas(Behaviour_friendDatas)
+  - Global.Behaviour_MPdatas.getMessages
+  - Global.Behaviour_MPdatas.isWatching
+  - Global.Behaviour_MPdatas.messageFriend
+  - Global.Behaviour_MPdatas.MessageInputField
+  - Global.Behaviour_MPdatas.messagePrefab
+  - Global.Behaviour_MPdatas.messagesLoaded
+  - Global.Behaviour_MPdatas.MessagesParse
+  - Global.Behaviour_MPdatas.messagesToDestroy
+  - Global.Behaviour_MPdatas.messageUser
+  - Global.Behaviour_MPdatas.pageContent
+  - Global.Behaviour_MPdatas.queryRequest
+  - Global.Behaviour_MPdatas.RetriveMessages
+  - Global.Behaviour_MPdatas.SendMessage
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_MPdatas
+  nameWithType: Behaviour_MPdatas
+  fullName: Behaviour_MPdatas
+  type: Class
+  source:
+    id: Behaviour_MPdatas
+    path: ''
+    startLine: 21818
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_MPdatas : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_MPdatas
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_MPdatas.isWatching
+  commentId: F:Global.Behaviour_MPdatas.isWatching
+  id: isWatching
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: isWatching
+  nameWithType: Behaviour_MPdatas.isWatching
+  fullName: Behaviour_MPdatas.isWatching
+  type: Field
+  source:
+    id: isWatching
+    path: ''
+    startLine: 21820
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool isWatching
+    return:
+      type: System.Boolean
+    content.vb: Public isWatching As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.chatScreen
+  commentId: F:Global.Behaviour_MPdatas.chatScreen
+  id: chatScreen
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: chatScreen
+  nameWithType: Behaviour_MPdatas.chatScreen
+  fullName: Behaviour_MPdatas.chatScreen
+  type: Field
+  source:
+    id: chatScreen
+    path: ''
+    startLine: 21821
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject chatScreen
+    return:
+      type: Global.GameObject
+    content.vb: Public chatScreen As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.pageContent
+  commentId: F:Global.Behaviour_MPdatas.pageContent
+  id: pageContent
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: pageContent
+  nameWithType: Behaviour_MPdatas.pageContent
+  fullName: Behaviour_MPdatas.pageContent
+  type: Field
+  source:
+    id: pageContent
+    path: ''
+    startLine: 21822
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject pageContent
+    return:
+      type: Global.GameObject
+    content.vb: Public pageContent As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.messageFriend
+  commentId: F:Global.Behaviour_MPdatas.messageFriend
+  id: messageFriend
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: messageFriend
+  nameWithType: Behaviour_MPdatas.messageFriend
+  fullName: Behaviour_MPdatas.messageFriend
+  type: Field
+  source:
+    id: messageFriend
+    path: ''
+    startLine: 21823
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject messageFriend
+    return:
+      type: Global.GameObject
+    content.vb: Public messageFriend As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.messageUser
+  commentId: F:Global.Behaviour_MPdatas.messageUser
+  id: messageUser
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: messageUser
+  nameWithType: Behaviour_MPdatas.messageUser
+  fullName: Behaviour_MPdatas.messageUser
+  type: Field
+  source:
+    id: messageUser
+    path: ''
+    startLine: 21824
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject messageUser
+    return:
+      type: Global.GameObject
+    content.vb: Public messageUser As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.messagePrefab
+  commentId: F:Global.Behaviour_MPdatas.messagePrefab
+  id: messagePrefab
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: messagePrefab
+  nameWithType: Behaviour_MPdatas.messagePrefab
+  fullName: Behaviour_MPdatas.messagePrefab
+  type: Field
+  source:
+    id: messagePrefab
+    path: ''
+    startLine: 21825
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject messagePrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public messagePrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.friendMessagePrefab
+  commentId: F:Global.Behaviour_MPdatas.friendMessagePrefab
+  id: friendMessagePrefab
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: friendMessagePrefab
+  nameWithType: Behaviour_MPdatas.friendMessagePrefab
+  fullName: Behaviour_MPdatas.friendMessagePrefab
+  type: Field
+  source:
+    id: friendMessagePrefab
+    path: ''
+    startLine: 21826
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject friendMessagePrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public friendMessagePrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.fields
+  commentId: F:Global.Behaviour_MPdatas.fields
+  id: fields
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: fields
+  nameWithType: Behaviour_MPdatas.fields
+  fullName: Behaviour_MPdatas.fields
+  type: Field
+  source:
+    id: fields
+    path: ''
+    startLine: 21827
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<GameObject> fields
+    return:
+      type: System.Collections.Generic.List{GameObject}
+    content.vb: Public fields As List(Of GameObject)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.MessageInputField
+  commentId: F:Global.Behaviour_MPdatas.MessageInputField
+  id: MessageInputField
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: MessageInputField
+  nameWithType: Behaviour_MPdatas.MessageInputField
+  fullName: Behaviour_MPdatas.MessageInputField
+  type: Field
+  source:
+    id: MessageInputField
+    path: ''
+    startLine: 21828
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TMP_InputField MessageInputField
+    return:
+      type: Global.TMP_InputField
+    content.vb: Public MessageInputField As TMP_InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.messagesLoaded
+  commentId: F:Global.Behaviour_MPdatas.messagesLoaded
+  id: messagesLoaded
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: messagesLoaded
+  nameWithType: Behaviour_MPdatas.messagesLoaded
+  fullName: Behaviour_MPdatas.messagesLoaded
+  type: Field
+  source:
+    id: messagesLoaded
+    path: ''
+    startLine: 21831
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<string> messagesLoaded
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public messagesLoaded As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.GetDatas(Behaviour_friendDatas)
+  commentId: M:Global.Behaviour_MPdatas.GetDatas(Behaviour_friendDatas)
+  id: GetDatas(Behaviour_friendDatas)
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: GetDatas(Behaviour_friendDatas)
+  nameWithType: Behaviour_MPdatas.GetDatas(Behaviour_friendDatas)
+  fullName: Behaviour_MPdatas.GetDatas(Behaviour_friendDatas)
+  type: Method
+  source:
+    id: GetDatas
+    path: ''
+    startLine: 21833
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GetDatas(Behaviour_friendDatas friend)
+    parameters:
+    - id: friend
+      type: Global.Behaviour_friendDatas
+    content.vb: Public Sub GetDatas(friend As Behaviour_friendDatas)
+  overload: Global.Behaviour_MPdatas.GetDatas*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.getMessages
+  commentId: F:Global.Behaviour_MPdatas.getMessages
+  id: getMessages
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: getMessages
+  nameWithType: Behaviour_MPdatas.getMessages
+  fullName: Behaviour_MPdatas.getMessages
+  type: Field
+  source:
+    id: getMessages
+    path: ''
+    startLine: 21846
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string getMessages
+    return:
+      type: System.String
+    content.vb: Public getMessages As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.RetriveMessages
+  commentId: M:Global.Behaviour_MPdatas.RetriveMessages
+  id: RetriveMessages
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: RetriveMessages()
+  nameWithType: Behaviour_MPdatas.RetriveMessages()
+  fullName: Behaviour_MPdatas.RetriveMessages()
+  type: Method
+  source:
+    id: RetriveMessages
+    path: ''
+    startLine: 21848
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void RetriveMessages()
+    content.vb: Public Sub RetriveMessages
+  overload: Global.Behaviour_MPdatas.RetriveMessages*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.MessagesParse
+  commentId: M:Global.Behaviour_MPdatas.MessagesParse
+  id: MessagesParse
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: MessagesParse()
+  nameWithType: Behaviour_MPdatas.MessagesParse()
+  fullName: Behaviour_MPdatas.MessagesParse()
+  type: Method
+  source:
+    id: MessagesParse
+    path: ''
+    startLine: 21860
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void MessagesParse()
+    content.vb: Public Sub MessagesParse
+  overload: Global.Behaviour_MPdatas.MessagesParse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.queryRequest
+  commentId: F:Global.Behaviour_MPdatas.queryRequest
+  id: queryRequest
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: queryRequest
+  nameWithType: Behaviour_MPdatas.queryRequest
+  fullName: Behaviour_MPdatas.queryRequest
+  type: Field
+  source:
+    id: queryRequest
+    path: ''
+    startLine: 21912
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string queryRequest
+    return:
+      type: System.String
+    content.vb: Public queryRequest As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.SendMessage
+  commentId: M:Global.Behaviour_MPdatas.SendMessage
+  id: SendMessage
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: SendMessage()
+  nameWithType: Behaviour_MPdatas.SendMessage()
+  fullName: Behaviour_MPdatas.SendMessage()
+  type: Method
+  source:
+    id: SendMessage
+    path: ''
+    startLine: 21914
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SendMessage()
+    content.vb: Public Sub SendMessage
+  overload: Global.Behaviour_MPdatas.SendMessage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.CheckMessages
+  commentId: M:Global.Behaviour_MPdatas.CheckMessages
+  id: CheckMessages
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: CheckMessages()
+  nameWithType: Behaviour_MPdatas.CheckMessages()
+  fullName: Behaviour_MPdatas.CheckMessages()
+  type: Method
+  source:
+    id: CheckMessages
+    path: ''
+    startLine: 21929
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void CheckMessages()
+    content.vb: Public Sub CheckMessages
+  overload: Global.Behaviour_MPdatas.CheckMessages*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.messagesToDestroy
+  commentId: F:Global.Behaviour_MPdatas.messagesToDestroy
+  id: messagesToDestroy
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: messagesToDestroy
+  nameWithType: Behaviour_MPdatas.messagesToDestroy
+  fullName: Behaviour_MPdatas.messagesToDestroy
+  type: Field
+  source:
+    id: messagesToDestroy
+    path: ''
+    startLine: 21938
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<GameObject> messagesToDestroy
+    return:
+      type: System.Collections.Generic.List{GameObject}
+    content.vb: Public messagesToDestroy As List(Of GameObject)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.ClearScreen
+  commentId: M:Global.Behaviour_MPdatas.ClearScreen
+  id: ClearScreen
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: ClearScreen()
+  nameWithType: Behaviour_MPdatas.ClearScreen()
+  fullName: Behaviour_MPdatas.ClearScreen()
+  type: Method
+  source:
+    id: ClearScreen
+    path: ''
+    startLine: 21940
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ClearScreen()
+    content.vb: Public Sub ClearScreen
+  overload: Global.Behaviour_MPdatas.ClearScreen*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MPdatas.CloseChat
+  commentId: M:Global.Behaviour_MPdatas.CloseChat
+  id: CloseChat
+  parent: Global.Behaviour_MPdatas
+  langs:
+  - csharp
+  - vb
+  name: CloseChat()
+  nameWithType: Behaviour_MPdatas.CloseChat()
+  fullName: Behaviour_MPdatas.CloseChat()
+  type: Method
+  source:
+    id: CloseChat
+    path: ''
+    startLine: 21965
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void CloseChat()
+    content.vb: Public Sub CloseChat
+  overload: Global.Behaviour_MPdatas.CloseChat*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Collections.Generic.List{GameObject}
+  commentId: T:System.Collections.Generic.List{GameObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: System.Collections.Generic.List<GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: System.Collections.Generic.List(Of GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.TMP_InputField
+  isExternal: true
+  name: TMP_InputField
+  nameWithType: TMP_InputField
+  fullName: TMP_InputField
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Behaviour_MPdatas.GetDatas*
+  commentId: Overload:Global.Behaviour_MPdatas.GetDatas
+  name: GetDatas
+  nameWithType: Behaviour_MPdatas.GetDatas
+  fullName: Behaviour_MPdatas.GetDatas
+- uid: Global.Behaviour_friendDatas
+  commentId: T:Global.Behaviour_friendDatas
+  name: Behaviour_friendDatas
+  nameWithType: Behaviour_friendDatas
+  fullName: Behaviour_friendDatas
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Behaviour_MPdatas.RetriveMessages*
+  commentId: Overload:Global.Behaviour_MPdatas.RetriveMessages
+  name: RetriveMessages
+  nameWithType: Behaviour_MPdatas.RetriveMessages
+  fullName: Behaviour_MPdatas.RetriveMessages
+- uid: Global.Behaviour_MPdatas.MessagesParse*
+  commentId: Overload:Global.Behaviour_MPdatas.MessagesParse
+  name: MessagesParse
+  nameWithType: Behaviour_MPdatas.MessagesParse
+  fullName: Behaviour_MPdatas.MessagesParse
+- uid: Global.Behaviour_MPdatas.SendMessage*
+  commentId: Overload:Global.Behaviour_MPdatas.SendMessage
+  name: SendMessage
+  nameWithType: Behaviour_MPdatas.SendMessage
+  fullName: Behaviour_MPdatas.SendMessage
+- uid: Global.Behaviour_MPdatas.CheckMessages*
+  commentId: Overload:Global.Behaviour_MPdatas.CheckMessages
+  name: CheckMessages
+  nameWithType: Behaviour_MPdatas.CheckMessages
+  fullName: Behaviour_MPdatas.CheckMessages
+- uid: Global.Behaviour_MPdatas.ClearScreen*
+  commentId: Overload:Global.Behaviour_MPdatas.ClearScreen
+  name: ClearScreen
+  nameWithType: Behaviour_MPdatas.ClearScreen
+  fullName: Behaviour_MPdatas.ClearScreen
+- uid: Global.Behaviour_MPdatas.CloseChat*
+  commentId: Overload:Global.Behaviour_MPdatas.CloseChat
+  name: CloseChat
+  nameWithType: Behaviour_MPdatas.CloseChat
+  fullName: Behaviour_MPdatas.CloseChat

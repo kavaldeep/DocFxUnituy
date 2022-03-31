@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Tools_GlobalDataInspector
+  commentId: T:Global.Tools_GlobalDataInspector
+  id: Tools_GlobalDataInspector
+  parent: Global
+  children:
+  - Global.Tools_GlobalDataInspector.jwt
+  - Global.Tools_GlobalDataInspector.userInfo
+  - Global.Tools_GlobalDataInspector.userSetting
+  langs:
+  - csharp
+  - vb
+  name: Tools_GlobalDataInspector
+  nameWithType: Tools_GlobalDataInspector
+  fullName: Tools_GlobalDataInspector
+  type: Class
+  source:
+    id: Tools_GlobalDataInspector
+    path: ''
+    startLine: 17178
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Tools_GlobalDataInspector : MonoBehaviour'
+    content.vb: >-
+      Public Class Tools_GlobalDataInspector
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Tools_GlobalDataInspector.userInfo
+  commentId: F:Global.Tools_GlobalDataInspector.userInfo
+  id: userInfo
+  parent: Global.Tools_GlobalDataInspector
+  langs:
+  - csharp
+  - vb
+  name: userInfo
+  nameWithType: Tools_GlobalDataInspector.userInfo
+  fullName: Tools_GlobalDataInspector.userInfo
+  type: Field
+  source:
+    id: userInfo
+    path: ''
+    startLine: 17180
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UserInfo userInfo
+    return:
+      type: Global.UserInfo
+    content.vb: Public userInfo As UserInfo
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Tools_GlobalDataInspector.jwt
+  commentId: F:Global.Tools_GlobalDataInspector.jwt
+  id: jwt
+  parent: Global.Tools_GlobalDataInspector
+  langs:
+  - csharp
+  - vb
+  name: jwt
+  nameWithType: Tools_GlobalDataInspector.jwt
+  fullName: Tools_GlobalDataInspector.jwt
+  type: Field
+  source:
+    id: jwt
+    path: ''
+    startLine: 17181
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string jwt
+    return:
+      type: System.String
+    content.vb: Public jwt As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Tools_GlobalDataInspector.userSetting
+  commentId: F:Global.Tools_GlobalDataInspector.userSetting
+  id: userSetting
+  parent: Global.Tools_GlobalDataInspector
+  langs:
+  - csharp
+  - vb
+  name: userSetting
+  nameWithType: Tools_GlobalDataInspector.userSetting
+  fullName: Tools_GlobalDataInspector.userSetting
+  type: Field
+  source:
+    id: userSetting
+    path: ''
+    startLine: 17182
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UserSetting userSetting
+    return:
+      type: Global.UserSetting
+    content.vb: Public userSetting As UserSetting
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UserInfo
+  commentId: T:Global.UserInfo
+  name: UserInfo
+  nameWithType: UserInfo
+  fullName: UserInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.UserSetting
+  commentId: T:Global.UserSetting
+  name: UserSetting
+  nameWithType: UserSetting
+  fullName: UserSetting

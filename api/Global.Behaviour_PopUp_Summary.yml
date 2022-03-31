@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_PopUp_Summary
+  commentId: T:Global.Behaviour_PopUp_Summary
+  id: Behaviour_PopUp_Summary
+  parent: Global
+  children:
+  - Global.Behaviour_PopUp_Summary._popUp
+  - Global.Behaviour_PopUp_Summary.Display(System.String)
+  - Global.Behaviour_PopUp_Summary.Summary(TextMeshProUGUI)
+  - Global.Behaviour_PopUp_Summary.SummaryTribute
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_PopUp_Summary
+  nameWithType: Behaviour_PopUp_Summary
+  fullName: Behaviour_PopUp_Summary
+  type: Class
+  source:
+    id: Behaviour_PopUp_Summary
+    path: ''
+    startLine: 22710
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_PopUp_Summary : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_PopUp_Summary
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_PopUp_Summary._popUp
+  commentId: F:Global.Behaviour_PopUp_Summary._popUp
+  id: _popUp
+  parent: Global.Behaviour_PopUp_Summary
+  langs:
+  - csharp
+  - vb
+  name: _popUp
+  nameWithType: Behaviour_PopUp_Summary._popUp
+  fullName: Behaviour_PopUp_Summary._popUp
+  type: Field
+  source:
+    id: _popUp
+    path: ''
+    startLine: 22712
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject _popUp
+    return:
+      type: Global.GameObject
+    content.vb: Public _popUp As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PopUp_Summary.Summary(TextMeshProUGUI)
+  commentId: M:Global.Behaviour_PopUp_Summary.Summary(TextMeshProUGUI)
+  id: Summary(TextMeshProUGUI)
+  parent: Global.Behaviour_PopUp_Summary
+  langs:
+  - csharp
+  - vb
+  name: Summary(TextMeshProUGUI)
+  nameWithType: Behaviour_PopUp_Summary.Summary(TextMeshProUGUI)
+  fullName: Behaviour_PopUp_Summary.Summary(TextMeshProUGUI)
+  type: Method
+  source:
+    id: Summary
+    path: ''
+    startLine: 22716
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Summary(TextMeshProUGUI _nomdEpisode)
+    parameters:
+    - id: _nomdEpisode
+      type: Global.TextMeshProUGUI
+    content.vb: Public Sub Summary(_nomdEpisode As TextMeshProUGUI)
+  overload: Global.Behaviour_PopUp_Summary.Summary*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PopUp_Summary.SummaryTribute
+  commentId: M:Global.Behaviour_PopUp_Summary.SummaryTribute
+  id: SummaryTribute
+  parent: Global.Behaviour_PopUp_Summary
+  langs:
+  - csharp
+  - vb
+  name: SummaryTribute()
+  nameWithType: Behaviour_PopUp_Summary.SummaryTribute()
+  fullName: Behaviour_PopUp_Summary.SummaryTribute()
+  type: Method
+  source:
+    id: SummaryTribute
+    path: ''
+    startLine: 22730
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SummaryTribute()
+    content.vb: Public Sub SummaryTribute
+  overload: Global.Behaviour_PopUp_Summary.SummaryTribute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PopUp_Summary.Display(System.String)
+  commentId: M:Global.Behaviour_PopUp_Summary.Display(System.String)
+  id: Display(System.String)
+  parent: Global.Behaviour_PopUp_Summary
+  langs:
+  - csharp
+  - vb
+  name: Display(String)
+  nameWithType: Behaviour_PopUp_Summary.Display(String)
+  fullName: Behaviour_PopUp_Summary.Display(System.String)
+  type: Method
+  source:
+    id: Display
+    path: ''
+    startLine: 22736
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Display(string _nomEpisode)
+    parameters:
+    - id: _nomEpisode
+      type: System.String
+    content.vb: Public Sub Display(_nomEpisode As String)
+  overload: Global.Behaviour_PopUp_Summary.Display*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_PopUp_Summary.Summary*
+  commentId: Overload:Global.Behaviour_PopUp_Summary.Summary
+  name: Summary
+  nameWithType: Behaviour_PopUp_Summary.Summary
+  fullName: Behaviour_PopUp_Summary.Summary
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Behaviour_PopUp_Summary.SummaryTribute*
+  commentId: Overload:Global.Behaviour_PopUp_Summary.SummaryTribute
+  name: SummaryTribute
+  nameWithType: Behaviour_PopUp_Summary.SummaryTribute
+  fullName: Behaviour_PopUp_Summary.SummaryTribute
+- uid: Global.Behaviour_PopUp_Summary.Display*
+  commentId: Overload:Global.Behaviour_PopUp_Summary.Display
+  name: Display
+  nameWithType: Behaviour_PopUp_Summary.Display
+  fullName: Behaviour_PopUp_Summary.Display
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

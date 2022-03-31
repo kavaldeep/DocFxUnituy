@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UI_SlideShow
+  commentId: T:Global.UI_SlideShow
+  id: UI_SlideShow
+  parent: Global
+  children:
+  - Global.UI_SlideShow.Start
+  - Global.UI_SlideShow.Update
+  langs:
+  - csharp
+  - vb
+  name: UI_SlideShow
+  nameWithType: UI_SlideShow
+  fullName: UI_SlideShow
+  type: Class
+  source:
+    id: UI_SlideShow
+    path: ''
+    startLine: 27724
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UI_SlideShow : MonoBehaviour'
+    content.vb: >-
+      Public Class UI_SlideShow
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UI_SlideShow.Start
+  commentId: M:Global.UI_SlideShow.Start
+  id: Start
+  parent: Global.UI_SlideShow
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: UI_SlideShow.Start()
+  fullName: UI_SlideShow.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 27733
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Start()
+    content.vb: Protected Sub Start
+  overload: Global.UI_SlideShow.Start*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.UI_SlideShow.Update
+  commentId: M:Global.UI_SlideShow.Update
+  id: Update
+  parent: Global.UI_SlideShow
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: UI_SlideShow.Update()
+  fullName: UI_SlideShow.Update()
+  type: Method
+  source:
+    id: Update
+    path: ''
+    startLine: 27744
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Update()
+    content.vb: Protected Sub Update
+  overload: Global.UI_SlideShow.Update*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UI_SlideShow.Start*
+  commentId: Overload:Global.UI_SlideShow.Start
+  name: Start
+  nameWithType: UI_SlideShow.Start
+  fullName: UI_SlideShow.Start
+- uid: Global.UI_SlideShow.Update*
+  commentId: Overload:Global.UI_SlideShow.Update
+  name: Update
+  nameWithType: UI_SlideShow.Update
+  fullName: UI_SlideShow.Update

@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Tools_FixAspectRatio
+  commentId: T:Global.Tools_FixAspectRatio
+  id: Tools_FixAspectRatio
+  parent: Global
+  children:
+  - Global.Tools_FixAspectRatio.Awake
+  - Global.Tools_FixAspectRatio.baseHeight
+  - Global.Tools_FixAspectRatio.baseWidth
+  - Global.Tools_FixAspectRatio.FixAspectRatio
+  - Global.Tools_FixAspectRatio.Recalibrate
+  - Global.Tools_FixAspectRatio.tra
+  langs:
+  - csharp
+  - vb
+  name: Tools_FixAspectRatio
+  nameWithType: Tools_FixAspectRatio
+  fullName: Tools_FixAspectRatio
+  type: Class
+  source:
+    id: Tools_FixAspectRatio
+    path: ''
+    startLine: 9664
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Tools_FixAspectRatio : MonoBehaviour'
+    content.vb: >-
+      Public Class Tools_FixAspectRatio
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Tools_FixAspectRatio.tra
+  commentId: F:Global.Tools_FixAspectRatio.tra
+  id: tra
+  parent: Global.Tools_FixAspectRatio
+  langs:
+  - csharp
+  - vb
+  name: tra
+  nameWithType: Tools_FixAspectRatio.tra
+  fullName: Tools_FixAspectRatio.tra
+  type: Field
+  source:
+    id: tra
+    path: ''
+    startLine: 9666
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RectTransform tra
+    return:
+      type: Global.RectTransform
+    content.vb: Public tra As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Tools_FixAspectRatio.baseWidth
+  commentId: F:Global.Tools_FixAspectRatio.baseWidth
+  id: baseWidth
+  parent: Global.Tools_FixAspectRatio
+  langs:
+  - csharp
+  - vb
+  name: baseWidth
+  nameWithType: Tools_FixAspectRatio.baseWidth
+  fullName: Tools_FixAspectRatio.baseWidth
+  type: Field
+  source:
+    id: baseWidth
+    path: ''
+    startLine: 9667
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float baseWidth
+    return:
+      type: System.Single
+    content.vb: Public baseWidth As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Tools_FixAspectRatio.baseHeight
+  commentId: F:Global.Tools_FixAspectRatio.baseHeight
+  id: baseHeight
+  parent: Global.Tools_FixAspectRatio
+  langs:
+  - csharp
+  - vb
+  name: baseHeight
+  nameWithType: Tools_FixAspectRatio.baseHeight
+  fullName: Tools_FixAspectRatio.baseHeight
+  type: Field
+  source:
+    id: baseHeight
+    path: ''
+    startLine: 9667
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float baseHeight
+    return:
+      type: System.Single
+    content.vb: Public baseHeight As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Tools_FixAspectRatio.Awake
+  commentId: M:Global.Tools_FixAspectRatio.Awake
+  id: Awake
+  parent: Global.Tools_FixAspectRatio
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Tools_FixAspectRatio.Awake()
+  fullName: Tools_FixAspectRatio.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 9669
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: Global.Tools_FixAspectRatio.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Tools_FixAspectRatio.Recalibrate
+  commentId: M:Global.Tools_FixAspectRatio.Recalibrate
+  id: Recalibrate
+  parent: Global.Tools_FixAspectRatio
+  langs:
+  - csharp
+  - vb
+  name: Recalibrate()
+  nameWithType: Tools_FixAspectRatio.Recalibrate()
+  fullName: Tools_FixAspectRatio.Recalibrate()
+  type: Method
+  source:
+    id: Recalibrate
+    path: ''
+    startLine: 9675
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Recalibrate()
+    content.vb: Public Sub Recalibrate
+  overload: Global.Tools_FixAspectRatio.Recalibrate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Tools_FixAspectRatio.FixAspectRatio
+  commentId: M:Global.Tools_FixAspectRatio.FixAspectRatio
+  id: FixAspectRatio
+  parent: Global.Tools_FixAspectRatio
+  langs:
+  - csharp
+  - vb
+  name: FixAspectRatio()
+  nameWithType: Tools_FixAspectRatio.FixAspectRatio()
+  fullName: Tools_FixAspectRatio.FixAspectRatio()
+  type: Method
+  source:
+    id: FixAspectRatio
+    path: ''
+    startLine: 9680
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void FixAspectRatio()
+    content.vb: Public Sub FixAspectRatio
+  overload: Global.Tools_FixAspectRatio.FixAspectRatio*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Tools_FixAspectRatio.Awake*
+  commentId: Overload:Global.Tools_FixAspectRatio.Awake
+  name: Awake
+  nameWithType: Tools_FixAspectRatio.Awake
+  fullName: Tools_FixAspectRatio.Awake
+- uid: Global.Tools_FixAspectRatio.Recalibrate*
+  commentId: Overload:Global.Tools_FixAspectRatio.Recalibrate
+  name: Recalibrate
+  nameWithType: Tools_FixAspectRatio.Recalibrate
+  fullName: Tools_FixAspectRatio.Recalibrate
+- uid: Global.Tools_FixAspectRatio.FixAspectRatio*
+  commentId: Overload:Global.Tools_FixAspectRatio.FixAspectRatio
+  name: FixAspectRatio
+  nameWithType: Tools_FixAspectRatio.FixAspectRatio
+  fullName: Tools_FixAspectRatio.FixAspectRatio

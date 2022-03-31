@@ -1,0 +1,268 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_PageManager
+  commentId: T:Global.Behaviour_PageManager
+  id: Behaviour_PageManager
+  parent: Global
+  children:
+  - Global.Behaviour_PageManager.AddPageOnTop(Behaviour_Page)
+  - Global.Behaviour_PageManager.AddPageOnTopAnim(Behaviour_Page)
+  - Global.Behaviour_PageManager.CurrentPage
+  - Global.Behaviour_PageManager.GoBackToPreviousPage
+  - Global.Behaviour_PageManager.GoBackToPreviousPageAnim
+  - Global.Behaviour_PageManager.SwitchPage(Behaviour_Page)
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_PageManager
+  nameWithType: Behaviour_PageManager
+  fullName: Behaviour_PageManager
+  type: Class
+  source:
+    id: Behaviour_PageManager
+    path: ''
+    startLine: 20289
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public sealed class Behaviour_PageManager : MonoBehaviour'
+    content.vb: >-
+      Public NotInheritable Class Behaviour_PageManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Global.Behaviour_PageManager.CurrentPage
+  commentId: P:Global.Behaviour_PageManager.CurrentPage
+  id: CurrentPage
+  parent: Global.Behaviour_PageManager
+  langs:
+  - csharp
+  - vb
+  name: CurrentPage
+  nameWithType: Behaviour_PageManager.CurrentPage
+  fullName: Behaviour_PageManager.CurrentPage
+  type: Property
+  source:
+    id: CurrentPage
+    path: ''
+    startLine: 20295
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_Page CurrentPage { get; }
+    parameters: []
+    return:
+      type: Global.Behaviour_Page
+    content.vb: Public ReadOnly Property CurrentPage As Behaviour_Page
+  overload: Global.Behaviour_PageManager.CurrentPage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.Behaviour_PageManager.SwitchPage(Behaviour_Page)
+  commentId: M:Global.Behaviour_PageManager.SwitchPage(Behaviour_Page)
+  id: SwitchPage(Behaviour_Page)
+  parent: Global.Behaviour_PageManager
+  langs:
+  - csharp
+  - vb
+  name: SwitchPage(Behaviour_Page)
+  nameWithType: Behaviour_PageManager.SwitchPage(Behaviour_Page)
+  fullName: Behaviour_PageManager.SwitchPage(Behaviour_Page)
+  type: Method
+  source:
+    id: SwitchPage
+    path: ''
+    startLine: 20304
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SwitchPage(Behaviour_Page newPage)
+    parameters:
+    - id: newPage
+      type: Global.Behaviour_Page
+    content.vb: Public Sub SwitchPage(newPage As Behaviour_Page)
+  overload: Global.Behaviour_PageManager.SwitchPage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PageManager.AddPageOnTopAnim(Behaviour_Page)
+  commentId: M:Global.Behaviour_PageManager.AddPageOnTopAnim(Behaviour_Page)
+  id: AddPageOnTopAnim(Behaviour_Page)
+  parent: Global.Behaviour_PageManager
+  langs:
+  - csharp
+  - vb
+  name: AddPageOnTopAnim(Behaviour_Page)
+  nameWithType: Behaviour_PageManager.AddPageOnTopAnim(Behaviour_Page)
+  fullName: Behaviour_PageManager.AddPageOnTopAnim(Behaviour_Page)
+  type: Method
+  source:
+    id: AddPageOnTopAnim
+    path: ''
+    startLine: 20315
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AddPageOnTopAnim(Behaviour_Page newPage)
+    parameters:
+    - id: newPage
+      type: Global.Behaviour_Page
+    content.vb: Public Sub AddPageOnTopAnim(newPage As Behaviour_Page)
+  overload: Global.Behaviour_PageManager.AddPageOnTopAnim*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PageManager.GoBackToPreviousPageAnim
+  commentId: M:Global.Behaviour_PageManager.GoBackToPreviousPageAnim
+  id: GoBackToPreviousPageAnim
+  parent: Global.Behaviour_PageManager
+  langs:
+  - csharp
+  - vb
+  name: GoBackToPreviousPageAnim()
+  nameWithType: Behaviour_PageManager.GoBackToPreviousPageAnim()
+  fullName: Behaviour_PageManager.GoBackToPreviousPageAnim()
+  type: Method
+  source:
+    id: GoBackToPreviousPageAnim
+    path: ''
+    startLine: 20326
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GoBackToPreviousPageAnim()
+    content.vb: Public Sub GoBackToPreviousPageAnim
+  overload: Global.Behaviour_PageManager.GoBackToPreviousPageAnim*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PageManager.AddPageOnTop(Behaviour_Page)
+  commentId: M:Global.Behaviour_PageManager.AddPageOnTop(Behaviour_Page)
+  id: AddPageOnTop(Behaviour_Page)
+  parent: Global.Behaviour_PageManager
+  langs:
+  - csharp
+  - vb
+  name: AddPageOnTop(Behaviour_Page)
+  nameWithType: Behaviour_PageManager.AddPageOnTop(Behaviour_Page)
+  fullName: Behaviour_PageManager.AddPageOnTop(Behaviour_Page)
+  type: Method
+  source:
+    id: AddPageOnTop
+    path: ''
+    startLine: 20337
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AddPageOnTop(Behaviour_Page newPage)
+    parameters:
+    - id: newPage
+      type: Global.Behaviour_Page
+    content.vb: Public Sub AddPageOnTop(newPage As Behaviour_Page)
+  overload: Global.Behaviour_PageManager.AddPageOnTop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PageManager.GoBackToPreviousPage
+  commentId: M:Global.Behaviour_PageManager.GoBackToPreviousPage
+  id: GoBackToPreviousPage
+  parent: Global.Behaviour_PageManager
+  langs:
+  - csharp
+  - vb
+  name: GoBackToPreviousPage()
+  nameWithType: Behaviour_PageManager.GoBackToPreviousPage()
+  fullName: Behaviour_PageManager.GoBackToPreviousPage()
+  type: Method
+  source:
+    id: GoBackToPreviousPage
+    path: ''
+    startLine: 20346
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GoBackToPreviousPage()
+    content.vb: Public Sub GoBackToPreviousPage
+  overload: Global.Behaviour_PageManager.GoBackToPreviousPage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_PageManager.CurrentPage*
+  commentId: Overload:Global.Behaviour_PageManager.CurrentPage
+  name: CurrentPage
+  nameWithType: Behaviour_PageManager.CurrentPage
+  fullName: Behaviour_PageManager.CurrentPage
+- uid: Global.Behaviour_Page
+  commentId: T:Global.Behaviour_Page
+  name: Behaviour_Page
+  nameWithType: Behaviour_Page
+  fullName: Behaviour_Page
+- uid: Global.Behaviour_PageManager.SwitchPage*
+  commentId: Overload:Global.Behaviour_PageManager.SwitchPage
+  name: SwitchPage
+  nameWithType: Behaviour_PageManager.SwitchPage
+  fullName: Behaviour_PageManager.SwitchPage
+- uid: Global.Behaviour_PageManager.AddPageOnTopAnim*
+  commentId: Overload:Global.Behaviour_PageManager.AddPageOnTopAnim
+  name: AddPageOnTopAnim
+  nameWithType: Behaviour_PageManager.AddPageOnTopAnim
+  fullName: Behaviour_PageManager.AddPageOnTopAnim
+- uid: Global.Behaviour_PageManager.GoBackToPreviousPageAnim*
+  commentId: Overload:Global.Behaviour_PageManager.GoBackToPreviousPageAnim
+  name: GoBackToPreviousPageAnim
+  nameWithType: Behaviour_PageManager.GoBackToPreviousPageAnim
+  fullName: Behaviour_PageManager.GoBackToPreviousPageAnim
+- uid: Global.Behaviour_PageManager.AddPageOnTop*
+  commentId: Overload:Global.Behaviour_PageManager.AddPageOnTop
+  name: AddPageOnTop
+  nameWithType: Behaviour_PageManager.AddPageOnTop
+  fullName: Behaviour_PageManager.AddPageOnTop
+- uid: Global.Behaviour_PageManager.GoBackToPreviousPage*
+  commentId: Overload:Global.Behaviour_PageManager.GoBackToPreviousPage
+  name: GoBackToPreviousPage
+  nameWithType: Behaviour_PageManager.GoBackToPreviousPage
+  fullName: Behaviour_PageManager.GoBackToPreviousPage

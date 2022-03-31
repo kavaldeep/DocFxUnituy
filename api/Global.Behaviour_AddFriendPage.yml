@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_AddFriendPage
+  commentId: T:Global.Behaviour_AddFriendPage
+  id: Behaviour_AddFriendPage
+  parent: Global
+  children:
+  - Global.Behaviour_AddFriendPage.ShowSocialMediaFriends(Interface_SocialNetwork)
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_AddFriendPage
+  nameWithType: Behaviour_AddFriendPage
+  fullName: Behaviour_AddFriendPage
+  type: Class
+  source:
+    id: Behaviour_AddFriendPage
+    path: ''
+    startLine: 14785
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_AddFriendPage : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_AddFriendPage
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_AddFriendPage.ShowSocialMediaFriends(Interface_SocialNetwork)
+  commentId: M:Global.Behaviour_AddFriendPage.ShowSocialMediaFriends(Interface_SocialNetwork)
+  id: ShowSocialMediaFriends(Interface_SocialNetwork)
+  parent: Global.Behaviour_AddFriendPage
+  langs:
+  - csharp
+  - vb
+  name: ShowSocialMediaFriends(Interface_SocialNetwork)
+  nameWithType: Behaviour_AddFriendPage.ShowSocialMediaFriends(Interface_SocialNetwork)
+  fullName: Behaviour_AddFriendPage.ShowSocialMediaFriends(Interface_SocialNetwork)
+  type: Method
+  source:
+    id: ShowSocialMediaFriends
+    path: ''
+    startLine: 14789
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ShowSocialMediaFriends(Interface_SocialNetwork socialMedia)
+    parameters:
+    - id: socialMedia
+      type: Global.Interface_SocialNetwork
+    content.vb: Public Sub ShowSocialMediaFriends(socialMedia As Interface_SocialNetwork)
+  overload: Global.Behaviour_AddFriendPage.ShowSocialMediaFriends*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_AddFriendPage.ShowSocialMediaFriends*
+  commentId: Overload:Global.Behaviour_AddFriendPage.ShowSocialMediaFriends
+  name: ShowSocialMediaFriends
+  nameWithType: Behaviour_AddFriendPage.ShowSocialMediaFriends
+  fullName: Behaviour_AddFriendPage.ShowSocialMediaFriends
+- uid: Global.Interface_SocialNetwork
+  commentId: T:Global.Interface_SocialNetwork
+  name: Interface_SocialNetwork
+  nameWithType: Interface_SocialNetwork
+  fullName: Interface_SocialNetwork

@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace Global
+   | Example Unity documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace Global
+   | Example Unity documentation ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../manual/coniunctis.html" title="Manual">Manual</a>
+                      </li>
+                      <li>
+                          <a href="../api/Global.html" title="Scripting API">Scripting API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="active">
+                      <span class="expand-stub"></span>
+                      <a href="Global.html" title="Global" class="active">Global</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Global.AnchorPresets.html" title="AnchorPresets" class="">AnchorPresets</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.ApplyToAll.html" title="ApplyToAll" class="">ApplyToAll</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.AWS3.html" title="AWS3" class="">AWS3</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behavior_Guest.html" title="Behavior_Guest" class="">Behavior_Guest</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behavior_Guest_PopUp.html" title="Behavior_Guest_PopUp" class="">Behavior_Guest_PopUp</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ActorTeam_Instantiator.html" title="Behaviour_ActorTeam_Instantiator" class="">Behaviour_ActorTeam_Instantiator</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_AddFriendPage.html" title="Behaviour_AddFriendPage" class="">Behaviour_AddFriendPage</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_BottomBar.html" title="Behaviour_BottomBar" class="">Behaviour_BottomBar</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_BottomButtonAction.html" title="Behaviour_BottomButtonAction" class="">Behaviour_BottomButtonAction</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_Buttons.html" title="Behaviour_Buttons" class="">Behaviour_Buttons</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ButtonSeries.html" title="Behaviour_ButtonSeries" class="">Behaviour_ButtonSeries</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ButtonSwitchSerieMethod.html" title="Behaviour_ButtonSwitchSerieMethod" class="">Behaviour_ButtonSwitchSerieMethod</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_CameraInitializer.html" title="Behaviour_CameraInitializer" class="">Behaviour_CameraInitializer</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ChangeCurrency.html" title="Behaviour_ChangeCurrency" class="">Behaviour_ChangeCurrency</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ChangeProfileInformationStatus.html" title="Behaviour_ChangeProfileInformationStatus" class="">Behaviour_ChangeProfileInformationStatus</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_CheckMessages.html" title="Behaviour_CheckMessages" class="">Behaviour_CheckMessages</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ClampFPS.html" title="Behaviour_ClampFPS" class="">Behaviour_ClampFPS</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_contactsList.html" title="Behaviour_contactsList" class="">Behaviour_contactsList</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ConversationList.html" title="Behaviour_ConversationList" class="">Behaviour_ConversationList</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_CullingSystem.html" title="Behaviour_CullingSystem" class="">Behaviour_CullingSystem</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_DestroyTarget.html" title="Behaviour_DestroyTarget" class="">Behaviour_DestroyTarget</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_DisplayPassword.html" title="Behaviour_DisplayPassword" class="">Behaviour_DisplayPassword</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_DisplayPhoto.html" title="Behaviour_DisplayPhoto" class="">Behaviour_DisplayPhoto</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_DisplayPost.html" title="Behaviour_DisplayPost" class="">Behaviour_DisplayPost</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_EnableVideoPlayer.html" title="Behaviour_EnableVideoPlayer" class="">Behaviour_EnableVideoPlayer</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_EpisodeFiller.html" title="Behaviour_EpisodeFiller" class="">Behaviour_EpisodeFiller</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_EpisodeInstance.html" title="Behaviour_EpisodeInstance" class="">Behaviour_EpisodeInstance</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_EpisodeLauncher_Information.html" title="Behaviour_EpisodeLauncher_Information" class="">Behaviour_EpisodeLauncher_Information</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_EpisodePageInfo.html" title="Behaviour_EpisodePageInfo" class="">Behaviour_EpisodePageInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_EpisodeSelectionInstantiator.html" title="Behaviour_EpisodeSelectionInstantiator" class="">Behaviour_EpisodeSelectionInstantiator</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_FacebookLogin.html" title="Behaviour_FacebookLogin" class="">Behaviour_FacebookLogin</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_FacebookLogInButton.html" title="Behaviour_FacebookLogInButton" class="">Behaviour_FacebookLogInButton</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_FanartFiller.html" title="Behaviour_FanartFiller" class="">Behaviour_FanartFiller</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_FanartInstance.html" title="Behaviour_FanartInstance" class="">Behaviour_FanartInstance</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_FlexibleGridLayout.html" title="Behaviour_FlexibleGridLayout" class="">Behaviour_FlexibleGridLayout</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_FlexibleGridLayout.FitType.html" title="Behaviour_FlexibleGridLayout.FitType" class="">Behaviour_FlexibleGridLayout.FitType</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ForgotPassword.html" title="Behaviour_ForgotPassword" class="">Behaviour_ForgotPassword</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_friendDatas.html" title="Behaviour_friendDatas" class="">Behaviour_friendDatas</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_FriendInvite.html" title="Behaviour_FriendInvite" class="">Behaviour_FriendInvite</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_FriendInvite_Page.html" title="Behaviour_FriendInvite_Page" class="">Behaviour_FriendInvite_Page</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_FriendList.html" title="Behaviour_FriendList" class="">Behaviour_FriendList</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_GalleryLink.html" title="Behaviour_GalleryLink" class="">Behaviour_GalleryLink</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_GetCommentary.html" title="Behaviour_GetCommentary" class="">Behaviour_GetCommentary</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_GetCommentaryPost.html" title="Behaviour_GetCommentaryPost" class="">Behaviour_GetCommentaryPost</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_GetNewUser.html" title="Behaviour_GetNewUser" class="">Behaviour_GetNewUser</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_GetPosts.html" title="Behaviour_GetPosts" class="">Behaviour_GetPosts</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_GPS.html" title="Behaviour_GPS" class="">Behaviour_GPS</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ImagePicProposition.html" title="Behaviour_ImagePicProposition" class="">Behaviour_ImagePicProposition</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_InviteList.html" title="Behaviour_InviteList" class="">Behaviour_InviteList</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_JsonEditorHandler.html" title="Behaviour_JsonEditorHandler" class="">Behaviour_JsonEditorHandler</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_JsonEditorSimple.html" title="Behaviour_JsonEditorSimple" class="">Behaviour_JsonEditorSimple</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_LandingPage.html" title="Behaviour_LandingPage" class="">Behaviour_LandingPage</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_LandingPageInstantiator.html" title="Behaviour_LandingPageInstantiator" class="">Behaviour_LandingPageInstantiator</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_LogIn.html" title="Behaviour_LogIn" class="">Behaviour_LogIn</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_Logout.html" title="Behaviour_Logout" class="">Behaviour_Logout</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_MiniNewsFiller.html" title="Behaviour_MiniNewsFiller" class="">Behaviour_MiniNewsFiller</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_MiniNewsFiller.NewsType.html" title="Behaviour_MiniNewsFiller.NewsType" class="">Behaviour_MiniNewsFiller.NewsType</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_MiniShopFiller.html" title="Behaviour_MiniShopFiller" class="">Behaviour_MiniShopFiller</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_MiniShopFiller.ShopType.html" title="Behaviour_MiniShopFiller.ShopType" class="">Behaviour_MiniShopFiller.ShopType</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_MPdatas.html" title="Behaviour_MPdatas" class="">Behaviour_MPdatas</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_NewsFiller.html" title="Behaviour_NewsFiller" class="">Behaviour_NewsFiller</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_NewsGenerator_LobbyPage.html" title="Behaviour_NewsGenerator_LobbyPage" class="">Behaviour_NewsGenerator_LobbyPage</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_NewsGenerator_NewsPage.html" title="Behaviour_NewsGenerator_NewsPage" class="">Behaviour_NewsGenerator_NewsPage</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_NewsInstance.html" title="Behaviour_NewsInstance" class="">Behaviour_NewsInstance</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_Page.html" title="Behaviour_Page" class="">Behaviour_Page</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_PageManager.html" title="Behaviour_PageManager" class="">Behaviour_PageManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_PlayerTypeExp.html" title="Behaviour_PlayerTypeExp" class="">Behaviour_PlayerTypeExp</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_PlayPauseVideo.html" title="Behaviour_PlayPauseVideo" class="">Behaviour_PlayPauseVideo</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_PopUp_Summary.html" title="Behaviour_PopUp_Summary" class="">Behaviour_PopUp_Summary</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_PopUpButtonInitializer.html" title="Behaviour_PopUpButtonInitializer" class="">Behaviour_PopUpButtonInitializer</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_PopUpInitializer.html" title="Behaviour_PopUpInitializer" class="">Behaviour_PopUpInitializer</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_PopUpLoading.html" title="Behaviour_PopUpLoading" class="">Behaviour_PopUpLoading</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_PreviousNextEpisode.html" title="Behaviour_PreviousNextEpisode" class="">Behaviour_PreviousNextEpisode</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ProfileInfoFiller.html" title="Behaviour_ProfileInfoFiller" class="">Behaviour_ProfileInfoFiller</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ProfilePicSelector.html" title="Behaviour_ProfilePicSelector" class="">Behaviour_ProfilePicSelector</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_PropertyEditor.html" title="Behaviour_PropertyEditor" class="">Behaviour_PropertyEditor</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_PropertyHolder.html" title="Behaviour_PropertyHolder" class="">Behaviour_PropertyHolder</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SafeArea.html" title="Behaviour_SafeArea" class="">Behaviour_SafeArea</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ScreenSwitcher.html" title="Behaviour_ScreenSwitcher" class="">Behaviour_ScreenSwitcher</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SeasonChanger.html" title="Behaviour_SeasonChanger" class="">Behaviour_SeasonChanger</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SelectEpisode.html" title="Behaviour_SelectEpisode" class="">Behaviour_SelectEpisode</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SendFriendRequest.html" title="Behaviour_SendFriendRequest" class="">Behaviour_SendFriendRequest</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SendFriendRequestList.html" title="Behaviour_SendFriendRequestList" class="">Behaviour_SendFriendRequestList</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieData.html" title="Behaviour_SerieData" class="">Behaviour_SerieData</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieData.OnEvent.html" title="Behaviour_SerieData.OnEvent" class="">Behaviour_SerieData.OnEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieFiller.html" title="Behaviour_SerieFiller" class="">Behaviour_SerieFiller</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieGenerator.html" title="Behaviour_SerieGenerator" class="">Behaviour_SerieGenerator</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieInformationHolder.html" title="Behaviour_SerieInformationHolder" class="">Behaviour_SerieInformationHolder</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieInformationHolder.accountStruct.html" title="Behaviour_SerieInformationHolder.accountStruct" class="">Behaviour_SerieInformationHolder.accountStruct</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieInformationHolder.episodeStruct.html" title="Behaviour_SerieInformationHolder.episodeStruct" class="">Behaviour_SerieInformationHolder.episodeStruct</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieInformationHolder.fanartStruct.html" title="Behaviour_SerieInformationHolder.fanartStruct" class="">Behaviour_SerieInformationHolder.fanartStruct</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieInformationHolder.linksStruct.html" title="Behaviour_SerieInformationHolder.linksStruct" class="">Behaviour_SerieInformationHolder.linksStruct</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieInformationHolder.newsStruct.html" title="Behaviour_SerieInformationHolder.newsStruct" class="">Behaviour_SerieInformationHolder.newsStruct</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieInformationHolder.productStruct.html" title="Behaviour_SerieInformationHolder.productStruct" class="">Behaviour_SerieInformationHolder.productStruct</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieInformationHolder.suggestionsStruct.html" title="Behaviour_SerieInformationHolder.suggestionsStruct" class="">Behaviour_SerieInformationHolder.suggestionsStruct</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieInformationHolder.TeamMemberStruct.html" title="Behaviour_SerieInformationHolder.TeamMemberStruct" class="">Behaviour_SerieInformationHolder.TeamMemberStruct</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieInformationHolder.timestampStruct.html" title="Behaviour_SerieInformationHolder.timestampStruct" class="">Behaviour_SerieInformationHolder.timestampStruct</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieManager.html" title="Behaviour_SerieManager" class="">Behaviour_SerieManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SerieNewsGenerator.html" title="Behaviour_SerieNewsGenerator" class="">Behaviour_SerieNewsGenerator</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_ShopFiller.html" title="Behaviour_ShopFiller" class="">Behaviour_ShopFiller</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SlidePages.html" title="Behaviour_SlidePages" class="">Behaviour_SlidePages</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_SwitchPages.html" title="Behaviour_SwitchPages" class="">Behaviour_SwitchPages</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_Tags.html" title="Behaviour_Tags" class="">Behaviour_Tags</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_TMProTextLoader.html" title="Behaviour_TMProTextLoader" class="">Behaviour_TMProTextLoader</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_TopProfileBar.html" title="Behaviour_TopProfileBar" class="">Behaviour_TopProfileBar</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_Transition.html" title="Behaviour_Transition" class="">Behaviour_Transition</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_TribiewShopGenerator.html" title="Behaviour_TribiewShopGenerator" class="">Behaviour_TribiewShopGenerator</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_Tribute_SerieInfos.html" title="Behaviour_Tribute_SerieInfos" class="">Behaviour_Tribute_SerieInfos</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Behaviour_UploadImageScene.html" title="Behaviour_UploadImageScene" class="">Behaviour_UploadImageScene</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.ButtonFadeInAnimation.html" title="ButtonFadeInAnimation" class="">ButtonFadeInAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Chest.html" title="Chest" class="">Chest</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.CoinsManager.html" title="CoinsManager" class="">CoinsManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.CollectButtonCollectedAnimation.html" title="CollectButtonCollectedAnimation" class="">CollectButtonCollectedAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Contributors_FadeInAnimation.html" title="Contributors_FadeInAnimation" class="">Contributors_FadeInAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.CSProjectFilePostProcessor.html" title="CSProjectFilePostProcessor" class="">CSProjectFilePostProcessor</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Debug_FillSlider.html" title="Debug_FillSlider" class="">Debug_FillSlider</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.DownloadReturnInfos.html" title="DownloadReturnInfos" class="">DownloadReturnInfos</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Editor_AssetImportModificator.html" title="Editor_AssetImportModificator" class="">Editor_AssetImportModificator</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Editor_FontChecker.html" title="Editor_FontChecker" class="">Editor_FontChecker</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Editor_ImageCkecker.html" title="Editor_ImageCkecker" class="">Editor_ImageCkecker</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Editor_ImageCkecker.ImageCheck.html" title="Editor_ImageCkecker.ImageCheck" class="">Editor_ImageCkecker.ImageCheck</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Editor_LanguageChecker.html" title="Editor_LanguageChecker" class="">Editor_LanguageChecker</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Editor_LanguageChecker.LanguageCheck.html" title="Editor_LanguageChecker.LanguageCheck" class="">Editor_LanguageChecker.LanguageCheck</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Editor_LanguageCreator.html" title="Editor_LanguageCreator" class="">Editor_LanguageCreator</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Editor_TextReplacer.html" title="Editor_TextReplacer" class="">Editor_TextReplacer</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Editor_Tools_AspectRatio.html" title="Editor_Tools_AspectRatio" class="">Editor_Tools_AspectRatio</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.EditorObject.html" title="EditorObject" class="">EditorObject</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Enum_Language.html" title="Enum_Language" class="">Enum_Language</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Episode.html" title="Episode" class="">Episode</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.FacebookController.html" title="FacebookController" class="">FacebookController</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.FadeOutAnimation.html" title="FadeOutAnimation" class="">FadeOutAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.FanArt.html" title="FanArt" class="">FanArt</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.FindTheHeight.html" title="FindTheHeight" class="">FindTheHeight</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.FriendsInfo.html" title="FriendsInfo" class="">FriendsInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.HeaderButtonsPlayAnimation.html" title="HeaderButtonsPlayAnimation" class="">HeaderButtonsPlayAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.ImageFile.html" title="ImageFile" class="">ImageFile</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.ImportedPic.html" title="ImportedPic" class="">ImportedPic</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.InfoSerie.html" title="InfoSerie" class="">InfoSerie</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Interface_Singleton_Data.html" title="Interface_Singleton_Data" class="">Interface_Singleton_Data</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Interface_SocialNetwork.html" title="Interface_SocialNetwork" class="">Interface_SocialNetwork</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.JasonSTP.html" title="JasonSTP" class="">JasonSTP</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.JSONEditor.html" title="JSONEditor" class="">JSONEditor</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Link.html" title="Link" class="">Link</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.LoadFileReturnMessage.html" title="LoadFileReturnMessage" class="">LoadFileReturnMessage</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Manager_GetFBfriends.html" title="Manager_GetFBfriends" class="">Manager_GetFBfriends</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Manager_GetFBposts.html" title="Manager_GetFBposts" class="">Manager_GetFBposts</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MaskSizeFixer.html" title="MaskSizeFixer" class="">MaskSizeFixer</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MedaiPlayerSampleGUI.html" title="MedaiPlayerSampleGUI" class="">MedaiPlayerSampleGUI</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MedaiPlayerSampleSphereGUI.html" title="MedaiPlayerSampleSphereGUI" class="">MedaiPlayerSampleSphereGUI</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerCtrl.html" title="MediaPlayerCtrl" class="">MediaPlayerCtrl</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerCtrl.MEDIA_SCALE.html" title="MediaPlayerCtrl.MEDIA_SCALE" class="">MediaPlayerCtrl.MEDIA_SCALE</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.html" title="MediaPlayerCtrl.MEDIAPLAYER_ERROR" class="">MediaPlayerCtrl.MEDIAPLAYER_ERROR</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.html" title="MediaPlayerCtrl.MEDIAPLAYER_STATE" class="">MediaPlayerCtrl.MEDIAPLAYER_STATE</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerCtrl.VideoBuffering.html" title="MediaPlayerCtrl.VideoBuffering" class="">MediaPlayerCtrl.VideoBuffering</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerCtrl.VideoBufferingEnd.html" title="MediaPlayerCtrl.VideoBufferingEnd" class="">MediaPlayerCtrl.VideoBufferingEnd</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerCtrl.VideoEnd.html" title="MediaPlayerCtrl.VideoEnd" class="">MediaPlayerCtrl.VideoEnd</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerCtrl.VideoError.html" title="MediaPlayerCtrl.VideoError" class="">MediaPlayerCtrl.VideoError</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerCtrl.VideoFirstFrameReady.html" title="MediaPlayerCtrl.VideoFirstFrameReady" class="">MediaPlayerCtrl.VideoFirstFrameReady</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerCtrl.VideoReady.html" title="MediaPlayerCtrl.VideoReady" class="">MediaPlayerCtrl.VideoReady</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerCtrl.VideoResize.html" title="MediaPlayerCtrl.VideoResize" class="">MediaPlayerCtrl.VideoResize</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerEvent.html" title="MediaPlayerEvent" class="">MediaPlayerEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MediaPlayerFullScreenCtrl.html" title="MediaPlayerFullScreenCtrl" class="">MediaPlayerFullScreenCtrl</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.MenuJsonEditor.html" title="MenuJsonEditor" class="">MenuJsonEditor</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.NewsInfo.html" title="NewsInfo" class="">NewsInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.NewUserFriendRequestSent.html" title="NewUserFriendRequestSent" class="">NewUserFriendRequestSent</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.OnBecameInvisible.html" title="OnBecameInvisible" class="">OnBecameInvisible</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.OnFileDownloadingComplete.html" title="OnFileDownloadingComplete" class="">OnFileDownloadingComplete</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.OnSerieLoadingComplete.html" title="OnSerieLoadingComplete" class="">OnSerieLoadingComplete</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.OnTextureDownloadingComplete.html" title="OnTextureDownloadingComplete" class="">OnTextureDownloadingComplete</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.PermissionsRationaleDialogExternalRead.html" title="PermissionsRationaleDialogExternalRead" class="">PermissionsRationaleDialogExternalRead</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.PickImage.html" title="PickImage" class="">PickImage</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.PickImageTest.html" title="PickImageTest" class="">PickImageTest</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.pickimageviastatic.html" title="pickimageviastatic" class="">pickimageviastatic</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.PivotPresets.html" title="PivotPresets" class="">PivotPresets</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.PopUp_ScaleUpAnimation.html" title="PopUp_ScaleUpAnimation" class="">PopUp_ScaleUpAnimation</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Post.html" title="Post" class="">Post</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Post.Content.html" title="Post.Content" class="">Post.Content</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Post.Origin.html" title="Post.Origin" class="">Post.Origin</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Post.Sender.html" title="Post.Sender" class="">Post.Sender</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Post.Stats.html" title="Post.Stats" class="">Post.Stats</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Product.html" title="Product" class="">Product</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Profil.html" title="Profil" class="">Profil</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.RectTransformExtensions.html" title="RectTransformExtensions" class="">RectTransformExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Reward.html" title="Reward" class="">Reward</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.RewardedPic.html" title="RewardedPic" class="">RewardedPic</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.ScreenTime.html" title="ScreenTime" class="">ScreenTime</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.SeekBarCtrl.html" title="SeekBarCtrl" class="">SeekBarCtrl</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.SerieNews.html" title="SerieNews" class="">SerieNews</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.SerieShop.html" title="SerieShop" class="">SerieShop</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.SharePopUPAnimations.html" title="SharePopUPAnimations" class="">SharePopUPAnimations</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Shop.html" title="Shop" class="">Shop</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.ShopProduct.html" title="ShopProduct" class="">ShopProduct</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton.html" title="Singleton" class="">Singleton</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_CurrencyManager.html" title="Singleton_CurrencyManager" class="">Singleton_CurrencyManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_Data-1.html" title="Singleton_Data&lt;T&gt;" class="">Singleton_Data&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_Data-1.OnEvent.html" title="Singleton_Data&lt;T&gt;.OnEvent" class="">Singleton_Data&lt;T&gt;.OnEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_EpisodeDataSimple.html" title="Singleton_EpisodeDataSimple" class="">Singleton_EpisodeDataSimple</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_EpisodeDataSimple.MyEvent.html" title="Singleton_EpisodeDataSimple.MyEvent" class="">Singleton_EpisodeDataSimple.MyEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_FacebookManager.html" title="Singleton_FacebookManager" class="">Singleton_FacebookManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_FanartDataSimple.html" title="Singleton_FanartDataSimple" class="">Singleton_FanartDataSimple</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_FTUEManager.html" title="Singleton_FTUEManager" class="">Singleton_FTUEManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_FTUEManager.FTUEData.html" title="Singleton_FTUEManager.FTUEData" class="">Singleton_FTUEManager.FTUEData</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_ImagePooling.html" title="Singleton_ImagePooling" class="">Singleton_ImagePooling</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_InfoSerieSimple.html" title="Singleton_InfoSerieSimple" class="">Singleton_InfoSerieSimple</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_JsonManager.html" title="Singleton_JsonManager" class="">Singleton_JsonManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_LanguageLoader.html" title="Singleton_LanguageLoader" class="">Singleton_LanguageLoader</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_Manager.html" title="Singleton_Manager" class="">Singleton_Manager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_MemoryManager.html" title="Singleton_MemoryManager" class="">Singleton_MemoryManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_MessagePooling.html" title="Singleton_MessagePooling" class="">Singleton_MessagePooling</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_MonoBehaviour.html" title="Singleton_MonoBehaviour" class="">Singleton_MonoBehaviour</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_NewsData.html" title="Singleton_NewsData" class="">Singleton_NewsData</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_NewsData.OnEvent.html" title="Singleton_NewsData.OnEvent" class="">Singleton_NewsData.OnEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_NewsDataSimple.html" title="Singleton_NewsDataSimple" class="">Singleton_NewsDataSimple</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_ParsingData.html" title="Singleton_ParsingData" class="">Singleton_ParsingData</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_ProfilPicManager.html" title="Singleton_ProfilPicManager" class="">Singleton_ProfilPicManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_SeriePooling.html" title="Singleton_SeriePooling" class="">Singleton_SeriePooling</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_SeriesTemplateHolder.html" title="Singleton_SeriesTemplateHolder" class="">Singleton_SeriesTemplateHolder</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_ShopData.html" title="Singleton_ShopData" class="">Singleton_ShopData</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_ShopData.OnEvent.html" title="Singleton_ShopData.OnEvent" class="">Singleton_ShopData.OnEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_ShopDataSimple.html" title="Singleton_ShopDataSimple" class="">Singleton_ShopDataSimple</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_SpriteDownloader.html" title="Singleton_SpriteDownloader" class="">Singleton_SpriteDownloader</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_SpriteUploader.html" title="Singleton_SpriteUploader" class="">Singleton_SpriteUploader</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_TeamDataSimple.html" title="Singleton_TeamDataSimple" class="">Singleton_TeamDataSimple</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton_TimestampDataSimple.html" title="Singleton_TimestampDataSimple" class="">Singleton_TimestampDataSimple</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Singleton-1.html" title="Singleton&lt;T&gt;" class="">Singleton&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.SphereMirror.html" title="SphereMirror" class="">SphereMirror</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.StaffProfil.html" title="StaffProfil" class="">StaffProfil</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_CameraManager.html" title="Static_CameraManager" class="">Static_CameraManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_Constants.html" title="Static_Constants" class="">Static_Constants</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_Extention.html" title="Static_Extention" class="">Static_Extention</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_GlobalUserData.html" title="Static_GlobalUserData" class="">Static_GlobalUserData</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_GlobalUserData.OnNewProfileLoadDelegate.html" title="Static_GlobalUserData.OnNewProfileLoadDelegate" class="">Static_GlobalUserData.OnNewProfileLoadDelegate</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_LanguageLoader.html" title="Static_LanguageLoader" class="">Static_LanguageLoader</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_Notification.html" title="Static_Notification" class="">Static_Notification</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_PopUpManager.html" title="Static_PopUpManager" class="">Static_PopUpManager</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.html" title="Static_SeriesConstants" class="">Static_SeriesConstants</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieInfosKeys.html" title="Static_SeriesConstants.SerieInfosKeys" class="">Static_SeriesConstants.SerieInfosKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieInfosKeys.Episode.html" title="Static_SeriesConstants.SerieInfosKeys.Episode" class="">Static_SeriesConstants.SerieInfosKeys.Episode</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.html" title="Static_SeriesConstants.SerieInfosKeys.Episode.Products" class="">Static_SeriesConstants.SerieInfosKeys.Episode.Products</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieInfosKeys.Episode.Staff.html" title="Static_SeriesConstants.SerieInfosKeys.Episode.Staff" class="">Static_SeriesConstants.SerieInfosKeys.Episode.Staff</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieInfosKeys.Episode.Staff.Account.html" title="Static_SeriesConstants.SerieInfosKeys.Episode.Staff.Account" class="">Static_SeriesConstants.SerieInfosKeys.Episode.Staff.Account</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieInfosKeys.Episode.Staff.Account.Link.html" title="Static_SeriesConstants.SerieInfosKeys.Episode.Staff.Account.Link" class="">Static_SeriesConstants.SerieInfosKeys.Episode.Staff.Account.Link</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.html" title="Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps" class="">Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieInfosKeys.Fanarts.html" title="Static_SeriesConstants.SerieInfosKeys.Fanarts" class="">Static_SeriesConstants.SerieInfosKeys.Fanarts</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieInfosKeys.Team.html" title="Static_SeriesConstants.SerieInfosKeys.Team" class="">Static_SeriesConstants.SerieInfosKeys.Team</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieInfosKeys.Team.Account.html" title="Static_SeriesConstants.SerieInfosKeys.Team.Account" class="">Static_SeriesConstants.SerieInfosKeys.Team.Account</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieInfosKeys.Team.Account.Link.html" title="Static_SeriesConstants.SerieInfosKeys.Team.Account.Link" class="">Static_SeriesConstants.SerieInfosKeys.Team.Account.Link</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieNewsInfoKeys.html" title="Static_SeriesConstants.SerieNewsInfoKeys" class="">Static_SeriesConstants.SerieNewsInfoKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieNewsInfoKeys.News.html" title="Static_SeriesConstants.SerieNewsInfoKeys.News" class="">Static_SeriesConstants.SerieNewsInfoKeys.News</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions.html" title="Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions" class="">Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.ShopInfoKeys.html" title="Static_SeriesConstants.ShopInfoKeys" class="">Static_SeriesConstants.ShopInfoKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.ShopInfoKeys.Product.html" title="Static_SeriesConstants.ShopInfoKeys.Product" class="">Static_SeriesConstants.ShopInfoKeys.Product</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.VaultInfoKeys.html" title="Static_SeriesConstants.VaultInfoKeys" class="">Static_SeriesConstants.VaultInfoKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.VaultInfoKeys.Episode.html" title="Static_SeriesConstants.VaultInfoKeys.Episode" class="">Static_SeriesConstants.VaultInfoKeys.Episode</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.html" title="Static_SeriesConstants.VaultInfoKeys.Episode.Staff" class="">Static_SeriesConstants.VaultInfoKeys.Episode.Staff</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.html" title="Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account" class="">Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link.html" title="Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link" class="">Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_SeriesConstants.VaultInfoKeys.Reward.html" title="Static_SeriesConstants.VaultInfoKeys.Reward" class="">Static_SeriesConstants.VaultInfoKeys.Reward</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_TribiewConstants.html" title="Static_TribiewConstants" class="">Static_TribiewConstants</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_TribiewConstants.EpisodeKeys.html" title="Static_TribiewConstants.EpisodeKeys" class="">Static_TribiewConstants.EpisodeKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_TribiewConstants.FanartKeys.html" title="Static_TribiewConstants.FanartKeys" class="">Static_TribiewConstants.FanartKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_TribiewConstants.InfoSeriesKeys.html" title="Static_TribiewConstants.InfoSeriesKeys" class="">Static_TribiewConstants.InfoSeriesKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_TribiewConstants.NewsInfoKeys.html" title="Static_TribiewConstants.NewsInfoKeys" class="">Static_TribiewConstants.NewsInfoKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_TribiewConstants.NewsInfoKeys.News.html" title="Static_TribiewConstants.NewsInfoKeys.News" class="">Static_TribiewConstants.NewsInfoKeys.News</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_TribiewConstants.NewsInfoKeys.News.Suggestions.html" title="Static_TribiewConstants.NewsInfoKeys.News.Suggestions" class="">Static_TribiewConstants.NewsInfoKeys.News.Suggestions</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_TribiewConstants.ShopInfoKeys.html" title="Static_TribiewConstants.ShopInfoKeys" class="">Static_TribiewConstants.ShopInfoKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_TribiewConstants.ShopInfoKeys.Product.html" title="Static_TribiewConstants.ShopInfoKeys.Product" class="">Static_TribiewConstants.ShopInfoKeys.Product</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_TribiewConstants.ShopInfoKeys.Shop.html" title="Static_TribiewConstants.ShopInfoKeys.Shop" class="">Static_TribiewConstants.ShopInfoKeys.Shop</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_TribiewConstants.TeamKeys.html" title="Static_TribiewConstants.TeamKeys" class="">Static_TribiewConstants.TeamKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Static_TribiewConstants.TimeStampKeys.html" title="Static_TribiewConstants.TimeStampKeys" class="">Static_TribiewConstants.TimeStampKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.SVGImage.html" title="SVGImage" class="">SVGImage</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.TabButton.html" title="TabButton" class="">TabButton</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.TabGroup.html" title="TabGroup" class="">TabGroup</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Team.html" title="Team" class="">Team</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.TestThingy.html" title="TestThingy" class="">TestThingy</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.TimeStamp.html" title="TimeStamp" class="">TimeStamp</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Tools_Behaviour_DontDestroyOnLoad.html" title="Tools_Behaviour_DontDestroyOnLoad" class="">Tools_Behaviour_DontDestroyOnLoad</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Tools_FixAspectRatio.html" title="Tools_FixAspectRatio" class="">Tools_FixAspectRatio</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Tools_GlobalDataInspector.html" title="Tools_GlobalDataInspector" class="">Tools_GlobalDataInspector</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Tools_OpenWebUrl.html" title="Tools_OpenWebUrl" class="">Tools_OpenWebUrl</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.TopBarSerieSelectorController.html" title="TopBarSerieSelectorController" class="">TopBarSerieSelectorController</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.TribiewNews.html" title="TribiewNews" class="">TribiewNews</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.TribiewShop.html" title="TribiewShop" class="">TribiewShop</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Tribute_AddUserPIcture.html" title="Tribute_AddUserPIcture" class="">Tribute_AddUserPIcture</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.TwitPost.html" title="TwitPost" class="">TwitPost</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.TwitterHandler.html" title="TwitterHandler" class="">TwitterHandler</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_AddMeToParent.html" title="UI_AddMeToParent" class="">UI_AddMeToParent</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_AutoResize.html" title="UI_AutoResize" class="">UI_AutoResize</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_ChangeCurrencyVisual.html" title="UI_ChangeCurrencyVisual" class="">UI_ChangeCurrencyVisual</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_ContributeTokenSlider.html" title="UI_ContributeTokenSlider" class="">UI_ContributeTokenSlider</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_InstantiateUser.html" title="UI_InstantiateUser" class="">UI_InstantiateUser</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_NotifCount.html" title="UI_NotifCount" class="">UI_NotifCount</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_Open.html" title="UI_Open" class="">UI_Open</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_ShareButton.html" title="UI_ShareButton" class="">UI_ShareButton</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_SliderActivated.html" title="UI_SliderActivated" class="">UI_SliderActivated</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_SlideShow.html" title="UI_SlideShow" class="">UI_SlideShow</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_TabFriendsActive.html" title="UI_TabFriendsActive" class="">UI_TabFriendsActive</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_TextSeeMore.html" title="UI_TextSeeMore" class="">UI_TextSeeMore</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_TimerVideo.html" title="UI_TimerVideo" class="">UI_TimerVideo</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UI_VoteButton.html" title="UI_VoteButton" class="">UI_VoteButton</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UserFBInfo.html" title="UserFBInfo" class="">UserFBInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UserInfo.html" title="UserInfo" class="">UserInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.UserSetting.html" title="UserSetting" class="">UserSetting</a>
+                          </li>
+                          <li class="">
+                            <a href="Global.Vault.html" title="Vault" class="">Vault</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Global">
+  
+  <h1 id="Global" data-uid="Global" class="text-break">Namespace Global
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="Global.ApplyToAll.html">ApplyToAll</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AWS3.html">AWS3</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behavior_Guest.html">Behavior_Guest</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behavior_Guest_PopUp.html">Behavior_Guest_PopUp</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ActorTeam_Instantiator.html">Behaviour_ActorTeam_Instantiator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_AddFriendPage.html">Behaviour_AddFriendPage</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_BottomBar.html">Behaviour_BottomBar</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_BottomButtonAction.html">Behaviour_BottomButtonAction</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_Buttons.html">Behaviour_Buttons</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ButtonSeries.html">Behaviour_ButtonSeries</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ButtonSwitchSerieMethod.html">Behaviour_ButtonSwitchSerieMethod</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_CameraInitializer.html">Behaviour_CameraInitializer</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ChangeCurrency.html">Behaviour_ChangeCurrency</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ChangeProfileInformationStatus.html">Behaviour_ChangeProfileInformationStatus</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_CheckMessages.html">Behaviour_CheckMessages</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ClampFPS.html">Behaviour_ClampFPS</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_contactsList.html">Behaviour_contactsList</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ConversationList.html">Behaviour_ConversationList</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_CullingSystem.html">Behaviour_CullingSystem</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_DestroyTarget.html">Behaviour_DestroyTarget</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_DisplayPassword.html">Behaviour_DisplayPassword</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_DisplayPhoto.html">Behaviour_DisplayPhoto</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_DisplayPost.html">Behaviour_DisplayPost</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_EnableVideoPlayer.html">Behaviour_EnableVideoPlayer</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_EpisodeFiller.html">Behaviour_EpisodeFiller</a></h4>
+      <section><p sourcefile="api/Global.Behaviour_EpisodeFiller.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Just place this on the same object as Serie Data and all other Fillers</p>
+</section>
+      <h4><a class="xref" href="Global.Behaviour_EpisodeInstance.html">Behaviour_EpisodeInstance</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_EpisodeLauncher_Information.html">Behaviour_EpisodeLauncher_Information</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_EpisodePageInfo.html">Behaviour_EpisodePageInfo</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_EpisodeSelectionInstantiator.html">Behaviour_EpisodeSelectionInstantiator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_FacebookLogin.html">Behaviour_FacebookLogin</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_FacebookLogInButton.html">Behaviour_FacebookLogInButton</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_FanartFiller.html">Behaviour_FanartFiller</a></h4>
+      <section><p sourcefile="api/Global.Behaviour_FanartFiller.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Just place this on the same object as Serie Data and all other Fillers</p>
+</section>
+      <h4><a class="xref" href="Global.Behaviour_FanartInstance.html">Behaviour_FanartInstance</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_FlexibleGridLayout.html">Behaviour_FlexibleGridLayout</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ForgotPassword.html">Behaviour_ForgotPassword</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_friendDatas.html">Behaviour_friendDatas</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_FriendInvite.html">Behaviour_FriendInvite</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_FriendInvite_Page.html">Behaviour_FriendInvite_Page</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_FriendList.html">Behaviour_FriendList</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_GalleryLink.html">Behaviour_GalleryLink</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_GetCommentary.html">Behaviour_GetCommentary</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_GetCommentaryPost.html">Behaviour_GetCommentaryPost</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_GetNewUser.html">Behaviour_GetNewUser</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_GetPosts.html">Behaviour_GetPosts</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_GPS.html">Behaviour_GPS</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ImagePicProposition.html">Behaviour_ImagePicProposition</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_InviteList.html">Behaviour_InviteList</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_JsonEditorHandler.html">Behaviour_JsonEditorHandler</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_JsonEditorSimple.html">Behaviour_JsonEditorSimple</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_LandingPage.html">Behaviour_LandingPage</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_LandingPageInstantiator.html">Behaviour_LandingPageInstantiator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_LogIn.html">Behaviour_LogIn</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_Logout.html">Behaviour_Logout</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_MiniNewsFiller.html">Behaviour_MiniNewsFiller</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_MiniShopFiller.html">Behaviour_MiniShopFiller</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_MPdatas.html">Behaviour_MPdatas</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_NewsFiller.html">Behaviour_NewsFiller</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_NewsGenerator_LobbyPage.html">Behaviour_NewsGenerator_LobbyPage</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_NewsGenerator_NewsPage.html">Behaviour_NewsGenerator_NewsPage</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_NewsInstance.html">Behaviour_NewsInstance</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_Page.html">Behaviour_Page</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_PageManager.html">Behaviour_PageManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_PlayerTypeExp.html">Behaviour_PlayerTypeExp</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_PlayPauseVideo.html">Behaviour_PlayPauseVideo</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_PopUp_Summary.html">Behaviour_PopUp_Summary</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_PopUpButtonInitializer.html">Behaviour_PopUpButtonInitializer</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_PopUpInitializer.html">Behaviour_PopUpInitializer</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_PopUpLoading.html">Behaviour_PopUpLoading</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_PreviousNextEpisode.html">Behaviour_PreviousNextEpisode</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ProfileInfoFiller.html">Behaviour_ProfileInfoFiller</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ProfilePicSelector.html">Behaviour_ProfilePicSelector</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_PropertyEditor.html">Behaviour_PropertyEditor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_PropertyHolder.html">Behaviour_PropertyHolder</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SafeArea.html">Behaviour_SafeArea</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ScreenSwitcher.html">Behaviour_ScreenSwitcher</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SeasonChanger.html">Behaviour_SeasonChanger</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SelectEpisode.html">Behaviour_SelectEpisode</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SendFriendRequest.html">Behaviour_SendFriendRequest</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SendFriendRequestList.html">Behaviour_SendFriendRequestList</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SerieData.html">Behaviour_SerieData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SerieFiller.html">Behaviour_SerieFiller</a></h4>
+      <section><p sourcefile="api/Global.Behaviour_SerieFiller.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Just place this on the same object as Serie Data and all other Fillers</p>
+</section>
+      <h4><a class="xref" href="Global.Behaviour_SerieGenerator.html">Behaviour_SerieGenerator</a></h4>
+      <section><p sourcefile="api/Global.Behaviour_SerieGenerator.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Serie Generator will start as soon as the user is logged in and as soon as all the pools are done loading</p>
+</section>
+      <h4><a class="xref" href="Global.Behaviour_SerieInformationHolder.html">Behaviour_SerieInformationHolder</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SerieManager.html">Behaviour_SerieManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SerieNewsGenerator.html">Behaviour_SerieNewsGenerator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_ShopFiller.html">Behaviour_ShopFiller</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SlidePages.html">Behaviour_SlidePages</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SwitchPages.html">Behaviour_SwitchPages</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_Tags.html">Behaviour_Tags</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_TMProTextLoader.html">Behaviour_TMProTextLoader</a></h4>
+      <section><p sourcefile="api/Global.Behaviour_TMProTextLoader.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Add to a UI text object
+Script will automatically load the value of the input key in the loaded language file
+If Value is not present or not readable, Behaviour will print ! ERROR TYPE ! and log a warning</p>
+</section>
+      <h4><a class="xref" href="Global.Behaviour_TopProfileBar.html">Behaviour_TopProfileBar</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_Transition.html">Behaviour_Transition</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_TribiewShopGenerator.html">Behaviour_TribiewShopGenerator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_Tribute_SerieInfos.html">Behaviour_Tribute_SerieInfos</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_UploadImageScene.html">Behaviour_UploadImageScene</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ButtonFadeInAnimation.html">ButtonFadeInAnimation</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Chest.html">Chest</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.CoinsManager.html">CoinsManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.CollectButtonCollectedAnimation.html">CollectButtonCollectedAnimation</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Contributors_FadeInAnimation.html">Contributors_FadeInAnimation</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.CSProjectFilePostProcessor.html">CSProjectFilePostProcessor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Debug_FillSlider.html">Debug_FillSlider</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Editor_AssetImportModificator.html">Editor_AssetImportModificator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Editor_FontChecker.html">Editor_FontChecker</a></h4>
+      <section><p sourcefile="api/Global.Editor_FontChecker.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Editor script checks if every component Text et TMP_Text have the same Font as xhat the User wants</p>
+</section>
+      <h4><a class="xref" href="Global.Editor_ImageCkecker.html">Editor_ImageCkecker</a></h4>
+      <section><p sourcefile="api/Global.Editor_ImageCkecker.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Editor script checks if every component Images has their texture2D set</p>
+</section>
+      <h4><a class="xref" href="Global.Editor_LanguageChecker.html">Editor_LanguageChecker</a></h4>
+      <section><p sourcefile="api/Global.Editor_LanguageChecker.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Editor script that checks if every localisation file has all their keys and values set</p>
+</section>
+      <h4><a class="xref" href="Global.Editor_LanguageCreator.html">Editor_LanguageCreator</a></h4>
+      <section><p sourcefile="api/Global.Editor_LanguageCreator.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Editor Script that handles the creation of keys and the update of langage files ans the template</p>
+</section>
+      <h4><a class="xref" href="Global.Editor_TextReplacer.html">Editor_TextReplacer</a></h4>
+      <section><p sourcefile="api/Global.Editor_TextReplacer.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Text replacer is just a window Editor Script meant to replace all Text components and TMProText components into International texts</p>
+</section>
+      <h4><a class="xref" href="Global.Editor_Tools_AspectRatio.html">Editor_Tools_AspectRatio</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.EditorObject.html">EditorObject</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Episode.html">Episode</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.FacebookController.html">FacebookController</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.FadeOutAnimation.html">FadeOutAnimation</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.FanArt.html">FanArt</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.FindTheHeight.html">FindTheHeight</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.HeaderButtonsPlayAnimation.html">HeaderButtonsPlayAnimation</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ImageFile.html">ImageFile</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.InfoSerie.html">InfoSerie</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JasonSTP.html">JasonSTP</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.JSONEditor.html">JSONEditor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Link.html">Link</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Manager_GetFBfriends.html">Manager_GetFBfriends</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Manager_GetFBposts.html">Manager_GetFBposts</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MaskSizeFixer.html">MaskSizeFixer</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MedaiPlayerSampleGUI.html">MedaiPlayerSampleGUI</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MedaiPlayerSampleSphereGUI.html">MedaiPlayerSampleSphereGUI</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerCtrl.html">MediaPlayerCtrl</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerEvent.html">MediaPlayerEvent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerFullScreenCtrl.html">MediaPlayerFullScreenCtrl</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MenuJsonEditor.html">MenuJsonEditor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.NewsInfo.html">NewsInfo</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.NewUserFriendRequestSent.html">NewUserFriendRequestSent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.OnBecameInvisible.html">OnBecameInvisible</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PermissionsRationaleDialogExternalRead.html">PermissionsRationaleDialogExternalRead</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PickImage.html">PickImage</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PickImageTest.html">PickImageTest</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.pickimageviastatic.html">pickimageviastatic</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PopUp_ScaleUpAnimation.html">PopUp_ScaleUpAnimation</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Post.html">Post</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Product.html">Product</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Profil.html">Profil</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.RectTransformExtensions.html">RectTransformExtensions</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SeekBarCtrl.html">SeekBarCtrl</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SerieNews.html">SerieNews</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SerieShop.html">SerieShop</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SharePopUPAnimations.html">SharePopUPAnimations</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Shop.html">Shop</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ShopProduct.html">ShopProduct</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton.html">Singleton</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_CurrencyManager.html">Singleton_CurrencyManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_Data-1.html">Singleton_Data&lt;T&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_EpisodeDataSimple.html">Singleton_EpisodeDataSimple</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_FacebookManager.html">Singleton_FacebookManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_FanartDataSimple.html">Singleton_FanartDataSimple</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_FTUEManager.html">Singleton_FTUEManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_FTUEManager.FTUEData.html">Singleton_FTUEManager.FTUEData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_ImagePooling.html">Singleton_ImagePooling</a></h4>
+      <section><p sourcefile="api/Global.Singleton_ImagePooling.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Image pooling manages all the loading and downloading of images
+There shouldn&apos;t be any non-static image that shouldn&apos;t pass through the Pool</p>
+</section>
+      <h4><a class="xref" href="Global.Singleton_InfoSerieSimple.html">Singleton_InfoSerieSimple</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_JsonManager.html">Singleton_JsonManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_LanguageLoader.html">Singleton_LanguageLoader</a></h4>
+      <section><p sourcefile="api/Global.Singleton_LanguageLoader.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Singleton script to add on a component for loading.
+Only load if there is no already present Scene Instance
+Can force load with Load</p>
+</section>
+      <h4><a class="xref" href="Global.Singleton_Manager.html">Singleton_Manager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_MemoryManager.html">Singleton_MemoryManager</a></h4>
+      <section><p sourcefile="api/Global.Singleton_MemoryManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Memory manager is here just to run a periodic cleaning of the memory</p>
+</section>
+      <h4><a class="xref" href="Global.Singleton_MessagePooling.html">Singleton_MessagePooling</a></h4>
+      <section><p sourcefile="api/Global.Singleton_MessagePooling.yml" sourcestartlinenumber="2" sourceendlinenumber="3">TODO : YOU HAVE TO COMPLETE THIS FOLLOWING THE ARCHITECTURE OF THE OTHER POOLS
+TODO : OR NOT YOU MIGHT USE WHAT YOU WANT AS LONG AS loaded CAN BECOME TRUE AT ONE POINT</p>
+</section>
+      <h4><a class="xref" href="Global.Singleton_MonoBehaviour.html">Singleton_MonoBehaviour</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_NewsData.html">Singleton_NewsData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_NewsDataSimple.html">Singleton_NewsDataSimple</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_ParsingData.html">Singleton_ParsingData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_ProfilPicManager.html">Singleton_ProfilPicManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_SeriePooling.html">Singleton_SeriePooling</a></h4>
+      <section><p sourcefile="api/Global.Singleton_SeriePooling.yml" sourcestartlinenumber="2" sourceendlinenumber="4">Serie Pooling completely encapsulate the loading and downloading of series
+Each ending of step triggers an event
+There are 4 steps in total :</p>
+<ul sourcefile="api/Global.Singleton_SeriePooling.yml" sourcestartlinenumber="5" sourceendlinenumber="8">
+<li sourcefile="api/Global.Singleton_SeriePooling.yml" sourcestartlinenumber="5" sourceendlinenumber="5">Local Series Loaded</li>
+<li sourcefile="api/Global.Singleton_SeriePooling.yml" sourcestartlinenumber="6" sourceendlinenumber="6">Online Series Loaded</li>
+<li sourcefile="api/Global.Singleton_SeriePooling.yml" sourcestartlinenumber="7" sourceendlinenumber="7">Local Series Cleared</li>
+<li sourcefile="api/Global.Singleton_SeriePooling.yml" sourcestartlinenumber="8" sourceendlinenumber="8">Local Series Updated</li>
+</ul>
+</section>
+      <h4><a class="xref" href="Global.Singleton_SeriesTemplateHolder.html">Singleton_SeriesTemplateHolder</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_ShopData.html">Singleton_ShopData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_ShopDataSimple.html">Singleton_ShopDataSimple</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_SpriteDownloader.html">Singleton_SpriteDownloader</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_SpriteUploader.html">Singleton_SpriteUploader</a></h4>
+      <section><p sourcefile="api/Global.Singleton_SpriteUploader.yml" sourcestartlinenumber="2" sourceendlinenumber="2">This Singleton Class handles every Image Upload</p>
+</section>
+      <h4><a class="xref" href="Global.Singleton_TeamDataSimple.html">Singleton_TeamDataSimple</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_TimestampDataSimple.html">Singleton_TimestampDataSimple</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton-1.html">Singleton&lt;T&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SphereMirror.html">SphereMirror</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.StaffProfil.html">StaffProfil</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_CameraManager.html">Static_CameraManager</a></h4>
+      <section><p sourcefile="api/Global.Static_CameraManager.yml" sourcestartlinenumber="2" sourceendlinenumber="3">The Camera Manager handles every instance of the camera being used
+This class must only be used in cases where the photo app cannot be used</p>
+</section>
+      <h4><a class="xref" href="Global.Static_Constants.html">Static_Constants</a></h4>
+      <section><p sourcefile="api/Global.Static_Constants.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Class containing this project&apos;s contants</p>
+</section>
+      <h4><a class="xref" href="Global.Static_Extention.html">Static_Extention</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_GlobalUserData.html">Static_GlobalUserData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_LanguageLoader.html">Static_LanguageLoader</a></h4>
+      <section><p sourcefile="api/Global.Static_LanguageLoader.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Static class to load language files from Language Directory</p>
+</section>
+      <h4><a class="xref" href="Global.Static_Notification.html">Static_Notification</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_PopUpManager.html">Static_PopUpManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.html">Static_SeriesConstants</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieInfosKeys.html">Static_SeriesConstants.SerieInfosKeys</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieInfosKeys.Episode.html">Static_SeriesConstants.SerieInfosKeys.Episode</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.html">Static_SeriesConstants.SerieInfosKeys.Episode.Products</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieInfosKeys.Episode.Staff.html">Static_SeriesConstants.SerieInfosKeys.Episode.Staff</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieInfosKeys.Episode.Staff.Account.html">Static_SeriesConstants.SerieInfosKeys.Episode.Staff.Account</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieInfosKeys.Episode.Staff.Account.Link.html">Static_SeriesConstants.SerieInfosKeys.Episode.Staff.Account.Link</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps.html">Static_SeriesConstants.SerieInfosKeys.Episode.Timestamps</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieInfosKeys.Fanarts.html">Static_SeriesConstants.SerieInfosKeys.Fanarts</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieInfosKeys.Team.html">Static_SeriesConstants.SerieInfosKeys.Team</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieInfosKeys.Team.Account.html">Static_SeriesConstants.SerieInfosKeys.Team.Account</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieInfosKeys.Team.Account.Link.html">Static_SeriesConstants.SerieInfosKeys.Team.Account.Link</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieNewsInfoKeys.html">Static_SeriesConstants.SerieNewsInfoKeys</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieNewsInfoKeys.News.html">Static_SeriesConstants.SerieNewsInfoKeys.News</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions.html">Static_SeriesConstants.SerieNewsInfoKeys.News.Suggestions</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.ShopInfoKeys.html">Static_SeriesConstants.ShopInfoKeys</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.ShopInfoKeys.Product.html">Static_SeriesConstants.ShopInfoKeys.Product</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.VaultInfoKeys.html">Static_SeriesConstants.VaultInfoKeys</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.VaultInfoKeys.Episode.html">Static_SeriesConstants.VaultInfoKeys.Episode</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.html">Static_SeriesConstants.VaultInfoKeys.Episode.Staff</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.html">Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link.html">Static_SeriesConstants.VaultInfoKeys.Episode.Staff.Account.Link</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_SeriesConstants.VaultInfoKeys.Reward.html">Static_SeriesConstants.VaultInfoKeys.Reward</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_TribiewConstants.html">Static_TribiewConstants</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_TribiewConstants.EpisodeKeys.html">Static_TribiewConstants.EpisodeKeys</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_TribiewConstants.FanartKeys.html">Static_TribiewConstants.FanartKeys</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_TribiewConstants.InfoSeriesKeys.html">Static_TribiewConstants.InfoSeriesKeys</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_TribiewConstants.NewsInfoKeys.html">Static_TribiewConstants.NewsInfoKeys</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_TribiewConstants.NewsInfoKeys.News.html">Static_TribiewConstants.NewsInfoKeys.News</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_TribiewConstants.NewsInfoKeys.News.Suggestions.html">Static_TribiewConstants.NewsInfoKeys.News.Suggestions</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_TribiewConstants.ShopInfoKeys.html">Static_TribiewConstants.ShopInfoKeys</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_TribiewConstants.ShopInfoKeys.Product.html">Static_TribiewConstants.ShopInfoKeys.Product</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_TribiewConstants.ShopInfoKeys.Shop.html">Static_TribiewConstants.ShopInfoKeys.Shop</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_TribiewConstants.TeamKeys.html">Static_TribiewConstants.TeamKeys</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_TribiewConstants.TimeStampKeys.html">Static_TribiewConstants.TimeStampKeys</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SVGImage.html">SVGImage</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TabButton.html">TabButton</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TabGroup.html">TabGroup</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Team.html">Team</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TestThingy.html">TestThingy</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TimeStamp.html">TimeStamp</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Tools_Behaviour_DontDestroyOnLoad.html">Tools_Behaviour_DontDestroyOnLoad</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Tools_FixAspectRatio.html">Tools_FixAspectRatio</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Tools_GlobalDataInspector.html">Tools_GlobalDataInspector</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Tools_OpenWebUrl.html">Tools_OpenWebUrl</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TopBarSerieSelectorController.html">TopBarSerieSelectorController</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TribiewNews.html">TribiewNews</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TribiewShop.html">TribiewShop</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Tribute_AddUserPIcture.html">Tribute_AddUserPIcture</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TwitPost.html">TwitPost</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TwitterHandler.html">TwitterHandler</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_AddMeToParent.html">UI_AddMeToParent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_AutoResize.html">UI_AutoResize</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_ChangeCurrencyVisual.html">UI_ChangeCurrencyVisual</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_ContributeTokenSlider.html">UI_ContributeTokenSlider</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_InstantiateUser.html">UI_InstantiateUser</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_NotifCount.html">UI_NotifCount</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_Open.html">UI_Open</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_ShareButton.html">UI_ShareButton</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_SliderActivated.html">UI_SliderActivated</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_SlideShow.html">UI_SlideShow</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_TabFriendsActive.html">UI_TabFriendsActive</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_TextSeeMore.html">UI_TextSeeMore</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_TimerVideo.html">UI_TimerVideo</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UI_VoteButton.html">UI_VoteButton</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Vault.html">Vault</a></h4>
+      <section></section>
+    <h3 id="structs">Structs
+  </h3>
+      <h4><a class="xref" href="Global.Behaviour_SerieInformationHolder.accountStruct.html">Behaviour_SerieInformationHolder.accountStruct</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SerieInformationHolder.episodeStruct.html">Behaviour_SerieInformationHolder.episodeStruct</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SerieInformationHolder.fanartStruct.html">Behaviour_SerieInformationHolder.fanartStruct</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SerieInformationHolder.linksStruct.html">Behaviour_SerieInformationHolder.linksStruct</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SerieInformationHolder.newsStruct.html">Behaviour_SerieInformationHolder.newsStruct</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SerieInformationHolder.productStruct.html">Behaviour_SerieInformationHolder.productStruct</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SerieInformationHolder.suggestionsStruct.html">Behaviour_SerieInformationHolder.suggestionsStruct</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SerieInformationHolder.TeamMemberStruct.html">Behaviour_SerieInformationHolder.TeamMemberStruct</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_SerieInformationHolder.timestampStruct.html">Behaviour_SerieInformationHolder.timestampStruct</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.DownloadReturnInfos.html">DownloadReturnInfos</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Editor_ImageCkecker.ImageCheck.html">Editor_ImageCkecker.ImageCheck</a></h4>
+      <section><p sourcefile="api/Global.Editor_ImageCkecker.ImageCheck.yml" sourcestartlinenumber="2" sourceendlinenumber="2">data holder</p>
+</section>
+      <h4><a class="xref" href="Global.Editor_LanguageChecker.LanguageCheck.html">Editor_LanguageChecker.LanguageCheck</a></h4>
+      <section><p sourcefile="api/Global.Editor_LanguageChecker.LanguageCheck.yml" sourcestartlinenumber="2" sourceendlinenumber="2">data holder</p>
+</section>
+      <h4><a class="xref" href="Global.FriendsInfo.html">FriendsInfo</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ImportedPic.html">ImportedPic</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Post.Content.html">Post.Content</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Post.Sender.html">Post.Sender</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Post.Stats.html">Post.Stats</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Reward.html">Reward</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.RewardedPic.html">RewardedPic</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ScreenTime.html">ScreenTime</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UserFBInfo.html">UserFBInfo</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UserInfo.html">UserInfo</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UserSetting.html">UserSetting</a></h4>
+      <section></section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="Global.Interface_Singleton_Data.html">Interface_Singleton_Data</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Interface_SocialNetwork.html">Interface_SocialNetwork</a></h4>
+      <section></section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="Global.AnchorPresets.html">AnchorPresets</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_FlexibleGridLayout.FitType.html">Behaviour_FlexibleGridLayout.FitType</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_MiniNewsFiller.NewsType.html">Behaviour_MiniNewsFiller.NewsType</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Behaviour_MiniShopFiller.ShopType.html">Behaviour_MiniShopFiller.ShopType</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Enum_Language.html">Enum_Language</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.LoadFileReturnMessage.html">LoadFileReturnMessage</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerCtrl.MEDIA_SCALE.html">MediaPlayerCtrl.MEDIA_SCALE</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR.html">MediaPlayerCtrl.MEDIAPLAYER_ERROR</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.html">MediaPlayerCtrl.MEDIAPLAYER_STATE</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PivotPresets.html">PivotPresets</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Post.Origin.html">Post.Origin</a></h4>
+      <section></section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="Global.Behaviour_SerieData.OnEvent.html">Behaviour_SerieData.OnEvent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerCtrl.VideoBuffering.html">MediaPlayerCtrl.VideoBuffering</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerCtrl.VideoBufferingEnd.html">MediaPlayerCtrl.VideoBufferingEnd</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerCtrl.VideoEnd.html">MediaPlayerCtrl.VideoEnd</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerCtrl.VideoError.html">MediaPlayerCtrl.VideoError</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerCtrl.VideoFirstFrameReady.html">MediaPlayerCtrl.VideoFirstFrameReady</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerCtrl.VideoReady.html">MediaPlayerCtrl.VideoReady</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MediaPlayerCtrl.VideoResize.html">MediaPlayerCtrl.VideoResize</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.OnFileDownloadingComplete.html">OnFileDownloadingComplete</a></h4>
+      <section><p sourcefile="api/Global.OnFileDownloadingComplete.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Delegate type used for file download</p>
+</section>
+      <h4><a class="xref" href="Global.OnSerieLoadingComplete.html">OnSerieLoadingComplete</a></h4>
+      <section><p sourcefile="api/Global.OnSerieLoadingComplete.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Delegate type used on serie loading</p>
+</section>
+      <h4><a class="xref" href="Global.OnTextureDownloadingComplete.html">OnTextureDownloadingComplete</a></h4>
+      <section><p sourcefile="api/Global.OnTextureDownloadingComplete.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Delegate type used for texture download</p>
+</section>
+      <h4><a class="xref" href="Global.Singleton_Data-1.OnEvent.html">Singleton_Data&lt;T&gt;.OnEvent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_EpisodeDataSimple.MyEvent.html">Singleton_EpisodeDataSimple.MyEvent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_NewsData.OnEvent.html">Singleton_NewsData.OnEvent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Singleton_ShopData.OnEvent.html">Singleton_ShopData.OnEvent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Static_GlobalUserData.OnNewProfileLoadDelegate.html">Static_GlobalUserData.OnNewProfileLoadDelegate</a></h4>
+      <section></section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Example Unity documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,511 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_SeriesConstants.SerieInfosKeys
+  commentId: T:Global.Static_SeriesConstants.SerieInfosKeys
+  id: Static_SeriesConstants.SerieInfosKeys
+  parent: Global
+  children:
+  - Global.Static_SeriesConstants.SerieInfosKeys.episodeNumber
+  - Global.Static_SeriesConstants.SerieInfosKeys.episodes
+  - Global.Static_SeriesConstants.SerieInfosKeys.fanarts
+  - Global.Static_SeriesConstants.SerieInfosKeys.logo
+  - Global.Static_SeriesConstants.SerieInfosKeys.mainBackgroundColor
+  - Global.Static_SeriesConstants.SerieInfosKeys.mainFontColor
+  - Global.Static_SeriesConstants.SerieInfosKeys.name
+  - Global.Static_SeriesConstants.SerieInfosKeys.presentationClip
+  - Global.Static_SeriesConstants.SerieInfosKeys.presentationPic
+  - Global.Static_SeriesConstants.SerieInfosKeys.secondaryBackgroundColor
+  - Global.Static_SeriesConstants.SerieInfosKeys.secondaryFontColor
+  - Global.Static_SeriesConstants.SerieInfosKeys.summary
+  - Global.Static_SeriesConstants.SerieInfosKeys.tags
+  - Global.Static_SeriesConstants.SerieInfosKeys.team
+  - Global.Static_SeriesConstants.SerieInfosKeys.trailers
+  langs:
+  - csharp
+  - vb
+  name: Static_SeriesConstants.SerieInfosKeys
+  nameWithType: Static_SeriesConstants.SerieInfosKeys
+  fullName: Static_SeriesConstants.SerieInfosKeys
+  type: Class
+  source:
+    id: SerieInfosKeys
+    path: ''
+    startLine: 16777
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class SerieInfosKeys
+    content.vb: Public Module SerieInfosKeys
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.name
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.name
+  id: name
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.name
+  fullName: Static_SeriesConstants.SerieInfosKeys.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 16779
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.episodeNumber
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.episodeNumber
+  id: episodeNumber
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: episodeNumber
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.episodeNumber
+  fullName: Static_SeriesConstants.SerieInfosKeys.episodeNumber
+  type: Field
+  source:
+    id: episodeNumber
+    path: ''
+    startLine: 16780
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string episodeNumber = "episodeNumber"
+    return:
+      type: System.String
+    content.vb: Public Const episodeNumber As String = "episodeNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.summary
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.summary
+  id: summary
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: summary
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.summary
+  fullName: Static_SeriesConstants.SerieInfosKeys.summary
+  type: Field
+  source:
+    id: summary
+    path: ''
+    startLine: 16781
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string summary = "summary"
+    return:
+      type: System.String
+    content.vb: Public Const summary As String = "summary"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.presentationClip
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.presentationClip
+  id: presentationClip
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: presentationClip
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.presentationClip
+  fullName: Static_SeriesConstants.SerieInfosKeys.presentationClip
+  type: Field
+  source:
+    id: presentationClip
+    path: ''
+    startLine: 16782
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string presentationClip = "presentationClipURL"
+    return:
+      type: System.String
+    content.vb: Public Const presentationClip As String = "presentationClipURL"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.presentationPic
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.presentationPic
+  id: presentationPic
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: presentationPic
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.presentationPic
+  fullName: Static_SeriesConstants.SerieInfosKeys.presentationPic
+  type: Field
+  source:
+    id: presentationPic
+    path: ''
+    startLine: 16783
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string presentationPic = "presentationImage"
+    return:
+      type: System.String
+    content.vb: Public Const presentationPic As String = "presentationImage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.mainBackgroundColor
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.mainBackgroundColor
+  id: mainBackgroundColor
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: mainBackgroundColor
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.mainBackgroundColor
+  fullName: Static_SeriesConstants.SerieInfosKeys.mainBackgroundColor
+  type: Field
+  source:
+    id: mainBackgroundColor
+    path: ''
+    startLine: 16784
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string mainBackgroundColor = "mainBackgroundColor"
+    return:
+      type: System.String
+    content.vb: Public Const mainBackgroundColor As String = "mainBackgroundColor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.secondaryBackgroundColor
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.secondaryBackgroundColor
+  id: secondaryBackgroundColor
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: secondaryBackgroundColor
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.secondaryBackgroundColor
+  fullName: Static_SeriesConstants.SerieInfosKeys.secondaryBackgroundColor
+  type: Field
+  source:
+    id: secondaryBackgroundColor
+    path: ''
+    startLine: 16785
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string secondaryBackgroundColor = "secondaryBackgroundColor"
+    return:
+      type: System.String
+    content.vb: Public Const secondaryBackgroundColor As String = "secondaryBackgroundColor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.mainFontColor
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.mainFontColor
+  id: mainFontColor
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: mainFontColor
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.mainFontColor
+  fullName: Static_SeriesConstants.SerieInfosKeys.mainFontColor
+  type: Field
+  source:
+    id: mainFontColor
+    path: ''
+    startLine: 16786
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string mainFontColor = "mainFontColor"
+    return:
+      type: System.String
+    content.vb: Public Const mainFontColor As String = "mainFontColor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.secondaryFontColor
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.secondaryFontColor
+  id: secondaryFontColor
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: secondaryFontColor
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.secondaryFontColor
+  fullName: Static_SeriesConstants.SerieInfosKeys.secondaryFontColor
+  type: Field
+  source:
+    id: secondaryFontColor
+    path: ''
+    startLine: 16787
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string secondaryFontColor = "secondaryFontColor"
+    return:
+      type: System.String
+    content.vb: Public Const secondaryFontColor As String = "secondaryFontColor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.logo
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.logo
+  id: logo
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: logo
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.logo
+  fullName: Static_SeriesConstants.SerieInfosKeys.logo
+  type: Field
+  source:
+    id: logo
+    path: ''
+    startLine: 16788
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string logo = "logo"
+    return:
+      type: System.String
+    content.vb: Public Const logo As String = "logo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.trailers
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.trailers
+  id: trailers
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: trailers
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.trailers
+  fullName: Static_SeriesConstants.SerieInfosKeys.trailers
+  type: Field
+  source:
+    id: trailers
+    path: ''
+    startLine: 16789
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string trailers = "trailers"
+    return:
+      type: System.String
+    content.vb: Public Const trailers As String = "trailers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.tags
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.tags
+  id: tags
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: tags
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.tags
+  fullName: Static_SeriesConstants.SerieInfosKeys.tags
+  type: Field
+  source:
+    id: tags
+    path: ''
+    startLine: 16790
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string tags = "tags"
+    return:
+      type: System.String
+    content.vb: Public Const tags As String = "tags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.team
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.team
+  id: team
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: team
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.team
+  fullName: Static_SeriesConstants.SerieInfosKeys.team
+  type: Field
+  source:
+    id: team
+    path: ''
+    startLine: 16791
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string team = "team"
+    return:
+      type: System.String
+    content.vb: Public Const team As String = "team"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.episodes
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.episodes
+  id: episodes
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: episodes
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.episodes
+  fullName: Static_SeriesConstants.SerieInfosKeys.episodes
+  type: Field
+  source:
+    id: episodes
+    path: ''
+    startLine: 16814
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string episodes = "episodes"
+    return:
+      type: System.String
+    content.vb: Public Const episodes As String = "episodes"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.fanarts
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.fanarts
+  id: fanarts
+  parent: Global.Static_SeriesConstants.SerieInfosKeys
+  langs:
+  - csharp
+  - vb
+  name: fanarts
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.fanarts
+  fullName: Static_SeriesConstants.SerieInfosKeys.fanarts
+  type: Field
+  source:
+    id: fanarts
+    path: ''
+    startLine: 16870
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string fanarts = "fanarts"
+    return:
+      type: System.String
+    content.vb: Public Const fanarts As String = "fanarts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_DestroyTarget
+  commentId: T:Global.Behaviour_DestroyTarget
+  id: Behaviour_DestroyTarget
+  parent: Global
+  children:
+  - Global.Behaviour_DestroyTarget.DestroyTarget(GameObject)
+  - Global.Behaviour_DestroyTarget.DonationFinish
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_DestroyTarget
+  nameWithType: Behaviour_DestroyTarget
+  fullName: Behaviour_DestroyTarget
+  type: Class
+  source:
+    id: Behaviour_DestroyTarget
+    path: ''
+    startLine: 21438
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_DestroyTarget : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_DestroyTarget
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_DestroyTarget.DestroyTarget(GameObject)
+  commentId: M:Global.Behaviour_DestroyTarget.DestroyTarget(GameObject)
+  id: DestroyTarget(GameObject)
+  parent: Global.Behaviour_DestroyTarget
+  langs:
+  - csharp
+  - vb
+  name: DestroyTarget(GameObject)
+  nameWithType: Behaviour_DestroyTarget.DestroyTarget(GameObject)
+  fullName: Behaviour_DestroyTarget.DestroyTarget(GameObject)
+  type: Method
+  source:
+    id: DestroyTarget
+    path: ''
+    startLine: 21440
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DestroyTarget(GameObject _target)
+    parameters:
+    - id: _target
+      type: Global.GameObject
+    content.vb: Public Sub DestroyTarget(_target As GameObject)
+  overload: Global.Behaviour_DestroyTarget.DestroyTarget*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_DestroyTarget.DonationFinish
+  commentId: M:Global.Behaviour_DestroyTarget.DonationFinish
+  id: DonationFinish
+  parent: Global.Behaviour_DestroyTarget
+  langs:
+  - csharp
+  - vb
+  name: DonationFinish()
+  nameWithType: Behaviour_DestroyTarget.DonationFinish()
+  fullName: Behaviour_DestroyTarget.DonationFinish()
+  type: Method
+  source:
+    id: DonationFinish
+    path: ''
+    startLine: 21445
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DonationFinish()
+    content.vb: Public Sub DonationFinish
+  overload: Global.Behaviour_DestroyTarget.DonationFinish*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_DestroyTarget.DestroyTarget*
+  commentId: Overload:Global.Behaviour_DestroyTarget.DestroyTarget
+  name: DestroyTarget
+  nameWithType: Behaviour_DestroyTarget.DestroyTarget
+  fullName: Behaviour_DestroyTarget.DestroyTarget
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_DestroyTarget.DonationFinish*
+  commentId: Overload:Global.Behaviour_DestroyTarget.DonationFinish
+  name: DonationFinish
+  nameWithType: Behaviour_DestroyTarget.DonationFinish
+  fullName: Behaviour_DestroyTarget.DonationFinish

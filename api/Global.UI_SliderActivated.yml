@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UI_SliderActivated
+  commentId: T:Global.UI_SliderActivated
+  id: UI_SliderActivated
+  parent: Global
+  children:
+  - Global.UI_SliderActivated.Activated
+  - Global.UI_SliderActivated.ChangeColor(SVGImage)
+  - Global.UI_SliderActivated.Desactivated
+  langs:
+  - csharp
+  - vb
+  name: UI_SliderActivated
+  nameWithType: UI_SliderActivated
+  fullName: UI_SliderActivated
+  type: Class
+  source:
+    id: UI_SliderActivated
+    path: ''
+    startLine: 27688
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UI_SliderActivated : MonoBehaviour'
+    content.vb: >-
+      Public Class UI_SliderActivated
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UI_SliderActivated.Desactivated
+  commentId: F:Global.UI_SliderActivated.Desactivated
+  id: Desactivated
+  parent: Global.UI_SliderActivated
+  langs:
+  - csharp
+  - vb
+  name: Desactivated
+  nameWithType: UI_SliderActivated.Desactivated
+  fullName: UI_SliderActivated.Desactivated
+  type: Field
+  source:
+    id: Desactivated
+    path: ''
+    startLine: 27690
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Color Desactivated
+    return:
+      type: Global.Color
+    content.vb: Public Desactivated As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_SliderActivated.Activated
+  commentId: F:Global.UI_SliderActivated.Activated
+  id: Activated
+  parent: Global.UI_SliderActivated
+  langs:
+  - csharp
+  - vb
+  name: Activated
+  nameWithType: UI_SliderActivated.Activated
+  fullName: UI_SliderActivated.Activated
+  type: Field
+  source:
+    id: Activated
+    path: ''
+    startLine: 27691
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Color Activated
+    return:
+      type: Global.Color
+    content.vb: Public Activated As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_SliderActivated.ChangeColor(SVGImage)
+  commentId: M:Global.UI_SliderActivated.ChangeColor(SVGImage)
+  id: ChangeColor(SVGImage)
+  parent: Global.UI_SliderActivated
+  langs:
+  - csharp
+  - vb
+  name: ChangeColor(SVGImage)
+  nameWithType: UI_SliderActivated.ChangeColor(SVGImage)
+  fullName: UI_SliderActivated.ChangeColor(SVGImage)
+  type: Method
+  source:
+    id: ChangeColor
+    path: ''
+    startLine: 27693
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ChangeColor(SVGImage Background)
+    parameters:
+    - id: Background
+      type: Global.SVGImage
+    content.vb: Public Sub ChangeColor(Background As SVGImage)
+  overload: Global.UI_SliderActivated.ChangeColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Global.UI_SliderActivated.ChangeColor*
+  commentId: Overload:Global.UI_SliderActivated.ChangeColor
+  name: ChangeColor
+  nameWithType: UI_SliderActivated.ChangeColor
+  fullName: UI_SliderActivated.ChangeColor
+- uid: Global.SVGImage
+  commentId: T:Global.SVGImage
+  name: SVGImage
+  nameWithType: SVGImage
+  fullName: SVGImage

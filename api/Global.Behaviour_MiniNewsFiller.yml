@@ -1,0 +1,533 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_MiniNewsFiller
+  commentId: T:Global.Behaviour_MiniNewsFiller
+  id: Behaviour_MiniNewsFiller
+  parent: Global
+  children:
+  - Global.Behaviour_MiniNewsFiller.EnterNews
+  - Global.Behaviour_MiniNewsFiller.imageArticle
+  - Global.Behaviour_MiniNewsFiller.Index
+  - Global.Behaviour_MiniNewsFiller.Init
+  - Global.Behaviour_MiniNewsFiller.newsNewsType
+  - Global.Behaviour_MiniNewsFiller.newsSubhead
+  - Global.Behaviour_MiniNewsFiller.newsTitleName
+  - Global.Behaviour_MiniNewsFiller.onShowFullNewsButton
+  - Global.Behaviour_MiniNewsFiller.serieData
+  - Global.Behaviour_MiniNewsFiller.TypeNews
+  - Global.Behaviour_MiniNewsFiller.TypeTrackNews
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_MiniNewsFiller
+  nameWithType: Behaviour_MiniNewsFiller
+  fullName: Behaviour_MiniNewsFiller
+  type: Class
+  source:
+    id: Behaviour_MiniNewsFiller
+    path: ''
+    startLine: 20698
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_MiniNewsFiller : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_MiniNewsFiller
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_MiniNewsFiller.serieData
+  commentId: F:Global.Behaviour_MiniNewsFiller.serieData
+  id: serieData
+  parent: Global.Behaviour_MiniNewsFiller
+  langs:
+  - csharp
+  - vb
+  name: serieData
+  nameWithType: Behaviour_MiniNewsFiller.serieData
+  fullName: Behaviour_MiniNewsFiller.serieData
+  type: Field
+  source:
+    id: serieData
+    path: ''
+    startLine: 20702
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieData serieData
+    return:
+      type: Global.Behaviour_SerieData
+    content.vb: Public serieData As Behaviour_SerieData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniNewsFiller.newsTitleName
+  commentId: F:Global.Behaviour_MiniNewsFiller.newsTitleName
+  id: newsTitleName
+  parent: Global.Behaviour_MiniNewsFiller
+  langs:
+  - csharp
+  - vb
+  name: newsTitleName
+  nameWithType: Behaviour_MiniNewsFiller.newsTitleName
+  fullName: Behaviour_MiniNewsFiller.newsTitleName
+  type: Field
+  source:
+    id: newsTitleName
+    path: ''
+    startLine: 20704
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI newsTitleName
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public newsTitleName As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniNewsFiller.newsSubhead
+  commentId: F:Global.Behaviour_MiniNewsFiller.newsSubhead
+  id: newsSubhead
+  parent: Global.Behaviour_MiniNewsFiller
+  langs:
+  - csharp
+  - vb
+  name: newsSubhead
+  nameWithType: Behaviour_MiniNewsFiller.newsSubhead
+  fullName: Behaviour_MiniNewsFiller.newsSubhead
+  type: Field
+  source:
+    id: newsSubhead
+    path: ''
+    startLine: 20705
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI newsSubhead
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public newsSubhead As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniNewsFiller.newsNewsType
+  commentId: F:Global.Behaviour_MiniNewsFiller.newsNewsType
+  id: newsNewsType
+  parent: Global.Behaviour_MiniNewsFiller
+  langs:
+  - csharp
+  - vb
+  name: newsNewsType
+  nameWithType: Behaviour_MiniNewsFiller.newsNewsType
+  fullName: Behaviour_MiniNewsFiller.newsNewsType
+  type: Field
+  source:
+    id: newsNewsType
+    path: ''
+    startLine: 20706
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI newsNewsType
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public newsNewsType As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniNewsFiller.imageArticle
+  commentId: F:Global.Behaviour_MiniNewsFiller.imageArticle
+  id: imageArticle
+  parent: Global.Behaviour_MiniNewsFiller
+  langs:
+  - csharp
+  - vb
+  name: imageArticle
+  nameWithType: Behaviour_MiniNewsFiller.imageArticle
+  fullName: Behaviour_MiniNewsFiller.imageArticle
+  type: Field
+  source:
+    id: imageArticle
+    path: ''
+    startLine: 20708
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Image imageArticle
+    return:
+      type: Global.Image
+    content.vb: Public imageArticle As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniNewsFiller.onShowFullNewsButton
+  commentId: F:Global.Behaviour_MiniNewsFiller.onShowFullNewsButton
+  id: onShowFullNewsButton
+  parent: Global.Behaviour_MiniNewsFiller
+  langs:
+  - csharp
+  - vb
+  name: onShowFullNewsButton
+  nameWithType: Behaviour_MiniNewsFiller.onShowFullNewsButton
+  fullName: Behaviour_MiniNewsFiller.onShowFullNewsButton
+  type: Field
+  source:
+    id: onShowFullNewsButton
+    path: ''
+    startLine: 20711
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent<int, int, Behaviour_SerieData> onShowFullNewsButton
+    return:
+      type: Global.UnityEvent{System.Int32,System.Int32,Behaviour_SerieData}
+    content.vb: Public onShowFullNewsButton As UnityEvent(Of Integer, Integer, Behaviour_SerieData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniNewsFiller.Index
+  commentId: F:Global.Behaviour_MiniNewsFiller.Index
+  id: Index
+  parent: Global.Behaviour_MiniNewsFiller
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: Behaviour_MiniNewsFiller.Index
+  fullName: Behaviour_MiniNewsFiller.Index
+  type: Field
+  source:
+    id: Index
+    path: ''
+    startLine: 20714
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int Index
+    return:
+      type: System.Int32
+    content.vb: Public Index As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniNewsFiller.TypeNews
+  commentId: F:Global.Behaviour_MiniNewsFiller.TypeNews
+  id: TypeNews
+  parent: Global.Behaviour_MiniNewsFiller
+  langs:
+  - csharp
+  - vb
+  name: TypeNews
+  nameWithType: Behaviour_MiniNewsFiller.TypeNews
+  fullName: Behaviour_MiniNewsFiller.TypeNews
+  type: Field
+  source:
+    id: TypeNews
+    path: ''
+    startLine: 20723
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_MiniNewsFiller.NewsType TypeNews
+    return:
+      type: Global.Behaviour_MiniNewsFiller.NewsType
+    content.vb: Public TypeNews As Behaviour_MiniNewsFiller.NewsType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniNewsFiller.TypeTrackNews
+  commentId: F:Global.Behaviour_MiniNewsFiller.TypeTrackNews
+  id: TypeTrackNews
+  parent: Global.Behaviour_MiniNewsFiller
+  langs:
+  - csharp
+  - vb
+  name: TypeTrackNews
+  nameWithType: Behaviour_MiniNewsFiller.TypeTrackNews
+  fullName: Behaviour_MiniNewsFiller.TypeTrackNews
+  type: Field
+  source:
+    id: TypeTrackNews
+    path: ''
+    startLine: 20725
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int TypeTrackNews
+    return:
+      type: System.Int32
+    content.vb: Public TypeTrackNews As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniNewsFiller.Init
+  commentId: M:Global.Behaviour_MiniNewsFiller.Init
+  id: Init
+  parent: Global.Behaviour_MiniNewsFiller
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: Behaviour_MiniNewsFiller.Init()
+  fullName: Behaviour_MiniNewsFiller.Init()
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 20738
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Init()
+    content.vb: Public Sub Init
+  overload: Global.Behaviour_MiniNewsFiller.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_MiniNewsFiller.EnterNews
+  commentId: M:Global.Behaviour_MiniNewsFiller.EnterNews
+  id: EnterNews
+  parent: Global.Behaviour_MiniNewsFiller
+  langs:
+  - csharp
+  - vb
+  name: EnterNews()
+  nameWithType: Behaviour_MiniNewsFiller.EnterNews()
+  fullName: Behaviour_MiniNewsFiller.EnterNews()
+  type: Method
+  source:
+    id: EnterNews
+    path: ''
+    startLine: 20773
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void EnterNews()
+    content.vb: Public Sub EnterNews
+  overload: Global.Behaviour_MiniNewsFiller.EnterNews*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_SerieData
+  commentId: T:Global.Behaviour_SerieData
+  name: Behaviour_SerieData
+  nameWithType: Behaviour_SerieData
+  fullName: Behaviour_SerieData
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.UnityEvent{System.Int32,System.Int32,Behaviour_SerieData}
+  commentId: '!:Global.UnityEvent{System.Int32,System.Int32,Behaviour_SerieData}'
+  definition: Global.UnityEvent`3
+  name: UnityEvent<Int32, Int32, Behaviour_SerieData>
+  nameWithType: UnityEvent<Int32, Int32, Behaviour_SerieData>
+  fullName: UnityEvent<System.Int32, System.Int32, Behaviour_SerieData>
+  nameWithType.vb: UnityEvent(Of Int32, Int32, Behaviour_SerieData)
+  fullName.vb: UnityEvent(Of System.Int32, System.Int32, Behaviour_SerieData)
+  name.vb: UnityEvent(Of Int32, Int32, Behaviour_SerieData)
+  spec.csharp:
+  - uid: Global.UnityEvent`3
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Behaviour_SerieData
+    name: Behaviour_SerieData
+    nameWithType: Behaviour_SerieData
+    fullName: Behaviour_SerieData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityEvent`3
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Behaviour_SerieData
+    name: Behaviour_SerieData
+    nameWithType: Behaviour_SerieData
+    fullName: Behaviour_SerieData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UnityEvent`3
+  isExternal: true
+  name: UnityEvent<, , >
+  nameWithType: UnityEvent<, , >
+  fullName: UnityEvent<, , >
+  nameWithType.vb: UnityEvent(Of , , )
+  fullName.vb: UnityEvent(Of , , )
+  name.vb: UnityEvent(Of , , )
+  spec.csharp:
+  - uid: Global.UnityEvent`3
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityEvent`3
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_MiniNewsFiller.NewsType
+  commentId: T:Global.Behaviour_MiniNewsFiller.NewsType
+  name: Behaviour_MiniNewsFiller.NewsType
+  nameWithType: Behaviour_MiniNewsFiller.NewsType
+  fullName: Behaviour_MiniNewsFiller.NewsType
+- uid: Global.Behaviour_MiniNewsFiller.Init*
+  commentId: Overload:Global.Behaviour_MiniNewsFiller.Init
+  name: Init
+  nameWithType: Behaviour_MiniNewsFiller.Init
+  fullName: Behaviour_MiniNewsFiller.Init
+- uid: Global.Behaviour_MiniNewsFiller.EnterNews*
+  commentId: Overload:Global.Behaviour_MiniNewsFiller.EnterNews
+  name: EnterNews
+  nameWithType: Behaviour_MiniNewsFiller.EnterNews
+  fullName: Behaviour_MiniNewsFiller.EnterNews

@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MediaPlayerCtrl.VideoError
+  commentId: T:Global.MediaPlayerCtrl.VideoError
+  id: MediaPlayerCtrl.VideoError
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MediaPlayerCtrl.VideoError
+  nameWithType: MediaPlayerCtrl.VideoError
+  fullName: MediaPlayerCtrl.VideoError
+  type: Delegate
+  source:
+    id: VideoError
+    path: ''
+    startLine: 5761
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public delegate void VideoError(MediaPlayerCtrl.MEDIAPLAYER_ERROR errorCode, MediaPlayerCtrl.MEDIAPLAYER_ERROR errorCodeExtra);
+    parameters:
+    - id: errorCode
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+    - id: errorCodeExtra
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+    content.vb: Public Delegate Sub VideoError(errorCode As MediaPlayerCtrl.MEDIAPLAYER_ERROR, errorCodeExtra As MediaPlayerCtrl.MEDIAPLAYER_ERROR)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  commentId: T:Global.MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  name: MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_ERROR
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_ERROR

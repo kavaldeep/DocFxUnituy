@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_TribiewConstants.NewsInfoKeys
+  commentId: T:Global.Static_TribiewConstants.NewsInfoKeys
+  id: Static_TribiewConstants.NewsInfoKeys
+  parent: Global
+  children:
+  - Global.Static_TribiewConstants.NewsInfoKeys.shop
+  - Global.Static_TribiewConstants.NewsInfoKeys.tribiew
+  langs:
+  - csharp
+  - vb
+  name: Static_TribiewConstants.NewsInfoKeys
+  nameWithType: Static_TribiewConstants.NewsInfoKeys
+  fullName: Static_TribiewConstants.NewsInfoKeys
+  type: Class
+  source:
+    id: NewsInfoKeys
+    path: ''
+    startLine: 17072
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class NewsInfoKeys
+    content.vb: Public Module NewsInfoKeys
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_TribiewConstants.NewsInfoKeys.tribiew
+  commentId: F:Global.Static_TribiewConstants.NewsInfoKeys.tribiew
+  id: tribiew
+  parent: Global.Static_TribiewConstants.NewsInfoKeys
+  langs:
+  - csharp
+  - vb
+  name: tribiew
+  nameWithType: Static_TribiewConstants.NewsInfoKeys.tribiew
+  fullName: Static_TribiewConstants.NewsInfoKeys.tribiew
+  type: Field
+  source:
+    id: tribiew
+    path: ''
+    startLine: 17074
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string tribiew = "tribiew"
+    return:
+      type: System.String
+    content.vb: Public Const tribiew As String = "tribiew"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.NewsInfoKeys.shop
+  commentId: F:Global.Static_TribiewConstants.NewsInfoKeys.shop
+  id: shop
+  parent: Global.Static_TribiewConstants.NewsInfoKeys
+  langs:
+  - csharp
+  - vb
+  name: shop
+  nameWithType: Static_TribiewConstants.NewsInfoKeys.shop
+  fullName: Static_TribiewConstants.NewsInfoKeys.shop
+  type: Field
+  source:
+    id: shop
+    path: ''
+    startLine: 17075
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string shop = "shop"
+    return:
+      type: System.String
+    content.vb: Public Const shop As String = "shop"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

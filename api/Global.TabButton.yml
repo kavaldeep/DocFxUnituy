@@ -1,0 +1,343 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TabButton
+  commentId: T:Global.TabButton
+  id: TabButton
+  parent: Global
+  children:
+  - Global.TabButton.background
+  - Global.TabButton.Deselect
+  - Global.TabButton.OnPointerClick(PointerEventData)
+  - Global.TabButton.OnPointerEnter(PointerEventData)
+  - Global.TabButton.OnPointerExit(PointerEventData)
+  - Global.TabButton.onTabDeselected
+  - Global.TabButton.onTabSelected
+  - Global.TabButton.Select
+  langs:
+  - csharp
+  - vb
+  name: TabButton
+  nameWithType: TabButton
+  fullName: TabButton
+  type: Class
+  source:
+    id: TabButton
+    path: ''
+    startLine: 13121
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TabButton : MonoBehaviour'
+    content.vb: >-
+      Public Class TabButton
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IPointerEnterHandler
+  - Global.IPointerClickHandler
+  - Global.IPointerExitHandler
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TabButton.background
+  commentId: F:Global.TabButton.background
+  id: background
+  parent: Global.TabButton
+  langs:
+  - csharp
+  - vb
+  name: background
+  nameWithType: TabButton.background
+  fullName: TabButton.background
+  type: Field
+  source:
+    id: background
+    path: ''
+    startLine: 13125
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Image background
+    return:
+      type: Global.Image
+    content.vb: Public background As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TabButton.onTabSelected
+  commentId: F:Global.TabButton.onTabSelected
+  id: onTabSelected
+  parent: Global.TabButton
+  langs:
+  - csharp
+  - vb
+  name: onTabSelected
+  nameWithType: TabButton.onTabSelected
+  fullName: TabButton.onTabSelected
+  type: Field
+  source:
+    id: onTabSelected
+    path: ''
+    startLine: 13127
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent onTabSelected
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onTabSelected As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TabButton.onTabDeselected
+  commentId: F:Global.TabButton.onTabDeselected
+  id: onTabDeselected
+  parent: Global.TabButton
+  langs:
+  - csharp
+  - vb
+  name: onTabDeselected
+  nameWithType: TabButton.onTabDeselected
+  fullName: TabButton.onTabDeselected
+  type: Field
+  source:
+    id: onTabDeselected
+    path: ''
+    startLine: 13128
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent onTabDeselected
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onTabDeselected As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TabButton.OnPointerClick(PointerEventData)
+  commentId: M:Global.TabButton.OnPointerClick(PointerEventData)
+  id: OnPointerClick(PointerEventData)
+  parent: Global.TabButton
+  langs:
+  - csharp
+  - vb
+  name: OnPointerClick(PointerEventData)
+  nameWithType: TabButton.OnPointerClick(PointerEventData)
+  fullName: TabButton.OnPointerClick(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerClick
+    path: ''
+    startLine: 13136
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnPointerClick(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerClick(eventData As PointerEventData)
+  overload: Global.TabButton.OnPointerClick*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TabButton.OnPointerEnter(PointerEventData)
+  commentId: M:Global.TabButton.OnPointerEnter(PointerEventData)
+  id: OnPointerEnter(PointerEventData)
+  parent: Global.TabButton
+  langs:
+  - csharp
+  - vb
+  name: OnPointerEnter(PointerEventData)
+  nameWithType: TabButton.OnPointerEnter(PointerEventData)
+  fullName: TabButton.OnPointerEnter(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerEnter
+    path: ''
+    startLine: 13141
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnPointerEnter(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerEnter(eventData As PointerEventData)
+  overload: Global.TabButton.OnPointerEnter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TabButton.OnPointerExit(PointerEventData)
+  commentId: M:Global.TabButton.OnPointerExit(PointerEventData)
+  id: OnPointerExit(PointerEventData)
+  parent: Global.TabButton
+  langs:
+  - csharp
+  - vb
+  name: OnPointerExit(PointerEventData)
+  nameWithType: TabButton.OnPointerExit(PointerEventData)
+  fullName: TabButton.OnPointerExit(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerExit
+    path: ''
+    startLine: 13146
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnPointerExit(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerExit(eventData As PointerEventData)
+  overload: Global.TabButton.OnPointerExit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TabButton.Select
+  commentId: M:Global.TabButton.Select
+  id: Select
+  parent: Global.TabButton
+  langs:
+  - csharp
+  - vb
+  name: Select()
+  nameWithType: TabButton.Select()
+  fullName: TabButton.Select()
+  type: Method
+  source:
+    id: Select
+    path: ''
+    startLine: 13151
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Select()
+    content.vb: Public Sub Select
+  overload: Global.TabButton.Select*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TabButton.Deselect
+  commentId: M:Global.TabButton.Deselect
+  id: Deselect
+  parent: Global.TabButton
+  langs:
+  - csharp
+  - vb
+  name: Deselect()
+  nameWithType: TabButton.Deselect()
+  fullName: TabButton.Deselect()
+  type: Method
+  source:
+    id: Deselect
+    path: ''
+    startLine: 13157
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Deselect()
+    content.vb: Public Sub Deselect
+  overload: Global.TabButton.Deselect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.IPointerEnterHandler
+  isExternal: true
+  name: IPointerEnterHandler
+  nameWithType: IPointerEnterHandler
+  fullName: IPointerEnterHandler
+- uid: Global.IPointerClickHandler
+  commentId: '!:Global.IPointerClickHandler'
+  isExternal: true
+  name: IPointerClickHandler
+  nameWithType: IPointerClickHandler
+  fullName: IPointerClickHandler
+- uid: Global.IPointerExitHandler
+  isExternal: true
+  name: IPointerExitHandler
+  nameWithType: IPointerExitHandler
+  fullName: IPointerExitHandler
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Global.TabButton.OnPointerClick*
+  commentId: Overload:Global.TabButton.OnPointerClick
+  name: OnPointerClick
+  nameWithType: TabButton.OnPointerClick
+  fullName: TabButton.OnPointerClick
+- uid: Global.PointerEventData
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: PointerEventData
+- uid: Global.TabButton.OnPointerEnter*
+  commentId: Overload:Global.TabButton.OnPointerEnter
+  name: OnPointerEnter
+  nameWithType: TabButton.OnPointerEnter
+  fullName: TabButton.OnPointerEnter
+- uid: Global.TabButton.OnPointerExit*
+  commentId: Overload:Global.TabButton.OnPointerExit
+  name: OnPointerExit
+  nameWithType: TabButton.OnPointerExit
+  fullName: TabButton.OnPointerExit
+- uid: Global.TabButton.Select*
+  commentId: Overload:Global.TabButton.Select
+  name: Select
+  nameWithType: TabButton.Select
+  fullName: TabButton.Select
+- uid: Global.TabButton.Deselect*
+  commentId: Overload:Global.TabButton.Deselect
+  name: Deselect
+  nameWithType: TabButton.Deselect
+  fullName: TabButton.Deselect

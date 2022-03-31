@@ -1,0 +1,376 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_Page
+  commentId: T:Global.Behaviour_Page
+  id: Behaviour_Page
+  parent: Global
+  children:
+  - Global.Behaviour_Page.GoBackToPreviousPage
+  - Global.Behaviour_Page.HideInstant
+  - Global.Behaviour_Page.IsPageActive
+  - Global.Behaviour_Page.onHideInstant
+  - Global.Behaviour_Page.onShowInstant
+  - Global.Behaviour_Page.pageManagerDisplayedWith
+  - Global.Behaviour_Page.ShowInstant
+  - Global.Behaviour_Page.StartDisplay(UnityAction)
+  - Global.Behaviour_Page.StartHide(UnityAction)
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_Page
+  nameWithType: Behaviour_Page
+  fullName: Behaviour_Page
+  type: Class
+  source:
+    id: Behaviour_Page
+    path: ''
+    startLine: 13712
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_Page : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_Page
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Global.Behaviour_SerieData
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_Page.pageManagerDisplayedWith
+  commentId: F:Global.Behaviour_Page.pageManagerDisplayedWith
+  id: pageManagerDisplayedWith
+  parent: Global.Behaviour_Page
+  langs:
+  - csharp
+  - vb
+  name: pageManagerDisplayedWith
+  nameWithType: Behaviour_Page.pageManagerDisplayedWith
+  fullName: Behaviour_Page.pageManagerDisplayedWith
+  type: Field
+  source:
+    id: pageManagerDisplayedWith
+    path: ''
+    startLine: 13716
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_PageManager pageManagerDisplayedWith
+    return:
+      type: Global.Behaviour_PageManager
+    content.vb: Public pageManagerDisplayedWith As Behaviour_PageManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_Page.onShowInstant
+  commentId: F:Global.Behaviour_Page.onShowInstant
+  id: onShowInstant
+  parent: Global.Behaviour_Page
+  langs:
+  - csharp
+  - vb
+  name: onShowInstant
+  nameWithType: Behaviour_Page.onShowInstant
+  fullName: Behaviour_Page.onShowInstant
+  type: Field
+  source:
+    id: onShowInstant
+    path: ''
+    startLine: 13719
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected UnityEvent onShowInstant
+    return:
+      type: Global.UnityEvent
+    content.vb: Protected onShowInstant As UnityEvent
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.Behaviour_Page.onHideInstant
+  commentId: F:Global.Behaviour_Page.onHideInstant
+  id: onHideInstant
+  parent: Global.Behaviour_Page
+  langs:
+  - csharp
+  - vb
+  name: onHideInstant
+  nameWithType: Behaviour_Page.onHideInstant
+  fullName: Behaviour_Page.onHideInstant
+  type: Field
+  source:
+    id: onHideInstant
+    path: ''
+    startLine: 13722
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected UnityEvent onHideInstant
+    return:
+      type: Global.UnityEvent
+    content.vb: Protected onHideInstant As UnityEvent
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.Behaviour_Page.IsPageActive
+  commentId: P:Global.Behaviour_Page.IsPageActive
+  id: IsPageActive
+  parent: Global.Behaviour_Page
+  langs:
+  - csharp
+  - vb
+  name: IsPageActive
+  nameWithType: Behaviour_Page.IsPageActive
+  fullName: Behaviour_Page.IsPageActive
+  type: Property
+  source:
+    id: IsPageActive
+    path: ''
+    startLine: 13724
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual bool IsPageActive { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property IsPageActive As Boolean
+  overload: Global.Behaviour_Page.IsPageActive*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Global.Behaviour_Page.StartDisplay(UnityAction)
+  commentId: M:Global.Behaviour_Page.StartDisplay(UnityAction)
+  id: StartDisplay(UnityAction)
+  parent: Global.Behaviour_Page
+  langs:
+  - csharp
+  - vb
+  name: StartDisplay(UnityAction)
+  nameWithType: Behaviour_Page.StartDisplay(UnityAction)
+  fullName: Behaviour_Page.StartDisplay(UnityAction)
+  type: Method
+  source:
+    id: StartDisplay
+    path: ''
+    startLine: 13737
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void StartDisplay(UnityAction onFullyDisplayed)
+    parameters:
+    - id: onFullyDisplayed
+      type: Global.UnityAction
+    content.vb: Public Overridable Sub StartDisplay(onFullyDisplayed As UnityAction)
+  overload: Global.Behaviour_Page.StartDisplay*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Global.Behaviour_Page.StartHide(UnityAction)
+  commentId: M:Global.Behaviour_Page.StartHide(UnityAction)
+  id: StartHide(UnityAction)
+  parent: Global.Behaviour_Page
+  langs:
+  - csharp
+  - vb
+  name: StartHide(UnityAction)
+  nameWithType: Behaviour_Page.StartHide(UnityAction)
+  fullName: Behaviour_Page.StartHide(UnityAction)
+  type: Method
+  source:
+    id: StartHide
+    path: ''
+    startLine: 13746
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void StartHide(UnityAction onFullyHidden)
+    parameters:
+    - id: onFullyHidden
+      type: Global.UnityAction
+    content.vb: Public Overridable Sub StartHide(onFullyHidden As UnityAction)
+  overload: Global.Behaviour_Page.StartHide*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Global.Behaviour_Page.HideInstant
+  commentId: M:Global.Behaviour_Page.HideInstant
+  id: HideInstant
+  parent: Global.Behaviour_Page
+  langs:
+  - csharp
+  - vb
+  name: HideInstant()
+  nameWithType: Behaviour_Page.HideInstant()
+  fullName: Behaviour_Page.HideInstant()
+  type: Method
+  source:
+    id: HideInstant
+    path: ''
+    startLine: 13752
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void HideInstant()
+    content.vb: Public Overridable Sub HideInstant
+  overload: Global.Behaviour_Page.HideInstant*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Global.Behaviour_Page.ShowInstant
+  commentId: M:Global.Behaviour_Page.ShowInstant
+  id: ShowInstant
+  parent: Global.Behaviour_Page
+  langs:
+  - csharp
+  - vb
+  name: ShowInstant()
+  nameWithType: Behaviour_Page.ShowInstant()
+  fullName: Behaviour_Page.ShowInstant()
+  type: Method
+  source:
+    id: ShowInstant
+    path: ''
+    startLine: 13759
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void ShowInstant()
+    content.vb: Public Overridable Sub ShowInstant
+  overload: Global.Behaviour_Page.ShowInstant*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Global.Behaviour_Page.GoBackToPreviousPage
+  commentId: M:Global.Behaviour_Page.GoBackToPreviousPage
+  id: GoBackToPreviousPage
+  parent: Global.Behaviour_Page
+  langs:
+  - csharp
+  - vb
+  name: GoBackToPreviousPage()
+  nameWithType: Behaviour_Page.GoBackToPreviousPage()
+  fullName: Behaviour_Page.GoBackToPreviousPage()
+  type: Method
+  source:
+    id: GoBackToPreviousPage
+    path: ''
+    startLine: 13766
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GoBackToPreviousPage()
+    content.vb: Public Sub GoBackToPreviousPage
+  overload: Global.Behaviour_Page.GoBackToPreviousPage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_PageManager
+  commentId: T:Global.Behaviour_PageManager
+  name: Behaviour_PageManager
+  nameWithType: Behaviour_PageManager
+  fullName: Behaviour_PageManager
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Global.Behaviour_Page.IsPageActive*
+  commentId: Overload:Global.Behaviour_Page.IsPageActive
+  name: IsPageActive
+  nameWithType: Behaviour_Page.IsPageActive
+  fullName: Behaviour_Page.IsPageActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Behaviour_Page.StartDisplay*
+  commentId: Overload:Global.Behaviour_Page.StartDisplay
+  name: StartDisplay
+  nameWithType: Behaviour_Page.StartDisplay
+  fullName: Behaviour_Page.StartDisplay
+- uid: Global.UnityAction
+  isExternal: true
+  name: UnityAction
+  nameWithType: UnityAction
+  fullName: UnityAction
+- uid: Global.Behaviour_Page.StartHide*
+  commentId: Overload:Global.Behaviour_Page.StartHide
+  name: StartHide
+  nameWithType: Behaviour_Page.StartHide
+  fullName: Behaviour_Page.StartHide
+- uid: Global.Behaviour_Page.HideInstant*
+  commentId: Overload:Global.Behaviour_Page.HideInstant
+  name: HideInstant
+  nameWithType: Behaviour_Page.HideInstant
+  fullName: Behaviour_Page.HideInstant
+- uid: Global.Behaviour_Page.ShowInstant*
+  commentId: Overload:Global.Behaviour_Page.ShowInstant
+  name: ShowInstant
+  nameWithType: Behaviour_Page.ShowInstant
+  fullName: Behaviour_Page.ShowInstant
+- uid: Global.Behaviour_Page.GoBackToPreviousPage*
+  commentId: Overload:Global.Behaviour_Page.GoBackToPreviousPage
+  name: GoBackToPreviousPage
+  nameWithType: Behaviour_Page.GoBackToPreviousPage
+  fullName: Behaviour_Page.GoBackToPreviousPage

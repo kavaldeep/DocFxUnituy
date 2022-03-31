@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TestThingy
+  commentId: T:Global.TestThingy
+  id: TestThingy
+  parent: Global
+  children:
+  - Global.TestThingy.Update
+  langs:
+  - csharp
+  - vb
+  name: TestThingy
+  nameWithType: TestThingy
+  fullName: TestThingy
+  type: Class
+  source:
+    id: TestThingy
+    path: ''
+    startLine: 27518
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TestThingy : MonoBehaviour'
+    content.vb: >-
+      Public Class TestThingy
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TestThingy.Update
+  commentId: M:Global.TestThingy.Update
+  id: Update
+  parent: Global.TestThingy
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: TestThingy.Update()
+  fullName: TestThingy.Update()
+  type: Method
+  source:
+    id: Update
+    path: ''
+    startLine: 27523
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Update()
+    content.vb: Protected Sub Update
+  overload: Global.TestThingy.Update*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TestThingy.Update*
+  commentId: Overload:Global.TestThingy.Update
+  name: Update
+  nameWithType: TestThingy.Update
+  fullName: TestThingy.Update

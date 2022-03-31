@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Manager_GetFBfriends
+  commentId: T:Global.Manager_GetFBfriends
+  id: Manager_GetFBfriends
+  parent: Global
+  children:
+  - Global.Manager_GetFBfriends.FbInviteScroll
+  - Global.Manager_GetFBfriends.FriendBox
+  - Global.Manager_GetFBfriends.GetFriends
+  - Global.Manager_GetFBfriends.GetFriendsPlayingThisGame
+  - Global.Manager_GetFBfriends.toInvite
+  langs:
+  - csharp
+  - vb
+  name: Manager_GetFBfriends
+  nameWithType: Manager_GetFBfriends
+  fullName: Manager_GetFBfriends
+  type: Class
+  source:
+    id: Manager_GetFBfriends
+    path: ''
+    startLine: 25336
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class Manager_GetFBfriends
+    content.vb: Public Class Manager_GetFBfriends
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Manager_GetFBfriends.FbInviteScroll
+  commentId: F:Global.Manager_GetFBfriends.FbInviteScroll
+  id: FbInviteScroll
+  parent: Global.Manager_GetFBfriends
+  langs:
+  - csharp
+  - vb
+  name: FbInviteScroll
+  nameWithType: Manager_GetFBfriends.FbInviteScroll
+  fullName: Manager_GetFBfriends.FbInviteScroll
+  type: Field
+  source:
+    id: FbInviteScroll
+    path: ''
+    startLine: 25338
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject FbInviteScroll
+    return:
+      type: Global.GameObject
+    content.vb: Public FbInviteScroll As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Manager_GetFBfriends.FriendBox
+  commentId: F:Global.Manager_GetFBfriends.FriendBox
+  id: FriendBox
+  parent: Global.Manager_GetFBfriends
+  langs:
+  - csharp
+  - vb
+  name: FriendBox
+  nameWithType: Manager_GetFBfriends.FriendBox
+  fullName: Manager_GetFBfriends.FriendBox
+  type: Field
+  source:
+    id: FriendBox
+    path: ''
+    startLine: 25339
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject FriendBox
+    return:
+      type: Global.GameObject
+    content.vb: Public FriendBox As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Manager_GetFBfriends.GetFriends
+  commentId: M:Global.Manager_GetFBfriends.GetFriends
+  id: GetFriends
+  parent: Global.Manager_GetFBfriends
+  langs:
+  - csharp
+  - vb
+  name: GetFriends()
+  nameWithType: Manager_GetFBfriends.GetFriends()
+  fullName: Manager_GetFBfriends.GetFriends()
+  type: Method
+  source:
+    id: GetFriends
+    path: ''
+    startLine: 25350
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GetFriends()
+    content.vb: Public Sub GetFriends
+  overload: Global.Manager_GetFBfriends.GetFriends*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Manager_GetFBfriends.toInvite
+  commentId: F:Global.Manager_GetFBfriends.toInvite
+  id: toInvite
+  parent: Global.Manager_GetFBfriends
+  langs:
+  - csharp
+  - vb
+  name: toInvite
+  nameWithType: Manager_GetFBfriends.toInvite
+  fullName: Manager_GetFBfriends.toInvite
+  type: Field
+  source:
+    id: toInvite
+    path: ''
+    startLine: 25418
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<FriendsInfo> toInvite
+    return:
+      type: System.Collections.Generic.List{FriendsInfo}
+    content.vb: Public toInvite As List(Of FriendsInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Manager_GetFBfriends.GetFriendsPlayingThisGame
+  commentId: M:Global.Manager_GetFBfriends.GetFriendsPlayingThisGame
+  id: GetFriendsPlayingThisGame
+  parent: Global.Manager_GetFBfriends
+  langs:
+  - csharp
+  - vb
+  name: GetFriendsPlayingThisGame()
+  nameWithType: Manager_GetFBfriends.GetFriendsPlayingThisGame()
+  fullName: Manager_GetFBfriends.GetFriendsPlayingThisGame()
+  type: Method
+  source:
+    id: GetFriendsPlayingThisGame
+    path: ''
+    startLine: 25488
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void GetFriendsPlayingThisGame()
+    content.vb: Public Sub GetFriendsPlayingThisGame
+  overload: Global.Manager_GetFBfriends.GetFriendsPlayingThisGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Manager_GetFBfriends.GetFriends*
+  commentId: Overload:Global.Manager_GetFBfriends.GetFriends
+  name: GetFriends
+  nameWithType: Manager_GetFBfriends.GetFriends
+  fullName: Manager_GetFBfriends.GetFriends
+- uid: System.Collections.Generic.List{FriendsInfo}
+  commentId: T:System.Collections.Generic.List{FriendsInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<FriendsInfo>
+  nameWithType: List<FriendsInfo>
+  fullName: System.Collections.Generic.List<FriendsInfo>
+  nameWithType.vb: List(Of FriendsInfo)
+  fullName.vb: System.Collections.Generic.List(Of FriendsInfo)
+  name.vb: List(Of FriendsInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.FriendsInfo
+    name: FriendsInfo
+    nameWithType: FriendsInfo
+    fullName: FriendsInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.FriendsInfo
+    name: FriendsInfo
+    nameWithType: FriendsInfo
+    fullName: FriendsInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Manager_GetFBfriends.GetFriendsPlayingThisGame*
+  commentId: Overload:Global.Manager_GetFBfriends.GetFriendsPlayingThisGame
+  name: GetFriendsPlayingThisGame
+  nameWithType: Manager_GetFBfriends.GetFriendsPlayingThisGame
+  fullName: Manager_GetFBfriends.GetFriendsPlayingThisGame

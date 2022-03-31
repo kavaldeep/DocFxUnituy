@@ -1,0 +1,536 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.AnchorPresets
+  commentId: T:Global.AnchorPresets
+  id: AnchorPresets
+  parent: Global
+  children:
+  - Global.AnchorPresets.BottomLeft
+  - Global.AnchorPresets.BottomRight
+  - Global.AnchorPresets.BottomStretch
+  - Global.AnchorPresets.BottonCenter
+  - Global.AnchorPresets.HorStretchBottom
+  - Global.AnchorPresets.HorStretchMiddle
+  - Global.AnchorPresets.HorStretchTop
+  - Global.AnchorPresets.MiddleCenter
+  - Global.AnchorPresets.MiddleLeft
+  - Global.AnchorPresets.MiddleRight
+  - Global.AnchorPresets.StretchAll
+  - Global.AnchorPresets.TopCenter
+  - Global.AnchorPresets.TopLeft
+  - Global.AnchorPresets.TopRight
+  - Global.AnchorPresets.VertStretchCenter
+  - Global.AnchorPresets.VertStretchLeft
+  - Global.AnchorPresets.VertStretchRight
+  langs:
+  - csharp
+  - vb
+  name: AnchorPresets
+  nameWithType: AnchorPresets
+  fullName: AnchorPresets
+  type: Enum
+  source:
+    id: AnchorPresets
+    path: ''
+    startLine: 14098
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum AnchorPresets
+    content.vb: Public Enum AnchorPresets
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.AnchorPresets.TopLeft
+  commentId: F:Global.AnchorPresets.TopLeft
+  id: TopLeft
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: TopLeft
+  nameWithType: AnchorPresets.TopLeft
+  fullName: AnchorPresets.TopLeft
+  type: Field
+  source:
+    id: TopLeft
+    path: ''
+    startLine: 14100
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: TopLeft = 0
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.TopCenter
+  commentId: F:Global.AnchorPresets.TopCenter
+  id: TopCenter
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: TopCenter
+  nameWithType: AnchorPresets.TopCenter
+  fullName: AnchorPresets.TopCenter
+  type: Field
+  source:
+    id: TopCenter
+    path: ''
+    startLine: 14101
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: TopCenter = 1
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.TopRight
+  commentId: F:Global.AnchorPresets.TopRight
+  id: TopRight
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: TopRight
+  nameWithType: AnchorPresets.TopRight
+  fullName: AnchorPresets.TopRight
+  type: Field
+  source:
+    id: TopRight
+    path: ''
+    startLine: 14102
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: TopRight = 2
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.MiddleLeft
+  commentId: F:Global.AnchorPresets.MiddleLeft
+  id: MiddleLeft
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: MiddleLeft
+  nameWithType: AnchorPresets.MiddleLeft
+  fullName: AnchorPresets.MiddleLeft
+  type: Field
+  source:
+    id: MiddleLeft
+    path: ''
+    startLine: 14104
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MiddleLeft = 3
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.MiddleCenter
+  commentId: F:Global.AnchorPresets.MiddleCenter
+  id: MiddleCenter
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: MiddleCenter
+  nameWithType: AnchorPresets.MiddleCenter
+  fullName: AnchorPresets.MiddleCenter
+  type: Field
+  source:
+    id: MiddleCenter
+    path: ''
+    startLine: 14105
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MiddleCenter = 4
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.MiddleRight
+  commentId: F:Global.AnchorPresets.MiddleRight
+  id: MiddleRight
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: MiddleRight
+  nameWithType: AnchorPresets.MiddleRight
+  fullName: AnchorPresets.MiddleRight
+  type: Field
+  source:
+    id: MiddleRight
+    path: ''
+    startLine: 14106
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MiddleRight = 5
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.BottomLeft
+  commentId: F:Global.AnchorPresets.BottomLeft
+  id: BottomLeft
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: BottomLeft
+  nameWithType: AnchorPresets.BottomLeft
+  fullName: AnchorPresets.BottomLeft
+  type: Field
+  source:
+    id: BottomLeft
+    path: ''
+    startLine: 14108
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: BottomLeft = 6
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.BottonCenter
+  commentId: F:Global.AnchorPresets.BottonCenter
+  id: BottonCenter
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: BottonCenter
+  nameWithType: AnchorPresets.BottonCenter
+  fullName: AnchorPresets.BottonCenter
+  type: Field
+  source:
+    id: BottonCenter
+    path: ''
+    startLine: 14109
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: BottonCenter = 7
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.BottomRight
+  commentId: F:Global.AnchorPresets.BottomRight
+  id: BottomRight
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: BottomRight
+  nameWithType: AnchorPresets.BottomRight
+  fullName: AnchorPresets.BottomRight
+  type: Field
+  source:
+    id: BottomRight
+    path: ''
+    startLine: 14110
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: BottomRight = 8
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.BottomStretch
+  commentId: F:Global.AnchorPresets.BottomStretch
+  id: BottomStretch
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: BottomStretch
+  nameWithType: AnchorPresets.BottomStretch
+  fullName: AnchorPresets.BottomStretch
+  type: Field
+  source:
+    id: BottomStretch
+    path: ''
+    startLine: 14111
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: BottomStretch = 9
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.VertStretchLeft
+  commentId: F:Global.AnchorPresets.VertStretchLeft
+  id: VertStretchLeft
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: VertStretchLeft
+  nameWithType: AnchorPresets.VertStretchLeft
+  fullName: AnchorPresets.VertStretchLeft
+  type: Field
+  source:
+    id: VertStretchLeft
+    path: ''
+    startLine: 14113
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: VertStretchLeft = 10
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.VertStretchRight
+  commentId: F:Global.AnchorPresets.VertStretchRight
+  id: VertStretchRight
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: VertStretchRight
+  nameWithType: AnchorPresets.VertStretchRight
+  fullName: AnchorPresets.VertStretchRight
+  type: Field
+  source:
+    id: VertStretchRight
+    path: ''
+    startLine: 14114
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: VertStretchRight = 11
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.VertStretchCenter
+  commentId: F:Global.AnchorPresets.VertStretchCenter
+  id: VertStretchCenter
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: VertStretchCenter
+  nameWithType: AnchorPresets.VertStretchCenter
+  fullName: AnchorPresets.VertStretchCenter
+  type: Field
+  source:
+    id: VertStretchCenter
+    path: ''
+    startLine: 14115
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: VertStretchCenter = 12
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.HorStretchTop
+  commentId: F:Global.AnchorPresets.HorStretchTop
+  id: HorStretchTop
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: HorStretchTop
+  nameWithType: AnchorPresets.HorStretchTop
+  fullName: AnchorPresets.HorStretchTop
+  type: Field
+  source:
+    id: HorStretchTop
+    path: ''
+    startLine: 14117
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: HorStretchTop = 13
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.HorStretchMiddle
+  commentId: F:Global.AnchorPresets.HorStretchMiddle
+  id: HorStretchMiddle
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: HorStretchMiddle
+  nameWithType: AnchorPresets.HorStretchMiddle
+  fullName: AnchorPresets.HorStretchMiddle
+  type: Field
+  source:
+    id: HorStretchMiddle
+    path: ''
+    startLine: 14118
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: HorStretchMiddle = 14
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.HorStretchBottom
+  commentId: F:Global.AnchorPresets.HorStretchBottom
+  id: HorStretchBottom
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: HorStretchBottom
+  nameWithType: AnchorPresets.HorStretchBottom
+  fullName: AnchorPresets.HorStretchBottom
+  type: Field
+  source:
+    id: HorStretchBottom
+    path: ''
+    startLine: 14119
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: HorStretchBottom = 15
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.AnchorPresets.StretchAll
+  commentId: F:Global.AnchorPresets.StretchAll
+  id: StretchAll
+  parent: Global.AnchorPresets
+  langs:
+  - csharp
+  - vb
+  name: StretchAll
+  nameWithType: AnchorPresets.StretchAll
+  fullName: AnchorPresets.StretchAll
+  type: Field
+  source:
+    id: StretchAll
+    path: ''
+    startLine: 14121
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: StretchAll = 16
+    return:
+      type: Global.AnchorPresets
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.AnchorPresets
+  commentId: T:Global.AnchorPresets
+  name: AnchorPresets
+  nameWithType: AnchorPresets
+  fullName: AnchorPresets

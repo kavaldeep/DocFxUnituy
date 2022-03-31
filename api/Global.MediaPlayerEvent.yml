@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MediaPlayerEvent
+  commentId: T:Global.MediaPlayerEvent
+  id: MediaPlayerEvent
+  parent: Global
+  children:
+  - Global.MediaPlayerEvent.m_srcVideo
+  langs:
+  - csharp
+  - vb
+  name: MediaPlayerEvent
+  nameWithType: MediaPlayerEvent
+  fullName: MediaPlayerEvent
+  type: Class
+  source:
+    id: MediaPlayerEvent
+    path: ''
+    startLine: 8265
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MediaPlayerEvent : MonoBehaviour'
+    content.vb: >-
+      Public Class MediaPlayerEvent
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MediaPlayerEvent.m_srcVideo
+  commentId: F:Global.MediaPlayerEvent.m_srcVideo
+  id: m_srcVideo
+  parent: Global.MediaPlayerEvent
+  langs:
+  - csharp
+  - vb
+  name: m_srcVideo
+  nameWithType: MediaPlayerEvent.m_srcVideo
+  fullName: MediaPlayerEvent.m_srcVideo
+  type: Field
+  source:
+    id: m_srcVideo
+    path: ''
+    startLine: 8268
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl m_srcVideo
+    return:
+      type: Global.MediaPlayerCtrl
+    content.vb: Public m_srcVideo As MediaPlayerCtrl
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MediaPlayerCtrl
+  commentId: T:Global.MediaPlayerCtrl
+  name: MediaPlayerCtrl
+  nameWithType: MediaPlayerCtrl
+  fullName: MediaPlayerCtrl

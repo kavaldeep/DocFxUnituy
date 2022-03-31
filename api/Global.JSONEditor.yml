@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.JSONEditor
+  commentId: T:Global.JSONEditor
+  id: JSONEditor
+  parent: Global
+  children:
+  - Global.JSONEditor.CreateNewJsonFile
+  - Global.JSONEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: JSONEditor
+  nameWithType: JSONEditor
+  fullName: JSONEditor
+  type: Class
+  source:
+    id: JSONEditor
+    path: ''
+    startLine: 9334
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class JSONEditor : Editor'
+    content.vb: >-
+      Public Class JSONEditor
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.JSONEditor.OnInspectorGUI
+  commentId: M:Global.JSONEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: Global.JSONEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: JSONEditor.OnInspectorGUI()
+  fullName: JSONEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 9361
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: Global.JSONEditor.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.JSONEditor.CreateNewJsonFile
+  commentId: M:Global.JSONEditor.CreateNewJsonFile
+  id: CreateNewJsonFile
+  parent: Global.JSONEditor
+  langs:
+  - csharp
+  - vb
+  name: CreateNewJsonFile()
+  nameWithType: JSONEditor.CreateNewJsonFile()
+  fullName: JSONEditor.CreateNewJsonFile()
+  type: Method
+  source:
+    id: CreateNewJsonFile
+    path: ''
+    startLine: 9645
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void CreateNewJsonFile()
+    content.vb: Public Shared Sub CreateNewJsonFile
+  overload: Global.JSONEditor.CreateNewJsonFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.JSONEditor.OnInspectorGUI*
+  commentId: Overload:Global.JSONEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: JSONEditor.OnInspectorGUI
+  fullName: JSONEditor.OnInspectorGUI
+- uid: Global.JSONEditor.CreateNewJsonFile*
+  commentId: Overload:Global.JSONEditor.CreateNewJsonFile
+  name: CreateNewJsonFile
+  nameWithType: JSONEditor.CreateNewJsonFile
+  fullName: JSONEditor.CreateNewJsonFile

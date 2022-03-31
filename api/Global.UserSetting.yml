@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UserSetting
+  commentId: T:Global.UserSetting
+  id: UserSetting
+  parent: Global
+  children:
+  - Global.UserSetting.Language
+  langs:
+  - csharp
+  - vb
+  name: UserSetting
+  nameWithType: UserSetting
+  fullName: UserSetting
+  type: Struct
+  source:
+    id: UserSetting
+    path: ''
+    startLine: 16770
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct UserSetting
+    content.vb: >-
+      <Serializable>
+
+      Public Structure UserSetting
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.UserSetting.Language
+  commentId: F:Global.UserSetting.Language
+  id: Language
+  parent: Global.UserSetting
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: UserSetting.Language
+  fullName: UserSetting.Language
+  type: Field
+  source:
+    id: Language
+    path: ''
+    startLine: 16773
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int Language
+    return:
+      type: System.Int32
+    content.vb: Public Language As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

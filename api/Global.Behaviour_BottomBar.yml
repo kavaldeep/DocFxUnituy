@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_BottomBar
+  commentId: T:Global.Behaviour_BottomBar
+  id: Behaviour_BottomBar
+  parent: Global
+  children:
+  - Global.Behaviour_BottomBar.Awake
+  - Global.Behaviour_BottomBar.bottomBar
+  - Global.Behaviour_BottomBar.buttonSerie
+  - Global.Behaviour_BottomBar.HideBottomBar
+  - Global.Behaviour_BottomBar.HideButtonSeries
+  - Global.Behaviour_BottomBar.ShowBottomBar
+  - Global.Behaviour_BottomBar.ShowButtonSeries
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_BottomBar
+  nameWithType: Behaviour_BottomBar
+  fullName: Behaviour_BottomBar
+  type: Class
+  source:
+    id: Behaviour_BottomBar
+    path: ''
+    startLine: 22034
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_BottomBar : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_BottomBar
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_BottomBar.bottomBar
+  commentId: F:Global.Behaviour_BottomBar.bottomBar
+  id: bottomBar
+  parent: Global.Behaviour_BottomBar
+  langs:
+  - csharp
+  - vb
+  name: bottomBar
+  nameWithType: Behaviour_BottomBar.bottomBar
+  fullName: Behaviour_BottomBar.bottomBar
+  type: Field
+  source:
+    id: bottomBar
+    path: ''
+    startLine: 22036
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject bottomBar
+    return:
+      type: Global.GameObject
+    content.vb: Public bottomBar As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomBar.buttonSerie
+  commentId: F:Global.Behaviour_BottomBar.buttonSerie
+  id: buttonSerie
+  parent: Global.Behaviour_BottomBar
+  langs:
+  - csharp
+  - vb
+  name: buttonSerie
+  nameWithType: Behaviour_BottomBar.buttonSerie
+  fullName: Behaviour_BottomBar.buttonSerie
+  type: Field
+  source:
+    id: buttonSerie
+    path: ''
+    startLine: 22038
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject buttonSerie
+    return:
+      type: Global.GameObject
+    content.vb: Public buttonSerie As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomBar.Awake
+  commentId: M:Global.Behaviour_BottomBar.Awake
+  id: Awake
+  parent: Global.Behaviour_BottomBar
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Behaviour_BottomBar.Awake()
+  fullName: Behaviour_BottomBar.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 22040
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: Global.Behaviour_BottomBar.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomBar.ShowBottomBar
+  commentId: M:Global.Behaviour_BottomBar.ShowBottomBar
+  id: ShowBottomBar
+  parent: Global.Behaviour_BottomBar
+  langs:
+  - csharp
+  - vb
+  name: ShowBottomBar()
+  nameWithType: Behaviour_BottomBar.ShowBottomBar()
+  fullName: Behaviour_BottomBar.ShowBottomBar()
+  type: Method
+  source:
+    id: ShowBottomBar
+    path: ''
+    startLine: 22072
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ShowBottomBar()
+    content.vb: Public Sub ShowBottomBar
+  overload: Global.Behaviour_BottomBar.ShowBottomBar*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomBar.HideBottomBar
+  commentId: M:Global.Behaviour_BottomBar.HideBottomBar
+  id: HideBottomBar
+  parent: Global.Behaviour_BottomBar
+  langs:
+  - csharp
+  - vb
+  name: HideBottomBar()
+  nameWithType: Behaviour_BottomBar.HideBottomBar()
+  fullName: Behaviour_BottomBar.HideBottomBar()
+  type: Method
+  source:
+    id: HideBottomBar
+    path: ''
+    startLine: 22078
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void HideBottomBar()
+    content.vb: Public Sub HideBottomBar
+  overload: Global.Behaviour_BottomBar.HideBottomBar*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomBar.HideButtonSeries
+  commentId: M:Global.Behaviour_BottomBar.HideButtonSeries
+  id: HideButtonSeries
+  parent: Global.Behaviour_BottomBar
+  langs:
+  - csharp
+  - vb
+  name: HideButtonSeries()
+  nameWithType: Behaviour_BottomBar.HideButtonSeries()
+  fullName: Behaviour_BottomBar.HideButtonSeries()
+  type: Method
+  source:
+    id: HideButtonSeries
+    path: ''
+    startLine: 22084
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void HideButtonSeries()
+    content.vb: Public Sub HideButtonSeries
+  overload: Global.Behaviour_BottomBar.HideButtonSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_BottomBar.ShowButtonSeries
+  commentId: M:Global.Behaviour_BottomBar.ShowButtonSeries
+  id: ShowButtonSeries
+  parent: Global.Behaviour_BottomBar
+  langs:
+  - csharp
+  - vb
+  name: ShowButtonSeries()
+  nameWithType: Behaviour_BottomBar.ShowButtonSeries()
+  fullName: Behaviour_BottomBar.ShowButtonSeries()
+  type: Method
+  source:
+    id: ShowButtonSeries
+    path: ''
+    startLine: 22089
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ShowButtonSeries()
+    content.vb: Public Sub ShowButtonSeries
+  overload: Global.Behaviour_BottomBar.ShowButtonSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_BottomBar.Awake*
+  commentId: Overload:Global.Behaviour_BottomBar.Awake
+  name: Awake
+  nameWithType: Behaviour_BottomBar.Awake
+  fullName: Behaviour_BottomBar.Awake
+- uid: Global.Behaviour_BottomBar.ShowBottomBar*
+  commentId: Overload:Global.Behaviour_BottomBar.ShowBottomBar
+  name: ShowBottomBar
+  nameWithType: Behaviour_BottomBar.ShowBottomBar
+  fullName: Behaviour_BottomBar.ShowBottomBar
+- uid: Global.Behaviour_BottomBar.HideBottomBar*
+  commentId: Overload:Global.Behaviour_BottomBar.HideBottomBar
+  name: HideBottomBar
+  nameWithType: Behaviour_BottomBar.HideBottomBar
+  fullName: Behaviour_BottomBar.HideBottomBar
+- uid: Global.Behaviour_BottomBar.HideButtonSeries*
+  commentId: Overload:Global.Behaviour_BottomBar.HideButtonSeries
+  name: HideButtonSeries
+  nameWithType: Behaviour_BottomBar.HideButtonSeries
+  fullName: Behaviour_BottomBar.HideButtonSeries
+- uid: Global.Behaviour_BottomBar.ShowButtonSeries*
+  commentId: Overload:Global.Behaviour_BottomBar.ShowButtonSeries
+  name: ShowButtonSeries
+  nameWithType: Behaviour_BottomBar.ShowButtonSeries
+  fullName: Behaviour_BottomBar.ShowButtonSeries

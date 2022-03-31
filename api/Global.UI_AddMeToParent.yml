@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UI_AddMeToParent
+  commentId: T:Global.UI_AddMeToParent
+  id: UI_AddMeToParent
+  parent: Global
+  children:
+  - Global.UI_AddMeToParent.Awake
+  langs:
+  - csharp
+  - vb
+  name: UI_AddMeToParent
+  nameWithType: UI_AddMeToParent
+  fullName: UI_AddMeToParent
+  type: Class
+  source:
+    id: UI_AddMeToParent
+    path: ''
+    startLine: 27537
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UI_AddMeToParent : MonoBehaviour'
+    content.vb: >-
+      Public Class UI_AddMeToParent
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UI_AddMeToParent.Awake
+  commentId: M:Global.UI_AddMeToParent.Awake
+  id: Awake
+  parent: Global.UI_AddMeToParent
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: UI_AddMeToParent.Awake()
+  fullName: UI_AddMeToParent.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 27539
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Awake()
+    content.vb: Protected Sub Awake
+  overload: Global.UI_AddMeToParent.Awake*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UI_AddMeToParent.Awake*
+  commentId: Overload:Global.UI_AddMeToParent.Awake
+  name: Awake
+  nameWithType: UI_AddMeToParent.Awake
+  fullName: UI_AddMeToParent.Awake

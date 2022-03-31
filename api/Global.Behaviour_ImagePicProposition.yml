@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_ImagePicProposition
+  commentId: T:Global.Behaviour_ImagePicProposition
+  id: Behaviour_ImagePicProposition
+  parent: Global
+  children:
+  - Global.Behaviour_ImagePicProposition.Highlight
+  - Global.Behaviour_ImagePicProposition.picSprite
+  - Global.Behaviour_ImagePicProposition.SetSocialSprite(Sprite)
+  - Global.Behaviour_ImagePicProposition.UnHighlight
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_ImagePicProposition
+  nameWithType: Behaviour_ImagePicProposition
+  fullName: Behaviour_ImagePicProposition
+  type: Class
+  source:
+    id: Behaviour_ImagePicProposition
+    path: ''
+    startLine: 26922
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_ImagePicProposition : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_ImagePicProposition
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_ImagePicProposition.picSprite
+  commentId: P:Global.Behaviour_ImagePicProposition.picSprite
+  id: picSprite
+  parent: Global.Behaviour_ImagePicProposition
+  langs:
+  - csharp
+  - vb
+  name: picSprite
+  nameWithType: Behaviour_ImagePicProposition.picSprite
+  fullName: Behaviour_ImagePicProposition.picSprite
+  type: Property
+  source:
+    id: picSprite
+    path: ''
+    startLine: 26935
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Sprite picSprite { get; set; }
+    parameters: []
+    return:
+      type: Global.Sprite
+    content.vb: Public Property picSprite As Sprite
+  overload: Global.Behaviour_ImagePicProposition.picSprite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ImagePicProposition.SetSocialSprite(Sprite)
+  commentId: M:Global.Behaviour_ImagePicProposition.SetSocialSprite(Sprite)
+  id: SetSocialSprite(Sprite)
+  parent: Global.Behaviour_ImagePicProposition
+  langs:
+  - csharp
+  - vb
+  name: SetSocialSprite(Sprite)
+  nameWithType: Behaviour_ImagePicProposition.SetSocialSprite(Sprite)
+  fullName: Behaviour_ImagePicProposition.SetSocialSprite(Sprite)
+  type: Method
+  source:
+    id: SetSocialSprite
+    path: ''
+    startLine: 26941
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetSocialSprite(Sprite newSprite)
+    parameters:
+    - id: newSprite
+      type: Global.Sprite
+    content.vb: Public Sub SetSocialSprite(newSprite As Sprite)
+  overload: Global.Behaviour_ImagePicProposition.SetSocialSprite*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ImagePicProposition.Highlight
+  commentId: M:Global.Behaviour_ImagePicProposition.Highlight
+  id: Highlight
+  parent: Global.Behaviour_ImagePicProposition
+  langs:
+  - csharp
+  - vb
+  name: Highlight()
+  nameWithType: Behaviour_ImagePicProposition.Highlight()
+  fullName: Behaviour_ImagePicProposition.Highlight()
+  type: Method
+  source:
+    id: Highlight
+    path: ''
+    startLine: 26952
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Highlight()
+    content.vb: Public Sub Highlight
+  overload: Global.Behaviour_ImagePicProposition.Highlight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ImagePicProposition.UnHighlight
+  commentId: M:Global.Behaviour_ImagePicProposition.UnHighlight
+  id: UnHighlight
+  parent: Global.Behaviour_ImagePicProposition
+  langs:
+  - csharp
+  - vb
+  name: UnHighlight()
+  nameWithType: Behaviour_ImagePicProposition.UnHighlight()
+  fullName: Behaviour_ImagePicProposition.UnHighlight()
+  type: Method
+  source:
+    id: UnHighlight
+    path: ''
+    startLine: 26957
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UnHighlight()
+    content.vb: Public Sub UnHighlight
+  overload: Global.Behaviour_ImagePicProposition.UnHighlight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_ImagePicProposition.picSprite*
+  commentId: Overload:Global.Behaviour_ImagePicProposition.picSprite
+  name: picSprite
+  nameWithType: Behaviour_ImagePicProposition.picSprite
+  fullName: Behaviour_ImagePicProposition.picSprite
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Global.Behaviour_ImagePicProposition.SetSocialSprite*
+  commentId: Overload:Global.Behaviour_ImagePicProposition.SetSocialSprite
+  name: SetSocialSprite
+  nameWithType: Behaviour_ImagePicProposition.SetSocialSprite
+  fullName: Behaviour_ImagePicProposition.SetSocialSprite
+- uid: Global.Behaviour_ImagePicProposition.Highlight*
+  commentId: Overload:Global.Behaviour_ImagePicProposition.Highlight
+  name: Highlight
+  nameWithType: Behaviour_ImagePicProposition.Highlight
+  fullName: Behaviour_ImagePicProposition.Highlight
+- uid: Global.Behaviour_ImagePicProposition.UnHighlight*
+  commentId: Overload:Global.Behaviour_ImagePicProposition.UnHighlight
+  name: UnHighlight
+  nameWithType: Behaviour_ImagePicProposition.UnHighlight
+  fullName: Behaviour_ImagePicProposition.UnHighlight

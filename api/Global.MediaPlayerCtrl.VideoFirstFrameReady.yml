@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MediaPlayerCtrl.VideoFirstFrameReady
+  commentId: T:Global.MediaPlayerCtrl.VideoFirstFrameReady
+  id: MediaPlayerCtrl.VideoFirstFrameReady
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MediaPlayerCtrl.VideoFirstFrameReady
+  nameWithType: MediaPlayerCtrl.VideoFirstFrameReady
+  fullName: MediaPlayerCtrl.VideoFirstFrameReady
+  type: Delegate
+  source:
+    id: VideoFirstFrameReady
+    path: ''
+    startLine: 5762
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public delegate void VideoFirstFrameReady();
+    content.vb: Public Delegate Sub VideoFirstFrameReady
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''

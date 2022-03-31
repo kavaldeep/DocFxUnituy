@@ -1,0 +1,314 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_GPS
+  commentId: T:Global.Behaviour_GPS
+  id: Behaviour_GPS
+  parent: Global
+  children:
+  - Global.Behaviour_GPS.altitude
+  - Global.Behaviour_GPS.altitudeText
+  - Global.Behaviour_GPS.checklocation
+  - Global.Behaviour_GPS.Instance
+  - Global.Behaviour_GPS.latitude
+  - Global.Behaviour_GPS.latitudeText
+  - Global.Behaviour_GPS.longitude
+  - Global.Behaviour_GPS.longitudeText
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_GPS
+  nameWithType: Behaviour_GPS
+  fullName: Behaviour_GPS
+  type: Class
+  source:
+    id: Behaviour_GPS
+    path: ''
+    startLine: 28003
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_GPS : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_GPS
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_GPS.Instance
+  commentId: P:Global.Behaviour_GPS.Instance
+  id: Instance
+  parent: Global.Behaviour_GPS
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Behaviour_GPS.Instance
+  fullName: Behaviour_GPS.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 28005
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Behaviour_GPS Instance { get; set; }
+    parameters: []
+    return:
+      type: Global.Behaviour_GPS
+    content.vb: Public Shared Property Instance As Behaviour_GPS
+  overload: Global.Behaviour_GPS.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Behaviour_GPS.checklocation
+  commentId: F:Global.Behaviour_GPS.checklocation
+  id: checklocation
+  parent: Global.Behaviour_GPS
+  langs:
+  - csharp
+  - vb
+  name: checklocation
+  nameWithType: Behaviour_GPS.checklocation
+  fullName: Behaviour_GPS.checklocation
+  type: Field
+  source:
+    id: checklocation
+    path: ''
+    startLine: 28006
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool checklocation
+    return:
+      type: System.Boolean
+    content.vb: Public checklocation As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GPS.latitude
+  commentId: F:Global.Behaviour_GPS.latitude
+  id: latitude
+  parent: Global.Behaviour_GPS
+  langs:
+  - csharp
+  - vb
+  name: latitude
+  nameWithType: Behaviour_GPS.latitude
+  fullName: Behaviour_GPS.latitude
+  type: Field
+  source:
+    id: latitude
+    path: ''
+    startLine: 28007
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float latitude
+    return:
+      type: System.Single
+    content.vb: Public latitude As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GPS.longitude
+  commentId: F:Global.Behaviour_GPS.longitude
+  id: longitude
+  parent: Global.Behaviour_GPS
+  langs:
+  - csharp
+  - vb
+  name: longitude
+  nameWithType: Behaviour_GPS.longitude
+  fullName: Behaviour_GPS.longitude
+  type: Field
+  source:
+    id: longitude
+    path: ''
+    startLine: 28008
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float longitude
+    return:
+      type: System.Single
+    content.vb: Public longitude As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GPS.altitude
+  commentId: F:Global.Behaviour_GPS.altitude
+  id: altitude
+  parent: Global.Behaviour_GPS
+  langs:
+  - csharp
+  - vb
+  name: altitude
+  nameWithType: Behaviour_GPS.altitude
+  fullName: Behaviour_GPS.altitude
+  type: Field
+  source:
+    id: altitude
+    path: ''
+    startLine: 28009
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float altitude
+    return:
+      type: System.Single
+    content.vb: Public altitude As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GPS.latitudeText
+  commentId: F:Global.Behaviour_GPS.latitudeText
+  id: latitudeText
+  parent: Global.Behaviour_GPS
+  langs:
+  - csharp
+  - vb
+  name: latitudeText
+  nameWithType: Behaviour_GPS.latitudeText
+  fullName: Behaviour_GPS.latitudeText
+  type: Field
+  source:
+    id: latitudeText
+    path: ''
+    startLine: 28010
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI latitudeText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public latitudeText As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GPS.longitudeText
+  commentId: F:Global.Behaviour_GPS.longitudeText
+  id: longitudeText
+  parent: Global.Behaviour_GPS
+  langs:
+  - csharp
+  - vb
+  name: longitudeText
+  nameWithType: Behaviour_GPS.longitudeText
+  fullName: Behaviour_GPS.longitudeText
+  type: Field
+  source:
+    id: longitudeText
+    path: ''
+    startLine: 28011
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI longitudeText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public longitudeText As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_GPS.altitudeText
+  commentId: F:Global.Behaviour_GPS.altitudeText
+  id: altitudeText
+  parent: Global.Behaviour_GPS
+  langs:
+  - csharp
+  - vb
+  name: altitudeText
+  nameWithType: Behaviour_GPS.altitudeText
+  fullName: Behaviour_GPS.altitudeText
+  type: Field
+  source:
+    id: altitudeText
+    path: ''
+    startLine: 28012
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI altitudeText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public altitudeText As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_GPS.Instance*
+  commentId: Overload:Global.Behaviour_GPS.Instance
+  name: Instance
+  nameWithType: Behaviour_GPS.Instance
+  fullName: Behaviour_GPS.Instance
+- uid: Global.Behaviour_GPS
+  commentId: T:Global.Behaviour_GPS
+  name: Behaviour_GPS
+  nameWithType: Behaviour_GPS
+  fullName: Behaviour_GPS
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI

@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.JasonSTP
+  commentId: T:Global.JasonSTP
+  id: JasonSTP
+  parent: Global
+  children:
+  - Global.JasonSTP.ActivateDownloadFolderJSON
+  - Global.JasonSTP.ActivateDownloadJSON
+  - Global.JasonSTP.ActivateUploadJSON
+  - Global.JasonSTP.jason
+  langs:
+  - csharp
+  - vb
+  name: JasonSTP
+  nameWithType: JasonSTP
+  fullName: JasonSTP
+  type: Class
+  source:
+    id: JasonSTP
+    path: ''
+    startLine: 13245
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class JasonSTP : MonoBehaviour'
+    content.vb: >-
+      Public Class JasonSTP
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.JasonSTP.jason
+  commentId: F:Global.JasonSTP.jason
+  id: jason
+  parent: Global.JasonSTP
+  langs:
+  - csharp
+  - vb
+  name: jason
+  nameWithType: JasonSTP.jason
+  fullName: JasonSTP.jason
+  type: Field
+  source:
+    id: jason
+    path: ''
+    startLine: 13252
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public JSONObject jason
+    return:
+      type: Global.JSONObject
+    content.vb: Public jason As JSONObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.JasonSTP.ActivateUploadJSON
+  commentId: M:Global.JasonSTP.ActivateUploadJSON
+  id: ActivateUploadJSON
+  parent: Global.JasonSTP
+  langs:
+  - csharp
+  - vb
+  name: ActivateUploadJSON()
+  nameWithType: JasonSTP.ActivateUploadJSON()
+  fullName: JasonSTP.ActivateUploadJSON()
+  type: Method
+  source:
+    id: ActivateUploadJSON
+    path: ''
+    startLine: 13255
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ActivateUploadJSON()
+    content.vb: Public Sub ActivateUploadJSON
+  overload: Global.JasonSTP.ActivateUploadJSON*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.JasonSTP.ActivateDownloadJSON
+  commentId: M:Global.JasonSTP.ActivateDownloadJSON
+  id: ActivateDownloadJSON
+  parent: Global.JasonSTP
+  langs:
+  - csharp
+  - vb
+  name: ActivateDownloadJSON()
+  nameWithType: JasonSTP.ActivateDownloadJSON()
+  fullName: JasonSTP.ActivateDownloadJSON()
+  type: Method
+  source:
+    id: ActivateDownloadJSON
+    path: ''
+    startLine: 13282
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ActivateDownloadJSON()
+    content.vb: Public Sub ActivateDownloadJSON
+  overload: Global.JasonSTP.ActivateDownloadJSON*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.JasonSTP.ActivateDownloadFolderJSON
+  commentId: M:Global.JasonSTP.ActivateDownloadFolderJSON
+  id: ActivateDownloadFolderJSON
+  parent: Global.JasonSTP
+  langs:
+  - csharp
+  - vb
+  name: ActivateDownloadFolderJSON()
+  nameWithType: JasonSTP.ActivateDownloadFolderJSON()
+  fullName: JasonSTP.ActivateDownloadFolderJSON()
+  type: Method
+  source:
+    id: ActivateDownloadFolderJSON
+    path: ''
+    startLine: 13294
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ActivateDownloadFolderJSON()
+    content.vb: Public Sub ActivateDownloadFolderJSON
+  overload: Global.JasonSTP.ActivateDownloadFolderJSON*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.JSONObject
+  commentId: '!:Global.JSONObject'
+  isExternal: true
+  name: JSONObject
+  nameWithType: JSONObject
+  fullName: JSONObject
+- uid: Global.JasonSTP.ActivateUploadJSON*
+  commentId: Overload:Global.JasonSTP.ActivateUploadJSON
+  name: ActivateUploadJSON
+  nameWithType: JasonSTP.ActivateUploadJSON
+  fullName: JasonSTP.ActivateUploadJSON
+- uid: Global.JasonSTP.ActivateDownloadJSON*
+  commentId: Overload:Global.JasonSTP.ActivateDownloadJSON
+  name: ActivateDownloadJSON
+  nameWithType: JasonSTP.ActivateDownloadJSON
+  fullName: JasonSTP.ActivateDownloadJSON
+- uid: Global.JasonSTP.ActivateDownloadFolderJSON*
+  commentId: Overload:Global.JasonSTP.ActivateDownloadFolderJSON
+  name: ActivateDownloadFolderJSON
+  nameWithType: JasonSTP.ActivateDownloadFolderJSON
+  fullName: JasonSTP.ActivateDownloadFolderJSON

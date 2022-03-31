@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_ProfileInfoFiller
+  commentId: T:Global.Behaviour_ProfileInfoFiller
+  id: Behaviour_ProfileInfoFiller
+  parent: Global
+  children:
+  - Global.Behaviour_ProfileInfoFiller.DisplayUserInfos
+  - Global.Behaviour_ProfileInfoFiller.ProfileUsername
+  - Global.Behaviour_ProfileInfoFiller.usernamesList
+  - Global.Behaviour_ProfileInfoFiller.UserProfilFB
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_ProfileInfoFiller
+  nameWithType: Behaviour_ProfileInfoFiller
+  fullName: Behaviour_ProfileInfoFiller
+  type: Class
+  source:
+    id: Behaviour_ProfileInfoFiller
+    path: ''
+    startLine: 28416
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_ProfileInfoFiller : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_ProfileInfoFiller
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_ProfileInfoFiller.ProfileUsername
+  commentId: F:Global.Behaviour_ProfileInfoFiller.ProfileUsername
+  id: ProfileUsername
+  parent: Global.Behaviour_ProfileInfoFiller
+  langs:
+  - csharp
+  - vb
+  name: ProfileUsername
+  nameWithType: Behaviour_ProfileInfoFiller.ProfileUsername
+  fullName: Behaviour_ProfileInfoFiller.ProfileUsername
+  type: Field
+  source:
+    id: ProfileUsername
+    path: ''
+    startLine: 28419
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI ProfileUsername
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public ProfileUsername As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ProfileInfoFiller.usernamesList
+  commentId: F:Global.Behaviour_ProfileInfoFiller.usernamesList
+  id: usernamesList
+  parent: Global.Behaviour_ProfileInfoFiller
+  langs:
+  - csharp
+  - vb
+  name: usernamesList
+  nameWithType: Behaviour_ProfileInfoFiller.usernamesList
+  fullName: Behaviour_ProfileInfoFiller.usernamesList
+  type: Field
+  source:
+    id: usernamesList
+    path: ''
+    startLine: 28420
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<TextMeshProUGUI> usernamesList
+    return:
+      type: System.Collections.Generic.List{TextMeshProUGUI}
+    content.vb: Public usernamesList As List(Of TextMeshProUGUI)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ProfileInfoFiller.UserProfilFB
+  commentId: M:Global.Behaviour_ProfileInfoFiller.UserProfilFB
+  id: UserProfilFB
+  parent: Global.Behaviour_ProfileInfoFiller
+  langs:
+  - csharp
+  - vb
+  name: UserProfilFB()
+  nameWithType: Behaviour_ProfileInfoFiller.UserProfilFB()
+  fullName: Behaviour_ProfileInfoFiller.UserProfilFB()
+  type: Method
+  source:
+    id: UserProfilFB
+    path: ''
+    startLine: 28430
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UserProfilFB()
+    content.vb: Public Sub UserProfilFB
+  overload: Global.Behaviour_ProfileInfoFiller.UserProfilFB*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ProfileInfoFiller.DisplayUserInfos
+  commentId: M:Global.Behaviour_ProfileInfoFiller.DisplayUserInfos
+  id: DisplayUserInfos
+  parent: Global.Behaviour_ProfileInfoFiller
+  langs:
+  - csharp
+  - vb
+  name: DisplayUserInfos()
+  nameWithType: Behaviour_ProfileInfoFiller.DisplayUserInfos()
+  fullName: Behaviour_ProfileInfoFiller.DisplayUserInfos()
+  type: Method
+  source:
+    id: DisplayUserInfos
+    path: ''
+    startLine: 28451
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DisplayUserInfos()
+    content.vb: Public Sub DisplayUserInfos
+  overload: Global.Behaviour_ProfileInfoFiller.DisplayUserInfos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: System.Collections.Generic.List{TextMeshProUGUI}
+  commentId: T:System.Collections.Generic.List{TextMeshProUGUI}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<TextMeshProUGUI>
+  nameWithType: List<TextMeshProUGUI>
+  fullName: System.Collections.Generic.List<TextMeshProUGUI>
+  nameWithType.vb: List(Of TextMeshProUGUI)
+  fullName.vb: System.Collections.Generic.List(Of TextMeshProUGUI)
+  name.vb: List(Of TextMeshProUGUI)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.TextMeshProUGUI
+    name: TextMeshProUGUI
+    nameWithType: TextMeshProUGUI
+    fullName: TextMeshProUGUI
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.TextMeshProUGUI
+    name: TextMeshProUGUI
+    nameWithType: TextMeshProUGUI
+    fullName: TextMeshProUGUI
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Global.Behaviour_ProfileInfoFiller.UserProfilFB*
+  commentId: Overload:Global.Behaviour_ProfileInfoFiller.UserProfilFB
+  name: UserProfilFB
+  nameWithType: Behaviour_ProfileInfoFiller.UserProfilFB
+  fullName: Behaviour_ProfileInfoFiller.UserProfilFB
+- uid: Global.Behaviour_ProfileInfoFiller.DisplayUserInfos*
+  commentId: Overload:Global.Behaviour_ProfileInfoFiller.DisplayUserInfos
+  name: DisplayUserInfos
+  nameWithType: Behaviour_ProfileInfoFiller.DisplayUserInfos
+  fullName: Behaviour_ProfileInfoFiller.DisplayUserInfos

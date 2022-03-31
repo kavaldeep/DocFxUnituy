@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TwitPost
+  commentId: T:Global.TwitPost
+  id: TwitPost
+  parent: Global
+  children:
+  - Global.TwitPost.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)
+  langs:
+  - csharp
+  - vb
+  name: TwitPost
+  nameWithType: TwitPost
+  fullName: TwitPost
+  type: Class
+  source:
+    id: TwitPost
+    path: ''
+    startLine: 26651
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class TwitPost : Post
+    content.vb: >-
+      <Serializable>
+
+      Public Class TwitPost
+          Inherits Post
+  inheritance:
+  - System.Object
+  - Global.Post
+  inheritedMembers:
+  - Global.Post.id
+  - Global.Post.sender
+  - Global.Post.content
+  - Global.Post.stats
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TwitPost.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)
+  commentId: M:Global.TwitPost.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)
+  id: '#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)'
+  parent: Global.TwitPost
+  langs:
+  - csharp
+  - vb
+  name: TwitPost(String, String, String, String, String, String, Int32, String)
+  nameWithType: TwitPost.TwitPost(String, String, String, String, String, String, Int32, String)
+  fullName: TwitPost.TwitPost(System.String, System.String, System.String, System.String, System.String, System.String, System.Int32, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 26654
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TwitPost(string new_message, string new_image_url, string new_op, string new_tags, string new_id, string newDate, int new_FavoriteCount, string newprofileUrl)
+    parameters:
+    - id: new_message
+      type: System.String
+    - id: new_image_url
+      type: System.String
+    - id: new_op
+      type: System.String
+    - id: new_tags
+      type: System.String
+    - id: new_id
+      type: System.String
+    - id: newDate
+      type: System.String
+    - id: new_FavoriteCount
+      type: System.Int32
+    - id: newprofileUrl
+      type: System.String
+    content.vb: Public Sub New(new_message As String, new_image_url As String, new_op As String, new_tags As String, new_id As String, newDate As String, new_FavoriteCount As Integer, newprofileUrl As String)
+  overload: Global.TwitPost.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.Post
+  commentId: T:Global.Post
+  name: Post
+  nameWithType: Post
+  fullName: Post
+- uid: Global.Post.id
+  commentId: F:Global.Post.id
+  parent: Global.Post
+  name: id
+  nameWithType: Post.id
+  fullName: Post.id
+- uid: Global.Post.sender
+  commentId: F:Global.Post.sender
+  parent: Global.Post
+  name: sender
+  nameWithType: Post.sender
+  fullName: Post.sender
+- uid: Global.Post.content
+  commentId: F:Global.Post.content
+  parent: Global.Post
+  name: content
+  nameWithType: Post.content
+  fullName: Post.content
+- uid: Global.Post.stats
+  commentId: F:Global.Post.stats
+  parent: Global.Post
+  name: stats
+  nameWithType: Post.stats
+  fullName: Post.stats
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TwitPost.#ctor*
+  commentId: Overload:Global.TwitPost.#ctor
+  name: TwitPost
+  nameWithType: TwitPost.TwitPost
+  fullName: TwitPost.TwitPost
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

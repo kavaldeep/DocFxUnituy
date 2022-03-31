@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MedaiPlayerSampleGUI
+  commentId: T:Global.MedaiPlayerSampleGUI
+  id: MedaiPlayerSampleGUI
+  parent: Global
+  children:
+  - Global.MedaiPlayerSampleGUI.m_bFinish
+  - Global.MedaiPlayerSampleGUI.scrMedia
+  langs:
+  - csharp
+  - vb
+  name: MedaiPlayerSampleGUI
+  nameWithType: MedaiPlayerSampleGUI
+  fullName: MedaiPlayerSampleGUI
+  type: Class
+  source:
+    id: MedaiPlayerSampleGUI
+    path: ''
+    startLine: 5554
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MedaiPlayerSampleGUI : MonoBehaviour'
+    content.vb: >-
+      Public Class MedaiPlayerSampleGUI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MedaiPlayerSampleGUI.scrMedia
+  commentId: F:Global.MedaiPlayerSampleGUI.scrMedia
+  id: scrMedia
+  parent: Global.MedaiPlayerSampleGUI
+  langs:
+  - csharp
+  - vb
+  name: scrMedia
+  nameWithType: MedaiPlayerSampleGUI.scrMedia
+  fullName: MedaiPlayerSampleGUI.scrMedia
+  type: Field
+  source:
+    id: scrMedia
+    path: ''
+    startLine: 5557
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl scrMedia
+    return:
+      type: Global.MediaPlayerCtrl
+    content.vb: Public scrMedia As MediaPlayerCtrl
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MedaiPlayerSampleGUI.m_bFinish
+  commentId: F:Global.MedaiPlayerSampleGUI.m_bFinish
+  id: m_bFinish
+  parent: Global.MedaiPlayerSampleGUI
+  langs:
+  - csharp
+  - vb
+  name: m_bFinish
+  nameWithType: MedaiPlayerSampleGUI.m_bFinish
+  fullName: MedaiPlayerSampleGUI.m_bFinish
+  type: Field
+  source:
+    id: m_bFinish
+    path: ''
+    startLine: 5559
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool m_bFinish
+    return:
+      type: System.Boolean
+    content.vb: Public m_bFinish As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MediaPlayerCtrl
+  commentId: T:Global.MediaPlayerCtrl
+  name: MediaPlayerCtrl
+  nameWithType: MediaPlayerCtrl
+  fullName: MediaPlayerCtrl
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

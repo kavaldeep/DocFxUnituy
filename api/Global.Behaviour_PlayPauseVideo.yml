@@ -1,0 +1,253 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_PlayPauseVideo
+  commentId: T:Global.Behaviour_PlayPauseVideo
+  id: Behaviour_PlayPauseVideo
+  parent: Global
+  children:
+  - Global.Behaviour_PlayPauseVideo.ForwardStep
+  - Global.Behaviour_PlayPauseVideo.mediaPlayerCtrl
+  - Global.Behaviour_PlayPauseVideo.playing
+  - Global.Behaviour_PlayPauseVideo.RewindStep
+  - Global.Behaviour_PlayPauseVideo.Stop
+  - Global.Behaviour_PlayPauseVideo.TooglePlayPause
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_PlayPauseVideo
+  nameWithType: Behaviour_PlayPauseVideo
+  fullName: Behaviour_PlayPauseVideo
+  type: Class
+  source:
+    id: Behaviour_PlayPauseVideo
+    path: ''
+    startLine: 28622
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_PlayPauseVideo : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_PlayPauseVideo
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_PlayPauseVideo.mediaPlayerCtrl
+  commentId: F:Global.Behaviour_PlayPauseVideo.mediaPlayerCtrl
+  id: mediaPlayerCtrl
+  parent: Global.Behaviour_PlayPauseVideo
+  langs:
+  - csharp
+  - vb
+  name: mediaPlayerCtrl
+  nameWithType: Behaviour_PlayPauseVideo.mediaPlayerCtrl
+  fullName: Behaviour_PlayPauseVideo.mediaPlayerCtrl
+  type: Field
+  source:
+    id: mediaPlayerCtrl
+    path: ''
+    startLine: 28624
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl mediaPlayerCtrl
+    return:
+      type: Global.MediaPlayerCtrl
+    content.vb: Public mediaPlayerCtrl As MediaPlayerCtrl
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayPauseVideo.playing
+  commentId: F:Global.Behaviour_PlayPauseVideo.playing
+  id: playing
+  parent: Global.Behaviour_PlayPauseVideo
+  langs:
+  - csharp
+  - vb
+  name: playing
+  nameWithType: Behaviour_PlayPauseVideo.playing
+  fullName: Behaviour_PlayPauseVideo.playing
+  type: Field
+  source:
+    id: playing
+    path: ''
+    startLine: 28625
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool playing
+    return:
+      type: System.Boolean
+    content.vb: Public Shared playing As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Behaviour_PlayPauseVideo.TooglePlayPause
+  commentId: M:Global.Behaviour_PlayPauseVideo.TooglePlayPause
+  id: TooglePlayPause
+  parent: Global.Behaviour_PlayPauseVideo
+  langs:
+  - csharp
+  - vb
+  name: TooglePlayPause()
+  nameWithType: Behaviour_PlayPauseVideo.TooglePlayPause()
+  fullName: Behaviour_PlayPauseVideo.TooglePlayPause()
+  type: Method
+  source:
+    id: TooglePlayPause
+    path: ''
+    startLine: 28629
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void TooglePlayPause()
+    content.vb: Public Sub TooglePlayPause
+  overload: Global.Behaviour_PlayPauseVideo.TooglePlayPause*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayPauseVideo.Stop
+  commentId: M:Global.Behaviour_PlayPauseVideo.Stop
+  id: Stop
+  parent: Global.Behaviour_PlayPauseVideo
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: Behaviour_PlayPauseVideo.Stop()
+  fullName: Behaviour_PlayPauseVideo.Stop()
+  type: Method
+  source:
+    id: Stop
+    path: ''
+    startLine: 28653
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub Stop
+  overload: Global.Behaviour_PlayPauseVideo.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayPauseVideo.ForwardStep
+  commentId: M:Global.Behaviour_PlayPauseVideo.ForwardStep
+  id: ForwardStep
+  parent: Global.Behaviour_PlayPauseVideo
+  langs:
+  - csharp
+  - vb
+  name: ForwardStep()
+  nameWithType: Behaviour_PlayPauseVideo.ForwardStep()
+  fullName: Behaviour_PlayPauseVideo.ForwardStep()
+  type: Method
+  source:
+    id: ForwardStep
+    path: ''
+    startLine: 28659
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ForwardStep()
+    content.vb: Public Sub ForwardStep
+  overload: Global.Behaviour_PlayPauseVideo.ForwardStep*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_PlayPauseVideo.RewindStep
+  commentId: M:Global.Behaviour_PlayPauseVideo.RewindStep
+  id: RewindStep
+  parent: Global.Behaviour_PlayPauseVideo
+  langs:
+  - csharp
+  - vb
+  name: RewindStep()
+  nameWithType: Behaviour_PlayPauseVideo.RewindStep()
+  fullName: Behaviour_PlayPauseVideo.RewindStep()
+  type: Method
+  source:
+    id: RewindStep
+    path: ''
+    startLine: 28664
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void RewindStep()
+    content.vb: Public Sub RewindStep
+  overload: Global.Behaviour_PlayPauseVideo.RewindStep*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MediaPlayerCtrl
+  commentId: T:Global.MediaPlayerCtrl
+  name: MediaPlayerCtrl
+  nameWithType: MediaPlayerCtrl
+  fullName: MediaPlayerCtrl
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Behaviour_PlayPauseVideo.TooglePlayPause*
+  commentId: Overload:Global.Behaviour_PlayPauseVideo.TooglePlayPause
+  name: TooglePlayPause
+  nameWithType: Behaviour_PlayPauseVideo.TooglePlayPause
+  fullName: Behaviour_PlayPauseVideo.TooglePlayPause
+- uid: Global.Behaviour_PlayPauseVideo.Stop*
+  commentId: Overload:Global.Behaviour_PlayPauseVideo.Stop
+  name: Stop
+  nameWithType: Behaviour_PlayPauseVideo.Stop
+  fullName: Behaviour_PlayPauseVideo.Stop
+- uid: Global.Behaviour_PlayPauseVideo.ForwardStep*
+  commentId: Overload:Global.Behaviour_PlayPauseVideo.ForwardStep
+  name: ForwardStep
+  nameWithType: Behaviour_PlayPauseVideo.ForwardStep
+  fullName: Behaviour_PlayPauseVideo.ForwardStep
+- uid: Global.Behaviour_PlayPauseVideo.RewindStep*
+  commentId: Overload:Global.Behaviour_PlayPauseVideo.RewindStep
+  name: RewindStep
+  nameWithType: Behaviour_PlayPauseVideo.RewindStep
+  fullName: Behaviour_PlayPauseVideo.RewindStep

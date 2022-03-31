@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MediaPlayerFullScreenCtrl
+  commentId: T:Global.MediaPlayerFullScreenCtrl
+  id: MediaPlayerFullScreenCtrl
+  parent: Global
+  children:
+  - Global.MediaPlayerFullScreenCtrl.m_objVideo
+  langs:
+  - csharp
+  - vb
+  name: MediaPlayerFullScreenCtrl
+  nameWithType: MediaPlayerFullScreenCtrl
+  fullName: MediaPlayerFullScreenCtrl
+  type: Class
+  source:
+    id: MediaPlayerFullScreenCtrl
+    path: ''
+    startLine: 8312
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MediaPlayerFullScreenCtrl : MonoBehaviour'
+    content.vb: >-
+      Public Class MediaPlayerFullScreenCtrl
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MediaPlayerFullScreenCtrl.m_objVideo
+  commentId: F:Global.MediaPlayerFullScreenCtrl.m_objVideo
+  id: m_objVideo
+  parent: Global.MediaPlayerFullScreenCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_objVideo
+  nameWithType: MediaPlayerFullScreenCtrl.m_objVideo
+  fullName: MediaPlayerFullScreenCtrl.m_objVideo
+  type: Field
+  source:
+    id: m_objVideo
+    path: ''
+    startLine: 8314
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject m_objVideo
+    return:
+      type: Global.GameObject
+    content.vb: Public m_objVideo As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

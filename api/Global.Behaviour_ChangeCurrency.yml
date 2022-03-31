@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_ChangeCurrency
+  commentId: T:Global.Behaviour_ChangeCurrency
+  id: Behaviour_ChangeCurrency
+  parent: Global
+  children:
+  - Global.Behaviour_ChangeCurrency.AddCurrency
+  - Global.Behaviour_ChangeCurrency.InputQuantityOfCurrency(System.Int32)
+  - Global.Behaviour_ChangeCurrency.InputTypeOfCurrency(System.String)
+  - Global.Behaviour_ChangeCurrency.RemoveCurrency
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_ChangeCurrency
+  nameWithType: Behaviour_ChangeCurrency
+  fullName: Behaviour_ChangeCurrency
+  type: Class
+  source:
+    id: Behaviour_ChangeCurrency
+    path: ''
+    startLine: 14547
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_ChangeCurrency : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_ChangeCurrency
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_ChangeCurrency.InputTypeOfCurrency(System.String)
+  commentId: M:Global.Behaviour_ChangeCurrency.InputTypeOfCurrency(System.String)
+  id: InputTypeOfCurrency(System.String)
+  parent: Global.Behaviour_ChangeCurrency
+  langs:
+  - csharp
+  - vb
+  name: InputTypeOfCurrency(String)
+  nameWithType: Behaviour_ChangeCurrency.InputTypeOfCurrency(String)
+  fullName: Behaviour_ChangeCurrency.InputTypeOfCurrency(System.String)
+  type: Method
+  source:
+    id: InputTypeOfCurrency
+    path: ''
+    startLine: 14552
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void InputTypeOfCurrency(string currentTypeOfCurrency)
+    parameters:
+    - id: currentTypeOfCurrency
+      type: System.String
+    content.vb: Public Sub InputTypeOfCurrency(currentTypeOfCurrency As String)
+  overload: Global.Behaviour_ChangeCurrency.InputTypeOfCurrency*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ChangeCurrency.InputQuantityOfCurrency(System.Int32)
+  commentId: M:Global.Behaviour_ChangeCurrency.InputQuantityOfCurrency(System.Int32)
+  id: InputQuantityOfCurrency(System.Int32)
+  parent: Global.Behaviour_ChangeCurrency
+  langs:
+  - csharp
+  - vb
+  name: InputQuantityOfCurrency(Int32)
+  nameWithType: Behaviour_ChangeCurrency.InputQuantityOfCurrency(Int32)
+  fullName: Behaviour_ChangeCurrency.InputQuantityOfCurrency(System.Int32)
+  type: Method
+  source:
+    id: InputQuantityOfCurrency
+    path: ''
+    startLine: 14557
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void InputQuantityOfCurrency(int currentQuantityOfCurrency)
+    parameters:
+    - id: currentQuantityOfCurrency
+      type: System.Int32
+    content.vb: Public Sub InputQuantityOfCurrency(currentQuantityOfCurrency As Integer)
+  overload: Global.Behaviour_ChangeCurrency.InputQuantityOfCurrency*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ChangeCurrency.AddCurrency
+  commentId: M:Global.Behaviour_ChangeCurrency.AddCurrency
+  id: AddCurrency
+  parent: Global.Behaviour_ChangeCurrency
+  langs:
+  - csharp
+  - vb
+  name: AddCurrency()
+  nameWithType: Behaviour_ChangeCurrency.AddCurrency()
+  fullName: Behaviour_ChangeCurrency.AddCurrency()
+  type: Method
+  source:
+    id: AddCurrency
+    path: ''
+    startLine: 14562
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AddCurrency()
+    content.vb: Public Sub AddCurrency
+  overload: Global.Behaviour_ChangeCurrency.AddCurrency*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_ChangeCurrency.RemoveCurrency
+  commentId: M:Global.Behaviour_ChangeCurrency.RemoveCurrency
+  id: RemoveCurrency
+  parent: Global.Behaviour_ChangeCurrency
+  langs:
+  - csharp
+  - vb
+  name: RemoveCurrency()
+  nameWithType: Behaviour_ChangeCurrency.RemoveCurrency()
+  fullName: Behaviour_ChangeCurrency.RemoveCurrency()
+  type: Method
+  source:
+    id: RemoveCurrency
+    path: ''
+    startLine: 14580
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void RemoveCurrency()
+    content.vb: Public Sub RemoveCurrency
+  overload: Global.Behaviour_ChangeCurrency.RemoveCurrency*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_ChangeCurrency.InputTypeOfCurrency*
+  commentId: Overload:Global.Behaviour_ChangeCurrency.InputTypeOfCurrency
+  name: InputTypeOfCurrency
+  nameWithType: Behaviour_ChangeCurrency.InputTypeOfCurrency
+  fullName: Behaviour_ChangeCurrency.InputTypeOfCurrency
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Behaviour_ChangeCurrency.InputQuantityOfCurrency*
+  commentId: Overload:Global.Behaviour_ChangeCurrency.InputQuantityOfCurrency
+  name: InputQuantityOfCurrency
+  nameWithType: Behaviour_ChangeCurrency.InputQuantityOfCurrency
+  fullName: Behaviour_ChangeCurrency.InputQuantityOfCurrency
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Behaviour_ChangeCurrency.AddCurrency*
+  commentId: Overload:Global.Behaviour_ChangeCurrency.AddCurrency
+  name: AddCurrency
+  nameWithType: Behaviour_ChangeCurrency.AddCurrency
+  fullName: Behaviour_ChangeCurrency.AddCurrency
+- uid: Global.Behaviour_ChangeCurrency.RemoveCurrency*
+  commentId: Overload:Global.Behaviour_ChangeCurrency.RemoveCurrency
+  name: RemoveCurrency
+  nameWithType: Behaviour_ChangeCurrency.RemoveCurrency
+  fullName: Behaviour_ChangeCurrency.RemoveCurrency

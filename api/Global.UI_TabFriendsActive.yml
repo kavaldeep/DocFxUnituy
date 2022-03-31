@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UI_TabFriendsActive
+  commentId: T:Global.UI_TabFriendsActive
+  id: UI_TabFriendsActive
+  parent: Global
+  children:
+  - Global.UI_TabFriendsActive._animationToPlay
+  - Global.UI_TabFriendsActive._barAnimator
+  - Global.UI_TabFriendsActive._textOne
+  - Global.UI_TabFriendsActive._textTwo
+  - Global.UI_TabFriendsActive.ActivationTab
+  - Global.UI_TabFriendsActive.BeenActive
+  - Global.UI_TabFriendsActive.OtherScript
+  langs:
+  - csharp
+  - vb
+  name: UI_TabFriendsActive
+  nameWithType: UI_TabFriendsActive
+  fullName: UI_TabFriendsActive
+  type: Class
+  source:
+    id: UI_TabFriendsActive
+    path: ''
+    startLine: 27760
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UI_TabFriendsActive : MonoBehaviour'
+    content.vb: >-
+      Public Class UI_TabFriendsActive
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UI_TabFriendsActive._textOne
+  commentId: F:Global.UI_TabFriendsActive._textOne
+  id: _textOne
+  parent: Global.UI_TabFriendsActive
+  langs:
+  - csharp
+  - vb
+  name: _textOne
+  nameWithType: UI_TabFriendsActive._textOne
+  fullName: UI_TabFriendsActive._textOne
+  type: Field
+  source:
+    id: _textOne
+    path: ''
+    startLine: 27762
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI _textOne
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public _textOne As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_TabFriendsActive._textTwo
+  commentId: F:Global.UI_TabFriendsActive._textTwo
+  id: _textTwo
+  parent: Global.UI_TabFriendsActive
+  langs:
+  - csharp
+  - vb
+  name: _textTwo
+  nameWithType: UI_TabFriendsActive._textTwo
+  fullName: UI_TabFriendsActive._textTwo
+  type: Field
+  source:
+    id: _textTwo
+    path: ''
+    startLine: 27763
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI _textTwo
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public _textTwo As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_TabFriendsActive._barAnimator
+  commentId: F:Global.UI_TabFriendsActive._barAnimator
+  id: _barAnimator
+  parent: Global.UI_TabFriendsActive
+  langs:
+  - csharp
+  - vb
+  name: _barAnimator
+  nameWithType: UI_TabFriendsActive._barAnimator
+  fullName: UI_TabFriendsActive._barAnimator
+  type: Field
+  source:
+    id: _barAnimator
+    path: ''
+    startLine: 27765
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Animator _barAnimator
+    return:
+      type: Global.Animator
+    content.vb: Public _barAnimator As Animator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_TabFriendsActive._animationToPlay
+  commentId: F:Global.UI_TabFriendsActive._animationToPlay
+  id: _animationToPlay
+  parent: Global.UI_TabFriendsActive
+  langs:
+  - csharp
+  - vb
+  name: _animationToPlay
+  nameWithType: UI_TabFriendsActive._animationToPlay
+  fullName: UI_TabFriendsActive._animationToPlay
+  type: Field
+  source:
+    id: _animationToPlay
+    path: ''
+    startLine: 27766
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string _animationToPlay
+    return:
+      type: System.String
+    content.vb: Public _animationToPlay As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_TabFriendsActive.OtherScript
+  commentId: F:Global.UI_TabFriendsActive.OtherScript
+  id: OtherScript
+  parent: Global.UI_TabFriendsActive
+  langs:
+  - csharp
+  - vb
+  name: OtherScript
+  nameWithType: UI_TabFriendsActive.OtherScript
+  fullName: UI_TabFriendsActive.OtherScript
+  type: Field
+  source:
+    id: OtherScript
+    path: ''
+    startLine: 27767
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UI_TabFriendsActive OtherScript
+    return:
+      type: Global.UI_TabFriendsActive
+    content.vb: Public OtherScript As UI_TabFriendsActive
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_TabFriendsActive.BeenActive
+  commentId: F:Global.UI_TabFriendsActive.BeenActive
+  id: BeenActive
+  parent: Global.UI_TabFriendsActive
+  langs:
+  - csharp
+  - vb
+  name: BeenActive
+  nameWithType: UI_TabFriendsActive.BeenActive
+  fullName: UI_TabFriendsActive.BeenActive
+  type: Field
+  source:
+    id: BeenActive
+    path: ''
+    startLine: 27768
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool BeenActive
+    return:
+      type: System.Boolean
+    content.vb: Public BeenActive As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_TabFriendsActive.ActivationTab
+  commentId: M:Global.UI_TabFriendsActive.ActivationTab
+  id: ActivationTab
+  parent: Global.UI_TabFriendsActive
+  langs:
+  - csharp
+  - vb
+  name: ActivationTab()
+  nameWithType: UI_TabFriendsActive.ActivationTab()
+  fullName: UI_TabFriendsActive.ActivationTab()
+  type: Method
+  source:
+    id: ActivationTab
+    path: ''
+    startLine: 27771
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ActivationTab()
+    content.vb: Public Sub ActivationTab
+  overload: Global.UI_TabFriendsActive.ActivationTab*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Animator
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.UI_TabFriendsActive
+  commentId: T:Global.UI_TabFriendsActive
+  name: UI_TabFriendsActive
+  nameWithType: UI_TabFriendsActive
+  fullName: UI_TabFriendsActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.UI_TabFriendsActive.ActivationTab*
+  commentId: Overload:Global.UI_TabFriendsActive.ActivationTab
+  name: ActivationTab
+  nameWithType: UI_TabFriendsActive.ActivationTab
+  fullName: UI_TabFriendsActive.ActivationTab

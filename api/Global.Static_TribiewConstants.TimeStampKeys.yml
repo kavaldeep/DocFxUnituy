@@ -1,0 +1,361 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_TribiewConstants.TimeStampKeys
+  commentId: T:Global.Static_TribiewConstants.TimeStampKeys
+  id: Static_TribiewConstants.TimeStampKeys
+  parent: Global
+  children:
+  - Global.Static_TribiewConstants.TimeStampKeys.duration
+  - Global.Static_TribiewConstants.TimeStampKeys.end
+  - Global.Static_TribiewConstants.TimeStampKeys.entityId
+  - Global.Static_TribiewConstants.TimeStampKeys.episode
+  - Global.Static_TribiewConstants.TimeStampKeys.episodeId
+  - Global.Static_TribiewConstants.TimeStampKeys.season
+  - Global.Static_TribiewConstants.TimeStampKeys.serie
+  - Global.Static_TribiewConstants.TimeStampKeys.start
+  - Global.Static_TribiewConstants.TimeStampKeys.type
+  - Global.Static_TribiewConstants.TimeStampKeys.url
+  langs:
+  - csharp
+  - vb
+  name: Static_TribiewConstants.TimeStampKeys
+  nameWithType: Static_TribiewConstants.TimeStampKeys
+  fullName: Static_TribiewConstants.TimeStampKeys
+  type: Class
+  source:
+    id: TimeStampKeys
+    path: ''
+    startLine: 17005
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class TimeStampKeys
+    content.vb: Public Module TimeStampKeys
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_TribiewConstants.TimeStampKeys.serie
+  commentId: F:Global.Static_TribiewConstants.TimeStampKeys.serie
+  id: serie
+  parent: Global.Static_TribiewConstants.TimeStampKeys
+  langs:
+  - csharp
+  - vb
+  name: serie
+  nameWithType: Static_TribiewConstants.TimeStampKeys.serie
+  fullName: Static_TribiewConstants.TimeStampKeys.serie
+  type: Field
+  source:
+    id: serie
+    path: ''
+    startLine: 17007
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string serie = "Serie"
+    return:
+      type: System.String
+    content.vb: Public Const serie As String = "Serie"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TimeStampKeys.season
+  commentId: F:Global.Static_TribiewConstants.TimeStampKeys.season
+  id: season
+  parent: Global.Static_TribiewConstants.TimeStampKeys
+  langs:
+  - csharp
+  - vb
+  name: season
+  nameWithType: Static_TribiewConstants.TimeStampKeys.season
+  fullName: Static_TribiewConstants.TimeStampKeys.season
+  type: Field
+  source:
+    id: season
+    path: ''
+    startLine: 17008
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string season = "Season"
+    return:
+      type: System.String
+    content.vb: Public Const season As String = "Season"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TimeStampKeys.episode
+  commentId: F:Global.Static_TribiewConstants.TimeStampKeys.episode
+  id: episode
+  parent: Global.Static_TribiewConstants.TimeStampKeys
+  langs:
+  - csharp
+  - vb
+  name: episode
+  nameWithType: Static_TribiewConstants.TimeStampKeys.episode
+  fullName: Static_TribiewConstants.TimeStampKeys.episode
+  type: Field
+  source:
+    id: episode
+    path: ''
+    startLine: 17009
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string episode = "Episode"
+    return:
+      type: System.String
+    content.vb: Public Const episode As String = "Episode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TimeStampKeys.episodeId
+  commentId: F:Global.Static_TribiewConstants.TimeStampKeys.episodeId
+  id: episodeId
+  parent: Global.Static_TribiewConstants.TimeStampKeys
+  langs:
+  - csharp
+  - vb
+  name: episodeId
+  nameWithType: Static_TribiewConstants.TimeStampKeys.episodeId
+  fullName: Static_TribiewConstants.TimeStampKeys.episodeId
+  type: Field
+  source:
+    id: episodeId
+    path: ''
+    startLine: 17010
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string episodeId = "Episode ID"
+    return:
+      type: System.String
+    content.vb: Public Const episodeId As String = "Episode ID"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TimeStampKeys.type
+  commentId: F:Global.Static_TribiewConstants.TimeStampKeys.type
+  id: type
+  parent: Global.Static_TribiewConstants.TimeStampKeys
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: Static_TribiewConstants.TimeStampKeys.type
+  fullName: Static_TribiewConstants.TimeStampKeys.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 17011
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string type = "Type"
+    return:
+      type: System.String
+    content.vb: Public Const type As String = "Type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TimeStampKeys.start
+  commentId: F:Global.Static_TribiewConstants.TimeStampKeys.start
+  id: start
+  parent: Global.Static_TribiewConstants.TimeStampKeys
+  langs:
+  - csharp
+  - vb
+  name: start
+  nameWithType: Static_TribiewConstants.TimeStampKeys.start
+  fullName: Static_TribiewConstants.TimeStampKeys.start
+  type: Field
+  source:
+    id: start
+    path: ''
+    startLine: 17012
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string start = "Start"
+    return:
+      type: System.String
+    content.vb: Public Const start As String = "Start"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TimeStampKeys.end
+  commentId: F:Global.Static_TribiewConstants.TimeStampKeys.end
+  id: end
+  parent: Global.Static_TribiewConstants.TimeStampKeys
+  langs:
+  - csharp
+  - vb
+  name: end
+  nameWithType: Static_TribiewConstants.TimeStampKeys.end
+  fullName: Static_TribiewConstants.TimeStampKeys.end
+  type: Field
+  source:
+    id: end
+    path: ''
+    startLine: 17013
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string end = "End"
+    return:
+      type: System.String
+    content.vb: Public Const end As String = "End"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TimeStampKeys.duration
+  commentId: F:Global.Static_TribiewConstants.TimeStampKeys.duration
+  id: duration
+  parent: Global.Static_TribiewConstants.TimeStampKeys
+  langs:
+  - csharp
+  - vb
+  name: duration
+  nameWithType: Static_TribiewConstants.TimeStampKeys.duration
+  fullName: Static_TribiewConstants.TimeStampKeys.duration
+  type: Field
+  source:
+    id: duration
+    path: ''
+    startLine: 17014
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string duration = "Duration"
+    return:
+      type: System.String
+    content.vb: Public Const duration As String = "Duration"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TimeStampKeys.entityId
+  commentId: F:Global.Static_TribiewConstants.TimeStampKeys.entityId
+  id: entityId
+  parent: Global.Static_TribiewConstants.TimeStampKeys
+  langs:
+  - csharp
+  - vb
+  name: entityId
+  nameWithType: Static_TribiewConstants.TimeStampKeys.entityId
+  fullName: Static_TribiewConstants.TimeStampKeys.entityId
+  type: Field
+  source:
+    id: entityId
+    path: ''
+    startLine: 17015
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string entityId = "EntityId"
+    return:
+      type: System.String
+    content.vb: Public Const entityId As String = "EntityId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_TribiewConstants.TimeStampKeys.url
+  commentId: F:Global.Static_TribiewConstants.TimeStampKeys.url
+  id: url
+  parent: Global.Static_TribiewConstants.TimeStampKeys
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: Static_TribiewConstants.TimeStampKeys.url
+  fullName: Static_TribiewConstants.TimeStampKeys.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 17016
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string url = "Url"
+    return:
+      type: System.String
+    content.vb: Public Const url As String = "Url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

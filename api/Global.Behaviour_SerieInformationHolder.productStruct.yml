@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SerieInformationHolder.productStruct
+  commentId: T:Global.Behaviour_SerieInformationHolder.productStruct
+  id: Behaviour_SerieInformationHolder.productStruct
+  parent: Global
+  children:
+  - Global.Behaviour_SerieInformationHolder.productStruct.end
+  - Global.Behaviour_SerieInformationHolder.productStruct.image
+  - Global.Behaviour_SerieInformationHolder.productStruct.name
+  - Global.Behaviour_SerieInformationHolder.productStruct.price
+  - Global.Behaviour_SerieInformationHolder.productStruct.product
+  - Global.Behaviour_SerieInformationHolder.productStruct.start
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SerieInformationHolder.productStruct
+  nameWithType: Behaviour_SerieInformationHolder.productStruct
+  fullName: Behaviour_SerieInformationHolder.productStruct
+  type: Struct
+  source:
+    id: productStruct
+    path: ''
+    startLine: 12981
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct productStruct
+    content.vb: Public Structure productStruct
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.Behaviour_SerieInformationHolder.productStruct.name
+  commentId: F:Global.Behaviour_SerieInformationHolder.productStruct.name
+  id: name
+  parent: Global.Behaviour_SerieInformationHolder.productStruct
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Behaviour_SerieInformationHolder.productStruct.name
+  fullName: Behaviour_SerieInformationHolder.productStruct.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 12983
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.productStruct.image
+  commentId: F:Global.Behaviour_SerieInformationHolder.productStruct.image
+  id: image
+  parent: Global.Behaviour_SerieInformationHolder.productStruct
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Behaviour_SerieInformationHolder.productStruct.image
+  fullName: Behaviour_SerieInformationHolder.productStruct.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 12984
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string image
+    return:
+      type: System.String
+    content.vb: Public image As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.productStruct.start
+  commentId: F:Global.Behaviour_SerieInformationHolder.productStruct.start
+  id: start
+  parent: Global.Behaviour_SerieInformationHolder.productStruct
+  langs:
+  - csharp
+  - vb
+  name: start
+  nameWithType: Behaviour_SerieInformationHolder.productStruct.start
+  fullName: Behaviour_SerieInformationHolder.productStruct.start
+  type: Field
+  source:
+    id: start
+    path: ''
+    startLine: 12985
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string start
+    return:
+      type: System.String
+    content.vb: Public start As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.productStruct.end
+  commentId: F:Global.Behaviour_SerieInformationHolder.productStruct.end
+  id: end
+  parent: Global.Behaviour_SerieInformationHolder.productStruct
+  langs:
+  - csharp
+  - vb
+  name: end
+  nameWithType: Behaviour_SerieInformationHolder.productStruct.end
+  fullName: Behaviour_SerieInformationHolder.productStruct.end
+  type: Field
+  source:
+    id: end
+    path: ''
+    startLine: 12986
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string end
+    return:
+      type: System.String
+    content.vb: Public end As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.productStruct.product
+  commentId: F:Global.Behaviour_SerieInformationHolder.productStruct.product
+  id: product
+  parent: Global.Behaviour_SerieInformationHolder.productStruct
+  langs:
+  - csharp
+  - vb
+  name: product
+  nameWithType: Behaviour_SerieInformationHolder.productStruct.product
+  fullName: Behaviour_SerieInformationHolder.productStruct.product
+  type: Field
+  source:
+    id: product
+    path: ''
+    startLine: 12987
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string product
+    return:
+      type: System.String
+    content.vb: Public product As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.productStruct.price
+  commentId: F:Global.Behaviour_SerieInformationHolder.productStruct.price
+  id: price
+  parent: Global.Behaviour_SerieInformationHolder.productStruct
+  langs:
+  - csharp
+  - vb
+  name: price
+  nameWithType: Behaviour_SerieInformationHolder.productStruct.price
+  fullName: Behaviour_SerieInformationHolder.productStruct.price
+  type: Field
+  source:
+    id: price
+    path: ''
+    startLine: 12988
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string price
+    return:
+      type: System.String
+    content.vb: Public price As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

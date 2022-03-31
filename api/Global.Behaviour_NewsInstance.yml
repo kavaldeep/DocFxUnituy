@@ -1,0 +1,518 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_NewsInstance
+  commentId: T:Global.Behaviour_NewsInstance
+  id: Behaviour_NewsInstance
+  parent: Global
+  children:
+  - Global.Behaviour_NewsInstance.editDateTime
+  - Global.Behaviour_NewsInstance.image
+  - Global.Behaviour_NewsInstance.Initialize(NewsInfo)
+  - Global.Behaviour_NewsInstance.publishDateTime
+  - Global.Behaviour_NewsInstance.subhead
+  - Global.Behaviour_NewsInstance.suggestionsEmplacement
+  - Global.Behaviour_NewsInstance.suggestionsPrefab
+  - Global.Behaviour_NewsInstance.tagsEmplacement
+  - Global.Behaviour_NewsInstance.tagsPrefab
+  - Global.Behaviour_NewsInstance.text
+  - Global.Behaviour_NewsInstance.title
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_NewsInstance
+  nameWithType: Behaviour_NewsInstance
+  fullName: Behaviour_NewsInstance
+  type: Class
+  source:
+    id: Behaviour_NewsInstance
+    path: ''
+    startLine: 22652
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_NewsInstance : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_NewsInstance
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_NewsInstance.image
+  commentId: F:Global.Behaviour_NewsInstance.image
+  id: image
+  parent: Global.Behaviour_NewsInstance
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Behaviour_NewsInstance.image
+  fullName: Behaviour_NewsInstance.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 22654
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<RawImage> image
+    return:
+      type: System.Collections.Generic.List{RawImage}
+    content.vb: Public image As List(Of RawImage)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsInstance.title
+  commentId: F:Global.Behaviour_NewsInstance.title
+  id: title
+  parent: Global.Behaviour_NewsInstance
+  langs:
+  - csharp
+  - vb
+  name: title
+  nameWithType: Behaviour_NewsInstance.title
+  fullName: Behaviour_NewsInstance.title
+  type: Field
+  source:
+    id: title
+    path: ''
+    startLine: 22655
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<TextMeshProUGUI> title
+    return:
+      type: System.Collections.Generic.List{TextMeshProUGUI}
+    content.vb: Public title As List(Of TextMeshProUGUI)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsInstance.subhead
+  commentId: F:Global.Behaviour_NewsInstance.subhead
+  id: subhead
+  parent: Global.Behaviour_NewsInstance
+  langs:
+  - csharp
+  - vb
+  name: subhead
+  nameWithType: Behaviour_NewsInstance.subhead
+  fullName: Behaviour_NewsInstance.subhead
+  type: Field
+  source:
+    id: subhead
+    path: ''
+    startLine: 22656
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<TextMeshProUGUI> subhead
+    return:
+      type: System.Collections.Generic.List{TextMeshProUGUI}
+    content.vb: Public subhead As List(Of TextMeshProUGUI)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsInstance.text
+  commentId: F:Global.Behaviour_NewsInstance.text
+  id: text
+  parent: Global.Behaviour_NewsInstance
+  langs:
+  - csharp
+  - vb
+  name: text
+  nameWithType: Behaviour_NewsInstance.text
+  fullName: Behaviour_NewsInstance.text
+  type: Field
+  source:
+    id: text
+    path: ''
+    startLine: 22658
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<TextMeshProUGUI> text
+    return:
+      type: System.Collections.Generic.List{TextMeshProUGUI}
+    content.vb: Public text As List(Of TextMeshProUGUI)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsInstance.tagsEmplacement
+  commentId: F:Global.Behaviour_NewsInstance.tagsEmplacement
+  id: tagsEmplacement
+  parent: Global.Behaviour_NewsInstance
+  langs:
+  - csharp
+  - vb
+  name: tagsEmplacement
+  nameWithType: Behaviour_NewsInstance.tagsEmplacement
+  fullName: Behaviour_NewsInstance.tagsEmplacement
+  type: Field
+  source:
+    id: tagsEmplacement
+    path: ''
+    startLine: 22661
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Transform tagsEmplacement
+    return:
+      type: Global.Transform
+    content.vb: Public tagsEmplacement As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsInstance.tagsPrefab
+  commentId: F:Global.Behaviour_NewsInstance.tagsPrefab
+  id: tagsPrefab
+  parent: Global.Behaviour_NewsInstance
+  langs:
+  - csharp
+  - vb
+  name: tagsPrefab
+  nameWithType: Behaviour_NewsInstance.tagsPrefab
+  fullName: Behaviour_NewsInstance.tagsPrefab
+  type: Field
+  source:
+    id: tagsPrefab
+    path: ''
+    startLine: 22662
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject tagsPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public tagsPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsInstance.publishDateTime
+  commentId: F:Global.Behaviour_NewsInstance.publishDateTime
+  id: publishDateTime
+  parent: Global.Behaviour_NewsInstance
+  langs:
+  - csharp
+  - vb
+  name: publishDateTime
+  nameWithType: Behaviour_NewsInstance.publishDateTime
+  fullName: Behaviour_NewsInstance.publishDateTime
+  type: Field
+  source:
+    id: publishDateTime
+    path: ''
+    startLine: 22663
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<TextMeshProUGUI> publishDateTime
+    return:
+      type: System.Collections.Generic.List{TextMeshProUGUI}
+    content.vb: Public publishDateTime As List(Of TextMeshProUGUI)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsInstance.editDateTime
+  commentId: F:Global.Behaviour_NewsInstance.editDateTime
+  id: editDateTime
+  parent: Global.Behaviour_NewsInstance
+  langs:
+  - csharp
+  - vb
+  name: editDateTime
+  nameWithType: Behaviour_NewsInstance.editDateTime
+  fullName: Behaviour_NewsInstance.editDateTime
+  type: Field
+  source:
+    id: editDateTime
+    path: ''
+    startLine: 22664
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<TextMeshProUGUI> editDateTime
+    return:
+      type: System.Collections.Generic.List{TextMeshProUGUI}
+    content.vb: Public editDateTime As List(Of TextMeshProUGUI)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsInstance.suggestionsEmplacement
+  commentId: F:Global.Behaviour_NewsInstance.suggestionsEmplacement
+  id: suggestionsEmplacement
+  parent: Global.Behaviour_NewsInstance
+  langs:
+  - csharp
+  - vb
+  name: suggestionsEmplacement
+  nameWithType: Behaviour_NewsInstance.suggestionsEmplacement
+  fullName: Behaviour_NewsInstance.suggestionsEmplacement
+  type: Field
+  source:
+    id: suggestionsEmplacement
+    path: ''
+    startLine: 22665
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Transform suggestionsEmplacement
+    return:
+      type: Global.Transform
+    content.vb: Public suggestionsEmplacement As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsInstance.suggestionsPrefab
+  commentId: F:Global.Behaviour_NewsInstance.suggestionsPrefab
+  id: suggestionsPrefab
+  parent: Global.Behaviour_NewsInstance
+  langs:
+  - csharp
+  - vb
+  name: suggestionsPrefab
+  nameWithType: Behaviour_NewsInstance.suggestionsPrefab
+  fullName: Behaviour_NewsInstance.suggestionsPrefab
+  type: Field
+  source:
+    id: suggestionsPrefab
+    path: ''
+    startLine: 22666
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject suggestionsPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public suggestionsPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_NewsInstance.Initialize(NewsInfo)
+  commentId: M:Global.Behaviour_NewsInstance.Initialize(NewsInfo)
+  id: Initialize(NewsInfo)
+  parent: Global.Behaviour_NewsInstance
+  langs:
+  - csharp
+  - vb
+  name: Initialize(NewsInfo)
+  nameWithType: Behaviour_NewsInstance.Initialize(NewsInfo)
+  fullName: Behaviour_NewsInstance.Initialize(NewsInfo)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 22668
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Initialize(NewsInfo _news)
+    parameters:
+    - id: _news
+      type: Global.NewsInfo
+    content.vb: Public Sub Initialize(_news As NewsInfo)
+  overload: Global.Behaviour_NewsInstance.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{RawImage}
+  commentId: T:System.Collections.Generic.List{RawImage}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<RawImage>
+  nameWithType: List<RawImage>
+  fullName: System.Collections.Generic.List<RawImage>
+  nameWithType.vb: List(Of RawImage)
+  fullName.vb: System.Collections.Generic.List(Of RawImage)
+  name.vb: List(Of RawImage)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.RawImage
+    name: RawImage
+    nameWithType: RawImage
+    fullName: RawImage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.RawImage
+    name: RawImage
+    nameWithType: RawImage
+    fullName: RawImage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{TextMeshProUGUI}
+  commentId: T:System.Collections.Generic.List{TextMeshProUGUI}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<TextMeshProUGUI>
+  nameWithType: List<TextMeshProUGUI>
+  fullName: System.Collections.Generic.List<TextMeshProUGUI>
+  nameWithType.vb: List(Of TextMeshProUGUI)
+  fullName.vb: System.Collections.Generic.List(Of TextMeshProUGUI)
+  name.vb: List(Of TextMeshProUGUI)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.TextMeshProUGUI
+    name: TextMeshProUGUI
+    nameWithType: TextMeshProUGUI
+    fullName: TextMeshProUGUI
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.TextMeshProUGUI
+    name: TextMeshProUGUI
+    nameWithType: TextMeshProUGUI
+    fullName: TextMeshProUGUI
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_NewsInstance.Initialize*
+  commentId: Overload:Global.Behaviour_NewsInstance.Initialize
+  name: Initialize
+  nameWithType: Behaviour_NewsInstance.Initialize
+  fullName: Behaviour_NewsInstance.Initialize
+- uid: Global.NewsInfo
+  commentId: T:Global.NewsInfo
+  name: NewsInfo
+  nameWithType: NewsInfo
+  fullName: NewsInfo

@@ -1,0 +1,634 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_CameraManager
+  commentId: T:Global.Static_CameraManager
+  id: Static_CameraManager
+  parent: Global
+  children:
+  - Global.Static_CameraManager.devices
+  - Global.Static_CameraManager.frontCamera
+  - Global.Static_CameraManager.frontFacingEnable
+  - Global.Static_CameraManager.Initialize
+  - Global.Static_CameraManager.initialized
+  - Global.Static_CameraManager.SaveCameraSnapshot(Color32[],System.Int32,System.Int32)
+  - Global.Static_CameraManager.SnapshotName
+  - Global.Static_CameraManager.SnapshotPath
+  - Global.Static_CameraManager.StartFrontCamera
+  - Global.Static_CameraManager.StopFrontCamera
+  - Global.Static_CameraManager.TakeFrontCameraSnapshot(System.Boolean)
+  - Global.Static_CameraManager.unusable
+  - Global.Static_CameraManager.UpdateDevices
+  langs:
+  - csharp
+  - vb
+  name: Static_CameraManager
+  nameWithType: Static_CameraManager
+  fullName: Static_CameraManager
+  type: Class
+  source:
+    id: Static_CameraManager
+    path: ''
+    startLine: 27876
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThe Camera Manager handles every instance of the camera being used\nThis class must only be used in cases where the photo app cannot be used\n"
+  example: []
+  syntax:
+    content: public static class Static_CameraManager
+    content.vb: Public Module Static_CameraManager
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_CameraManager.initialized
+  commentId: P:Global.Static_CameraManager.initialized
+  id: initialized
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: initialized
+  nameWithType: Static_CameraManager.initialized
+  fullName: Static_CameraManager.initialized
+  type: Property
+  source:
+    id: initialized
+    path: ''
+    startLine: 27879
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool initialized { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property initialized As Boolean
+  overload: Global.Static_CameraManager.initialized*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_CameraManager.unusable
+  commentId: P:Global.Static_CameraManager.unusable
+  id: unusable
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: unusable
+  nameWithType: Static_CameraManager.unusable
+  fullName: Static_CameraManager.unusable
+  type: Property
+  source:
+    id: unusable
+    path: ''
+    startLine: 27882
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool unusable { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property unusable As Boolean
+  overload: Global.Static_CameraManager.unusable*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_CameraManager.frontFacingEnable
+  commentId: P:Global.Static_CameraManager.frontFacingEnable
+  id: frontFacingEnable
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: frontFacingEnable
+  nameWithType: Static_CameraManager.frontFacingEnable
+  fullName: Static_CameraManager.frontFacingEnable
+  type: Property
+  source:
+    id: frontFacingEnable
+    path: ''
+    startLine: 27885
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool frontFacingEnable { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property frontFacingEnable As Boolean
+  overload: Global.Static_CameraManager.frontFacingEnable*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_CameraManager.SnapshotPath
+  commentId: P:Global.Static_CameraManager.SnapshotPath
+  id: SnapshotPath
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: SnapshotPath
+  nameWithType: Static_CameraManager.SnapshotPath
+  fullName: Static_CameraManager.SnapshotPath
+  type: Property
+  source:
+    id: SnapshotPath
+    path: ''
+    startLine: 27887
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string SnapshotPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SnapshotPath As String
+  overload: Global.Static_CameraManager.SnapshotPath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_CameraManager.SnapshotName
+  commentId: P:Global.Static_CameraManager.SnapshotName
+  id: SnapshotName
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: SnapshotName
+  nameWithType: Static_CameraManager.SnapshotName
+  fullName: Static_CameraManager.SnapshotName
+  type: Property
+  source:
+    id: SnapshotName
+    path: ''
+    startLine: 27892
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string SnapshotName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SnapshotName As String
+  overload: Global.Static_CameraManager.SnapshotName*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Static_CameraManager.devices
+  commentId: F:Global.Static_CameraManager.devices
+  id: devices
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: devices
+  nameWithType: Static_CameraManager.devices
+  fullName: Static_CameraManager.devices
+  type: Field
+  source:
+    id: devices
+    path: ''
+    startLine: 27901
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static WebCamDevice[] devices
+    return:
+      type: Global.WebCamDevice[]
+    content.vb: Public Shared devices As WebCamDevice()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_CameraManager.frontCamera
+  commentId: F:Global.Static_CameraManager.frontCamera
+  id: frontCamera
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: frontCamera
+  nameWithType: Static_CameraManager.frontCamera
+  fullName: Static_CameraManager.frontCamera
+  type: Field
+  source:
+    id: frontCamera
+    path: ''
+    startLine: 27902
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static WebCamTexture frontCamera
+    return:
+      type: Global.WebCamTexture
+    content.vb: Public Shared frontCamera As WebCamTexture
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_CameraManager.Initialize
+  commentId: M:Global.Static_CameraManager.Initialize
+  id: Initialize
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: Static_CameraManager.Initialize()
+  fullName: Static_CameraManager.Initialize()
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 27908
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nInitialize all variables\nFinds the devices and initialize front camera if found\n"
+  example: []
+  syntax:
+    content: public static void Initialize()
+    content.vb: Public Shared Sub Initialize
+  overload: Global.Static_CameraManager.Initialize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_CameraManager.UpdateDevices
+  commentId: M:Global.Static_CameraManager.UpdateDevices
+  id: UpdateDevices
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateDevices()
+  nameWithType: Static_CameraManager.UpdateDevices()
+  fullName: Static_CameraManager.UpdateDevices()
+  type: Method
+  source:
+    id: UpdateDevices
+    path: ''
+    startLine: 27930
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nInitialize again\n"
+  example: []
+  syntax:
+    content: public static bool UpdateDevices()
+    return:
+      type: System.Boolean
+      description: Return true if at least one device is found
+    content.vb: Public Shared Function UpdateDevices As Boolean
+  overload: Global.Static_CameraManager.UpdateDevices*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_CameraManager.StartFrontCamera
+  commentId: M:Global.Static_CameraManager.StartFrontCamera
+  id: StartFrontCamera
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: StartFrontCamera()
+  nameWithType: Static_CameraManager.StartFrontCamera()
+  fullName: Static_CameraManager.StartFrontCamera()
+  type: Method
+  source:
+    id: StartFrontCamera
+    path: ''
+    startLine: 27950
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nStart the front camera recording\n"
+  example: []
+  syntax:
+    content: public static void StartFrontCamera()
+    content.vb: Public Shared Sub StartFrontCamera
+  overload: Global.Static_CameraManager.StartFrontCamera*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_CameraManager.StopFrontCamera
+  commentId: M:Global.Static_CameraManager.StopFrontCamera
+  id: StopFrontCamera
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: StopFrontCamera()
+  nameWithType: Static_CameraManager.StopFrontCamera()
+  fullName: Static_CameraManager.StopFrontCamera()
+  type: Method
+  source:
+    id: StopFrontCamera
+    path: ''
+    startLine: 27959
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nStop the front camera recording\n"
+  example: []
+  syntax:
+    content: public static void StopFrontCamera()
+    content.vb: Public Shared Sub StopFrontCamera
+  overload: Global.Static_CameraManager.StopFrontCamera*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_CameraManager.TakeFrontCameraSnapshot(System.Boolean)
+  commentId: M:Global.Static_CameraManager.TakeFrontCameraSnapshot(System.Boolean)
+  id: TakeFrontCameraSnapshot(System.Boolean)
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: TakeFrontCameraSnapshot(Boolean)
+  nameWithType: Static_CameraManager.TakeFrontCameraSnapshot(Boolean)
+  fullName: Static_CameraManager.TakeFrontCameraSnapshot(System.Boolean)
+  type: Method
+  source:
+    id: TakeFrontCameraSnapshot
+    path: ''
+    startLine: 27969
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nStart camera, take a snapshot, stop camera\n"
+  example: []
+  syntax:
+    content: public static Color32[] TakeFrontCameraSnapshot(bool _stopPlaying = true)
+    parameters:
+    - id: _stopPlaying
+      type: System.Boolean
+      description: 'Does the camera need to stop playing after the snapshot? delaut : true'
+    return:
+      type: Global.Color32[]
+      description: Return the pixels pulled from the snapshot
+    content.vb: Public Shared Function TakeFrontCameraSnapshot(_stopPlaying As Boolean = True) As Color32()
+  overload: Global.Static_CameraManager.TakeFrontCameraSnapshot*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Static_CameraManager.SaveCameraSnapshot(Color32[],System.Int32,System.Int32)
+  commentId: M:Global.Static_CameraManager.SaveCameraSnapshot(Color32[],System.Int32,System.Int32)
+  id: SaveCameraSnapshot(Color32[],System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: Global.Static_CameraManager
+  langs:
+  - csharp
+  - vb
+  name: SaveCameraSnapshot(Color32[], Int32, Int32)
+  nameWithType: Static_CameraManager.SaveCameraSnapshot(Color32[], Int32, Int32)
+  fullName: Static_CameraManager.SaveCameraSnapshot(Color32[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: SaveCameraSnapshot
+    path: ''
+    startLine: 27983
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nSave a set of pixels to a file in Resources\n"
+  example: []
+  syntax:
+    content: public static string SaveCameraSnapshot(this Color32[] _snap, int _width, int _height)
+    parameters:
+    - id: _snap
+      type: Global.Color32[]
+      description: The pixels to save
+    - id: _width
+      type: System.Int32
+    - id: _height
+      type: System.Int32
+    return:
+      type: System.String
+      description: The path to the saved file
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SaveCameraSnapshot(_snap As Color32(), _width As Integer, _height As Integer) As String
+  overload: Global.Static_CameraManager.SaveCameraSnapshot*
+  nameWithType.vb: Static_CameraManager.SaveCameraSnapshot(Color32(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Static_CameraManager.SaveCameraSnapshot(Color32(), System.Int32, System.Int32)
+  name.vb: SaveCameraSnapshot(Color32(), Int32, Int32)
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Static_CameraManager.initialized*
+  commentId: Overload:Global.Static_CameraManager.initialized
+  name: initialized
+  nameWithType: Static_CameraManager.initialized
+  fullName: Static_CameraManager.initialized
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Static_CameraManager.unusable*
+  commentId: Overload:Global.Static_CameraManager.unusable
+  name: unusable
+  nameWithType: Static_CameraManager.unusable
+  fullName: Static_CameraManager.unusable
+- uid: Global.Static_CameraManager.frontFacingEnable*
+  commentId: Overload:Global.Static_CameraManager.frontFacingEnable
+  name: frontFacingEnable
+  nameWithType: Static_CameraManager.frontFacingEnable
+  fullName: Static_CameraManager.frontFacingEnable
+- uid: Global.Static_CameraManager.SnapshotPath*
+  commentId: Overload:Global.Static_CameraManager.SnapshotPath
+  name: SnapshotPath
+  nameWithType: Static_CameraManager.SnapshotPath
+  fullName: Static_CameraManager.SnapshotPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Static_CameraManager.SnapshotName*
+  commentId: Overload:Global.Static_CameraManager.SnapshotName
+  name: SnapshotName
+  nameWithType: Static_CameraManager.SnapshotName
+  fullName: Static_CameraManager.SnapshotName
+- uid: Global.WebCamDevice[]
+  isExternal: true
+  name: WebCamDevice[]
+  nameWithType: WebCamDevice[]
+  fullName: WebCamDevice[]
+  nameWithType.vb: WebCamDevice()
+  fullName.vb: WebCamDevice()
+  name.vb: WebCamDevice()
+  spec.csharp:
+  - uid: Global.WebCamDevice
+    name: WebCamDevice
+    nameWithType: WebCamDevice
+    fullName: WebCamDevice
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.WebCamDevice
+    name: WebCamDevice
+    nameWithType: WebCamDevice
+    fullName: WebCamDevice
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.WebCamTexture
+  commentId: '!:Global.WebCamTexture'
+  isExternal: true
+  name: WebCamTexture
+  nameWithType: WebCamTexture
+  fullName: WebCamTexture
+- uid: Global.Static_CameraManager.Initialize*
+  commentId: Overload:Global.Static_CameraManager.Initialize
+  name: Initialize
+  nameWithType: Static_CameraManager.Initialize
+  fullName: Static_CameraManager.Initialize
+- uid: Global.Static_CameraManager.UpdateDevices*
+  commentId: Overload:Global.Static_CameraManager.UpdateDevices
+  name: UpdateDevices
+  nameWithType: Static_CameraManager.UpdateDevices
+  fullName: Static_CameraManager.UpdateDevices
+- uid: Global.Static_CameraManager.StartFrontCamera*
+  commentId: Overload:Global.Static_CameraManager.StartFrontCamera
+  name: StartFrontCamera
+  nameWithType: Static_CameraManager.StartFrontCamera
+  fullName: Static_CameraManager.StartFrontCamera
+- uid: Global.Static_CameraManager.StopFrontCamera*
+  commentId: Overload:Global.Static_CameraManager.StopFrontCamera
+  name: StopFrontCamera
+  nameWithType: Static_CameraManager.StopFrontCamera
+  fullName: Static_CameraManager.StopFrontCamera
+- uid: Global.Static_CameraManager.TakeFrontCameraSnapshot*
+  commentId: Overload:Global.Static_CameraManager.TakeFrontCameraSnapshot
+  name: TakeFrontCameraSnapshot
+  nameWithType: Static_CameraManager.TakeFrontCameraSnapshot
+  fullName: Static_CameraManager.TakeFrontCameraSnapshot
+- uid: Global.Color32[]
+  isExternal: true
+  name: Color32[]
+  nameWithType: Color32[]
+  fullName: Color32[]
+  nameWithType.vb: Color32()
+  fullName.vb: Color32()
+  name.vb: Color32()
+  spec.csharp:
+  - uid: Global.Color32
+    name: Color32
+    nameWithType: Color32
+    fullName: Color32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Color32
+    name: Color32
+    nameWithType: Color32
+    fullName: Color32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Static_CameraManager.SaveCameraSnapshot*
+  commentId: Overload:Global.Static_CameraManager.SaveCameraSnapshot
+  name: SaveCameraSnapshot
+  nameWithType: Static_CameraManager.SaveCameraSnapshot
+  fullName: Static_CameraManager.SaveCameraSnapshot
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

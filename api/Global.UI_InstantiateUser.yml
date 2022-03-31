@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UI_InstantiateUser
+  commentId: T:Global.UI_InstantiateUser
+  id: UI_InstantiateUser
+  parent: Global
+  children:
+  - Global.UI_InstantiateUser.CreateObject
+  - Global.UI_InstantiateUser.NewUserParent
+  - Global.UI_InstantiateUser.TryToSpawn
+  langs:
+  - csharp
+  - vb
+  name: UI_InstantiateUser
+  nameWithType: UI_InstantiateUser
+  fullName: UI_InstantiateUser
+  type: Class
+  source:
+    id: UI_InstantiateUser
+    path: ''
+    startLine: 27561
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UI_InstantiateUser : MonoBehaviour'
+    content.vb: >-
+      Public Class UI_InstantiateUser
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UI_InstantiateUser.NewUserParent
+  commentId: F:Global.UI_InstantiateUser.NewUserParent
+  id: NewUserParent
+  parent: Global.UI_InstantiateUser
+  langs:
+  - csharp
+  - vb
+  name: NewUserParent
+  nameWithType: UI_InstantiateUser.NewUserParent
+  fullName: UI_InstantiateUser.NewUserParent
+  type: Field
+  source:
+    id: NewUserParent
+    path: ''
+    startLine: 27563
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject NewUserParent
+    return:
+      type: Global.GameObject
+    content.vb: Public NewUserParent As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_InstantiateUser.TryToSpawn
+  commentId: M:Global.UI_InstantiateUser.TryToSpawn
+  id: TryToSpawn
+  parent: Global.UI_InstantiateUser
+  langs:
+  - csharp
+  - vb
+  name: TryToSpawn()
+  nameWithType: UI_InstantiateUser.TryToSpawn()
+  fullName: UI_InstantiateUser.TryToSpawn()
+  type: Method
+  source:
+    id: TryToSpawn
+    path: ''
+    startLine: 27568
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void TryToSpawn()
+    content.vb: Public Sub TryToSpawn
+  overload: Global.UI_InstantiateUser.TryToSpawn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UI_InstantiateUser.CreateObject
+  commentId: M:Global.UI_InstantiateUser.CreateObject
+  id: CreateObject
+  parent: Global.UI_InstantiateUser
+  langs:
+  - csharp
+  - vb
+  name: CreateObject()
+  nameWithType: UI_InstantiateUser.CreateObject()
+  fullName: UI_InstantiateUser.CreateObject()
+  type: Method
+  source:
+    id: CreateObject
+    path: ''
+    startLine: 27579
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void CreateObject()
+    content.vb: Public Sub CreateObject
+  overload: Global.UI_InstantiateUser.CreateObject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.UI_InstantiateUser.TryToSpawn*
+  commentId: Overload:Global.UI_InstantiateUser.TryToSpawn
+  name: TryToSpawn
+  nameWithType: UI_InstantiateUser.TryToSpawn
+  fullName: UI_InstantiateUser.TryToSpawn
+- uid: Global.UI_InstantiateUser.CreateObject*
+  commentId: Overload:Global.UI_InstantiateUser.CreateObject
+  name: CreateObject
+  nameWithType: UI_InstantiateUser.CreateObject
+  fullName: UI_InstantiateUser.CreateObject

@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MediaPlayerCtrl.MEDIA_SCALE
+  commentId: T:Global.MediaPlayerCtrl.MEDIA_SCALE
+  id: MediaPlayerCtrl.MEDIA_SCALE
+  parent: Global
+  children:
+  - Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Y
+  - Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Y_2
+  - Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Z
+  - Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_Y_TO_X
+  - Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_Y_TO_Z
+  - Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_Z_TO_X
+  - Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_Z_TO_Y
+  langs:
+  - csharp
+  - vb
+  name: MediaPlayerCtrl.MEDIA_SCALE
+  nameWithType: MediaPlayerCtrl.MEDIA_SCALE
+  fullName: MediaPlayerCtrl.MEDIA_SCALE
+  type: Enum
+  source:
+    id: MEDIA_SCALE
+    path: ''
+    startLine: 5836
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum MEDIA_SCALE
+    content.vb: Public Enum MEDIA_SCALE
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Y
+  commentId: F:Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Y
+  id: SCALE_X_TO_Y
+  parent: Global.MediaPlayerCtrl.MEDIA_SCALE
+  langs:
+  - csharp
+  - vb
+  name: SCALE_X_TO_Y
+  nameWithType: MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Y
+  fullName: MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Y
+  type: Field
+  source:
+    id: SCALE_X_TO_Y
+    path: ''
+    startLine: 5838
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: SCALE_X_TO_Y = 0
+    return:
+      type: Global.MediaPlayerCtrl.MEDIA_SCALE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Z
+  commentId: F:Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Z
+  id: SCALE_X_TO_Z
+  parent: Global.MediaPlayerCtrl.MEDIA_SCALE
+  langs:
+  - csharp
+  - vb
+  name: SCALE_X_TO_Z
+  nameWithType: MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Z
+  fullName: MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Z
+  type: Field
+  source:
+    id: SCALE_X_TO_Z
+    path: ''
+    startLine: 5839
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: SCALE_X_TO_Z = 1
+    return:
+      type: Global.MediaPlayerCtrl.MEDIA_SCALE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_Y_TO_X
+  commentId: F:Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_Y_TO_X
+  id: SCALE_Y_TO_X
+  parent: Global.MediaPlayerCtrl.MEDIA_SCALE
+  langs:
+  - csharp
+  - vb
+  name: SCALE_Y_TO_X
+  nameWithType: MediaPlayerCtrl.MEDIA_SCALE.SCALE_Y_TO_X
+  fullName: MediaPlayerCtrl.MEDIA_SCALE.SCALE_Y_TO_X
+  type: Field
+  source:
+    id: SCALE_Y_TO_X
+    path: ''
+    startLine: 5840
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: SCALE_Y_TO_X = 2
+    return:
+      type: Global.MediaPlayerCtrl.MEDIA_SCALE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_Y_TO_Z
+  commentId: F:Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_Y_TO_Z
+  id: SCALE_Y_TO_Z
+  parent: Global.MediaPlayerCtrl.MEDIA_SCALE
+  langs:
+  - csharp
+  - vb
+  name: SCALE_Y_TO_Z
+  nameWithType: MediaPlayerCtrl.MEDIA_SCALE.SCALE_Y_TO_Z
+  fullName: MediaPlayerCtrl.MEDIA_SCALE.SCALE_Y_TO_Z
+  type: Field
+  source:
+    id: SCALE_Y_TO_Z
+    path: ''
+    startLine: 5841
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: SCALE_Y_TO_Z = 3
+    return:
+      type: Global.MediaPlayerCtrl.MEDIA_SCALE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_Z_TO_X
+  commentId: F:Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_Z_TO_X
+  id: SCALE_Z_TO_X
+  parent: Global.MediaPlayerCtrl.MEDIA_SCALE
+  langs:
+  - csharp
+  - vb
+  name: SCALE_Z_TO_X
+  nameWithType: MediaPlayerCtrl.MEDIA_SCALE.SCALE_Z_TO_X
+  fullName: MediaPlayerCtrl.MEDIA_SCALE.SCALE_Z_TO_X
+  type: Field
+  source:
+    id: SCALE_Z_TO_X
+    path: ''
+    startLine: 5842
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: SCALE_Z_TO_X = 4
+    return:
+      type: Global.MediaPlayerCtrl.MEDIA_SCALE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_Z_TO_Y
+  commentId: F:Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_Z_TO_Y
+  id: SCALE_Z_TO_Y
+  parent: Global.MediaPlayerCtrl.MEDIA_SCALE
+  langs:
+  - csharp
+  - vb
+  name: SCALE_Z_TO_Y
+  nameWithType: MediaPlayerCtrl.MEDIA_SCALE.SCALE_Z_TO_Y
+  fullName: MediaPlayerCtrl.MEDIA_SCALE.SCALE_Z_TO_Y
+  type: Field
+  source:
+    id: SCALE_Z_TO_Y
+    path: ''
+    startLine: 5843
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: SCALE_Z_TO_Y = 5
+    return:
+      type: Global.MediaPlayerCtrl.MEDIA_SCALE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Y_2
+  commentId: F:Global.MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Y_2
+  id: SCALE_X_TO_Y_2
+  parent: Global.MediaPlayerCtrl.MEDIA_SCALE
+  langs:
+  - csharp
+  - vb
+  name: SCALE_X_TO_Y_2
+  nameWithType: MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Y_2
+  fullName: MediaPlayerCtrl.MEDIA_SCALE.SCALE_X_TO_Y_2
+  type: Field
+  source:
+    id: SCALE_X_TO_Y_2
+    path: ''
+    startLine: 5844
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: SCALE_X_TO_Y_2 = 6
+    return:
+      type: Global.MediaPlayerCtrl.MEDIA_SCALE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.MediaPlayerCtrl.MEDIA_SCALE
+  commentId: T:Global.MediaPlayerCtrl.MEDIA_SCALE
+  name: MediaPlayerCtrl.MEDIA_SCALE
+  nameWithType: MediaPlayerCtrl.MEDIA_SCALE
+  fullName: MediaPlayerCtrl.MEDIA_SCALE

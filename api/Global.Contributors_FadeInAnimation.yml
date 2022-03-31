@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Contributors_FadeInAnimation
+  commentId: T:Global.Contributors_FadeInAnimation
+  id: Contributors_FadeInAnimation
+  parent: Global
+  children:
+  - Global.Contributors_FadeInAnimation.Start
+  langs:
+  - csharp
+  - vb
+  name: Contributors_FadeInAnimation
+  nameWithType: Contributors_FadeInAnimation
+  fullName: Contributors_FadeInAnimation
+  type: Class
+  source:
+    id: Contributors_FadeInAnimation
+    path: ''
+    startLine: 13903
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Contributors_FadeInAnimation : MonoBehaviour'
+    content.vb: >-
+      Public Class Contributors_FadeInAnimation
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Contributors_FadeInAnimation.Start
+  commentId: M:Global.Contributors_FadeInAnimation.Start
+  id: Start
+  parent: Global.Contributors_FadeInAnimation
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: Contributors_FadeInAnimation.Start()
+  fullName: Contributors_FadeInAnimation.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 13907
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start
+  overload: Global.Contributors_FadeInAnimation.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Contributors_FadeInAnimation.Start*
+  commentId: Overload:Global.Contributors_FadeInAnimation.Start
+  name: Start
+  nameWithType: Contributors_FadeInAnimation.Start
+  fullName: Contributors_FadeInAnimation.Start

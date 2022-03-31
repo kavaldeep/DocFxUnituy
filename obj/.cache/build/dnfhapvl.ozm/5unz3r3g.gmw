@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>TUTO GAMIFICATION | Example Unity documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="TUTO GAMIFICATION | Example Unity documentation ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../manual/coniunctis.html" title="Manual">Manual</a>
+                      </li>
+                      <li>
+                          <a href="../api/Global.html" title="Scripting API">Scripting API</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="coniunctis.html" title="Coniunctis nec qui" class="">Coniunctis nec qui</a>
+                    </li>
+                    <li class="">
+                      <a href="etiam.html" title="Etiam nantemque exul" class="">Etiam nantemque exul</a>
+                    </li>
+                    <li class="active">
+                      <a href="tuto1.html" title="Tuto1" class="active">Tuto1</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="1" sourceendlinenumber="1">#</p>
+<h1 id="tuto-gamification" sourcefile="manual/tuto1.md" sourcestartlinenumber="2" sourceendlinenumber="2"><strong>TUTO GAMIFICATION</strong></h1>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="4" sourceendlinenumber="4">il faut dans un premier temps identifier les points suivants : Objectifs business et Besoins utilisateurs.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="6" sourceendlinenumber="6"><a href="https://drive.google.com/file/d/1D_ChObezkjmZQWxi24JlQ6IrYxD4yQHK/view?usp=sharing" data-raw-source="[https://drive.google.com/file/d/1D\_ChObezkjmZQWxi24JlQ6IrYxD4yQHK/view?usp=sharing](https://drive.google.com/file/d/1D_ChObezkjmZQWxi24JlQ6IrYxD4yQHK/view?usp=sharing)" sourcefile="manual/tuto1.md" sourcestartlinenumber="6" sourceendlinenumber="6">https://drive.google.com/file/d/1D_ChObezkjmZQWxi24JlQ6IrYxD4yQHK/view?usp=sharing</a></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="8" sourceendlinenumber="8">Objectifs business</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="10" sourceendlinenumber="10">Ce sont les objectifs généraux du business. Fidélisation (faire revenir les utilisateurs 1 fois par semaine, 1 fois par jour, plusieurs fois par jour…), engagement (utiliser une fonctionnalité spécifique, le maximum de fonctionnalité…), monétisation (faire un achat in-app, souscrire à un abonnement).</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="12" sourceendlinenumber="12">Besoins utilisateurs</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="14" sourceendlinenumber="14">Ce sont les besoins que vos utilisateurs cherchent à combler en utilisant votre application. Par exemple : un commercial attend de son CRM qu&#39;il l&#39;aide à mieux vendre. Un utilisateur d&#39;une application de running peut attendre un coaching pour ses performances ou simplement pour une remise en forme.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="16" sourceendlinenumber="16">Comportements</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="18" sourceendlinenumber="18">Ensuite, on peut déduire les comportements associés aux Objectifs business et aux Besoins utilisateurs.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="20" sourceendlinenumber="20">La question est la suivante :</p>
+<ul sourcefile="manual/tuto1.md" sourcestartlinenumber="22" sourceendlinenumber="23">
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="22" sourceendlinenumber="22">Quels comportements utilisateurs sont nécessaires pour accomplir mes Objectifs business ?</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="23" sourceendlinenumber="23">Quels comportements utilisateurs sont nécessaires pour accomplir les Besoins utilisateurs ?</li>
+</ul>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="25" sourceendlinenumber="25">Alignement</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="27" sourceendlinenumber="27">Comme vous pouvez l&#39;imaginer, il n&#39;est pas garanti que les comportements permettant d&#39;accomplir les Objectifs Business seront les mêmes que ceux permettant d&#39;accomplir les Besoins des utilisateurs. Dans la démarche méthodologique, il est donc impératif de prioriser les Objectifs et Besoins pour identifier les « bons » comportements. Les comportements à inciter en priorité sont donc associés à la fois à des Objectifs et Besoins prioritaires.</p>
+<h1 id="" sourcefile="manual/tuto1.md" sourcestartlinenumber="29" sourceendlinenumber="29">#</h1>
+<h2 id="leçon-1--le-flow" sourcefile="manual/tuto1.md" sourcestartlinenumber="32" sourceendlinenumber="32">LEÇON 1 : Le Flow</h2>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="34" sourceendlinenumber="34"><a href="https://www.youtube.com/watch?v=WG8AMynMt5c" data-raw-source="[https://www.youtube.com/watch?v=WG8AMynMt5c](https://www.youtube.com/watch?v=WG8AMynMt5c)" sourcefile="manual/tuto1.md" sourcestartlinenumber="34" sourceendlinenumber="34">https://www.youtube.com/watch?v=WG8AMynMt5c</a></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="36" sourceendlinenumber="36"><img src="RackMultipart20220324-4-2irwrl_html_7793888f36a3eab.png" alt="" sourcefile="manual/tuto1.md" sourcestartlinenumber="36" sourceendlinenumber="36"></p>
+<h2 id="leçon-2--la-théorie-de-mcgonigal" sourcefile="manual/tuto1.md" sourcestartlinenumber="38" sourceendlinenumber="38">LEÇON 2 : La théorie de MCGONIGAL</h2>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="40" sourceendlinenumber="40"><a href="https://www.youtube.com/watch?v=8DYwPzFaYAI" data-raw-source="[https://www.youtube.com/watch?v=8DYwPzFaYAI](https://www.youtube.com/watch?v=8DYwPzFaYAI)" sourcefile="manual/tuto1.md" sourcestartlinenumber="40" sourceendlinenumber="40">https://www.youtube.com/watch?v=8DYwPzFaYAI</a></p>
+<h2 id="leçon-3--le-cta-ou-triggers-du-modèle-de-fogg" sourcefile="manual/tuto1.md" sourcestartlinenumber="42" sourceendlinenumber="42">LEÇON 3 : LE CTA ou TRIGGERS du modèle de FOGG</h2>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="44" sourceendlinenumber="44">Pour mener une analyse des comportements, il existe de <strong>nombreuses méthodes</strong>. voici le modèle de Fogg.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="46" sourceendlinenumber="46"><a href="https://www.youtube.com/watch?v=QWjnhUZGZlc&amp;t=78s" data-raw-source="[https://www.youtube.com/watch?v=QWjnhUZGZlc&amp;amp;t=78s](https://www.youtube.com/watch?v=QWjnhUZGZlc&amp;amp;t=78s)" sourcefile="manual/tuto1.md" sourcestartlinenumber="46" sourceendlinenumber="46">https://www.youtube.com/watch?v=QWjnhUZGZlc&amp;t=78s</a></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="48" sourceendlinenumber="48">Les facteurs de motivations (résumé non exhausitf) qui permet qu&#39;un Trigger soit activé par un joueur:</p>
+<ul sourcefile="manual/tuto1.md" sourcestartlinenumber="50" sourceendlinenumber="52">
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="50" sourceendlinenumber="50">Plaisir/Douleur</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="51" sourceendlinenumber="51">Espoir/Peur</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="52" sourceendlinenumber="52">Acceptation social/rejet social</li>
+</ul>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="54" sourceendlinenumber="54">Définir toujours si votre CTA est soit :</p>
+<ul sourcefile="manual/tuto1.md" sourcestartlinenumber="56" sourceendlinenumber="57">
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="56" sourceendlinenumber="56">CTA motivateurs (faisant appel à la motivation)</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="57" sourceendlinenumber="57">CTA facilitateurs (faisant appel à la capacité)</li>
+</ul>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="59" sourceendlinenumber="59">Pour aller plus loin :</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="61" sourceendlinenumber="61">Behaviour Model de Fogg :</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="63" sourceendlinenumber="63"><img src="RackMultipart20220324-4-2irwrl_html_506937bbcd715b63.png" alt="" sourcefile="manual/tuto1.md" sourcestartlinenumber="63" sourceendlinenumber="63"></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="65" sourceendlinenumber="65"><strong>Le modèle de Fogg</strong></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="67" sourceendlinenumber="67">Fogg est le fondateur du Persuasive Technology Lab à l&#39;Université de Stanford. Il a créé un modèle détaillant les deux conditions nécessaires à la réalisation d&#39;un comportement dans une application : la motivation et la simplicité.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="69" sourceendlinenumber="69">Le modèle est résumé dans le graphe suivant :</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="71" sourceendlinenumber="71"><img src="RackMultipart20220324-4-2irwrl_html_128c7d8f34b4a4ce.jpg" alt="" sourcefile="manual/tuto1.md" sourcestartlinenumber="71" sourceendlinenumber="71"></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="73" sourceendlinenumber="73">Si l&#39;action est très difficile alors il faut beaucoup de motivation. Si l&#39;utilisateur est peu motivé alors l&#39;action doit être très facile. En résumé, pour que l&#39;utilisateur accomplisse l&#39;action demandée il doit disposer d&#39;un &quot;panier&quot; de compétences et de motivation. La motivation et la simplicité sont corrélées à de nombreux critères mais ce n&#39;est pas le sujet aujourd&#39;hui.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="75" sourceendlinenumber="75"><strong>Psychologie et économie comportementale</strong></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="77" sourceendlinenumber="77">Jusque là, le modèle est plutôt intuitif. Pourtant, les choses sérieuses commencent lorsqu&#39;on veut déterminer plus précisément les motivations et les freins à l&#39;action. Et là, il faut prendre du recul et sortir du modèle de Fogg pour plonger au cœur de la psychologie et de l&#39;économie comportementale.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="79" sourceendlinenumber="79">Il existe littéralement des centaines de biais influençant nos comportements. En voici quelques-uns parmi les plus emblématiques :</p>
+<ul sourcefile="manual/tuto1.md" sourcestartlinenumber="81" sourceendlinenumber="83">
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="81" sourceendlinenumber="81">La preuve sociale : tendance à agir comme on pense que les autres agiraient dans une situation similaire. La preuve sociale est particulièrement efficace dans un contexte d&#39;incertitude.</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="82" sourceendlinenumber="82">Le biais de cohérence : tendance à agir en cohérence avec ses habitudes passées.</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="83" sourceendlinenumber="83">Le biais de rareté : tendance à surévaluer un bien présenté comme rare, même si nous n&#39;en avons pas besoin.</li>
+</ul>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="85" sourceendlinenumber="85">Un exemple d&#39;utilisation du biais de preuve sociale dans la vente de produits en ligne : les <strong>témoignages</strong> (« <em> <strong>testimonials</strong> </em> »). Ils permettent au visiteur de voir que d&#39;autres personnes ont aussi acheté le produit et ont été satisfaites.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="87" sourceendlinenumber="87">Dans la troisième partie de la méthode, nous verrons que pour chaque frein ou motivation, il existe de nombreuses techniques permettant d&#39;engager l&#39;utilisateur. Ainsi, l&#39;analyse comportementale consiste à filtrer chaque comportement à travers différents modèles pour en déduire les techniques adéquates.</p>
+<h2 id="leçon-4--la-typologie-des-joueurs-de-bartle-et-les-personnas" sourcefile="manual/tuto1.md" sourcestartlinenumber="89" sourceendlinenumber="89">LEÇON 4 : La typologie des joueurs de Bartle et les personnas</h2>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="91" sourceendlinenumber="91"><a href="https://www.youtube.com/watch?v=U_q2jckxt6s&amp;t=11s" data-raw-source="[https://www.youtube.com/watch?v=U\_q2jckxt6s&amp;amp;t=11s](https://www.youtube.com/watch?v=U_q2jckxt6s&amp;amp;t=11s)" sourcefile="manual/tuto1.md" sourcestartlinenumber="91" sourceendlinenumber="91">https://www.youtube.com/watch?v=U_q2jckxt6s&amp;t=11s</a></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="93" sourceendlinenumber="93"><img src="RackMultipart20220324-4-2irwrl_html_36f49383032f1123.png" alt="" sourcefile="manual/tuto1.md" sourcestartlinenumber="93" sourceendlinenumber="93"></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="95" sourceendlinenumber="95"><img src="RackMultipart20220324-4-2irwrl_html_25b81b07c7a8dec1.png" alt="" sourcefile="manual/tuto1.md" sourcestartlinenumber="95" sourceendlinenumber="95"></p>
+<h2 id="rackmultipart20220324-4-2irwrlhtmlfd6aebda75006a31jpg" sourcefile="manual/tuto1.md" sourcestartlinenumber="97" sourceendlinenumber="97"><img src="RackMultipart20220324-4-2irwrl_html_fd6aebda75006a31.jpg" alt="" sourcefile="manual/tuto1.md" sourcestartlinenumber="97" sourceendlinenumber="97"></h2>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="99" sourceendlinenumber="99">Il existe des mécaniques pour motiver les comportements. 4 grands types de mécaniques que l&#39;on peut répertorier dans le graphe suivant :</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="101" sourceendlinenumber="101"><img src="RackMultipart20220324-4-2irwrl_html_b1968f8ae723d5cf.jpg" alt="" sourcefile="manual/tuto1.md" sourcestartlinenumber="101" sourceendlinenumber="101"></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="103" sourceendlinenumber="103">Comme vous pouvez le voir sur l&#39;image ci-dessus, le graphe est structuré autour de deux axes : Performance | Sens et Communauté | Contenu. Les mécaniques et fonctionnalités de votre expérience se distinguent suivant qu&#39;elles sont orientées vers l&#39;un de ces 4 « points cardinaux ».</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="105" sourceendlinenumber="105">Performance : les systèmes qui poussent les utilisateurs à se dépasser utilisent des mécaniques de performance.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="107" sourceendlinenumber="107">Sens : les systèmes utilisent les mécaniques de sens pour créer l&#39;attachement émotionnel des utilisateurs et donner du sens à leurs actions.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="109" sourceendlinenumber="109">Communauté : les mécaniques permettant une interaction entre les utilisateurs pour stimuler la communauté.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="111" sourceendlinenumber="111">Contenu : les mécaniques permettant d&#39;interagir avec le contenu proposé par le système.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="113" sourceendlinenumber="113">Il en découle 4 grands types d&#39;expériences :</p>
+<ul sourcefile="manual/tuto1.md" sourcestartlinenumber="115" sourceendlinenumber="118">
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="115" sourceendlinenumber="115">Coaching : accompagner, coacher l&#39;utilisateur vers la réussite de son objectif. Exemple de mécanique : une barre de progression.</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="116" sourceendlinenumber="116">Storytelling : motiver les utilisateurs à travers un approfondissement du sens donné à l&#39;expérience. Exemple de mécanique : ajouter sa photo de profil sur un service en ligne.</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="117" sourceendlinenumber="117">Coopération : motiver les utilisateurs à travers la création d&#39;un objectif commun. Exemple de mécanique : un Like sur Facebook.</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="118" sourceendlinenumber="118">Compétition : motiver les utilisateurs à travers la comparaison avec d&#39;autres utilisateurs. Exemple de mécanique : une offre exclusive.</li>
+</ul>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="120" sourceendlinenumber="120">De quelles mécaniques avez-vous besoin ?</p>
+<ul sourcefile="manual/tuto1.md" sourcestartlinenumber="122" sourceendlinenumber="125">
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="122" sourceendlinenumber="122">Vous avez toujours besoin de créer un système de coaching. La plupart du temps, on les retrouve sur le profil utilisateur. Celui-ci est la pierre angulaire de tout système d&#39;engagement design. On peut motiver des comportements de manière très efficace juste en concevant un profil utilisateur.</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="123" sourceendlinenumber="123">Si vous avez besoin de créer des interactions entre utilisateurs alors vous devrez en plus ajouter des mécaniques de « communauté » et plus particulièrement des mécaniques de coopération.</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="124" sourceendlinenumber="124">Si vous avez besoin d&#39;inciter de manière implicite les actions des utilisateurs mais sans viser une véritable interaction communautaire alors vous pourrez utiliser des mécaniques de « communauté » et plus particulièrement des mécaniques de compétition.</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="125" sourceendlinenumber="125">Enfin le storytelling est particulièrement important pour la motivation des utilisateurs (faible motivation détectée lors de l&#39;analyse comportementale).</li>
+</ul>
+<h1 id="-1" sourcefile="manual/tuto1.md" sourcestartlinenumber="127" sourceendlinenumber="127">#</h1>
+<h1 id="-2" sourcefile="manual/tuto1.md" sourcestartlinenumber="130" sourceendlinenumber="130">#</h1>
+<h2 id="leçon-5--la-théorie-du-fun-de-raph-coster" sourcefile="manual/tuto1.md" sourcestartlinenumber="133" sourceendlinenumber="133">LEÇON 5 : La théorie du Fun de Raph Coster</h2>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="135" sourceendlinenumber="135"><a href="https://www.youtube.com/watch?v=4oJrNVbKVa0" data-raw-source="[https://www.youtube.com/watch?v=4oJrNVbKVa0](https://www.youtube.com/watch?v=4oJrNVbKVa0)" sourcefile="manual/tuto1.md" sourcestartlinenumber="135" sourceendlinenumber="135">https://www.youtube.com/watch?v=4oJrNVbKVa0</a></p>
+<ul sourcefile="manual/tuto1.md" sourcestartlinenumber="137" sourceendlinenumber="139">
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="137" sourceendlinenumber="137">Les feedback doivent être variable</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="138" sourceendlinenumber="138">Parcours vers la maitrise (apprentissage)</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="139" sourceendlinenumber="139">Le coût de l&#39;échec</li>
+</ul>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="141" sourceendlinenumber="142">Pour aller plus loin :
+ Le blog de Raph Koster : <a href="https://www.raphkoster.com/games/" data-raw-source="[https://www.raphkoster.com/games/](https://www.raphkoster.com/games/)" sourcefile="manual/tuto1.md" sourcestartlinenumber="142" sourceendlinenumber="142">https://www.raphkoster.com/games/</a></p>
+<h2 id="leçon-6--le-modèle-hooked-de-nir-eyal" sourcefile="manual/tuto1.md" sourcestartlinenumber="144" sourceendlinenumber="144">LEÇON 6 : Le modèle Hooked de Nir Eyal</h2>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="146" sourceendlinenumber="146"><a href="https://www.youtube.com/watch?v=R_GnIVnZDNw" data-raw-source="[https://www.youtube.com/watch?v=R\_GnIVnZDNw](https://www.youtube.com/watch?v=R_GnIVnZDNw)" sourcefile="manual/tuto1.md" sourcestartlinenumber="146" sourceendlinenumber="146">https://www.youtube.com/watch?v=R_GnIVnZDNw</a></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="148" sourceendlinenumber="148">La boucle de Eyal</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="150" sourceendlinenumber="150">Les récompenses :</p>
+<ul sourcefile="manual/tuto1.md" sourcestartlinenumber="152" sourceendlinenumber="154">
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="152" sourceendlinenumber="152">Rewards of the Tribe</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="153" sourceendlinenumber="153">Rewards of the Hunt</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="154" sourceendlinenumber="154">Rewards of the Self</li>
+</ul>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="156" sourceendlinenumber="156">Investment :</p>
+<ul sourcefile="manual/tuto1.md" sourcestartlinenumber="158" sourceendlinenumber="158">
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="158" sourceendlinenumber="158">Personnalisation de l&#39;expérience ⇒ Amener un nouveau CTA selon personnalisation</li>
+</ul>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="160" sourceendlinenumber="160"><img src="RackMultipart20220324-4-2irwrl_html_42fa06ac4aff48c9.png" alt="" sourcefile="manual/tuto1.md" sourcestartlinenumber="160" sourceendlinenumber="160"></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="162" sourceendlinenumber="162"><strong>{Définition} Récompense aléatoire</strong></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="164" sourceendlinenumber="164">Pour satisfaire vos joueurs, vous devez leur donner une récompense. Elle n&#39;est pas forcément un cadeau, elle peut être une simple récompense virtuelle, sans valeur réelle. Le plus important avec les récompenses, c&#39;est la manière dont on les distribue. On peut distribuer les récompenses pour un nombre d&#39;actions déterminé : par exemple &quot;se connecter sur une application&quot;. Mais on peut aussi distribuer les récompenses avec une fréquence aléatoire : parfois à chaque connexion, parfois au bout de trois ou dix connexions. La récompense aléatoire, c&#39;est le fait de ne pas savoir avec certitude si l&#39;action réalisée donnera accès à une récompense.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="166" sourceendlinenumber="166"><strong>{Avantage} Créer l&#39;addiction</strong></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="168" sourceendlinenumber="168">La récompense aléatoire est le meilleur moyen de créer l&#39;addiction. Ainsi, si vous identifiez un comportement clé dans l&#39;expérience de vos utilisateurs, vous pouvez récompenser ce comportement de manière aléatoire. Les utilisateurs reproduiront ce comportement plus souvent.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="170" sourceendlinenumber="170">Voici le fonctionnement de ce phénomène d&#39;addiction. En présence de récompenses aléatoires, le cerveau sécrète de la dopamine.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="172" sourceendlinenumber="172">C&#39;est cette dopamine qui crée l&#39;addiction. Pour faire simple, la dopamine n&#39;est pas la molécule du plaisir de la récompense, elle est la molécule de la recherche de la récompense : plus le cerveau est &quot;sous dopamine&quot; plus le joueur cherche à réaliser l&#39;action qui déclenche la récompense. Dans le cas d&#39;une récompense classique, le cerveau sécrète également de la dopamine mais en quantité bien moindre.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="174" sourceendlinenumber="174"><strong>{dans les jeux} Machines à sous</strong></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="176" sourceendlinenumber="176">La récompense aléatoire est la technique qui crée l&#39;addiction aux machines à sous et de manière générale de tous les jeux de hasard. En fait, comme son nom le laisse deviner, jeu de hasard signifie avant tout &quot;jeu à récompenses aléatoires&quot;, donc jeu à potentiel addictif. En gamification, il ne faudra pas faire du &quot;pur hasard&quot;. Les jeux seront d&#39;autant plus efficaces qu&#39;ils laisseront aux joueurs une voie vers la compréhension puis la maîtrise du système : le joueur expert devrait avoir des probabilités beaucoup plus importantes de gagner tandis qu&#39;un débutant devrait pouvoir garder l&#39;espoir de bénéficier de la &quot;chance du débutant&quot;.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="178" sourceendlinenumber="178"><strong>{In Real Life} Le scroll infini de Facebook</strong></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="180" sourceendlinenumber="180">Un exemple de récompense aléatoire de la vie quotidienne est Facebook. Le réseau social utilise la technique de la récompense aléatoire pour retenir plus longtemps les utilisateurs lorsqu&#39;ils se connectent au service. Cette technique, c&#39;est le scroll infini. Le scroll infini est le fait de pouvoir descendre indéfiniment le fil d&#39;actualité. La plupart du temps quand on regarde son fil d&#39;actualité, on tombe sur des contenus inintéressants, on continue donc de faire défiler le fil vers le bas jusqu&#39;à trouver un contenu « intéressant ». À ce moment là, on s&#39;arrête, on regarde le contenu (des photos ou une vidéo le plus souvent). Puis lorsqu&#39;on finit de regarder le contenu, on revient sur le fil d&#39;actualité, et on continue de descendre. Parmi tous les contenus inintéressants, le contenu intéressant est une récompense. Mais cette récompense est aléatoire car il est impossible de savoir quand le prochain contenu intéressant arrivera dans le fil d&#39;actualité. Normalement, si vous observez bien votre propre comportement, vous devriez constater que vous réagissez de cette façon. Dès que vous découvrez un contenu intéressant vous continuez de &quot;scroller&quot; parce qu&#39;il existe des probabilités pour qu&#39;un contenu intéressant apparaisse : ce comportement est entièrement conditionné par la récompense aléatoire.</p>
+<h2 id="mise-en-pratique-tribiew-" sourcefile="manual/tuto1.md" sourcestartlinenumber="182" sourceendlinenumber="182">MISE EN PRATIQUE TRIBIEW :</h2>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="184" sourceendlinenumber="184">C&#39;est le moment de construire très précisément l&#39;expérience de l&#39;utilisateur dans l&#39;application. Cela se fait à travers un travail dans deux domaines : <strong>l&#39;UI (interface) et la Scénarisation</strong>.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="186" sourceendlinenumber="186">On va commencer par la Scénarisation, partie immergée de l&#39;iceberg. Contrairement à l&#39;UI, on ne l&#39;a voit pas, et pourtant elle est la clé de voûte de la fidélisation et de l&#39;engagement.</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="188" sourceendlinenumber="188"><strong>Scénarisation</strong></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="190" sourceendlinenumber="190">Scénariser, c&#39;est prévoir tous les feedbacks que l&#39;application va envoyer à l&#39;utilisateur en fonction de son activité. La scénarisation concerne plusieurs aspects de l&#39;expérience dont les notifications, les récompenses, la pointification…</p>
+<ul sourcefile="manual/tuto1.md" sourcestartlinenumber="192" sourceendlinenumber="196">
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="192" sourceendlinenumber="192"><p sourcefile="manual/tuto1.md" sourcestartlinenumber="192" sourceendlinenumber="192">Notifications (push ou in-app) : elles font partie du système CRM au même titre que les emails. L&#39;enjeu est de « relancer » l&#39;utilisateur au bon moment, avec le bon message pour augmenter les chances de passage à l&#39;action.</p>
+</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="194" sourceendlinenumber="194"><p sourcefile="manual/tuto1.md" sourcestartlinenumber="194" sourceendlinenumber="194">Récompenses : il existe d&#39;innombrables récompenses. Réelle / virtuelle, certaine / aléatoire… toutes ne sont pas efficaces dans le même contexte. Par exemple les récompenses aléatoires sont extrêmement efficaces pour créer une utilisation répétée, voire une addiction, mais elles s&#39;utilisent dans une situation adéquate sous peine d&#39;être totalement contre-productives. Lisez attentivement l&#39;email bonus de ce cours qui sera consacré à cette récompense emblématique !</p>
+</li>
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="196" sourceendlinenumber="196"><p sourcefile="manual/tuto1.md" sourcestartlinenumber="196" sourceendlinenumber="196">Pointification (scoring) : finalement, on pourrait définir la scénarisation comme une série de feedbacks qui se déclencheraient lorsque certaines conditions seraient remplies par l&#39;utilisateur. Chaque action de l&#39;utilisateur doit être « pointifiée » (on lui attribue un score) pour envoyer le bon feedback.</p>
+</li>
+</ul>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="198" sourceendlinenumber="198"><strong>UI (Interface)</strong></p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="200" sourceendlinenumber="200">Intéressons-nous maintenant à l&#39;UI, partie visible de l&#39;iceberg. Construire l&#39;UI consiste à choisir les bons écrans et le bon enchaînement d&#39;écrans au sein de votre application. Exemples.</p>
+<ul sourcefile="manual/tuto1.md" sourcestartlinenumber="202" sourceendlinenumber="202">
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="202" sourceendlinenumber="202">Profil utilisateur</li>
+</ul>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="204" sourceendlinenumber="204">On doit retrouver l&#39;écran de Profil dans toutes les applications dont le but est d&#39;engager les utilisateurs. Voici ci-dessous une illustration d&#39;un Profil utilisateur de l&#39;application Headspace. Il inclut un ensemble de statistiques permettant à l&#39;utilisateur de jauger sa progression. Il s&#39;agit d&#39;une technique de Quantified-self (type de mécaniques de Coaching).</p>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="206" sourceendlinenumber="206"><img src="RackMultipart20220324-4-2irwrl_html_bab40ad4388c7e3f.jpg" alt="" sourcefile="manual/tuto1.md" sourcestartlinenumber="206" sourceendlinenumber="206"></p>
+<ul sourcefile="manual/tuto1.md" sourcestartlinenumber="208" sourceendlinenumber="208">
+<li sourcefile="manual/tuto1.md" sourcestartlinenumber="208" sourceendlinenumber="208">Wording</li>
+</ul>
+<p sourcefile="manual/tuto1.md" sourcestartlinenumber="210" sourceendlinenumber="210">Autre élément fondamental de l&#39;UI, le wording utilisé sur chaque écran. Cette pratique a un nom : l&#39;UX writing.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://bitbucket.org/hyperseries/tribiewapp//src/dev/Documentation/manual/tuto1.md#lines-1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Example Unity documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

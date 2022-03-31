@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  commentId: T:Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  id: MediaPlayerCtrl.MEDIAPLAYER_STATE
+  parent: Global
+  children:
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.END
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.ERROR
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.NOT_READY
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.PAUSED
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.PLAYING
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.READY
+  - Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.STOPPED
+  langs:
+  - csharp
+  - vb
+  name: MediaPlayerCtrl.MEDIAPLAYER_STATE
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_STATE
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_STATE
+  type: Enum
+  source:
+    id: MEDIAPLAYER_STATE
+    path: ''
+    startLine: 5825
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum MEDIAPLAYER_STATE
+    content.vb: Public Enum MEDIAPLAYER_STATE
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.NOT_READY
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.NOT_READY
+  id: NOT_READY
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  langs:
+  - csharp
+  - vb
+  name: NOT_READY
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_STATE.NOT_READY
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_STATE.NOT_READY
+  type: Field
+  source:
+    id: NOT_READY
+    path: ''
+    startLine: 5827
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: NOT_READY = 0
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.READY
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.READY
+  id: READY
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  langs:
+  - csharp
+  - vb
+  name: READY
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_STATE.READY
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_STATE.READY
+  type: Field
+  source:
+    id: READY
+    path: ''
+    startLine: 5828
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: READY = 1
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.END
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.END
+  id: END
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  langs:
+  - csharp
+  - vb
+  name: END
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_STATE.END
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_STATE.END
+  type: Field
+  source:
+    id: END
+    path: ''
+    startLine: 5829
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: END = 2
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.PLAYING
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.PLAYING
+  id: PLAYING
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  langs:
+  - csharp
+  - vb
+  name: PLAYING
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_STATE.PLAYING
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_STATE.PLAYING
+  type: Field
+  source:
+    id: PLAYING
+    path: ''
+    startLine: 5830
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: PLAYING = 3
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.PAUSED
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.PAUSED
+  id: PAUSED
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  langs:
+  - csharp
+  - vb
+  name: PAUSED
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_STATE.PAUSED
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_STATE.PAUSED
+  type: Field
+  source:
+    id: PAUSED
+    path: ''
+    startLine: 5831
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: PAUSED = 4
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.STOPPED
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.STOPPED
+  id: STOPPED
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  langs:
+  - csharp
+  - vb
+  name: STOPPED
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_STATE.STOPPED
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_STATE.STOPPED
+  type: Field
+  source:
+    id: STOPPED
+    path: ''
+    startLine: 5832
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: STOPPED = 5
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.ERROR
+  commentId: F:Global.MediaPlayerCtrl.MEDIAPLAYER_STATE.ERROR
+  id: ERROR
+  parent: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  langs:
+  - csharp
+  - vb
+  name: ERROR
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_STATE.ERROR
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_STATE.ERROR
+  type: Field
+  source:
+    id: ERROR
+    path: ''
+    startLine: 5833
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: ERROR = 6
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  commentId: T:Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  name: MediaPlayerCtrl.MEDIAPLAYER_STATE
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_STATE
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_STATE

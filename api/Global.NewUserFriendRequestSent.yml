@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.NewUserFriendRequestSent
+  commentId: T:Global.NewUserFriendRequestSent
+  id: NewUserFriendRequestSent
+  parent: Global
+  children:
+  - Global.NewUserFriendRequestSent.feedbackButtonClicked
+  langs:
+  - csharp
+  - vb
+  name: NewUserFriendRequestSent
+  nameWithType: NewUserFriendRequestSent
+  fullName: NewUserFriendRequestSent
+  type: Class
+  source:
+    id: NewUserFriendRequestSent
+    path: ''
+    startLine: 13982
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class NewUserFriendRequestSent : MonoBehaviour'
+    content.vb: >-
+      Public Class NewUserFriendRequestSent
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.NewUserFriendRequestSent.feedbackButtonClicked
+  commentId: M:Global.NewUserFriendRequestSent.feedbackButtonClicked
+  id: feedbackButtonClicked
+  parent: Global.NewUserFriendRequestSent
+  langs:
+  - csharp
+  - vb
+  name: feedbackButtonClicked()
+  nameWithType: NewUserFriendRequestSent.feedbackButtonClicked()
+  fullName: NewUserFriendRequestSent.feedbackButtonClicked()
+  type: Method
+  source:
+    id: feedbackButtonClicked
+    path: ''
+    startLine: 13996
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void feedbackButtonClicked()
+    content.vb: Public Sub feedbackButtonClicked
+  overload: Global.NewUserFriendRequestSent.feedbackButtonClicked*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.NewUserFriendRequestSent.feedbackButtonClicked*
+  commentId: Overload:Global.NewUserFriendRequestSent.feedbackButtonClicked
+  name: feedbackButtonClicked
+  nameWithType: NewUserFriendRequestSent.feedbackButtonClicked
+  fullName: NewUserFriendRequestSent.feedbackButtonClicked

@@ -1,0 +1,241 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products
+  commentId: T:Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products
+  id: Static_SeriesConstants.SerieInfosKeys.Episode.Products
+  parent: Global
+  children:
+  - Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.end
+  - Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.image
+  - Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.name
+  - Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.price
+  - Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.product
+  - Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.start
+  langs:
+  - csharp
+  - vb
+  name: Static_SeriesConstants.SerieInfosKeys.Episode.Products
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.Episode.Products
+  fullName: Static_SeriesConstants.SerieInfosKeys.Episode.Products
+  type: Class
+  source:
+    id: Products
+    path: ''
+    startLine: 16859
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Products
+    content.vb: Public Module Products
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.name
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.name
+  id: name
+  parent: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.Episode.Products.name
+  fullName: Static_SeriesConstants.SerieInfosKeys.Episode.Products.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 16861
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.image
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.image
+  id: image
+  parent: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.Episode.Products.image
+  fullName: Static_SeriesConstants.SerieInfosKeys.Episode.Products.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 16862
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string image = "image"
+    return:
+      type: System.String
+    content.vb: Public Const image As String = "image"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.start
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.start
+  id: start
+  parent: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products
+  langs:
+  - csharp
+  - vb
+  name: start
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.Episode.Products.start
+  fullName: Static_SeriesConstants.SerieInfosKeys.Episode.Products.start
+  type: Field
+  source:
+    id: start
+    path: ''
+    startLine: 16863
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string start = "start"
+    return:
+      type: System.String
+    content.vb: Public Const start As String = "start"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.end
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.end
+  id: end
+  parent: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products
+  langs:
+  - csharp
+  - vb
+  name: end
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.Episode.Products.end
+  fullName: Static_SeriesConstants.SerieInfosKeys.Episode.Products.end
+  type: Field
+  source:
+    id: end
+    path: ''
+    startLine: 16864
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string end = "end"
+    return:
+      type: System.String
+    content.vb: Public Const end As String = "end"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.product
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.product
+  id: product
+  parent: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products
+  langs:
+  - csharp
+  - vb
+  name: product
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.Episode.Products.product
+  fullName: Static_SeriesConstants.SerieInfosKeys.Episode.Products.product
+  type: Field
+  source:
+    id: product
+    path: ''
+    startLine: 16865
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string product = "product"
+    return:
+      type: System.String
+    content.vb: Public Const product As String = "product"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.price
+  commentId: F:Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products.price
+  id: price
+  parent: Global.Static_SeriesConstants.SerieInfosKeys.Episode.Products
+  langs:
+  - csharp
+  - vb
+  name: price
+  nameWithType: Static_SeriesConstants.SerieInfosKeys.Episode.Products.price
+  fullName: Static_SeriesConstants.SerieInfosKeys.Episode.Products.price
+  type: Field
+  source:
+    id: price
+    path: ''
+    startLine: 16866
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string price = "price"
+    return:
+      type: System.String
+    content.vb: Public Const price As String = "price"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

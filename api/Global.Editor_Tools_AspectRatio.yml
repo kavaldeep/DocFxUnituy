@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Editor_Tools_AspectRatio
+  commentId: T:Global.Editor_Tools_AspectRatio
+  id: Editor_Tools_AspectRatio
+  parent: Global
+  children:
+  - Global.Editor_Tools_AspectRatio.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: Editor_Tools_AspectRatio
+  nameWithType: Editor_Tools_AspectRatio
+  fullName: Editor_Tools_AspectRatio
+  type: Class
+  source:
+    id: Editor_Tools_AspectRatio
+    path: ''
+    startLine: 9277
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Editor_Tools_AspectRatio : Editor'
+    content.vb: >-
+      Public Class Editor_Tools_AspectRatio
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Editor_Tools_AspectRatio.OnInspectorGUI
+  commentId: M:Global.Editor_Tools_AspectRatio.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: Global.Editor_Tools_AspectRatio
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: Editor_Tools_AspectRatio.OnInspectorGUI()
+  fullName: Editor_Tools_AspectRatio.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 9284
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: Global.Editor_Tools_AspectRatio.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Editor_Tools_AspectRatio.OnInspectorGUI*
+  commentId: Overload:Global.Editor_Tools_AspectRatio.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: Editor_Tools_AspectRatio.OnInspectorGUI
+  fullName: Editor_Tools_AspectRatio.OnInspectorGUI

@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_LandingPageInstantiator
+  commentId: T:Global.Behaviour_LandingPageInstantiator
+  id: Behaviour_LandingPageInstantiator
+  parent: Global
+  children:
+  - Global.Behaviour_LandingPageInstantiator.Instantiate
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_LandingPageInstantiator
+  nameWithType: Behaviour_LandingPageInstantiator
+  fullName: Behaviour_LandingPageInstantiator
+  type: Class
+  source:
+    id: Behaviour_LandingPageInstantiator
+    path: ''
+    startLine: 22635
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_LandingPageInstantiator : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_LandingPageInstantiator
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_LandingPageInstantiator.Instantiate
+  commentId: M:Global.Behaviour_LandingPageInstantiator.Instantiate
+  id: Instantiate
+  parent: Global.Behaviour_LandingPageInstantiator
+  langs:
+  - csharp
+  - vb
+  name: Instantiate()
+  nameWithType: Behaviour_LandingPageInstantiator.Instantiate()
+  fullName: Behaviour_LandingPageInstantiator.Instantiate()
+  type: Method
+  source:
+    id: Instantiate
+    path: ''
+    startLine: 22639
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Instantiate()
+    content.vb: Public Sub Instantiate
+  overload: Global.Behaviour_LandingPageInstantiator.Instantiate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_LandingPageInstantiator.Instantiate*
+  commentId: Overload:Global.Behaviour_LandingPageInstantiator.Instantiate
+  name: Instantiate
+  nameWithType: Behaviour_LandingPageInstantiator.Instantiate
+  fullName: Behaviour_LandingPageInstantiator.Instantiate

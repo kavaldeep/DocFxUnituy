@@ -1,0 +1,1497 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SerieData
+  commentId: T:Global.Behaviour_SerieData
+  id: Behaviour_SerieData
+  parent: Global
+  children:
+  - Global.Behaviour_SerieData.bestTribiewters
+  - Global.Behaviour_SerieData.BottomButtonSeries
+  - Global.Behaviour_SerieData.BottomSeriesBar
+  - Global.Behaviour_SerieData.DisplayLandingPage
+  - Global.Behaviour_SerieData.episode
+  - Global.Behaviour_SerieData.episodeNumber
+  - Global.Behaviour_SerieData.episodes
+  - Global.Behaviour_SerieData.fanarts
+  - Global.Behaviour_SerieData.GetPageFromIndex(System.Int32)
+  - Global.Behaviour_SerieData.Initialize(System.String)
+  - Global.Behaviour_SerieData.lobby
+  - Global.Behaviour_SerieData.logo
+  - Global.Behaviour_SerieData.mainBackgroundColor
+  - Global.Behaviour_SerieData.mainFontColor
+  - Global.Behaviour_SerieData.news
+  - Global.Behaviour_SerieData.onConvertingComplete
+  - Global.Behaviour_SerieData.presentationClip
+  - Global.Behaviour_SerieData.presentationClipFile
+  - Global.Behaviour_SerieData.presentationPic
+  - Global.Behaviour_SerieData.seasonNumber
+  - Global.Behaviour_SerieData.secondaryBackgroundColor
+  - Global.Behaviour_SerieData.secondaryFontColor
+  - Global.Behaviour_SerieData.serieName
+  - Global.Behaviour_SerieData.SerieNewsGenerator
+  - Global.Behaviour_SerieData.shop
+  - Global.Behaviour_SerieData.socialFeed
+  - Global.Behaviour_SerieData.stand
+  - Global.Behaviour_SerieData.summary
+  - Global.Behaviour_SerieData.tags
+  - Global.Behaviour_SerieData.team
+  - Global.Behaviour_SerieData.trailers
+  - Global.Behaviour_SerieData.tribute
+  - Global.Behaviour_SerieData.vaults
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SerieData
+  nameWithType: Behaviour_SerieData
+  fullName: Behaviour_SerieData
+  type: Class
+  source:
+    id: Behaviour_SerieData
+    path: ''
+    startLine: 22964
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_SerieData : Behaviour_Page'
+    content.vb: >-
+      Public Class Behaviour_SerieData
+          Inherits Behaviour_Page
+  inheritance:
+  - System.Object
+  - Global.Behaviour_Page
+  inheritedMembers:
+  - Global.Behaviour_Page.pageManagerDisplayedWith
+  - Global.Behaviour_Page.onShowInstant
+  - Global.Behaviour_Page.onHideInstant
+  - Global.Behaviour_Page.IsPageActive
+  - Global.Behaviour_Page.StartDisplay(UnityAction)
+  - Global.Behaviour_Page.StartHide(UnityAction)
+  - Global.Behaviour_Page.HideInstant
+  - Global.Behaviour_Page.ShowInstant
+  - Global.Behaviour_Page.GoBackToPreviousPage
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_SerieData.serieName
+  commentId: F:Global.Behaviour_SerieData.serieName
+  id: serieName
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: serieName
+  nameWithType: Behaviour_SerieData.serieName
+  fullName: Behaviour_SerieData.serieName
+  type: Field
+  source:
+    id: serieName
+    path: ''
+    startLine: 22972
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string serieName
+    return:
+      type: System.String
+    content.vb: Public serieName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.seasonNumber
+  commentId: F:Global.Behaviour_SerieData.seasonNumber
+  id: seasonNumber
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: seasonNumber
+  nameWithType: Behaviour_SerieData.seasonNumber
+  fullName: Behaviour_SerieData.seasonNumber
+  type: Field
+  source:
+    id: seasonNumber
+    path: ''
+    startLine: 22975
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int seasonNumber
+    return:
+      type: System.Int32
+    content.vb: Public seasonNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.episodeNumber
+  commentId: F:Global.Behaviour_SerieData.episodeNumber
+  id: episodeNumber
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: episodeNumber
+  nameWithType: Behaviour_SerieData.episodeNumber
+  fullName: Behaviour_SerieData.episodeNumber
+  type: Field
+  source:
+    id: episodeNumber
+    path: ''
+    startLine: 22977
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int episodeNumber
+    return:
+      type: System.Int32
+    content.vb: Public episodeNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.summary
+  commentId: F:Global.Behaviour_SerieData.summary
+  id: summary
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: summary
+  nameWithType: Behaviour_SerieData.summary
+  fullName: Behaviour_SerieData.summary
+  type: Field
+  source:
+    id: summary
+    path: ''
+    startLine: 22979
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string summary
+    return:
+      type: System.String
+    content.vb: Public summary As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.presentationClip
+  commentId: F:Global.Behaviour_SerieData.presentationClip
+  id: presentationClip
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: presentationClip
+  nameWithType: Behaviour_SerieData.presentationClip
+  fullName: Behaviour_SerieData.presentationClip
+  type: Field
+  source:
+    id: presentationClip
+    path: ''
+    startLine: 22989
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string presentationClip
+    return:
+      type: System.String
+    content.vb: Public presentationClip As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.presentationClipFile
+  commentId: F:Global.Behaviour_SerieData.presentationClipFile
+  id: presentationClipFile
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: presentationClipFile
+  nameWithType: Behaviour_SerieData.presentationClipFile
+  fullName: Behaviour_SerieData.presentationClipFile
+  type: Field
+  source:
+    id: presentationClipFile
+    path: ''
+    startLine: 22992
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string presentationClipFile
+    return:
+      type: System.String
+    content.vb: Public presentationClipFile As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.presentationPic
+  commentId: F:Global.Behaviour_SerieData.presentationPic
+  id: presentationPic
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: presentationPic
+  nameWithType: Behaviour_SerieData.presentationPic
+  fullName: Behaviour_SerieData.presentationPic
+  type: Field
+  source:
+    id: presentationPic
+    path: ''
+    startLine: 22997
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile presentationPic
+    return:
+      type: Global.ImageFile
+    content.vb: Public presentationPic As ImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.mainBackgroundColor
+  commentId: F:Global.Behaviour_SerieData.mainBackgroundColor
+  id: mainBackgroundColor
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: mainBackgroundColor
+  nameWithType: Behaviour_SerieData.mainBackgroundColor
+  fullName: Behaviour_SerieData.mainBackgroundColor
+  type: Field
+  source:
+    id: mainBackgroundColor
+    path: ''
+    startLine: 23003
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Color mainBackgroundColor
+    return:
+      type: Global.Color
+    content.vb: Public mainBackgroundColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.secondaryBackgroundColor
+  commentId: F:Global.Behaviour_SerieData.secondaryBackgroundColor
+  id: secondaryBackgroundColor
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: secondaryBackgroundColor
+  nameWithType: Behaviour_SerieData.secondaryBackgroundColor
+  fullName: Behaviour_SerieData.secondaryBackgroundColor
+  type: Field
+  source:
+    id: secondaryBackgroundColor
+    path: ''
+    startLine: 23007
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Color secondaryBackgroundColor
+    return:
+      type: Global.Color
+    content.vb: Public secondaryBackgroundColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.mainFontColor
+  commentId: F:Global.Behaviour_SerieData.mainFontColor
+  id: mainFontColor
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: mainFontColor
+  nameWithType: Behaviour_SerieData.mainFontColor
+  fullName: Behaviour_SerieData.mainFontColor
+  type: Field
+  source:
+    id: mainFontColor
+    path: ''
+    startLine: 23010
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Color mainFontColor
+    return:
+      type: Global.Color
+    content.vb: Public mainFontColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.secondaryFontColor
+  commentId: F:Global.Behaviour_SerieData.secondaryFontColor
+  id: secondaryFontColor
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: secondaryFontColor
+  nameWithType: Behaviour_SerieData.secondaryFontColor
+  fullName: Behaviour_SerieData.secondaryFontColor
+  type: Field
+  source:
+    id: secondaryFontColor
+    path: ''
+    startLine: 23013
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Color secondaryFontColor
+    return:
+      type: Global.Color
+    content.vb: Public secondaryFontColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.logo
+  commentId: F:Global.Behaviour_SerieData.logo
+  id: logo
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: logo
+  nameWithType: Behaviour_SerieData.logo
+  fullName: Behaviour_SerieData.logo
+  type: Field
+  source:
+    id: logo
+    path: ''
+    startLine: 23015
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile logo
+    return:
+      type: Global.ImageFile
+    content.vb: Public logo As ImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.trailers
+  commentId: F:Global.Behaviour_SerieData.trailers
+  id: trailers
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: trailers
+  nameWithType: Behaviour_SerieData.trailers
+  fullName: Behaviour_SerieData.trailers
+  type: Field
+  source:
+    id: trailers
+    path: ''
+    startLine: 23016
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<string> trailers
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public trailers As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.tags
+  commentId: F:Global.Behaviour_SerieData.tags
+  id: tags
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: tags
+  nameWithType: Behaviour_SerieData.tags
+  fullName: Behaviour_SerieData.tags
+  type: Field
+  source:
+    id: tags
+    path: ''
+    startLine: 23017
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<string> tags
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public tags As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.team
+  commentId: F:Global.Behaviour_SerieData.team
+  id: team
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: team
+  nameWithType: Behaviour_SerieData.team
+  fullName: Behaviour_SerieData.team
+  type: Field
+  source:
+    id: team
+    path: ''
+    startLine: 23018
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<StaffProfil> team
+    return:
+      type: System.Collections.Generic.List{StaffProfil}
+    content.vb: Public team As List(Of StaffProfil)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.episodes
+  commentId: F:Global.Behaviour_SerieData.episodes
+  id: episodes
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: episodes
+  nameWithType: Behaviour_SerieData.episodes
+  fullName: Behaviour_SerieData.episodes
+  type: Field
+  source:
+    id: episodes
+    path: ''
+    startLine: 23019
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<Episode> episodes
+    return:
+      type: System.Collections.Generic.List{Episode}
+    content.vb: Public episodes As List(Of Episode)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.fanarts
+  commentId: F:Global.Behaviour_SerieData.fanarts
+  id: fanarts
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: fanarts
+  nameWithType: Behaviour_SerieData.fanarts
+  fullName: Behaviour_SerieData.fanarts
+  type: Field
+  source:
+    id: fanarts
+    path: ''
+    startLine: 23020
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<FanArt> fanarts
+    return:
+      type: System.Collections.Generic.List{FanArt}
+    content.vb: Public fanarts As List(Of FanArt)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.bestTribiewters
+  commentId: F:Global.Behaviour_SerieData.bestTribiewters
+  id: bestTribiewters
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: bestTribiewters
+  nameWithType: Behaviour_SerieData.bestTribiewters
+  fullName: Behaviour_SerieData.bestTribiewters
+  type: Field
+  source:
+    id: bestTribiewters
+    path: ''
+    startLine: 23021
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<string> bestTribiewters
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public bestTribiewters As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.vaults
+  commentId: F:Global.Behaviour_SerieData.vaults
+  id: vaults
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: vaults
+  nameWithType: Behaviour_SerieData.vaults
+  fullName: Behaviour_SerieData.vaults
+  type: Field
+  source:
+    id: vaults
+    path: ''
+    startLine: 23024
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vault vaults
+    return:
+      type: Global.Vault
+    content.vb: Public vaults As Vault
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.shop
+  commentId: F:Global.Behaviour_SerieData.shop
+  id: shop
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: shop
+  nameWithType: Behaviour_SerieData.shop
+  fullName: Behaviour_SerieData.shop
+  type: Field
+  source:
+    id: shop
+    path: ''
+    startLine: 23025
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public SerieShop shop
+    return:
+      type: Global.SerieShop
+    content.vb: Public shop As SerieShop
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.news
+  commentId: F:Global.Behaviour_SerieData.news
+  id: news
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: news
+  nameWithType: Behaviour_SerieData.news
+  fullName: Behaviour_SerieData.news
+  type: Field
+  source:
+    id: news
+    path: ''
+    startLine: 23026
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public SerieNews news
+    return:
+      type: Global.SerieNews
+    content.vb: Public news As SerieNews
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.onConvertingComplete
+  commentId: E:Global.Behaviour_SerieData.onConvertingComplete
+  id: onConvertingComplete
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: onConvertingComplete
+  nameWithType: Behaviour_SerieData.onConvertingComplete
+  fullName: Behaviour_SerieData.onConvertingComplete
+  type: Event
+  source:
+    id: onConvertingComplete
+    path: ''
+    startLine: 23029
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public event Behaviour_SerieData.OnEvent onConvertingComplete
+    return:
+      type: Global.Behaviour_SerieData.OnEvent
+    content.vb: Public Event onConvertingComplete As Behaviour_SerieData.OnEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.SerieNewsGenerator
+  commentId: P:Global.Behaviour_SerieData.SerieNewsGenerator
+  id: SerieNewsGenerator
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: SerieNewsGenerator
+  nameWithType: Behaviour_SerieData.SerieNewsGenerator
+  fullName: Behaviour_SerieData.SerieNewsGenerator
+  type: Property
+  source:
+    id: SerieNewsGenerator
+    path: ''
+    startLine: 23032
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieNewsGenerator SerieNewsGenerator { get; }
+    parameters: []
+    return:
+      type: Global.Behaviour_SerieNewsGenerator
+    content.vb: Public ReadOnly Property SerieNewsGenerator As Behaviour_SerieNewsGenerator
+  overload: Global.Behaviour_SerieData.SerieNewsGenerator*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.Behaviour_SerieData.lobby
+  commentId: F:Global.Behaviour_SerieData.lobby
+  id: lobby
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: lobby
+  nameWithType: Behaviour_SerieData.lobby
+  fullName: Behaviour_SerieData.lobby
+  type: Field
+  source:
+    id: lobby
+    path: ''
+    startLine: 23037
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject lobby
+    return:
+      type: Global.GameObject
+    content.vb: Public lobby As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.episode
+  commentId: F:Global.Behaviour_SerieData.episode
+  id: episode
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: episode
+  nameWithType: Behaviour_SerieData.episode
+  fullName: Behaviour_SerieData.episode
+  type: Field
+  source:
+    id: episode
+    path: ''
+    startLine: 23038
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject episode
+    return:
+      type: Global.GameObject
+    content.vb: Public episode As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.tribute
+  commentId: F:Global.Behaviour_SerieData.tribute
+  id: tribute
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: tribute
+  nameWithType: Behaviour_SerieData.tribute
+  fullName: Behaviour_SerieData.tribute
+  type: Field
+  source:
+    id: tribute
+    path: ''
+    startLine: 23039
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject tribute
+    return:
+      type: Global.GameObject
+    content.vb: Public tribute As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.socialFeed
+  commentId: F:Global.Behaviour_SerieData.socialFeed
+  id: socialFeed
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: socialFeed
+  nameWithType: Behaviour_SerieData.socialFeed
+  fullName: Behaviour_SerieData.socialFeed
+  type: Field
+  source:
+    id: socialFeed
+    path: ''
+    startLine: 23040
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject socialFeed
+    return:
+      type: Global.GameObject
+    content.vb: Public socialFeed As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.stand
+  commentId: F:Global.Behaviour_SerieData.stand
+  id: stand
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: stand
+  nameWithType: Behaviour_SerieData.stand
+  fullName: Behaviour_SerieData.stand
+  type: Field
+  source:
+    id: stand
+    path: ''
+    startLine: 23041
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject stand
+    return:
+      type: Global.GameObject
+    content.vb: Public stand As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.GetPageFromIndex(System.Int32)
+  commentId: M:Global.Behaviour_SerieData.GetPageFromIndex(System.Int32)
+  id: GetPageFromIndex(System.Int32)
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: GetPageFromIndex(Int32)
+  nameWithType: Behaviour_SerieData.GetPageFromIndex(Int32)
+  fullName: Behaviour_SerieData.GetPageFromIndex(System.Int32)
+  type: Method
+  source:
+    id: GetPageFromIndex
+    path: ''
+    startLine: 23043
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject GetPageFromIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Global.GameObject
+    content.vb: Public Function GetPageFromIndex(index As Integer) As GameObject
+  overload: Global.Behaviour_SerieData.GetPageFromIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.DisplayLandingPage
+  commentId: M:Global.Behaviour_SerieData.DisplayLandingPage
+  id: DisplayLandingPage
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: DisplayLandingPage()
+  nameWithType: Behaviour_SerieData.DisplayLandingPage()
+  fullName: Behaviour_SerieData.DisplayLandingPage()
+  type: Method
+  source:
+    id: DisplayLandingPage
+    path: ''
+    startLine: 23056
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DisplayLandingPage()
+    content.vb: Public Sub DisplayLandingPage
+  overload: Global.Behaviour_SerieData.DisplayLandingPage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.Initialize(System.String)
+  commentId: M:Global.Behaviour_SerieData.Initialize(System.String)
+  id: Initialize(System.String)
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: Initialize(String)
+  nameWithType: Behaviour_SerieData.Initialize(String)
+  fullName: Behaviour_SerieData.Initialize(System.String)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 23063
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Initialize(string _serieFolderPath)
+    parameters:
+    - id: _serieFolderPath
+      type: System.String
+    content.vb: Public Sub Initialize(_serieFolderPath As String)
+  overload: Global.Behaviour_SerieData.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieData.BottomSeriesBar
+  commentId: P:Global.Behaviour_SerieData.BottomSeriesBar
+  id: BottomSeriesBar
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: BottomSeriesBar
+  nameWithType: Behaviour_SerieData.BottomSeriesBar
+  fullName: Behaviour_SerieData.BottomSeriesBar
+  type: Property
+  source:
+    id: BottomSeriesBar
+    path: ''
+    startLine: 23622
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject BottomSeriesBar { set; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public WriteOnly Property BottomSeriesBar As GameObject
+  overload: Global.Behaviour_SerieData.BottomSeriesBar*
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+- uid: Global.Behaviour_SerieData.BottomButtonSeries
+  commentId: P:Global.Behaviour_SerieData.BottomButtonSeries
+  id: BottomButtonSeries
+  parent: Global.Behaviour_SerieData
+  langs:
+  - csharp
+  - vb
+  name: BottomButtonSeries
+  nameWithType: Behaviour_SerieData.BottomButtonSeries
+  fullName: Behaviour_SerieData.BottomButtonSeries
+  type: Property
+  source:
+    id: BottomButtonSeries
+    path: ''
+    startLine: 23631
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject BottomButtonSeries { set; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public WriteOnly Property BottomButtonSeries As GameObject
+  overload: Global.Behaviour_SerieData.BottomButtonSeries*
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.Behaviour_Page
+  commentId: T:Global.Behaviour_Page
+  name: Behaviour_Page
+  nameWithType: Behaviour_Page
+  fullName: Behaviour_Page
+- uid: Global.Behaviour_Page.pageManagerDisplayedWith
+  commentId: F:Global.Behaviour_Page.pageManagerDisplayedWith
+  parent: Global.Behaviour_Page
+  name: pageManagerDisplayedWith
+  nameWithType: Behaviour_Page.pageManagerDisplayedWith
+  fullName: Behaviour_Page.pageManagerDisplayedWith
+- uid: Global.Behaviour_Page.onShowInstant
+  commentId: F:Global.Behaviour_Page.onShowInstant
+  parent: Global.Behaviour_Page
+  name: onShowInstant
+  nameWithType: Behaviour_Page.onShowInstant
+  fullName: Behaviour_Page.onShowInstant
+- uid: Global.Behaviour_Page.onHideInstant
+  commentId: F:Global.Behaviour_Page.onHideInstant
+  parent: Global.Behaviour_Page
+  name: onHideInstant
+  nameWithType: Behaviour_Page.onHideInstant
+  fullName: Behaviour_Page.onHideInstant
+- uid: Global.Behaviour_Page.IsPageActive
+  commentId: P:Global.Behaviour_Page.IsPageActive
+  parent: Global.Behaviour_Page
+  name: IsPageActive
+  nameWithType: Behaviour_Page.IsPageActive
+  fullName: Behaviour_Page.IsPageActive
+- uid: Global.Behaviour_Page.StartDisplay(UnityAction)
+  commentId: M:Global.Behaviour_Page.StartDisplay(UnityAction)
+  parent: Global.Behaviour_Page
+  isExternal: true
+  name: StartDisplay(UnityAction)
+  nameWithType: Behaviour_Page.StartDisplay(UnityAction)
+  fullName: Behaviour_Page.StartDisplay(UnityAction)
+  spec.csharp:
+  - uid: Global.Behaviour_Page.StartDisplay(UnityAction)
+    name: StartDisplay
+    nameWithType: Behaviour_Page.StartDisplay
+    fullName: Behaviour_Page.StartDisplay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Behaviour_Page.StartDisplay(UnityAction)
+    name: StartDisplay
+    nameWithType: Behaviour_Page.StartDisplay
+    fullName: Behaviour_Page.StartDisplay
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Behaviour_Page.StartHide(UnityAction)
+  commentId: M:Global.Behaviour_Page.StartHide(UnityAction)
+  parent: Global.Behaviour_Page
+  isExternal: true
+  name: StartHide(UnityAction)
+  nameWithType: Behaviour_Page.StartHide(UnityAction)
+  fullName: Behaviour_Page.StartHide(UnityAction)
+  spec.csharp:
+  - uid: Global.Behaviour_Page.StartHide(UnityAction)
+    name: StartHide
+    nameWithType: Behaviour_Page.StartHide
+    fullName: Behaviour_Page.StartHide
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Behaviour_Page.StartHide(UnityAction)
+    name: StartHide
+    nameWithType: Behaviour_Page.StartHide
+    fullName: Behaviour_Page.StartHide
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.UnityAction
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Behaviour_Page.HideInstant
+  commentId: M:Global.Behaviour_Page.HideInstant
+  parent: Global.Behaviour_Page
+  name: HideInstant()
+  nameWithType: Behaviour_Page.HideInstant()
+  fullName: Behaviour_Page.HideInstant()
+  spec.csharp:
+  - uid: Global.Behaviour_Page.HideInstant
+    name: HideInstant
+    nameWithType: Behaviour_Page.HideInstant
+    fullName: Behaviour_Page.HideInstant
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Behaviour_Page.HideInstant
+    name: HideInstant
+    nameWithType: Behaviour_Page.HideInstant
+    fullName: Behaviour_Page.HideInstant
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Behaviour_Page.ShowInstant
+  commentId: M:Global.Behaviour_Page.ShowInstant
+  parent: Global.Behaviour_Page
+  name: ShowInstant()
+  nameWithType: Behaviour_Page.ShowInstant()
+  fullName: Behaviour_Page.ShowInstant()
+  spec.csharp:
+  - uid: Global.Behaviour_Page.ShowInstant
+    name: ShowInstant
+    nameWithType: Behaviour_Page.ShowInstant
+    fullName: Behaviour_Page.ShowInstant
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Behaviour_Page.ShowInstant
+    name: ShowInstant
+    nameWithType: Behaviour_Page.ShowInstant
+    fullName: Behaviour_Page.ShowInstant
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Behaviour_Page.GoBackToPreviousPage
+  commentId: M:Global.Behaviour_Page.GoBackToPreviousPage
+  parent: Global.Behaviour_Page
+  name: GoBackToPreviousPage()
+  nameWithType: Behaviour_Page.GoBackToPreviousPage()
+  fullName: Behaviour_Page.GoBackToPreviousPage()
+  spec.csharp:
+  - uid: Global.Behaviour_Page.GoBackToPreviousPage
+    name: GoBackToPreviousPage
+    nameWithType: Behaviour_Page.GoBackToPreviousPage
+    fullName: Behaviour_Page.GoBackToPreviousPage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.Behaviour_Page.GoBackToPreviousPage
+    name: GoBackToPreviousPage
+    nameWithType: Behaviour_Page.GoBackToPreviousPage
+    fullName: Behaviour_Page.GoBackToPreviousPage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{StaffProfil}
+  commentId: T:System.Collections.Generic.List{StaffProfil}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<StaffProfil>
+  nameWithType: List<StaffProfil>
+  fullName: System.Collections.Generic.List<StaffProfil>
+  nameWithType.vb: List(Of StaffProfil)
+  fullName.vb: System.Collections.Generic.List(Of StaffProfil)
+  name.vb: List(Of StaffProfil)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.StaffProfil
+    name: StaffProfil
+    nameWithType: StaffProfil
+    fullName: StaffProfil
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.StaffProfil
+    name: StaffProfil
+    nameWithType: StaffProfil
+    fullName: StaffProfil
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Episode}
+  commentId: T:System.Collections.Generic.List{Episode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Episode>
+  nameWithType: List<Episode>
+  fullName: System.Collections.Generic.List<Episode>
+  nameWithType.vb: List(Of Episode)
+  fullName.vb: System.Collections.Generic.List(Of Episode)
+  name.vb: List(Of Episode)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Episode
+    name: Episode
+    nameWithType: Episode
+    fullName: Episode
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Episode
+    name: Episode
+    nameWithType: Episode
+    fullName: Episode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{FanArt}
+  commentId: T:System.Collections.Generic.List{FanArt}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<FanArt>
+  nameWithType: List<FanArt>
+  fullName: System.Collections.Generic.List<FanArt>
+  nameWithType.vb: List(Of FanArt)
+  fullName.vb: System.Collections.Generic.List(Of FanArt)
+  name.vb: List(Of FanArt)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.FanArt
+    name: FanArt
+    nameWithType: FanArt
+    fullName: FanArt
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.FanArt
+    name: FanArt
+    nameWithType: FanArt
+    fullName: FanArt
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Vault
+  commentId: T:Global.Vault
+  name: Vault
+  nameWithType: Vault
+  fullName: Vault
+- uid: Global.SerieShop
+  commentId: T:Global.SerieShop
+  name: SerieShop
+  nameWithType: SerieShop
+  fullName: SerieShop
+- uid: Global.SerieNews
+  commentId: T:Global.SerieNews
+  name: SerieNews
+  nameWithType: SerieNews
+  fullName: SerieNews
+- uid: Global.Behaviour_SerieData.OnEvent
+  commentId: T:Global.Behaviour_SerieData.OnEvent
+  name: Behaviour_SerieData.OnEvent
+  nameWithType: Behaviour_SerieData.OnEvent
+  fullName: Behaviour_SerieData.OnEvent
+- uid: Global.Behaviour_SerieData.SerieNewsGenerator*
+  commentId: Overload:Global.Behaviour_SerieData.SerieNewsGenerator
+  name: SerieNewsGenerator
+  nameWithType: Behaviour_SerieData.SerieNewsGenerator
+  fullName: Behaviour_SerieData.SerieNewsGenerator
+- uid: Global.Behaviour_SerieNewsGenerator
+  commentId: T:Global.Behaviour_SerieNewsGenerator
+  name: Behaviour_SerieNewsGenerator
+  nameWithType: Behaviour_SerieNewsGenerator
+  fullName: Behaviour_SerieNewsGenerator
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Behaviour_SerieData.GetPageFromIndex*
+  commentId: Overload:Global.Behaviour_SerieData.GetPageFromIndex
+  name: GetPageFromIndex
+  nameWithType: Behaviour_SerieData.GetPageFromIndex
+  fullName: Behaviour_SerieData.GetPageFromIndex
+- uid: Global.Behaviour_SerieData.DisplayLandingPage*
+  commentId: Overload:Global.Behaviour_SerieData.DisplayLandingPage
+  name: DisplayLandingPage
+  nameWithType: Behaviour_SerieData.DisplayLandingPage
+  fullName: Behaviour_SerieData.DisplayLandingPage
+- uid: Global.Behaviour_SerieData.Initialize*
+  commentId: Overload:Global.Behaviour_SerieData.Initialize
+  name: Initialize
+  nameWithType: Behaviour_SerieData.Initialize
+  fullName: Behaviour_SerieData.Initialize
+- uid: Global.Behaviour_SerieData.BottomSeriesBar*
+  commentId: Overload:Global.Behaviour_SerieData.BottomSeriesBar
+  name: BottomSeriesBar
+  nameWithType: Behaviour_SerieData.BottomSeriesBar
+  fullName: Behaviour_SerieData.BottomSeriesBar
+- uid: Global.Behaviour_SerieData.BottomButtonSeries*
+  commentId: Overload:Global.Behaviour_SerieData.BottomButtonSeries
+  name: BottomButtonSeries
+  nameWithType: Behaviour_SerieData.BottomButtonSeries
+  fullName: Behaviour_SerieData.BottomButtonSeries

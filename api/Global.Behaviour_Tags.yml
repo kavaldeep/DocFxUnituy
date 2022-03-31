@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_Tags
+  commentId: T:Global.Behaviour_Tags
+  id: Behaviour_Tags
+  parent: Global
+  children:
+  - Global.Behaviour_Tags.SerieData
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_Tags
+  nameWithType: Behaviour_Tags
+  fullName: Behaviour_Tags
+  type: Class
+  source:
+    id: Behaviour_Tags
+    path: ''
+    startLine: 23870
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_Tags : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_Tags
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_Tags.SerieData
+  commentId: F:Global.Behaviour_Tags.SerieData
+  id: SerieData
+  parent: Global.Behaviour_Tags
+  langs:
+  - csharp
+  - vb
+  name: SerieData
+  nameWithType: Behaviour_Tags.SerieData
+  fullName: Behaviour_Tags.SerieData
+  type: Field
+  source:
+    id: SerieData
+    path: ''
+    startLine: 23872
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieData SerieData
+    return:
+      type: Global.Behaviour_SerieData
+    content.vb: Public SerieData As Behaviour_SerieData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_SerieData
+  commentId: T:Global.Behaviour_SerieData
+  name: Behaviour_SerieData
+  nameWithType: Behaviour_SerieData
+  fullName: Behaviour_SerieData

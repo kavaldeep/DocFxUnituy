@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.RewardedPic
+  commentId: T:Global.RewardedPic
+  id: RewardedPic
+  parent: Global
+  children:
+  - Global.RewardedPic.pic
+  langs:
+  - csharp
+  - vb
+  name: RewardedPic
+  nameWithType: RewardedPic
+  fullName: RewardedPic
+  type: Struct
+  source:
+    id: RewardedPic
+    path: ''
+    startLine: 19495
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct RewardedPic
+    content.vb: Public Structure RewardedPic
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.RewardedPic.pic
+  commentId: F:Global.RewardedPic.pic
+  id: pic
+  parent: Global.RewardedPic
+  langs:
+  - csharp
+  - vb
+  name: pic
+  nameWithType: RewardedPic.pic
+  fullName: RewardedPic.pic
+  type: Field
+  source:
+    id: pic
+    path: ''
+    startLine: 19497
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Sprite pic
+    return:
+      type: Global.Sprite
+    content.vb: Public pic As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite

@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SerieInformationHolder.accountStruct
+  commentId: T:Global.Behaviour_SerieInformationHolder.accountStruct
+  id: Behaviour_SerieInformationHolder.accountStruct
+  parent: Global
+  children:
+  - Global.Behaviour_SerieInformationHolder.accountStruct._id
+  - Global.Behaviour_SerieInformationHolder.accountStruct.links
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SerieInformationHolder.accountStruct
+  nameWithType: Behaviour_SerieInformationHolder.accountStruct
+  fullName: Behaviour_SerieInformationHolder.accountStruct
+  type: Struct
+  source:
+    id: accountStruct
+    path: ''
+    startLine: 12921
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct accountStruct
+    content.vb: Public Structure accountStruct
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.Behaviour_SerieInformationHolder.accountStruct._id
+  commentId: F:Global.Behaviour_SerieInformationHolder.accountStruct._id
+  id: _id
+  parent: Global.Behaviour_SerieInformationHolder.accountStruct
+  langs:
+  - csharp
+  - vb
+  name: _id
+  nameWithType: Behaviour_SerieInformationHolder.accountStruct._id
+  fullName: Behaviour_SerieInformationHolder.accountStruct._id
+  type: Field
+  source:
+    id: _id
+    path: ''
+    startLine: 12923
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string _id
+    return:
+      type: System.String
+    content.vb: Public _id As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SerieInformationHolder.accountStruct.links
+  commentId: F:Global.Behaviour_SerieInformationHolder.accountStruct.links
+  id: links
+  parent: Global.Behaviour_SerieInformationHolder.accountStruct
+  langs:
+  - csharp
+  - vb
+  name: links
+  nameWithType: Behaviour_SerieInformationHolder.accountStruct.links
+  fullName: Behaviour_SerieInformationHolder.accountStruct.links
+  type: Field
+  source:
+    id: links
+    path: ''
+    startLine: 12924
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_SerieInformationHolder.linksStruct[] links
+    return:
+      type: Global.Behaviour_SerieInformationHolder.linksStruct[]
+    content.vb: Public links As Behaviour_SerieInformationHolder.linksStruct()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_SerieInformationHolder.linksStruct[]
+  isExternal: true
+  name: Behaviour_SerieInformationHolder.linksStruct[]
+  nameWithType: Behaviour_SerieInformationHolder.linksStruct[]
+  fullName: Behaviour_SerieInformationHolder.linksStruct[]
+  nameWithType.vb: Behaviour_SerieInformationHolder.linksStruct()
+  fullName.vb: Behaviour_SerieInformationHolder.linksStruct()
+  name.vb: Behaviour_SerieInformationHolder.linksStruct()
+  spec.csharp:
+  - uid: Global.Behaviour_SerieInformationHolder.linksStruct
+    name: Behaviour_SerieInformationHolder.linksStruct
+    nameWithType: Behaviour_SerieInformationHolder.linksStruct
+    fullName: Behaviour_SerieInformationHolder.linksStruct
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Behaviour_SerieInformationHolder.linksStruct
+    name: Behaviour_SerieInformationHolder.linksStruct
+    nameWithType: Behaviour_SerieInformationHolder.linksStruct
+    fullName: Behaviour_SerieInformationHolder.linksStruct
+  - name: ()
+    nameWithType: ()
+    fullName: ()

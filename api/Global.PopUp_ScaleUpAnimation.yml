@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PopUp_ScaleUpAnimation
+  commentId: T:Global.PopUp_ScaleUpAnimation
+  id: PopUp_ScaleUpAnimation
+  parent: Global
+  children:
+  - Global.PopUp_ScaleUpAnimation.ChoiceMadeAnimation
+  - Global.PopUp_ScaleUpAnimation.CreateThePopUP
+  - Global.PopUp_ScaleUpAnimation.popUpButtonInitializer
+  - Global.PopUp_ScaleUpAnimation.ReturnToContributionChoiceAnimation
+  langs:
+  - csharp
+  - vb
+  name: PopUp_ScaleUpAnimation
+  nameWithType: PopUp_ScaleUpAnimation
+  fullName: PopUp_ScaleUpAnimation
+  type: Class
+  source:
+    id: PopUp_ScaleUpAnimation
+    path: ''
+    startLine: 14011
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PopUp_ScaleUpAnimation : MonoBehaviour'
+    content.vb: >-
+      Public Class PopUp_ScaleUpAnimation
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PopUp_ScaleUpAnimation.popUpButtonInitializer
+  commentId: F:Global.PopUp_ScaleUpAnimation.popUpButtonInitializer
+  id: popUpButtonInitializer
+  parent: Global.PopUp_ScaleUpAnimation
+  langs:
+  - csharp
+  - vb
+  name: popUpButtonInitializer
+  nameWithType: PopUp_ScaleUpAnimation.popUpButtonInitializer
+  fullName: PopUp_ScaleUpAnimation.popUpButtonInitializer
+  type: Field
+  source:
+    id: popUpButtonInitializer
+    path: ''
+    startLine: 14013
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Behaviour_PopUpButtonInitializer popUpButtonInitializer
+    return:
+      type: Global.Behaviour_PopUpButtonInitializer
+    content.vb: Public popUpButtonInitializer As Behaviour_PopUpButtonInitializer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PopUp_ScaleUpAnimation.ChoiceMadeAnimation
+  commentId: M:Global.PopUp_ScaleUpAnimation.ChoiceMadeAnimation
+  id: ChoiceMadeAnimation
+  parent: Global.PopUp_ScaleUpAnimation
+  langs:
+  - csharp
+  - vb
+  name: ChoiceMadeAnimation()
+  nameWithType: PopUp_ScaleUpAnimation.ChoiceMadeAnimation()
+  fullName: PopUp_ScaleUpAnimation.ChoiceMadeAnimation()
+  type: Method
+  source:
+    id: ChoiceMadeAnimation
+    path: ''
+    startLine: 14069
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ChoiceMadeAnimation()
+    content.vb: Public Sub ChoiceMadeAnimation
+  overload: Global.PopUp_ScaleUpAnimation.ChoiceMadeAnimation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PopUp_ScaleUpAnimation.CreateThePopUP
+  commentId: M:Global.PopUp_ScaleUpAnimation.CreateThePopUP
+  id: CreateThePopUP
+  parent: Global.PopUp_ScaleUpAnimation
+  langs:
+  - csharp
+  - vb
+  name: CreateThePopUP()
+  nameWithType: PopUp_ScaleUpAnimation.CreateThePopUP()
+  fullName: PopUp_ScaleUpAnimation.CreateThePopUP()
+  type: Method
+  source:
+    id: CreateThePopUP
+    path: ''
+    startLine: 14082
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void CreateThePopUP()
+    content.vb: Public Sub CreateThePopUP
+  overload: Global.PopUp_ScaleUpAnimation.CreateThePopUP*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PopUp_ScaleUpAnimation.ReturnToContributionChoiceAnimation
+  commentId: M:Global.PopUp_ScaleUpAnimation.ReturnToContributionChoiceAnimation
+  id: ReturnToContributionChoiceAnimation
+  parent: Global.PopUp_ScaleUpAnimation
+  langs:
+  - csharp
+  - vb
+  name: ReturnToContributionChoiceAnimation()
+  nameWithType: PopUp_ScaleUpAnimation.ReturnToContributionChoiceAnimation()
+  fullName: PopUp_ScaleUpAnimation.ReturnToContributionChoiceAnimation()
+  type: Method
+  source:
+    id: ReturnToContributionChoiceAnimation
+    path: ''
+    startLine: 14087
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ReturnToContributionChoiceAnimation()
+    content.vb: Public Sub ReturnToContributionChoiceAnimation
+  overload: Global.PopUp_ScaleUpAnimation.ReturnToContributionChoiceAnimation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_PopUpButtonInitializer
+  commentId: T:Global.Behaviour_PopUpButtonInitializer
+  name: Behaviour_PopUpButtonInitializer
+  nameWithType: Behaviour_PopUpButtonInitializer
+  fullName: Behaviour_PopUpButtonInitializer
+- uid: Global.PopUp_ScaleUpAnimation.ChoiceMadeAnimation*
+  commentId: Overload:Global.PopUp_ScaleUpAnimation.ChoiceMadeAnimation
+  name: ChoiceMadeAnimation
+  nameWithType: PopUp_ScaleUpAnimation.ChoiceMadeAnimation
+  fullName: PopUp_ScaleUpAnimation.ChoiceMadeAnimation
+- uid: Global.PopUp_ScaleUpAnimation.CreateThePopUP*
+  commentId: Overload:Global.PopUp_ScaleUpAnimation.CreateThePopUP
+  name: CreateThePopUP
+  nameWithType: PopUp_ScaleUpAnimation.CreateThePopUP
+  fullName: PopUp_ScaleUpAnimation.CreateThePopUP
+- uid: Global.PopUp_ScaleUpAnimation.ReturnToContributionChoiceAnimation*
+  commentId: Overload:Global.PopUp_ScaleUpAnimation.ReturnToContributionChoiceAnimation
+  name: ReturnToContributionChoiceAnimation
+  nameWithType: PopUp_ScaleUpAnimation.ReturnToContributionChoiceAnimation
+  fullName: PopUp_ScaleUpAnimation.ReturnToContributionChoiceAnimation

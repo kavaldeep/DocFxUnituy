@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Manager_GetFBposts
+  commentId: T:Global.Manager_GetFBposts
+  id: Manager_GetFBposts
+  parent: Global
+  children:
+  - Global.Manager_GetFBposts.postNode
+  - Global.Manager_GetFBposts.RequestPosts
+  langs:
+  - csharp
+  - vb
+  name: Manager_GetFBposts
+  nameWithType: Manager_GetFBposts
+  fullName: Manager_GetFBposts
+  type: Class
+  source:
+    id: Manager_GetFBposts
+    path: ''
+    startLine: 25525
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class Manager_GetFBposts
+    content.vb: Public Class Manager_GetFBposts
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Manager_GetFBposts.postNode
+  commentId: F:Global.Manager_GetFBposts.postNode
+  id: postNode
+  parent: Global.Manager_GetFBposts
+  langs:
+  - csharp
+  - vb
+  name: postNode
+  nameWithType: Manager_GetFBposts.postNode
+  fullName: Manager_GetFBposts.postNode
+  type: Field
+  source:
+    id: postNode
+    path: ''
+    startLine: 25531
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public JSONNode postNode
+    return:
+      type: Global.JSONNode
+    content.vb: Public postNode As JSONNode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Manager_GetFBposts.RequestPosts
+  commentId: M:Global.Manager_GetFBposts.RequestPosts
+  id: RequestPosts
+  parent: Global.Manager_GetFBposts
+  langs:
+  - csharp
+  - vb
+  name: RequestPosts()
+  nameWithType: Manager_GetFBposts.RequestPosts()
+  fullName: Manager_GetFBposts.RequestPosts()
+  type: Method
+  source:
+    id: RequestPosts
+    path: ''
+    startLine: 25534
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void RequestPosts()
+    content.vb: Public Sub RequestPosts
+  overload: Global.Manager_GetFBposts.RequestPosts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.JSONNode
+  isExternal: true
+  name: JSONNode
+  nameWithType: JSONNode
+  fullName: JSONNode
+- uid: Global.Manager_GetFBposts.RequestPosts*
+  commentId: Overload:Global.Manager_GetFBposts.RequestPosts
+  name: RequestPosts
+  nameWithType: Manager_GetFBposts.RequestPosts
+  fullName: Manager_GetFBposts.RequestPosts

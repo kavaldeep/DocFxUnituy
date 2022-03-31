@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Interface_Singleton_Data
+  commentId: T:Global.Interface_Singleton_Data
+  id: Interface_Singleton_Data
+  parent: Global
+  children:
+  - Global.Interface_Singleton_Data.ListObject
+  - Global.Interface_Singleton_Data.NewObject
+  - Global.Interface_Singleton_Data.SetValue(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: Interface_Singleton_Data
+  nameWithType: Interface_Singleton_Data
+  fullName: Interface_Singleton_Data
+  type: Interface
+  source:
+    id: Interface_Singleton_Data
+    path: ''
+    startLine: 17327
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public interface Interface_Singleton_Data
+    content.vb: Public Interface Interface_Singleton_Data
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Global.Interface_Singleton_Data.NewObject
+  commentId: M:Global.Interface_Singleton_Data.NewObject
+  id: NewObject
+  parent: Global.Interface_Singleton_Data
+  langs:
+  - csharp
+  - vb
+  name: NewObject()
+  nameWithType: Interface_Singleton_Data.NewObject()
+  fullName: Interface_Singleton_Data.NewObject()
+  type: Method
+  source:
+    id: NewObject
+    path: ''
+    startLine: 17329
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: void NewObject()
+    content.vb: Sub NewObject
+  overload: Global.Interface_Singleton_Data.NewObject*
+- uid: Global.Interface_Singleton_Data.SetValue(System.String,System.String)
+  commentId: M:Global.Interface_Singleton_Data.SetValue(System.String,System.String)
+  id: SetValue(System.String,System.String)
+  parent: Global.Interface_Singleton_Data
+  langs:
+  - csharp
+  - vb
+  name: SetValue(String, String)
+  nameWithType: Interface_Singleton_Data.SetValue(String, String)
+  fullName: Interface_Singleton_Data.SetValue(System.String, System.String)
+  type: Method
+  source:
+    id: SetValue
+    path: ''
+    startLine: 17330
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: void SetValue(string property, string data)
+    parameters:
+    - id: property
+      type: System.String
+    - id: data
+      type: System.String
+    content.vb: Sub SetValue(property As String, data As String)
+  overload: Global.Interface_Singleton_Data.SetValue*
+- uid: Global.Interface_Singleton_Data.ListObject
+  commentId: P:Global.Interface_Singleton_Data.ListObject
+  id: ListObject
+  parent: Global.Interface_Singleton_Data
+  langs:
+  - csharp
+  - vb
+  name: ListObject
+  nameWithType: Interface_Singleton_Data.ListObject
+  fullName: Interface_Singleton_Data.ListObject
+  type: Property
+  source:
+    id: ListObject
+    path: ''
+    startLine: 17331
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: List<EditorObject> ListObject { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{EditorObject}
+    content.vb: ReadOnly Property ListObject As List(Of EditorObject)
+  overload: Global.Interface_Singleton_Data.ListObject*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Interface_Singleton_Data.NewObject*
+  commentId: Overload:Global.Interface_Singleton_Data.NewObject
+  name: NewObject
+  nameWithType: Interface_Singleton_Data.NewObject
+  fullName: Interface_Singleton_Data.NewObject
+- uid: Global.Interface_Singleton_Data.SetValue*
+  commentId: Overload:Global.Interface_Singleton_Data.SetValue
+  name: SetValue
+  nameWithType: Interface_Singleton_Data.SetValue
+  fullName: Interface_Singleton_Data.SetValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Interface_Singleton_Data.ListObject*
+  commentId: Overload:Global.Interface_Singleton_Data.ListObject
+  name: ListObject
+  nameWithType: Interface_Singleton_Data.ListObject
+  fullName: Interface_Singleton_Data.ListObject
+- uid: System.Collections.Generic.List{EditorObject}
+  commentId: T:System.Collections.Generic.List{EditorObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<EditorObject>
+  nameWithType: List<EditorObject>
+  fullName: System.Collections.Generic.List<EditorObject>
+  nameWithType.vb: List(Of EditorObject)
+  fullName.vb: System.Collections.Generic.List(Of EditorObject)
+  name.vb: List(Of EditorObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.EditorObject
+    name: EditorObject
+    nameWithType: EditorObject
+    fullName: EditorObject
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.EditorObject
+    name: EditorObject
+    nameWithType: EditorObject
+    fullName: EditorObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

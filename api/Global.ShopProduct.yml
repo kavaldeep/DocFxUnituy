@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ShopProduct
+  commentId: T:Global.ShopProduct
+  id: ShopProduct
+  parent: Global
+  children:
+  - Global.ShopProduct.#ctor(System.String,ImageFile,System.Int32,System.Int32,System.Int32,System.String,System.String)
+  - Global.ShopProduct.coinValue
+  - Global.ShopProduct.desc
+  - Global.ShopProduct.gemValue
+  - Global.ShopProduct.image
+  - Global.ShopProduct.name
+  - Global.ShopProduct.ticketValue
+  - Global.ShopProduct.url
+  langs:
+  - csharp
+  - vb
+  name: ShopProduct
+  nameWithType: ShopProduct
+  fullName: ShopProduct
+  type: Class
+  source:
+    id: ShopProduct
+    path: ''
+    startLine: 15921
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class ShopProduct
+    content.vb: >-
+      <Serializable>
+
+      Public Class ShopProduct
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ShopProduct.name
+  commentId: F:Global.ShopProduct.name
+  id: name
+  parent: Global.ShopProduct
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: ShopProduct.name
+  fullName: ShopProduct.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 15924
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShopProduct.image
+  commentId: F:Global.ShopProduct.image
+  id: image
+  parent: Global.ShopProduct
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: ShopProduct.image
+  fullName: ShopProduct.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 15925
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ImageFile image
+    return:
+      type: Global.ImageFile
+    content.vb: Public image As ImageFile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShopProduct.gemValue
+  commentId: F:Global.ShopProduct.gemValue
+  id: gemValue
+  parent: Global.ShopProduct
+  langs:
+  - csharp
+  - vb
+  name: gemValue
+  nameWithType: ShopProduct.gemValue
+  fullName: ShopProduct.gemValue
+  type: Field
+  source:
+    id: gemValue
+    path: ''
+    startLine: 15926
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int gemValue
+    return:
+      type: System.Int32
+    content.vb: Public gemValue As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShopProduct.coinValue
+  commentId: F:Global.ShopProduct.coinValue
+  id: coinValue
+  parent: Global.ShopProduct
+  langs:
+  - csharp
+  - vb
+  name: coinValue
+  nameWithType: ShopProduct.coinValue
+  fullName: ShopProduct.coinValue
+  type: Field
+  source:
+    id: coinValue
+    path: ''
+    startLine: 15927
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int coinValue
+    return:
+      type: System.Int32
+    content.vb: Public coinValue As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShopProduct.ticketValue
+  commentId: F:Global.ShopProduct.ticketValue
+  id: ticketValue
+  parent: Global.ShopProduct
+  langs:
+  - csharp
+  - vb
+  name: ticketValue
+  nameWithType: ShopProduct.ticketValue
+  fullName: ShopProduct.ticketValue
+  type: Field
+  source:
+    id: ticketValue
+    path: ''
+    startLine: 15928
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int ticketValue
+    return:
+      type: System.Int32
+    content.vb: Public ticketValue As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShopProduct.desc
+  commentId: F:Global.ShopProduct.desc
+  id: desc
+  parent: Global.ShopProduct
+  langs:
+  - csharp
+  - vb
+  name: desc
+  nameWithType: ShopProduct.desc
+  fullName: ShopProduct.desc
+  type: Field
+  source:
+    id: desc
+    path: ''
+    startLine: 15929
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string desc
+    return:
+      type: System.String
+    content.vb: Public desc As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShopProduct.url
+  commentId: F:Global.ShopProduct.url
+  id: url
+  parent: Global.ShopProduct
+  langs:
+  - csharp
+  - vb
+  name: url
+  nameWithType: ShopProduct.url
+  fullName: ShopProduct.url
+  type: Field
+  source:
+    id: url
+    path: ''
+    startLine: 15930
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string url
+    return:
+      type: System.String
+    content.vb: Public url As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ShopProduct.#ctor(System.String,ImageFile,System.Int32,System.Int32,System.Int32,System.String,System.String)
+  commentId: M:Global.ShopProduct.#ctor(System.String,ImageFile,System.Int32,System.Int32,System.Int32,System.String,System.String)
+  id: '#ctor(System.String,ImageFile,System.Int32,System.Int32,System.Int32,System.String,System.String)'
+  parent: Global.ShopProduct
+  langs:
+  - csharp
+  - vb
+  name: ShopProduct(String, ImageFile, Int32, Int32, Int32, String, String)
+  nameWithType: ShopProduct.ShopProduct(String, ImageFile, Int32, Int32, Int32, String, String)
+  fullName: ShopProduct.ShopProduct(System.String, ImageFile, System.Int32, System.Int32, System.Int32, System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15933
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ShopProduct(string _name, ImageFile _image, int _coinValue, int _gemValue, int _ticketValue, string _desc, string _url)
+    parameters:
+    - id: _name
+      type: System.String
+    - id: _image
+      type: Global.ImageFile
+    - id: _coinValue
+      type: System.Int32
+    - id: _gemValue
+      type: System.Int32
+    - id: _ticketValue
+      type: System.Int32
+    - id: _desc
+      type: System.String
+    - id: _url
+      type: System.String
+    content.vb: Public Sub New(_name As String, _image As ImageFile, _coinValue As Integer, _gemValue As Integer, _ticketValue As Integer, _desc As String, _url As String)
+  overload: Global.ShopProduct.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.ImageFile
+  commentId: T:Global.ImageFile
+  name: ImageFile
+  nameWithType: ImageFile
+  fullName: ImageFile
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.ShopProduct.#ctor*
+  commentId: Overload:Global.ShopProduct.#ctor
+  name: ShopProduct
+  nameWithType: ShopProduct.ShopProduct
+  fullName: ShopProduct.ShopProduct

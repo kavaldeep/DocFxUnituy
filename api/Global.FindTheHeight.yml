@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.FindTheHeight
+  commentId: T:Global.FindTheHeight
+  id: FindTheHeight
+  parent: Global
+  children:
+  - Global.FindTheHeight._childWanted
+  - Global.FindTheHeight.Check
+  langs:
+  - csharp
+  - vb
+  name: FindTheHeight
+  nameWithType: FindTheHeight
+  fullName: FindTheHeight
+  type: Class
+  source:
+    id: FindTheHeight
+    path: ''
+    startLine: 27353
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class FindTheHeight : MonoBehaviour'
+    content.vb: >-
+      Public Class FindTheHeight
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.FindTheHeight._childWanted
+  commentId: F:Global.FindTheHeight._childWanted
+  id: _childWanted
+  parent: Global.FindTheHeight
+  langs:
+  - csharp
+  - vb
+  name: _childWanted
+  nameWithType: FindTheHeight._childWanted
+  fullName: FindTheHeight._childWanted
+  type: Field
+  source:
+    id: _childWanted
+    path: ''
+    startLine: 27355
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RectTransform _childWanted
+    return:
+      type: Global.RectTransform
+    content.vb: Public _childWanted As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FindTheHeight.Check
+  commentId: M:Global.FindTheHeight.Check
+  id: Check
+  parent: Global.FindTheHeight
+  langs:
+  - csharp
+  - vb
+  name: Check()
+  nameWithType: FindTheHeight.Check()
+  fullName: FindTheHeight.Check()
+  type: Method
+  source:
+    id: Check
+    path: ''
+    startLine: 27357
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Check()
+    content.vb: Public Sub Check
+  overload: Global.FindTheHeight.Check*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.FindTheHeight.Check*
+  commentId: Overload:Global.FindTheHeight.Check
+  name: Check
+  nameWithType: FindTheHeight.Check
+  fullName: FindTheHeight.Check

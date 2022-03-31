@@ -1,0 +1,1690 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MediaPlayerCtrl
+  commentId: T:Global.MediaPlayerCtrl
+  id: MediaPlayerCtrl
+  parent: Global
+  children:
+  - Global.MediaPlayerCtrl.DeleteVideoTexture
+  - Global.MediaPlayerCtrl.DownloadStreamingVideoAndLoad(System.String)
+  - Global.MediaPlayerCtrl.DownloadStreamingVideoAndLoad2(System.String)
+  - Global.MediaPlayerCtrl.GetCurrentSeekPercent
+  - Global.MediaPlayerCtrl.GetCurrentState
+  - Global.MediaPlayerCtrl.GetDuration
+  - Global.MediaPlayerCtrl.GetSeekBarValue
+  - Global.MediaPlayerCtrl.GetSeekPosition
+  - Global.MediaPlayerCtrl.GetSoundTrack
+  - Global.MediaPlayerCtrl.GetVideoHeight
+  - Global.MediaPlayerCtrl.GetVideoTexture
+  - Global.MediaPlayerCtrl.GetVideoWidth
+  - Global.MediaPlayerCtrl.Load(System.String)
+  - Global.MediaPlayerCtrl.m_bAutoPlay
+  - Global.MediaPlayerCtrl.m_bFullScreen
+  - Global.MediaPlayerCtrl.m_bLoop
+  - Global.MediaPlayerCtrl.m_bPC_FastMode
+  - Global.MediaPlayerCtrl.m_bSupportRockchip
+  - Global.MediaPlayerCtrl.m_eventOnEnd
+  - Global.MediaPlayerCtrl.m_eventOnReady
+  - Global.MediaPlayerCtrl.m_eventOnResize
+  - Global.MediaPlayerCtrl.m_eventOnVideoBuffering
+  - Global.MediaPlayerCtrl.m_eventOnVideoBufferingEnd
+  - Global.MediaPlayerCtrl.m_eventOnVideoError
+  - Global.MediaPlayerCtrl.m_eventOnVideoFirstFrameReady
+  - Global.MediaPlayerCtrl.m_objResize
+  - Global.MediaPlayerCtrl.m_ScaleValue
+  - Global.MediaPlayerCtrl.m_shaderYUV
+  - Global.MediaPlayerCtrl.m_strFileName
+  - Global.MediaPlayerCtrl.m_TargetMaterial
+  - Global.MediaPlayerCtrl.OnEnd
+  - Global.MediaPlayerCtrl.OnReady
+  - Global.MediaPlayerCtrl.OnResize
+  - Global.MediaPlayerCtrl.OnVideoBuffering
+  - Global.MediaPlayerCtrl.OnVideoBufferingEnd
+  - Global.MediaPlayerCtrl.OnVideoError
+  - Global.MediaPlayerCtrl.OnVideoFirstFrameReady
+  - Global.MediaPlayerCtrl.Pause
+  - Global.MediaPlayerCtrl.Play
+  - Global.MediaPlayerCtrl.Resize
+  - Global.MediaPlayerCtrl.ResizeTexture
+  - Global.MediaPlayerCtrl.SeekTo(System.Int32)
+  - Global.MediaPlayerCtrl.SelectSoundTrack(System.Int32)
+  - Global.MediaPlayerCtrl.SetSeekBarValue(System.Single)
+  - Global.MediaPlayerCtrl.SetSpeed(System.Single)
+  - Global.MediaPlayerCtrl.SetVolume(System.Single)
+  - Global.MediaPlayerCtrl.Stop
+  - Global.MediaPlayerCtrl.UnLoad
+  langs:
+  - csharp
+  - vb
+  name: MediaPlayerCtrl
+  nameWithType: MediaPlayerCtrl
+  fullName: MediaPlayerCtrl
+  type: Class
+  source:
+    id: MediaPlayerCtrl
+    path: ''
+    startLine: 5732
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MediaPlayerCtrl : MonoBehaviour'
+    content.vb: >-
+      Public Class MediaPlayerCtrl
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MediaPlayerCtrl.m_strFileName
+  commentId: F:Global.MediaPlayerCtrl.m_strFileName
+  id: m_strFileName
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_strFileName
+  nameWithType: MediaPlayerCtrl.m_strFileName
+  fullName: MediaPlayerCtrl.m_strFileName
+  type: Field
+  source:
+    id: m_strFileName
+    path: ''
+    startLine: 5738
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string m_strFileName
+    return:
+      type: System.String
+    content.vb: Public m_strFileName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_TargetMaterial
+  commentId: F:Global.MediaPlayerCtrl.m_TargetMaterial
+  id: m_TargetMaterial
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_TargetMaterial
+  nameWithType: MediaPlayerCtrl.m_TargetMaterial
+  fullName: MediaPlayerCtrl.m_TargetMaterial
+  type: Field
+  source:
+    id: m_TargetMaterial
+    path: ''
+    startLine: 5739
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject[] m_TargetMaterial
+    return:
+      type: Global.GameObject[]
+    content.vb: Public m_TargetMaterial As GameObject()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_bFullScreen
+  commentId: F:Global.MediaPlayerCtrl.m_bFullScreen
+  id: m_bFullScreen
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_bFullScreen
+  nameWithType: MediaPlayerCtrl.m_bFullScreen
+  fullName: MediaPlayerCtrl.m_bFullScreen
+  type: Field
+  source:
+    id: m_bFullScreen
+    path: ''
+    startLine: 5752
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool m_bFullScreen
+    return:
+      type: System.Boolean
+    content.vb: Public m_bFullScreen As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_bSupportRockchip
+  commentId: F:Global.MediaPlayerCtrl.m_bSupportRockchip
+  id: m_bSupportRockchip
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_bSupportRockchip
+  nameWithType: MediaPlayerCtrl.m_bSupportRockchip
+  fullName: MediaPlayerCtrl.m_bSupportRockchip
+  type: Field
+  source:
+    id: m_bSupportRockchip
+    path: ''
+    startLine: 5753
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool m_bSupportRockchip
+    return:
+      type: System.Boolean
+    content.vb: Public m_bSupportRockchip As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_bPC_FastMode
+  commentId: F:Global.MediaPlayerCtrl.m_bPC_FastMode
+  id: m_bPC_FastMode
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_bPC_FastMode
+  nameWithType: MediaPlayerCtrl.m_bPC_FastMode
+  fullName: MediaPlayerCtrl.m_bPC_FastMode
+  type: Field
+  source:
+    id: m_bPC_FastMode
+    path: ''
+    startLine: 5757
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool m_bPC_FastMode
+    return:
+      type: System.Boolean
+    content.vb: Public m_bPC_FastMode As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.OnResize
+  commentId: F:Global.MediaPlayerCtrl.OnResize
+  id: OnResize
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: OnResize
+  nameWithType: MediaPlayerCtrl.OnResize
+  fullName: MediaPlayerCtrl.OnResize
+  type: Field
+  source:
+    id: OnResize
+    path: ''
+    startLine: 5771
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl.VideoResize OnResize
+    return:
+      type: Global.MediaPlayerCtrl.VideoResize
+    content.vb: Public OnResize As MediaPlayerCtrl.VideoResize
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.OnReady
+  commentId: F:Global.MediaPlayerCtrl.OnReady
+  id: OnReady
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: OnReady
+  nameWithType: MediaPlayerCtrl.OnReady
+  fullName: MediaPlayerCtrl.OnReady
+  type: Field
+  source:
+    id: OnReady
+    path: ''
+    startLine: 5772
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl.VideoReady OnReady
+    return:
+      type: Global.MediaPlayerCtrl.VideoReady
+    content.vb: Public OnReady As MediaPlayerCtrl.VideoReady
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.OnEnd
+  commentId: F:Global.MediaPlayerCtrl.OnEnd
+  id: OnEnd
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: OnEnd
+  nameWithType: MediaPlayerCtrl.OnEnd
+  fullName: MediaPlayerCtrl.OnEnd
+  type: Field
+  source:
+    id: OnEnd
+    path: ''
+    startLine: 5773
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl.VideoEnd OnEnd
+    return:
+      type: Global.MediaPlayerCtrl.VideoEnd
+    content.vb: Public OnEnd As MediaPlayerCtrl.VideoEnd
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.OnVideoError
+  commentId: F:Global.MediaPlayerCtrl.OnVideoError
+  id: OnVideoError
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: OnVideoError
+  nameWithType: MediaPlayerCtrl.OnVideoError
+  fullName: MediaPlayerCtrl.OnVideoError
+  type: Field
+  source:
+    id: OnVideoError
+    path: ''
+    startLine: 5774
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl.VideoError OnVideoError
+    return:
+      type: Global.MediaPlayerCtrl.VideoError
+    content.vb: Public OnVideoError As MediaPlayerCtrl.VideoError
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.OnVideoFirstFrameReady
+  commentId: F:Global.MediaPlayerCtrl.OnVideoFirstFrameReady
+  id: OnVideoFirstFrameReady
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: OnVideoFirstFrameReady
+  nameWithType: MediaPlayerCtrl.OnVideoFirstFrameReady
+  fullName: MediaPlayerCtrl.OnVideoFirstFrameReady
+  type: Field
+  source:
+    id: OnVideoFirstFrameReady
+    path: ''
+    startLine: 5775
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl.VideoFirstFrameReady OnVideoFirstFrameReady
+    return:
+      type: Global.MediaPlayerCtrl.VideoFirstFrameReady
+    content.vb: Public OnVideoFirstFrameReady As MediaPlayerCtrl.VideoFirstFrameReady
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.OnVideoBuffering
+  commentId: F:Global.MediaPlayerCtrl.OnVideoBuffering
+  id: OnVideoBuffering
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: OnVideoBuffering
+  nameWithType: MediaPlayerCtrl.OnVideoBuffering
+  fullName: MediaPlayerCtrl.OnVideoBuffering
+  type: Field
+  source:
+    id: OnVideoBuffering
+    path: ''
+    startLine: 5776
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl.VideoBuffering OnVideoBuffering
+    return:
+      type: Global.MediaPlayerCtrl.VideoBuffering
+    content.vb: Public OnVideoBuffering As MediaPlayerCtrl.VideoBuffering
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.OnVideoBufferingEnd
+  commentId: F:Global.MediaPlayerCtrl.OnVideoBufferingEnd
+  id: OnVideoBufferingEnd
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: OnVideoBufferingEnd
+  nameWithType: MediaPlayerCtrl.OnVideoBufferingEnd
+  fullName: MediaPlayerCtrl.OnVideoBufferingEnd
+  type: Field
+  source:
+    id: OnVideoBufferingEnd
+    path: ''
+    startLine: 5777
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl.VideoBuffering OnVideoBufferingEnd
+    return:
+      type: Global.MediaPlayerCtrl.VideoBuffering
+    content.vb: Public OnVideoBufferingEnd As MediaPlayerCtrl.VideoBuffering
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_shaderYUV
+  commentId: F:Global.MediaPlayerCtrl.m_shaderYUV
+  id: m_shaderYUV
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_shaderYUV
+  nameWithType: MediaPlayerCtrl.m_shaderYUV
+  fullName: MediaPlayerCtrl.m_shaderYUV
+  type: Field
+  source:
+    id: m_shaderYUV
+    path: ''
+    startLine: 5784
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Shader m_shaderYUV
+    return:
+      type: Global.Shader
+    content.vb: Public m_shaderYUV As Shader
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_ScaleValue
+  commentId: F:Global.MediaPlayerCtrl.m_ScaleValue
+  id: m_ScaleValue
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_ScaleValue
+  nameWithType: MediaPlayerCtrl.m_ScaleValue
+  fullName: MediaPlayerCtrl.m_ScaleValue
+  type: Field
+  source:
+    id: m_ScaleValue
+    path: ''
+    startLine: 5849
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl.MEDIA_SCALE m_ScaleValue
+    return:
+      type: Global.MediaPlayerCtrl.MEDIA_SCALE
+    content.vb: Public m_ScaleValue As MediaPlayerCtrl.MEDIA_SCALE
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_objResize
+  commentId: F:Global.MediaPlayerCtrl.m_objResize
+  id: m_objResize
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_objResize
+  nameWithType: MediaPlayerCtrl.m_objResize
+  fullName: MediaPlayerCtrl.m_objResize
+  type: Field
+  source:
+    id: m_objResize
+    path: ''
+    startLine: 5850
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject[] m_objResize
+    return:
+      type: Global.GameObject[]
+    content.vb: Public m_objResize As GameObject()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_bLoop
+  commentId: F:Global.MediaPlayerCtrl.m_bLoop
+  id: m_bLoop
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_bLoop
+  nameWithType: MediaPlayerCtrl.m_bLoop
+  fullName: MediaPlayerCtrl.m_bLoop
+  type: Field
+  source:
+    id: m_bLoop
+    path: ''
+    startLine: 5851
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool m_bLoop
+    return:
+      type: System.Boolean
+    content.vb: Public m_bLoop As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_bAutoPlay
+  commentId: F:Global.MediaPlayerCtrl.m_bAutoPlay
+  id: m_bAutoPlay
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_bAutoPlay
+  nameWithType: MediaPlayerCtrl.m_bAutoPlay
+  fullName: MediaPlayerCtrl.m_bAutoPlay
+  type: Field
+  source:
+    id: m_bAutoPlay
+    path: ''
+    startLine: 5852
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool m_bAutoPlay
+    return:
+      type: System.Boolean
+    content.vb: Public m_bAutoPlay As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_eventOnResize
+  commentId: F:Global.MediaPlayerCtrl.m_eventOnResize
+  id: m_eventOnResize
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_eventOnResize
+  nameWithType: MediaPlayerCtrl.m_eventOnResize
+  fullName: MediaPlayerCtrl.m_eventOnResize
+  type: Field
+  source:
+    id: m_eventOnResize
+    path: ''
+    startLine: 5854
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent m_eventOnResize
+    return:
+      type: Global.UnityEvent
+    content.vb: Public m_eventOnResize As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_eventOnReady
+  commentId: F:Global.MediaPlayerCtrl.m_eventOnReady
+  id: m_eventOnReady
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_eventOnReady
+  nameWithType: MediaPlayerCtrl.m_eventOnReady
+  fullName: MediaPlayerCtrl.m_eventOnReady
+  type: Field
+  source:
+    id: m_eventOnReady
+    path: ''
+    startLine: 5855
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent m_eventOnReady
+    return:
+      type: Global.UnityEvent
+    content.vb: Public m_eventOnReady As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_eventOnEnd
+  commentId: F:Global.MediaPlayerCtrl.m_eventOnEnd
+  id: m_eventOnEnd
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_eventOnEnd
+  nameWithType: MediaPlayerCtrl.m_eventOnEnd
+  fullName: MediaPlayerCtrl.m_eventOnEnd
+  type: Field
+  source:
+    id: m_eventOnEnd
+    path: ''
+    startLine: 5856
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent m_eventOnEnd
+    return:
+      type: Global.UnityEvent
+    content.vb: Public m_eventOnEnd As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_eventOnVideoError
+  commentId: F:Global.MediaPlayerCtrl.m_eventOnVideoError
+  id: m_eventOnVideoError
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_eventOnVideoError
+  nameWithType: MediaPlayerCtrl.m_eventOnVideoError
+  fullName: MediaPlayerCtrl.m_eventOnVideoError
+  type: Field
+  source:
+    id: m_eventOnVideoError
+    path: ''
+    startLine: 5857
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent m_eventOnVideoError
+    return:
+      type: Global.UnityEvent
+    content.vb: Public m_eventOnVideoError As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_eventOnVideoFirstFrameReady
+  commentId: F:Global.MediaPlayerCtrl.m_eventOnVideoFirstFrameReady
+  id: m_eventOnVideoFirstFrameReady
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_eventOnVideoFirstFrameReady
+  nameWithType: MediaPlayerCtrl.m_eventOnVideoFirstFrameReady
+  fullName: MediaPlayerCtrl.m_eventOnVideoFirstFrameReady
+  type: Field
+  source:
+    id: m_eventOnVideoFirstFrameReady
+    path: ''
+    startLine: 5858
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent m_eventOnVideoFirstFrameReady
+    return:
+      type: Global.UnityEvent
+    content.vb: Public m_eventOnVideoFirstFrameReady As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_eventOnVideoBuffering
+  commentId: F:Global.MediaPlayerCtrl.m_eventOnVideoBuffering
+  id: m_eventOnVideoBuffering
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_eventOnVideoBuffering
+  nameWithType: MediaPlayerCtrl.m_eventOnVideoBuffering
+  fullName: MediaPlayerCtrl.m_eventOnVideoBuffering
+  type: Field
+  source:
+    id: m_eventOnVideoBuffering
+    path: ''
+    startLine: 5859
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent m_eventOnVideoBuffering
+    return:
+      type: Global.UnityEvent
+    content.vb: Public m_eventOnVideoBuffering As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.m_eventOnVideoBufferingEnd
+  commentId: F:Global.MediaPlayerCtrl.m_eventOnVideoBufferingEnd
+  id: m_eventOnVideoBufferingEnd
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: m_eventOnVideoBufferingEnd
+  nameWithType: MediaPlayerCtrl.m_eventOnVideoBufferingEnd
+  fullName: MediaPlayerCtrl.m_eventOnVideoBufferingEnd
+  type: Field
+  source:
+    id: m_eventOnVideoBufferingEnd
+    path: ''
+    startLine: 5860
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent m_eventOnVideoBufferingEnd
+    return:
+      type: Global.UnityEvent
+    content.vb: Public m_eventOnVideoBufferingEnd As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.DeleteVideoTexture
+  commentId: M:Global.MediaPlayerCtrl.DeleteVideoTexture
+  id: DeleteVideoTexture
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: DeleteVideoTexture()
+  nameWithType: MediaPlayerCtrl.DeleteVideoTexture()
+  fullName: MediaPlayerCtrl.DeleteVideoTexture()
+  type: Method
+  source:
+    id: DeleteVideoTexture
+    path: ''
+    startLine: 6278
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DeleteVideoTexture()
+    content.vb: Public Sub DeleteVideoTexture
+  overload: Global.MediaPlayerCtrl.DeleteVideoTexture*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.ResizeTexture
+  commentId: M:Global.MediaPlayerCtrl.ResizeTexture
+  id: ResizeTexture
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: ResizeTexture()
+  nameWithType: MediaPlayerCtrl.ResizeTexture()
+  fullName: MediaPlayerCtrl.ResizeTexture()
+  type: Method
+  source:
+    id: ResizeTexture
+    path: ''
+    startLine: 6296
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ResizeTexture()
+    content.vb: Public Sub ResizeTexture
+  overload: Global.MediaPlayerCtrl.ResizeTexture*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.Resize
+  commentId: M:Global.MediaPlayerCtrl.Resize
+  id: Resize
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: Resize()
+  nameWithType: MediaPlayerCtrl.Resize()
+  fullName: MediaPlayerCtrl.Resize()
+  type: Method
+  source:
+    id: Resize
+    path: ''
+    startLine: 6360
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Resize()
+    content.vb: Public Sub Resize
+  overload: Global.MediaPlayerCtrl.Resize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.GetCurrentState
+  commentId: M:Global.MediaPlayerCtrl.GetCurrentState
+  id: GetCurrentState
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentState()
+  nameWithType: MediaPlayerCtrl.GetCurrentState()
+  fullName: MediaPlayerCtrl.GetCurrentState()
+  type: Method
+  source:
+    id: GetCurrentState
+    path: ''
+    startLine: 6634
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MediaPlayerCtrl.MEDIAPLAYER_STATE GetCurrentState()
+    return:
+      type: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+    content.vb: Public Function GetCurrentState As MediaPlayerCtrl.MEDIAPLAYER_STATE
+  overload: Global.MediaPlayerCtrl.GetCurrentState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.GetVideoTexture
+  commentId: M:Global.MediaPlayerCtrl.GetVideoTexture
+  id: GetVideoTexture
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: GetVideoTexture()
+  nameWithType: MediaPlayerCtrl.GetVideoTexture()
+  fullName: MediaPlayerCtrl.GetVideoTexture()
+  type: Method
+  source:
+    id: GetVideoTexture
+    path: ''
+    startLine: 6639
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture2D GetVideoTexture()
+    return:
+      type: Global.Texture2D
+    content.vb: Public Function GetVideoTexture As Texture2D
+  overload: Global.MediaPlayerCtrl.GetVideoTexture*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.Play
+  commentId: M:Global.MediaPlayerCtrl.Play
+  id: Play
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: Play()
+  nameWithType: MediaPlayerCtrl.Play()
+  fullName: MediaPlayerCtrl.Play()
+  type: Method
+  source:
+    id: Play
+    path: ''
+    startLine: 6651
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Play()
+    content.vb: Public Sub Play
+  overload: Global.MediaPlayerCtrl.Play*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.Stop
+  commentId: M:Global.MediaPlayerCtrl.Stop
+  id: Stop
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: MediaPlayerCtrl.Stop()
+  fullName: MediaPlayerCtrl.Stop()
+  type: Method
+  source:
+    id: Stop
+    path: ''
+    startLine: 6687
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub Stop
+  overload: Global.MediaPlayerCtrl.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.Pause
+  commentId: M:Global.MediaPlayerCtrl.Pause
+  id: Pause
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: Pause()
+  nameWithType: MediaPlayerCtrl.Pause()
+  fullName: MediaPlayerCtrl.Pause()
+  type: Method
+  source:
+    id: Pause
+    path: ''
+    startLine: 6706
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Pause()
+    content.vb: Public Sub Pause
+  overload: Global.MediaPlayerCtrl.Pause*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.Load(System.String)
+  commentId: M:Global.MediaPlayerCtrl.Load(System.String)
+  id: Load(System.String)
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: Load(String)
+  nameWithType: MediaPlayerCtrl.Load(String)
+  fullName: MediaPlayerCtrl.Load(System.String)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 6720
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Load(string strFileName)
+    parameters:
+    - id: strFileName
+      type: System.String
+    content.vb: Public Sub Load(strFileName As String)
+  overload: Global.MediaPlayerCtrl.Load*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.SetVolume(System.Single)
+  commentId: M:Global.MediaPlayerCtrl.SetVolume(System.Single)
+  id: SetVolume(System.Single)
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: SetVolume(Single)
+  nameWithType: MediaPlayerCtrl.SetVolume(Single)
+  fullName: MediaPlayerCtrl.SetVolume(System.Single)
+  type: Method
+  source:
+    id: SetVolume
+    path: ''
+    startLine: 6754
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetVolume(float fVolume)
+    parameters:
+    - id: fVolume
+      type: System.Single
+    content.vb: Public Sub SetVolume(fVolume As Single)
+  overload: Global.MediaPlayerCtrl.SetVolume*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.GetSeekPosition
+  commentId: M:Global.MediaPlayerCtrl.GetSeekPosition
+  id: GetSeekPosition
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: GetSeekPosition()
+  nameWithType: MediaPlayerCtrl.GetSeekPosition()
+  fullName: MediaPlayerCtrl.GetSeekPosition()
+  type: Method
+  source:
+    id: GetSeekPosition
+    path: ''
+    startLine: 6764
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int GetSeekPosition()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetSeekPosition As Integer
+  overload: Global.MediaPlayerCtrl.GetSeekPosition*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.SeekTo(System.Int32)
+  commentId: M:Global.MediaPlayerCtrl.SeekTo(System.Int32)
+  id: SeekTo(System.Int32)
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: SeekTo(Int32)
+  nameWithType: MediaPlayerCtrl.SeekTo(Int32)
+  fullName: MediaPlayerCtrl.SeekTo(System.Int32)
+  type: Method
+  source:
+    id: SeekTo
+    path: ''
+    startLine: 6773
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SeekTo(int iSeek)
+    parameters:
+    - id: iSeek
+      type: System.Int32
+    content.vb: Public Sub SeekTo(iSeek As Integer)
+  overload: Global.MediaPlayerCtrl.SeekTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.SetSpeed(System.Single)
+  commentId: M:Global.MediaPlayerCtrl.SetSpeed(System.Single)
+  id: SetSpeed(System.Single)
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: SetSpeed(Single)
+  nameWithType: MediaPlayerCtrl.SetSpeed(Single)
+  fullName: MediaPlayerCtrl.SetSpeed(System.Single)
+  type: Method
+  source:
+    id: SetSpeed
+    path: ''
+    startLine: 6792
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetSpeed(float fSpeed)
+    parameters:
+    - id: fSpeed
+      type: System.Single
+    content.vb: Public Sub SetSpeed(fSpeed As Single)
+  overload: Global.MediaPlayerCtrl.SetSpeed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.GetDuration
+  commentId: M:Global.MediaPlayerCtrl.GetDuration
+  id: GetDuration
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: GetDuration()
+  nameWithType: MediaPlayerCtrl.GetDuration()
+  fullName: MediaPlayerCtrl.GetDuration()
+  type: Method
+  source:
+    id: GetDuration
+    path: ''
+    startLine: 6805
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int GetDuration()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetDuration As Integer
+  overload: Global.MediaPlayerCtrl.GetDuration*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.GetSeekBarValue
+  commentId: M:Global.MediaPlayerCtrl.GetSeekBarValue
+  id: GetSeekBarValue
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: GetSeekBarValue()
+  nameWithType: MediaPlayerCtrl.GetSeekBarValue()
+  fullName: MediaPlayerCtrl.GetSeekBarValue()
+  type: Method
+  source:
+    id: GetSeekBarValue
+    path: ''
+    startLine: 6813
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float GetSeekBarValue()
+    return:
+      type: System.Single
+    content.vb: Public Function GetSeekBarValue As Single
+  overload: Global.MediaPlayerCtrl.GetSeekBarValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.SetSeekBarValue(System.Single)
+  commentId: M:Global.MediaPlayerCtrl.SetSeekBarValue(System.Single)
+  id: SetSeekBarValue(System.Single)
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: SetSeekBarValue(Single)
+  nameWithType: MediaPlayerCtrl.SetSeekBarValue(Single)
+  fullName: MediaPlayerCtrl.SetSeekBarValue(System.Single)
+  type: Method
+  source:
+    id: SetSeekBarValue
+    path: ''
+    startLine: 6826
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetSeekBarValue(float fValue)
+    parameters:
+    - id: fValue
+      type: System.Single
+    content.vb: Public Sub SetSeekBarValue(fValue As Single)
+  overload: Global.MediaPlayerCtrl.SetSeekBarValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.GetCurrentSeekPercent
+  commentId: M:Global.MediaPlayerCtrl.GetCurrentSeekPercent
+  id: GetCurrentSeekPercent
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentSeekPercent()
+  nameWithType: MediaPlayerCtrl.GetCurrentSeekPercent()
+  fullName: MediaPlayerCtrl.GetCurrentSeekPercent()
+  type: Method
+  source:
+    id: GetCurrentSeekPercent
+    path: ''
+    startLine: 6846
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int GetCurrentSeekPercent()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetCurrentSeekPercent As Integer
+  overload: Global.MediaPlayerCtrl.GetCurrentSeekPercent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.GetVideoWidth
+  commentId: M:Global.MediaPlayerCtrl.GetVideoWidth
+  id: GetVideoWidth
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: GetVideoWidth()
+  nameWithType: MediaPlayerCtrl.GetVideoWidth()
+  fullName: MediaPlayerCtrl.GetVideoWidth()
+  type: Method
+  source:
+    id: GetVideoWidth
+    path: ''
+    startLine: 6854
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int GetVideoWidth()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetVideoWidth As Integer
+  overload: Global.MediaPlayerCtrl.GetVideoWidth*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.GetVideoHeight
+  commentId: M:Global.MediaPlayerCtrl.GetVideoHeight
+  id: GetVideoHeight
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: GetVideoHeight()
+  nameWithType: MediaPlayerCtrl.GetVideoHeight()
+  fullName: MediaPlayerCtrl.GetVideoHeight()
+  type: Method
+  source:
+    id: GetVideoHeight
+    path: ''
+    startLine: 6859
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int GetVideoHeight()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetVideoHeight As Integer
+  overload: Global.MediaPlayerCtrl.GetVideoHeight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.UnLoad
+  commentId: M:Global.MediaPlayerCtrl.UnLoad
+  id: UnLoad
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: UnLoad()
+  nameWithType: MediaPlayerCtrl.UnLoad()
+  fullName: MediaPlayerCtrl.UnLoad()
+  type: Method
+  source:
+    id: UnLoad
+    path: ''
+    startLine: 6864
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UnLoad()
+    content.vb: Public Sub UnLoad
+  overload: Global.MediaPlayerCtrl.UnLoad*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.SelectSoundTrack(System.Int32)
+  commentId: M:Global.MediaPlayerCtrl.SelectSoundTrack(System.Int32)
+  id: SelectSoundTrack(System.Int32)
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: SelectSoundTrack(Int32)
+  nameWithType: MediaPlayerCtrl.SelectSoundTrack(Int32)
+  fullName: MediaPlayerCtrl.SelectSoundTrack(System.Int32)
+  type: Method
+  source:
+    id: SelectSoundTrack
+    path: ''
+    startLine: 6883
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SelectSoundTrack(int iIndex)
+    parameters:
+    - id: iIndex
+      type: System.Int32
+    content.vb: Public Sub SelectSoundTrack(iIndex As Integer)
+  overload: Global.MediaPlayerCtrl.SelectSoundTrack*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.GetSoundTrack
+  commentId: M:Global.MediaPlayerCtrl.GetSoundTrack
+  id: GetSoundTrack
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: GetSoundTrack()
+  nameWithType: MediaPlayerCtrl.GetSoundTrack()
+  fullName: MediaPlayerCtrl.GetSoundTrack()
+  type: Method
+  source:
+    id: GetSoundTrack
+    path: ''
+    startLine: 6888
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int[] GetSoundTrack()
+    return:
+      type: System.Int32[]
+    content.vb: Public Function GetSoundTrack As Integer()
+  overload: Global.MediaPlayerCtrl.GetSoundTrack*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.DownloadStreamingVideoAndLoad(System.String)
+  commentId: M:Global.MediaPlayerCtrl.DownloadStreamingVideoAndLoad(System.String)
+  id: DownloadStreamingVideoAndLoad(System.String)
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: DownloadStreamingVideoAndLoad(String)
+  nameWithType: MediaPlayerCtrl.DownloadStreamingVideoAndLoad(String)
+  fullName: MediaPlayerCtrl.DownloadStreamingVideoAndLoad(System.String)
+  type: Method
+  source:
+    id: DownloadStreamingVideoAndLoad
+    path: ''
+    startLine: 8129
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public IEnumerator DownloadStreamingVideoAndLoad(string strURL)
+    parameters:
+    - id: strURL
+      type: System.String
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Function DownloadStreamingVideoAndLoad(strURL As String) As IEnumerator
+  overload: Global.MediaPlayerCtrl.DownloadStreamingVideoAndLoad*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MediaPlayerCtrl.DownloadStreamingVideoAndLoad2(System.String)
+  commentId: M:Global.MediaPlayerCtrl.DownloadStreamingVideoAndLoad2(System.String)
+  id: DownloadStreamingVideoAndLoad2(System.String)
+  parent: Global.MediaPlayerCtrl
+  langs:
+  - csharp
+  - vb
+  name: DownloadStreamingVideoAndLoad2(String)
+  nameWithType: MediaPlayerCtrl.DownloadStreamingVideoAndLoad2(String)
+  fullName: MediaPlayerCtrl.DownloadStreamingVideoAndLoad2(System.String)
+  type: Method
+  source:
+    id: DownloadStreamingVideoAndLoad2
+    path: ''
+    startLine: 8169
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public IEnumerator DownloadStreamingVideoAndLoad2(string strURL)
+    parameters:
+    - id: strURL
+      type: System.String
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Function DownloadStreamingVideoAndLoad2(strURL As String) As IEnumerator
+  overload: Global.MediaPlayerCtrl.DownloadStreamingVideoAndLoad2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.GameObject[]
+  isExternal: true
+  name: GameObject[]
+  nameWithType: GameObject[]
+  fullName: GameObject[]
+  nameWithType.vb: GameObject()
+  fullName.vb: GameObject()
+  name.vb: GameObject()
+  spec.csharp:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.MediaPlayerCtrl.VideoResize
+  commentId: T:Global.MediaPlayerCtrl.VideoResize
+  name: MediaPlayerCtrl.VideoResize
+  nameWithType: MediaPlayerCtrl.VideoResize
+  fullName: MediaPlayerCtrl.VideoResize
+- uid: Global.MediaPlayerCtrl.VideoReady
+  commentId: T:Global.MediaPlayerCtrl.VideoReady
+  name: MediaPlayerCtrl.VideoReady
+  nameWithType: MediaPlayerCtrl.VideoReady
+  fullName: MediaPlayerCtrl.VideoReady
+- uid: Global.MediaPlayerCtrl.VideoEnd
+  commentId: T:Global.MediaPlayerCtrl.VideoEnd
+  name: MediaPlayerCtrl.VideoEnd
+  nameWithType: MediaPlayerCtrl.VideoEnd
+  fullName: MediaPlayerCtrl.VideoEnd
+- uid: Global.MediaPlayerCtrl.VideoError
+  commentId: T:Global.MediaPlayerCtrl.VideoError
+  name: MediaPlayerCtrl.VideoError
+  nameWithType: MediaPlayerCtrl.VideoError
+  fullName: MediaPlayerCtrl.VideoError
+- uid: Global.MediaPlayerCtrl.VideoFirstFrameReady
+  commentId: T:Global.MediaPlayerCtrl.VideoFirstFrameReady
+  name: MediaPlayerCtrl.VideoFirstFrameReady
+  nameWithType: MediaPlayerCtrl.VideoFirstFrameReady
+  fullName: MediaPlayerCtrl.VideoFirstFrameReady
+- uid: Global.MediaPlayerCtrl.VideoBuffering
+  commentId: T:Global.MediaPlayerCtrl.VideoBuffering
+  name: MediaPlayerCtrl.VideoBuffering
+  nameWithType: MediaPlayerCtrl.VideoBuffering
+  fullName: MediaPlayerCtrl.VideoBuffering
+- uid: Global.Shader
+  commentId: '!:Global.Shader'
+  isExternal: true
+  name: Shader
+  nameWithType: Shader
+  fullName: Shader
+- uid: Global.MediaPlayerCtrl.MEDIA_SCALE
+  commentId: T:Global.MediaPlayerCtrl.MEDIA_SCALE
+  name: MediaPlayerCtrl.MEDIA_SCALE
+  nameWithType: MediaPlayerCtrl.MEDIA_SCALE
+  fullName: MediaPlayerCtrl.MEDIA_SCALE
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Global.MediaPlayerCtrl.DeleteVideoTexture*
+  commentId: Overload:Global.MediaPlayerCtrl.DeleteVideoTexture
+  name: DeleteVideoTexture
+  nameWithType: MediaPlayerCtrl.DeleteVideoTexture
+  fullName: MediaPlayerCtrl.DeleteVideoTexture
+- uid: Global.MediaPlayerCtrl.ResizeTexture*
+  commentId: Overload:Global.MediaPlayerCtrl.ResizeTexture
+  name: ResizeTexture
+  nameWithType: MediaPlayerCtrl.ResizeTexture
+  fullName: MediaPlayerCtrl.ResizeTexture
+- uid: Global.MediaPlayerCtrl.Resize*
+  commentId: Overload:Global.MediaPlayerCtrl.Resize
+  name: Resize
+  nameWithType: MediaPlayerCtrl.Resize
+  fullName: MediaPlayerCtrl.Resize
+- uid: Global.MediaPlayerCtrl.GetCurrentState*
+  commentId: Overload:Global.MediaPlayerCtrl.GetCurrentState
+  name: GetCurrentState
+  nameWithType: MediaPlayerCtrl.GetCurrentState
+  fullName: MediaPlayerCtrl.GetCurrentState
+- uid: Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  commentId: T:Global.MediaPlayerCtrl.MEDIAPLAYER_STATE
+  name: MediaPlayerCtrl.MEDIAPLAYER_STATE
+  nameWithType: MediaPlayerCtrl.MEDIAPLAYER_STATE
+  fullName: MediaPlayerCtrl.MEDIAPLAYER_STATE
+- uid: Global.MediaPlayerCtrl.GetVideoTexture*
+  commentId: Overload:Global.MediaPlayerCtrl.GetVideoTexture
+  name: GetVideoTexture
+  nameWithType: MediaPlayerCtrl.GetVideoTexture
+  fullName: MediaPlayerCtrl.GetVideoTexture
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: Global.MediaPlayerCtrl.Play*
+  commentId: Overload:Global.MediaPlayerCtrl.Play
+  name: Play
+  nameWithType: MediaPlayerCtrl.Play
+  fullName: MediaPlayerCtrl.Play
+- uid: Global.MediaPlayerCtrl.Stop*
+  commentId: Overload:Global.MediaPlayerCtrl.Stop
+  name: Stop
+  nameWithType: MediaPlayerCtrl.Stop
+  fullName: MediaPlayerCtrl.Stop
+- uid: Global.MediaPlayerCtrl.Pause*
+  commentId: Overload:Global.MediaPlayerCtrl.Pause
+  name: Pause
+  nameWithType: MediaPlayerCtrl.Pause
+  fullName: MediaPlayerCtrl.Pause
+- uid: Global.MediaPlayerCtrl.Load*
+  commentId: Overload:Global.MediaPlayerCtrl.Load
+  name: Load
+  nameWithType: MediaPlayerCtrl.Load
+  fullName: MediaPlayerCtrl.Load
+- uid: Global.MediaPlayerCtrl.SetVolume*
+  commentId: Overload:Global.MediaPlayerCtrl.SetVolume
+  name: SetVolume
+  nameWithType: MediaPlayerCtrl.SetVolume
+  fullName: MediaPlayerCtrl.SetVolume
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.MediaPlayerCtrl.GetSeekPosition*
+  commentId: Overload:Global.MediaPlayerCtrl.GetSeekPosition
+  name: GetSeekPosition
+  nameWithType: MediaPlayerCtrl.GetSeekPosition
+  fullName: MediaPlayerCtrl.GetSeekPosition
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.MediaPlayerCtrl.SeekTo*
+  commentId: Overload:Global.MediaPlayerCtrl.SeekTo
+  name: SeekTo
+  nameWithType: MediaPlayerCtrl.SeekTo
+  fullName: MediaPlayerCtrl.SeekTo
+- uid: Global.MediaPlayerCtrl.SetSpeed*
+  commentId: Overload:Global.MediaPlayerCtrl.SetSpeed
+  name: SetSpeed
+  nameWithType: MediaPlayerCtrl.SetSpeed
+  fullName: MediaPlayerCtrl.SetSpeed
+- uid: Global.MediaPlayerCtrl.GetDuration*
+  commentId: Overload:Global.MediaPlayerCtrl.GetDuration
+  name: GetDuration
+  nameWithType: MediaPlayerCtrl.GetDuration
+  fullName: MediaPlayerCtrl.GetDuration
+- uid: Global.MediaPlayerCtrl.GetSeekBarValue*
+  commentId: Overload:Global.MediaPlayerCtrl.GetSeekBarValue
+  name: GetSeekBarValue
+  nameWithType: MediaPlayerCtrl.GetSeekBarValue
+  fullName: MediaPlayerCtrl.GetSeekBarValue
+- uid: Global.MediaPlayerCtrl.SetSeekBarValue*
+  commentId: Overload:Global.MediaPlayerCtrl.SetSeekBarValue
+  name: SetSeekBarValue
+  nameWithType: MediaPlayerCtrl.SetSeekBarValue
+  fullName: MediaPlayerCtrl.SetSeekBarValue
+- uid: Global.MediaPlayerCtrl.GetCurrentSeekPercent*
+  commentId: Overload:Global.MediaPlayerCtrl.GetCurrentSeekPercent
+  name: GetCurrentSeekPercent
+  nameWithType: MediaPlayerCtrl.GetCurrentSeekPercent
+  fullName: MediaPlayerCtrl.GetCurrentSeekPercent
+- uid: Global.MediaPlayerCtrl.GetVideoWidth*
+  commentId: Overload:Global.MediaPlayerCtrl.GetVideoWidth
+  name: GetVideoWidth
+  nameWithType: MediaPlayerCtrl.GetVideoWidth
+  fullName: MediaPlayerCtrl.GetVideoWidth
+- uid: Global.MediaPlayerCtrl.GetVideoHeight*
+  commentId: Overload:Global.MediaPlayerCtrl.GetVideoHeight
+  name: GetVideoHeight
+  nameWithType: MediaPlayerCtrl.GetVideoHeight
+  fullName: MediaPlayerCtrl.GetVideoHeight
+- uid: Global.MediaPlayerCtrl.UnLoad*
+  commentId: Overload:Global.MediaPlayerCtrl.UnLoad
+  name: UnLoad
+  nameWithType: MediaPlayerCtrl.UnLoad
+  fullName: MediaPlayerCtrl.UnLoad
+- uid: Global.MediaPlayerCtrl.SelectSoundTrack*
+  commentId: Overload:Global.MediaPlayerCtrl.SelectSoundTrack
+  name: SelectSoundTrack
+  nameWithType: MediaPlayerCtrl.SelectSoundTrack
+  fullName: MediaPlayerCtrl.SelectSoundTrack
+- uid: Global.MediaPlayerCtrl.GetSoundTrack*
+  commentId: Overload:Global.MediaPlayerCtrl.GetSoundTrack
+  name: GetSoundTrack
+  nameWithType: MediaPlayerCtrl.GetSoundTrack
+  fullName: MediaPlayerCtrl.GetSoundTrack
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.MediaPlayerCtrl.DownloadStreamingVideoAndLoad*
+  commentId: Overload:Global.MediaPlayerCtrl.DownloadStreamingVideoAndLoad
+  name: DownloadStreamingVideoAndLoad
+  nameWithType: MediaPlayerCtrl.DownloadStreamingVideoAndLoad
+  fullName: MediaPlayerCtrl.DownloadStreamingVideoAndLoad
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Global.MediaPlayerCtrl.DownloadStreamingVideoAndLoad2*
+  commentId: Overload:Global.MediaPlayerCtrl.DownloadStreamingVideoAndLoad2
+  name: DownloadStreamingVideoAndLoad2
+  nameWithType: MediaPlayerCtrl.DownloadStreamingVideoAndLoad2
+  fullName: MediaPlayerCtrl.DownloadStreamingVideoAndLoad2

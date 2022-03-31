@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Behaviour_SendFriendRequestList
+  commentId: T:Global.Behaviour_SendFriendRequestList
+  id: Behaviour_SendFriendRequestList
+  parent: Global
+  children:
+  - Global.Behaviour_SendFriendRequestList.AddSendFriendRequest(Interface_SocialNetwork,FriendsInfo)
+  - Global.Behaviour_SendFriendRequestList.Clear
+  langs:
+  - csharp
+  - vb
+  name: Behaviour_SendFriendRequestList
+  nameWithType: Behaviour_SendFriendRequestList
+  fullName: Behaviour_SendFriendRequestList
+  type: Class
+  source:
+    id: Behaviour_SendFriendRequestList
+    path: ''
+    startLine: 15290
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Behaviour_SendFriendRequestList : MonoBehaviour'
+    content.vb: >-
+      Public Class Behaviour_SendFriendRequestList
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Behaviour_SendFriendRequestList.AddSendFriendRequest(Interface_SocialNetwork,FriendsInfo)
+  commentId: M:Global.Behaviour_SendFriendRequestList.AddSendFriendRequest(Interface_SocialNetwork,FriendsInfo)
+  id: AddSendFriendRequest(Interface_SocialNetwork,FriendsInfo)
+  parent: Global.Behaviour_SendFriendRequestList
+  langs:
+  - csharp
+  - vb
+  name: AddSendFriendRequest(Interface_SocialNetwork, FriendsInfo)
+  nameWithType: Behaviour_SendFriendRequestList.AddSendFriendRequest(Interface_SocialNetwork, FriendsInfo)
+  fullName: Behaviour_SendFriendRequestList.AddSendFriendRequest(Interface_SocialNetwork, FriendsInfo)
+  type: Method
+  source:
+    id: AddSendFriendRequest
+    path: ''
+    startLine: 15300
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AddSendFriendRequest(Interface_SocialNetwork socialNetwork, FriendsInfo friendInfo)
+    parameters:
+    - id: socialNetwork
+      type: Global.Interface_SocialNetwork
+    - id: friendInfo
+      type: Global.FriendsInfo
+    content.vb: Public Sub AddSendFriendRequest(socialNetwork As Interface_SocialNetwork, friendInfo As FriendsInfo)
+  overload: Global.Behaviour_SendFriendRequestList.AddSendFriendRequest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Behaviour_SendFriendRequestList.Clear
+  commentId: M:Global.Behaviour_SendFriendRequestList.Clear
+  id: Clear
+  parent: Global.Behaviour_SendFriendRequestList
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: Behaviour_SendFriendRequestList.Clear()
+  fullName: Behaviour_SendFriendRequestList.Clear()
+  type: Method
+  source:
+    id: Clear
+    path: ''
+    startLine: 15309
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: Global.Behaviour_SendFriendRequestList.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Behaviour_SendFriendRequestList.AddSendFriendRequest*
+  commentId: Overload:Global.Behaviour_SendFriendRequestList.AddSendFriendRequest
+  name: AddSendFriendRequest
+  nameWithType: Behaviour_SendFriendRequestList.AddSendFriendRequest
+  fullName: Behaviour_SendFriendRequestList.AddSendFriendRequest
+- uid: Global.Interface_SocialNetwork
+  commentId: T:Global.Interface_SocialNetwork
+  name: Interface_SocialNetwork
+  nameWithType: Interface_SocialNetwork
+  fullName: Interface_SocialNetwork
+- uid: Global.FriendsInfo
+  commentId: T:Global.FriendsInfo
+  name: FriendsInfo
+  nameWithType: FriendsInfo
+  fullName: FriendsInfo
+- uid: Global.Behaviour_SendFriendRequestList.Clear*
+  commentId: Overload:Global.Behaviour_SendFriendRequestList.Clear
+  name: Clear
+  nameWithType: Behaviour_SendFriendRequestList.Clear
+  fullName: Behaviour_SendFriendRequestList.Clear
